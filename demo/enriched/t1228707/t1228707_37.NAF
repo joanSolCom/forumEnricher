@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:34:13+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:34:13.963+0100" endTimestamp="2017-11-21T16:34:14.342+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:34:14.345+0100" endTimestamp="2017-11-21T16:34:14.346+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[The pedestal that the jews have created for the filthy negro to occupy.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">The</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="8">pedestal</wf>
+    <wf id="w3" sent="1" para="1" offset="13" length="4">that</wf>
+    <wf id="w4" sent="1" para="1" offset="18" length="3">the</wf>
+    <wf id="w5" sent="1" para="1" offset="22" length="4">jews</wf>
+    <wf id="w6" sent="1" para="1" offset="27" length="4">have</wf>
+    <wf id="w7" sent="1" para="1" offset="32" length="7">created</wf>
+    <wf id="w8" sent="1" para="1" offset="40" length="3">for</wf>
+    <wf id="w9" sent="1" para="1" offset="44" length="3">the</wf>
+    <wf id="w10" sent="1" para="1" offset="48" length="6">filthy</wf>
+    <wf id="w11" sent="1" para="1" offset="55" length="5">negro</wf>
+    <wf id="w12" sent="1" para="1" offset="61" length="2">to</wf>
+    <wf id="w13" sent="1" para="1" offset="64" length="6">occupy</wf>
+    <wf id="w14" sent="1" para="1" offset="70" length="1">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term id="t1" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--pedestal-->
+    <term id="t2" type="open" lemma="pedestal" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t3" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--jews-->
+    <term id="t5" type="open" lemma="jew" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t6" type="open" lemma="have" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--created-->
+    <term id="t7" type="open" lemma="create" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t8" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t9" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--filthy-->
+    <term id="t10" type="open" lemma="filthy" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--negro-->
+    <term id="t11" type="open" lemma="negro" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t12" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--occupy-->
+    <term id="t13" type="open" lemma="occupy" pos="V" morphofeat="VB">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t14" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(pedestal-2, The-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--APPO(have-6, pedestal-2)-->
+    <dep from="t6" to="t2" rfunc="APPO" />
+    <!--OBJ(created-7, that-3)-->
+    <dep from="t7" to="t3" rfunc="OBJ" />
+    <!--NMOD(jews-5, the-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--SBJ(have-6, jews-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--VC(have-6, created-7)-->
+    <dep from="t6" to="t7" rfunc="VC" />
+    <!--ADV(created-7, for-8)-->
+    <dep from="t7" to="t8" rfunc="ADV" />
+    <!--NMOD(negro-11, the-9)-->
+    <dep from="t11" to="t9" rfunc="NMOD" />
+    <!--NMOD(negro-11, filthy-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--PMOD(for-8, negro-11)-->
+    <dep from="t8" to="t11" rfunc="PMOD" />
+    <!--NMOD(negro-11, to-12)-->
+    <dep from="t11" to="t12" rfunc="NMOD" />
+    <!--IM(to-12, occupy-13)-->
+    <dep from="t12" to="t13" rfunc="IM" />
+    <!--P(have-6, .-14)-->
+    <dep from="t6" to="t14" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--pedestal-->
+        <span>
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Pedestal" confidence="0.9999995" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--jews-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999998" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--negro-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Negro" confidence="0.9955282" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/English_articles" confidence="0.9486026533617475" spotted="true">
+      <!--The-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Creation_myth" confidence="0.6332414214709896" spotted="true">
+      <!--created-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Pedestal" confidence="0.9999995201160218" spotted="true">
+      <!--pedestal-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999998083307459" spotted="true">
+      <!--jews-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Negro" confidence="0.9955282139843964" spotted="true">
+      <!--negro-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t5 jews : [t4 the]-->
+    <predicate id="f_pr3" source="semafor" confidence="40.8956547538044">
+      <!--jews-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999998" />
+        <externalRef resource="FrameBase" reference="frame-People_by_religion-jew.n" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--the jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 created : A0[t4 the] AM-PNC[t8 for] A0[t3 that]-->
+    <predicate id="f_pr4" source="semafor" confidence="64.22856858905755">
+      <!--created-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_create" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Creation_myth" confidence="0.6332414" />
+        <externalRef resource="PropBank" reference="create.01" source="mate" />
+        <externalRef resource="VerbNet" reference="create-26.4" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01621555-v" />
+        <externalRef resource="WordNet" reference="ili-30-01640207-v" />
+        <externalRef resource="WordNet" reference="ili-30-01617192-v" />
+        <externalRef resource="WordNet" reference="ili-30-01753788-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Creation_myth" confidence="0.6332414" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_create-create.v" />
+      </externalReferences>
+      <role id="rl6" semRole="A0">
+        <!--the jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_create@Created_entity" />
+          <externalRef resource="VerbNet" reference="create-26.4@Agent" />
+          <externalRef resource="PropBank" reference="create.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_create-Created_entity" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="AM-PNC">
+        <!--for the filthy negro to occupy-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_create@Purpose" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_create-Purpose" />
+        </externalReferences>
+      </role>
+      <role id="rl8" semRole="A0">
+        <!--that-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="create-26.4@Agent" />
+          <externalRef resource="PropBank" reference="create.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 occupy : A0[t4 the]-->
+    <predicate id="f_pr5" source="semafor" confidence="38.35385115914477">
+      <!--occupy-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Residence" />
+        <externalRef resource="PropBank" reference="occupy.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Residence-stay.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--the jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="occupy.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (DT The) (NN pedestal) (SBAR (IN that) (S (NP (DT the) (NNS jews)) (VP (VBP have) (VP (VBN created) (PP (IN for) (NP (DT the) (JJ filthy) (NN negro))) (S (VP (TO to) (VP (VB occupy)))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="DT" />
+      <nt id="nter4" label="NN" />
+      <nt id="nter5" label="SBAR" />
+      <nt id="nter6" label="IN" />
+      <nt id="nter7" label="S" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="NNS" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VBP" />
+      <nt id="nter13" label="VP" />
+      <nt id="nter14" label="VBN" />
+      <nt id="nter15" label="PP" />
+      <nt id="nter16" label="IN" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="DT" />
+      <nt id="nter19" label="JJ" />
+      <nt id="nter20" label="NN" />
+      <nt id="nter21" label="S" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="TO" />
+      <nt id="nter24" label="VP" />
+      <nt id="nter25" label="VB" />
+      <nt id="nter26" label="." />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--pedestal-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--jews-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--created-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--filthy-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--negro-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--occupy-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" head="yes" />
+      <edge id="tre6" from="ter2" to="nter4" />
+      <edge id="tre7" from="nter5" to="nter2" />
+      <edge id="tre8" from="nter6" to="nter5" head="yes" />
+      <edge id="tre9" from="ter3" to="nter6" />
+      <edge id="tre10" from="nter7" to="nter5" />
+      <edge id="tre11" from="nter8" to="nter7" />
+      <edge id="tre12" from="nter9" to="nter8" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter7" head="yes" />
+      <edge id="tre17" from="nter12" to="nter11" head="yes" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter11" />
+      <edge id="tre20" from="nter14" to="nter13" head="yes" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter13" />
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="ter8" to="nter16" />
+      <edge id="tre25" from="nter17" to="nter15" />
+      <edge id="tre26" from="nter18" to="nter17" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter17" />
+      <edge id="tre29" from="ter10" to="nter19" />
+      <edge id="tre30" from="nter20" to="nter17" head="yes" />
+      <edge id="tre31" from="ter11" to="nter20" />
+      <edge id="tre32" from="nter21" to="nter13" />
+      <edge id="tre33" from="nter22" to="nter21" head="yes" />
+      <edge id="tre34" from="nter23" to="nter22" head="yes" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter22" />
+      <edge id="tre37" from="nter25" to="nter24" head="yes" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter2" />
+      <edge id="tre40" from="ter14" to="nter26" />
+    </tree>
+  </constituency>
+</NAF>

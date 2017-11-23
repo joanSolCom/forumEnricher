@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:28:47+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:28:47.841+0100" endTimestamp="2017-11-20T12:28:48.862+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:28:48.868+0100" endTimestamp="2017-11-20T12:28:48.869+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Guilt and anger at their own stupidity (which of course will be blamed on outside factors which in turn infuriates them even more) is not the same thing, not by a long shot. Jews and narcissists do not feel guilt. At all. Ever.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="5">Guilt</wf>
+    <wf id="w2" sent="1" para="1" offset="6" length="3">and</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="5">anger</wf>
+    <wf id="w4" sent="1" para="1" offset="16" length="2">at</wf>
+    <wf id="w5" sent="1" para="1" offset="19" length="5">their</wf>
+    <wf id="w6" sent="1" para="1" offset="25" length="3">own</wf>
+    <wf id="w7" sent="1" para="1" offset="29" length="9">stupidity</wf>
+    <wf id="w8" sent="1" para="1" offset="39" length="1">(</wf>
+    <wf id="w9" sent="1" para="1" offset="40" length="5">which</wf>
+    <wf id="w10" sent="1" para="1" offset="46" length="2">of</wf>
+    <wf id="w11" sent="1" para="1" offset="49" length="6">course</wf>
+    <wf id="w12" sent="1" para="1" offset="56" length="4">will</wf>
+    <wf id="w13" sent="1" para="1" offset="61" length="2">be</wf>
+    <wf id="w14" sent="1" para="1" offset="64" length="6">blamed</wf>
+    <wf id="w15" sent="1" para="1" offset="71" length="2">on</wf>
+    <wf id="w16" sent="1" para="1" offset="74" length="7">outside</wf>
+    <wf id="w17" sent="1" para="1" offset="82" length="7">factors</wf>
+    <wf id="w18" sent="1" para="1" offset="90" length="5">which</wf>
+    <wf id="w19" sent="1" para="1" offset="96" length="2">in</wf>
+    <wf id="w20" sent="1" para="1" offset="99" length="4">turn</wf>
+    <wf id="w21" sent="1" para="1" offset="104" length="10">infuriates</wf>
+    <wf id="w22" sent="1" para="1" offset="115" length="4">them</wf>
+    <wf id="w23" sent="1" para="1" offset="120" length="4">even</wf>
+    <wf id="w24" sent="1" para="1" offset="125" length="4">more</wf>
+    <wf id="w25" sent="1" para="1" offset="129" length="1">)</wf>
+    <wf id="w26" sent="1" para="1" offset="131" length="2">is</wf>
+    <wf id="w27" sent="1" para="1" offset="134" length="3">not</wf>
+    <wf id="w28" sent="1" para="1" offset="138" length="3">the</wf>
+    <wf id="w29" sent="1" para="1" offset="142" length="4">same</wf>
+    <wf id="w30" sent="1" para="1" offset="147" length="5">thing</wf>
+    <wf id="w31" sent="1" para="1" offset="152" length="1">,</wf>
+    <wf id="w32" sent="1" para="1" offset="154" length="3">not</wf>
+    <wf id="w33" sent="1" para="1" offset="158" length="2">by</wf>
+    <wf id="w34" sent="1" para="1" offset="161" length="1">a</wf>
+    <wf id="w35" sent="1" para="1" offset="163" length="4">long</wf>
+    <wf id="w36" sent="1" para="1" offset="168" length="4">shot</wf>
+    <wf id="w37" sent="1" para="1" offset="172" length="1">.</wf>
+    <wf id="w38" sent="2" para="1" offset="174" length="4">Jews</wf>
+    <wf id="w39" sent="2" para="1" offset="179" length="3">and</wf>
+    <wf id="w40" sent="2" para="1" offset="183" length="11">narcissists</wf>
+    <wf id="w41" sent="2" para="1" offset="195" length="2">do</wf>
+    <wf id="w42" sent="2" para="1" offset="198" length="3">not</wf>
+    <wf id="w43" sent="2" para="1" offset="202" length="4">feel</wf>
+    <wf id="w44" sent="2" para="1" offset="207" length="5">guilt</wf>
+    <wf id="w45" sent="2" para="1" offset="212" length="1">.</wf>
+    <wf id="w46" sent="3" para="1" offset="214" length="2">At</wf>
+    <wf id="w47" sent="3" para="1" offset="217" length="3">all</wf>
+    <wf id="w48" sent="3" para="1" offset="220" length="1">.</wf>
+    <wf id="w49" sent="4" para="1" offset="222" length="4">Ever</wf>
+    <wf id="w50" sent="4" para="1" offset="226" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Guilt-->
+    <term id="t1" type="open" lemma="guilt" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t2" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--anger-->
+    <term id="t3" type="open" lemma="anger" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t4" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t5" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--own-->
+    <term id="t6" type="open" lemma="own" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--stupidity-->
+    <term id="t7" type="open" lemma="stupidity" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t8" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--which-->
+    <term id="t9" type="open" lemma="which" pos="O" morphofeat="WDT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t10" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--course-->
+    <term id="t11" type="open" lemma="course" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--will-->
+    <term id="t12" type="open" lemma="will" pos="O" morphofeat="MD">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t13" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--blamed-->
+    <term id="t14" type="open" lemma="blame" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t15" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--outside-->
+    <term id="t16" type="open" lemma="outside" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--factors-->
+    <term id="t17" type="open" lemma="factor" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--which-->
+    <term id="t18" type="open" lemma="which" pos="O" morphofeat="WDT">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t19" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--turn-->
+    <term id="t20" type="open" lemma="turn" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--infuriates-->
+    <term id="t21" type="open" lemma="infuriate" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t22" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--even-->
+    <term id="t23" type="open" lemma="even" pos="A" morphofeat="RB">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--more-->
+    <term id="t24" type="open" lemma="more" pos="A" morphofeat="RBR">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t25" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t26" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t27" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t28" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--same-->
+    <term id="t29" type="open" lemma="same" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--thing-->
+    <term id="t30" type="open" lemma="thing" pos="N" morphofeat="NN">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t31" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t32" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t33" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t34" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--long-->
+    <term id="t35" type="open" lemma="long" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--shot-->
+    <term id="t36" type="open" lemma="shot" pos="N" morphofeat="NN">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t37" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t38" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t39" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--narcissists-->
+    <term id="t40" type="open" lemma="narcissist" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--do-->
+    <term id="t41" type="open" lemma="do" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t42" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--feel-->
+    <term id="t43" type="open" lemma="feel" pos="V" morphofeat="VB">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--guilt-->
+    <term id="t44" type="open" lemma="guilt" pos="N" morphofeat="NN">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t45" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--At-->
+    <term id="t46" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t47" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t48" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--Ever-->
+    <term id="t49" type="open" lemma="ever" pos="A" morphofeat="RB">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t50" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(is-26, Guilt-1)-->
+    <dep from="t26" to="t1" rfunc="SBJ" />
+    <!--COORD(Guilt-1, and-2)-->
+    <dep from="t1" to="t2" rfunc="COORD" />
+    <!--CONJ(and-2, anger-3)-->
+    <dep from="t2" to="t3" rfunc="CONJ" />
+    <!--NMOD(Guilt-1, at-4)-->
+    <dep from="t1" to="t4" rfunc="NMOD" />
+    <!--NMOD(stupidity-7, their-5)-->
+    <dep from="t7" to="t5" rfunc="NMOD" />
+    <!--NMOD(stupidity-7, own-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--PMOD(at-4, stupidity-7)-->
+    <dep from="t4" to="t7" rfunc="PMOD" />
+    <!--P(stupidity-7, (-8)-->
+    <dep from="t7" to="t8" rfunc="P" />
+    <!--SBJ(will-12, which-9)-->
+    <dep from="t12" to="t9" rfunc="SBJ" />
+    <!--ADV(will-12, of-10)-->
+    <dep from="t12" to="t10" rfunc="ADV" />
+    <!--PMOD(of-10, course-11)-->
+    <dep from="t10" to="t11" rfunc="PMOD" />
+    <!--NMOD(stupidity-7, will-12)-->
+    <dep from="t7" to="t12" rfunc="NMOD" />
+    <!--VC(will-12, be-13)-->
+    <dep from="t12" to="t13" rfunc="VC" />
+    <!--VC(be-13, blamed-14)-->
+    <dep from="t13" to="t14" rfunc="VC" />
+    <!--ADV(blamed-14, on-15)-->
+    <dep from="t14" to="t15" rfunc="ADV" />
+    <!--NMOD(factors-17, outside-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--PMOD(on-15, factors-17)-->
+    <dep from="t15" to="t17" rfunc="PMOD" />
+    <!--SBJ(infuriates-21, which-18)-->
+    <dep from="t21" to="t18" rfunc="SBJ" />
+    <!--ADV(infuriates-21, in-19)-->
+    <dep from="t21" to="t19" rfunc="ADV" />
+    <!--PMOD(in-19, turn-20)-->
+    <dep from="t19" to="t20" rfunc="PMOD" />
+    <!--NMOD(stupidity-7, infuriates-21)-->
+    <dep from="t7" to="t21" rfunc="NMOD" />
+    <!--OBJ(infuriates-21, them-22)-->
+    <dep from="t21" to="t22" rfunc="OBJ" />
+    <!--ADV(infuriates-21, even-23)-->
+    <dep from="t21" to="t23" rfunc="ADV" />
+    <!--AMOD(even-23, more-24)-->
+    <dep from="t23" to="t24" rfunc="AMOD" />
+    <!--P(stupidity-7, )-25)-->
+    <dep from="t7" to="t25" rfunc="P" />
+    <!--NMOD(thing-30, not-27)-->
+    <dep from="t30" to="t27" rfunc="NMOD" />
+    <!--NMOD(thing-30, the-28)-->
+    <dep from="t30" to="t28" rfunc="NMOD" />
+    <!--NMOD(thing-30, same-29)-->
+    <dep from="t30" to="t29" rfunc="NMOD" />
+    <!--OBJ(is-26, thing-30)-->
+    <dep from="t26" to="t30" rfunc="OBJ" />
+    <!--P(is-26, ,-31)-->
+    <dep from="t26" to="t31" rfunc="P" />
+    <!--PRP(is-26, not-32)-->
+    <dep from="t26" to="t32" rfunc="PRP" />
+    <!--COORD(not-32, by-33)-->
+    <dep from="t32" to="t33" rfunc="COORD" />
+    <!--NMOD(shot-36, a-34)-->
+    <dep from="t36" to="t34" rfunc="NMOD" />
+    <!--NMOD(shot-36, long-35)-->
+    <dep from="t36" to="t35" rfunc="NMOD" />
+    <!--PMOD(by-33, shot-36)-->
+    <dep from="t33" to="t36" rfunc="PMOD" />
+    <!--P(is-26, .-37)-->
+    <dep from="t26" to="t37" rfunc="P" />
+    <!--SBJ(do-41, Jews-38)-->
+    <dep from="t41" to="t38" rfunc="SBJ" />
+    <!--COORD(Jews-38, and-39)-->
+    <dep from="t38" to="t39" rfunc="COORD" />
+    <!--CONJ(and-39, narcissists-40)-->
+    <dep from="t39" to="t40" rfunc="CONJ" />
+    <!--ADV(do-41, not-42)-->
+    <dep from="t41" to="t42" rfunc="ADV" />
+    <!--VC(do-41, feel-43)-->
+    <dep from="t41" to="t43" rfunc="VC" />
+    <!--PRD(feel-43, guilt-44)-->
+    <dep from="t43" to="t44" rfunc="PRD" />
+    <!--P(do-41, .-45)-->
+    <dep from="t41" to="t45" rfunc="P" />
+    <!--PMOD(At-46, all-47)-->
+    <dep from="t46" to="t47" rfunc="PMOD" />
+    <!--P(At-46, .-48)-->
+    <dep from="t46" to="t48" rfunc="P" />
+    <!--P(Ever-49, .-50)-->
+    <dep from="t49" to="t50" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t38" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99823534" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--long shot-->
+        <span>
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Long_shot" confidence="0.86443585" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--anger-->
+        <span>
+          <target id="t3" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Anger" confidence="0.99999994" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--stupidity-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Stupidity" confidence="0.90870696" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--Guilt-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--course-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--factors-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--turn-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11" unnamed="yes">
+      <references>
+        <!--thing-->
+        <span>
+          <target id="t30" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e12" unnamed="yes">
+      <references>
+        <!--narcissists-->
+        <span>
+          <target id="t40" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e13" unnamed="yes">
+      <references>
+        <!--guilt-->
+        <span>
+          <target id="t44" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--their-->
+      <span>
+        <target id="t5" head="yes" />
+      </span>
+      <!--them-->
+      <span>
+        <target id="t22" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Guilt_(emotion)" confidence="0.9999999999519673" spotted="true">
+      <!--Guilt-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Libido" confidence="0.956328901651964" spotted="true">
+      <!--factors-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Glossary_of_professional_wrestling_terms" confidence="0.9760179404216801" spotted="true">
+      <!--turn-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Long_shot" confidence="0.8644358682672554" spotted="true">
+      <!--long shot-->
+      <span>
+        <target id="w35" />
+        <target id="w36" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Astatine" confidence="0.945216665120478" spotted="true">
+      <!--At-->
+      <span>
+        <target id="w46" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Narcissism" confidence="0.9995561952594606" spotted="true">
+      <!--narcissists-->
+      <span>
+        <target id="w40" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Anger" confidence="0.9999999552147482" spotted="true">
+      <!--anger-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Stupidity" confidence="0.9087069392233301" spotted="true">
+      <!--stupidity-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9982353253161512" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w38" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/List_of_Brotherhood_of_Mutants_members" confidence="0.6166298291201976" spotted="true">
+      <!--Ever-->
+      <span>
+        <target id="w49" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t26 is : A1[t1 Guilt] A2[t33 by] A2[t27 not]-->
+    <predicate id="pr5" source="mate">
+      <!--is-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl13" semRole="A1">
+        <!--Guilt and anger at their own stupidity ( which of course will be blamed on outside factors which in turn infuriates them even more )-->
+        <span>
+          <target id="t1" head="yes" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+      </role>
+      <role id="rl14" semRole="A2">
+        <!--by a long shot-->
+        <span>
+          <target id="t33" head="yes" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+      </role>
+      <role id="rl15" semRole="A2">
+        <!--not the same thing-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 Guilt :-->
+    <predicate id="f_pr7" source="semafor" confidence="63.59382992312528">
+      <!--Guilt-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Emotion_directed" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Guilt_(emotion)" confidence="1.0" />
+      </externalReferences>
+    </predicate>
+    <!--t3 anger : A1[t4 at]-->
+    <predicate id="f_pr8" source="semafor" confidence="65.90309950517361">
+      <!--anger-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Emotion_directed" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Anger" confidence="0.99999994" />
+        <externalRef resource="NomBank" reference="anger.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="PropBank" reference="anger.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01785971-v" />
+        <externalRef resource="WordNet" reference="ili-30-01787106-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Anger" confidence="0.99999994" />
+        <externalRef resource="FrameBase" reference="frame-Emotion_directed-anger.n" />
+      </externalReferences>
+      <role id="rl45" semRole="A1">
+        <!--at their own stupidity ( which of course will be blamed on outside factors which in turn infuriates them even more )-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Experiencer" />
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="anger.01@1" />
+          <externalRef resource="PropBank" reference="anger.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 own : [t5 their] [t5 their]-->
+    <predicate id="f_pr9" source="semafor" confidence="39.54009411727073">
+      <!--own-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--their own stupidity ( which of course will be blamed on outside factors which in turn infuriates them even more )-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="">
+        <!--their-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 blamed : A1[t15 on] R-A1[t9 which] A1[t10 of] AM-MOD[t9 which]-->
+    <predicate id="f_pr10" source="semafor" confidence="51.63246265369386">
+      <!--blamed-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Judgment" />
+        <externalRef resource="PropBank" reference="blame.01" source="mate" />
+        <externalRef resource="VerbNet" reference="judgment-33" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Judgment-blame.v" />
+      </externalReferences>
+      <role id="rl19" semRole="A1">
+        <!--on outside factors-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Judgment@Evaluee" />
+          <externalRef resource="VerbNet" reference="judgment-33@Theme" />
+          <externalRef resource="VerbNet" reference="judgment-33@Attribute" />
+          <externalRef resource="PropBank" reference="blame.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Judgment-Evaluee" />
+        </externalReferences>
+      </role>
+      <role id="rl34" semRole="R-A1">
+        <!--which-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+      <role id="rl35" semRole="A1">
+        <!--of course-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="judgment-33@Theme" />
+          <externalRef resource="VerbNet" reference="judgment-33@Attribute" />
+          <externalRef resource="PropBank" reference="blame.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl36" semRole="AM-MOD">
+        <!--which of course will be blamed on outside factors-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 outside : [t16 outside]-->
+    <predicate id="f_pr11" source="semafor" confidence="20.04000053008594">
+      <!--outside-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_inner_outer" />
+        <externalRef resource="FrameBase" reference="frame-Part_inner_outer-outside.a" />
+      </externalReferences>
+      <role id="rl20" semRole="">
+        <!--outside factors-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_inner_outer@Part" />
+          <externalRef resource="FrameBase" reference="fe-Part_inner_outer-Part" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 factors : A1[t16 outside] A2[t16 outside]-->
+    <predicate id="f_pr12" source="semafor" confidence="24.30164786366849">
+      <!--factors-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Contingency" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Libido" confidence="0.9563289" />
+        <externalRef resource="NomBank" reference="factor.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Libido" confidence="0.9563289" />
+        <externalRef resource="FrameBase" reference="frame-Contingency-factor.n" />
+      </externalReferences>
+      <role id="rl37" semRole="A1">
+        <!--outside-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </role>
+      <role id="rl38" semRole="A2">
+        <!--outside factors-->
+        <span>
+          <target id="t16" />
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t20 turn : [t20 turn]-->
+    <predicate id="f_pr13" source="semafor" confidence="26.09562441370927">
+      <!--turn-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_subregion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Glossary_of_professional_wrestling_terms" confidence="0.97601795" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_subregion-turn.n" />
+      </externalReferences>
+      <role id="rl21" semRole="">
+        <!--turn-->
+        <span>
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Temporal_subregion@Sub_part" />
+          <externalRef resource="FrameBase" reference="fe-Temporal_subregion-Sub_part" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t21 infuriates : R-A0[t18 which] A1[t22 them] A0[t5 their] AM-MNR[t23 even] AM-DIS[t19 in]-->
+    <predicate id="f_pr14" source="semafor" confidence="61.722141011026466">
+      <!--infuriates-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Emotion_directed" />
+        <externalRef resource="PropBank" reference="infuriate.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01786906-v" />
+      </externalReferences>
+      <role id="rl22" semRole="R-A0">
+        <!--which-->
+        <span>
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Emotion_directed@Experiencer" />
+          <externalRef resource="FrameBase" reference="fe-Emotion_directed-Experiencer" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="A1">
+        <!--them-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Emotion_directed@Stimulus" />
+          <externalRef resource="VerbNet" reference="amuse-31.1@Experiencer" />
+          <externalRef resource="PropBank" reference="infuriate.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Emotion_directed-Stimulus" />
+        </externalReferences>
+      </role>
+      <role id="rl39" semRole="A0">
+        <!--their own stupidity ( which of course will be blamed on outside factors which in turn infuriates them even more )-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" head="yes" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="infuriate.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl40" semRole="AM-MNR">
+        <!--even more-->
+        <span>
+          <target id="t23" head="yes" />
+          <target id="t24" />
+        </span>
+      </role>
+      <role id="rl41" semRole="AM-DIS">
+        <!--in turn-->
+        <span>
+          <target id="t19" head="yes" />
+          <target id="t20" />
+        </span>
+      </role>
+    </predicate>
+    <!--t24 more : [t24 more]-->
+    <predicate id="f_pr15" source="semafor" confidence="21.58799662781806">
+      <!--more-->
+      <span>
+        <target id="t24" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+      </externalReferences>
+      <role id="rl24" semRole="">
+        <!--more-->
+        <span>
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Added_set" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Added_set" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 same : [t27 not]-->
+    <predicate id="f_pr16" source="semafor" confidence="22.21248440609942">
+      <!--same-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Identicality" />
+        <externalRef resource="FrameBase" reference="frame-Identicality-same.a" />
+      </externalReferences>
+      <role id="rl25" semRole="">
+        <!--not the same thing-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Identicality@Type" />
+          <externalRef resource="FrameBase" reference="fe-Identicality-Type" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t35 long : [t34 a]-->
+    <predicate id="f_pr17" source="semafor" confidence="9.02397135904809">
+      <!--long-->
+      <span>
+        <target id="t35" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Duration_attribute" />
+        <externalRef resource="FrameBase" reference="frame-Duration_attribute-long.a" />
+      </externalReferences>
+      <role id="rl26" semRole="">
+        <!--a long shot-->
+        <span>
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Duration_attribute@Period" />
+          <externalRef resource="FrameBase" reference="fe-Duration_attribute-Period" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t36 shot : AM-TMP[t35 long]-->
+    <predicate id="f_pr18" source="semafor" confidence="55.35864430390914">
+      <!--shot-->
+      <span>
+        <target id="t36" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Behind_the_scenes" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Long_shot" confidence="0.86443585" />
+        <externalRef resource="NomBank" reference="shot.03" source="mate" />
+        <externalRef resource="VerbNet" reference="fill-9.8" />
+        <externalRef resource="PropBank" reference="inject.01" />
+        <externalRef resource="ESO" reference="Placing" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-00086320-v" />
+        <externalRef resource="WordNet" reference="ili-30-01195201-v" />
+        <externalRef resource="WordNet" reference="ili-30-01199213-v" />
+        <externalRef resource="WordNet" reference="ili-30-01585523-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Long_shot" confidence="0.86443585" />
+      </externalReferences>
+      <role id="rl33" semRole="AM-TMP">
+        <!--long-->
+        <span>
+          <target id="t35" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t38 Jews : [t38 Jews]-->
+    <predicate id="f_pr20" source="semafor" confidence="36.227443447855876">
+      <!--Jews-->
+      <span>
+        <target id="t38" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99823534" />
+      </externalReferences>
+      <role id="rl30" semRole="">
+        <!--Jews and narcissists-->
+        <span>
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t41 do : [t38 Jews]-->
+    <predicate id="f_pr21" source="semafor" confidence="62.8448541480687">
+      <!--do-->
+      <span>
+        <target id="t41" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl31" semRole="">
+        <!--Jews and narcissists-->
+        <span>
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t43 feel : AM-NEG[t42 not] A0[t38 Jews] A1[t44 guilt]-->
+    <predicate id="f_pr22" source="semafor" confidence="12.071264864506139">
+      <!--feel-->
+      <span>
+        <target id="t43" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Feeling" />
+        <externalRef resource="PropBank" reference="feel.01" source="mate" />
+        <externalRef resource="VerbNet" reference="see-30.1-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00105958-v" />
+        <externalRef resource="WordNet" reference="ili-30-00715239-v" />
+        <externalRef resource="WordNet" reference="ili-30-01209678-v" />
+        <externalRef resource="WordNet" reference="ili-30-02106006-v" />
+        <externalRef resource="FrameBase" reference="frame-Feeling-feel.v" />
+      </externalReferences>
+      <role id="rl42" semRole="AM-NEG">
+        <!--not-->
+        <span>
+          <target id="t42" head="yes" />
+        </span>
+      </role>
+      <role id="rl43" semRole="A0">
+        <!--Jews and narcissists-->
+        <span>
+          <target id="t38" head="yes" />
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="see-30.1@Experiencer" />
+          <externalRef resource="PropBank" reference="feel.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl44" semRole="A1">
+        <!--guilt-->
+        <span>
+          <target id="t44" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="see-30.1@Stimulus" />
+          <externalRef resource="PropBank" reference="feel.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t44 guilt :-->
+    <predicate id="f_pr23" source="semafor" confidence="60.72801134412041">
+      <!--guilt-->
+      <span>
+        <target id="t44" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Emotion_directed" />
+      </externalReferences>
+    </predicate>
+    <!--t47 all : [t47 all]-->
+    <predicate id="f_pr24" source="semafor" confidence="21.933555153171458">
+      <!--all-->
+      <span>
+        <target id="t47" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl32" semRole="">
+        <!--all-->
+        <span>
+          <target id="t47" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t30 thing :-->
+    <predicate id="pr25">
+      <!--thing-->
+      <span>
+        <target id="t30" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="thing.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NP (NP (NN Guilt) (CC and) (NN anger)) (PP (IN at) (NP (PRP$ their) (JJ own) (NN stupidity)))) (PRN (-LRB- -LRB-) (SBAR (WHNP (WDT which)) (S (PP (IN of) (NP (NN course))) (VP (MD will) (VP (VB be) (VP (VBN blamed) (PP (IN on) (NP (NP (JJ outside) (NNS factors)) (SBAR (WHNP (WDT which)) (S (PP (IN in) (NP (NN turn))) (VP (VBZ infuriates) (S (NP (PRP them)) (ADJP (RB even) (RBR more))))))))))))) (-RRB- -RRB-))) (VP (VBZ is) (RB not) (NP (DT the) (JJ same) (NN thing)) (, ,) (FRAG (RB not) (PP (IN by) (NP (DT a) (JJ long) (NN shot))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (NP (NNPS Jews)) (CC and) (NP (NNS narcissists))) (VP (VBP do) (RB not) (VP (VB feel) (NP (NN guilt)))) (. .)))</tree>
+    <tree sentence="3">(ROOT (FRAG (ADVP (IN At) (DT all)) (. .)))</tree>
+    <tree sentence="4">(ROOT (FRAG (ADVP (RB Ever)) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="NN" />
+      <nt id="nter7" label="CC" />
+      <nt id="nter8" label="NN" />
+      <nt id="nter9" label="PP" />
+      <nt id="nter10" label="IN" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="PRP$" />
+      <nt id="nter13" label="JJ" />
+      <nt id="nter14" label="NN" />
+      <nt id="nter15" label="PRN" />
+      <nt id="nter16" label="-LRB-" />
+      <nt id="nter17" label="SBAR" />
+      <nt id="nter18" label="WHNP" />
+      <nt id="nter19" label="WDT" />
+      <nt id="nter20" label="S" />
+      <nt id="nter21" label="PP" />
+      <nt id="nter22" label="IN" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="NN" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="MD" />
+      <nt id="nter27" label="VP" />
+      <nt id="nter28" label="VB" />
+      <nt id="nter29" label="VP" />
+      <nt id="nter30" label="VBN" />
+      <nt id="nter31" label="PP" />
+      <nt id="nter32" label="IN" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="JJ" />
+      <nt id="nter36" label="NNS" />
+      <nt id="nter37" label="SBAR" />
+      <nt id="nter38" label="WHNP" />
+      <nt id="nter39" label="WDT" />
+      <nt id="nter40" label="S" />
+      <nt id="nter41" label="PP" />
+      <nt id="nter42" label="IN" />
+      <nt id="nter43" label="NP" />
+      <nt id="nter44" label="NN" />
+      <nt id="nter45" label="VP" />
+      <nt id="nter46" label="VBZ" />
+      <nt id="nter47" label="S" />
+      <nt id="nter48" label="NP" />
+      <nt id="nter49" label="PRP" />
+      <nt id="nter50" label="ADJP" />
+      <nt id="nter51" label="RB" />
+      <nt id="nter52" label="RBR" />
+      <nt id="nter53" label="-RRB-" />
+      <nt id="nter54" label="VP" />
+      <nt id="nter55" label="VBZ" />
+      <nt id="nter56" label="RB" />
+      <nt id="nter57" label="NP" />
+      <nt id="nter58" label="DT" />
+      <nt id="nter59" label="JJ" />
+      <nt id="nter60" label="NN" />
+      <nt id="nter61" label="," />
+      <nt id="nter62" label="FRAG" />
+      <nt id="nter63" label="RB" />
+      <nt id="nter64" label="PP" />
+      <nt id="nter65" label="IN" />
+      <nt id="nter66" label="NP" />
+      <nt id="nter67" label="DT" />
+      <nt id="nter68" label="JJ" />
+      <nt id="nter69" label="NN" />
+      <nt id="nter70" label="." />
+      <!--Terminals-->
+      <!--Guilt-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--anger-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--own-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--stupidity-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--which-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--course-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--will-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--blamed-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--outside-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--factors-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--which-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--turn-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--infuriates-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--even-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--more-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--same-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--thing-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--long-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--shot-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="nter6" to="nter5" head="yes" />
+      <edge id="tre7" from="ter1" to="nter6" />
+      <edge id="tre8" from="nter7" to="nter5" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter5" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter4" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter11" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter11" head="yes" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter3" />
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="ter8" to="nter16" />
+      <edge id="tre25" from="nter17" to="nter15" />
+      <edge id="tre26" from="nter18" to="nter17" head="yes" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter17" />
+      <edge id="tre30" from="nter21" to="nter20" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter21" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter20" head="yes" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter25" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="nter30" to="nter29" head="yes" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter29" />
+      <edge id="tre46" from="nter32" to="nter31" head="yes" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter31" />
+      <edge id="tre49" from="nter34" to="nter33" head="yes" />
+      <edge id="tre50" from="nter35" to="nter34" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter34" head="yes" />
+      <edge id="tre53" from="ter17" to="nter36" />
+      <edge id="tre54" from="nter37" to="nter33" />
+      <edge id="tre55" from="nter38" to="nter37" head="yes" />
+      <edge id="tre56" from="nter39" to="nter38" head="yes" />
+      <edge id="tre57" from="ter18" to="nter39" />
+      <edge id="tre58" from="nter40" to="nter37" />
+      <edge id="tre59" from="nter41" to="nter40" />
+      <edge id="tre60" from="nter42" to="nter41" head="yes" />
+      <edge id="tre61" from="ter19" to="nter42" />
+      <edge id="tre62" from="nter43" to="nter41" />
+      <edge id="tre63" from="nter44" to="nter43" head="yes" />
+      <edge id="tre64" from="ter20" to="nter44" />
+      <edge id="tre65" from="nter45" to="nter40" head="yes" />
+      <edge id="tre66" from="nter46" to="nter45" head="yes" />
+      <edge id="tre67" from="ter21" to="nter46" />
+      <edge id="tre68" from="nter47" to="nter45" />
+      <edge id="tre69" from="nter48" to="nter47" />
+      <edge id="tre70" from="nter49" to="nter48" head="yes" />
+      <edge id="tre71" from="ter22" to="nter49" />
+      <edge id="tre72" from="nter50" to="nter47" head="yes" />
+      <edge id="tre73" from="nter51" to="nter50" />
+      <edge id="tre74" from="ter23" to="nter51" />
+      <edge id="tre75" from="nter52" to="nter50" head="yes" />
+      <edge id="tre76" from="ter24" to="nter52" />
+      <edge id="tre77" from="nter53" to="nter15" />
+      <edge id="tre78" from="ter25" to="nter53" />
+      <edge id="tre79" from="nter54" to="nter2" head="yes" />
+      <edge id="tre80" from="nter55" to="nter54" head="yes" />
+      <edge id="tre81" from="ter26" to="nter55" />
+      <edge id="tre82" from="nter56" to="nter54" />
+      <edge id="tre83" from="ter27" to="nter56" />
+      <edge id="tre84" from="nter57" to="nter54" />
+      <edge id="tre85" from="nter58" to="nter57" />
+      <edge id="tre86" from="ter28" to="nter58" />
+      <edge id="tre87" from="nter59" to="nter57" />
+      <edge id="tre88" from="ter29" to="nter59" />
+      <edge id="tre89" from="nter60" to="nter57" head="yes" />
+      <edge id="tre90" from="ter30" to="nter60" />
+      <edge id="tre91" from="nter61" to="nter54" />
+      <edge id="tre92" from="ter31" to="nter61" />
+      <edge id="tre93" from="nter62" to="nter54" />
+      <edge id="tre94" from="nter63" to="nter62" />
+      <edge id="tre95" from="ter32" to="nter63" />
+      <edge id="tre96" from="nter64" to="nter62" head="yes" />
+      <edge id="tre97" from="nter65" to="nter64" head="yes" />
+      <edge id="tre98" from="ter33" to="nter65" />
+      <edge id="tre99" from="nter66" to="nter64" />
+      <edge id="tre100" from="nter67" to="nter66" />
+      <edge id="tre101" from="ter34" to="nter67" />
+      <edge id="tre102" from="nter68" to="nter66" />
+      <edge id="tre103" from="ter35" to="nter68" />
+      <edge id="tre104" from="nter69" to="nter66" head="yes" />
+      <edge id="tre105" from="ter36" to="nter69" />
+      <edge id="tre106" from="nter70" to="nter2" />
+      <edge id="tre107" from="ter37" to="nter70" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter71" label="ROOT" />
+      <nt id="nter72" label="S" />
+      <nt id="nter73" label="NP" />
+      <nt id="nter74" label="NP" />
+      <nt id="nter75" label="NNPS" />
+      <nt id="nter76" label="CC" />
+      <nt id="nter77" label="NP" />
+      <nt id="nter78" label="NNS" />
+      <nt id="nter79" label="VP" />
+      <nt id="nter80" label="VBP" />
+      <nt id="nter81" label="RB" />
+      <nt id="nter82" label="VP" />
+      <nt id="nter83" label="VB" />
+      <nt id="nter84" label="NP" />
+      <nt id="nter85" label="NN" />
+      <nt id="nter86" label="." />
+      <!--Terminals-->
+      <!--Jews-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--narcissists-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--do-->
+      <t id="ter41">
+        <span>
+          <target id="t41" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter42">
+        <span>
+          <target id="t42" />
+        </span>
+      </t>
+      <!--feel-->
+      <t id="ter43">
+        <span>
+          <target id="t43" />
+        </span>
+      </t>
+      <!--guilt-->
+      <t id="ter44">
+        <span>
+          <target id="t44" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter45">
+        <span>
+          <target id="t45" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre109" from="nter72" to="nter71" head="yes" />
+      <edge id="tre110" from="nter73" to="nter72" />
+      <edge id="tre111" from="nter74" to="nter73" head="yes" />
+      <edge id="tre112" from="nter75" to="nter74" head="yes" />
+      <edge id="tre113" from="ter38" to="nter75" />
+      <edge id="tre114" from="nter76" to="nter73" />
+      <edge id="tre115" from="ter39" to="nter76" />
+      <edge id="tre116" from="nter77" to="nter73" />
+      <edge id="tre117" from="nter78" to="nter77" head="yes" />
+      <edge id="tre118" from="ter40" to="nter78" />
+      <edge id="tre119" from="nter79" to="nter72" head="yes" />
+      <edge id="tre120" from="nter80" to="nter79" head="yes" />
+      <edge id="tre121" from="ter41" to="nter80" />
+      <edge id="tre122" from="nter81" to="nter79" />
+      <edge id="tre123" from="ter42" to="nter81" />
+      <edge id="tre124" from="nter82" to="nter79" />
+      <edge id="tre125" from="nter83" to="nter82" head="yes" />
+      <edge id="tre126" from="ter43" to="nter83" />
+      <edge id="tre127" from="nter84" to="nter82" />
+      <edge id="tre128" from="nter85" to="nter84" head="yes" />
+      <edge id="tre129" from="ter44" to="nter85" />
+      <edge id="tre130" from="nter86" to="nter72" />
+      <edge id="tre131" from="ter45" to="nter86" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter87" label="ROOT" />
+      <nt id="nter88" label="FRAG" />
+      <nt id="nter89" label="ADVP" />
+      <nt id="nter90" label="IN" />
+      <nt id="nter91" label="DT" />
+      <nt id="nter92" label="." />
+      <!--Terminals-->
+      <!--At-->
+      <t id="ter46">
+        <span>
+          <target id="t46" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter47">
+        <span>
+          <target id="t47" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter48">
+        <span>
+          <target id="t48" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre133" from="nter88" to="nter87" head="yes" />
+      <edge id="tre134" from="nter89" to="nter88" />
+      <edge id="tre135" from="nter90" to="nter89" head="yes" />
+      <edge id="tre136" from="ter46" to="nter90" />
+      <edge id="tre137" from="nter91" to="nter89" />
+      <edge id="tre138" from="ter47" to="nter91" />
+      <edge id="tre139" from="nter92" to="nter88" head="yes" />
+      <edge id="tre140" from="ter48" to="nter92" />
+    </tree>
+    <tree sentence="4">
+      <!--Non-terminals-->
+      <nt id="nter93" label="ROOT" />
+      <nt id="nter94" label="FRAG" />
+      <nt id="nter95" label="ADVP" />
+      <nt id="nter96" label="RB" />
+      <nt id="nter97" label="." />
+      <!--Terminals-->
+      <!--Ever-->
+      <t id="ter49">
+        <span>
+          <target id="t49" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter50">
+        <span>
+          <target id="t50" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre142" from="nter94" to="nter93" head="yes" />
+      <edge id="tre143" from="nter95" to="nter94" />
+      <edge id="tre144" from="nter96" to="nter95" head="yes" />
+      <edge id="tre145" from="ter49" to="nter96" />
+      <edge id="tre146" from="nter97" to="nter94" head="yes" />
+      <edge id="tre147" from="ter50" to="nter97" />
+    </tree>
+  </constituency>
+</NAF>

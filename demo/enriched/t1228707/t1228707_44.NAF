@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:34:26+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:34:26.886+0100" endTimestamp="2017-11-21T16:34:27.237+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:34:27.240+0100" endTimestamp="2017-11-21T16:34:27.240+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[The events that led up to world war I.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">The</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="6">events</wf>
+    <wf id="w3" sent="1" para="1" offset="11" length="4">that</wf>
+    <wf id="w4" sent="1" para="1" offset="16" length="3">led</wf>
+    <wf id="w5" sent="1" para="1" offset="20" length="2">up</wf>
+    <wf id="w6" sent="1" para="1" offset="23" length="2">to</wf>
+    <wf id="w7" sent="1" para="1" offset="26" length="5">world</wf>
+    <wf id="w8" sent="1" para="1" offset="32" length="3">war</wf>
+    <wf id="w9" sent="1" para="1" offset="36" length="2">I.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term id="t1" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--events-->
+    <term id="t2" type="open" lemma="event" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t3" type="open" lemma="that" pos="O" morphofeat="WDT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--led-->
+    <term id="t4" type="open" lemma="lead" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--up-->
+    <term id="t5" type="open" lemma="up" pos="O" morphofeat="RP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t6" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--world-->
+    <term id="t7" type="open" lemma="world" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--war-->
+    <term id="t8" type="open" lemma="war" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--I.-->
+    <term id="t9" type="open" lemma="i." pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(events-2, The-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--SBJ(led-4, that-3)-->
+    <dep from="t4" to="t3" rfunc="SBJ" />
+    <!--NMOD(events-2, led-4)-->
+    <dep from="t2" to="t4" rfunc="NMOD" />
+    <!--PRT(led-4, up-5)-->
+    <dep from="t4" to="t5" rfunc="PRT" />
+    <!--ADV(led-4, to-6)-->
+    <dep from="t4" to="t6" rfunc="ADV" />
+    <!--NMOD(I.-9, world-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--NMOD(I.-9, war-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--PMOD(to-6, I.-9)-->
+    <dep from="t6" to="t9" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--events-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--world-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--war-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--I.-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/English_articles" confidence="0.9660759884309638" spotted="true">
+      <!--The-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Light-emitting_diode" confidence="0.9496963178203848" spotted="true">
+      <!--led-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Spacetime" confidence="0.2697112156514241" spotted="true">
+      <!--events-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t9 I. : A1[t8 war] AM-LOC[t7 world]-->
+    <predicate id="pr2" source="mate">
+      <!--I.-->
+      <span>
+        <target id="t9" />
+      </span>
+      <role id="rl4" semRole="A1">
+        <!--war-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl5" semRole="AM-LOC">
+        <!--world-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t2 events : [t1 The]-->
+    <predicate id="f_pr4" source="semafor" confidence="40.580993381392844">
+      <!--events-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Event" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Spacetime" confidence="0.26971123" />
+        <externalRef resource="FrameBase" reference="frame-Event-event.n" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--The events that led up to world war I.-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Event@Event" />
+          <externalRef resource="FrameBase" reference="fe-Event-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 led : A0[t1 The] A2[t6 to] R-A0[t3 that]-->
+    <predicate id="f_pr5" source="semafor" confidence="83.36139863789762">
+      <!--led-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Causation" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Light-emitting_diode" confidence="0.9496963" />
+        <externalRef resource="PropBank" reference="lead.03" source="mate" />
+        <externalRef resource="VerbNet" reference="force-59" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00771632-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Light-emitting_diode" confidence="0.9496963" />
+      </externalReferences>
+      <role id="rl8" semRole="A0">
+        <!--The events that led up to world war I.-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Causation@Cause" />
+          <externalRef resource="VerbNet" reference="force-59@Agent" />
+          <externalRef resource="PropBank" reference="lead.03@0" />
+          <externalRef resource="FrameBase" reference="fe-Causation-Cause" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="A2">
+        <!--to world war I.-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Causation@Effect" />
+          <externalRef resource="VerbNet" reference="force-59@Result" />
+          <externalRef resource="PropBank" reference="lead.03@2" />
+          <externalRef resource="FrameBase" reference="fe-Causation-Effect" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="R-A0">
+        <!--that-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 world : [t7 world]-->
+    <predicate id="f_pr6" source="semafor" confidence="43.77196448071581">
+      <!--world-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Political_locales" />
+        <externalRef resource="FrameBase" reference="frame-Political_locales-world.n" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--world-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Political_locales@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Political_locales-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 war :-->
+    <predicate id="f_pr7" source="semafor" confidence="89.79900828177976">
+      <!--war-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Hostile_encounter" />
+        <externalRef resource="FrameBase" reference="frame-Hostile_encounter-war.n" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (NP (NP (DT The) (NNS events)) (SBAR (WHNP (WDT that)) (S (VP (VBD led) (PRT (RP up)) (PP (TO to) (NP (NN world) (NN war) (NN I.)))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="DT" />
+      <nt id="nter6" label="NNS" />
+      <nt id="nter7" label="SBAR" />
+      <nt id="nter8" label="WHNP" />
+      <nt id="nter9" label="WDT" />
+      <nt id="nter10" label="S" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VBD" />
+      <nt id="nter13" label="PRT" />
+      <nt id="nter14" label="RP" />
+      <nt id="nter15" label="PP" />
+      <nt id="nter16" label="TO" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="NN" />
+      <nt id="nter19" label="NN" />
+      <nt id="nter20" label="NN" />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--events-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--led-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--up-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--world-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--war-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--I.-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter4" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter3" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter7" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="ter4" to="nter12" />
+      <edge id="tre17" from="nter13" to="nter11" />
+      <edge id="tre18" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter11" />
+      <edge id="tre21" from="nter16" to="nter15" head="yes" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter15" />
+      <edge id="tre24" from="nter18" to="nter17" />
+      <edge id="tre25" from="ter7" to="nter18" />
+      <edge id="tre26" from="nter19" to="nter17" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter17" head="yes" />
+      <edge id="tre29" from="ter9" to="nter20" />
+    </tree>
+  </constituency>
+</NAF>

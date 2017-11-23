@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:35:51+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:35:51.605+0100" endTimestamp="2017-11-21T16:35:51.922+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:35:51.958+0100" endTimestamp="2017-11-21T16:35:51.958+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Sorry, but it's because Jesus was Jewish.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="5">Sorry</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="3">but</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="2">it</wf>
+    <wf id="w5" sent="1" para="1" offset="13" length="2">'s</wf>
+    <wf id="w6" sent="1" para="1" offset="16" length="7">because</wf>
+    <wf id="w7" sent="1" para="1" offset="24" length="5">Jesus</wf>
+    <wf id="w8" sent="1" para="1" offset="30" length="3">was</wf>
+    <wf id="w9" sent="1" para="1" offset="34" length="6">Jewish</wf>
+    <wf id="w10" sent="1" para="1" offset="40" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sorry-->
+    <term id="t1" type="open" lemma="sorry" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--but-->
+    <term id="t3" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t4" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--'s-->
+    <term id="t5" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--because-->
+    <term id="t6" type="open" lemma="because" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Jesus-->
+    <term id="t7" type="open" lemma="Jesus" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t8" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Jewish-->
+    <term id="t9" type="open" lemma="jewish" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Sorry-1, ,-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--COORD(Sorry-1, but-3)-->
+    <dep from="t1" to="t3" rfunc="COORD" />
+    <!--SBJ('s-5, it-4)-->
+    <dep from="t5" to="t4" rfunc="SBJ" />
+    <!--CONJ(but-3, 's-5)-->
+    <dep from="t3" to="t5" rfunc="CONJ" />
+    <!--PRD('s-5, because-6)-->
+    <dep from="t5" to="t6" rfunc="PRD" />
+    <!--SBJ(was-8, Jesus-7)-->
+    <dep from="t8" to="t7" rfunc="SBJ" />
+    <!--SUB(because-6, was-8)-->
+    <dep from="t6" to="t8" rfunc="SUB" />
+    <!--PRD(was-8, Jewish-9)-->
+    <dep from="t8" to="t9" rfunc="PRD" />
+    <!--P(Sorry-1, .-10)-->
+    <dep from="t1" to="t10" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Jesus-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--Jewish-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9737925" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sorry_(Madonna_song)" confidence="0.7279179523679258" spotted="true">
+      <!--Sorry-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9737924761213282" spotted="true">
+      <!--Jewish-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jesus" confidence="0.9998915368825096" spotted="true">
+      <!--Jesus-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t5 's : A2[t6 because] A1[t4 it]-->
+    <predicate id="pr1" source="mate">
+      <!--'s-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A2">
+        <!--because Jesus was Jewish-->
+        <span>
+          <target id="t6" head="yes" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A1">
+        <!--it-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 was : A2[t9 Jewish] A1[t7 Jesus]-->
+    <predicate id="pr2" source="mate">
+      <!--was-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl3" semRole="A2">
+        <!--Jewish-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A1">
+        <!--Jesus-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 Sorry : [t1 Sorry]-->
+    <predicate id="f_pr3" source="semafor" confidence="28.03889898385753">
+      <!--Sorry-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Contrition" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sorry_(Madonna_song)" confidence="0.72791797" />
+        <externalRef resource="FrameBase" reference="frame-Contrition-sorry.a" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--Sorry , but it 's because Jesus was Jewish .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Contrition@Action" />
+          <externalRef resource="FrameBase" reference="fe-Contrition-Action" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (ADJP (JJ Sorry))) (, ,) (S (CC but) (NP (PRP it)) (VP (VBZ 's) (SBAR (IN because) (S (NP (NNP Jesus)) (VP (VBD was) (ADJP (JJ Jewish))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="ADJP" />
+      <nt id="nter5" label="JJ" />
+      <nt id="nter6" label="," />
+      <nt id="nter7" label="S" />
+      <nt id="nter8" label="CC" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="PRP" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VBZ" />
+      <nt id="nter13" label="SBAR" />
+      <nt id="nter14" label="IN" />
+      <nt id="nter15" label="S" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="NNP" />
+      <nt id="nter18" label="VP" />
+      <nt id="nter19" label="VBD" />
+      <nt id="nter20" label="ADJP" />
+      <nt id="nter21" label="JJ" />
+      <nt id="nter22" label="." />
+      <!--Terminals-->
+      <!--Sorry-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--but-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--'s-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--because-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Jesus-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Jewish-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter2" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter2" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter7" head="yes" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter11" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter15" head="yes" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter18" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter2" />
+      <edge id="tre32" from="ter10" to="nter22" />
+    </tree>
+  </constituency>
+</NAF>

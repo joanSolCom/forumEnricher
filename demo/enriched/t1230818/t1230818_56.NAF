@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:21+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:21.932+0100" endTimestamp="2017-11-21T16:40:22.232+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:22.233+0100" endTimestamp="2017-11-21T16:40:22.234+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Just think of the children! They always revert, you know.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Just</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="5">think</wf>
+    <wf id="w3" sent="1" para="1" offset="11" length="2">of</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="3">the</wf>
+    <wf id="w5" sent="1" para="1" offset="18" length="8">children</wf>
+    <wf id="w6" sent="1" para="1" offset="26" length="1">!</wf>
+    <wf id="w7" sent="2" para="1" offset="28" length="4">They</wf>
+    <wf id="w8" sent="2" para="1" offset="33" length="6">always</wf>
+    <wf id="w9" sent="2" para="1" offset="40" length="6">revert</wf>
+    <wf id="w10" sent="2" para="1" offset="46" length="1">,</wf>
+    <wf id="w11" sent="2" para="1" offset="48" length="3">you</wf>
+    <wf id="w12" sent="2" para="1" offset="52" length="4">know</wf>
+    <wf id="w13" sent="2" para="1" offset="56" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Just-->
+    <term id="t1" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--think-->
+    <term id="t2" type="open" lemma="think" pos="V" morphofeat="VB">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t3" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--children-->
+    <term id="t5" type="open" lemma="child" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--!-->
+    <term id="t6" type="open" lemma="!" pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--They-->
+    <term id="t7" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--always-->
+    <term id="t8" type="open" lemma="always" pos="A" morphofeat="RB">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--revert-->
+    <term id="t9" type="open" lemma="revert" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t10" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t11" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--know-->
+    <term id="t12" type="open" lemma="know" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t13" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(think-2, Just-1)-->
+    <dep from="t2" to="t1" rfunc="ADV" />
+    <!--ADV(think-2, of-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--NMOD(children-5, the-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--PMOD(of-3, children-5)-->
+    <dep from="t3" to="t5" rfunc="PMOD" />
+    <!--P(think-2, !-6)-->
+    <dep from="t2" to="t6" rfunc="P" />
+    <!--SBJ(revert-9, They-7)-->
+    <dep from="t9" to="t7" rfunc="SBJ" />
+    <!--TMP(revert-9, always-8)-->
+    <dep from="t9" to="t8" rfunc="TMP" />
+    <!--DEP(know-12, revert-9)-->
+    <dep from="t12" to="t9" rfunc="DEP" />
+    <!--P(know-12, ,-10)-->
+    <dep from="t12" to="t10" rfunc="P" />
+    <!--SBJ(know-12, you-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--P(know-12, .-13)-->
+    <dep from="t12" to="t13" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--children-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--They-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Justice" confidence="0.8436896374048659" spotted="true">
+      <!--Just-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reversion_(software_development)" confidence="0.5987568927428739" spotted="true">
+      <!--revert-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Immortal_(professional_wrestling)" confidence="0.2905031686909522" spotted="true">
+      <!--They-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 think : [t3 of] AM-ADV[t1 Just]-->
+    <predicate id="f_pr2" source="semafor" confidence="37.743191079235785">
+      <!--think-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Opinion" />
+        <externalRef resource="PropBank" reference="think.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Opinion-think.v" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--of the children-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Cognizer" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl3" semRole="AM-ADV">
+        <!--Just-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Opinion" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Opinion" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 children : [t4 the]-->
+    <predicate id="f_pr3" source="semafor" confidence="40.902009276162694">
+      <!--children-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_age" />
+        <externalRef resource="FrameBase" reference="frame-People_by_age-child.n" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--the children-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_age@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_age-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 revert : A1[t7 They] AM-TMP[t8 always]-->
+    <predicate id="pr4" source="mate">
+      <!--revert-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="revert.01" source="mate" />
+        <externalRef resource="VerbNet" reference="convert-26.6.2" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-00387310-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reversion_(software_development)" confidence="0.5987569" />
+      </externalReferences>
+      <role id="rl5" semRole="A1">
+        <!--They-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="convert-26.6.2@Patient" />
+          <externalRef resource="PropBank" reference="revert.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl6" semRole="AM-TMP">
+        <!--always-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 always : [t7 They]-->
+    <predicate id="f_pr6" source="semafor" confidence="48.71491955797032">
+      <!--always-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-always.adv" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--They-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 know : A0[t11 you]-->
+    <predicate id="f_pr7" source="semafor" confidence="81.7316785214096">
+      <!--know-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="know.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (ADVP (RB Just)) (VP (VB think) (PP (IN of) (NP (DT the) (NNS children)))) (. !)))</tree>
+    <tree sentence="2">(ROOT (S (S (NP (PRP They)) (ADVP (RB always)) (VP (VBP revert))) (, ,) (NP (PRP you)) (VP (VBP know)) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="ADVP" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VB" />
+      <nt id="nter7" label="PP" />
+      <nt id="nter8" label="IN" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="DT" />
+      <nt id="nter11" label="NNS" />
+      <nt id="nter12" label="." />
+      <!--Terminals-->
+      <!--Just-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--think-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--children-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--!-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter2" />
+      <edge id="tre18" from="ter6" to="nter12" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter13" label="ROOT" />
+      <nt id="nter14" label="S" />
+      <nt id="nter15" label="S" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="PRP" />
+      <nt id="nter18" label="ADVP" />
+      <nt id="nter19" label="RB" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VBP" />
+      <nt id="nter22" label="," />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="PRP" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VBP" />
+      <nt id="nter27" label="." />
+      <!--Terminals-->
+      <!--They-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--always-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--revert-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--know-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre20" from="nter14" to="nter13" head="yes" />
+      <edge id="tre21" from="nter15" to="nter14" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter15" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter15" head="yes" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter14" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter14" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter14" head="yes" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter14" />
+      <edge id="tre40" from="ter13" to="nter27" />
+    </tree>
+  </constituency>
+</NAF>

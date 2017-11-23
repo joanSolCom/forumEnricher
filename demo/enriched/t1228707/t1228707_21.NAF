@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:36+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:36.928+0100" endTimestamp="2017-11-21T16:33:37.254+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:37.258+0100" endTimestamp="2017-11-21T16:33:37.259+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Brown v Board of Education]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="5">Brown</wf>
+    <wf id="w2" sent="1" para="1" offset="6" length="1">v</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="5">Board</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="2">of</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="9">Education</wf>
+  </text>
+  <terms>
+    <!--Brown-->
+    <term id="t1" type="open" lemma="brown" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--v-->
+    <term id="t2" type="open" lemma="v" pos="O" morphofeat="LS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Board-->
+    <term id="t3" type="open" lemma="Board" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t4" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Education-->
+    <term id="t5" type="open" lemma="Education" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(Board-3, Brown-1)-->
+    <dep from="t3" to="t1" rfunc="NMOD" />
+    <!--NMOD(Board-3, v-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--NMOD(Board-3, of-4)-->
+    <dep from="t3" to="t4" rfunc="NMOD" />
+    <!--PMOD(of-4, Education-5)-->
+    <dep from="t4" to="t5" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1" type="ORGANIZATION">
+      <references>
+        <!--Brown-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Brown_University" confidence="0.8957271" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="ORGANIZATION">
+      <references>
+        <!--Board of Education-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Board_of_directors" confidence="0.98013854" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Brown_University" confidence="0.8957271085219354" spotted="true">
+      <!--Brown-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Education" confidence="0.994560539013039" spotted="true">
+      <!--Education-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Board_of_directors" confidence="0.980138546336412" spotted="true">
+      <!--Board-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Brown :-->
+    <predicate id="f_pr2" source="semafor" confidence="69.72584102383964">
+      <!--Brown-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Apply_heat" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Brown_University" confidence="0.8957271" />
+      </externalReferences>
+    </predicate>
+    <!--t3 Board : A1[t4 of]-->
+    <predicate id="f_pr3" source="semafor" confidence="47.14952290284243">
+      <!--Board-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Board_vehicle" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Board_of_directors" confidence="0.98013854" />
+        <externalRef resource="NomBank" reference="Board.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Board_of_directors" confidence="0.98013854" />
+      </externalReferences>
+      <role id="rl2" semRole="A1">
+        <!--of Education-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 Education :-->
+    <predicate id="f_pr4" source="semafor" confidence="137.47477264738336">
+      <!--Education-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Education_teaching" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Education" confidence="0.99456054" />
+        <externalRef resource="FrameBase" reference="frame-Education_teaching-coach.v" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (JJ Brown) (LS v)) (NP (NP (NNP Board)) (PP (IN of) (NP (NNP Education))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label="LS" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NNP" />
+      <nt id="nter9" label="PP" />
+      <nt id="nter10" label="IN" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NNP" />
+      <!--Terminals-->
+      <!--Brown-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--v-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Board-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Education-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter6" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+    </tree>
+  </constituency>
+</NAF>

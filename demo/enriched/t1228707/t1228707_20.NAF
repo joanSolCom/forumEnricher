@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:35+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:35.887+0100" endTimestamp="2017-11-21T16:33:36.851+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:36.869+0100" endTimestamp="2017-11-21T16:33:36.870+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[(((They))) The Immigration Act Interracial Marriage as the start of Degeneracy]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">(</wf>
+    <wf id="w2" sent="1" para="1" offset="1" length="1">(</wf>
+    <wf id="w3" sent="1" para="1" offset="2" length="1">(</wf>
+    <wf id="w4" sent="1" para="1" offset="3" length="4">They</wf>
+    <wf id="w5" sent="1" para="1" offset="7" length="1">)</wf>
+    <wf id="w6" sent="1" para="1" offset="8" length="1">)</wf>
+    <wf id="w7" sent="1" para="1" offset="9" length="1">)</wf>
+    <wf id="w8" sent="1" para="1" offset="11" length="3">The</wf>
+    <wf id="w9" sent="1" para="1" offset="15" length="11">Immigration</wf>
+    <wf id="w10" sent="1" para="1" offset="27" length="3">Act</wf>
+    <wf id="w11" sent="1" para="1" offset="31" length="11">Interracial</wf>
+    <wf id="w12" sent="1" para="1" offset="43" length="8">Marriage</wf>
+    <wf id="w13" sent="1" para="1" offset="52" length="2">as</wf>
+    <wf id="w14" sent="1" para="1" offset="55" length="3">the</wf>
+    <wf id="w15" sent="1" para="1" offset="59" length="5">start</wf>
+    <wf id="w16" sent="1" para="1" offset="65" length="2">of</wf>
+    <wf id="w17" sent="1" para="1" offset="68" length="10">Degeneracy</wf>
+  </text>
+  <terms>
+    <!--(-->
+    <term id="t1" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t2" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t3" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--They-->
+    <term id="t4" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t5" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t6" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t7" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--The-->
+    <term id="t8" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Immigration-->
+    <term id="t9" type="open" lemma="Immigration" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Act-->
+    <term id="t10" type="open" lemma="Act" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Interracial-->
+    <term id="t11" type="open" lemma="Interracial" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Marriage-->
+    <term id="t12" type="open" lemma="Marriage" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t13" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t14" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--start-->
+    <term id="t15" type="open" lemma="start" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t16" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Degeneracy-->
+    <term id="t17" type="open" lemma="degeneracy" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Marriage-12, (-1)-->
+    <dep from="t12" to="t1" rfunc="P" />
+    <!--P(Marriage-12, (-2)-->
+    <dep from="t12" to="t2" rfunc="P" />
+    <!--P(Marriage-12, (-3)-->
+    <dep from="t12" to="t3" rfunc="P" />
+    <!--DEP((-3, They-4)-->
+    <dep from="t3" to="t4" rfunc="DEP" />
+    <!--P((-3, )-5)-->
+    <dep from="t3" to="t5" rfunc="P" />
+    <!--P((-3, )-6)-->
+    <dep from="t3" to="t6" rfunc="P" />
+    <!--P((-3, )-7)-->
+    <dep from="t3" to="t7" rfunc="P" />
+    <!--NMOD(Marriage-12, The-8)-->
+    <dep from="t12" to="t8" rfunc="NMOD" />
+    <!--NAME(Marriage-12, Immigration-9)-->
+    <dep from="t12" to="t9" rfunc="NAME" />
+    <!--NAME(Marriage-12, Act-10)-->
+    <dep from="t12" to="t10" rfunc="NAME" />
+    <!--NAME(Marriage-12, Interracial-11)-->
+    <dep from="t12" to="t11" rfunc="NAME" />
+    <!--NMOD(Marriage-12, as-13)-->
+    <dep from="t12" to="t13" rfunc="NMOD" />
+    <!--NMOD(start-15, the-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--PMOD(as-13, start-15)-->
+    <dep from="t13" to="t15" rfunc="PMOD" />
+    <!--NMOD(start-15, of-16)-->
+    <dep from="t15" to="t16" rfunc="NMOD" />
+    <!--PMOD(of-16, Degeneracy-17)-->
+    <dep from="t16" to="t17" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Marriage-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.9868764" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Interracial-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Interracial_marriage" confidence="0.9930082" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--They-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--Immigration-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5">
+      <references>
+        <!--Act-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--start-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--Degeneracy-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/False_hero" confidence="0.4388229270600904" spotted="true">
+      <!--They-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Degeneracy_(biology)" confidence="0.9999739561922534" spotted="true">
+      <!--Degeneracy-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.986876430474072" spotted="true">
+      <!--Marriage-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starting_pitcher" confidence="0.6897244070478699" spotted="true">
+      <!--start-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Immigration_Act_of_1924" confidence="0.9833632272683427" spotted="true">
+      <!--Immigration Act-->
+      <span>
+        <target id="w9" />
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Interracial_marriage" confidence="0.9930081906623596" spotted="true">
+      <!--Interracial-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t10 Act : [t10 Act]-->
+    <predicate id="f_pr2" source="semafor" confidence="89.55966344429615">
+      <!--Act-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-act.v" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--Act-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 Marriage :-->
+    <predicate id="f_pr3" source="semafor" confidence="61.861158659570606">
+      <!--Marriage-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Forming_relationships" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.9868764" />
+        <externalRef resource="FrameBase" reference="frame-Forming_relationships-marriage.n" />
+      </externalReferences>
+    </predicate>
+    <!--t15 start : A1[t16 of]-->
+    <predicate id="f_pr4" source="semafor" confidence="25.75867226750943">
+      <!--start-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_subregion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starting_pitcher" confidence="0.6897244" />
+        <externalRef resource="NomBank" reference="start.01" source="mate" />
+        <externalRef resource="VerbNet" reference="begin-55.1-1" />
+        <externalRef resource="PropBank" reference="start.01" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01864230-v" />
+        <externalRef resource="WordNet" reference="ili-30-00345761-v" />
+        <externalRef resource="WordNet" reference="ili-30-00348746-v" />
+        <externalRef resource="WordNet" reference="ili-30-02014165-v" />
+        <externalRef resource="WordNet" reference="ili-30-01857717-v" />
+        <externalRef resource="WordNet" reference="ili-30-02379528-v" />
+        <externalRef resource="WordNet" reference="ili-30-02600948-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starting_pitcher" confidence="0.6897244" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_subregion-start.n" />
+      </externalReferences>
+      <role id="rl4" semRole="A1">
+        <!--of Degeneracy-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Temporal_subregion@Time_period" />
+          <externalRef resource="VerbNet" reference="begin-55.1@Theme" />
+          <externalRef resource="PropBank" reference="start.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Temporal_subregion-Time_period" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SBAR (-LRB- -LRB-) (S (-LRB- -LRB-) (NP (-LRB- -LRB-) (PRP They) (-RRB- -RRB-)) (-RRB- -RRB-) (VP (-RRB- -RRB-) (NP (DT The) (NNP Immigration) (NNP Act) (NNP Interracial) (NNP Marriage)) (PP (IN as) (NP (NP (DT the) (NN start)) (PP (IN of) (NP (NN Degeneracy)))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SBAR" />
+      <nt id="nter3" label="-LRB-" />
+      <nt id="nter4" label="S" />
+      <nt id="nter5" label="-LRB-" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="-LRB-" />
+      <nt id="nter8" label="PRP" />
+      <nt id="nter9" label="-RRB-" />
+      <nt id="nter10" label="-RRB-" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="-RRB-" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="DT" />
+      <nt id="nter15" label="NNP" />
+      <nt id="nter16" label="NNP" />
+      <nt id="nter17" label="NNP" />
+      <nt id="nter18" label="NNP" />
+      <nt id="nter19" label="PP" />
+      <nt id="nter20" label="IN" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="DT" />
+      <nt id="nter24" label="NN" />
+      <nt id="nter25" label="PP" />
+      <nt id="nter26" label="IN" />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="NN" />
+      <!--Terminals-->
+      <!--(-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--They-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--The-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Immigration-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Act-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Interracial-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Marriage-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--start-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Degeneracy-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" head="yes" />
+      <edge id="tre6" from="nter5" to="nter4" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter4" />
+      <edge id="tre9" from="nter7" to="nter6" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter6" head="yes" />
+      <edge id="tre14" from="ter5" to="nter9" />
+      <edge id="tre15" from="nter10" to="nter4" />
+      <edge id="tre16" from="ter6" to="nter10" />
+      <edge id="tre17" from="nter11" to="nter4" head="yes" />
+      <edge id="tre18" from="nter12" to="nter11" />
+      <edge id="tre19" from="ter7" to="nter12" />
+      <edge id="tre20" from="nter13" to="nter11" head="yes" />
+      <edge id="tre21" from="nter14" to="nter13" />
+      <edge id="tre22" from="ter8" to="nter14" />
+      <edge id="tre23" from="nter15" to="nter13" />
+      <edge id="tre24" from="ter9" to="nter15" />
+      <edge id="tre25" from="nter16" to="nter13" />
+      <edge id="tre26" from="ter10" to="nter16" />
+      <edge id="tre27" from="nter17" to="nter13" />
+      <edge id="tre28" from="ter11" to="nter17" />
+      <edge id="tre29" from="nter18" to="nter13" head="yes" />
+      <edge id="tre30" from="ter12" to="nter18" />
+      <edge id="tre31" from="nter19" to="nter11" />
+      <edge id="tre32" from="nter20" to="nter19" head="yes" />
+      <edge id="tre33" from="ter13" to="nter20" />
+      <edge id="tre34" from="nter21" to="nter19" />
+      <edge id="tre35" from="nter22" to="nter21" head="yes" />
+      <edge id="tre36" from="nter23" to="nter22" />
+      <edge id="tre37" from="ter14" to="nter23" />
+      <edge id="tre38" from="nter24" to="nter22" head="yes" />
+      <edge id="tre39" from="ter15" to="nter24" />
+      <edge id="tre40" from="nter25" to="nter21" />
+      <edge id="tre41" from="nter26" to="nter25" head="yes" />
+      <edge id="tre42" from="ter16" to="nter26" />
+      <edge id="tre43" from="nter27" to="nter25" />
+      <edge id="tre44" from="nter28" to="nter27" head="yes" />
+      <edge id="tre45" from="ter17" to="nter28" />
+    </tree>
+  </constituency>
+</NAF>

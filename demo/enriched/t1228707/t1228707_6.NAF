@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:18+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:18.565+0100" endTimestamp="2017-11-21T16:33:19.029+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:19.050+0100" endTimestamp="2017-11-21T16:33:19.053+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Allowing Jews to exist at all.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Allowing</wf>
+    <wf id="w2" sent="1" para="1" offset="9" length="4">Jews</wf>
+    <wf id="w3" sent="1" para="1" offset="14" length="2">to</wf>
+    <wf id="w4" sent="1" para="1" offset="17" length="5">exist</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="2">at</wf>
+    <wf id="w6" sent="1" para="1" offset="26" length="3">all</wf>
+    <wf id="w7" sent="1" para="1" offset="29" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Allowing-->
+    <term id="t1" type="open" lemma="allow" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t2" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t3" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--exist-->
+    <term id="t4" type="open" lemma="exist" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t5" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t6" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t7" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--OBJ(Allowing-1, Jews-2)-->
+    <dep from="t1" to="t2" rfunc="OBJ" />
+    <!--OPRD(Allowing-1, to-3)-->
+    <dep from="t1" to="t3" rfunc="OPRD" />
+    <!--IM(to-3, exist-4)-->
+    <dep from="t3" to="t4" rfunc="IM" />
+    <!--ADV(exist-4, at-5)-->
+    <dep from="t4" to="t5" rfunc="ADV" />
+    <!--AMOD(at-5, all-6)-->
+    <dep from="t5" to="t6" rfunc="AMOD" />
+    <!--P(Allowing-1, .-7)-->
+    <dep from="t1" to="t7" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99598986" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.9903597525498781" spotted="true">
+      <!--exist-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9959898329098735" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Allowing : A1[t2 Jews] C-A1[t3 to]-->
+    <predicate id="f_pr3" source="semafor" confidence="82.87557760766825">
+      <!--Allowing-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Grant_permission" />
+        <externalRef resource="PropBank" reference="allow.01" source="mate" />
+        <externalRef resource="VerbNet" reference="order-60" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00802318-v" />
+        <externalRef resource="FrameBase" reference="frame-Grant_permission-let.v" />
+      </externalReferences>
+      <role id="rl4" semRole="A1">
+        <!--Jews-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grant_permission@Grantee" />
+          <externalRef resource="VerbNet" reference="order-60@Topic" />
+          <externalRef resource="PropBank" reference="allow.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Grant_permission-Grantee" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="C-A1">
+        <!--to exist at all-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grant_permission@Action" />
+          <externalRef resource="FrameBase" reference="fe-Grant_permission-Action" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 Jews : [t2 Jews]-->
+    <predicate id="f_pr4" source="semafor" confidence="37.21985476722972">
+      <!--Jews-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99598986" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--Jews-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 exist : [t2 Jews] AM-ADV[t5 at]-->
+    <predicate id="f_pr5" source="semafor" confidence="53.29237041303461">
+      <!--exist-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Existence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.9903597" />
+        <externalRef resource="PropBank" reference="exist.01" source="mate" />
+        <externalRef resource="VerbNet" reference="gorge-39.6" />
+        <externalRef resource="ESO" reference="BeingInExistence" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02603699-v" />
+        <externalRef resource="WordNet" reference="ili-30-02616713-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.9903597" />
+        <externalRef resource="FrameBase" reference="frame-Existence-exist.v" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--Jews-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Existence@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Existence-Entity" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="AM-ADV">
+        <!--at all-->
+        <span>
+          <target id="t5" head="yes" />
+          <target id="t6" />
+        </span>
+      </role>
+    </predicate>
+    <!--t6 all : [t6 all]-->
+    <predicate id="f_pr6" source="semafor" confidence="21.713471091758457">
+      <!--all-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--all-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (VBG Allowing) (S (NP (NNPS Jews)) (VP (TO to) (VP (VB exist) (ADVP (IN at) (DT all)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="VBG" />
+      <nt id="nter5" label="S" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NNPS" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="TO" />
+      <nt id="nter10" label="VP" />
+      <nt id="nter11" label="VB" />
+      <nt id="nter12" label="ADVP" />
+      <nt id="nter13" label="IN" />
+      <nt id="nter14" label="DT" />
+      <nt id="nter15" label="." />
+      <!--Terminals-->
+      <!--Allowing-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--exist-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="nter6" to="nter5" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter5" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter12" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter2" />
+      <edge id="tre22" from="ter7" to="nter15" />
+    </tree>
+  </constituency>
+</NAF>

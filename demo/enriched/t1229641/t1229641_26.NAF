@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:59+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:59.683+0100" endTimestamp="2017-11-20T12:33:00.090+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:33:00.091+0100" endTimestamp="2017-11-20T12:33:00.092+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Ok, Thanks . Maybe they just try to be linked (someway) East Roman (Byzantine Empire)?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">Ok</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="4" length="6">Thanks</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="1">.</wf>
+    <wf id="w5" sent="2" para="1" offset="13" length="5">Maybe</wf>
+    <wf id="w6" sent="2" para="1" offset="19" length="4">they</wf>
+    <wf id="w7" sent="2" para="1" offset="24" length="4">just</wf>
+    <wf id="w8" sent="2" para="1" offset="29" length="3">try</wf>
+    <wf id="w9" sent="2" para="1" offset="33" length="2">to</wf>
+    <wf id="w10" sent="2" para="1" offset="36" length="2">be</wf>
+    <wf id="w11" sent="2" para="1" offset="39" length="6">linked</wf>
+    <wf id="w12" sent="2" para="1" offset="46" length="1">(</wf>
+    <wf id="w13" sent="2" para="1" offset="47" length="7">someway</wf>
+    <wf id="w14" sent="2" para="1" offset="54" length="1">)</wf>
+    <wf id="w15" sent="2" para="1" offset="56" length="4">East</wf>
+    <wf id="w16" sent="2" para="1" offset="61" length="5">Roman</wf>
+    <wf id="w17" sent="2" para="1" offset="67" length="1">(</wf>
+    <wf id="w18" sent="2" para="1" offset="68" length="9">Byzantine</wf>
+    <wf id="w19" sent="2" para="1" offset="78" length="6">Empire</wf>
+    <wf id="w20" sent="2" para="1" offset="84" length="1">)</wf>
+    <wf id="w21" sent="2" para="1" offset="85" length="1">?</wf>
+  </text>
+  <terms>
+    <!--Ok-->
+    <term id="t1" type="open" lemma="Ok" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Thanks-->
+    <term id="t3" type="open" lemma="thanks" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t4" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Maybe-->
+    <term id="t5" type="open" lemma="maybe" pos="A" morphofeat="RB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--they-->
+    <term id="t6" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t7" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--try-->
+    <term id="t8" type="open" lemma="try" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t9" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t10" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--linked-->
+    <term id="t11" type="open" lemma="link" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t12" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--someway-->
+    <term id="t13" type="open" lemma="someway" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t14" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--East-->
+    <term id="t15" type="open" lemma="east" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--Roman-->
+    <term id="t16" type="open" lemma="roman" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t17" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--Byzantine-->
+    <term id="t18" type="open" lemma="byzantine" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Empire-->
+    <term id="t19" type="open" lemma="empire" pos="N" morphofeat="NN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t20" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t21" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(Thanks-3, Ok-1)-->
+    <dep from="t3" to="t1" rfunc="SBJ" />
+    <!--P(Ok-1, ,-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--P(Thanks-3, .-4)-->
+    <dep from="t3" to="t4" rfunc="P" />
+    <!--ADV(try-8, Maybe-5)-->
+    <dep from="t8" to="t5" rfunc="ADV" />
+    <!--SBJ(try-8, they-6)-->
+    <dep from="t8" to="t6" rfunc="SBJ" />
+    <!--ADV(try-8, just-7)-->
+    <dep from="t8" to="t7" rfunc="ADV" />
+    <!--OPRD(try-8, to-9)-->
+    <dep from="t8" to="t9" rfunc="OPRD" />
+    <!--IM(to-9, be-10)-->
+    <dep from="t9" to="t10" rfunc="IM" />
+    <!--VC(be-10, linked-11)-->
+    <dep from="t10" to="t11" rfunc="VC" />
+    <!--P(someway-13, (-12)-->
+    <dep from="t13" to="t12" rfunc="P" />
+    <!--PRN(Roman-16, someway-13)-->
+    <dep from="t16" to="t13" rfunc="PRN" />
+    <!--P(someway-13, )-14)-->
+    <dep from="t13" to="t14" rfunc="P" />
+    <!--AMOD(Roman-16, East-15)-->
+    <dep from="t16" to="t15" rfunc="AMOD" />
+    <!--OBJ(linked-11, Roman-16)-->
+    <dep from="t11" to="t16" rfunc="OBJ" />
+    <!--P(Empire-19, (-17)-->
+    <dep from="t19" to="t17" rfunc="P" />
+    <!--NMOD(Empire-19, Byzantine-18)-->
+    <dep from="t19" to="t18" rfunc="NMOD" />
+    <!--PRN(Roman-16, Empire-19)-->
+    <dep from="t16" to="t19" rfunc="PRN" />
+    <!--P(Empire-19, )-20)-->
+    <dep from="t19" to="t20" rfunc="P" />
+    <!--P(try-8, ?-21)-->
+    <dep from="t8" to="t21" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--East Roman-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Byzantine_Empire" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Ok-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ok_languages" confidence="0.5996136" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--Byzantine Empire-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Byzantine_Empire" confidence="0.99995387" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--Thanks-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--they-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--someway-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ok_languages" confidence="0.5996135806554809" spotted="true">
+      <!--Ok-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Byzantine_Empire" confidence="0.9999538879923398" spotted="true">
+      <!--Byzantine Empire-->
+      <span>
+        <target id="w18" />
+        <target id="w19" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Link_(knot_theory)" confidence="0.5727052628159517" spotted="true">
+      <!--linked-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Byzantine_Empire" confidence="0.9999999999935767" spotted="true">
+      <!--East Roman-->
+      <span>
+        <target id="w15" />
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Maybe_(Emma_Bunton_song)" confidence="0.6101712908408122" spotted="true">
+      <!--Maybe-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 Thanks : A1[t1 Ok]-->
+    <predicate id="f_pr2" source="semafor" confidence="51.961319631052035">
+      <!--Thanks-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Judgment_direct_address" />
+        <externalRef resource="VerbNet" reference="judgment-33" />
+        <externalRef resource="PropBank" reference="thank.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00892315-v" />
+        <externalRef resource="FrameBase" reference="frame-Judgment_direct_address-thanks.n" />
+      </externalReferences>
+      <role id="rl17" semRole="A1">
+        <!--Ok ,-->
+        <span>
+          <target id="t1" head="yes" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="judgment-33@Theme" />
+          <externalRef resource="PropBank" reference="thank.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 try : A1[t9 to] A0[t6 they] AM-ADV[t5 Maybe] AM-ADV[t7 just]-->
+    <predicate id="f_pr5" source="semafor" confidence="94.17091136460886">
+      <!--try-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Attempt" />
+        <externalRef resource="PropBank" reference="try.01" source="mate" />
+        <externalRef resource="VerbNet" reference="try-61" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02530167-v" />
+        <externalRef resource="FrameBase" reference="frame-Attempt-try.v" />
+      </externalReferences>
+      <role id="rl8" semRole="A1">
+        <!--to be linked ( someway ) East Roman ( Byzantine Empire )-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attempt@Goal" />
+          <externalRef resource="VerbNet" reference="try-61@Theme" />
+          <externalRef resource="PropBank" reference="try.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Attempt-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="A0">
+        <!--they-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attempt@Agent" />
+          <externalRef resource="VerbNet" reference="try-61@Agent" />
+          <externalRef resource="PropBank" reference="try.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Attempt-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="AM-ADV">
+        <!--Maybe-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl19" semRole="AM-ADV">
+        <!--just-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t11 linked : A0[t6 they] A1[t12 (]-->
+    <predicate id="f_pr6" source="semafor" confidence="35.27619106185363">
+      <!--linked-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cognitive_connection" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Link_(knot_theory)" confidence="0.57270527" />
+        <externalRef resource="PropBank" reference="link.01" source="mate" />
+        <externalRef resource="VerbNet" reference="tape-22.4" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01354673-v" />
+        <externalRef resource="WordNet" reference="ili-30-01492052-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Link_(knot_theory)" confidence="0.57270527" />
+      </externalReferences>
+      <role id="rl10" semRole="A0">
+        <!--they-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cognitive_connection@Concept_1" />
+          <externalRef resource="VerbNet" reference="tape-22.4@Agent" />
+          <externalRef resource="PropBank" reference="link.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Cognitive_connection-Concept_1" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="A1">
+        <!--( someway ) East Roman ( Byzantine Empire )-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" head="yes" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="tape-22.4@Patient" />
+          <externalRef resource="PropBank" reference="link.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 East : [t12 (] [t12 (]-->
+    <predicate id="f_pr7" source="semafor" confidence="18.474315787345937">
+      <!--East-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_orientational" />
+        <externalRef resource="FrameBase" reference="frame-Part_orientational-east.a" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--( someway )-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_orientational@Part" />
+          <externalRef resource="FrameBase" reference="fe-Part_orientational-Part" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="">
+        <!--( someway ) East Roman ( Byzantine Empire )-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_orientational@Whole" />
+          <externalRef resource="FrameBase" reference="fe-Part_orientational-Whole" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t16 Roman : [t12 (] [t12 (]-->
+    <predicate id="f_pr8" source="semafor" confidence="36.31388778096356">
+      <!--Roman-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_origin" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Byzantine_Empire" confidence="1.0" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--( someway )-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_origin@Origin" />
+          <externalRef resource="FrameBase" reference="fe-People_by_origin-Origin" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--( someway ) East Roman ( Byzantine Empire )-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_origin@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_origin-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t19 Empire : [t17 (] [t18 Byzantine]-->
+    <predicate id="f_pr9" source="semafor" confidence="43.17732243150799">
+      <!--Empire-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Political_locales" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Byzantine_Empire" confidence="0.99995387" />
+        <externalRef resource="FrameBase" reference="frame-Political_locales-empire.n" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--( Byzantine Empire )-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Political_locales@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Political_locales-Locale" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="">
+        <!--Byzantine-->
+        <span>
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Political_locales@Name" />
+          <externalRef resource="FrameBase" reference="fe-Political_locales-Name" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (NNP Ok)) (, ,) (NP (NNS Thanks)) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (ADVP (RB Maybe)) (NP (PRP they)) (VP (ADVP (RB just)) (VBP try) (S (VP (TO to) (VP (VB be) (VP (VBN linked) (NP (NP (-LRB- -LRB-) (NN someway) (-RRB- -RRB-)) (ADJP (JJ East) (JJ Roman)) (PRN (-LRB- -LRB-) (NP (JJ Byzantine) (NN Empire)) (-RRB- -RRB-)))))))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="," />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NNS" />
+      <nt id="nter8" label="." />
+      <!--Terminals-->
+      <!--Ok-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Thanks-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter2" />
+      <edge id="tre12" from="ter4" to="nter8" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter9" label="ROOT" />
+      <nt id="nter10" label="S" />
+      <nt id="nter11" label="ADVP" />
+      <nt id="nter12" label="RB" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="PRP" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="ADVP" />
+      <nt id="nter17" label="RB" />
+      <nt id="nter18" label="VBP" />
+      <nt id="nter19" label="S" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="TO" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VB" />
+      <nt id="nter24" label="VP" />
+      <nt id="nter25" label="VBN" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="-LRB-" />
+      <nt id="nter29" label="NN" />
+      <nt id="nter30" label="-RRB-" />
+      <nt id="nter31" label="ADJP" />
+      <nt id="nter32" label="JJ" />
+      <nt id="nter33" label="JJ" />
+      <nt id="nter34" label="PRN" />
+      <nt id="nter35" label="-LRB-" />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="JJ" />
+      <nt id="nter38" label="NN" />
+      <nt id="nter39" label="-RRB-" />
+      <nt id="nter40" label="." />
+      <!--Terminals-->
+      <!--Maybe-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--they-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--try-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--linked-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--someway-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--East-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Roman-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Byzantine-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Empire-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre14" from="nter10" to="nter9" head="yes" />
+      <edge id="tre15" from="nter11" to="nter10" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter10" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter10" head="yes" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter15" head="yes" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter15" />
+      <edge id="tre28" from="nter20" to="nter19" head="yes" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter20" />
+      <edge id="tre32" from="nter23" to="nter22" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter22" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="nter28" to="nter27" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter27" head="yes" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter27" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter26" />
+      <edge id="tre46" from="nter32" to="nter31" head="yes" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter31" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter26" />
+      <edge id="tre51" from="nter35" to="nter34" head="yes" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter34" />
+      <edge id="tre54" from="nter37" to="nter36" />
+      <edge id="tre55" from="ter18" to="nter37" />
+      <edge id="tre56" from="nter38" to="nter36" head="yes" />
+      <edge id="tre57" from="ter19" to="nter38" />
+      <edge id="tre58" from="nter39" to="nter34" />
+      <edge id="tre59" from="ter20" to="nter39" />
+      <edge id="tre60" from="nter40" to="nter10" />
+      <edge id="tre61" from="ter21" to="nter40" />
+    </tree>
+  </constituency>
+</NAF>

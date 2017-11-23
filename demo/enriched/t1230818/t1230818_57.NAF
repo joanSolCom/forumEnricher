@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:22+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:22.241+0100" endTimestamp="2017-11-21T16:40:22.632+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:22.633+0100" endTimestamp="2017-11-21T16:40:22.633+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I shall always deny you permission to be a suitor to any of my daughters.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="5">shall</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="6">always</wf>
+    <wf id="w4" sent="1" para="1" offset="15" length="4">deny</wf>
+    <wf id="w5" sent="1" para="1" offset="20" length="3">you</wf>
+    <wf id="w6" sent="1" para="1" offset="24" length="10">permission</wf>
+    <wf id="w7" sent="1" para="1" offset="35" length="2">to</wf>
+    <wf id="w8" sent="1" para="1" offset="38" length="2">be</wf>
+    <wf id="w9" sent="1" para="1" offset="41" length="1">a</wf>
+    <wf id="w10" sent="1" para="1" offset="43" length="6">suitor</wf>
+    <wf id="w11" sent="1" para="1" offset="50" length="2">to</wf>
+    <wf id="w12" sent="1" para="1" offset="53" length="3">any</wf>
+    <wf id="w13" sent="1" para="1" offset="57" length="2">of</wf>
+    <wf id="w14" sent="1" para="1" offset="60" length="2">my</wf>
+    <wf id="w15" sent="1" para="1" offset="63" length="9">daughters</wf>
+    <wf id="w16" sent="1" para="1" offset="72" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--shall-->
+    <term id="t2" type="open" lemma="shall" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--always-->
+    <term id="t3" type="open" lemma="always" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--deny-->
+    <term id="t4" type="open" lemma="deny" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t5" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--permission-->
+    <term id="t6" type="open" lemma="permission" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t7" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t8" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t9" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--suitor-->
+    <term id="t10" type="open" lemma="suitor" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t11" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--any-->
+    <term id="t12" type="open" lemma="any" pos="D" morphofeat="DT">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t13" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t14" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--daughters-->
+    <term id="t15" type="open" lemma="daughter" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t16" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(shall-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--TMP(shall-2, always-3)-->
+    <dep from="t2" to="t3" rfunc="TMP" />
+    <!--VC(shall-2, deny-4)-->
+    <dep from="t2" to="t4" rfunc="VC" />
+    <!--OBJ(deny-4, you-5)-->
+    <dep from="t4" to="t5" rfunc="OBJ" />
+    <!--OBJ(deny-4, permission-6)-->
+    <dep from="t4" to="t6" rfunc="OBJ" />
+    <!--NMOD(permission-6, to-7)-->
+    <dep from="t6" to="t7" rfunc="NMOD" />
+    <!--IM(to-7, be-8)-->
+    <dep from="t7" to="t8" rfunc="IM" />
+    <!--NMOD(suitor-10, a-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--PRD(be-8, suitor-10)-->
+    <dep from="t8" to="t10" rfunc="PRD" />
+    <!--NMOD(suitor-10, to-11)-->
+    <dep from="t10" to="t11" rfunc="NMOD" />
+    <!--PMOD(to-11, any-12)-->
+    <dep from="t11" to="t12" rfunc="PMOD" />
+    <!--NMOD(any-12, of-13)-->
+    <dep from="t12" to="t13" rfunc="NMOD" />
+    <!--NMOD(daughters-15, my-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--PMOD(of-13, daughters-15)-->
+    <dep from="t13" to="t15" rfunc="PMOD" />
+    <!--P(shall-2, .-16)-->
+    <dep from="t2" to="t16" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--permission-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--suitor-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--daughters-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+      <!--my-->
+      <span>
+        <target id="t14" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Planning_permission" confidence="0.5170659451009432" spotted="true">
+      <!--permission-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Denial" confidence="0.7088873011761124" spotted="true">
+      <!--deny-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t8 be : A2[t9 a]-->
+    <predicate id="pr3" source="mate">
+      <!--be-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl9" semRole="A2">
+        <!--a suitor to any of my daughters-->
+        <span>
+          <target id="t9" />
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 always : [t1 I]-->
+    <predicate id="f_pr6" source="semafor" confidence="48.89798009196115">
+      <!--always-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-always.adv" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 deny : AM-TMP[t3 always] A1[t6 permission] A0[t1 I] AM-MOD[t1 I] A1[t5 you]-->
+    <predicate id="f_pr7" source="semafor" confidence="136.40882347620206">
+      <!--deny-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Statement" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Denial" confidence="0.7088873" />
+        <externalRef resource="PropBank" reference="deny.01" source="mate" />
+        <externalRef resource="VerbNet" reference="conjecture-29.5-1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Denial" confidence="0.7088873" />
+        <externalRef resource="FrameBase" reference="frame-Statement-deny.v" />
+      </externalReferences>
+      <role id="rl15" semRole="AM-TMP">
+        <!--always-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Manner" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Manner" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A1">
+        <!--permission to be a suitor to any of my daughters-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Message" />
+          <externalRef resource="VerbNet" reference="conjecture-29.5@Theme" />
+          <externalRef resource="PropBank" reference="deny.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Speaker" />
+          <externalRef resource="VerbNet" reference="conjecture-29.5@Agent" />
+          <externalRef resource="PropBank" reference="deny.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Speaker" />
+        </externalReferences>
+      </role>
+      <role id="rl24" semRole="AM-MOD">
+        <!--I shall always deny you permission to be a suitor to any of my daughters .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </role>
+      <role id="rl25" semRole="A1">
+        <!--you-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="conjecture-29.5@Theme" />
+          <externalRef resource="PropBank" reference="deny.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 permission : A2[t5 you] A1[t7 to] A2[t1 I]-->
+    <predicate id="f_pr8" source="semafor" confidence="81.86136843255636">
+      <!--permission-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Grant_permission" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Planning_permission" confidence="0.51706594" />
+        <externalRef resource="NomBank" reference="permission.01" source="mate" />
+        <externalRef resource="VerbNet" reference="order-60" />
+        <externalRef resource="PropBank" reference="permit.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00802318-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Planning_permission" confidence="0.51706594" />
+        <externalRef resource="FrameBase" reference="frame-Grant_permission-permission.n" />
+      </externalReferences>
+      <role id="rl18" semRole="A2">
+        <!--you-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grant_permission@Grantor" />
+          <externalRef resource="VerbNet" reference="order-60@Recipient" />
+          <externalRef resource="PropBank" reference="permit.01@2" />
+          <externalRef resource="FrameBase" reference="fe-Grant_permission-Grantor" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="A1">
+        <!--to be a suitor to any of my daughters-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grant_permission@Action" />
+          <externalRef resource="VerbNet" reference="order-60@Topic" />
+          <externalRef resource="PropBank" reference="permit.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Grant_permission-Action" />
+        </externalReferences>
+      </role>
+      <role id="rl27" semRole="A2">
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="order-60@Recipient" />
+          <externalRef resource="PropBank" reference="permit.01@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 suitor : A1[t9 a] A2[t11 to]-->
+    <predicate id="f_pr9" source="semafor" confidence="44.31026212028878">
+      <!--suitor-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Personal_relationship" />
+        <externalRef resource="NomBank" reference="suitor.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Personal_relationship-court.v" />
+      </externalReferences>
+      <role id="rl20" semRole="A1">
+        <!--a suitor to any of my daughters-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Personal_relationship@Partner_1" />
+          <externalRef resource="FrameBase" reference="fe-Personal_relationship-Partner_1" />
+        </externalReferences>
+      </role>
+      <role id="rl26" semRole="A2">
+        <!--to any of my daughters-->
+        <span>
+          <target id="t11" head="yes" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </role>
+    </predicate>
+    <!--t12 any : [t13 of]-->
+    <predicate id="f_pr10" source="semafor" confidence="27.493264976687676">
+      <!--any-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl21" semRole="">
+        <!--of my daughters-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 daughters : A1[t14 my] A0[t14 my]-->
+    <predicate id="f_pr11" source="semafor" confidence="33.900445610541595">
+      <!--daughters-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Kinship" />
+        <externalRef resource="NomBank" reference="daughter.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Kinship-daughter.n" />
+      </externalReferences>
+      <role id="rl22" semRole="A1">
+        <!--my-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Ego" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Ego" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="A0">
+        <!--my daughters-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Alter" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Alter" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (MD shall) (ADVP (RB always)) (VP (VB deny) (NP (PRP you)) (NP (NN permission) (S (VP (TO to) (VP (VB be) (NP (NP (DT a) (NN suitor)) (PP (TO to) (NP (NP (DT any)) (PP (IN of) (NP (PRP$ my) (NNS daughters)))))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="MD" />
+      <nt id="nter7" label="ADVP" />
+      <nt id="nter8" label="RB" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="VB" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="PRP" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="NN" />
+      <nt id="nter15" label="S" />
+      <nt id="nter16" label="VP" />
+      <nt id="nter17" label="TO" />
+      <nt id="nter18" label="VP" />
+      <nt id="nter19" label="VB" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="DT" />
+      <nt id="nter23" label="NN" />
+      <nt id="nter24" label="PP" />
+      <nt id="nter25" label="TO" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="DT" />
+      <nt id="nter29" label="PP" />
+      <nt id="nter30" label="IN" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="PRP$" />
+      <nt id="nter33" label="NNS" />
+      <nt id="nter34" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--shall-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--always-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--deny-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--permission-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--suitor-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--any-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--daughters-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter5" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter9" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter18" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="nter22" to="nter21" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter21" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter20" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="nter28" to="nter27" head="yes" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter26" />
+      <edge id="tre42" from="nter30" to="nter29" head="yes" />
+      <edge id="tre43" from="ter13" to="nter30" />
+      <edge id="tre44" from="nter31" to="nter29" />
+      <edge id="tre45" from="nter32" to="nter31" />
+      <edge id="tre46" from="ter14" to="nter32" />
+      <edge id="tre47" from="nter33" to="nter31" head="yes" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter2" />
+      <edge id="tre50" from="ter16" to="nter34" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:35+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:35.735+0100" endTimestamp="2017-11-21T16:39:36.056+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:36.057+0100" endTimestamp="2017-11-21T16:39:36.057+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[As always comrade ....you hit the nail on the head]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">As</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="6">always</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="7">comrade</wf>
+    <wf id="w4" sent="1" para="1" offset="18" length="3">...</wf>
+    <wf id="w5" sent="1" para="1" offset="22" length="3">you</wf>
+    <wf id="w6" sent="1" para="1" offset="26" length="3">hit</wf>
+    <wf id="w7" sent="1" para="1" offset="30" length="3">the</wf>
+    <wf id="w8" sent="1" para="1" offset="34" length="4">nail</wf>
+    <wf id="w9" sent="1" para="1" offset="39" length="2">on</wf>
+    <wf id="w10" sent="1" para="1" offset="42" length="3">the</wf>
+    <wf id="w11" sent="1" para="1" offset="46" length="4">head</wf>
+  </text>
+  <terms>
+    <!--As-->
+    <term id="t1" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--always-->
+    <term id="t2" type="open" lemma="always" pos="A" morphofeat="RB">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--comrade-->
+    <term id="t3" type="open" lemma="comrade" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t4" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t5" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--hit-->
+    <term id="t6" type="open" lemma="hit" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t7" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--nail-->
+    <term id="t8" type="open" lemma="nail" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t9" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t10" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--head-->
+    <term id="t11" type="open" lemma="head" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(hit-6, As-1)-->
+    <dep from="t6" to="t1" rfunc="ADV" />
+    <!--NMOD(comrade-3, always-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--PMOD(As-1, comrade-3)-->
+    <dep from="t1" to="t3" rfunc="PMOD" />
+    <!--P(hit-6, ...-4)-->
+    <dep from="t6" to="t4" rfunc="P" />
+    <!--SBJ(hit-6, you-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--NMOD(nail-8, the-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--OBJ(hit-6, nail-8)-->
+    <dep from="t6" to="t8" rfunc="OBJ" />
+    <!--ADV(hit-6, on-9)-->
+    <dep from="t6" to="t9" rfunc="ADV" />
+    <!--NMOD(head-11, the-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--PMOD(on-9, head-11)-->
+    <dep from="t9" to="t11" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--comrade-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--nail-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--head-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Æsir" confidence="0.644507537627859" spotted="true">
+      <!--As-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nail_(anatomy)" confidence="0.6620399069999603" spotted="true">
+      <!--nail-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hit_(baseball)" confidence="0.3922667951415573" spotted="true">
+      <!--hit-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Head_coach" confidence="0.3285939798700873" spotted="true">
+      <!--head-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 always : [t2 always]-->
+    <predicate id="f_pr2" source="semafor" confidence="47.62460875043072">
+      <!--always-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-always.adv" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--always comrade-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 hit : A0[t5 you] A1[t7 the] AM-ADV[t1 As] AM-CAU[t9 on]-->
+    <predicate id="f_pr3" source="semafor" confidence="76.32375878960097">
+      <!--hit-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Impact" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hit_(baseball)" confidence="0.3922668" />
+        <externalRef resource="PropBank" reference="hit.01" source="mate" />
+        <externalRef resource="VerbNet" reference="contiguous_location-47.8-1" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01236164-v" />
+        <externalRef resource="WordNet" reference="ili-30-01137138-v" />
+        <externalRef resource="WordNet" reference="ili-30-01152396-v" />
+        <externalRef resource="WordNet" reference="ili-30-01400044-v" />
+        <externalRef resource="WordNet" reference="ili-30-01405044-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hit_(baseball)" confidence="0.3922668" />
+        <externalRef resource="FrameBase" reference="frame-Impact-hit.v" />
+      </externalReferences>
+      <role id="rl6" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Impact@Impactor" />
+          <externalRef resource="PropBank" reference="hit.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Impact-Impactor" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="A1">
+        <!--the nail-->
+        <span>
+          <target id="t7" />
+          <target id="t8" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="contiguous_location-47.8@Theme" />
+          <externalRef resource="PropBank" reference="hit.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="AM-ADV">
+        <!--As always comrade-->
+        <span>
+          <target id="t1" head="yes" />
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+      </role>
+      <role id="rl11" semRole="AM-CAU">
+        <!--on the head-->
+        <span>
+          <target id="t9" head="yes" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 nail : [t7 the]-->
+    <predicate id="f_pr4" source="semafor" confidence="32.829760077065814">
+      <!--nail-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Connectors" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nail_(anatomy)" confidence="0.66203994" />
+        <externalRef resource="FrameBase" reference="frame-Connectors-nail.n" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--the nail-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Connectors@Connector" />
+          <externalRef resource="FrameBase" reference="fe-Connectors-Connector" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 head : [t10 the]-->
+    <predicate id="f_pr5" source="semafor" confidence="79.06076423793418">
+      <!--head-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Head_coach" confidence="0.32859397" />
+        <externalRef resource="FrameBase" reference="frame-Leadership-head.v" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--the head-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Leader" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Leader" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 comrade : A0[t2 always]-->
+    <predicate id="pr6">
+      <!--comrade-->
+      <span>
+        <target id="t3" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="comrade.01" />
+      </externalReferences>
+      <role id="rl12" semRole="A0">
+        <!--always comrade-->
+        <span>
+          <target id="t2" />
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SBAR (IN As) (S (NP (RB always) (NN comrade)) (: ...) (NP (PRP you)) (VP (VBD hit) (NP (DT the) (NN nail)) (PP (IN on) (NP (DT the) (NN head)))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SBAR" />
+      <nt id="nter3" label="IN" />
+      <nt id="nter4" label="S" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="RB" />
+      <nt id="nter7" label="NN" />
+      <nt id="nter8" label=":" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="PRP" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VBD" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="DT" />
+      <nt id="nter15" label="NN" />
+      <nt id="nter16" label="PP" />
+      <nt id="nter17" label="IN" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="DT" />
+      <nt id="nter20" label="NN" />
+      <!--Terminals-->
+      <!--As-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--always-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--comrade-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--hit-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--nail-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--head-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" />
+      <edge id="tre7" from="nter6" to="nter5" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter4" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter4" />
+      <edge id="tre14" from="nter10" to="nter9" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter4" head="yes" />
+      <edge id="tre17" from="nter12" to="nter11" head="yes" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter11" />
+      <edge id="tre20" from="nter14" to="nter13" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter13" head="yes" />
+      <edge id="tre23" from="ter8" to="nter15" />
+      <edge id="tre24" from="nter16" to="nter11" />
+      <edge id="tre25" from="nter17" to="nter16" head="yes" />
+      <edge id="tre26" from="ter9" to="nter17" />
+      <edge id="tre27" from="nter18" to="nter16" />
+      <edge id="tre28" from="nter19" to="nter18" />
+      <edge id="tre29" from="ter10" to="nter19" />
+      <edge id="tre30" from="nter20" to="nter18" head="yes" />
+      <edge id="tre31" from="ter11" to="nter20" />
+    </tree>
+  </constituency>
+</NAF>

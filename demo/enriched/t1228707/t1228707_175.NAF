@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:17+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:17.604+0100" endTimestamp="2017-11-21T16:39:17.999+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:18.000+0100" endTimestamp="2017-11-21T16:39:18.000+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Jews destroyed us... if there had never been any jews there wouldn't be a left.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Jews</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="9">destroyed</wf>
+    <wf id="w3" sent="1" para="1" offset="15" length="2">us</wf>
+    <wf id="w4" sent="1" para="1" offset="17" length="3">...</wf>
+    <wf id="w5" sent="1" para="1" offset="21" length="2">if</wf>
+    <wf id="w6" sent="1" para="1" offset="24" length="5">there</wf>
+    <wf id="w7" sent="1" para="1" offset="30" length="3">had</wf>
+    <wf id="w8" sent="1" para="1" offset="34" length="5">never</wf>
+    <wf id="w9" sent="1" para="1" offset="40" length="4">been</wf>
+    <wf id="w10" sent="1" para="1" offset="45" length="3">any</wf>
+    <wf id="w11" sent="1" para="1" offset="49" length="4">jews</wf>
+    <wf id="w12" sent="1" para="1" offset="54" length="5">there</wf>
+    <wf id="w13" sent="1" para="1" offset="60" length="5">would</wf>
+    <wf id="w14" sent="1" para="1" offset="65" length="3">n't</wf>
+    <wf id="w15" sent="1" para="1" offset="69" length="2">be</wf>
+    <wf id="w16" sent="1" para="1" offset="72" length="1">a</wf>
+    <wf id="w17" sent="1" para="1" offset="74" length="4">left</wf>
+    <wf id="w18" sent="1" para="1" offset="78" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Jews-->
+    <term id="t1" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--destroyed-->
+    <term id="t2" type="open" lemma="destroy" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--us-->
+    <term id="t3" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t4" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--if-->
+    <term id="t5" type="open" lemma="if" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--there-->
+    <term id="t6" type="open" lemma="there" pos="O" morphofeat="EX">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--had-->
+    <term id="t7" type="open" lemma="have" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--never-->
+    <term id="t8" type="open" lemma="never" pos="A" morphofeat="RB">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--been-->
+    <term id="t9" type="open" lemma="be" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--any-->
+    <term id="t10" type="open" lemma="any" pos="D" morphofeat="DT">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--jews-->
+    <term id="t11" type="open" lemma="jew" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--there-->
+    <term id="t12" type="open" lemma="there" pos="A" morphofeat="RB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t13" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t14" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t15" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t16" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--left-->
+    <term id="t17" type="open" lemma="left" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(destroyed-2, Jews-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--OBJ(destroyed-2, us-3)-->
+    <dep from="t2" to="t3" rfunc="OBJ" />
+    <!--P(destroyed-2, ...-4)-->
+    <dep from="t2" to="t4" rfunc="P" />
+    <!--ADV(would-13, if-5)-->
+    <dep from="t13" to="t5" rfunc="ADV" />
+    <!--SBJ(had-7, there-6)-->
+    <dep from="t7" to="t6" rfunc="SBJ" />
+    <!--SUB(if-5, had-7)-->
+    <dep from="t5" to="t7" rfunc="SUB" />
+    <!--TMP(had-7, never-8)-->
+    <dep from="t7" to="t8" rfunc="TMP" />
+    <!--VC(had-7, been-9)-->
+    <dep from="t7" to="t9" rfunc="VC" />
+    <!--NMOD(jews-11, any-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--OBJ(been-9, jews-11)-->
+    <dep from="t9" to="t11" rfunc="OBJ" />
+    <!--LOC(been-9, there-12)-->
+    <dep from="t9" to="t12" rfunc="LOC" />
+    <!--COORD(destroyed-2, would-13)-->
+    <dep from="t2" to="t13" rfunc="COORD" />
+    <!--ADV(would-13, n't-14)-->
+    <dep from="t13" to="t14" rfunc="ADV" />
+    <!--VC(would-13, be-15)-->
+    <dep from="t13" to="t15" rfunc="VC" />
+    <!--NMOD(left-17, a-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--PRD(be-15, left-17)-->
+    <dep from="t15" to="t17" rfunc="PRD" />
+    <!--P(destroyed-2, .-18)-->
+    <dep from="t2" to="t18" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99633265" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--jews-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99999946" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--us-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--left-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9963326361116351" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999994437118203" spotted="true">
+      <!--jews-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Wiping" confidence="0.3338053502978284" spotted="true">
+      <!--destroyed-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t9 been : AM-NEG[t8 never] A2[t10 any] A2[t12 there]-->
+    <predicate id="pr2" source="mate">
+      <!--been-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl3" semRole="AM-NEG">
+        <!--never-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A2">
+        <!--any jews-->
+        <span>
+          <target id="t10" />
+          <target id="t11" head="yes" />
+        </span>
+      </role>
+      <role id="rl5" semRole="A2">
+        <!--there-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t15 be : AM-MOD[t5 if] A2[t16 a] AM-ADV[t5 if] AM-NEG[t14 n't]-->
+    <predicate id="pr3" source="mate">
+      <!--be-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl6" semRole="AM-MOD">
+        <!--if there had never been any jews there would n't be a left-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" head="yes" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </role>
+      <role id="rl7" semRole="A2">
+        <!--a left-->
+        <span>
+          <target id="t16" />
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+      <role id="rl8" semRole="AM-ADV">
+        <!--if there had never been any jews there-->
+        <span>
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+      </role>
+      <role id="rl9" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 Jews : [t1 Jews]-->
+    <predicate id="f_pr4" source="semafor" confidence="37.26435370770969">
+      <!--Jews-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99633265" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--Jews-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 destroyed : A0[t1 Jews] A1[t3 us]-->
+    <predicate id="f_pr5" source="semafor" confidence="101.49569590128007">
+      <!--destroyed-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Destroying" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Wiping" confidence="0.33380535" />
+        <externalRef resource="PropBank" reference="destroy.01" source="mate" />
+        <externalRef resource="VerbNet" reference="destroy-44" />
+        <externalRef resource="ESO" reference="Destroying" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01564144-v" />
+        <externalRef resource="WordNet" reference="ili-30-01619929-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Wiping" confidence="0.33380535" />
+        <externalRef resource="FrameBase" reference="frame-Destroying-raze.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--Jews-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Destroying@Destroyer" />
+          <externalRef resource="VerbNet" reference="destroy-44@Agent" />
+          <externalRef resource="PropBank" reference="destroy.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Destroying-Destroyer" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="A1">
+        <!--us-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Destroying@Undergoer" />
+          <externalRef resource="VerbNet" reference="destroy-44@Patient" />
+          <externalRef resource="PropBank" reference="destroy.01@1" />
+          <externalRef resource="ESO" reference="Destroying@destroying-theme" />
+          <externalRef resource="FrameBase" reference="fe-Destroying-Undergoer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 there : [t3 us]-->
+    <predicate id="f_pr6" source="semafor" confidence="41.7337075444131">
+      <!--there-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Existence" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--us-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Existence@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Existence-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 never : [t6 there]-->
+    <predicate id="f_pr7" source="semafor" confidence="40.113966993916684">
+      <!--never-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-never.adv" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--there had never been any jews there-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 any : [t10 any] [t10 any]-->
+    <predicate id="f_pr8" source="semafor" confidence="23.505706626604127">
+      <!--any-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--any-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="">
+        <!--any jews-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 jews : [t10 any]-->
+    <predicate id="f_pr9" source="semafor" confidence="36.5223988916574">
+      <!--jews-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99999946" />
+        <externalRef resource="FrameBase" reference="frame-People_by_religion-jew.n" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--any jews-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 there : [t12 there]-->
+    <predicate id="f_pr10" source="semafor" confidence="24.937116602540772">
+      <!--there-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Locative_relation" />
+        <externalRef resource="FrameBase" reference="frame-Locative_relation-there.adv" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--there-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Locative_relation@Ground" />
+          <externalRef resource="FrameBase" reference="fe-Locative_relation-Ground" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 left : [t16 a]-->
+    <predicate id="f_pr11" source="semafor" confidence="18.377608357580392">
+      <!--left-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_orientational" />
+        <externalRef resource="FrameBase" reference="frame-Part_orientational-left.n" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--a left-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_orientational@Part" />
+          <externalRef resource="FrameBase" reference="fe-Part_orientational-Part" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NNPS Jews)) (VP (VBD destroyed) (SBAR (S (NP (PRP us)) (: ...) (SBAR (IN if) (S (NP (EX there)) (VP (VBD had) (VP (ADVP (RB never)) (VBN been) (NP (DT any) (NNS jews)) (ADVP (RB there)))))) (VP (MD would) (RB n't) (VP (VB be) (NP (DT a) (NN left))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNPS" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBD" />
+      <nt id="nter7" label="SBAR" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="PRP" />
+      <nt id="nter11" label=":" />
+      <nt id="nter12" label="SBAR" />
+      <nt id="nter13" label="IN" />
+      <nt id="nter14" label="S" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="EX" />
+      <nt id="nter17" label="VP" />
+      <nt id="nter18" label="VBD" />
+      <nt id="nter19" label="VP" />
+      <nt id="nter20" label="ADVP" />
+      <nt id="nter21" label="RB" />
+      <nt id="nter22" label="VBN" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="DT" />
+      <nt id="nter25" label="NNS" />
+      <nt id="nter26" label="ADVP" />
+      <nt id="nter27" label="RB" />
+      <nt id="nter28" label="VP" />
+      <nt id="nter29" label="MD" />
+      <nt id="nter30" label="RB" />
+      <nt id="nter31" label="VP" />
+      <nt id="nter32" label="VB" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="DT" />
+      <nt id="nter35" label="NN" />
+      <nt id="nter36" label="." />
+      <!--Terminals-->
+      <!--Jews-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--destroyed-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--us-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--if-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--there-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--had-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--never-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--been-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--any-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--jews-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--there-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--left-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="nter10" to="nter9" head="yes" />
+      <edge id="tre13" from="ter3" to="nter10" />
+      <edge id="tre14" from="nter11" to="nter8" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter8" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter12" />
+      <edge id="tre20" from="nter15" to="nter14" />
+      <edge id="tre21" from="nter16" to="nter15" head="yes" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter14" head="yes" />
+      <edge id="tre24" from="nter18" to="nter17" head="yes" />
+      <edge id="tre25" from="ter7" to="nter18" />
+      <edge id="tre26" from="nter19" to="nter17" />
+      <edge id="tre27" from="nter20" to="nter19" />
+      <edge id="tre28" from="nter21" to="nter20" head="yes" />
+      <edge id="tre29" from="ter8" to="nter21" />
+      <edge id="tre30" from="nter22" to="nter19" head="yes" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter19" />
+      <edge id="tre33" from="nter24" to="nter23" />
+      <edge id="tre34" from="ter10" to="nter24" />
+      <edge id="tre35" from="nter25" to="nter23" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter19" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter8" head="yes" />
+      <edge id="tre41" from="nter29" to="nter28" head="yes" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter28" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter28" />
+      <edge id="tre46" from="nter32" to="nter31" head="yes" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter31" />
+      <edge id="tre49" from="nter34" to="nter33" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter33" head="yes" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter2" />
+      <edge id="tre54" from="ter18" to="nter36" />
+    </tree>
+  </constituency>
+</NAF>

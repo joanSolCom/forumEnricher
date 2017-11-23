@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:07+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:07.494+0100" endTimestamp="2017-11-21T16:40:08.016+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:08.017+0100" endTimestamp="2017-11-21T16:40:08.018+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I don't think people have any conscious thoughts about patriarchism these days. I suspect female preference in adoption is deeply subconscious behavior, similar to White flight.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="2">do</wf>
+    <wf id="w3" sent="1" para="1" offset="4" length="3">n't</wf>
+    <wf id="w4" sent="1" para="1" offset="8" length="5">think</wf>
+    <wf id="w5" sent="1" para="1" offset="14" length="6">people</wf>
+    <wf id="w6" sent="1" para="1" offset="21" length="4">have</wf>
+    <wf id="w7" sent="1" para="1" offset="26" length="3">any</wf>
+    <wf id="w8" sent="1" para="1" offset="30" length="9">conscious</wf>
+    <wf id="w9" sent="1" para="1" offset="40" length="8">thoughts</wf>
+    <wf id="w10" sent="1" para="1" offset="49" length="5">about</wf>
+    <wf id="w11" sent="1" para="1" offset="55" length="12">patriarchism</wf>
+    <wf id="w12" sent="1" para="1" offset="68" length="5">these</wf>
+    <wf id="w13" sent="1" para="1" offset="74" length="4">days</wf>
+    <wf id="w14" sent="1" para="1" offset="78" length="1">.</wf>
+    <wf id="w15" sent="2" para="1" offset="80" length="1">I</wf>
+    <wf id="w16" sent="2" para="1" offset="82" length="7">suspect</wf>
+    <wf id="w17" sent="2" para="1" offset="90" length="6">female</wf>
+    <wf id="w18" sent="2" para="1" offset="97" length="10">preference</wf>
+    <wf id="w19" sent="2" para="1" offset="108" length="2">in</wf>
+    <wf id="w20" sent="2" para="1" offset="111" length="8">adoption</wf>
+    <wf id="w21" sent="2" para="1" offset="120" length="2">is</wf>
+    <wf id="w22" sent="2" para="1" offset="123" length="6">deeply</wf>
+    <wf id="w23" sent="2" para="1" offset="130" length="12">subconscious</wf>
+    <wf id="w24" sent="2" para="1" offset="143" length="8">behavior</wf>
+    <wf id="w25" sent="2" para="1" offset="151" length="1">,</wf>
+    <wf id="w26" sent="2" para="1" offset="153" length="7">similar</wf>
+    <wf id="w27" sent="2" para="1" offset="161" length="2">to</wf>
+    <wf id="w28" sent="2" para="1" offset="164" length="5">White</wf>
+    <wf id="w29" sent="2" para="1" offset="170" length="6">flight</wf>
+    <wf id="w30" sent="2" para="1" offset="176" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--do-->
+    <term id="t2" type="open" lemma="do" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t3" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--think-->
+    <term id="t4" type="open" lemma="think" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--people-->
+    <term id="t5" type="open" lemma="people" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t6" type="open" lemma="have" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--any-->
+    <term id="t7" type="open" lemma="any" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--conscious-->
+    <term id="t8" type="open" lemma="conscious" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--thoughts-->
+    <term id="t9" type="open" lemma="thought" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--about-->
+    <term id="t10" type="open" lemma="about" pos="P" morphofeat="IN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--patriarchism-->
+    <term id="t11" type="open" lemma="patriarchism" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--these-->
+    <term id="t12" type="open" lemma="these" pos="D" morphofeat="DT">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--days-->
+    <term id="t13" type="open" lemma="day" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t14" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t15" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--suspect-->
+    <term id="t16" type="open" lemma="suspect" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--female-->
+    <term id="t17" type="open" lemma="female" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--preference-->
+    <term id="t18" type="open" lemma="preference" pos="N" morphofeat="NN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t19" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--adoption-->
+    <term id="t20" type="open" lemma="adoption" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t21" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--deeply-->
+    <term id="t22" type="open" lemma="deeply" pos="A" morphofeat="RB">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--subconscious-->
+    <term id="t23" type="open" lemma="subconscious" pos="N" morphofeat="NN">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--behavior-->
+    <term id="t24" type="open" lemma="behavior" pos="N" morphofeat="NN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t25" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--similar-->
+    <term id="t26" type="open" lemma="similar" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t27" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--White-->
+    <term id="t28" type="open" lemma="White" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--flight-->
+    <term id="t29" type="open" lemma="flight" pos="N" morphofeat="NN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t30" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(do-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(do-2, n't-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--VC(do-2, think-4)-->
+    <dep from="t2" to="t4" rfunc="VC" />
+    <!--SBJ(have-6, people-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--OBJ(think-4, have-6)-->
+    <dep from="t4" to="t6" rfunc="OBJ" />
+    <!--NMOD(thoughts-9, any-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--NMOD(thoughts-9, conscious-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--OBJ(have-6, thoughts-9)-->
+    <dep from="t6" to="t9" rfunc="OBJ" />
+    <!--NMOD(thoughts-9, about-10)-->
+    <dep from="t9" to="t10" rfunc="NMOD" />
+    <!--PMOD(about-10, patriarchism-11)-->
+    <dep from="t10" to="t11" rfunc="PMOD" />
+    <!--NMOD(days-13, these-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--TMP(have-6, days-13)-->
+    <dep from="t6" to="t13" rfunc="TMP" />
+    <!--P(do-2, .-14)-->
+    <dep from="t2" to="t14" rfunc="P" />
+    <!--SBJ(suspect-16, I-15)-->
+    <dep from="t16" to="t15" rfunc="SBJ" />
+    <!--NMOD(preference-18, female-17)-->
+    <dep from="t18" to="t17" rfunc="NMOD" />
+    <!--SBJ(is-21, preference-18)-->
+    <dep from="t21" to="t18" rfunc="SBJ" />
+    <!--NMOD(preference-18, in-19)-->
+    <dep from="t18" to="t19" rfunc="NMOD" />
+    <!--PMOD(in-19, adoption-20)-->
+    <dep from="t19" to="t20" rfunc="PMOD" />
+    <!--OBJ(suspect-16, is-21)-->
+    <dep from="t16" to="t21" rfunc="OBJ" />
+    <!--NMOD(behavior-24, deeply-22)-->
+    <dep from="t24" to="t22" rfunc="NMOD" />
+    <!--NMOD(behavior-24, subconscious-23)-->
+    <dep from="t24" to="t23" rfunc="NMOD" />
+    <!--OBJ(is-21, behavior-24)-->
+    <dep from="t21" to="t24" rfunc="OBJ" />
+    <!--P(behavior-24, ,-25)-->
+    <dep from="t24" to="t25" rfunc="P" />
+    <!--APPO(behavior-24, similar-26)-->
+    <dep from="t24" to="t26" rfunc="APPO" />
+    <!--AMOD(similar-26, to-27)-->
+    <dep from="t26" to="t27" rfunc="AMOD" />
+    <!--NMOD(flight-29, White-28)-->
+    <dep from="t29" to="t28" rfunc="NMOD" />
+    <!--PMOD(to-27, flight-29)-->
+    <dep from="t27" to="t29" rfunc="PMOD" />
+    <!--P(suspect-16, .-30)-->
+    <dep from="t16" to="t30" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--subconscious-->
+        <span>
+          <target id="t23" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Subconscious" confidence="0.9713259" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--White flight-->
+        <span>
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_flight" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--adoption-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Adoption" confidence="0.9988156" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--behavior-->
+        <span>
+          <target id="t24" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Behavior" confidence="0.9998255" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--people-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--thoughts-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--patriarchism-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--preference-->
+        <span>
+          <target id="t18" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DURATION" value="PXD">
+      <!--days-->
+      <span>
+        <target id="w13" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Preference_(economics)" confidence="0.492999177650053" spotted="true">
+      <!--preference-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Subconscious" confidence="0.9713258552040653" spotted="true">
+      <!--subconscious-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_flight" confidence="0.9999999975155731" spotted="true">
+      <!--White flight-->
+      <span>
+        <target id="w28" />
+        <target id="w29" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.9836832660376151" spotted="true">
+      <!--days-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Consciousness" confidence="0.9999873622077967" spotted="true">
+      <!--conscious-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Adoption" confidence="0.9988156096078231" spotted="true">
+      <!--adoption-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Behavior" confidence="0.9998254777416798" spotted="true">
+      <!--behavior-->
+      <span>
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 do : [t1 I]-->
+    <predicate id="f_pr4" source="semafor" confidence="63.80844498358086">
+      <!--do-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 think : A0[t1 I] A1[t5 people] AM-NEG[t3 n't]-->
+    <predicate id="f_pr5" source="semafor" confidence="55.204771816296386">
+      <!--think-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Opinion" />
+        <externalRef resource="PropBank" reference="think.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Opinion-think.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Cognizer" />
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="think.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="A1">
+        <!--people have any conscious thoughts about patriarchism these days-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Opinion" />
+          <externalRef resource="VerbNet" reference="wish-62@Theme" />
+          <externalRef resource="PropBank" reference="think.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Opinion" />
+        </externalReferences>
+      </role>
+      <role id="rl43" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 people : [t5 people] [t5 people]-->
+    <predicate id="f_pr6" source="semafor" confidence="40.6583305455539">
+      <!--people-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="FrameBase" reference="frame-People-people.n" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--people-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--people have any conscious thoughts about patriarchism these days-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Descriptor" />
+          <externalRef resource="FrameBase" reference="fe-People-Descriptor" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 have : A1[t7 any] A0[t5 people] AM-TMP[t12 these]-->
+    <predicate id="f_pr7" source="semafor" confidence="41.98587836538135">
+      <!--have-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl15" semRole="A1">
+        <!--any conscious thoughts about patriarchism-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A0">
+        <!--people-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+      <role id="rl40" semRole="AM-TMP">
+        <!--these days-->
+        <span>
+          <target id="t12" />
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 any : [t7 any] [t8 conscious]-->
+    <predicate id="f_pr8" source="semafor" confidence="22.324370685885437">
+      <!--any-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--any-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="">
+        <!--conscious-->
+        <span>
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 conscious : [t7 any]-->
+    <predicate id="f_pr9" source="semafor" confidence="51.8889327520884">
+      <!--conscious-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Consciousness" confidence="0.99998736" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-conscious.a" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--any conscious thoughts about patriarchism-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Expressor" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Expressor" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 thoughts : A2[t10 about] AM-MNR[t8 conscious] A0[t5 people]-->
+    <predicate id="f_pr10" source="semafor" confidence="62.03625225809199">
+      <!--thoughts-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="NomBank" reference="thought.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="PropBank" reference="think.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-think.v" />
+      </externalReferences>
+      <role id="rl20" semRole="A2">
+        <!--about patriarchism-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Topic" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Topic" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="AM-MNR">
+        <!--conscious-->
+        <span>
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Degree" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Degree" />
+        </externalReferences>
+      </role>
+      <role id="rl39" semRole="A0">
+        <!--people-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="think.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 days : [t12 these]-->
+    <predicate id="f_pr11" source="semafor" confidence="38.163059659326635">
+      <!--days-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Calendric_unit" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.9836833" />
+        <externalRef resource="FrameBase" reference="frame-Calendric_unit-day.n" />
+      </externalReferences>
+      <role id="rl22" semRole="">
+        <!--these days-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Unit" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Unit" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 preference : A1[t19 in]-->
+    <predicate id="pr13" source="mate">
+      <!--preference-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="preference.01" source="mate" />
+        <externalRef resource="VerbNet" reference="admire-31.2" />
+        <externalRef resource="PropBank" reference="prefer.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Preference_(economics)" confidence="0.49299917" />
+      </externalReferences>
+      <role id="rl25" semRole="A1">
+        <!--in adoption-->
+        <span>
+          <target id="t19" head="yes" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="admire-31.2@Stimulus" />
+          <externalRef resource="PropBank" reference="prefer.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t21 is : A2[t22 deeply] A1[t17 female]-->
+    <predicate id="pr14" source="mate">
+      <!--is-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl26" semRole="A2">
+        <!--deeply subconscious behavior , similar to White flight-->
+        <span>
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" head="yes" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </role>
+      <role id="rl27" semRole="A1">
+        <!--female preference in adoption-->
+        <span>
+          <target id="t17" />
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 suspect : A1[t17 female] A0[t15 I]-->
+    <predicate id="f_pr17" source="semafor" confidence="71.54843638251391">
+      <!--suspect-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="suspect.01" source="mate" />
+        <externalRef resource="VerbNet" reference="conjecture-29.5-1" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00921072-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-suspect.v" />
+      </externalReferences>
+      <role id="rl33" semRole="A1">
+        <!--female preference in adoption is deeply subconscious behavior , similar to White flight-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="VerbNet" reference="conjecture-29.5@Theme" />
+          <externalRef resource="PropBank" reference="suspect.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl34" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="conjecture-29.5@Agent" />
+          <externalRef resource="PropBank" reference="suspect.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t24 behavior : AM-TMP[t22 deeply] A1[t17 female] A0[t23 subconscious]-->
+    <predicate id="f_pr18" source="semafor" confidence="50.86644429773706">
+      <!--behavior-->
+      <span>
+        <target id="t24" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Conduct" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Behavior" confidence="0.9998255" />
+        <externalRef resource="NomBank" reference="behavior.01" source="mate" />
+        <externalRef resource="VerbNet" reference="masquerade-29.6" />
+        <externalRef resource="PropBank" reference="behave.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-00010435-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Behavior" confidence="0.9998255" />
+        <externalRef resource="FrameBase" reference="frame-Conduct-conduct.v" />
+      </externalReferences>
+      <role id="rl35" semRole="AM-TMP">
+        <!--deeply-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Conduct@Manner" />
+          <externalRef resource="FrameBase" reference="fe-Conduct-Manner" />
+        </externalReferences>
+      </role>
+      <role id="rl41" semRole="A1">
+        <!--female preference in adoption-->
+        <span>
+          <target id="t17" />
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="masquerade-29.6@Attribute" />
+          <externalRef resource="PropBank" reference="behave.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl42" semRole="A0">
+        <!--subconscious-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="masquerade-29.6@Agent" />
+          <externalRef resource="PropBank" reference="behave.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t26 similar : [t27 to]-->
+    <predicate id="f_pr19" source="semafor" confidence="65.37817255533618">
+      <!--similar-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Similarity" />
+        <externalRef resource="FrameBase" reference="frame-Similarity-similarity_((mass)).n" />
+      </externalReferences>
+      <role id="rl36" semRole="">
+        <!--to White-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Similarity@Entity_2" />
+          <externalRef resource="FrameBase" reference="fe-Similarity-Entity_2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t28 White : [t28 White]-->
+    <predicate id="f_pr20" source="semafor" confidence="48.503659140828255">
+      <!--White-->
+      <span>
+        <target id="t28" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+      </externalReferences>
+      <role id="rl37" semRole="">
+        <!--White-->
+        <span>
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 flight : A1[t28 White] A1[t28 White]-->
+    <predicate id="f_pr21" source="semafor" confidence="26.345412584197103">
+      <!--flight-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Architectural_part" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_flight" confidence="1.0" />
+        <externalRef resource="NomBank" reference="flight.01" source="mate" />
+        <externalRef resource="VerbNet" reference="spatial_configuration-47.6" />
+        <externalRef resource="PropBank" reference="fly.01" />
+        <externalRef resource="ESO" reference="Transportation" />
+        <externalRef resource="ESO" reference="Translocation" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01451842-v" />
+        <externalRef resource="WordNet" reference="ili-30-01847845-v" />
+        <externalRef resource="WordNet" reference="ili-30-01840238-v" />
+        <externalRef resource="WordNet" reference="ili-30-02140965-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_flight" confidence="1.0" />
+        <externalRef resource="FrameBase" reference="frame-Architectural_part-flight.n" />
+      </externalReferences>
+      <role id="rl38" semRole="A1">
+        <!--White flight-->
+        <span>
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Architectural_part@Part" />
+          <externalRef resource="VerbNet" reference="spatial_configuration-47.6@Theme" />
+          <externalRef resource="PropBank" reference="fly.01@1" />
+          <externalRef resource="ESO" reference="Translocation@translocation-theme" />
+          <externalRef resource="FrameBase" reference="fe-Architectural_part-Part" />
+        </externalReferences>
+      </role>
+      <role id="rl44" semRole="A1">
+        <!--White-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="spatial_configuration-47.6@Theme" />
+          <externalRef resource="PropBank" reference="fly.01@1" />
+          <externalRef resource="ESO" reference="Translocation@translocation-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 adoption :-->
+    <predicate id="pr22">
+      <!--adoption-->
+      <span>
+        <target id="t20" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="adoption.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB think) (NP (NP (NNS people)) (SBAR (S (VP (VBP have) (NP (NP (DT any) (JJ conscious) (NNS thoughts)) (PP (IN about) (NP (NN patriarchism)))))))) (NP-TMP (DT these) (NNS days)))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (PRP I)) (VP (VBP suspect) (SBAR (S (NP (NP (JJ female) (NN preference)) (PP (IN in) (NP (NN adoption)))) (VP (VBZ is) (ADVP (RB deeply)) (NP (NP (NN subconscious) (NN behavior)) (, ,) (NP (ADJP (JJ similar) (PP (TO to) (NP (NNP White)))) (NN flight))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="RB" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VB" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NNS" />
+      <nt id="nter13" label="SBAR" />
+      <nt id="nter14" label="S" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VBP" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="DT" />
+      <nt id="nter20" label="JJ" />
+      <nt id="nter21" label="NNS" />
+      <nt id="nter22" label="PP" />
+      <nt id="nter23" label="IN" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="NN" />
+      <nt id="nter26" label="NP-TMP" />
+      <nt id="nter27" label="DT" />
+      <nt id="nter28" label="NNS" />
+      <nt id="nter29" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--do-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--think-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--people-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--any-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--conscious-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--thoughts-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--about-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--patriarchism-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--these-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--days-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter5" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter10" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="nter16" to="nter15" head="yes" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter15" />
+      <edge id="tre24" from="nter18" to="nter17" head="yes" />
+      <edge id="tre25" from="nter19" to="nter18" />
+      <edge id="tre26" from="ter7" to="nter19" />
+      <edge id="tre27" from="nter20" to="nter18" />
+      <edge id="tre28" from="ter8" to="nter20" />
+      <edge id="tre29" from="nter21" to="nter18" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter17" />
+      <edge id="tre32" from="nter23" to="nter22" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter22" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter8" />
+      <edge id="tre38" from="nter27" to="nter26" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter26" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter2" />
+      <edge id="tre43" from="ter14" to="nter29" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter30" label="ROOT" />
+      <nt id="nter31" label="S" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="PRP" />
+      <nt id="nter34" label="VP" />
+      <nt id="nter35" label="VBP" />
+      <nt id="nter36" label="SBAR" />
+      <nt id="nter37" label="S" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="JJ" />
+      <nt id="nter41" label="NN" />
+      <nt id="nter42" label="PP" />
+      <nt id="nter43" label="IN" />
+      <nt id="nter44" label="NP" />
+      <nt id="nter45" label="NN" />
+      <nt id="nter46" label="VP" />
+      <nt id="nter47" label="VBZ" />
+      <nt id="nter48" label="ADVP" />
+      <nt id="nter49" label="RB" />
+      <nt id="nter50" label="NP" />
+      <nt id="nter51" label="NP" />
+      <nt id="nter52" label="NN" />
+      <nt id="nter53" label="NN" />
+      <nt id="nter54" label="," />
+      <nt id="nter55" label="NP" />
+      <nt id="nter56" label="ADJP" />
+      <nt id="nter57" label="JJ" />
+      <nt id="nter58" label="PP" />
+      <nt id="nter59" label="TO" />
+      <nt id="nter60" label="NP" />
+      <nt id="nter61" label="NNP" />
+      <nt id="nter62" label="NN" />
+      <nt id="nter63" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--suspect-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--female-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--preference-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--adoption-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--deeply-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--subconscious-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--behavior-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--similar-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--White-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--flight-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre45" from="nter31" to="nter30" head="yes" />
+      <edge id="tre46" from="nter32" to="nter31" />
+      <edge id="tre47" from="nter33" to="nter32" head="yes" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter31" head="yes" />
+      <edge id="tre50" from="nter35" to="nter34" head="yes" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter34" />
+      <edge id="tre53" from="nter37" to="nter36" head="yes" />
+      <edge id="tre54" from="nter38" to="nter37" />
+      <edge id="tre55" from="nter39" to="nter38" head="yes" />
+      <edge id="tre56" from="nter40" to="nter39" />
+      <edge id="tre57" from="ter17" to="nter40" />
+      <edge id="tre58" from="nter41" to="nter39" head="yes" />
+      <edge id="tre59" from="ter18" to="nter41" />
+      <edge id="tre60" from="nter42" to="nter38" />
+      <edge id="tre61" from="nter43" to="nter42" head="yes" />
+      <edge id="tre62" from="ter19" to="nter43" />
+      <edge id="tre63" from="nter44" to="nter42" />
+      <edge id="tre64" from="nter45" to="nter44" head="yes" />
+      <edge id="tre65" from="ter20" to="nter45" />
+      <edge id="tre66" from="nter46" to="nter37" head="yes" />
+      <edge id="tre67" from="nter47" to="nter46" head="yes" />
+      <edge id="tre68" from="ter21" to="nter47" />
+      <edge id="tre69" from="nter48" to="nter46" />
+      <edge id="tre70" from="nter49" to="nter48" head="yes" />
+      <edge id="tre71" from="ter22" to="nter49" />
+      <edge id="tre72" from="nter50" to="nter46" />
+      <edge id="tre73" from="nter51" to="nter50" head="yes" />
+      <edge id="tre74" from="nter52" to="nter51" />
+      <edge id="tre75" from="ter23" to="nter52" />
+      <edge id="tre76" from="nter53" to="nter51" head="yes" />
+      <edge id="tre77" from="ter24" to="nter53" />
+      <edge id="tre78" from="nter54" to="nter50" />
+      <edge id="tre79" from="ter25" to="nter54" />
+      <edge id="tre80" from="nter55" to="nter50" />
+      <edge id="tre81" from="nter56" to="nter55" />
+      <edge id="tre82" from="nter57" to="nter56" head="yes" />
+      <edge id="tre83" from="ter26" to="nter57" />
+      <edge id="tre84" from="nter58" to="nter56" />
+      <edge id="tre85" from="nter59" to="nter58" head="yes" />
+      <edge id="tre86" from="ter27" to="nter59" />
+      <edge id="tre87" from="nter60" to="nter58" />
+      <edge id="tre88" from="nter61" to="nter60" head="yes" />
+      <edge id="tre89" from="ter28" to="nter61" />
+      <edge id="tre90" from="nter62" to="nter55" head="yes" />
+      <edge id="tre91" from="ter29" to="nter62" />
+      <edge id="tre92" from="nter63" to="nter31" />
+      <edge id="tre93" from="ter30" to="nter63" />
+    </tree>
+  </constituency>
+</NAF>

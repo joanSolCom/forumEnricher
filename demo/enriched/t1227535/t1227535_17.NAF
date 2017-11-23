@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:41:03+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:41:03.655+0100" endTimestamp="2017-11-21T16:41:04.939+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:41:04.940+0100" endTimestamp="2017-11-21T16:41:04.940+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Applying for jobs.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Applying</wf>
+    <wf id="w2" sent="1" para="1" offset="9" length="3">for</wf>
+    <wf id="w3" sent="1" para="1" offset="13" length="4">jobs</wf>
+    <wf id="w4" sent="1" para="1" offset="17" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Applying-->
+    <term id="t1" type="open" lemma="apply" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t2" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--jobs-->
+    <term id="t3" type="open" lemma="job" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t4" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(Applying-1, for-2)-->
+    <dep from="t1" to="t2" rfunc="ADV" />
+    <!--PMOD(for-2, jobs-3)-->
+    <dep from="t2" to="t3" rfunc="PMOD" />
+    <!--P(Applying-1, .-4)-->
+    <dep from="t1" to="t4" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--jobs-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Employment" confidence="0.6207819476615505" spotted="true">
+      <!--jobs-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Applying : A1[t2 for]-->
+    <predicate id="f_pr2" source="semafor" confidence="118.07069975008731">
+      <!--Applying-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Using" />
+        <externalRef resource="PropBank" reference="apply.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Using-use.v" />
+      </externalReferences>
+      <role id="rl2" semRole="A1">
+        <!--for jobs-->
+        <span>
+          <target id="t2" head="yes" />
+          <target id="t3" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 jobs :-->
+    <predicate id="f_pr3" source="semafor" confidence="104.72735798047603">
+      <!--jobs-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Being_employed" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Employment" confidence="0.62078196" />
+        <externalRef resource="FrameBase" reference="frame-Being_employed-job.n" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (VBG Applying) (PP (IN for) (NP (NNS jobs)))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="VBG" />
+      <nt id="nter5" label="PP" />
+      <nt id="nter6" label="IN" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NNS" />
+      <nt id="nter9" label="." />
+      <!--Terminals-->
+      <!--Applying-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--jobs-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter2" />
+      <edge id="tre13" from="ter4" to="nter9" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:47+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:47.577+0100" endTimestamp="2017-11-21T16:39:47.941+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:47.943+0100" endTimestamp="2017-11-21T16:39:47.943+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I would be disgusted. But my convictions would be no different than they are now.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="5">would</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="2">be</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="9">disgusted</wf>
+    <wf id="w5" sent="1" para="1" offset="20" length="1">.</wf>
+    <wf id="w6" sent="2" para="1" offset="22" length="3">But</wf>
+    <wf id="w7" sent="2" para="1" offset="26" length="2">my</wf>
+    <wf id="w8" sent="2" para="1" offset="29" length="11">convictions</wf>
+    <wf id="w9" sent="2" para="1" offset="41" length="5">would</wf>
+    <wf id="w10" sent="2" para="1" offset="47" length="2">be</wf>
+    <wf id="w11" sent="2" para="1" offset="50" length="2">no</wf>
+    <wf id="w12" sent="2" para="1" offset="53" length="9">different</wf>
+    <wf id="w13" sent="2" para="1" offset="63" length="4">than</wf>
+    <wf id="w14" sent="2" para="1" offset="68" length="4">they</wf>
+    <wf id="w15" sent="2" para="1" offset="73" length="3">are</wf>
+    <wf id="w16" sent="2" para="1" offset="77" length="3">now</wf>
+    <wf id="w17" sent="2" para="1" offset="80" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t2" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t3" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--disgusted-->
+    <term id="t4" type="open" lemma="disgust" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t5" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--But-->
+    <term id="t6" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t7" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--convictions-->
+    <term id="t8" type="open" lemma="conviction" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t9" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t10" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--no-->
+    <term id="t11" type="open" lemma="no" pos="A" morphofeat="RB">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--different-->
+    <term id="t12" type="open" lemma="different" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--than-->
+    <term id="t13" type="open" lemma="than" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--they-->
+    <term id="t14" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t15" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--now-->
+    <term id="t16" type="open" lemma="now" pos="A" morphofeat="RB">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t17" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(would-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--VC(would-2, be-3)-->
+    <dep from="t2" to="t3" rfunc="VC" />
+    <!--VC(be-3, disgusted-4)-->
+    <dep from="t3" to="t4" rfunc="VC" />
+    <!--P(would-2, .-5)-->
+    <dep from="t2" to="t5" rfunc="P" />
+    <!--DEP(would-9, But-6)-->
+    <dep from="t9" to="t6" rfunc="DEP" />
+    <!--NMOD(convictions-8, my-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--SBJ(would-9, convictions-8)-->
+    <dep from="t9" to="t8" rfunc="SBJ" />
+    <!--VC(would-9, be-10)-->
+    <dep from="t9" to="t10" rfunc="VC" />
+    <!--AMOD(different-12, no-11)-->
+    <dep from="t12" to="t11" rfunc="AMOD" />
+    <!--PRD(be-10, different-12)-->
+    <dep from="t10" to="t12" rfunc="PRD" />
+    <!--AMOD(different-12, than-13)-->
+    <dep from="t12" to="t13" rfunc="AMOD" />
+    <!--SBJ(are-15, they-14)-->
+    <dep from="t15" to="t14" rfunc="SBJ" />
+    <!--SUB(than-13, are-15)-->
+    <dep from="t13" to="t15" rfunc="SUB" />
+    <!--TMP(are-15, now-16)-->
+    <dep from="t15" to="t16" rfunc="TMP" />
+    <!--P(would-9, .-17)-->
+    <dep from="t9" to="t17" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--convictions-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--they-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="PRESENT_REF">
+      <!--now-->
+      <span>
+        <target id="w16" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Conjunction_(grammar)" confidence="0.9363902304778002" spotted="true">
+      <!--But-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Conviction" confidence="0.9509716799356066" spotted="true">
+      <!--convictions-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 disgusted : AM-MOD[t1 I] A1[t1 I]-->
+    <predicate id="pr1" source="mate">
+      <!--disgusted-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="disgust.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01808374-v" />
+        <externalRef resource="WordNet" reference="ili-30-02194913-v" />
+      </externalReferences>
+      <role id="rl1" semRole="AM-MOD">
+        <!--I would be disgusted .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Experiencer" />
+          <externalRef resource="PropBank" reference="disgust.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 be : AM-MOD[t6 But] A1[t7 my] A2[t11 no] AM-DIS[t6 But]-->
+    <predicate id="pr3" source="mate">
+      <!--be-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl4" semRole="AM-MOD">
+        <!--But my convictions would be no different than they are now .-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" head="yes" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </role>
+      <role id="rl5" semRole="A1">
+        <!--my convictions-->
+        <span>
+          <target id="t7" />
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl6" semRole="A2">
+        <!--no different than they are now-->
+        <span>
+          <target id="t11" />
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </role>
+      <role id="rl7" semRole="AM-DIS">
+        <!--But-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t15 are : A1[t14 they] AM-TMP[t16 now]-->
+    <predicate id="pr4" source="mate">
+      <!--are-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl8" semRole="A1">
+        <!--they-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </role>
+      <role id="rl9" semRole="AM-TMP">
+        <!--now-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 convictions : A1[t7 my]-->
+    <predicate id="f_pr5" source="semafor" confidence="58.926648585062274">
+      <!--convictions-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Verdict" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Conviction" confidence="0.95097166" />
+        <externalRef resource="NomBank" reference="conviction.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Conviction" confidence="0.95097166" />
+        <externalRef resource="FrameBase" reference="frame-Verdict-conviction.n" />
+      </externalReferences>
+      <role id="rl12" semRole="A1">
+        <!--my-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t12 different : [t13 than]-->
+    <predicate id="f_pr6" source="semafor" confidence="58.982781258905405">
+      <!--different-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Similarity" />
+        <externalRef resource="FrameBase" reference="frame-Similarity-differ.v" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--than they are now-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Similarity@Dimension" />
+          <externalRef resource="FrameBase" reference="fe-Similarity-Dimension" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t16 now : [t13 than]-->
+    <predicate id="f_pr7" source="semafor" confidence="40.55115327634794">
+      <!--now-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_collocation" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_collocation-now.adv" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--than they are now-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Temporal_collocation@Trajector_event" />
+          <externalRef resource="FrameBase" reference="fe-Temporal_collocation-Trajector_event" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (MD would) (VP (VB be) (VP (VBN disgusted)))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (CC But) (NP (PRP$ my) (NNS convictions)) (VP (MD would) (VP (VB be) (ADJP (RB no) (JJ different)) (SBAR (IN than) (S (NP (PRP they)) (VP (VBP are) (ADVP (RB now))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="MD" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VB" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="VBN" />
+      <nt id="nter11" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--disgusted-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter2" />
+      <edge id="tre16" from="ter5" to="nter11" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter12" label="ROOT" />
+      <nt id="nter13" label="S" />
+      <nt id="nter14" label="CC" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="PRP$" />
+      <nt id="nter17" label="NNS" />
+      <nt id="nter18" label="VP" />
+      <nt id="nter19" label="MD" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VB" />
+      <nt id="nter22" label="ADJP" />
+      <nt id="nter23" label="RB" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="SBAR" />
+      <nt id="nter26" label="IN" />
+      <nt id="nter27" label="S" />
+      <nt id="nter28" label="NP" />
+      <nt id="nter29" label="PRP" />
+      <nt id="nter30" label="VP" />
+      <nt id="nter31" label="VBP" />
+      <nt id="nter32" label="ADVP" />
+      <nt id="nter33" label="RB" />
+      <nt id="nter34" label="." />
+      <!--Terminals-->
+      <!--But-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--convictions-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--no-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--different-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--than-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--they-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--now-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" head="yes" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter13" head="yes" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter18" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter20" />
+      <edge id="tre33" from="nter23" to="nter22" />
+      <edge id="tre34" from="ter11" to="nter23" />
+      <edge id="tre35" from="nter24" to="nter22" head="yes" />
+      <edge id="tre36" from="ter12" to="nter24" />
+      <edge id="tre37" from="nter25" to="nter20" />
+      <edge id="tre38" from="nter26" to="nter25" head="yes" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter25" />
+      <edge id="tre41" from="nter28" to="nter27" />
+      <edge id="tre42" from="nter29" to="nter28" head="yes" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter27" head="yes" />
+      <edge id="tre45" from="nter31" to="nter30" head="yes" />
+      <edge id="tre46" from="ter15" to="nter31" />
+      <edge id="tre47" from="nter32" to="nter30" />
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter13" />
+      <edge id="tre51" from="ter17" to="nter34" />
+    </tree>
+  </constituency>
+</NAF>

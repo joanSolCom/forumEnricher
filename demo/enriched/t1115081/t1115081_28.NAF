@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:28:35+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:28:35.217+0100" endTimestamp="2017-11-20T12:28:35.532+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:28:35.536+0100" endTimestamp="2017-11-20T12:28:35.536+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Ok, just for clarification........ Is it jewry or jewery.........or either or?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">Ok</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="4" length="4">just</wf>
+    <wf id="w4" sent="1" para="1" offset="9" length="3">for</wf>
+    <wf id="w5" sent="1" para="1" offset="13" length="13">clarification</wf>
+    <wf id="w6" sent="1" para="1" offset="26" length="3">...</wf>
+    <wf id="w7" sent="1" para="1" offset="33" length="1">.</wf>
+    <wf id="w8" sent="2" para="1" offset="35" length="2">Is</wf>
+    <wf id="w9" sent="2" para="1" offset="38" length="2">it</wf>
+    <wf id="w10" sent="2" para="1" offset="41" length="5">jewry</wf>
+    <wf id="w11" sent="2" para="1" offset="47" length="2">or</wf>
+    <wf id="w12" sent="2" para="1" offset="50" length="6">jewery</wf>
+    <wf id="w13" sent="2" para="1" offset="56" length="3">...</wf>
+    <wf id="w14" sent="2" para="1" offset="65" length="2">or</wf>
+    <wf id="w15" sent="2" para="1" offset="68" length="6">either</wf>
+    <wf id="w16" sent="2" para="1" offset="75" length="2">or</wf>
+    <wf id="w17" sent="2" para="1" offset="77" length="1">?</wf>
+  </text>
+  <terms>
+    <!--Ok-->
+    <term id="t1" type="open" lemma="Ok" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t3" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t4" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--clarification-->
+    <term id="t5" type="open" lemma="clarification" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t6" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t7" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--Is-->
+    <term id="t8" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t9" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--jewry-->
+    <term id="t10" type="open" lemma="jewry" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--or-->
+    <term id="t11" type="open" lemma="or" pos="C" morphofeat="CC">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--jewery-->
+    <term id="t12" type="open" lemma="jewery" pos="N" morphofeat="NN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t13" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--or-->
+    <term id="t14" type="open" lemma="or" pos="C" morphofeat="CC">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--either-->
+    <term id="t15" type="open" lemma="either" pos="D" morphofeat="DT">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--or-->
+    <term id="t16" type="open" lemma="or" pos="C" morphofeat="CC">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t17" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Ok-1, ,-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--PMOD(for-4, just-3)-->
+    <dep from="t4" to="t3" rfunc="PMOD" />
+    <!--ADV(Ok-1, for-4)-->
+    <dep from="t1" to="t4" rfunc="ADV" />
+    <!--PMOD(for-4, clarification-5)-->
+    <dep from="t4" to="t5" rfunc="PMOD" />
+    <!--P(Ok-1, ...-6)-->
+    <dep from="t1" to="t6" rfunc="P" />
+    <!--P(Ok-1, .-7)-->
+    <dep from="t1" to="t7" rfunc="P" />
+    <!--SBJ(Is-8, it-9)-->
+    <dep from="t8" to="t9" rfunc="SBJ" />
+    <!--OBJ(Is-8, jewry-10)-->
+    <dep from="t8" to="t10" rfunc="OBJ" />
+    <!--COORD(jewry-10, or-11)-->
+    <dep from="t10" to="t11" rfunc="COORD" />
+    <!--CONJ(or-11, jewery-12)-->
+    <dep from="t11" to="t12" rfunc="CONJ" />
+    <!--P(jewery-12, ...-13)-->
+    <dep from="t12" to="t13" rfunc="P" />
+    <!--COORD(jewery-12, or-14)-->
+    <dep from="t12" to="t14" rfunc="COORD" />
+    <!--CONJ(or-14, either-15)-->
+    <dep from="t14" to="t15" rfunc="CONJ" />
+    <!--COORD(either-15, or-16)-->
+    <dep from="t15" to="t16" rfunc="COORD" />
+    <!--P(Is-8, ?-17)-->
+    <dep from="t8" to="t17" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Ok-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ok_languages" confidence="0.7883626" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--clarification-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--jewry-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--jewery-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--it-->
+      <span>
+        <target id="t9" head="yes" />
+      </span>
+      <!--Ok-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ok_languages" confidence="0.7883625930594038" spotted="true">
+      <!--Ok-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Isaiah" confidence="0.7903075504925303" spotted="true">
+      <!--Is-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9908231209968169" spotted="true">
+      <!--jewry-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t8 Is : A2[t10 jewry] A1[t9 it]-->
+    <predicate id="pr1" source="mate">
+      <!--Is-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Isaiah" confidence="0.7903075" />
+      </externalReferences>
+      <role id="rl1" semRole="A2">
+        <!--jewry or jewery ... or either or-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A1">
+        <!--it-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 clarification :-->
+    <predicate id="pr2">
+      <!--clarification-->
+      <span>
+        <target id="t5" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="clarification.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (NNP Ok)) (PRN (, ,) (ADVP (RB just)) (PP (IN for) (NP (NN clarification)) (: ...))) (. .)))</tree>
+    <tree sentence="2">(ROOT (SQ (VBZ Is) (NP (PRP it)) (NP (NP (NN jewry)) (PP (CC or) (NP (NP (NN jewery)) (: ...) (CC or) (NP (NP (DT either)) (ADVP (CC or)))))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="PRN" />
+      <nt id="nter6" label="," />
+      <nt id="nter7" label="ADVP" />
+      <nt id="nter8" label="RB" />
+      <nt id="nter9" label="PP" />
+      <nt id="nter10" label="IN" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NN" />
+      <nt id="nter13" label=":" />
+      <nt id="nter14" label="." />
+      <!--Terminals-->
+      <!--Ok-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--clarification-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter5" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter9" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter2" />
+      <edge id="tre21" from="ter7" to="nter14" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter15" label="ROOT" />
+      <nt id="nter16" label="SQ" />
+      <nt id="nter17" label="VBZ" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="PRP" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="NN" />
+      <nt id="nter23" label="PP" />
+      <nt id="nter24" label="CC" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="NN" />
+      <nt id="nter28" label=":" />
+      <nt id="nter29" label="CC" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="DT" />
+      <nt id="nter33" label="ADVP" />
+      <nt id="nter34" label="CC" />
+      <nt id="nter35" label="." />
+      <!--Terminals-->
+      <!--Is-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--jewry-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--or-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--jewery-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--or-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--either-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--or-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="nter17" to="nter16" head="yes" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter16" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter16" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter20" />
+      <edge id="tre34" from="nter24" to="nter23" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter23" head="yes" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter25" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter25" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter25" />
+      <edge id="tre45" from="nter31" to="nter30" head="yes" />
+      <edge id="tre46" from="nter32" to="nter31" head="yes" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter30" />
+      <edge id="tre49" from="nter34" to="nter33" head="yes" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter16" />
+      <edge id="tre52" from="ter17" to="nter35" />
+    </tree>
+  </constituency>
+</NAF>

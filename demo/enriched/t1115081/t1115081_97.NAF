@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:31:25+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:31:25.173+0100" endTimestamp="2017-11-20T12:31:25.473+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:31:25.474+0100" endTimestamp="2017-11-20T12:31:25.475+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[A documentary how the Jews are destroying western civilization.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">A</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="11">documentary</wf>
+    <wf id="w3" sent="1" para="1" offset="14" length="3">how</wf>
+    <wf id="w4" sent="1" para="1" offset="18" length="3">the</wf>
+    <wf id="w5" sent="1" para="1" offset="22" length="4">Jews</wf>
+    <wf id="w6" sent="1" para="1" offset="27" length="3">are</wf>
+    <wf id="w7" sent="1" para="1" offset="31" length="10">destroying</wf>
+    <wf id="w8" sent="1" para="1" offset="42" length="7">western</wf>
+    <wf id="w9" sent="1" para="1" offset="50" length="12">civilization</wf>
+    <wf id="w10" sent="1" para="1" offset="62" length="1">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term id="t1" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--documentary-->
+    <term id="t2" type="open" lemma="documentary" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--how-->
+    <term id="t3" type="open" lemma="how" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t5" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t6" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--destroying-->
+    <term id="t7" type="open" lemma="destroy" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--western-->
+    <term id="t8" type="open" lemma="western" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--civilization-->
+    <term id="t9" type="open" lemma="civilization" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(documentary-2, A-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--TMP(are-6, documentary-2)-->
+    <dep from="t6" to="t2" rfunc="TMP" />
+    <!--MNR(are-6, how-3)-->
+    <dep from="t6" to="t3" rfunc="MNR" />
+    <!--NMOD(Jews-5, the-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--SBJ(are-6, Jews-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--VC(are-6, destroying-7)-->
+    <dep from="t6" to="t7" rfunc="VC" />
+    <!--NMOD(civilization-9, western-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--OBJ(destroying-7, civilization-9)-->
+    <dep from="t7" to="t9" rfunc="OBJ" />
+    <!--P(are-6, .-10)-->
+    <dep from="t6" to="t10" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9968983" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--documentary-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--civilization-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Documentary_film" confidence="0.9992747856027313" spotted="true">
+      <!--documentary-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9968983020980178" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Western_culture" confidence="0.8587218785265823" spotted="true">
+      <!--western civilization-->
+      <span>
+        <target id="w8" />
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Novgorod_Republic" confidence="0.6403777322374354" spotted="true">
+      <!--destroying-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t5 Jews : [t4 the]-->
+    <predicate id="f_pr2" source="semafor" confidence="38.719750939531494">
+      <!--Jews-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9968983" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--the Jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 destroying : [t3 how] A0[t4 the] A1[t8 western] A0[t1 A]-->
+    <predicate id="f_pr3" source="semafor" confidence="77.46770410047658">
+      <!--destroying-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Destroying" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Novgorod_Republic" confidence="0.64037776" />
+        <externalRef resource="PropBank" reference="destroy.01" source="mate" />
+        <externalRef resource="VerbNet" reference="destroy-44" />
+        <externalRef resource="ESO" reference="Destroying" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01564144-v" />
+        <externalRef resource="WordNet" reference="ili-30-01619929-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Novgorod_Republic" confidence="0.64037776" />
+        <externalRef resource="FrameBase" reference="frame-Destroying-raze.v" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--how-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Destroying@Manner" />
+          <externalRef resource="FrameBase" reference="fe-Destroying-Manner" />
+        </externalReferences>
+      </role>
+      <role id="rl6" semRole="A0">
+        <!--the Jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Destroying@Cause" />
+          <externalRef resource="VerbNet" reference="destroy-44@Agent" />
+          <externalRef resource="PropBank" reference="destroy.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Destroying-Cause" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="A1">
+        <!--western civilization-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Destroying@Undergoer" />
+          <externalRef resource="VerbNet" reference="destroy-44@Patient" />
+          <externalRef resource="PropBank" reference="destroy.01@1" />
+          <externalRef resource="ESO" reference="Destroying@destroying-theme" />
+          <externalRef resource="FrameBase" reference="fe-Destroying-Undergoer" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="A0">
+        <!--A documentary-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="destroy-44@Agent" />
+          <externalRef resource="PropBank" reference="destroy.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 western : [t8 western]-->
+    <predicate id="f_pr4" source="semafor" confidence="17.565583514695007">
+      <!--western-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_orientational" />
+        <externalRef resource="FrameBase" reference="frame-Part_orientational-western.a" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--western civilization-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_orientational@Part" />
+          <externalRef resource="FrameBase" reference="fe-Part_orientational-Part" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 documentary :-->
+    <predicate id="pr5">
+      <!--documentary-->
+      <span>
+        <target id="t2" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="documentary.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (DT A) (NN documentary) (SBAR (WHADVP (WRB how)) (S (NP (DT the) (NNPS Jews)) (VP (VBP are) (VP (VBG destroying) (NP (JJ western) (NN civilization)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="DT" />
+      <nt id="nter4" label="NN" />
+      <nt id="nter5" label="SBAR" />
+      <nt id="nter6" label="WHADVP" />
+      <nt id="nter7" label="WRB" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="DT" />
+      <nt id="nter11" label="NNPS" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBP" />
+      <nt id="nter14" label="VP" />
+      <nt id="nter15" label="VBG" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="JJ" />
+      <nt id="nter18" label="NN" />
+      <nt id="nter19" label="." />
+      <!--Terminals-->
+      <!--A-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--documentary-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--how-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--destroying-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--western-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--civilization-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" head="yes" />
+      <edge id="tre6" from="ter2" to="nter4" />
+      <edge id="tre7" from="nter5" to="nter2" />
+      <edge id="tre8" from="nter6" to="nter5" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter5" />
+      <edge id="tre12" from="nter9" to="nter8" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter8" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter12" />
+      <edge id="tre21" from="nter15" to="nter14" head="yes" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter14" />
+      <edge id="tre24" from="nter17" to="nter16" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter16" head="yes" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter2" />
+      <edge id="tre29" from="ter10" to="nter19" />
+    </tree>
+  </constituency>
+</NAF>

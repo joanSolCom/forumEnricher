@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:27:57+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:27:57.453+0100" endTimestamp="2017-11-20T12:27:58.954+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:27:58.957+0100" endTimestamp="2017-11-20T12:27:58.957+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I dont like you comparing my race to a filthy feeling jew boy]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="4">dont</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="4">like</wf>
+    <wf id="w4" sent="1" para="1" offset="12" length="3">you</wf>
+    <wf id="w5" sent="1" para="1" offset="16" length="9">comparing</wf>
+    <wf id="w6" sent="1" para="1" offset="26" length="2">my</wf>
+    <wf id="w7" sent="1" para="1" offset="29" length="4">race</wf>
+    <wf id="w8" sent="1" para="1" offset="34" length="2">to</wf>
+    <wf id="w9" sent="1" para="1" offset="37" length="1">a</wf>
+    <wf id="w10" sent="1" para="1" offset="39" length="6">filthy</wf>
+    <wf id="w11" sent="1" para="1" offset="46" length="7">feeling</wf>
+    <wf id="w12" sent="1" para="1" offset="54" length="3">jew</wf>
+    <wf id="w13" sent="1" para="1" offset="58" length="3">boy</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--dont-->
+    <term id="t2" type="open" lemma="dont" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--like-->
+    <term id="t3" type="open" lemma="like" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t4" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--comparing-->
+    <term id="t5" type="open" lemma="compare" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t6" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--race-->
+    <term id="t7" type="open" lemma="race" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t8" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t9" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--filthy-->
+    <term id="t10" type="open" lemma="filthy" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--feeling-->
+    <term id="t11" type="open" lemma="feeling" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--jew-->
+    <term id="t12" type="open" lemma="jew" pos="N" morphofeat="NN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--boy-->
+    <term id="t13" type="open" lemma="boy" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(dont-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--OBJ(dont-2, like-3)-->
+    <dep from="t2" to="t3" rfunc="OBJ" />
+    <!--SBJ(comparing-5, you-4)-->
+    <dep from="t5" to="t4" rfunc="SBJ" />
+    <!--SUB(like-3, comparing-5)-->
+    <dep from="t3" to="t5" rfunc="SUB" />
+    <!--NMOD(race-7, my-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--OBJ(comparing-5, race-7)-->
+    <dep from="t5" to="t7" rfunc="OBJ" />
+    <!--ADV(comparing-5, to-8)-->
+    <dep from="t5" to="t8" rfunc="ADV" />
+    <!--NMOD(boy-13, a-9)-->
+    <dep from="t13" to="t9" rfunc="NMOD" />
+    <!--NMOD(boy-13, filthy-10)-->
+    <dep from="t13" to="t10" rfunc="NMOD" />
+    <!--NMOD(boy-13, feeling-11)-->
+    <dep from="t13" to="t11" rfunc="NMOD" />
+    <!--NMOD(boy-13, jew-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--PMOD(to-8, boy-13)-->
+    <dep from="t8" to="t13" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--jew boy-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jew_Boy" confidence="0.99993664" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--race-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--feeling-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+      <!--my-->
+      <span>
+        <target id="t6" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Comparative_linguistics" confidence="0.5576590337277931" spotted="true">
+      <!--comparing-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jew_Boy" confidence="0.9999366355075423" spotted="true">
+      <!--jew boy-->
+      <span>
+        <target id="w12" />
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_(human_classification)" confidence="0.6331232936168584" spotted="true">
+      <!--race-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t5 comparing : A1[t6 my] A0[t4 you] A2[t8 to]-->
+    <predicate id="f_pr4" source="semafor" confidence="33.69826887059632">
+      <!--comparing-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Evaluative_comparison" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Comparative_linguistics" confidence="0.55765903" />
+        <externalRef resource="PropBank" reference="compare.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Comparative_linguistics" confidence="0.55765903" />
+        <externalRef resource="FrameBase" reference="frame-Evaluative_comparison-compare.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--my race-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Evaluative_comparison@Standard_item" />
+          <externalRef resource="FrameBase" reference="fe-Evaluative_comparison-Standard_item" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Evaluative_comparison@Profiled_item" />
+          <externalRef resource="FrameBase" reference="fe-Evaluative_comparison-Profiled_item" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A2">
+        <!--to a filthy feeling jew boy-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 race : A2[t8 to] A2[t6 my] A2[t4 you]-->
+    <predicate id="f_pr5" source="semafor" confidence="18.79579849320249">
+      <!--race-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Type" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_(human_classification)" confidence="0.6331233" />
+        <externalRef resource="NomBank" reference="race.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_(human_classification)" confidence="0.6331233" />
+        <externalRef resource="FrameBase" reference="frame-Type-race.n" />
+      </externalReferences>
+      <role id="rl16" semRole="A2">
+        <!--to a filthy feeling jew boy-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </role>
+      <role id="rl17" semRole="A2">
+        <!--my-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+      <role id="rl18" semRole="A2">
+        <!--you-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t11 feeling :-->
+    <predicate id="f_pr6" source="semafor" confidence="11.628866222788355">
+      <!--feeling-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Feeling" />
+      </externalReferences>
+    </predicate>
+    <!--t12 jew : [t12 jew]-->
+    <predicate id="f_pr7" source="semafor" confidence="35.13574272138704">
+      <!--jew-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="FrameBase" reference="frame-People_by_religion-jew.n" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--jew-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 boy : [t9 a] [t12 jew]-->
+    <predicate id="f_pr8" source="semafor" confidence="36.629591342346075">
+      <!--boy-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_age" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jew_Boy" confidence="0.99993664" />
+        <externalRef resource="FrameBase" reference="frame-People_by_age-boy.n" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--a filthy feeling jew boy-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_age@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_age-Person" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--jew-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_age@Age" />
+          <externalRef resource="FrameBase" reference="fe-People_by_age-Age" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBP dont) (PP (IN like) (S (NP (PRP you)) (VP (VBG comparing) (NP (PRP$ my) (NN race)) (PP (TO to) (NP (DT a) (JJ filthy) (NN feeling) (NN jew) (NN boy)))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="PP" />
+      <nt id="nter8" label="IN" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="PRP" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBG" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="PRP$" />
+      <nt id="nter16" label="NN" />
+      <nt id="nter17" label="PP" />
+      <nt id="nter18" label="TO" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="DT" />
+      <nt id="nter21" label="JJ" />
+      <nt id="nter22" label="NN" />
+      <nt id="nter23" label="NN" />
+      <nt id="nter24" label="NN" />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--dont-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--like-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--comparing-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--race-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--filthy-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--feeling-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--jew-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--boy-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter9" head="yes" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter12" />
+      <edge id="tre20" from="nter15" to="nter14" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter14" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter12" />
+      <edge id="tre25" from="nter18" to="nter17" head="yes" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter17" />
+      <edge id="tre28" from="nter20" to="nter19" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter19" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter19" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter19" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter19" head="yes" />
+      <edge id="tre37" from="ter13" to="nter24" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:37:19+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:37:19.119+0100" endTimestamp="2017-11-21T16:37:19.390+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:37:19.392+0100" endTimestamp="2017-11-21T16:37:19.392+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Exactly it! Well said.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="7">Exactly</wf>
+    <wf id="w2" sent="1" para="1" offset="8" length="2">it</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="1">!</wf>
+    <wf id="w4" sent="2" para="1" offset="12" length="4">Well</wf>
+    <wf id="w5" sent="2" para="1" offset="17" length="4">said</wf>
+    <wf id="w6" sent="2" para="1" offset="21" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Exactly-->
+    <term id="t1" type="open" lemma="exactly" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t2" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--!-->
+    <term id="t3" type="open" lemma="!" pos="O" morphofeat=".">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Well-->
+    <term id="t4" type="open" lemma="Well" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--said-->
+    <term id="t5" type="open" lemma="say" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(Exactly-1, it-2)-->
+    <dep from="t1" to="t2" rfunc="NMOD" />
+    <!--P(Exactly-1, !-3)-->
+    <dep from="t1" to="t3" rfunc="P" />
+    <!--SBJ(said-5, Well-4)-->
+    <dep from="t5" to="t4" rfunc="SBJ" />
+    <!--P(said-5, .-6)-->
+    <dep from="t5" to="t6" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Well-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Water_well" confidence="0.958482" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Water_well" confidence="0.9584820320391937" spotted="true">
+      <!--Well-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Exactly : [t2 it]-->
+    <predicate id="f_pr1" source="semafor" confidence="37.52697871003786">
+      <!--Exactly-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--it-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 said : [t6 .] A0[t4 Well]-->
+    <predicate id="f_pr3" source="semafor" confidence="148.54575813684158">
+      <!--said-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Statement" />
+        <externalRef resource="PropBank" reference="say.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00923197-v" />
+        <externalRef resource="WordNet" reference="ili-30-00746718-v" />
+        <externalRef resource="WordNet" reference="ili-30-01009240-v" />
+        <externalRef resource="WordNet" reference="ili-30-01016002-v" />
+        <externalRef resource="WordNet" reference="ili-30-00979870-v" />
+        <externalRef resource="WordNet" reference="ili-30-00674607-v" />
+        <externalRef resource="WordNet" reference="ili-30-00679389-v" />
+        <externalRef resource="FrameBase" reference="frame-Statement-say.v" />
+      </externalReferences>
+      <role id="rl3" semRole="">
+        <!--.-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Message" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl4" semRole="A0">
+        <!--Well-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Speaker" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="say.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Speaker" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (ADVP (RB Exactly)) (NP (PRP it)) (. !)))</tree>
+    <tree sentence="2">(ROOT (S (NP (NNP Well)) (VP (VBD said)) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="ADVP" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="PRP" />
+      <nt id="nter7" label="." />
+      <!--Terminals-->
+      <!--Exactly-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--!-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter2" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter8" label="ROOT" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NNP" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBD" />
+      <nt id="nter14" label="." />
+      <!--Terminals-->
+      <!--Well-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--said-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter9" head="yes" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter9" />
+      <edge id="tre20" from="ter6" to="nter14" />
+    </tree>
+  </constituency>
+</NAF>

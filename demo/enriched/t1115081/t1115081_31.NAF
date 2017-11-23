@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:28:42+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:28:42.149+0100" endTimestamp="2017-11-20T12:28:42.706+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:28:42.708+0100" endTimestamp="2017-11-20T12:28:42.709+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I'll touch on how I think this understanding is relevant in the morning over my coffee.......or at least I hope so.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="1" length="3">'ll</wf>
+    <wf id="w3" sent="1" para="1" offset="5" length="5">touch</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="2">on</wf>
+    <wf id="w5" sent="1" para="1" offset="14" length="3">how</wf>
+    <wf id="w6" sent="1" para="1" offset="18" length="1">I</wf>
+    <wf id="w7" sent="1" para="1" offset="20" length="5">think</wf>
+    <wf id="w8" sent="1" para="1" offset="26" length="4">this</wf>
+    <wf id="w9" sent="1" para="1" offset="31" length="13">understanding</wf>
+    <wf id="w10" sent="1" para="1" offset="45" length="2">is</wf>
+    <wf id="w11" sent="1" para="1" offset="48" length="8">relevant</wf>
+    <wf id="w12" sent="1" para="1" offset="57" length="2">in</wf>
+    <wf id="w13" sent="1" para="1" offset="60" length="3">the</wf>
+    <wf id="w14" sent="1" para="1" offset="64" length="7">morning</wf>
+    <wf id="w15" sent="1" para="1" offset="72" length="4">over</wf>
+    <wf id="w16" sent="1" para="1" offset="77" length="2">my</wf>
+    <wf id="w17" sent="1" para="1" offset="80" length="6">coffee</wf>
+    <wf id="w18" sent="1" para="1" offset="86" length="3">...</wf>
+    <wf id="w19" sent="1" para="1" offset="93" length="2">or</wf>
+    <wf id="w20" sent="1" para="1" offset="96" length="2">at</wf>
+    <wf id="w21" sent="1" para="1" offset="99" length="5">least</wf>
+    <wf id="w22" sent="1" para="1" offset="105" length="1">I</wf>
+    <wf id="w23" sent="1" para="1" offset="107" length="4">hope</wf>
+    <wf id="w24" sent="1" para="1" offset="112" length="2">so</wf>
+    <wf id="w25" sent="1" para="1" offset="114" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--'ll-->
+    <term id="t2" type="open" lemma="will" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--touch-->
+    <term id="t3" type="open" lemma="touch" pos="V" morphofeat="VB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t4" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--how-->
+    <term id="t5" type="open" lemma="how" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t6" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--think-->
+    <term id="t7" type="open" lemma="think" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t8" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--understanding-->
+    <term id="t9" type="open" lemma="understanding" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t10" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--relevant-->
+    <term id="t11" type="open" lemma="relevant" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t12" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t13" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--morning-->
+    <term id="t14" type="open" lemma="morning" pos="N" morphofeat="NN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--over-->
+    <term id="t15" type="open" lemma="over" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t16" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--coffee-->
+    <term id="t17" type="open" lemma="coffee" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t18" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--or-->
+    <term id="t19" type="open" lemma="or" pos="C" morphofeat="CC">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t20" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--least-->
+    <term id="t21" type="open" lemma="least" pos="G" morphofeat="JJS">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t22" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--hope-->
+    <term id="t23" type="open" lemma="hope" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--so-->
+    <term id="t24" type="open" lemma="so" pos="A" morphofeat="RB">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t25" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ('ll-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--VC('ll-2, touch-3)-->
+    <dep from="t2" to="t3" rfunc="VC" />
+    <!--ADV(touch-3, on-4)-->
+    <dep from="t3" to="t4" rfunc="ADV" />
+    <!--MNR(think-7, how-5)-->
+    <dep from="t7" to="t5" rfunc="MNR" />
+    <!--SBJ(think-7, I-6)-->
+    <dep from="t7" to="t6" rfunc="SBJ" />
+    <!--TMP(touch-3, think-7)-->
+    <dep from="t3" to="t7" rfunc="TMP" />
+    <!--NMOD(understanding-9, this-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--SBJ(is-10, understanding-9)-->
+    <dep from="t10" to="t9" rfunc="SBJ" />
+    <!--OBJ(think-7, is-10)-->
+    <dep from="t7" to="t10" rfunc="OBJ" />
+    <!--ADV(is-10, relevant-11)-->
+    <dep from="t10" to="t11" rfunc="ADV" />
+    <!--TMP(is-10, in-12)-->
+    <dep from="t10" to="t12" rfunc="TMP" />
+    <!--NMOD(morning-14, the-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--PMOD(in-12, morning-14)-->
+    <dep from="t12" to="t14" rfunc="PMOD" />
+    <!--ADV(is-10, over-15)-->
+    <dep from="t10" to="t15" rfunc="ADV" />
+    <!--NMOD(coffee-17, my-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--PMOD(over-15, coffee-17)-->
+    <dep from="t15" to="t17" rfunc="PMOD" />
+    <!--P(think-7, ...-18)-->
+    <dep from="t7" to="t18" rfunc="P" />
+    <!--COORD(think-7, or-19)-->
+    <dep from="t7" to="t19" rfunc="COORD" />
+    <!--ADV(hope-23, at-20)-->
+    <dep from="t23" to="t20" rfunc="ADV" />
+    <!--AMOD(at-20, least-21)-->
+    <dep from="t20" to="t21" rfunc="AMOD" />
+    <!--SBJ(hope-23, I-22)-->
+    <dep from="t23" to="t22" rfunc="SBJ" />
+    <!--CONJ(or-19, hope-23)-->
+    <dep from="t19" to="t23" rfunc="CONJ" />
+    <!--ADV(hope-23, so-24)-->
+    <dep from="t23" to="t24" rfunc="ADV" />
+    <!--P('ll-2, .-25)-->
+    <dep from="t2" to="t25" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--morning-->
+        <span>
+          <target id="t14" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Morning" confidence="0.9342385" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--coffee-->
+        <span>
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Coffee" confidence="0.9995307" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--understanding-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+      <!--I-->
+      <span>
+        <target id="t6" head="yes" />
+      </span>
+      <!--my-->
+      <span>
+        <target id="t16" head="yes" />
+      </span>
+      <!--I-->
+      <span>
+        <target id="t22" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+    <timex3 id="tmx1" type="TIME" value="2017-11-20TMO">
+      <!--morning-->
+      <span>
+        <target id="w14" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I'll" confidence="0.7380424647728412" spotted="true">
+      <!--I 'll-->
+      <span>
+        <target id="w1" />
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Relevance_(information_retrieval)" confidence="0.5370676572089926" spotted="true">
+      <!--relevant-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Morning" confidence="0.9342385033977975" spotted="true">
+      <!--morning-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Coffee" confidence="0.9995306468341977" spotted="true">
+      <!--coffee-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I_Hope_(Rebecca_Ferguson_song)" confidence="0.9640688628468999" spotted="true">
+      <!--I hope-->
+      <span>
+        <target id="w22" />
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t10 is : AM-TMP[t12 in] A2[t11 relevant] A1[t8 this] A2[t15 over]-->
+    <predicate id="pr3" source="mate">
+      <!--is-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl7" semRole="AM-TMP">
+        <!--in the morning-->
+        <span>
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </role>
+      <role id="rl8" semRole="A2">
+        <!--relevant-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </role>
+      <role id="rl9" semRole="A1">
+        <!--this understanding-->
+        <span>
+          <target id="t8" />
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+      <role id="rl10" semRole="A2">
+        <!--over my coffee-->
+        <span>
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </role>
+    </predicate>
+    <!--t20 at : [t22 I] [t20 at]-->
+    <predicate id="f_pr5" source="semafor" confidence="26.270556556111238">
+      <!--at least-->
+      <span>
+        <target id="t20" />
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+        <externalRef resource="FrameBase" reference="frame-Relational_quantity-at_least.adv" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--I-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Individuals" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="">
+        <!--at least-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 touch : A0[t1 I] [t4 on] AM-MOD[t1 I] A1[t4 on] AM-TMP[t5 how]-->
+    <predicate id="f_pr6" source="semafor" confidence="32.955406338635655">
+      <!--touch-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Stimulus_focus" />
+        <externalRef resource="PropBank" reference="touch.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01770802-v" />
+        <externalRef resource="WordNet" reference="ili-30-01205696-v" />
+        <externalRef resource="WordNet" reference="ili-30-02676054-v" />
+        <externalRef resource="WordNet" reference="ili-30-01206218-v" />
+      </externalReferences>
+      <role id="rl16" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Stimulus_focus@Experiencer" />
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="touch.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Stimulus_focus-Experiencer" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="">
+        <!--on how I think this understanding is relevant in the morning over my coffee-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Stimulus_focus@Stimulus" />
+          <externalRef resource="FrameBase" reference="fe-Stimulus_focus-Stimulus" />
+        </externalReferences>
+      </role>
+      <role id="rl25" semRole="AM-MOD">
+        <!--I 'll touch on how I think this understanding is relevant in the morning over my coffee ... or at least I hope so .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+      </role>
+      <role id="rl26" semRole="A1">
+        <!--on-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Experiencer" />
+          <externalRef resource="PropBank" reference="touch.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl27" semRole="AM-TMP">
+        <!--how I think this understanding is relevant in the morning over my coffee ... or at least I hope so-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" head="yes" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 think : A1[t8 this] A0[t6 I]-->
+    <predicate id="f_pr7" source="semafor" confidence="70.83015452774636">
+      <!--think-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="think.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-think.v" />
+      </externalReferences>
+      <role id="rl18" semRole="A1">
+        <!--this understanding is relevant in the morning over my coffee-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="VerbNet" reference="wish-62@Theme" />
+          <externalRef resource="PropBank" reference="think.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="think.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 understanding : [t8 this]-->
+    <predicate id="f_pr8" source="semafor" confidence="59.08816215367226">
+      <!--understanding-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl20" semRole="">
+        <!--this understanding-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 morning : [t15 over] [t13 the]-->
+    <predicate id="f_pr9" source="semafor" confidence="28.760579046780173">
+      <!--morning-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Calendric_unit" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Morning" confidence="0.9342385" />
+        <externalRef resource="FrameBase" reference="frame-Calendric_unit-morn.n" />
+      </externalReferences>
+      <role id="rl21" semRole="">
+        <!--over my coffee-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Relative_time" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Relative_time" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="">
+        <!--the morning-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Unit" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Unit" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 coffee : [t16 my]-->
+    <predicate id="f_pr10" source="semafor" confidence="23.563493641282623">
+      <!--coffee-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Food" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Coffee" confidence="0.9995307" />
+        <externalRef resource="FrameBase" reference="frame-Food-coffee.n" />
+      </externalReferences>
+      <role id="rl23" semRole="">
+        <!--my coffee-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Food@Food" />
+          <externalRef resource="FrameBase" reference="fe-Food-Food" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 hope : A0[t22 I] AM-ADV[t20 at] A1[t24 so]-->
+    <predicate id="f_pr11" source="semafor" confidence="75.60052143512452">
+      <!--hope-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Desiring" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I_Hope_(Rebecca_Ferguson_song)" confidence="0.9640689" />
+        <externalRef resource="PropBank" reference="hope.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-01826723-v" />
+        <externalRef resource="WordNet" reference="ili-30-00706047-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I_Hope_(Rebecca_Ferguson_song)" confidence="0.9640689" />
+        <externalRef resource="FrameBase" reference="frame-Desiring-hope.v" />
+      </externalReferences>
+      <role id="rl24" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Desiring@Experiencer" />
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="hope.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Desiring-Experiencer" />
+        </externalReferences>
+      </role>
+      <role id="rl28" semRole="AM-ADV">
+        <!--at least-->
+        <span>
+          <target id="t20" head="yes" />
+          <target id="t21" />
+        </span>
+      </role>
+      <role id="rl29" semRole="A1">
+        <!--so-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="wish-62@Theme" />
+          <externalRef resource="PropBank" reference="hope.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (NP (PRP I)) (VP (MD 'll) (VP (VB touch) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (DT this) (NN understanding)) (VP (VBZ is) (ADJP (JJ relevant) (PP (IN in) (NP (NP (DT the) (NN morning)) (PP (IN over) (NP (PRP$ my) (NN coffee)))))))))))))))) (: ...) (CC or) (ADVP (IN at) (JJS least)) (S (NP (PRP I)) (VP (VBP hope) (ADVP (RB so)))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="MD" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VB" />
+      <nt id="nter10" label="PP" />
+      <nt id="nter11" label="IN" />
+      <nt id="nter12" label="SBAR" />
+      <nt id="nter13" label="WHADVP" />
+      <nt id="nter14" label="WRB" />
+      <nt id="nter15" label="S" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="PRP" />
+      <nt id="nter18" label="VP" />
+      <nt id="nter19" label="VBP" />
+      <nt id="nter20" label="SBAR" />
+      <nt id="nter21" label="S" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="DT" />
+      <nt id="nter24" label="NN" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VBZ" />
+      <nt id="nter27" label="ADJP" />
+      <nt id="nter28" label="JJ" />
+      <nt id="nter29" label="PP" />
+      <nt id="nter30" label="IN" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="DT" />
+      <nt id="nter34" label="NN" />
+      <nt id="nter35" label="PP" />
+      <nt id="nter36" label="IN" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="PRP$" />
+      <nt id="nter39" label="NN" />
+      <nt id="nter40" label=":" />
+      <nt id="nter41" label="CC" />
+      <nt id="nter42" label="ADVP" />
+      <nt id="nter43" label="IN" />
+      <nt id="nter44" label="JJS" />
+      <nt id="nter45" label="S" />
+      <nt id="nter46" label="NP" />
+      <nt id="nter47" label="PRP" />
+      <nt id="nter48" label="VP" />
+      <nt id="nter49" label="VBP" />
+      <nt id="nter50" label="ADVP" />
+      <nt id="nter51" label="RB" />
+      <nt id="nter52" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--'ll-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--touch-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--how-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--think-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--understanding-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--relevant-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--morning-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--over-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--coffee-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--or-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--least-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--hope-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--so-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter12" />
+      <edge id="tre21" from="nter16" to="nter15" />
+      <edge id="tre22" from="nter17" to="nter16" head="yes" />
+      <edge id="tre23" from="ter6" to="nter17" />
+      <edge id="tre24" from="nter18" to="nter15" head="yes" />
+      <edge id="tre25" from="nter19" to="nter18" head="yes" />
+      <edge id="tre26" from="ter7" to="nter19" />
+      <edge id="tre27" from="nter20" to="nter18" />
+      <edge id="tre28" from="nter21" to="nter20" head="yes" />
+      <edge id="tre29" from="nter22" to="nter21" />
+      <edge id="tre30" from="nter23" to="nter22" />
+      <edge id="tre31" from="ter8" to="nter23" />
+      <edge id="tre32" from="nter24" to="nter22" head="yes" />
+      <edge id="tre33" from="ter9" to="nter24" />
+      <edge id="tre34" from="nter25" to="nter21" head="yes" />
+      <edge id="tre35" from="nter26" to="nter25" head="yes" />
+      <edge id="tre36" from="ter10" to="nter26" />
+      <edge id="tre37" from="nter27" to="nter25" />
+      <edge id="tre38" from="nter28" to="nter27" head="yes" />
+      <edge id="tre39" from="ter11" to="nter28" />
+      <edge id="tre40" from="nter29" to="nter27" />
+      <edge id="tre41" from="nter30" to="nter29" head="yes" />
+      <edge id="tre42" from="ter12" to="nter30" />
+      <edge id="tre43" from="nter31" to="nter29" />
+      <edge id="tre44" from="nter32" to="nter31" head="yes" />
+      <edge id="tre45" from="nter33" to="nter32" />
+      <edge id="tre46" from="ter13" to="nter33" />
+      <edge id="tre47" from="nter34" to="nter32" head="yes" />
+      <edge id="tre48" from="ter14" to="nter34" />
+      <edge id="tre49" from="nter35" to="nter31" />
+      <edge id="tre50" from="nter36" to="nter35" head="yes" />
+      <edge id="tre51" from="ter15" to="nter36" />
+      <edge id="tre52" from="nter37" to="nter35" />
+      <edge id="tre53" from="nter38" to="nter37" />
+      <edge id="tre54" from="ter16" to="nter38" />
+      <edge id="tre55" from="nter39" to="nter37" head="yes" />
+      <edge id="tre56" from="ter17" to="nter39" />
+      <edge id="tre57" from="nter40" to="nter2" />
+      <edge id="tre58" from="ter18" to="nter40" />
+      <edge id="tre59" from="nter41" to="nter2" />
+      <edge id="tre60" from="ter19" to="nter41" />
+      <edge id="tre61" from="nter42" to="nter2" />
+      <edge id="tre62" from="nter43" to="nter42" head="yes" />
+      <edge id="tre63" from="ter20" to="nter43" />
+      <edge id="tre64" from="nter44" to="nter42" />
+      <edge id="tre65" from="ter21" to="nter44" />
+      <edge id="tre66" from="nter45" to="nter2" />
+      <edge id="tre67" from="nter46" to="nter45" />
+      <edge id="tre68" from="nter47" to="nter46" head="yes" />
+      <edge id="tre69" from="ter22" to="nter47" />
+      <edge id="tre70" from="nter48" to="nter45" head="yes" />
+      <edge id="tre71" from="nter49" to="nter48" head="yes" />
+      <edge id="tre72" from="ter23" to="nter49" />
+      <edge id="tre73" from="nter50" to="nter48" />
+      <edge id="tre74" from="nter51" to="nter50" head="yes" />
+      <edge id="tre75" from="ter24" to="nter51" />
+      <edge id="tre76" from="nter52" to="nter2" />
+      <edge id="tre77" from="ter25" to="nter52" />
+    </tree>
+  </constituency>
+</NAF>

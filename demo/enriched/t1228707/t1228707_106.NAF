@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:58+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:58.289+0100" endTimestamp="2017-11-21T16:36:58.709+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:58.711+0100" endTimestamp="2017-11-21T16:36:58.711+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Before Jews (via their banking establishment and the power that comes with it) it was Freemasonry.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="6">Before</wf>
+    <wf id="w2" sent="1" para="1" offset="7" length="4">Jews</wf>
+    <wf id="w3" sent="1" para="1" offset="12" length="1">(</wf>
+    <wf id="w4" sent="1" para="1" offset="13" length="3">via</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="5">their</wf>
+    <wf id="w6" sent="1" para="1" offset="23" length="7">banking</wf>
+    <wf id="w7" sent="1" para="1" offset="31" length="13">establishment</wf>
+    <wf id="w8" sent="1" para="1" offset="45" length="3">and</wf>
+    <wf id="w9" sent="1" para="1" offset="49" length="3">the</wf>
+    <wf id="w10" sent="1" para="1" offset="53" length="5">power</wf>
+    <wf id="w11" sent="1" para="1" offset="59" length="4">that</wf>
+    <wf id="w12" sent="1" para="1" offset="64" length="5">comes</wf>
+    <wf id="w13" sent="1" para="1" offset="70" length="4">with</wf>
+    <wf id="w14" sent="1" para="1" offset="75" length="2">it</wf>
+    <wf id="w15" sent="1" para="1" offset="77" length="1">)</wf>
+    <wf id="w16" sent="1" para="1" offset="79" length="2">it</wf>
+    <wf id="w17" sent="1" para="1" offset="82" length="3">was</wf>
+    <wf id="w18" sent="1" para="1" offset="86" length="11">Freemasonry</wf>
+    <wf id="w19" sent="1" para="1" offset="97" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Before-->
+    <term id="t1" type="open" lemma="before" pos="P" morphofeat="IN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t2" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t3" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--via-->
+    <term id="t4" type="open" lemma="via" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t5" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--banking-->
+    <term id="t6" type="open" lemma="banking" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--establishment-->
+    <term id="t7" type="open" lemma="establishment" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t8" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t9" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--power-->
+    <term id="t10" type="open" lemma="power" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t11" type="open" lemma="that" pos="O" morphofeat="WDT">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--comes-->
+    <term id="t12" type="open" lemma="come" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--with-->
+    <term id="t13" type="open" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t14" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t15" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t16" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t17" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--Freemasonry-->
+    <term id="t18" type="open" lemma="Freemasonry" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t19" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--TMP(was-17, Before-1)-->
+    <dep from="t17" to="t1" rfunc="TMP" />
+    <!--PMOD(Before-1, Jews-2)-->
+    <dep from="t1" to="t2" rfunc="PMOD" />
+    <!--P(via-4, (-3)-->
+    <dep from="t4" to="t3" rfunc="P" />
+    <!--PRN(Jews-2, via-4)-->
+    <dep from="t2" to="t4" rfunc="PRN" />
+    <!--NMOD(establishment-7, their-5)-->
+    <dep from="t7" to="t5" rfunc="NMOD" />
+    <!--NMOD(establishment-7, banking-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--PMOD(via-4, establishment-7)-->
+    <dep from="t4" to="t7" rfunc="PMOD" />
+    <!--COORD(establishment-7, and-8)-->
+    <dep from="t7" to="t8" rfunc="COORD" />
+    <!--NMOD(power-10, the-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--CONJ(and-8, power-10)-->
+    <dep from="t8" to="t10" rfunc="CONJ" />
+    <!--SBJ(comes-12, that-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--NMOD(power-10, comes-12)-->
+    <dep from="t10" to="t12" rfunc="NMOD" />
+    <!--ADV(comes-12, with-13)-->
+    <dep from="t12" to="t13" rfunc="ADV" />
+    <!--PMOD(with-13, it-14)-->
+    <dep from="t13" to="t14" rfunc="PMOD" />
+    <!--P(via-4, )-15)-->
+    <dep from="t4" to="t15" rfunc="P" />
+    <!--SBJ(was-17, it-16)-->
+    <dep from="t17" to="t16" rfunc="SBJ" />
+    <!--OBJ(was-17, Freemasonry-18)-->
+    <dep from="t17" to="t18" rfunc="OBJ" />
+    <!--P(was-17, .-19)-->
+    <dep from="t17" to="t19" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9967566" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Freemasonry-->
+        <span>
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Freemasonry" confidence="0.9999269" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--banking-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--establishment-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--power-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--it-->
+      <span>
+        <target id="t14" head="yes" />
+      </span>
+      <!--it-->
+      <span>
+        <target id="t16" head="yes" />
+      </span>
+      <!--Freemasonry-->
+      <span>
+        <target id="t18" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Power_(physics)" confidence="0.5774662666763895" spotted="true">
+      <!--power-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Freemasonry" confidence="0.9999269321522968" spotted="true">
+      <!--Freemasonry-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9967566149593265" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bank" confidence="0.9892326863138082" spotted="true">
+      <!--banking-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t17 was : AM-TMP[t1 Before] A1[t16 it] A2[t18 Freemasonry]-->
+    <predicate id="pr3" source="mate">
+      <!--was-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl6" semRole="AM-TMP">
+        <!--Before Jews ( via their banking establishment and the power that comes with it )-->
+        <span>
+          <target id="t1" head="yes" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </role>
+      <role id="rl7" semRole="A1">
+        <!--it-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </role>
+      <role id="rl8" semRole="A2">
+        <!--Freemasonry-->
+        <span>
+          <target id="t18" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t2 Jews : [t2 Jews]-->
+    <predicate id="f_pr4" source="semafor" confidence="33.73807403762596">
+      <!--Jews-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9967566" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--Jews ( via their banking establishment and the power that comes with it )-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 establishment : A1[t6 banking] A2[t5 their]-->
+    <predicate id="f_pr5" source="semafor" confidence="60.94381081250859">
+      <!--establishment-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_create" />
+        <externalRef resource="NomBank" reference="establishment.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_create-establishment.n" />
+      </externalReferences>
+      <role id="rl10" semRole="A1">
+        <!--banking-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_create@Created_entity" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_create-Created_entity" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="A2">
+        <!--their-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t10 power : [t11 that]-->
+    <predicate id="f_pr6" source="semafor" confidence="72.1949703700798">
+      <!--power-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Power_(physics)" confidence="0.57746625" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--that comes with it-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Leader" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Leader" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 comes : AM-MNR[t13 with] R-A1[t11 that] A1[t9 the]-->
+    <predicate id="f_pr7" source="semafor" confidence="101.780877725042">
+      <!--comes-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Arriving" />
+        <externalRef resource="PropBank" reference="come.01" source="mate" />
+        <externalRef resource="VerbNet" reference="escape-51.1" />
+        <externalRef resource="ESO" reference="Arriving" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01849221-v" />
+        <externalRef resource="WordNet" reference="ili-30-02005948-v" />
+        <externalRef resource="FrameBase" reference="frame-Arriving-come.v" />
+      </externalReferences>
+      <role id="rl12" semRole="AM-MNR">
+        <!--with it-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Arriving@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Arriving-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="R-A1">
+        <!--that-->
+        <span>
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Arriving@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Arriving-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--the power that comes with it-->
+        <span>
+          <target id="t9" />
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="escape-51.1@Theme" />
+          <externalRef resource="PropBank" reference="come.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (PP (IN Before) (NP (NP (NNPS Jews)) (PRN (-LRB- -LRB-) (PP (IN via) (NP (NP (PRP$ their) (NN banking) (NN establishment)) (CC and) (NP (NP (DT the) (NN power)) (SBAR (WHNP (WDT that)) (S (VP (VBZ comes) (PP (IN with) (NP (PRP it))))))))) (-RRB- -RRB-)))) (NP (PRP it)) (VP (VBD was) (NP (NNP Freemasonry))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="PP" />
+      <nt id="nter4" label="IN" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NNPS" />
+      <nt id="nter8" label="PRN" />
+      <nt id="nter9" label="-LRB-" />
+      <nt id="nter10" label="PP" />
+      <nt id="nter11" label="IN" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="PRP$" />
+      <nt id="nter15" label="NN" />
+      <nt id="nter16" label="NN" />
+      <nt id="nter17" label="CC" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="DT" />
+      <nt id="nter21" label="NN" />
+      <nt id="nter22" label="SBAR" />
+      <nt id="nter23" label="WHNP" />
+      <nt id="nter24" label="WDT" />
+      <nt id="nter25" label="S" />
+      <nt id="nter26" label="VP" />
+      <nt id="nter27" label="VBZ" />
+      <nt id="nter28" label="PP" />
+      <nt id="nter29" label="IN" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="PRP" />
+      <nt id="nter32" label="-RRB-" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="PRP" />
+      <nt id="nter35" label="VP" />
+      <nt id="nter36" label="VBD" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NNP" />
+      <nt id="nter39" label="." />
+      <!--Terminals-->
+      <!--Before-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--via-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--banking-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--establishment-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--power-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--comes-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--with-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Freemasonry-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter5" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="nter14" to="nter13" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter13" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter13" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter12" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter12" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="nter20" to="nter19" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter19" head="yes" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter18" />
+      <edge id="tre33" from="nter23" to="nter22" head="yes" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter22" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter26" />
+      <edge id="tre41" from="nter29" to="nter28" head="yes" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter28" />
+      <edge id="tre44" from="nter31" to="nter30" head="yes" />
+      <edge id="tre45" from="ter14" to="nter31" />
+      <edge id="tre46" from="nter32" to="nter8" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter2" />
+      <edge id="tre49" from="nter34" to="nter33" head="yes" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter2" head="yes" />
+      <edge id="tre52" from="nter36" to="nter35" head="yes" />
+      <edge id="tre53" from="ter17" to="nter36" />
+      <edge id="tre54" from="nter37" to="nter35" />
+      <edge id="tre55" from="nter38" to="nter37" head="yes" />
+      <edge id="tre56" from="ter18" to="nter38" />
+      <edge id="tre57" from="nter39" to="nter2" />
+      <edge id="tre58" from="ter19" to="nter39" />
+    </tree>
+  </constituency>
+</NAF>

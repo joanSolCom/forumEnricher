@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:56+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:56.254+0100" endTimestamp="2017-11-20T12:30:56.585+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:56.587+0100" endTimestamp="2017-11-20T12:30:56.587+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Parental Guidance - A violence classification for films eg pg-13 etc.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Parental</wf>
+    <wf id="w2" sent="1" para="1" offset="9" length="8">Guidance</wf>
+    <wf id="w3" sent="1" para="1" offset="18" length="1">-</wf>
+    <wf id="w4" sent="1" para="1" offset="20" length="1">A</wf>
+    <wf id="w5" sent="1" para="1" offset="22" length="8">violence</wf>
+    <wf id="w6" sent="1" para="1" offset="31" length="14">classification</wf>
+    <wf id="w7" sent="1" para="1" offset="46" length="3">for</wf>
+    <wf id="w8" sent="1" para="1" offset="50" length="5">films</wf>
+    <wf id="w9" sent="1" para="1" offset="56" length="2">eg</wf>
+    <wf id="w10" sent="1" para="1" offset="59" length="5">pg-13</wf>
+    <wf id="w11" sent="1" para="1" offset="65" length="4">etc.</wf>
+    <wf id="w12" sent="1" para="1" offset="68" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Parental-->
+    <term id="t1" type="open" lemma="parental" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Guidance-->
+    <term id="t2" type="open" lemma="guidance" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--- .-->
+    <term id="t3" type="open" lemma="-" pos="O" morphofeat=":">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--A-->
+    <term id="t4" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--violence-->
+    <term id="t5" type="open" lemma="violence" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--classification-->
+    <term id="t6" type="open" lemma="classification" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t7" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--films-->
+    <term id="t8" type="open" lemma="film" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--eg-->
+    <term id="t9" type="open" lemma="eg" pos="O" morphofeat="FW">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--pg-13-->
+    <term id="t10" type="open" lemma="pg-13" pos="O" morphofeat="FW">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--etc.-->
+    <term id="t11" type="open" lemma="etc." pos="O" morphofeat="FW">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t12" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(Guidance-2, Parental-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--P(Guidance-2,  - -3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+    <!--NMOD(classification-6, A-4)-->
+    <dep from="t6" to="t4" rfunc="NMOD" />
+    <!--NMOD(classification-6, violence-5)-->
+    <dep from="t6" to="t5" rfunc="NMOD" />
+    <!--APPO(Guidance-2, classification-6)-->
+    <dep from="t2" to="t6" rfunc="APPO" />
+    <!--NMOD(classification-6, for-7)-->
+    <dep from="t6" to="t7" rfunc="NMOD" />
+    <!--PMOD(for-7, films-8)-->
+    <dep from="t7" to="t8" rfunc="PMOD" />
+    <!--NMOD(films-8, eg-9)-->
+    <dep from="t8" to="t9" rfunc="NMOD" />
+    <!--NMOD(films-8, pg-13-10)-->
+    <dep from="t8" to="t10" rfunc="NMOD" />
+    <!--NMOD(films-8, etc.-11)-->
+    <dep from="t8" to="t11" rfunc="NMOD" />
+    <!--P(Guidance-2, .-12)-->
+    <dep from="t2" to="t12" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--violence-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Violence" confidence="0.99972796" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Guidance-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--classification-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--films-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Television_content_rating_systems" confidence="0.8412499873114208" spotted="true">
+      <!--Parental Guidance-->
+      <span>
+        <target id="w1" />
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Film" confidence="0.9969951544237059" spotted="true">
+      <!--films-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Violence" confidence="0.999727962657853" spotted="true">
+      <!--violence-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Motion_Picture_Association_of_America_film_rating_system" confidence="0.9925803325882047" spotted="true">
+      <!--pg-13-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Parental : [t1 Parental]-->
+    <predicate id="f_pr3" source="semafor" confidence="22.275574631988626">
+      <!--Parental-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Kinship" />
+        <externalRef resource="FrameBase" reference="frame-Kinship-parent.n" />
+      </externalReferences>
+      <role id="rl3" semRole="">
+        <!--Parental-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Alter" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Alter" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 classification : [t9 eg] A1[t7 for] A1[t5 violence]-->
+    <predicate id="f_pr4" source="semafor" confidence="51.33531286980312">
+      <!--classification-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Categorization" />
+        <externalRef resource="NomBank" reference="classification.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2" />
+        <externalRef resource="PropBank" reference="classify.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00654625-v" />
+        <externalRef resource="WordNet" reference="ili-30-00739662-v" />
+        <externalRef resource="FrameBase" reference="frame-Categorization-class.v" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--eg pg-13 etc.-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Item" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Item" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="A1">
+        <!--for films eg pg-13 etc.-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Category" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="classify.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Category" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="A1">
+        <!--violence-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="classify.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 films : [t9 eg]-->
+    <predicate id="f_pr5" source="semafor" confidence="43.340336381319474">
+      <!--films-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Behind_the_scenes" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Film" confidence="0.99699515" />
+        <externalRef resource="NomBank" reference="film.01" source="mate" />
+        <externalRef resource="VerbNet" reference="transcribe-25.4" />
+        <externalRef resource="PropBank" reference="film.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-01002740-v" />
+        <externalRef resource="WordNet" reference="ili-30-01711965-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Film" confidence="0.99699515" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--eg pg-13 etc.-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Behind_the_scenes@Production" />
+          <externalRef resource="FrameBase" reference="fe-Behind_the_scenes-Production" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 Guidance :-->
+    <predicate id="pr6">
+      <!--Guidance-->
+      <span>
+        <target id="t2" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="guidance.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (JJ Parental) (NN Guidance)) (: -) (NP (NP (NP (DT A) (NN violence) (NN classification)) (PP (IN for) (NP (NNS films)))) (NP (FW eg) (FW pg-13) (FW etc.))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label="NN" />
+      <nt id="nter6" label=":" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="DT" />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label="NN" />
+      <nt id="nter13" label="PP" />
+      <nt id="nter14" label="IN" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="NNS" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="FW" />
+      <nt id="nter19" label="FW" />
+      <nt id="nter20" label="FW" />
+      <nt id="nter21" label="." />
+      <!--Terminals-->
+      <!--Parental-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Guidance-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--- .-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--A-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--violence-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--classification-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--films-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--eg-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--pg-13-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--etc.-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="ter3" to="nter6" />
+      <edge id="tre10" from="nter7" to="nter2" />
+      <edge id="tre11" from="nter8" to="nter7" head="yes" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter9" head="yes" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter8" />
+      <edge id="tre20" from="nter14" to="nter13" head="yes" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter13" />
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="ter8" to="nter16" />
+      <edge id="tre25" from="nter17" to="nter7" />
+      <edge id="tre26" from="nter18" to="nter17" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter17" />
+      <edge id="tre29" from="ter10" to="nter19" />
+      <edge id="tre30" from="nter20" to="nter17" head="yes" />
+      <edge id="tre31" from="ter11" to="nter20" />
+      <edge id="tre32" from="nter21" to="nter2" />
+      <edge id="tre33" from="ter12" to="nter21" />
+    </tree>
+  </constituency>
+</NAF>

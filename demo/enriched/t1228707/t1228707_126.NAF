@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:37:19+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:37:19.403+0100" endTimestamp="2017-11-21T16:37:19.706+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:37:19.707+0100" endTimestamp="2017-11-21T16:37:19.707+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Cromwell might have doomed us all with that one.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Cromwell</wf>
+    <wf id="w2" sent="1" para="1" offset="9" length="5">might</wf>
+    <wf id="w3" sent="1" para="1" offset="15" length="4">have</wf>
+    <wf id="w4" sent="1" para="1" offset="20" length="6">doomed</wf>
+    <wf id="w5" sent="1" para="1" offset="27" length="2">us</wf>
+    <wf id="w6" sent="1" para="1" offset="30" length="3">all</wf>
+    <wf id="w7" sent="1" para="1" offset="34" length="4">with</wf>
+    <wf id="w8" sent="1" para="1" offset="39" length="4">that</wf>
+    <wf id="w9" sent="1" para="1" offset="44" length="3">one</wf>
+    <wf id="w10" sent="1" para="1" offset="47" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Cromwell-->
+    <term id="t1" type="open" lemma="Cromwell" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--might-->
+    <term id="t2" type="open" lemma="might" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t3" type="open" lemma="have" pos="V" morphofeat="VB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--doomed-->
+    <term id="t4" type="open" lemma="doom" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--us-->
+    <term id="t5" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t6" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--with-->
+    <term id="t7" type="open" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t8" type="open" lemma="that" pos="D" morphofeat="DT">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--one-->
+    <term id="t9" type="open" lemma="one" pos="O" morphofeat="CD">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(might-2, Cromwell-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--VC(might-2, have-3)-->
+    <dep from="t2" to="t3" rfunc="VC" />
+    <!--VC(have-3, doomed-4)-->
+    <dep from="t3" to="t4" rfunc="VC" />
+    <!--OBJ(doomed-4, us-5)-->
+    <dep from="t4" to="t5" rfunc="OBJ" />
+    <!--APPO(us-5, all-6)-->
+    <dep from="t5" to="t6" rfunc="APPO" />
+    <!--ADV(doomed-4, with-7)-->
+    <dep from="t4" to="t7" rfunc="ADV" />
+    <!--NMOD(one-9, that-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--PMOD(with-7, one-9)-->
+    <dep from="t7" to="t9" rfunc="PMOD" />
+    <!--P(might-2, .-10)-->
+    <dep from="t2" to="t10" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Cromwell-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Oliver_Cromwell" confidence="0.9228973" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="CARDINAL">
+      <references>
+        <!--one-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--us-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Oliver_Cromwell" confidence="0.9228972723211747" spotted="true">
+      <!--Cromwell-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Doomed_(Buffy_the_Vampire_Slayer)" confidence="0.7049779788477385" spotted="true">
+      <!--doomed-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 doomed : A1[t5 us] AM-MOD[t1 Cromwell] A2[t7 with] A0[t1 Cromwell]-->
+    <predicate id="pr1" source="mate">
+      <!--doomed-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="doom.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Doomed_(Buffy_the_Vampire_Slayer)" confidence="0.704978" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--us all-->
+        <span>
+          <target id="t5" head="yes" />
+          <target id="t6" />
+        </span>
+      </role>
+      <role id="rl2" semRole="AM-MOD">
+        <!--Cromwell might have doomed us all with that one .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+      </role>
+      <role id="rl3" semRole="A2">
+        <!--with that one-->
+        <span>
+          <target id="t7" head="yes" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A0">
+        <!--Cromwell-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t2 might : [t1 Cromwell]-->
+    <predicate id="f_pr2" source="semafor" confidence="36.64863558338778">
+      <!--might-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Likelihood" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--Cromwell-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Likelihood@Hypothetical_event" />
+          <externalRef resource="FrameBase" reference="fe-Likelihood-Hypothetical_event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 all : [t6 all]-->
+    <predicate id="f_pr3" source="semafor" confidence="24.916220122118485">
+      <!--all-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--all-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 one : [t8 that]-->
+    <predicate id="f_pr4" source="semafor" confidence="29.09636480097552">
+      <!--one-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cardinal_numbers" />
+        <externalRef resource="FrameBase" reference="frame-Cardinal_numbers-one.num" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--that one-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Number" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Number" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NNP Cromwell)) (VP (MD might) (VP (VB have) (VP (VBN doomed) (NP (PRP us)) (PP (DT all) (IN with) (NP (DT that) (CD one)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="MD" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VB" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="VBN" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="PRP" />
+      <nt id="nter13" label="PP" />
+      <nt id="nter14" label="DT" />
+      <nt id="nter15" label="IN" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="DT" />
+      <nt id="nter18" label="CD" />
+      <nt id="nter19" label="." />
+      <!--Terminals-->
+      <!--Cromwell-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--might-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--doomed-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--us-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--with-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--one-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter9" />
+      <edge id="tre19" from="nter14" to="nter13" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" head="yes" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter13" />
+      <edge id="tre24" from="nter17" to="nter16" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter16" head="yes" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter2" />
+      <edge id="tre29" from="ter10" to="nter19" />
+    </tree>
+  </constituency>
+</NAF>

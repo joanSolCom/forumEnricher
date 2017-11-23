@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:38:50+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:38:50.819+0100" endTimestamp="2017-11-21T16:38:51.120+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:38:51.121+0100" endTimestamp="2017-11-21T16:38:51.122+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Baby boomers and their white guilt bs.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Baby</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="7">boomers</wf>
+    <wf id="w3" sent="1" para="1" offset="13" length="3">and</wf>
+    <wf id="w4" sent="1" para="1" offset="17" length="5">their</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="5">white</wf>
+    <wf id="w6" sent="1" para="1" offset="29" length="5">guilt</wf>
+    <wf id="w7" sent="1" para="1" offset="35" length="2">bs</wf>
+    <wf id="w8" sent="1" para="1" offset="37" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Baby-->
+    <term id="t1" type="open" lemma="Baby" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--boomers-->
+    <term id="t2" type="open" lemma="boomer" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t3" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t4" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--white-->
+    <term id="t5" type="open" lemma="white" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--guilt-->
+    <term id="t6" type="open" lemma="guilt" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--bs-->
+    <term id="t7" type="open" lemma="b" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t8" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(boomers-2, Baby-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--COORD(boomers-2, and-3)-->
+    <dep from="t2" to="t3" rfunc="COORD" />
+    <!--NMOD(bs-7, their-4)-->
+    <dep from="t7" to="t4" rfunc="NMOD" />
+    <!--NMOD(bs-7, white-5)-->
+    <dep from="t7" to="t5" rfunc="NMOD" />
+    <!--NMOD(bs-7, guilt-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--CONJ(and-3, bs-7)-->
+    <dep from="t3" to="t7" rfunc="CONJ" />
+    <!--P(boomers-2, .-8)-->
+    <dep from="t2" to="t8" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Baby-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--boomers-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--guilt-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--bs-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Baby_boomer" confidence="0.9915245940129741" spotted="true">
+      <!--Baby boomers-->
+      <span>
+        <target id="w1" />
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bachelor_of_Science" confidence="0.9363478877619119" spotted="true">
+      <!--bs-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_guilt" confidence="0.9999999994734594" spotted="true">
+      <!--white guilt-->
+      <span>
+        <target id="w5" />
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Baby : [t1 Baby]-->
+    <predicate id="f_pr2" source="semafor" confidence="36.35056284453149">
+      <!--Baby-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_age" />
+        <externalRef resource="FrameBase" reference="frame-People_by_age-baby.n" />
+      </externalReferences>
+      <role id="rl3" semRole="">
+        <!--Baby-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_age@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_age-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 white : [t5 white] [t6 guilt]-->
+    <predicate id="f_pr3" source="semafor" confidence="58.10189767506398">
+      <!--white-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="FrameBase" reference="frame-Color-white.a" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--white-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="">
+        <!--guilt-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 guilt :-->
+    <predicate id="f_pr4" source="semafor" confidence="60.72801134412041">
+      <!--guilt-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Emotion_directed" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (NNP Baby)) (NP (NP (NNS boomers)) (CC and) (NP (PRP$ their) (JJ white) (NN guilt) (NNS bs))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NNS" />
+      <nt id="nter8" label="CC" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="PRP$" />
+      <nt id="nter11" label="JJ" />
+      <nt id="nter12" label="NN" />
+      <nt id="nter13" label="NNS" />
+      <nt id="nter14" label="." />
+      <!--Terminals-->
+      <!--Baby-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--boomers-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--white-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--guilt-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--bs-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter5" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter5" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter9" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter9" head="yes" />
+      <edge id="tre20" from="ter7" to="nter13" />
+      <edge id="tre21" from="nter14" to="nter2" />
+      <edge id="tre22" from="ter8" to="nter14" />
+    </tree>
+  </constituency>
+</NAF>

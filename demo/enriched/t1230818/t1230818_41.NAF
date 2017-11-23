@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:11+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:11.614+0100" endTimestamp="2017-11-21T16:40:12.066+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:12.067+0100" endTimestamp="2017-11-21T16:40:12.068+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[So should all the nonwhites. All nonwhites definitely have more than one black ancestors and why are we even tolerating their excessive breeding.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">So</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="6">should</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="3">all</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="3">the</wf>
+    <wf id="w5" sent="1" para="1" offset="18" length="9">nonwhites</wf>
+    <wf id="w6" sent="1" para="1" offset="27" length="1">.</wf>
+    <wf id="w7" sent="2" para="1" offset="29" length="3">All</wf>
+    <wf id="w8" sent="2" para="1" offset="33" length="9">nonwhites</wf>
+    <wf id="w9" sent="2" para="1" offset="43" length="10">definitely</wf>
+    <wf id="w10" sent="2" para="1" offset="54" length="4">have</wf>
+    <wf id="w11" sent="2" para="1" offset="59" length="4">more</wf>
+    <wf id="w12" sent="2" para="1" offset="64" length="4">than</wf>
+    <wf id="w13" sent="2" para="1" offset="69" length="3">one</wf>
+    <wf id="w14" sent="2" para="1" offset="73" length="5">black</wf>
+    <wf id="w15" sent="2" para="1" offset="79" length="9">ancestors</wf>
+    <wf id="w16" sent="2" para="1" offset="89" length="3">and</wf>
+    <wf id="w17" sent="2" para="1" offset="93" length="3">why</wf>
+    <wf id="w18" sent="2" para="1" offset="97" length="3">are</wf>
+    <wf id="w19" sent="2" para="1" offset="101" length="2">we</wf>
+    <wf id="w20" sent="2" para="1" offset="104" length="4">even</wf>
+    <wf id="w21" sent="2" para="1" offset="109" length="10">tolerating</wf>
+    <wf id="w22" sent="2" para="1" offset="120" length="5">their</wf>
+    <wf id="w23" sent="2" para="1" offset="126" length="9">excessive</wf>
+    <wf id="w24" sent="2" para="1" offset="136" length="8">breeding</wf>
+    <wf id="w25" sent="2" para="1" offset="144" length="1">.</wf>
+  </text>
+  <terms>
+    <!--So-->
+    <term id="t1" type="open" lemma="so" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--should-->
+    <term id="t2" type="open" lemma="should" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t3" type="open" lemma="all" pos="D" morphofeat="PDT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--nonwhites-->
+    <term id="t5" type="open" lemma="nonwhite" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--All-->
+    <term id="t7" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--nonwhites-->
+    <term id="t8" type="open" lemma="nonwhite" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--definitely-->
+    <term id="t9" type="open" lemma="definitely" pos="A" morphofeat="RB">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t10" type="open" lemma="have" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--more-->
+    <term id="t11" type="open" lemma="more" pos="A" morphofeat="RBR">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--than-->
+    <term id="t12" type="open" lemma="than" pos="P" morphofeat="IN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--one-->
+    <term id="t13" type="open" lemma="one" pos="O" morphofeat="CD">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--black-->
+    <term id="t14" type="open" lemma="black" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--ancestors-->
+    <term id="t15" type="open" lemma="ancestor" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t16" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--why-->
+    <term id="t17" type="open" lemma="why" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t18" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t19" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--even-->
+    <term id="t20" type="open" lemma="even" pos="A" morphofeat="RB">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--tolerating-->
+    <term id="t21" type="open" lemma="tolerate" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t22" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--excessive-->
+    <term id="t23" type="open" lemma="excessive" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--breeding-->
+    <term id="t24" type="open" lemma="breeding" pos="N" morphofeat="NN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t25" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(should-2, So-1)-->
+    <dep from="t2" to="t1" rfunc="ADV" />
+    <!--NMOD(nonwhites-5, all-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NMOD(nonwhites-5, the-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--SBJ(should-2, nonwhites-5)-->
+    <dep from="t2" to="t5" rfunc="SBJ" />
+    <!--P(should-2, .-6)-->
+    <dep from="t2" to="t6" rfunc="P" />
+    <!--NMOD(nonwhites-8, All-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--SBJ(have-10, nonwhites-8)-->
+    <dep from="t10" to="t8" rfunc="SBJ" />
+    <!--ADV(have-10, definitely-9)-->
+    <dep from="t10" to="t9" rfunc="ADV" />
+    <!--DEP(one-13, more-11)-->
+    <dep from="t13" to="t11" rfunc="DEP" />
+    <!--DEP(one-13, than-12)-->
+    <dep from="t13" to="t12" rfunc="DEP" />
+    <!--NMOD(ancestors-15, one-13)-->
+    <dep from="t15" to="t13" rfunc="NMOD" />
+    <!--NMOD(ancestors-15, black-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--OBJ(have-10, ancestors-15)-->
+    <dep from="t10" to="t15" rfunc="OBJ" />
+    <!--COORD(have-10, and-16)-->
+    <dep from="t10" to="t16" rfunc="COORD" />
+    <!--PRP(tolerating-21, why-17)-->
+    <dep from="t21" to="t17" rfunc="PRP" />
+    <!--CONJ(and-16, are-18)-->
+    <dep from="t16" to="t18" rfunc="CONJ" />
+    <!--SBJ(are-18, we-19)-->
+    <dep from="t18" to="t19" rfunc="SBJ" />
+    <!--ADV(are-18, even-20)-->
+    <dep from="t18" to="t20" rfunc="ADV" />
+    <!--VC(are-18, tolerating-21)-->
+    <dep from="t18" to="t21" rfunc="VC" />
+    <!--NMOD(breeding-24, their-22)-->
+    <dep from="t24" to="t22" rfunc="NMOD" />
+    <!--NMOD(breeding-24, excessive-23)-->
+    <dep from="t24" to="t23" rfunc="NMOD" />
+    <!--OBJ(tolerating-21, breeding-24)-->
+    <dep from="t21" to="t24" rfunc="OBJ" />
+    <!--P(have-10, .-25)-->
+    <dep from="t10" to="t25" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="CARDINAL">
+      <references>
+        <!--one-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="&gt;1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--nonwhites-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--nonwhites-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--ancestors-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t19" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--breeding-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--more than one black ancestors-->
+      <span>
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" head="yes" />
+      </span>
+      <!--their-->
+      <span>
+        <target id="t22" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/College" confidence="0.9494392863816534" spotted="true">
+      <!--So-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Selective_breeding" confidence="0.5122294152627559" spotted="true">
+      <!--breeding-->
+      <span>
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/African_American" confidence="0.9113703685687247" spotted="true">
+      <!--black-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/China" confidence="0.7986167202493846" spotted="true">
+      <!--All-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Toleration" confidence="0.9999978880658621" spotted="true">
+      <!--tolerating-->
+      <span>
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 should : [t1 So]-->
+    <predicate id="f_pr1" source="semafor" confidence="39.90333281362899">
+      <!--should-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Required_event" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--So-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Required_event@Required_situation" />
+          <externalRef resource="FrameBase" reference="fe-Required_event-Required_situation" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 all : [t3 all]-->
+    <predicate id="f_pr2" source="semafor" confidence="21.76211609588337">
+      <!--all-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--all-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t24 breeding : AM-MNR[t23 excessive] A0[t22 their]-->
+    <predicate id="pr5" source="mate">
+      <!--breeding-->
+      <span>
+        <target id="t24" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="breeding.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Selective_breeding" confidence="0.51222944" />
+      </externalReferences>
+      <role id="rl10" semRole="AM-MNR">
+        <!--excessive-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+      </role>
+      <role id="rl11" semRole="A0">
+        <!--their-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 All : [t7 All] [t7 All]-->
+    <predicate id="f_pr6" source="semafor" confidence="23.95830174537137">
+      <!--All-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/China" confidence="0.7986167" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--All-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="">
+        <!--All nonwhites-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 have : A1[t11 more] A0[t7 All] AM-ADV[t9 definitely]-->
+    <predicate id="f_pr7" source="semafor" confidence="44.121554751166414">
+      <!--have-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl14" semRole="A1">
+        <!--more than one black ancestors-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A0">
+        <!--All nonwhites-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+      <role id="rl26" semRole="AM-ADV">
+        <!--definitely-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t11 more :-->
+    <predicate id="f_pr8" source="semafor" confidence="25.12108351944633">
+      <!--more-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+      </externalReferences>
+    </predicate>
+    <!--t13 one : [t11 more] [t11 more]-->
+    <predicate id="f_pr9" source="semafor" confidence="29.49479377850907">
+      <!--one-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cardinal_numbers" />
+        <externalRef resource="FrameBase" reference="frame-Cardinal_numbers-one.num" />
+      </externalReferences>
+      <role id="rl16" semRole="">
+        <!--more than one-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Number" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Number" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="">
+        <!--more than one black ancestors-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 black : [t14 black] [t11 more]-->
+    <predicate id="f_pr10" source="semafor" confidence="63.918162297713664">
+      <!--black-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/African_American" confidence="0.9113704" />
+        <externalRef resource="FrameBase" reference="frame-Color-black.a" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--black-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="">
+        <!--more than one black ancestors-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 ancestors : [t11 more]-->
+    <predicate id="f_pr11" source="semafor" confidence="26.62580554587173">
+      <!--ancestors-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Kinship" />
+        <externalRef resource="FrameBase" reference="frame-Kinship-ancestor.n" />
+      </externalReferences>
+      <role id="rl20" semRole="">
+        <!--more than one black ancestors-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Alter" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Alter" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 why : [t17 why]-->
+    <predicate id="f_pr12" source="semafor" confidence="10.173835636884998">
+      <!--why-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reason" />
+      </externalReferences>
+      <role id="rl21" semRole="">
+        <!--why-->
+        <span>
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Reason@State_of_Affairs" />
+          <externalRef resource="FrameBase" reference="fe-Reason-State_of_Affairs" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t21 tolerating : A1[t22 their] AM-DIS[t20 even] R-AM-CAU[t17 why] A0[t19 we]-->
+    <predicate id="f_pr13" source="semafor" confidence="5.332467130598243">
+      <!--tolerating-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Tolerating" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Toleration" confidence="0.9999979" />
+        <externalRef resource="PropBank" reference="tolerate.01" source="mate" />
+        <externalRef resource="VerbNet" reference="admire-31.2" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00668099-v" />
+        <externalRef resource="WordNet" reference="ili-30-00802946-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Toleration" confidence="0.9999979" />
+        <externalRef resource="FrameBase" reference="frame-Tolerating-bear.v" />
+      </externalReferences>
+      <role id="rl22" semRole="A1">
+        <!--their excessive breeding-->
+        <span>
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Tolerating@Content" />
+          <externalRef resource="VerbNet" reference="admire-31.2@Stimulus" />
+          <externalRef resource="PropBank" reference="tolerate.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Tolerating-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="AM-DIS">
+        <!--even-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </role>
+      <role id="rl24" semRole="R-AM-CAU">
+        <!--why-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+      <role id="rl25" semRole="A0">
+        <!--we-->
+        <span>
+          <target id="t19" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="admire-31.2@Experiencer" />
+          <externalRef resource="PropBank" reference="tolerate.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SINV (RB So) (VP (MD should)) (NP (NP (PDT all) (DT the)) (NP (NNS nonwhites))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (DT All) (NNS nonwhites)) (ADVP (RB definitely)) (VP (VP (VBP have) (NP (QP (RBR more) (IN than) (CD one)) (JJ black) (NNS ancestors))) (CC and) (VP (SBAR (WHADVP (WRB why)) (S (VP (VBP are) (NP (NP (PRP we)) (VP (ADVP (RB even)) (VBG tolerating) (NP (PRP$ their) (JJ excessive) (NN breeding))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SINV" />
+      <nt id="nter3" label="RB" />
+      <nt id="nter4" label="VP" />
+      <nt id="nter5" label="MD" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="PDT" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NNS" />
+      <nt id="nter12" label="." />
+      <!--Terminals-->
+      <!--So-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--should-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--nonwhites-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" head="yes" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter6" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter2" />
+      <edge id="tre18" from="ter6" to="nter12" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter13" label="ROOT" />
+      <nt id="nter14" label="S" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="DT" />
+      <nt id="nter17" label="NNS" />
+      <nt id="nter18" label="ADVP" />
+      <nt id="nter19" label="RB" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VP" />
+      <nt id="nter22" label="VBP" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="QP" />
+      <nt id="nter25" label="RBR" />
+      <nt id="nter26" label="IN" />
+      <nt id="nter27" label="CD" />
+      <nt id="nter28" label="JJ" />
+      <nt id="nter29" label="NNS" />
+      <nt id="nter30" label="CC" />
+      <nt id="nter31" label="VP" />
+      <nt id="nter32" label="SBAR" />
+      <nt id="nter33" label="WHADVP" />
+      <nt id="nter34" label="WRB" />
+      <nt id="nter35" label="S" />
+      <nt id="nter36" label="VP" />
+      <nt id="nter37" label="VBP" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="PRP" />
+      <nt id="nter41" label="VP" />
+      <nt id="nter42" label="ADVP" />
+      <nt id="nter43" label="RB" />
+      <nt id="nter44" label="VBG" />
+      <nt id="nter45" label="NP" />
+      <nt id="nter46" label="PRP$" />
+      <nt id="nter47" label="JJ" />
+      <nt id="nter48" label="NN" />
+      <nt id="nter49" label="." />
+      <!--Terminals-->
+      <!--All-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--nonwhites-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--definitely-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--more-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--than-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--one-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--black-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--ancestors-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--why-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--even-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--tolerating-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--excessive-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--breeding-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre20" from="nter14" to="nter13" head="yes" />
+      <edge id="tre21" from="nter15" to="nter14" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" head="yes" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter14" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter14" head="yes" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter21" />
+      <edge id="tre34" from="nter24" to="nter23" />
+      <edge id="tre35" from="nter25" to="nter24" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter24" />
+      <edge id="tre40" from="ter13" to="nter27" />
+      <edge id="tre41" from="nter28" to="nter23" />
+      <edge id="tre42" from="ter14" to="nter28" />
+      <edge id="tre43" from="nter29" to="nter23" head="yes" />
+      <edge id="tre44" from="ter15" to="nter29" />
+      <edge id="tre45" from="nter30" to="nter20" />
+      <edge id="tre46" from="ter16" to="nter30" />
+      <edge id="tre47" from="nter31" to="nter20" />
+      <edge id="tre48" from="nter32" to="nter31" head="yes" />
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="nter34" to="nter33" head="yes" />
+      <edge id="tre51" from="ter17" to="nter34" />
+      <edge id="tre52" from="nter35" to="nter32" />
+      <edge id="tre53" from="nter36" to="nter35" head="yes" />
+      <edge id="tre54" from="nter37" to="nter36" head="yes" />
+      <edge id="tre55" from="ter18" to="nter37" />
+      <edge id="tre56" from="nter38" to="nter36" />
+      <edge id="tre57" from="nter39" to="nter38" head="yes" />
+      <edge id="tre58" from="nter40" to="nter39" head="yes" />
+      <edge id="tre59" from="ter19" to="nter40" />
+      <edge id="tre60" from="nter41" to="nter38" />
+      <edge id="tre61" from="nter42" to="nter41" />
+      <edge id="tre62" from="nter43" to="nter42" head="yes" />
+      <edge id="tre63" from="ter20" to="nter43" />
+      <edge id="tre64" from="nter44" to="nter41" head="yes" />
+      <edge id="tre65" from="ter21" to="nter44" />
+      <edge id="tre66" from="nter45" to="nter41" />
+      <edge id="tre67" from="nter46" to="nter45" />
+      <edge id="tre68" from="ter22" to="nter46" />
+      <edge id="tre69" from="nter47" to="nter45" />
+      <edge id="tre70" from="ter23" to="nter47" />
+      <edge id="tre71" from="nter48" to="nter45" head="yes" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter14" />
+      <edge id="tre74" from="ter25" to="nter49" />
+    </tree>
+  </constituency>
+</NAF>

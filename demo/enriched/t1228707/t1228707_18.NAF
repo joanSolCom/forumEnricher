@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:34+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:34.942+0100" endTimestamp="2017-11-21T16:33:35.427+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:35.436+0100" endTimestamp="2017-11-21T16:33:35.437+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Blacks. And increasingly Mexicans.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="6">Blacks</wf>
+    <wf id="w2" sent="1" para="1" offset="6" length="1">.</wf>
+    <wf id="w3" sent="2" para="1" offset="8" length="3">And</wf>
+    <wf id="w4" sent="2" para="1" offset="12" length="12">increasingly</wf>
+    <wf id="w5" sent="2" para="1" offset="25" length="8">Mexicans</wf>
+    <wf id="w6" sent="2" para="1" offset="33" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Blacks-->
+    <term id="t1" type="open" lemma="Blacks" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t2" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--And-->
+    <term id="t3" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--increasingly-->
+    <term id="t4" type="open" lemma="increasingly" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Mexicans-->
+    <term id="t5" type="open" lemma="Mexicans" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Blacks-1, .-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--DEP(Mexicans-5, And-3)-->
+    <dep from="t5" to="t3" rfunc="DEP" />
+    <!--NMOD(Mexicans-5, increasingly-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--P(Mexicans-5, .-6)-->
+    <dep from="t5" to="t6" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Mexicans-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mexico" confidence="0.67550546" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Blacks-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Black_people" confidence="0.47797492" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Black_people" confidence="0.4779749209154405" spotted="true">
+      <!--Blacks-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mexico" confidence="0.675505481304547" spotted="true">
+      <!--Mexicans-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Blacks : [t1 Blacks]-->
+    <predicate id="f_pr1" source="semafor" confidence="50.814110505738654">
+      <!--Blacks-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Black_people" confidence="0.47797492" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--Blacks .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 increasingly : [t3 And]-->
+    <predicate id="f_pr2" source="semafor" confidence="116.07869365770914">
+      <!--increasingly-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Change_position_on_a_scale" />
+        <externalRef resource="FrameBase" reference="frame-Change_position_on_a_scale-increasingly.adv" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--And increasingly Mexicans .-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Change_position_on_a_scale@Item" />
+          <externalRef resource="FrameBase" reference="fe-Change_position_on_a_scale-Item" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 Mexicans : [t4 increasingly] [t3 And]-->
+    <predicate id="f_pr3" source="semafor" confidence="39.89464435909259">
+      <!--Mexicans-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_origin" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mexico" confidence="0.67550546" />
+      </externalReferences>
+      <role id="rl3" semRole="">
+        <!--increasingly-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_origin@Origin" />
+          <externalRef resource="FrameBase" reference="fe-People_by_origin-Origin" />
+        </externalReferences>
+      </role>
+      <role id="rl4" semRole="">
+        <!--And increasingly Mexicans .-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_origin@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_origin-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (NNPS Blacks)) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (CC And)) (VP (RB increasingly) (NP (NNPS Mexicans))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="NNPS" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--Blacks-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="ter2" to="nter5" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter6" label="ROOT" />
+      <nt id="nter7" label="S" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="CC" />
+      <nt id="nter10" label="VP" />
+      <nt id="nter11" label="RB" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NNPS" />
+      <nt id="nter14" label="." />
+      <!--Terminals-->
+      <!--And-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--increasingly-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Mexicans-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter7" head="yes" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" head="yes" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter7" />
+      <edge id="tre20" from="ter6" to="nter14" />
+    </tree>
+  </constituency>
+</NAF>

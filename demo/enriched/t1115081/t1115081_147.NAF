@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:37+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:37.797+0100" endTimestamp="2017-11-20T12:32:38.461+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:38.462+0100" endTimestamp="2017-11-20T12:32:38.462+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[And you don't think the Jewish religion Christianity, Jesus, a member of the Tribe of Judah, is not as powerful as the money trust?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">And</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="3">you</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="2">do</wf>
+    <wf id="w4" sent="1" para="1" offset="10" length="3">n't</wf>
+    <wf id="w5" sent="1" para="1" offset="14" length="5">think</wf>
+    <wf id="w6" sent="1" para="1" offset="20" length="3">the</wf>
+    <wf id="w7" sent="1" para="1" offset="24" length="6">Jewish</wf>
+    <wf id="w8" sent="1" para="1" offset="31" length="8">religion</wf>
+    <wf id="w9" sent="1" para="1" offset="40" length="12">Christianity</wf>
+    <wf id="w10" sent="1" para="1" offset="52" length="1">,</wf>
+    <wf id="w11" sent="1" para="1" offset="54" length="5">Jesus</wf>
+    <wf id="w12" sent="1" para="1" offset="59" length="1">,</wf>
+    <wf id="w13" sent="1" para="1" offset="61" length="1">a</wf>
+    <wf id="w14" sent="1" para="1" offset="63" length="6">member</wf>
+    <wf id="w15" sent="1" para="1" offset="70" length="2">of</wf>
+    <wf id="w16" sent="1" para="1" offset="73" length="3">the</wf>
+    <wf id="w17" sent="1" para="1" offset="77" length="5">Tribe</wf>
+    <wf id="w18" sent="1" para="1" offset="83" length="2">of</wf>
+    <wf id="w19" sent="1" para="1" offset="86" length="5">Judah</wf>
+    <wf id="w20" sent="1" para="1" offset="91" length="1">,</wf>
+    <wf id="w21" sent="1" para="1" offset="93" length="2">is</wf>
+    <wf id="w22" sent="1" para="1" offset="96" length="3">not</wf>
+    <wf id="w23" sent="1" para="1" offset="100" length="2">as</wf>
+    <wf id="w24" sent="1" para="1" offset="103" length="8">powerful</wf>
+    <wf id="w25" sent="1" para="1" offset="112" length="2">as</wf>
+    <wf id="w26" sent="1" para="1" offset="115" length="3">the</wf>
+    <wf id="w27" sent="1" para="1" offset="119" length="5">money</wf>
+    <wf id="w28" sent="1" para="1" offset="125" length="5">trust</wf>
+    <wf id="w29" sent="1" para="1" offset="130" length="1">?</wf>
+  </text>
+  <terms>
+    <!--And-->
+    <term id="t1" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t2" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--do-->
+    <term id="t3" type="open" lemma="do" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t4" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--think-->
+    <term id="t5" type="open" lemma="think" pos="V" morphofeat="VB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t6" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Jewish-->
+    <term id="t7" type="open" lemma="jewish" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--religion-->
+    <term id="t8" type="open" lemma="religion" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Christianity-->
+    <term id="t9" type="open" lemma="Christianity" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t10" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Jesus-->
+    <term id="t11" type="open" lemma="Jesus" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t12" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t13" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--member-->
+    <term id="t14" type="open" lemma="member" pos="N" morphofeat="NN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t15" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t16" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Tribe-->
+    <term id="t17" type="open" lemma="Tribe" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t18" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Judah-->
+    <term id="t19" type="open" lemma="Judah" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t20" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t21" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t22" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t23" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--powerful-->
+    <term id="t24" type="open" lemma="powerful" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t25" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t26" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--money-->
+    <term id="t27" type="open" lemma="money" pos="N" morphofeat="NN">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--trust-->
+    <term id="t28" type="open" lemma="trust" pos="N" morphofeat="NN">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t29" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--DEP(do-3, And-1)-->
+    <dep from="t3" to="t1" rfunc="DEP" />
+    <!--SBJ(do-3, you-2)-->
+    <dep from="t3" to="t2" rfunc="SBJ" />
+    <!--ADV(do-3, n't-4)-->
+    <dep from="t3" to="t4" rfunc="ADV" />
+    <!--VC(do-3, think-5)-->
+    <dep from="t3" to="t5" rfunc="VC" />
+    <!--NMOD(religion-8, the-6)-->
+    <dep from="t8" to="t6" rfunc="NMOD" />
+    <!--NMOD(religion-8, Jewish-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--NMOD(Christianity-9, religion-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--SBJ(is-21, Christianity-9)-->
+    <dep from="t21" to="t9" rfunc="SBJ" />
+    <!--P(Christianity-9, ,-10)-->
+    <dep from="t9" to="t10" rfunc="P" />
+    <!--APPO(Christianity-9, Jesus-11)-->
+    <dep from="t9" to="t11" rfunc="APPO" />
+    <!--P(Christianity-9, ,-12)-->
+    <dep from="t9" to="t12" rfunc="P" />
+    <!--NMOD(member-14, a-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--APPO(Christianity-9, member-14)-->
+    <dep from="t9" to="t14" rfunc="APPO" />
+    <!--NMOD(member-14, of-15)-->
+    <dep from="t14" to="t15" rfunc="NMOD" />
+    <!--NMOD(Tribe-17, the-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--PMOD(of-15, Tribe-17)-->
+    <dep from="t15" to="t17" rfunc="PMOD" />
+    <!--NMOD(Tribe-17, of-18)-->
+    <dep from="t17" to="t18" rfunc="NMOD" />
+    <!--PMOD(of-18, Judah-19)-->
+    <dep from="t18" to="t19" rfunc="PMOD" />
+    <!--P(Christianity-9, ,-20)-->
+    <dep from="t9" to="t20" rfunc="P" />
+    <!--OBJ(think-5, is-21)-->
+    <dep from="t5" to="t21" rfunc="OBJ" />
+    <!--ADV(is-21, not-22)-->
+    <dep from="t21" to="t22" rfunc="ADV" />
+    <!--COORD(not-22, as-23)-->
+    <dep from="t22" to="t23" rfunc="COORD" />
+    <!--PMOD(as-23, powerful-24)-->
+    <dep from="t23" to="t24" rfunc="PMOD" />
+    <!--AMOD(powerful-24, as-25)-->
+    <dep from="t24" to="t25" rfunc="AMOD" />
+    <!--NMOD(trust-28, the-26)-->
+    <dep from="t28" to="t26" rfunc="NMOD" />
+    <!--NMOD(trust-28, money-27)-->
+    <dep from="t28" to="t27" rfunc="NMOD" />
+    <!--PMOD(as-25, trust-28)-->
+    <dep from="t25" to="t28" rfunc="PMOD" />
+    <!--P(do-3, ?-29)-->
+    <dep from="t3" to="t29" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jewish-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" type="PERSON">
+      <references>
+        <!--Jesus-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" type="PERSON">
+      <references>
+        <!--Judah-->
+        <span>
+          <target id="t19" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Tribe_of_Judah" confidence="0.5976017" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--money trust-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Money_trust" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e5">
+      <references>
+        <!--Christianity-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Christianity" confidence="0.998414" />
+      </externalReferences>
+    </entity>
+    <entity id="e6">
+      <references>
+        <!--Tribe-->
+        <span>
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Israelites" confidence="0.90981543" />
+      </externalReferences>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--religion-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--member-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--Jesus-->
+      <span>
+        <target id="t11" head="yes" />
+      </span>
+    </coref>
+    <coref id="co2">
+      <!--Christianity-->
+      <span>
+        <target id="t9" head="yes" />
+      </span>
+      <!--religion-->
+      <span>
+        <target id="t8" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jesus" confidence="0.9999609120592999" spotted="true">
+      <!--Jesus-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Tribe_of_Judah" confidence="0.5976016887345151" spotted="true">
+      <!--Judah-->
+      <span>
+        <target id="w19" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Power_(social_and_political)" confidence="0.9810143544352031" spotted="true">
+      <!--powerful-->
+      <span>
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Money_trust" confidence="0.9999999996748841" spotted="true">
+      <!--money trust-->
+      <span>
+        <target id="w27" />
+        <target id="w28" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Judaism" confidence="0.9998554660201204" spotted="true">
+      <!--Jewish religion-->
+      <span>
+        <target id="w7" />
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Christianity" confidence="0.9984139951400592" spotted="true">
+      <!--Christianity-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Israelites" confidence="0.9098154411388255" spotted="true">
+      <!--Tribe-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Member_of_Parliament" confidence="0.974375754460957" spotted="true">
+      <!--member-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t21 is : A1[t6 the] A2[t23 as] AM-NEG[t22 not]-->
+    <predicate id="pr4" source="mate">
+      <!--is-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl6" semRole="A1">
+        <!--the Jewish religion Christianity , Jesus , a member of the Tribe of Judah ,-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" head="yes" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+      </role>
+      <role id="rl7" semRole="A2">
+        <!--as powerful as the money trust-->
+        <span>
+          <target id="t23" head="yes" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+      </role>
+      <role id="rl8" semRole="AM-NEG">
+        <!--not as powerful as the money trust-->
+        <span>
+          <target id="t22" head="yes" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 do : [t2 you]-->
+    <predicate id="f_pr6" source="semafor" confidence="63.64915405323102">
+      <!--do-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--you-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 think : A0[t2 you] A1[t6 the] AM-NEG[t4 n't]-->
+    <predicate id="f_pr7" source="semafor" confidence="53.44768019271758">
+      <!--think-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Opinion" />
+        <externalRef resource="PropBank" reference="think.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Opinion-think.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Cognizer" />
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="think.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="A1">
+        <!--the Jewish religion Christianity , Jesus , a member of the Tribe of Judah , is not as powerful as the money trust-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Opinion" />
+          <externalRef resource="VerbNet" reference="wish-62@Theme" />
+          <externalRef resource="PropBank" reference="think.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Opinion" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t14 member : [t11 Jesus] A1[t15 of]-->
+    <predicate id="f_pr8" source="semafor" confidence="16.40391014842095">
+      <!--member-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Membership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Member_of_Parliament" confidence="0.9743757" />
+        <externalRef resource="NomBank" reference="member.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Member_of_Parliament" confidence="0.9743757" />
+        <externalRef resource="FrameBase" reference="frame-Membership-member.n" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--Jesus-->
+        <span>
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Membership@Member" />
+          <externalRef resource="FrameBase" reference="fe-Membership-Member" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="A1">
+        <!--of the Tribe of Judah-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Membership@Group" />
+          <externalRef resource="FrameBase" reference="fe-Membership-Group" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t27 money : [t27 money]-->
+    <predicate id="f_pr10" source="semafor" confidence="30.834911908610543">
+      <!--money-->
+      <span>
+        <target id="t27" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Money" />
+        <externalRef resource="FrameBase" reference="frame-Money-money.n" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--money-->
+        <span>
+          <target id="t27" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Money@Money" />
+          <externalRef resource="FrameBase" reference="fe-Money-Money" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t28 trust : A1[t27 money]-->
+    <predicate id="f_pr11" source="semafor" confidence="18.272541170893625">
+      <!--trust-->
+      <span>
+        <target id="t28" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Trust" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Money_trust" confidence="1.0" />
+        <externalRef resource="NomBank" reference="trust.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Money_trust" confidence="1.0" />
+        <externalRef resource="FrameBase" reference="frame-Trust-trust.v" />
+      </externalReferences>
+      <role id="rl19" semRole="A1">
+        <!--money-->
+        <span>
+          <target id="t27" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 religion : A2[t6 the]-->
+    <predicate id="pr12">
+      <!--religion-->
+      <span>
+        <target id="t8" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="religion.01" />
+      </externalReferences>
+      <role id="rl20" semRole="A2">
+        <!--the Jewish religion-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (CC And) (NP (PRP you)) (VP (VBP do) (RB n't) (VP (VB think) (NP (NP (DT the) (JJ Jewish) (NN religion)) (SBAR (S (NP (NP (NNP Christianity) (, ,) (NNP Jesus)) (, ,) (NP (NP (DT a) (NN member)) (PP (IN of) (NP (NP (DT the) (NNP Tribe)) (PP (IN of) (NP (NNP Judah)))))) (, ,)) (VP (VBZ is) (RB not) (ADJP (IN as) (JJ powerful) (PP (IN as) (NP (DT the) (NN money) (NN trust)))))))))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="CC" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VBP" />
+      <nt id="nter8" label="RB" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="VB" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="DT" />
+      <nt id="nter14" label="JJ" />
+      <nt id="nter15" label="NN" />
+      <nt id="nter16" label="SBAR" />
+      <nt id="nter17" label="S" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="NNP" />
+      <nt id="nter21" label="," />
+      <nt id="nter22" label="NNP" />
+      <nt id="nter23" label="," />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="DT" />
+      <nt id="nter27" label="NN" />
+      <nt id="nter28" label="PP" />
+      <nt id="nter29" label="IN" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="DT" />
+      <nt id="nter33" label="NNP" />
+      <nt id="nter34" label="PP" />
+      <nt id="nter35" label="IN" />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="NNP" />
+      <nt id="nter38" label="," />
+      <nt id="nter39" label="VP" />
+      <nt id="nter40" label="VBZ" />
+      <nt id="nter41" label="RB" />
+      <nt id="nter42" label="ADJP" />
+      <nt id="nter43" label="IN" />
+      <nt id="nter44" label="JJ" />
+      <nt id="nter45" label="PP" />
+      <nt id="nter46" label="IN" />
+      <nt id="nter47" label="NP" />
+      <nt id="nter48" label="DT" />
+      <nt id="nter49" label="NN" />
+      <nt id="nter50" label="NN" />
+      <nt id="nter51" label="." />
+      <!--Terminals-->
+      <!--And-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--do-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--think-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Jewish-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--religion-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Christianity-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Jesus-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--member-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Tribe-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Judah-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--powerful-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--money-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--trust-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter6" />
+      <edge id="tre14" from="nter10" to="nter9" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter9" />
+      <edge id="tre17" from="nter12" to="nter11" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter12" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter12" head="yes" />
+      <edge id="tre23" from="ter8" to="nter15" />
+      <edge id="tre24" from="nter16" to="nter11" />
+      <edge id="tre25" from="nter17" to="nter16" head="yes" />
+      <edge id="tre26" from="nter18" to="nter17" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="nter20" to="nter19" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter19" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter19" head="yes" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter18" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter18" />
+      <edge id="tre37" from="nter25" to="nter24" head="yes" />
+      <edge id="tre38" from="nter26" to="nter25" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter25" head="yes" />
+      <edge id="tre41" from="ter14" to="nter27" />
+      <edge id="tre42" from="nter28" to="nter24" />
+      <edge id="tre43" from="nter29" to="nter28" head="yes" />
+      <edge id="tre44" from="ter15" to="nter29" />
+      <edge id="tre45" from="nter30" to="nter28" />
+      <edge id="tre46" from="nter31" to="nter30" head="yes" />
+      <edge id="tre47" from="nter32" to="nter31" />
+      <edge id="tre48" from="ter16" to="nter32" />
+      <edge id="tre49" from="nter33" to="nter31" head="yes" />
+      <edge id="tre50" from="ter17" to="nter33" />
+      <edge id="tre51" from="nter34" to="nter30" />
+      <edge id="tre52" from="nter35" to="nter34" head="yes" />
+      <edge id="tre53" from="ter18" to="nter35" />
+      <edge id="tre54" from="nter36" to="nter34" />
+      <edge id="tre55" from="nter37" to="nter36" head="yes" />
+      <edge id="tre56" from="ter19" to="nter37" />
+      <edge id="tre57" from="nter38" to="nter18" />
+      <edge id="tre58" from="ter20" to="nter38" />
+      <edge id="tre59" from="nter39" to="nter17" head="yes" />
+      <edge id="tre60" from="nter40" to="nter39" head="yes" />
+      <edge id="tre61" from="ter21" to="nter40" />
+      <edge id="tre62" from="nter41" to="nter39" />
+      <edge id="tre63" from="ter22" to="nter41" />
+      <edge id="tre64" from="nter42" to="nter39" />
+      <edge id="tre65" from="nter43" to="nter42" />
+      <edge id="tre66" from="ter23" to="nter43" />
+      <edge id="tre67" from="nter44" to="nter42" head="yes" />
+      <edge id="tre68" from="ter24" to="nter44" />
+      <edge id="tre69" from="nter45" to="nter42" />
+      <edge id="tre70" from="nter46" to="nter45" head="yes" />
+      <edge id="tre71" from="ter25" to="nter46" />
+      <edge id="tre72" from="nter47" to="nter45" />
+      <edge id="tre73" from="nter48" to="nter47" />
+      <edge id="tre74" from="ter26" to="nter48" />
+      <edge id="tre75" from="nter49" to="nter47" />
+      <edge id="tre76" from="ter27" to="nter49" />
+      <edge id="tre77" from="nter50" to="nter47" head="yes" />
+      <edge id="tre78" from="ter28" to="nter50" />
+      <edge id="tre79" from="nter51" to="nter2" />
+      <edge id="tre80" from="ter29" to="nter51" />
+    </tree>
+  </constituency>
+</NAF>

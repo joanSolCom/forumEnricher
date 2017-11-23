@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:29:32+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:29:32.690+0100" endTimestamp="2017-11-20T12:29:32.953+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:29:32.955+0100" endTimestamp="2017-11-20T12:29:32.955+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[-Mein Kampf]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">-</wf>
+    <wf id="w2" sent="1" para="1" offset="1" length="4">Mein</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="5">Kampf</wf>
+  </text>
+  <terms>
+    <!--- .-->
+    <term id="t1" type="open" lemma="-" pos="O" morphofeat=":">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Mein-->
+    <term id="t2" type="open" lemma="Mein" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Kampf-->
+    <term id="t3" type="open" lemma="Kampf" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Kampf-3,  - -1)-->
+    <dep from="t3" to="t1" rfunc="P" />
+    <!--NAME(Kampf-3, Mein-2)-->
+    <dep from="t3" to="t2" rfunc="NAME" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Mein Kampf-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mein_Kampf" confidence="0.9996992" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mein_Kampf" confidence="0.9996991789846777" spotted="true">
+      <!--Mein Kampf-->
+      <span>
+        <target id="w2" />
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (PRN (: -) (NP (NP (NNP Mein)) (NP (NNP Kampf)))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="PRN" />
+      <nt id="nter3" label=":" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="NNP" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NNP" />
+      <!--Terminals-->
+      <!--- .-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Mein-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Kampf-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter4" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+    </tree>
+  </constituency>
+</NAF>

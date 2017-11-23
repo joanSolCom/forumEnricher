@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:27+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:27.790+0100" endTimestamp="2017-11-20T12:30:28.327+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:28.329+0100" endTimestamp="2017-11-20T12:30:28.330+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Despite different methods/strategies different jews use, they all appear to have a similar goal - bring down Western/White civilization.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="7">Despite</wf>
+    <wf id="w2" sent="1" para="1" offset="8" length="9">different</wf>
+    <wf id="w3" sent="1" para="1" offset="18" length="18">methods/strategies</wf>
+    <wf id="w4" sent="1" para="1" offset="37" length="9">different</wf>
+    <wf id="w5" sent="1" para="1" offset="47" length="4">jews</wf>
+    <wf id="w6" sent="1" para="1" offset="52" length="3">use</wf>
+    <wf id="w7" sent="1" para="1" offset="55" length="1">,</wf>
+    <wf id="w8" sent="1" para="1" offset="57" length="4">they</wf>
+    <wf id="w9" sent="1" para="1" offset="62" length="3">all</wf>
+    <wf id="w10" sent="1" para="1" offset="66" length="6">appear</wf>
+    <wf id="w11" sent="1" para="1" offset="73" length="2">to</wf>
+    <wf id="w12" sent="1" para="1" offset="76" length="4">have</wf>
+    <wf id="w13" sent="1" para="1" offset="81" length="1">a</wf>
+    <wf id="w14" sent="1" para="1" offset="83" length="7">similar</wf>
+    <wf id="w15" sent="1" para="1" offset="91" length="4">goal</wf>
+    <wf id="w16" sent="1" para="1" offset="96" length="1">-</wf>
+    <wf id="w17" sent="1" para="1" offset="98" length="5">bring</wf>
+    <wf id="w18" sent="1" para="1" offset="104" length="4">down</wf>
+    <wf id="w19" sent="1" para="1" offset="109" length="13">Western/White</wf>
+    <wf id="w20" sent="1" para="1" offset="123" length="12">civilization</wf>
+    <wf id="w21" sent="1" para="1" offset="135" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Despite-->
+    <term id="t1" type="open" lemma="despite" pos="P" morphofeat="IN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--different-->
+    <term id="t2" type="open" lemma="different" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--methods/strategies-->
+    <term id="t3" type="open" lemma="methods/strategies" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--different-->
+    <term id="t4" type="open" lemma="different" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--jews-->
+    <term id="t5" type="open" lemma="jew" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--use-->
+    <term id="t6" type="open" lemma="use" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t7" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--they-->
+    <term id="t8" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t9" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--appear-->
+    <term id="t10" type="open" lemma="appear" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t11" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t12" type="open" lemma="have" pos="V" morphofeat="VB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t13" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--similar-->
+    <term id="t14" type="open" lemma="similar" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--goal-->
+    <term id="t15" type="open" lemma="goal" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--- .-->
+    <term id="t16" type="open" lemma="-" pos="O" morphofeat=":">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--bring-->
+    <term id="t17" type="open" lemma="bring" pos="V" morphofeat="VB">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--down-->
+    <term id="t18" type="open" lemma="down" pos="O" morphofeat="RP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Western/White-->
+    <term id="t19" type="open" lemma="western/white" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--civilization-->
+    <term id="t20" type="open" lemma="civilization" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t21" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(appear-10, Despite-1)-->
+    <dep from="t10" to="t1" rfunc="ADV" />
+    <!--NMOD(methods/strategies-3, different-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--PMOD(Despite-1, methods/strategies-3)-->
+    <dep from="t1" to="t3" rfunc="PMOD" />
+    <!--NMOD(jews-5, different-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--SBJ(use-6, jews-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--NMOD(methods/strategies-3, use-6)-->
+    <dep from="t3" to="t6" rfunc="NMOD" />
+    <!--P(appear-10, ,-7)-->
+    <dep from="t10" to="t7" rfunc="P" />
+    <!--SBJ(appear-10, they-8)-->
+    <dep from="t10" to="t8" rfunc="SBJ" />
+    <!--APPO(they-8, all-9)-->
+    <dep from="t8" to="t9" rfunc="APPO" />
+    <!--OPRD(appear-10, to-11)-->
+    <dep from="t10" to="t11" rfunc="OPRD" />
+    <!--IM(to-11, have-12)-->
+    <dep from="t11" to="t12" rfunc="IM" />
+    <!--NMOD(goal-15, a-13)-->
+    <dep from="t15" to="t13" rfunc="NMOD" />
+    <!--NMOD(goal-15, similar-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--OBJ(have-12, goal-15)-->
+    <dep from="t12" to="t15" rfunc="OBJ" />
+    <!--P(goal-15,  - -16)-->
+    <dep from="t15" to="t16" rfunc="P" />
+    <!--COORD(goal-15, bring-17)-->
+    <dep from="t15" to="t17" rfunc="COORD" />
+    <!--PRT(bring-17, down-18)-->
+    <dep from="t17" to="t18" rfunc="PRT" />
+    <!--NMOD(civilization-20, Western/White-19)-->
+    <dep from="t20" to="t19" rfunc="NMOD" />
+    <!--OBJ(bring-17, civilization-20)-->
+    <dep from="t17" to="t20" rfunc="OBJ" />
+    <!--P(appear-10, .-21)-->
+    <dep from="t10" to="t21" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--goal-->
+        <span>
+          <target id="t15" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goal" confidence="0.7448583" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--civilization-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Civilization" confidence="0.99845266" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--jews-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999998" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--methods/strategies-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--they-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--different methods/strategies-->
+      <span>
+        <target id="t2" />
+        <target id="t3" head="yes" />
+      </span>
+      <!--they-->
+      <span>
+        <target id="t8" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goal" confidence="0.7448583049278419" spotted="true">
+      <!--goal-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Civilization" confidence="0.9984526493652836" spotted="true">
+      <!--civilization-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999998249910089" spotted="true">
+      <!--jews-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 different : [t2 different]-->
+    <predicate id="f_pr5" source="semafor" confidence="59.50395082803369">
+      <!--different-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Similarity" />
+        <externalRef resource="FrameBase" reference="frame-Similarity-differ.v" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--different methods/strategies different jews use-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Similarity@Entities" />
+          <externalRef resource="FrameBase" reference="fe-Similarity-Entities" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 different : [t4 different]-->
+    <predicate id="f_pr6" source="semafor" confidence="62.37986382185541">
+      <!--different-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Similarity" />
+        <externalRef resource="FrameBase" reference="frame-Similarity-differ.v" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--different jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Similarity@Entities" />
+          <externalRef resource="FrameBase" reference="fe-Similarity-Entities" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 jews : [t4 different]-->
+    <predicate id="f_pr7" source="semafor" confidence="37.978593670840844">
+      <!--jews-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999998" />
+        <externalRef resource="FrameBase" reference="frame-People_by_religion-jew.n" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--different jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 use : A0[t4 different] A1[t2 different]-->
+    <predicate id="f_pr8" source="semafor" confidence="105.05242941829337">
+      <!--use-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Using" />
+        <externalRef resource="PropBank" reference="use.01" source="mate" />
+        <externalRef resource="VerbNet" reference="fit-54.3" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01158572-v" />
+        <externalRef resource="WordNet" reference="ili-30-01158872-v" />
+        <externalRef resource="FrameBase" reference="frame-Using-use.v" />
+      </externalReferences>
+      <role id="rl12" semRole="A0">
+        <!--different jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Using@Agent" />
+          <externalRef resource="VerbNet" reference="fit-54.3@Agent" />
+          <externalRef resource="PropBank" reference="use.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Using-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="A1">
+        <!--different methods/strategies different jews use-->
+        <span>
+          <target id="t2" />
+          <target id="t3" head="yes" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="fit-54.3@Value" />
+          <externalRef resource="PropBank" reference="use.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 all : [t9 all]-->
+    <predicate id="f_pr9" source="semafor" confidence="20.870628124543483">
+      <!--all-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--all-->
+        <span>
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 appear : C-A1[t11 to] A1[t8 they] AM-ADV[t1 Despite]-->
+    <predicate id="f_pr10" source="semafor" confidence="69.05693006568708">
+      <!--appear-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Appearance" />
+        <externalRef resource="PropBank" reference="appear.02" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Appearance-look.v" />
+      </externalReferences>
+      <role id="rl14" semRole="C-A1">
+        <!--to have a similar goal  -  bring down Western/White civilization-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Appearance@Inference" />
+          <externalRef resource="FrameBase" reference="fe-Appearance-Inference" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--they all-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Appearance@Phenomenon" />
+          <externalRef resource="FrameBase" reference="fe-Appearance-Phenomenon" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="AM-ADV">
+        <!--Despite different methods/strategies different jews use-->
+        <span>
+          <target id="t1" head="yes" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </role>
+    </predicate>
+    <!--t12 have : A0[t8 they] A1[t13 a]-->
+    <predicate id="f_pr11" source="semafor" confidence="43.77059716271872">
+      <!--have-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl16" semRole="A0">
+        <!--they all-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="A1">
+        <!--a similar goal  -  bring down Western/White civilization-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 similar : [t13 a]-->
+    <predicate id="f_pr12" source="semafor" confidence="66.06975859214532">
+      <!--similar-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Similarity" />
+        <externalRef resource="FrameBase" reference="frame-Similarity-similarity_((mass)).n" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--a similar goal  -  bring down Western/White civilization-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Similarity@Entity_1" />
+          <externalRef resource="FrameBase" reference="fe-Similarity-Entity_1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 goal : [t14 similar]-->
+    <predicate id="f_pr13" source="semafor" confidence="30.740378939666112">
+      <!--goal-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Purpose" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goal" confidence="0.7448583" />
+        <externalRef resource="FrameBase" reference="frame-Purpose-goal.n" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--similar-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Purpose@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Purpose-Goal" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 bring : A1[t19 Western/White]-->
+    <predicate id="f_pr14" source="semafor" confidence="37.28415776137986">
+      <!--bring-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cause_to_start" />
+        <externalRef resource="PropBank" reference="bring.03" source="mate" />
+      </externalReferences>
+      <role id="rl20" semRole="A1">
+        <!--Western/White civilization-->
+        <span>
+          <target id="t19" />
+          <target id="t20" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t18 down : [t18 down]-->
+    <predicate id="f_pr15" source="semafor" confidence="14.993858475730486">
+      <!--down-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Direction" />
+        <externalRef resource="FrameBase" reference="frame-Direction-down.adv" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--down-->
+        <span>
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Direction@Path" />
+          <externalRef resource="FrameBase" reference="fe-Direction-Path" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (PP (IN Despite) (NP (JJ different) (NNS methods/strategies))) (NP (JJ different) (NNS jews)) (VP (VBP use))) (, ,) (NP (PRP they)) (ADVP (DT all)) (VP (VBP appear) (S (VP (TO to) (VP (VP (VB have) (NP (DT a) (JJ similar) (NN goal))) (: -) (VP (VB bring) (PRT (RP down)) (NP (JJ Western/White) (NN civilization))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="PP" />
+      <nt id="nter5" label="IN" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="JJ" />
+      <nt id="nter8" label="NNS" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="JJ" />
+      <nt id="nter11" label="NNS" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBP" />
+      <nt id="nter14" label="," />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="PRP" />
+      <nt id="nter17" label="ADVP" />
+      <nt id="nter18" label="DT" />
+      <nt id="nter19" label="VP" />
+      <nt id="nter20" label="VBP" />
+      <nt id="nter21" label="S" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="TO" />
+      <nt id="nter24" label="VP" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VB" />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="DT" />
+      <nt id="nter29" label="JJ" />
+      <nt id="nter30" label="NN" />
+      <nt id="nter31" label=":" />
+      <nt id="nter32" label="VP" />
+      <nt id="nter33" label="VB" />
+      <nt id="nter34" label="PRT" />
+      <nt id="nter35" label="RP" />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="JJ" />
+      <nt id="nter38" label="NN" />
+      <nt id="nter39" label="." />
+      <!--Terminals-->
+      <!--Despite-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--different-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--methods/strategies-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--different-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--jews-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--use-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--they-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--appear-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--similar-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--goal-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--- .-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--bring-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--down-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Western/White-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--civilization-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter4" />
+      <edge id="tre8" from="nter7" to="nter6" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter3" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter3" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter2" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter2" />
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="ter8" to="nter16" />
+      <edge id="tre25" from="nter17" to="nter2" />
+      <edge id="tre26" from="nter18" to="nter17" head="yes" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter2" head="yes" />
+      <edge id="tre29" from="nter20" to="nter19" head="yes" />
+      <edge id="tre30" from="ter10" to="nter20" />
+      <edge id="tre31" from="nter21" to="nter19" />
+      <edge id="tre32" from="nter22" to="nter21" head="yes" />
+      <edge id="tre33" from="nter23" to="nter22" head="yes" />
+      <edge id="tre34" from="ter11" to="nter23" />
+      <edge id="tre35" from="nter24" to="nter22" />
+      <edge id="tre36" from="nter25" to="nter24" head="yes" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter25" />
+      <edge id="tre40" from="nter28" to="nter27" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter27" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter24" />
+      <edge id="tre47" from="ter16" to="nter31" />
+      <edge id="tre48" from="nter32" to="nter24" />
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="ter17" to="nter33" />
+      <edge id="tre51" from="nter34" to="nter32" />
+      <edge id="tre52" from="nter35" to="nter34" head="yes" />
+      <edge id="tre53" from="ter18" to="nter35" />
+      <edge id="tre54" from="nter36" to="nter32" />
+      <edge id="tre55" from="nter37" to="nter36" />
+      <edge id="tre56" from="ter19" to="nter37" />
+      <edge id="tre57" from="nter38" to="nter36" head="yes" />
+      <edge id="tre58" from="ter20" to="nter38" />
+      <edge id="tre59" from="nter39" to="nter2" />
+      <edge id="tre60" from="ter21" to="nter39" />
+    </tree>
+  </constituency>
+</NAF>

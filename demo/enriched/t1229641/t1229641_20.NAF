@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:57+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:57.047+0100" endTimestamp="2017-11-20T12:32:57.327+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:57.328+0100" endTimestamp="2017-11-20T12:32:57.328+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Gypsies/Romani aren't even white.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="14">Gypsies/Romani</wf>
+    <wf id="w2" sent="1" para="1" offset="15" length="3">are</wf>
+    <wf id="w3" sent="1" para="1" offset="18" length="3">n't</wf>
+    <wf id="w4" sent="1" para="1" offset="22" length="4">even</wf>
+    <wf id="w5" sent="1" para="1" offset="27" length="5">white</wf>
+    <wf id="w6" sent="1" para="1" offset="32" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Gypsies/Romani-->
+    <term id="t1" type="open" lemma="gypsies/romani" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t3" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--even-->
+    <term id="t4" type="open" lemma="even" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--white-->
+    <term id="t5" type="open" lemma="white" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(are-2, Gypsies/Romani-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(are-2, n't-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--ADV(are-2, even-4)-->
+    <dep from="t2" to="t4" rfunc="ADV" />
+    <!--COORD(even-4, white-5)-->
+    <dep from="t4" to="t5" rfunc="COORD" />
+    <!--P(are-2, .-6)-->
+    <dep from="t2" to="t6" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--Gypsies/Romani-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_people" confidence="0.6226737604616057" spotted="true">
+      <!--white-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 are : AM-NEG[t3 n't] A2[t5 white] A1[t1 Gypsies/Romani]-->
+    <predicate id="pr1" source="mate">
+      <!--are-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A2">
+        <!--white-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl3" semRole="A1">
+        <!--Gypsies/Romani-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 white : [t5 white] [t1 Gypsies/Romani]-->
+    <predicate id="f_pr2" source="semafor" confidence="52.64381786746601">
+      <!--white-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_people" confidence="0.62267375" />
+        <externalRef resource="FrameBase" reference="frame-Color-white.a" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--white-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="">
+        <!--Gypsies/Romani-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NNS Gypsies/Romani)) (VP (VBP are) (RB n't) (ADJP (RB even) (JJ white))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNS" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="RB" />
+      <nt id="nter8" label="ADJP" />
+      <nt id="nter9" label="RB" />
+      <nt id="nter10" label="JJ" />
+      <nt id="nter11" label="." />
+      <!--Terminals-->
+      <!--Gypsies/Romani-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--even-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--white-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter5" />
+      <edge id="tre12" from="nter9" to="nter8" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter2" />
+      <edge id="tre17" from="ter6" to="nter11" />
+    </tree>
+  </constituency>
+</NAF>

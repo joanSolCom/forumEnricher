@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:02+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:02.274+0100" endTimestamp="2017-11-21T16:40:02.919+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:02.920+0100" endTimestamp="2017-11-21T16:40:02.921+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Hypothetical: You find out you had a black ancestor who lived 800 years ago... I would ignore that "information" as dubious and carry on.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="12">Hypothetical</wf>
+    <wf id="w2" sent="1" para="1" offset="12" length="1">:</wf>
+    <wf id="w3" sent="1" para="1" offset="14" length="3">You</wf>
+    <wf id="w4" sent="1" para="1" offset="18" length="4">find</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="3">out</wf>
+    <wf id="w6" sent="1" para="1" offset="27" length="3">you</wf>
+    <wf id="w7" sent="1" para="1" offset="31" length="3">had</wf>
+    <wf id="w8" sent="1" para="1" offset="35" length="1">a</wf>
+    <wf id="w9" sent="1" para="1" offset="37" length="5">black</wf>
+    <wf id="w10" sent="1" para="1" offset="43" length="8">ancestor</wf>
+    <wf id="w11" sent="1" para="1" offset="52" length="3">who</wf>
+    <wf id="w12" sent="1" para="1" offset="56" length="5">lived</wf>
+    <wf id="w13" sent="1" para="1" offset="62" length="3">800</wf>
+    <wf id="w14" sent="1" para="1" offset="66" length="5">years</wf>
+    <wf id="w15" sent="1" para="1" offset="72" length="3">ago</wf>
+    <wf id="w16" sent="1" para="1" offset="75" length="3">...</wf>
+    <wf id="w17" sent="1" para="1" offset="79" length="1">I</wf>
+    <wf id="w18" sent="1" para="1" offset="81" length="5">would</wf>
+    <wf id="w19" sent="1" para="1" offset="87" length="6">ignore</wf>
+    <wf id="w20" sent="1" para="1" offset="94" length="4">that</wf>
+    <wf id="w21" sent="1" para="1" offset="99" length="2">``</wf>
+    <wf id="w22" sent="1" para="1" offset="100" length="11">information</wf>
+    <wf id="w23" sent="1" para="1" offset="111" length="2">''</wf>
+    <wf id="w24" sent="1" para="1" offset="113" length="2">as</wf>
+    <wf id="w25" sent="1" para="1" offset="116" length="7">dubious</wf>
+    <wf id="w26" sent="1" para="1" offset="124" length="3">and</wf>
+    <wf id="w27" sent="1" para="1" offset="128" length="5">carry</wf>
+    <wf id="w28" sent="1" para="1" offset="134" length="2">on</wf>
+    <wf id="w29" sent="1" para="1" offset="136" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hypothetical-->
+    <term id="t1" type="open" lemma="hypothetical" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t2" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--You-->
+    <term id="t3" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--find-->
+    <term id="t4" type="open" lemma="find" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--out-->
+    <term id="t5" type="open" lemma="out" pos="O" morphofeat="RP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t6" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--had-->
+    <term id="t7" type="open" lemma="have" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t8" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--black-->
+    <term id="t9" type="open" lemma="black" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--ancestor-->
+    <term id="t10" type="open" lemma="ancestor" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--who-->
+    <term id="t11" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--lived-->
+    <term id="t12" type="open" lemma="live" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--800-->
+    <term id="t13" type="open" lemma="800" pos="O" morphofeat="CD">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--years-->
+    <term id="t14" type="open" lemma="year" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--ago-->
+    <term id="t15" type="open" lemma="ago" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t16" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t17" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t18" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--ignore-->
+    <term id="t19" type="open" lemma="ignore" pos="V" morphofeat="VB">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t20" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--``-->
+    <term id="t21" type="open" lemma="``" pos="O" morphofeat="``">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--information-->
+    <term id="t22" type="open" lemma="information" pos="N" morphofeat="NN">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--''-->
+    <term id="t23" type="open" lemma="''" pos="O" morphofeat="''">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t24" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--dubious-->
+    <term id="t25" type="open" lemma="dubious" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t26" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--carry-->
+    <term id="t27" type="open" lemma="carry" pos="V" morphofeat="VB">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t28" type="open" lemma="on" pos="O" morphofeat="RP">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t29" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--PRP(find-4, Hypothetical-1)-->
+    <dep from="t4" to="t1" rfunc="PRP" />
+    <!--P(Hypothetical-1, :-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--SBJ(find-4, You-3)-->
+    <dep from="t4" to="t3" rfunc="SBJ" />
+    <!--PRT(find-4, out-5)-->
+    <dep from="t4" to="t5" rfunc="PRT" />
+    <!--SBJ(had-7, you-6)-->
+    <dep from="t7" to="t6" rfunc="SBJ" />
+    <!--OBJ(find-4, had-7)-->
+    <dep from="t4" to="t7" rfunc="OBJ" />
+    <!--NMOD(ancestor-10, a-8)-->
+    <dep from="t10" to="t8" rfunc="NMOD" />
+    <!--NMOD(ancestor-10, black-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--OBJ(had-7, ancestor-10)-->
+    <dep from="t7" to="t10" rfunc="OBJ" />
+    <!--SBJ(lived-12, who-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--NMOD(ancestor-10, lived-12)-->
+    <dep from="t10" to="t12" rfunc="NMOD" />
+    <!--NMOD(years-14, 800-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--AMOD(ago-15, years-14)-->
+    <dep from="t15" to="t14" rfunc="AMOD" />
+    <!--TMP(lived-12, ago-15)-->
+    <dep from="t12" to="t15" rfunc="TMP" />
+    <!--P(would-18, ...-16)-->
+    <dep from="t18" to="t16" rfunc="P" />
+    <!--SBJ(would-18, I-17)-->
+    <dep from="t18" to="t17" rfunc="SBJ" />
+    <!--ADV(lived-12, would-18)-->
+    <dep from="t12" to="t18" rfunc="ADV" />
+    <!--VC(would-18, ignore-19)-->
+    <dep from="t18" to="t19" rfunc="VC" />
+    <!--OBJ(ignore-19, that-20)-->
+    <dep from="t19" to="t20" rfunc="OBJ" />
+    <!--P(information-22, ``-21)-->
+    <dep from="t22" to="t21" rfunc="P" />
+    <!--SUB(that-20, information-22)-->
+    <dep from="t20" to="t22" rfunc="SUB" />
+    <!--P(information-22, ''-23)-->
+    <dep from="t22" to="t23" rfunc="P" />
+    <!--NMOD(information-22, as-24)-->
+    <dep from="t22" to="t24" rfunc="NMOD" />
+    <!--PMOD(as-24, dubious-25)-->
+    <dep from="t24" to="t25" rfunc="PMOD" />
+    <!--COORD(ignore-19, and-26)-->
+    <dep from="t19" to="t26" rfunc="COORD" />
+    <!--CONJ(and-26, carry-27)-->
+    <dep from="t26" to="t27" rfunc="CONJ" />
+    <!--PRT(carry-27, on-28)-->
+    <dep from="t27" to="t28" rfunc="PRT" />
+    <!--P(find-4, .-29)-->
+    <dep from="t4" to="t29" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--find-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9823983" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--black-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Black" confidence="0.49689388" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--You-->
+        <span>
+          <target id="t3" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--ancestor-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--who-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--information-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="TIME" value="1217-11-21T16:40:02">
+      <!--800 years ago-->
+      <span>
+        <target id="w13" />
+        <target id="w14" />
+        <target id="w15" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hypothesis" confidence="0.9967559826649409" spotted="true">
+      <!--Hypothetical-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Carry_(arithmetic)" confidence="0.8264731707231308" spotted="true">
+      <!--carry-->
+      <span>
+        <target id="w27" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9823982933751269" spotted="true">
+      <!--find-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Black" confidence="0.4968938890362883" spotted="true">
+      <!--black-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Retroactive_continuity" confidence="0.9998911200959973" spotted="true">
+      <!--ignore-->
+      <span>
+        <target id="w19" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Half-life" confidence="0.9884420116230083" spotted="true">
+      <!--lived-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/You" confidence="0.585138125895383" spotted="true">
+      <!--You-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t19 ignore : A0[t17 I] AM-MOD[t16 ...] A1[t20 that]-->
+    <predicate id="pr4" source="mate">
+      <!--ignore-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="ignore.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Retroactive_continuity" confidence="0.9998911" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+      <role id="rl10" semRole="AM-MOD">
+        <!--... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+      </role>
+      <role id="rl11" semRole="A1">
+        <!--that `` information '' as dubious-->
+        <span>
+          <target id="t20" head="yes" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+      </role>
+    </predicate>
+    <!--t4 find : A0[t3 You] A1[t6 you]-->
+    <predicate id="f_pr7" source="semafor" confidence="98.8038818968938">
+      <!--find out-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Becoming_aware" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9823983" />
+        <externalRef resource="PropBank" reference="find.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00918872-v" />
+        <externalRef resource="WordNet" reference="ili-30-00721437-v" />
+        <externalRef resource="WordNet" reference="ili-30-01637982-v" />
+        <externalRef resource="WordNet" reference="ili-30-02154508-v" />
+        <externalRef resource="WordNet" reference="ili-30-02285629-v" />
+        <externalRef resource="WordNet" reference="ili-30-02213336-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9823983" />
+        <externalRef resource="FrameBase" reference="frame-Becoming_aware-find_out.v" />
+      </externalReferences>
+      <role id="rl14" semRole="A0">
+        <!--You-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Becoming_aware@Cognizer" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="find.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Becoming_aware-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="A1">
+        <!--you had a black ancestor who lived 800 years ago ... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t6" />
+          <target id="t7" head="yes" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="find.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t27 carry : A0[t17 I] AM-MOD[t16 ...]-->
+    <predicate id="f_pr8" source="semafor" confidence="68.33448373571197">
+      <!--carry on-->
+      <span>
+        <target id="t27" />
+        <target id="t28" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Activity_ongoing" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Carry_(arithmetic)" confidence="0.8264732" />
+        <externalRef resource="PropBank" reference="carry.03" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Carry_(arithmetic)" confidence="0.8264732" />
+        <externalRef resource="FrameBase" reference="frame-Activity_ongoing-keep.v" />
+      </externalReferences>
+      <role id="rl27" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+      <role id="rl28" semRole="AM-MOD">
+        <!--... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 had : A1[t8 a] A0[t6 you]-->
+    <predicate id="f_pr9" source="semafor" confidence="46.226985252945596">
+      <!--had-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl15" semRole="A1">
+        <!--a black ancestor who lived 800 years ago ... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 black : [t9 black] [t8 a]-->
+    <predicate id="f_pr10" source="semafor" confidence="62.33335183577407">
+      <!--black-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Black" confidence="0.49689388" />
+        <externalRef resource="FrameBase" reference="frame-Color-black.a" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--black-->
+        <span>
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="">
+        <!--a black ancestor who lived 800 years ago ... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 ancestor : [t8 a] [t9 black]-->
+    <predicate id="f_pr11" source="semafor" confidence="23.155654902088713">
+      <!--ancestor-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Kinship" />
+        <externalRef resource="FrameBase" reference="frame-Kinship-ancestor.n" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--a black ancestor who lived 800 years ago ... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Alter" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Alter" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="">
+        <!--black-->
+        <span>
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Descriptor" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Descriptor" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 lived : A0[t8 a] AM-TMP[t13 800] AM-ADV[t16 ...] R-A0[t11 who]-->
+    <predicate id="f_pr12" source="semafor" confidence="42.43996944063334">
+      <!--lived-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Residence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Half-life" confidence="0.988442" />
+        <externalRef resource="PropBank" reference="live.01" source="mate" />
+        <externalRef resource="VerbNet" reference="lodge-46" />
+        <externalRef resource="ESO" reference="BeingAtAPlace" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02618149-v" />
+        <externalRef resource="WordNet" reference="ili-30-02616713-v" />
+        <externalRef resource="WordNet" reference="ili-30-02649830-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Half-life" confidence="0.988442" />
+        <externalRef resource="FrameBase" reference="frame-Residence-live.v" />
+      </externalReferences>
+      <role id="rl21" semRole="A0">
+        <!--a black ancestor who lived 800 years ago ... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Residence@Resident" />
+          <externalRef resource="VerbNet" reference="lodge-46@Theme" />
+          <externalRef resource="PropBank" reference="live.01@0" />
+          <externalRef resource="ESO" reference="BeingAtAPlace@atPlace-theme" />
+          <externalRef resource="FrameBase" reference="fe-Residence-Resident" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="AM-TMP">
+        <!--800 years ago-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Residence@Time" />
+          <externalRef resource="FrameBase" reference="fe-Residence-Time" />
+        </externalReferences>
+      </role>
+      <role id="rl25" semRole="AM-ADV">
+        <!--... I would ignore that `` information '' as dubious and carry on-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+      </role>
+      <role id="rl26" semRole="R-A0">
+        <!--who-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t14 years : [t13 800]-->
+    <predicate id="f_pr13" source="semafor" confidence="27.750730804557207">
+      <!--years-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Measure_duration" />
+        <externalRef resource="FrameBase" reference="frame-Measure_duration-year.n" />
+      </externalReferences>
+      <role id="rl23" semRole="">
+        <!--800-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Measure_duration@Count" />
+          <externalRef resource="FrameBase" reference="fe-Measure_duration-Count" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t22 information :-->
+    <predicate id="f_pr14" source="semafor" confidence="22.86229784123831">
+      <!--information-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Information" />
+        <externalRef resource="NomBank" reference="information.01" source="mate" />
+        <externalRef resource="VerbNet" reference="tell-37.2" />
+        <externalRef resource="PropBank" reference="inform.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Information-data.n" />
+      </externalReferences>
+    </predicate>
+    <!--t25 dubious :-->
+    <predicate id="f_pr15" source="semafor" confidence="35.9079839741452">
+      <!--dubious-->
+      <span>
+        <target id="t25" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Certainty" />
+        <externalRef resource="FrameBase" reference="frame-Certainty-doubt.n" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (JJ Hypothetical)) (: :) (S (S (NP (PRP You)) (VP (VBP find) (PRT (RP out)) (S (NP (PRP you)) (VP (VBD had) (NP (NP (DT a) (JJ black) (NN ancestor)) (SBAR (WHNP (WP who)) (S (VP (VBD lived) (ADVP (NP (CD 800) (NNS years)) (IN ago)))))))))) (: ...) (S (NP (PRP I)) (VP (MD would) (VP (VP (VB ignore) (SBAR (IN that) (S (NP (`` ``) (NN information) ('' '')) (PP (IN as) (ADJP (JJ dubious)))))) (CC and) (VP (VB carry) (PRT (RP on))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label=":" />
+      <nt id="nter6" label="S" />
+      <nt id="nter7" label="S" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="PRP" />
+      <nt id="nter10" label="VP" />
+      <nt id="nter11" label="VBP" />
+      <nt id="nter12" label="PRT" />
+      <nt id="nter13" label="RP" />
+      <nt id="nter14" label="S" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="PRP" />
+      <nt id="nter17" label="VP" />
+      <nt id="nter18" label="VBD" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="DT" />
+      <nt id="nter22" label="JJ" />
+      <nt id="nter23" label="NN" />
+      <nt id="nter24" label="SBAR" />
+      <nt id="nter25" label="WHNP" />
+      <nt id="nter26" label="WP" />
+      <nt id="nter27" label="S" />
+      <nt id="nter28" label="VP" />
+      <nt id="nter29" label="VBD" />
+      <nt id="nter30" label="ADVP" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="CD" />
+      <nt id="nter33" label="NNS" />
+      <nt id="nter34" label="IN" />
+      <nt id="nter35" label=":" />
+      <nt id="nter36" label="S" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="PRP" />
+      <nt id="nter39" label="VP" />
+      <nt id="nter40" label="MD" />
+      <nt id="nter41" label="VP" />
+      <nt id="nter42" label="VP" />
+      <nt id="nter43" label="VB" />
+      <nt id="nter44" label="SBAR" />
+      <nt id="nter45" label="IN" />
+      <nt id="nter46" label="S" />
+      <nt id="nter47" label="NP" />
+      <nt id="nter48" label="``" />
+      <nt id="nter49" label="NN" />
+      <nt id="nter50" label="''" />
+      <nt id="nter51" label="PP" />
+      <nt id="nter52" label="IN" />
+      <nt id="nter53" label="ADJP" />
+      <nt id="nter54" label="JJ" />
+      <nt id="nter55" label="CC" />
+      <nt id="nter56" label="VP" />
+      <nt id="nter57" label="VB" />
+      <nt id="nter58" label="PRT" />
+      <nt id="nter59" label="RP" />
+      <nt id="nter60" label="." />
+      <!--Terminals-->
+      <!--Hypothetical-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--You-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--find-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--out-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--had-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--black-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--ancestor-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--who-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--lived-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--800-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--years-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--ago-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--ignore-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--``-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--information-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--''-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--dubious-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--carry-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter7" head="yes" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter10" />
+      <edge id="tre20" from="nter15" to="nter14" />
+      <edge id="tre21" from="nter16" to="nter15" head="yes" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter14" head="yes" />
+      <edge id="tre24" from="nter18" to="nter17" head="yes" />
+      <edge id="tre25" from="ter7" to="nter18" />
+      <edge id="tre26" from="nter19" to="nter17" />
+      <edge id="tre27" from="nter20" to="nter19" head="yes" />
+      <edge id="tre28" from="nter21" to="nter20" />
+      <edge id="tre29" from="ter8" to="nter21" />
+      <edge id="tre30" from="nter22" to="nter20" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter20" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter19" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="nter26" to="nter25" head="yes" />
+      <edge id="tre37" from="ter11" to="nter26" />
+      <edge id="tre38" from="nter27" to="nter24" />
+      <edge id="tre39" from="nter28" to="nter27" head="yes" />
+      <edge id="tre40" from="nter29" to="nter28" head="yes" />
+      <edge id="tre41" from="ter12" to="nter29" />
+      <edge id="tre42" from="nter30" to="nter28" />
+      <edge id="tre43" from="nter31" to="nter30" />
+      <edge id="tre44" from="nter32" to="nter31" />
+      <edge id="tre45" from="ter13" to="nter32" />
+      <edge id="tre46" from="nter33" to="nter31" head="yes" />
+      <edge id="tre47" from="ter14" to="nter33" />
+      <edge id="tre48" from="nter34" to="nter30" head="yes" />
+      <edge id="tre49" from="ter15" to="nter34" />
+      <edge id="tre50" from="nter35" to="nter6" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter6" />
+      <edge id="tre53" from="nter37" to="nter36" />
+      <edge id="tre54" from="nter38" to="nter37" head="yes" />
+      <edge id="tre55" from="ter17" to="nter38" />
+      <edge id="tre56" from="nter39" to="nter36" head="yes" />
+      <edge id="tre57" from="nter40" to="nter39" head="yes" />
+      <edge id="tre58" from="ter18" to="nter40" />
+      <edge id="tre59" from="nter41" to="nter39" />
+      <edge id="tre60" from="nter42" to="nter41" head="yes" />
+      <edge id="tre61" from="nter43" to="nter42" head="yes" />
+      <edge id="tre62" from="ter19" to="nter43" />
+      <edge id="tre63" from="nter44" to="nter42" />
+      <edge id="tre64" from="nter45" to="nter44" head="yes" />
+      <edge id="tre65" from="ter20" to="nter45" />
+      <edge id="tre66" from="nter46" to="nter44" />
+      <edge id="tre67" from="nter47" to="nter46" head="yes" />
+      <edge id="tre68" from="nter48" to="nter47" />
+      <edge id="tre69" from="ter21" to="nter48" />
+      <edge id="tre70" from="nter49" to="nter47" head="yes" />
+      <edge id="tre71" from="ter22" to="nter49" />
+      <edge id="tre72" from="nter50" to="nter47" />
+      <edge id="tre73" from="ter23" to="nter50" />
+      <edge id="tre74" from="nter51" to="nter46" />
+      <edge id="tre75" from="nter52" to="nter51" head="yes" />
+      <edge id="tre76" from="ter24" to="nter52" />
+      <edge id="tre77" from="nter53" to="nter51" />
+      <edge id="tre78" from="nter54" to="nter53" head="yes" />
+      <edge id="tre79" from="ter25" to="nter54" />
+      <edge id="tre80" from="nter55" to="nter41" />
+      <edge id="tre81" from="ter26" to="nter55" />
+      <edge id="tre82" from="nter56" to="nter41" />
+      <edge id="tre83" from="nter57" to="nter56" head="yes" />
+      <edge id="tre84" from="ter27" to="nter57" />
+      <edge id="tre85" from="nter58" to="nter56" />
+      <edge id="tre86" from="nter59" to="nter58" head="yes" />
+      <edge id="tre87" from="ter28" to="nter59" />
+      <edge id="tre88" from="nter60" to="nter2" />
+      <edge id="tre89" from="ter29" to="nter60" />
+    </tree>
+  </constituency>
+</NAF>

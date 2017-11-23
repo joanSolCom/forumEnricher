@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:38+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:38.573+0100" endTimestamp="2017-11-21T16:39:38.948+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:38.949+0100" endTimestamp="2017-11-21T16:39:38.950+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[What would you do? Personally I would probably get a vasectomy to prevent myself from reproducing.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">What</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="5">would</wf>
+    <wf id="w3" sent="1" para="1" offset="11" length="3">you</wf>
+    <wf id="w4" sent="1" para="1" offset="15" length="2">do</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="1">?</wf>
+    <wf id="w6" sent="2" para="1" offset="19" length="10">Personally</wf>
+    <wf id="w7" sent="2" para="1" offset="30" length="1">I</wf>
+    <wf id="w8" sent="2" para="1" offset="32" length="5">would</wf>
+    <wf id="w9" sent="2" para="1" offset="38" length="8">probably</wf>
+    <wf id="w10" sent="2" para="1" offset="47" length="3">get</wf>
+    <wf id="w11" sent="2" para="1" offset="51" length="1">a</wf>
+    <wf id="w12" sent="2" para="1" offset="53" length="9">vasectomy</wf>
+    <wf id="w13" sent="2" para="1" offset="63" length="2">to</wf>
+    <wf id="w14" sent="2" para="1" offset="66" length="7">prevent</wf>
+    <wf id="w15" sent="2" para="1" offset="74" length="6">myself</wf>
+    <wf id="w16" sent="2" para="1" offset="81" length="4">from</wf>
+    <wf id="w17" sent="2" para="1" offset="86" length="11">reproducing</wf>
+    <wf id="w18" sent="2" para="1" offset="97" length="1">.</wf>
+  </text>
+  <terms>
+    <!--What-->
+    <term id="t1" type="open" lemma="what" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t2" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t3" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--do-->
+    <term id="t4" type="open" lemma="do" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t5" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Personally-->
+    <term id="t6" type="open" lemma="personally" pos="A" morphofeat="RB">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t7" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t8" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--probably-->
+    <term id="t9" type="open" lemma="probably" pos="A" morphofeat="RB">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--get-->
+    <term id="t10" type="open" lemma="get" pos="V" morphofeat="VB">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t11" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--vasectomy-->
+    <term id="t12" type="open" lemma="vasectomy" pos="N" morphofeat="NN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t13" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--prevent-->
+    <term id="t14" type="open" lemma="prevent" pos="V" morphofeat="VB">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--myself-->
+    <term id="t15" type="open" lemma="myself" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t16" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--reproducing-->
+    <term id="t17" type="open" lemma="reproduce" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--OBJ(do-4, What-1)-->
+    <dep from="t4" to="t1" rfunc="OBJ" />
+    <!--SBJ(would-2, you-3)-->
+    <dep from="t2" to="t3" rfunc="SBJ" />
+    <!--VC(would-2, do-4)-->
+    <dep from="t2" to="t4" rfunc="VC" />
+    <!--P(would-2, ?-5)-->
+    <dep from="t2" to="t5" rfunc="P" />
+    <!--ADV(would-8, Personally-6)-->
+    <dep from="t8" to="t6" rfunc="ADV" />
+    <!--SBJ(would-8, I-7)-->
+    <dep from="t8" to="t7" rfunc="SBJ" />
+    <!--ADV(would-8, probably-9)-->
+    <dep from="t8" to="t9" rfunc="ADV" />
+    <!--VC(would-8, get-10)-->
+    <dep from="t8" to="t10" rfunc="VC" />
+    <!--NMOD(vasectomy-12, a-11)-->
+    <dep from="t12" to="t11" rfunc="NMOD" />
+    <!--OBJ(get-10, vasectomy-12)-->
+    <dep from="t10" to="t12" rfunc="OBJ" />
+    <!--NMOD(vasectomy-12, to-13)-->
+    <dep from="t12" to="t13" rfunc="NMOD" />
+    <!--IM(to-13, prevent-14)-->
+    <dep from="t13" to="t14" rfunc="IM" />
+    <!--OBJ(prevent-14, myself-15)-->
+    <dep from="t14" to="t15" rfunc="OBJ" />
+    <!--ADV(prevent-14, from-16)-->
+    <dep from="t14" to="t16" rfunc="ADV" />
+    <!--PMOD(from-16, reproducing-17)-->
+    <dep from="t16" to="t17" rfunc="PMOD" />
+    <!--P(would-8, .-18)-->
+    <dep from="t8" to="t18" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--vasectomy-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Vasectomy" confidence="0.99999994" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--What-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--myself-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t7" head="yes" />
+      </span>
+      <!--myself-->
+      <span>
+        <target id="t15" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word_Records" confidence="0.9165001527280989" spotted="true">
+      <!--What-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Personally_(P-Square_song)" confidence="0.9999975098877508" spotted="true">
+      <!--Personally-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Vasectomy" confidence="0.9999999695600938" spotted="true">
+      <!--vasectomy-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reproduction" confidence="0.7280658069214568" spotted="true">
+      <!--reproducing-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 do : R-A1[t1 What] A0[t3 you] AM-MOD[t1 What]-->
+    <predicate id="f_pr2" source="semafor" confidence="76.09314053561819">
+      <!--do-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="PropBank" reference="do.02" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl4" semRole="R-A1">
+        <!--What-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl25" semRole="AM-MOD">
+        <!--What would you do ?-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </role>
+    </predicate>
+    <!--t9 probably :-->
+    <predicate id="f_pr7" source="semafor" confidence="35.251977229665975">
+      <!--probably-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Likelihood" />
+        <externalRef resource="FrameBase" reference="frame-Likelihood-likely.adv" />
+      </externalReferences>
+    </predicate>
+    <!--t10 get : A0[t7 I] A1[t11 a] AM-MOD[t6 Personally] AM-ADV[t6 Personally] AM-ADV[t9 probably]-->
+    <predicate id="f_pr8" source="semafor" confidence="70.26337400625084">
+      <!--get-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Getting" />
+        <externalRef resource="PropBank" reference="get.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1-1" />
+        <externalRef resource="ESO" reference="Getting" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01433294-v" />
+        <externalRef resource="WordNet" reference="ili-30-02210855-v" />
+        <externalRef resource="WordNet" reference="ili-30-02208265-v" />
+        <externalRef resource="WordNet" reference="ili-30-02359340-v" />
+        <externalRef resource="FrameBase" reference="frame-Getting-get.v" />
+      </externalReferences>
+      <role id="rl17" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Getting@Recipient" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="get.01@0" />
+          <externalRef resource="ESO" reference="Getting@possession-owner_2" />
+          <externalRef resource="FrameBase" reference="fe-Getting-Recipient" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="A1">
+        <!--a vasectomy to prevent myself from reproducing-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Getting@Theme" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="get.01@1" />
+          <externalRef resource="ESO" reference="Getting@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Getting-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="AM-MOD">
+        <!--Personally I would probably get a vasectomy to prevent myself from reproducing .-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+      </role>
+      <role id="rl23" semRole="AM-ADV">
+        <!--Personally-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+      <role id="rl24" semRole="AM-ADV">
+        <!--probably-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t14 prevent : A0[t7 I] A1[t15 myself] A2[t16 from]-->
+    <predicate id="f_pr9" source="semafor" confidence="37.69993068749857">
+      <!--prevent-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Preventing" />
+        <externalRef resource="PropBank" reference="prevent.01" source="mate" />
+        <externalRef resource="VerbNet" reference="forbid-67" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02452885-v" />
+        <externalRef resource="WordNet" reference="ili-30-02450505-v" />
+        <externalRef resource="FrameBase" reference="frame-Preventing-avert.v" />
+      </externalReferences>
+      <role id="rl19" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Preventing@Preventing_cause" />
+          <externalRef resource="VerbNet" reference="forbid-67@Agent" />
+          <externalRef resource="PropBank" reference="prevent.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Preventing-Preventing_cause" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="A1">
+        <!--myself-->
+        <span>
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Preventing@Event" />
+          <externalRef resource="VerbNet" reference="forbid-67@Theme" />
+          <externalRef resource="PropBank" reference="prevent.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Preventing-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl26" semRole="A2">
+        <!--from reproducing-->
+        <span>
+          <target id="t16" head="yes" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="forbid-67@Theme" />
+          <externalRef resource="PropBank" reference="prevent.01@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 reproducing : A0[t15 myself]-->
+    <predicate id="f_pr10" source="semafor" confidence="91.13044969285514">
+      <!--reproducing-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Duplication" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reproduction" confidence="0.7280658" />
+        <externalRef resource="PropBank" reference="reproduce.01" source="mate" />
+        <externalRef resource="VerbNet" reference="other_cos-45.4" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-00055142-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reproduction" confidence="0.7280658" />
+        <externalRef resource="FrameBase" reference="frame-Duplication-reproduce.v" />
+      </externalReferences>
+      <role id="rl21" semRole="A0">
+        <!--myself-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="other_cos-45.4@Agent" />
+          <externalRef resource="PropBank" reference="reproduce.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SBARQ (WHNP (WP What)) (SQ (MD would) (NP (PRP you)) (VP (VB do))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (S (ADVP (RB Personally)) (NP (PRP I)) (VP (MD would) (ADVP (RB probably)) (VP (VB get) (NP (DT a) (NN vasectomy) (S (VP (TO to) (VP (VB prevent) (NP (PRP myself)) (PP (IN from) (S (VP (VBG reproducing)))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SBARQ" />
+      <nt id="nter3" label="WHNP" />
+      <nt id="nter4" label="WP" />
+      <nt id="nter5" label="SQ" />
+      <nt id="nter6" label="MD" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="PRP" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="VB" />
+      <nt id="nter11" label="." />
+      <!--Terminals-->
+      <!--What-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--do-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter5" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter2" />
+      <edge id="tre16" from="ter5" to="nter11" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter12" label="ROOT" />
+      <nt id="nter13" label="S" />
+      <nt id="nter14" label="ADVP" />
+      <nt id="nter15" label="RB" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="PRP" />
+      <nt id="nter18" label="VP" />
+      <nt id="nter19" label="MD" />
+      <nt id="nter20" label="ADVP" />
+      <nt id="nter21" label="RB" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VB" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="DT" />
+      <nt id="nter26" label="NN" />
+      <nt id="nter27" label="S" />
+      <nt id="nter28" label="VP" />
+      <nt id="nter29" label="TO" />
+      <nt id="nter30" label="VP" />
+      <nt id="nter31" label="VB" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="PRP" />
+      <nt id="nter34" label="PP" />
+      <nt id="nter35" label="IN" />
+      <nt id="nter36" label="S" />
+      <nt id="nter37" label="VP" />
+      <nt id="nter38" label="VBG" />
+      <nt id="nter39" label="." />
+      <!--Terminals-->
+      <!--Personally-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--probably-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--get-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--vasectomy-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--prevent-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--myself-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--reproducing-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter13" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter13" head="yes" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter18" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter18" />
+      <edge id="tre32" from="nter23" to="nter22" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter22" />
+      <edge id="tre35" from="nter25" to="nter24" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter24" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="nter29" to="nter28" head="yes" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter28" />
+      <edge id="tre44" from="nter31" to="nter30" head="yes" />
+      <edge id="tre45" from="ter14" to="nter31" />
+      <edge id="tre46" from="nter32" to="nter30" />
+      <edge id="tre47" from="nter33" to="nter32" head="yes" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter30" />
+      <edge id="tre50" from="nter35" to="nter34" head="yes" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter34" />
+      <edge id="tre53" from="nter37" to="nter36" head="yes" />
+      <edge id="tre54" from="nter38" to="nter37" head="yes" />
+      <edge id="tre55" from="ter17" to="nter38" />
+      <edge id="tre56" from="nter39" to="nter13" />
+      <edge id="tre57" from="ter18" to="nter39" />
+    </tree>
+  </constituency>
+</NAF>

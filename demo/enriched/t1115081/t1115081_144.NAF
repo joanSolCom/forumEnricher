@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:36+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:36.044+0100" endTimestamp="2017-11-20T12:32:36.495+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:36.498+0100" endTimestamp="2017-11-20T12:32:36.499+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[So you're going to fix this government politically? By voting? With a new political party? And you're going to sway people to our side? NEVER HAPPEN!]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">So</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="3">you</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="3">'re</wf>
+    <wf id="w4" sent="1" para="1" offset="10" length="5">going</wf>
+    <wf id="w5" sent="1" para="1" offset="16" length="2">to</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="3">fix</wf>
+    <wf id="w7" sent="1" para="1" offset="23" length="4">this</wf>
+    <wf id="w8" sent="1" para="1" offset="28" length="10">government</wf>
+    <wf id="w9" sent="1" para="1" offset="39" length="11">politically</wf>
+    <wf id="w10" sent="1" para="1" offset="50" length="1">?</wf>
+    <wf id="w11" sent="2" para="1" offset="52" length="2">By</wf>
+    <wf id="w12" sent="2" para="1" offset="55" length="6">voting</wf>
+    <wf id="w13" sent="2" para="1" offset="61" length="1">?</wf>
+    <wf id="w14" sent="3" para="1" offset="63" length="4">With</wf>
+    <wf id="w15" sent="3" para="1" offset="68" length="1">a</wf>
+    <wf id="w16" sent="3" para="1" offset="70" length="3">new</wf>
+    <wf id="w17" sent="3" para="1" offset="74" length="9">political</wf>
+    <wf id="w18" sent="3" para="1" offset="84" length="5">party</wf>
+    <wf id="w19" sent="3" para="1" offset="89" length="1">?</wf>
+    <wf id="w20" sent="4" para="1" offset="91" length="3">And</wf>
+    <wf id="w21" sent="4" para="1" offset="95" length="3">you</wf>
+    <wf id="w22" sent="4" para="1" offset="98" length="3">'re</wf>
+    <wf id="w23" sent="4" para="1" offset="102" length="5">going</wf>
+    <wf id="w24" sent="4" para="1" offset="108" length="2">to</wf>
+    <wf id="w25" sent="4" para="1" offset="111" length="4">sway</wf>
+    <wf id="w26" sent="4" para="1" offset="116" length="6">people</wf>
+    <wf id="w27" sent="4" para="1" offset="123" length="2">to</wf>
+    <wf id="w28" sent="4" para="1" offset="126" length="3">our</wf>
+    <wf id="w29" sent="4" para="1" offset="130" length="4">side</wf>
+    <wf id="w30" sent="4" para="1" offset="134" length="1">?</wf>
+    <wf id="w31" sent="5" para="1" offset="136" length="5">NEVER</wf>
+    <wf id="w32" sent="5" para="1" offset="142" length="6">HAPPEN</wf>
+    <wf id="w33" sent="5" para="1" offset="148" length="1">!</wf>
+  </text>
+  <terms>
+    <!--So-->
+    <term id="t1" type="open" lemma="so" pos="P" morphofeat="IN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t2" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--'re-->
+    <term id="t3" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--going-->
+    <term id="t4" type="open" lemma="go" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t5" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--fix-->
+    <term id="t6" type="open" lemma="fix" pos="V" morphofeat="VB">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t7" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--government-->
+    <term id="t8" type="open" lemma="government" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--politically-->
+    <term id="t9" type="open" lemma="politically" pos="A" morphofeat="RB">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t10" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--By-->
+    <term id="t11" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--voting-->
+    <term id="t12" type="open" lemma="vote" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t13" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--With-->
+    <term id="t14" type="open" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t15" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--new-->
+    <term id="t16" type="open" lemma="new" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--political-->
+    <term id="t17" type="open" lemma="political" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--party-->
+    <term id="t18" type="open" lemma="party" pos="N" morphofeat="NN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t19" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--And-->
+    <term id="t20" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t21" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--'re-->
+    <term id="t22" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--going-->
+    <term id="t23" type="open" lemma="go" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t24" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--sway-->
+    <term id="t25" type="open" lemma="sway" pos="V" morphofeat="VB">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--people-->
+    <term id="t26" type="open" lemma="people" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t27" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--our-->
+    <term id="t28" type="open" lemma="we" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--side-->
+    <term id="t29" type="open" lemma="side" pos="N" morphofeat="NN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t30" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--NEVER-->
+    <term id="t31" type="open" lemma="NEVER" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--HAPPEN-->
+    <term id="t32" type="open" lemma="HAPPEN" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--!-->
+    <term id="t33" type="open" lemma="!" pos="O" morphofeat=".">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--DEP('re-3, So-1)-->
+    <dep from="t3" to="t1" rfunc="DEP" />
+    <!--SBJ('re-3, you-2)-->
+    <dep from="t3" to="t2" rfunc="SBJ" />
+    <!--VC('re-3, going-4)-->
+    <dep from="t3" to="t4" rfunc="VC" />
+    <!--VC(going-4, to-5)-->
+    <dep from="t4" to="t5" rfunc="VC" />
+    <!--IM(to-5, fix-6)-->
+    <dep from="t5" to="t6" rfunc="IM" />
+    <!--NMOD(government-8, this-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--OBJ(fix-6, government-8)-->
+    <dep from="t6" to="t8" rfunc="OBJ" />
+    <!--ADV(fix-6, politically-9)-->
+    <dep from="t6" to="t9" rfunc="ADV" />
+    <!--P('re-3, ?-10)-->
+    <dep from="t3" to="t10" rfunc="P" />
+    <!--PMOD(By-11, voting-12)-->
+    <dep from="t11" to="t12" rfunc="PMOD" />
+    <!--P(By-11, ?-13)-->
+    <dep from="t11" to="t13" rfunc="P" />
+    <!--NMOD(party-18, a-15)-->
+    <dep from="t18" to="t15" rfunc="NMOD" />
+    <!--NMOD(party-18, new-16)-->
+    <dep from="t18" to="t16" rfunc="NMOD" />
+    <!--NMOD(party-18, political-17)-->
+    <dep from="t18" to="t17" rfunc="NMOD" />
+    <!--PMOD(With-14, party-18)-->
+    <dep from="t14" to="t18" rfunc="PMOD" />
+    <!--P(With-14, ?-19)-->
+    <dep from="t14" to="t19" rfunc="P" />
+    <!--DEP('re-22, And-20)-->
+    <dep from="t22" to="t20" rfunc="DEP" />
+    <!--SBJ('re-22, you-21)-->
+    <dep from="t22" to="t21" rfunc="SBJ" />
+    <!--VC('re-22, going-23)-->
+    <dep from="t22" to="t23" rfunc="VC" />
+    <!--VC(going-23, to-24)-->
+    <dep from="t23" to="t24" rfunc="VC" />
+    <!--IM(to-24, sway-25)-->
+    <dep from="t24" to="t25" rfunc="IM" />
+    <!--OBJ(sway-25, people-26)-->
+    <dep from="t25" to="t26" rfunc="OBJ" />
+    <!--ADV(sway-25, to-27)-->
+    <dep from="t25" to="t27" rfunc="ADV" />
+    <!--NMOD(side-29, our-28)-->
+    <dep from="t29" to="t28" rfunc="NMOD" />
+    <!--PMOD(to-27, side-29)-->
+    <dep from="t27" to="t29" rfunc="PMOD" />
+    <!--P('re-22, ?-30)-->
+    <dep from="t22" to="t30" rfunc="P" />
+    <!--NAME(HAPPEN-32, NEVER-31)-->
+    <dep from="t32" to="t31" rfunc="NAME" />
+    <!--P(HAPPEN-32, !-33)-->
+    <dep from="t32" to="t33" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--voting-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Voting" confidence="0.99632084" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--NEVER-->
+        <span>
+          <target id="t31" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Never_(Heart_song)" confidence="0.9526977" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--political party-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Political_party" confidence="0.999524" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--government-->
+        <span>
+          <target id="t8" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Government" confidence="0.9795435" />
+      </externalReferences>
+    </entity>
+    <entity id="e5">
+      <references>
+        <!--HAPPEN-->
+        <span>
+          <target id="t32" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Happen" confidence="0.6525697" />
+      </externalReferences>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--people-->
+        <span>
+          <target id="t26" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--our-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--side-->
+        <span>
+          <target id="t29" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/College" confidence="0.9736698354032503" spotted="true">
+      <!--So-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Association_football" confidence="0.46695443565558276" spotted="true">
+      <!--side-->
+      <span>
+        <target id="w29" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/By,_Norway" confidence="0.7380424647728412" spotted="true">
+      <!--By-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Politics" confidence="0.9627472257609763" spotted="true">
+      <!--politically-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Voting" confidence="0.996320846635714" spotted="true">
+      <!--voting-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Never_(Heart_song)" confidence="0.9526976929492241" spotted="true">
+      <!--NEVER-->
+      <span>
+        <target id="w31" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Political_party" confidence="0.9995240130161388" spotted="true">
+      <!--political party-->
+      <span>
+        <target id="w17" />
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Government" confidence="0.9795434956050958" spotted="true">
+      <!--government-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Happen" confidence="0.6525696908794735" spotted="true">
+      <!--HAPPEN-->
+      <span>
+        <target id="w32" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/List_of_English_prepositions" confidence="0.9606571452929932" spotted="true">
+      <!--With-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sway_(dance)" confidence="0.6525696908794735" spotted="true">
+      <!--sway-->
+      <span>
+        <target id="w25" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 going : [t5 to] [t2 you]-->
+    <predicate id="f_pr3" source="semafor" confidence="104.30257682246793">
+      <!--going-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Motion" />
+        <externalRef resource="PropBank" reference="go.04" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Motion-go.v" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--to fix this government politically-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Motion@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Motion-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="">
+        <!--you-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Motion@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Motion-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 fix : A0[t2 you] A1[t7 this] AM-MOD[t4 going] AM-MNR[t9 politically] AM-DIS[t1 So]-->
+    <predicate id="f_pr4" source="semafor" confidence="86.38174931014757">
+      <!--fix-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Resolve_problem" />
+        <externalRef resource="PropBank" reference="fix.03" source="mate" />
+        <externalRef resource="VerbNet" reference="price-54.4" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01647543-v" />
+        <externalRef resource="FrameBase" reference="frame-Resolve_problem-fix.v" />
+      </externalReferences>
+      <role id="rl8" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Resolve_problem@Agent" />
+          <externalRef resource="VerbNet" reference="price-54.4@Agent" />
+          <externalRef resource="PropBank" reference="fix.03@0" />
+          <externalRef resource="FrameBase" reference="fe-Resolve_problem-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="A1">
+        <!--this government-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Resolve_problem@Problem" />
+          <externalRef resource="VerbNet" reference="price-54.4@Theme" />
+          <externalRef resource="PropBank" reference="fix.03@1" />
+          <externalRef resource="FrameBase" reference="fe-Resolve_problem-Problem" />
+        </externalReferences>
+      </role>
+      <role id="rl25" semRole="AM-MOD">
+        <!--going to fix this government politically-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </role>
+      <role id="rl26" semRole="AM-MNR">
+        <!--politically-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+      <role id="rl27" semRole="AM-DIS">
+        <!--So-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 government : [t7 this]-->
+    <predicate id="f_pr5" source="semafor" confidence="90.49337849160305">
+      <!--government-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Government" confidence="0.9795435" />
+        <externalRef resource="FrameBase" reference="frame-Leadership-rule.v" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--this government-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Leader" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Leader" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 voting :-->
+    <predicate id="pr6" source="mate">
+      <!--voting-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="vote.01" source="mate" />
+        <externalRef resource="VerbNet" reference="dub-29.3" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02462201-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Voting" confidence="0.99632084" />
+      </externalReferences>
+    </predicate>
+    <!--t16 new : [t16 new] [t17 political]-->
+    <predicate id="f_pr7" source="semafor" confidence="51.448184406638475">
+      <!--new-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Age" />
+        <externalRef resource="FrameBase" reference="frame-Age-new.a" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--new-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Age@Age" />
+          <externalRef resource="FrameBase" reference="fe-Age-Age" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="">
+        <!--political-->
+        <span>
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Age@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Age-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 party : [t15 a] [t17 political]-->
+    <predicate id="f_pr8" source="semafor" confidence="35.99797526852906">
+      <!--party-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Aggregate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Political_party" confidence="0.999524" />
+        <externalRef resource="FrameBase" reference="frame-Aggregate-party.n" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--a new political party-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Aggregate@Aggregate" />
+          <externalRef resource="FrameBase" reference="fe-Aggregate-Aggregate" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--political-->
+        <span>
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Aggregate@AggregateProperty" />
+          <externalRef resource="FrameBase" reference="fe-Aggregate-AggregateProperty" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t25 sway : A1[t26 people] A2[t27 to] AM-MOD[t23 going] A0[t21 you]-->
+    <predicate id="pr10" source="mate">
+      <!--sway-->
+      <span>
+        <target id="t25" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="sway.01" source="mate" />
+        <externalRef resource="VerbNet" reference="modes_of_being_with_motion-47.3" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01876028-v" />
+        <externalRef resource="WordNet" reference="ili-30-01875295-v" />
+        <externalRef resource="WordNet" reference="ili-30-01877355-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sway_(dance)" confidence="0.6525697" />
+      </externalReferences>
+      <role id="rl15" semRole="A1">
+        <!--people-->
+        <span>
+          <target id="t26" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="modes_of_being_with_motion-47.3@Theme" />
+          <externalRef resource="PropBank" reference="sway.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A2">
+        <!--to our side-->
+        <span>
+          <target id="t27" head="yes" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </role>
+      <role id="rl17" semRole="AM-MOD">
+        <!--going to sway people to our side-->
+        <span>
+          <target id="t23" head="yes" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </role>
+      <role id="rl18" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="modes_of_being_with_motion-47.3@Agent" />
+          <externalRef resource="PropBank" reference="sway.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 going : [t27 to] [t21 you]-->
+    <predicate id="f_pr12" source="semafor" confidence="102.96405156870026">
+      <!--going-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Motion" />
+        <externalRef resource="PropBank" reference="go.04" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Motion-go.v" />
+      </externalReferences>
+      <role id="rl20" semRole="">
+        <!--to our side-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Motion@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Motion-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="">
+        <!--you-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Motion@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Motion-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t26 people : [t26 people]-->
+    <predicate id="f_pr13" source="semafor" confidence="34.413601493340906">
+      <!--people-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="FrameBase" reference="frame-People-people.n" />
+      </externalReferences>
+      <role id="rl22" semRole="">
+        <!--people-->
+        <span>
+          <target id="t26" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 side : A1[t28 our]-->
+    <predicate id="f_pr14" source="semafor" confidence="21.57282929516901">
+      <!--side-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_orientational" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Association_football" confidence="0.46695444" />
+        <externalRef resource="NomBank" reference="side.03" source="mate" />
+        <externalRef resource="VerbNet" reference="conspire-71" />
+        <externalRef resource="PropBank" reference="ally.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02430191-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Association_football" confidence="0.46695444" />
+        <externalRef resource="FrameBase" reference="frame-Part_orientational-face.n" />
+      </externalReferences>
+      <role id="rl24" semRole="A1">
+        <!--our-->
+        <span>
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_orientational@Whole" />
+          <externalRef resource="FrameBase" reference="fe-Part_orientational-Whole" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (IN So) (NP (PRP you)) (VP (VBP 're) (VP (VBG going) (S (VP (TO to) (VP (VB fix) (NP (DT this) (NN government)) (ADVP (RB politically))))))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (FRAG (PP (IN By) (NP (VBG voting))) (. ?)))</tree>
+    <tree sentence="3">(ROOT (FRAG (PP (IN With) (NP (DT a) (JJ new) (JJ political) (NN party))) (. ?)))</tree>
+    <tree sentence="4">(ROOT (S (CC And) (NP (PRP you)) (VP (VBP 're) (VP (VBG going) (S (VP (TO to) (VP (VB sway) (NP (NNS people)) (PP (TO to) (NP (PRP$ our) (NN side)))))))) (. ?)))</tree>
+    <tree sentence="5">(ROOT (NP (NNP NEVER) (NNP HAPPEN) (. !)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="IN" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VBP" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VBG" />
+      <nt id="nter10" label="S" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="TO" />
+      <nt id="nter13" label="VP" />
+      <nt id="nter14" label="VB" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="DT" />
+      <nt id="nter17" label="NN" />
+      <nt id="nter18" label="ADVP" />
+      <nt id="nter19" label="RB" />
+      <nt id="nter20" label="." />
+      <!--Terminals-->
+      <!--So-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--'re-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--going-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--fix-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--government-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--politically-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter11" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" head="yes" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter13" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter2" />
+      <edge id="tre30" from="ter10" to="nter20" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter21" label="ROOT" />
+      <nt id="nter22" label="FRAG" />
+      <nt id="nter23" label="PP" />
+      <nt id="nter24" label="IN" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="VBG" />
+      <nt id="nter27" label="." />
+      <!--Terminals-->
+      <!--By-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--voting-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre32" from="nter22" to="nter21" head="yes" />
+      <edge id="tre33" from="nter23" to="nter22" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter23" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter22" head="yes" />
+      <edge id="tre40" from="ter13" to="nter27" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter28" label="ROOT" />
+      <nt id="nter29" label="FRAG" />
+      <nt id="nter30" label="PP" />
+      <nt id="nter31" label="IN" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="DT" />
+      <nt id="nter34" label="JJ" />
+      <nt id="nter35" label="JJ" />
+      <nt id="nter36" label="NN" />
+      <nt id="nter37" label="." />
+      <!--Terminals-->
+      <!--With-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--new-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--political-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--party-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre42" from="nter29" to="nter28" head="yes" />
+      <edge id="tre43" from="nter30" to="nter29" />
+      <edge id="tre44" from="nter31" to="nter30" head="yes" />
+      <edge id="tre45" from="ter14" to="nter31" />
+      <edge id="tre46" from="nter32" to="nter30" />
+      <edge id="tre47" from="nter33" to="nter32" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter32" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter32" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter32" head="yes" />
+      <edge id="tre54" from="ter18" to="nter36" />
+      <edge id="tre55" from="nter37" to="nter29" head="yes" />
+      <edge id="tre56" from="ter19" to="nter37" />
+    </tree>
+    <tree sentence="4">
+      <!--Non-terminals-->
+      <nt id="nter38" label="ROOT" />
+      <nt id="nter39" label="S" />
+      <nt id="nter40" label="CC" />
+      <nt id="nter41" label="NP" />
+      <nt id="nter42" label="PRP" />
+      <nt id="nter43" label="VP" />
+      <nt id="nter44" label="VBP" />
+      <nt id="nter45" label="VP" />
+      <nt id="nter46" label="VBG" />
+      <nt id="nter47" label="S" />
+      <nt id="nter48" label="VP" />
+      <nt id="nter49" label="TO" />
+      <nt id="nter50" label="VP" />
+      <nt id="nter51" label="VB" />
+      <nt id="nter52" label="NP" />
+      <nt id="nter53" label="NNS" />
+      <nt id="nter54" label="PP" />
+      <nt id="nter55" label="TO" />
+      <nt id="nter56" label="NP" />
+      <nt id="nter57" label="PRP$" />
+      <nt id="nter58" label="NN" />
+      <nt id="nter59" label="." />
+      <!--Terminals-->
+      <!--And-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--'re-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--going-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--sway-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--people-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--our-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--side-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre58" from="nter39" to="nter38" head="yes" />
+      <edge id="tre59" from="nter40" to="nter39" />
+      <edge id="tre60" from="ter20" to="nter40" />
+      <edge id="tre61" from="nter41" to="nter39" />
+      <edge id="tre62" from="nter42" to="nter41" head="yes" />
+      <edge id="tre63" from="ter21" to="nter42" />
+      <edge id="tre64" from="nter43" to="nter39" head="yes" />
+      <edge id="tre65" from="nter44" to="nter43" head="yes" />
+      <edge id="tre66" from="ter22" to="nter44" />
+      <edge id="tre67" from="nter45" to="nter43" />
+      <edge id="tre68" from="nter46" to="nter45" head="yes" />
+      <edge id="tre69" from="ter23" to="nter46" />
+      <edge id="tre70" from="nter47" to="nter45" />
+      <edge id="tre71" from="nter48" to="nter47" head="yes" />
+      <edge id="tre72" from="nter49" to="nter48" head="yes" />
+      <edge id="tre73" from="ter24" to="nter49" />
+      <edge id="tre74" from="nter50" to="nter48" />
+      <edge id="tre75" from="nter51" to="nter50" head="yes" />
+      <edge id="tre76" from="ter25" to="nter51" />
+      <edge id="tre77" from="nter52" to="nter50" />
+      <edge id="tre78" from="nter53" to="nter52" head="yes" />
+      <edge id="tre79" from="ter26" to="nter53" />
+      <edge id="tre80" from="nter54" to="nter50" />
+      <edge id="tre81" from="nter55" to="nter54" head="yes" />
+      <edge id="tre82" from="ter27" to="nter55" />
+      <edge id="tre83" from="nter56" to="nter54" />
+      <edge id="tre84" from="nter57" to="nter56" />
+      <edge id="tre85" from="ter28" to="nter57" />
+      <edge id="tre86" from="nter58" to="nter56" head="yes" />
+      <edge id="tre87" from="ter29" to="nter58" />
+      <edge id="tre88" from="nter59" to="nter39" />
+      <edge id="tre89" from="ter30" to="nter59" />
+    </tree>
+    <tree sentence="5">
+      <!--Non-terminals-->
+      <nt id="nter60" label="ROOT" />
+      <nt id="nter61" label="NP" />
+      <nt id="nter62" label="NNP" />
+      <nt id="nter63" label="NNP" />
+      <nt id="nter64" label="." />
+      <!--Terminals-->
+      <!--NEVER-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--HAPPEN-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--!-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre91" from="nter61" to="nter60" head="yes" />
+      <edge id="tre92" from="nter62" to="nter61" />
+      <edge id="tre93" from="ter31" to="nter62" />
+      <edge id="tre94" from="nter63" to="nter61" head="yes" />
+      <edge id="tre95" from="ter32" to="nter63" />
+      <edge id="tre96" from="nter64" to="nter61" />
+      <edge id="tre97" from="ter33" to="nter64" />
+    </tree>
+  </constituency>
+</NAF>

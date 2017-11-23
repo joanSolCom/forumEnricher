@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:28+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:28.144+0100" endTimestamp="2017-11-21T16:39:28.508+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:28.509+0100" endTimestamp="2017-11-21T16:39:28.510+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Who's fault is this? Ahem, the favorite ethnicity on this forum, no?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Who</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="2">'s</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="5">fault</wf>
+    <wf id="w4" sent="1" para="1" offset="12" length="2">is</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="4">this</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="1">?</wf>
+    <wf id="w7" sent="2" para="1" offset="21" length="4">Ahem</wf>
+    <wf id="w8" sent="2" para="1" offset="25" length="1">,</wf>
+    <wf id="w9" sent="2" para="1" offset="27" length="3">the</wf>
+    <wf id="w10" sent="2" para="1" offset="31" length="8">favorite</wf>
+    <wf id="w11" sent="2" para="1" offset="40" length="9">ethnicity</wf>
+    <wf id="w12" sent="2" para="1" offset="50" length="2">on</wf>
+    <wf id="w13" sent="2" para="1" offset="53" length="4">this</wf>
+    <wf id="w14" sent="2" para="1" offset="58" length="5">forum</wf>
+    <wf id="w15" sent="2" para="1" offset="63" length="1">,</wf>
+    <wf id="w16" sent="2" para="1" offset="65" length="2">no</wf>
+    <wf id="w17" sent="2" para="1" offset="67" length="1">?</wf>
+  </text>
+  <terms>
+    <!--Who-->
+    <term id="t1" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--'s-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--fault-->
+    <term id="t3" type="open" lemma="fault" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t4" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t5" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t6" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Ahem-->
+    <term id="t7" type="open" lemma="Ahem" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t8" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t9" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--favorite-->
+    <term id="t10" type="open" lemma="favorite" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--ethnicity-->
+    <term id="t11" type="open" lemma="ethnicity" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t12" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t13" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--forum-->
+    <term id="t14" type="open" lemma="forum" pos="N" morphofeat="NN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t15" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--no-->
+    <term id="t16" type="open" lemma="no" pos="D" morphofeat="DT">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t17" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ('s-2, Who-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--SBJ(is-4, 's-2)-->
+    <dep from="t4" to="t2" rfunc="SBJ" />
+    <!--PRD('s-2, fault-3)-->
+    <dep from="t2" to="t3" rfunc="PRD" />
+    <!--OBJ(is-4, this-5)-->
+    <dep from="t4" to="t5" rfunc="OBJ" />
+    <!--P(is-4, ?-6)-->
+    <dep from="t4" to="t6" rfunc="P" />
+    <!--P(Ahem-7, ,-8)-->
+    <dep from="t7" to="t8" rfunc="P" />
+    <!--NMOD(ethnicity-11, the-9)-->
+    <dep from="t11" to="t9" rfunc="NMOD" />
+    <!--NMOD(ethnicity-11, favorite-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--APPO(Ahem-7, ethnicity-11)-->
+    <dep from="t7" to="t11" rfunc="APPO" />
+    <!--NMOD(ethnicity-11, on-12)-->
+    <dep from="t11" to="t12" rfunc="NMOD" />
+    <!--NMOD(forum-14, this-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--PMOD(on-12, forum-14)-->
+    <dep from="t12" to="t14" rfunc="PMOD" />
+    <!--P(Ahem-7, ,-15)-->
+    <dep from="t7" to="t15" rfunc="P" />
+    <!--COORD(Ahem-7, no-16)-->
+    <dep from="t7" to="t16" rfunc="COORD" />
+    <!--P(Ahem-7, ?-17)-->
+    <dep from="t7" to="t17" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Ahem-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gollum" confidence="0.99999994" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Who-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--fault-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--ethnicity-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--forum-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--this forum-->
+      <span>
+        <target id="t13" />
+        <target id="t14" head="yes" />
+      </span>
+      <!--no-->
+      <span>
+        <target id="t16" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/The_Who" confidence="0.9992400702932391" spotted="true">
+      <!--Who-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gollum" confidence="0.9999999107426061" spotted="true">
+      <!--Ahem-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Fault_(geology)" confidence="0.9882652945240885" spotted="true">
+      <!--fault-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ethnic_group" confidence="0.9948114106818305" spotted="true">
+      <!--ethnicity-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bookmark_(World_Wide_Web)" confidence="0.4933051214978752" spotted="true">
+      <!--favorite-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 's : R-A1[t1 Who] A2[t3 fault]-->
+    <predicate id="pr1" source="mate">
+      <!--'s-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="R-A1">
+        <!--Who-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A2">
+        <!--fault-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t4 is : A2[t5 this] A1[t1 Who]-->
+    <predicate id="pr2" source="mate">
+      <!--is-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl3" semRole="A2">
+        <!--this-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A1">
+        <!--Who 's fault-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 fault : [t1 Who]-->
+    <predicate id="f_pr3" source="semafor" confidence="51.890390132148966">
+      <!--fault-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Judgment" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Fault_(geology)" confidence="0.9882653" />
+        <externalRef resource="FrameBase" reference="frame-Judgment-fault.n" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--Who 's fault is this ?-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Judgment@Evaluee" />
+          <externalRef resource="FrameBase" reference="fe-Judgment-Evaluee" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t16 no : [t16 no]-->
+    <predicate id="f_pr4" source="semafor" confidence="24.817891148119045">
+      <!--no-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--no-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 favorite : A1[t10 favorite]-->
+    <predicate id="pr5">
+      <!--favorite-->
+      <span>
+        <target id="t10" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="favorite.01" />
+      </externalReferences>
+      <role id="rl7" semRole="A1">
+        <!--favorite-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t14 forum :-->
+    <predicate id="pr6">
+      <!--forum-->
+      <span>
+        <target id="t14" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="forum.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBZ 's) (NP (NP (NN fault)) (SBAR (S (VP (VBZ is) (NP (DT this))))))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (NP (NP (NNP Ahem)) (, ,) (NP (NP (DT the) (JJ favorite) (NN ethnicity)) (PP (IN on) (NP (NP (DT this) (NN forum)) (, ,) (NP (DT no))))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SBARQ" />
+      <nt id="nter3" label="WHNP" />
+      <nt id="nter4" label="WP" />
+      <nt id="nter5" label="SQ" />
+      <nt id="nter6" label="VBZ" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="NN" />
+      <nt id="nter10" label="SBAR" />
+      <nt id="nter11" label="S" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBZ" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="DT" />
+      <nt id="nter16" label="." />
+      <!--Terminals-->
+      <!--Who-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--'s-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--fault-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter7" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="nter13" to="nter12" head="yes" />
+      <edge id="tre17" from="ter4" to="nter13" />
+      <edge id="tre18" from="nter14" to="nter12" />
+      <edge id="tre19" from="nter15" to="nter14" head="yes" />
+      <edge id="tre20" from="ter5" to="nter15" />
+      <edge id="tre21" from="nter16" to="nter2" />
+      <edge id="tre22" from="ter6" to="nter16" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter17" label="ROOT" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="NNP" />
+      <nt id="nter21" label="," />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="DT" />
+      <nt id="nter25" label="JJ" />
+      <nt id="nter26" label="NN" />
+      <nt id="nter27" label="PP" />
+      <nt id="nter28" label="IN" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="DT" />
+      <nt id="nter32" label="NN" />
+      <nt id="nter33" label="," />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="DT" />
+      <nt id="nter36" label="." />
+      <!--Terminals-->
+      <!--Ahem-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--favorite-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--ethnicity-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--forum-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--no-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre24" from="nter18" to="nter17" head="yes" />
+      <edge id="tre25" from="nter19" to="nter18" head="yes" />
+      <edge id="tre26" from="nter20" to="nter19" head="yes" />
+      <edge id="tre27" from="ter7" to="nter20" />
+      <edge id="tre28" from="nter21" to="nter18" />
+      <edge id="tre29" from="ter8" to="nter21" />
+      <edge id="tre30" from="nter22" to="nter18" />
+      <edge id="tre31" from="nter23" to="nter22" head="yes" />
+      <edge id="tre32" from="nter24" to="nter23" />
+      <edge id="tre33" from="ter9" to="nter24" />
+      <edge id="tre34" from="nter25" to="nter23" />
+      <edge id="tre35" from="ter10" to="nter25" />
+      <edge id="tre36" from="nter26" to="nter23" head="yes" />
+      <edge id="tre37" from="ter11" to="nter26" />
+      <edge id="tre38" from="nter27" to="nter22" />
+      <edge id="tre39" from="nter28" to="nter27" head="yes" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter27" />
+      <edge id="tre42" from="nter30" to="nter29" head="yes" />
+      <edge id="tre43" from="nter31" to="nter30" />
+      <edge id="tre44" from="ter13" to="nter31" />
+      <edge id="tre45" from="nter32" to="nter30" head="yes" />
+      <edge id="tre46" from="ter14" to="nter32" />
+      <edge id="tre47" from="nter33" to="nter29" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter29" />
+      <edge id="tre50" from="nter35" to="nter34" head="yes" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter18" />
+      <edge id="tre53" from="ter17" to="nter36" />
+    </tree>
+  </constituency>
+</NAF>

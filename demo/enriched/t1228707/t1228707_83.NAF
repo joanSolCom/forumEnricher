@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:05+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:05.935+0100" endTimestamp="2017-11-21T16:36:06.324+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:06.327+0100" endTimestamp="2017-11-21T16:36:06.328+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Is that you David Dunstan? The Second Amendment....keepin' 'em honest since 1791.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">Is</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="4">that</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="3">you</wf>
+    <wf id="w4" sent="1" para="1" offset="12" length="5">David</wf>
+    <wf id="w5" sent="1" para="1" offset="18" length="7">Dunstan</wf>
+    <wf id="w6" sent="1" para="1" offset="25" length="1">?</wf>
+    <wf id="w7" sent="2" para="1" offset="27" length="3">The</wf>
+    <wf id="w8" sent="2" para="1" offset="31" length="6">Second</wf>
+    <wf id="w9" sent="2" para="1" offset="38" length="9">Amendment</wf>
+    <wf id="w10" sent="2" para="1" offset="47" length="3">...</wf>
+    <wf id="w11" sent="2" para="1" offset="51" length="6">keepin</wf>
+    <wf id="w12" sent="2" para="1" offset="57" length="1">'</wf>
+    <wf id="w13" sent="2" para="1" offset="59" length="3">'em</wf>
+    <wf id="w14" sent="2" para="1" offset="63" length="6">honest</wf>
+    <wf id="w15" sent="2" para="1" offset="70" length="5">since</wf>
+    <wf id="w16" sent="2" para="1" offset="76" length="4">1791</wf>
+    <wf id="w17" sent="2" para="1" offset="80" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Is-->
+    <term id="t1" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t2" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t3" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--David-->
+    <term id="t4" type="open" lemma="David" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Dunstan-->
+    <term id="t5" type="open" lemma="Dunstan" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t6" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--The-->
+    <term id="t7" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--Second-->
+    <term id="t8" type="open" lemma="second" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Amendment-->
+    <term id="t9" type="open" lemma="amendment" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t10" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--keepin-->
+    <term id="t11" type="open" lemma="keepin" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--'-->
+    <term id="t12" type="open" lemma="'" pos="O" morphofeat="''">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--'em-->
+    <term id="t13" type="open" lemma="'em" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--honest-->
+    <term id="t14" type="open" lemma="honest" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--since-->
+    <term id="t15" type="open" lemma="since" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--1791-->
+    <term id="t16" type="open" lemma="1791" pos="O" morphofeat="CD">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t17" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(Is-1, that-2)-->
+    <dep from="t1" to="t2" rfunc="SBJ" />
+    <!--NMOD(Dunstan-5, you-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NAME(Dunstan-5, David-4)-->
+    <dep from="t5" to="t4" rfunc="NAME" />
+    <!--SBJ(Is-1, Dunstan-5)-->
+    <dep from="t1" to="t5" rfunc="SBJ" />
+    <!--P(Is-1, ?-6)-->
+    <dep from="t1" to="t6" rfunc="P" />
+    <!--NMOD(Amendment-9, The-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--NMOD(Amendment-9, Second-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--P(Amendment-9, ...-10)-->
+    <dep from="t9" to="t10" rfunc="P" />
+    <!--APPO(Amendment-9, keepin-11)-->
+    <dep from="t9" to="t11" rfunc="APPO" />
+    <!--P(keepin-11, '-12)-->
+    <dep from="t11" to="t12" rfunc="P" />
+    <!--NMOD(honest-14, 'em-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--APPO(keepin-11, honest-14)-->
+    <dep from="t11" to="t14" rfunc="APPO" />
+    <!--TMP(honest-14, since-15)-->
+    <dep from="t14" to="t15" rfunc="TMP" />
+    <!--PMOD(since-15, 1791-16)-->
+    <dep from="t15" to="t16" rfunc="PMOD" />
+    <!--P(Amendment-9, .-17)-->
+    <dep from="t9" to="t17" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--David Dunstan-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Dunstan" confidence="0.9560464" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="ORDINAL">
+      <references>
+        <!--Second-->
+        <span>
+          <target id="t8" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="2.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--Amendment-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--keepin-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--'em-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--you David Dunstan-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" head="yes" />
+      </span>
+      <!--'em honest since 1791-->
+      <span>
+        <target id="t13" />
+        <target id="t14" head="yes" />
+        <target id="t15" />
+        <target id="t16" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="1791">
+      <!--1791-->
+      <span>
+        <target id="w16" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Isaiah" confidence="0.9782815859678717" spotted="true">
+      <!--Is-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Dunstan" confidence="0.9560464066822432" spotted="true">
+      <!--Dunstan-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Second_Amendment_to_the_United_States_Constitution" confidence="1.0" spotted="true">
+      <!--The Second Amendment-->
+      <span>
+        <target id="w7" />
+        <target id="w8" />
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/David" confidence="0.9558618544580131" spotted="true">
+      <!--David-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Second_Amendment_to_the_United_States_Constitution" confidence="0.9999464648910573" spotted="true">
+      <!--Second Amendment-->
+      <span>
+        <target id="w8" />
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Is : A2[t3 you] A2[t2 that]-->
+    <predicate id="pr1" source="mate">
+      <!--Is-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Isaiah" confidence="0.97828156" />
+      </externalReferences>
+      <role id="rl1" semRole="A2">
+        <!--you David Dunstan-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A2">
+        <!--that-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 Second : [t7 The]-->
+    <predicate id="f_pr2" source="semafor" confidence="22.645239427321414">
+      <!--Second-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Ordinal_numbers" />
+        <externalRef resource="FrameBase" reference="frame-Ordinal_numbers-second.a" />
+      </externalReferences>
+      <role id="rl3" semRole="">
+        <!--The Second Amendment ... keepin ' 'em honest since 1791 .-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Ordinal_numbers@Type" />
+          <externalRef resource="FrameBase" reference="fe-Ordinal_numbers-Type" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 honest : [t13 'em]-->
+    <predicate id="f_pr3" source="semafor" confidence="33.18472776101443">
+      <!--honest-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Candidness" />
+        <externalRef resource="FrameBase" reference="frame-Candidness-honesty.n" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--'em-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Candidness@Speaker" />
+          <externalRef resource="FrameBase" reference="fe-Candidness-Speaker" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 Amendment :-->
+    <predicate id="pr4">
+      <!--Amendment-->
+      <span>
+        <target id="t9" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="amendment.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (VBZ Is) (PP (IN that) (NP (NP (PRP you)) (NP (NNP David) (NNP Dunstan))))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (NP (NP (DT The) (JJ Second) (NN Amendment)) (: ...) (NP (NP (NN keepin) ('' ')) (NP-TMP (NP (PRP 'em)) (ADVP (JJ honest) (PP (IN since) (NP (CD 1791)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="VBZ" />
+      <nt id="nter5" label="PP" />
+      <nt id="nter6" label="IN" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="PRP" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NNP" />
+      <nt id="nter12" label="NNP" />
+      <nt id="nter13" label="." />
+      <!--Terminals-->
+      <!--Is-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--David-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Dunstan-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter7" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter2" />
+      <edge id="tre19" from="ter6" to="nter13" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter14" label="ROOT" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="DT" />
+      <nt id="nter18" label="JJ" />
+      <nt id="nter19" label="NN" />
+      <nt id="nter20" label=":" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="NN" />
+      <nt id="nter24" label="''" />
+      <nt id="nter25" label="NP-TMP" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="PRP" />
+      <nt id="nter28" label="ADVP" />
+      <nt id="nter29" label="JJ" />
+      <nt id="nter30" label="PP" />
+      <nt id="nter31" label="IN" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="CD" />
+      <nt id="nter34" label="." />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Second-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Amendment-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--keepin-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--'-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--'em-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--honest-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--since-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--1791-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre21" from="nter15" to="nter14" head="yes" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="nter17" to="nter16" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter16" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter15" />
+      <edge id="tre30" from="ter10" to="nter20" />
+      <edge id="tre31" from="nter21" to="nter15" />
+      <edge id="tre32" from="nter22" to="nter21" head="yes" />
+      <edge id="tre33" from="nter23" to="nter22" head="yes" />
+      <edge id="tre34" from="ter11" to="nter23" />
+      <edge id="tre35" from="nter24" to="nter22" />
+      <edge id="tre36" from="ter12" to="nter24" />
+      <edge id="tre37" from="nter25" to="nter21" />
+      <edge id="tre38" from="nter26" to="nter25" head="yes" />
+      <edge id="tre39" from="nter27" to="nter26" head="yes" />
+      <edge id="tre40" from="ter13" to="nter27" />
+      <edge id="tre41" from="nter28" to="nter25" />
+      <edge id="tre42" from="nter29" to="nter28" head="yes" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter28" />
+      <edge id="tre45" from="nter31" to="nter30" head="yes" />
+      <edge id="tre46" from="ter15" to="nter31" />
+      <edge id="tre47" from="nter32" to="nter30" />
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter15" />
+      <edge id="tre51" from="ter17" to="nter34" />
+    </tree>
+  </constituency>
+</NAF>

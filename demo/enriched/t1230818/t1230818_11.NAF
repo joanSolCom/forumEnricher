@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:44+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:44.526+0100" endTimestamp="2017-11-21T16:39:45.044+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:45.046+0100" endTimestamp="2017-11-21T16:39:45.046+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Everyone could if they had the time, mine has been researched back as far as the time of King Lud.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Everyone</wf>
+    <wf id="w2" sent="1" para="1" offset="9" length="5">could</wf>
+    <wf id="w3" sent="1" para="1" offset="15" length="2">if</wf>
+    <wf id="w4" sent="1" para="1" offset="18" length="4">they</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="3">had</wf>
+    <wf id="w6" sent="1" para="1" offset="27" length="3">the</wf>
+    <wf id="w7" sent="1" para="1" offset="31" length="4">time</wf>
+    <wf id="w8" sent="1" para="1" offset="35" length="1">,</wf>
+    <wf id="w9" sent="1" para="1" offset="37" length="4">mine</wf>
+    <wf id="w10" sent="1" para="1" offset="42" length="3">has</wf>
+    <wf id="w11" sent="1" para="1" offset="46" length="4">been</wf>
+    <wf id="w12" sent="1" para="1" offset="51" length="10">researched</wf>
+    <wf id="w13" sent="1" para="1" offset="62" length="4">back</wf>
+    <wf id="w14" sent="1" para="1" offset="67" length="2">as</wf>
+    <wf id="w15" sent="1" para="1" offset="70" length="3">far</wf>
+    <wf id="w16" sent="1" para="1" offset="74" length="2">as</wf>
+    <wf id="w17" sent="1" para="1" offset="77" length="3">the</wf>
+    <wf id="w18" sent="1" para="1" offset="81" length="4">time</wf>
+    <wf id="w19" sent="1" para="1" offset="86" length="2">of</wf>
+    <wf id="w20" sent="1" para="1" offset="89" length="4">King</wf>
+    <wf id="w21" sent="1" para="1" offset="94" length="3">Lud</wf>
+    <wf id="w22" sent="1" para="1" offset="97" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Everyone-->
+    <term id="t1" type="open" lemma="everyone" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--could-->
+    <term id="t2" type="open" lemma="could" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--if-->
+    <term id="t3" type="open" lemma="if" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--they-->
+    <term id="t4" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--had-->
+    <term id="t5" type="open" lemma="have" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t6" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--time-->
+    <term id="t7" type="open" lemma="time" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t8" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--mine-->
+    <term id="t9" type="open" lemma="mine" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--has-->
+    <term id="t10" type="open" lemma="have" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--been-->
+    <term id="t11" type="open" lemma="be" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--researched-->
+    <term id="t12" type="open" lemma="research" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--back-->
+    <term id="t13" type="open" lemma="back" pos="A" morphofeat="RB">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t14" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--far-->
+    <term id="t15" type="open" lemma="far" pos="A" morphofeat="RB">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t16" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t17" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--time-->
+    <term id="t18" type="open" lemma="time" pos="N" morphofeat="NN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t19" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--King-->
+    <term id="t20" type="open" lemma="King" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Lud-->
+    <term id="t21" type="open" lemma="Lud" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t22" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(could-2, Everyone-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(has-10, if-3)-->
+    <dep from="t10" to="t3" rfunc="ADV" />
+    <!--SBJ(had-5, they-4)-->
+    <dep from="t5" to="t4" rfunc="SBJ" />
+    <!--SUB(if-3, had-5)-->
+    <dep from="t3" to="t5" rfunc="SUB" />
+    <!--NMOD(time-7, the-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--OBJ(had-5, time-7)-->
+    <dep from="t5" to="t7" rfunc="OBJ" />
+    <!--P(has-10, ,-8)-->
+    <dep from="t10" to="t8" rfunc="P" />
+    <!--SBJ(has-10, mine-9)-->
+    <dep from="t10" to="t9" rfunc="SBJ" />
+    <!--ADV(could-2, has-10)-->
+    <dep from="t2" to="t10" rfunc="ADV" />
+    <!--VC(has-10, been-11)-->
+    <dep from="t10" to="t11" rfunc="VC" />
+    <!--VC(been-11, researched-12)-->
+    <dep from="t11" to="t12" rfunc="VC" />
+    <!--ADV(researched-12, back-13)-->
+    <dep from="t12" to="t13" rfunc="ADV" />
+    <!--AMOD(far-15, as-14)-->
+    <dep from="t15" to="t14" rfunc="AMOD" />
+    <!--ADV(researched-12, far-15)-->
+    <dep from="t12" to="t15" rfunc="ADV" />
+    <!--AMOD(far-15, as-16)-->
+    <dep from="t15" to="t16" rfunc="AMOD" />
+    <!--NMOD(time-18, the-17)-->
+    <dep from="t18" to="t17" rfunc="NMOD" />
+    <!--PMOD(as-16, time-18)-->
+    <dep from="t16" to="t18" rfunc="PMOD" />
+    <!--NMOD(time-18, of-19)-->
+    <dep from="t18" to="t19" rfunc="NMOD" />
+    <!--NAME(Lud-21, King-20)-->
+    <dep from="t21" to="t20" rfunc="NAME" />
+    <!--PMOD(of-19, Lud-21)-->
+    <dep from="t19" to="t21" rfunc="PMOD" />
+    <!--P(could-2, .-22)-->
+    <dep from="t2" to="t22" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--time-->
+        <span>
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Time" confidence="0.99407816" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--King Lud-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Lud_son_of_Heli" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--time-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Time" confidence="0.99407816" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--Everyone-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--they-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--mine-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/List_of_Skins_episodes" confidence="0.6711384669384287" spotted="true">
+      <!--Everyone-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Time" confidence="0.9940781584379995" spotted="true">
+      <!--time-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Research" confidence="0.9999305912006295" spotted="true">
+      <!--researched-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Lud_son_of_Heli" confidence="0.9999999999549516" spotted="true">
+      <!--King Lud-->
+      <span>
+        <target id="w20" />
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Time" confidence="0.9940781584379995" spotted="true">
+      <!--time-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 could : [t3 if] [t11 been] [t1 Everyone]-->
+    <predicate id="f_pr4" source="semafor" confidence="51.77098925305035">
+      <!--could-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Capability" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--if they had the time-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Circumstances" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Circumstances" />
+        </externalReferences>
+      </role>
+      <role id="rl8" semRole="">
+        <!--been researched back as far as the time of King Lud-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Event" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="">
+        <!--Everyone-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 had : A1[t6 the] A0[t4 they]-->
+    <predicate id="f_pr5" source="semafor" confidence="51.05603860446024">
+      <!--had-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl10" semRole="A1">
+        <!--the time-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="A0">
+        <!--they-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 time : [t6 the]-->
+    <predicate id="f_pr6" source="semafor" confidence="24.892114314055906">
+      <!--time-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Measure_duration" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Time" confidence="0.99407816" />
+        <externalRef resource="FrameBase" reference="frame-Measure_duration-time.n" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--the time-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Measure_duration@Unit" />
+          <externalRef resource="FrameBase" reference="fe-Measure_duration-Unit" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 researched : A1[t9 mine] [t16 as] AM-DIR[t13 back] AM-TMP[t14 as]-->
+    <predicate id="f_pr7" source="semafor" confidence="65.60605202907554">
+      <!--researched-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Research" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Research" confidence="0.9999306" />
+        <externalRef resource="PropBank" reference="research.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Research" confidence="0.9999306" />
+        <externalRef resource="FrameBase" reference="frame-Research-research.v" />
+      </externalReferences>
+      <role id="rl13" semRole="A1">
+        <!--mine-->
+        <span>
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Research@Researcher" />
+          <externalRef resource="FrameBase" reference="fe-Research-Researcher" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--as the time of King Lud-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Research@Time" />
+          <externalRef resource="FrameBase" reference="fe-Research-Time" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="AM-DIR">
+        <!--back-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+      <role id="rl20" semRole="AM-TMP">
+        <!--as far as the time of King Lud-->
+        <span>
+          <target id="t14" />
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </role>
+    </predicate>
+    <!--t13 back :-->
+    <predicate id="f_pr8" source="semafor" confidence="48.03797506216073">
+      <!--back-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Taking_sides" />
+      </externalReferences>
+    </predicate>
+    <!--t15 far : [t14 as]-->
+    <predicate id="f_pr9" source="semafor" confidence="19.036981083284502">
+      <!--far-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--as far as the time of King Lud-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Added_set" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Added_set" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 time : A1[t19 of]-->
+    <predicate id="f_pr10" source="semafor" confidence="29.3481997280995">
+      <!--time-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Measure_duration" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Time" confidence="0.99407816" />
+        <externalRef resource="NomBank" reference="time.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Time" confidence="0.99407816" />
+        <externalRef resource="FrameBase" reference="frame-Measure_duration-time.n" />
+      </externalReferences>
+      <role id="rl17" semRole="A1">
+        <!--of King Lud-->
+        <span>
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Measure_duration@Process" />
+          <externalRef resource="FrameBase" reference="fe-Measure_duration-Process" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 King : [t20 King]-->
+    <predicate id="f_pr11" source="semafor" confidence="79.57744982157259">
+      <!--King-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="FrameBase" reference="frame-Leadership-king.n" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--King Lud-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Leader" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Leader" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (NP (NN Everyone)) (VP (MD could) (SBAR (IN if) (S (NP (PRP they)) (VP (VBD had) (NP (DT the) (NN time))))))) (, ,) (NP (PRP mine)) (VP (VBZ has) (VP (VBN been) (VP (VBN researched) (ADVP (RB back) (IN as) (RB far)) (PP (IN as) (NP (NP (DT the) (NN time)) (PP (IN of) (NP (NNP King) (NNP Lud)))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="NN" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="MD" />
+      <nt id="nter8" label="SBAR" />
+      <nt id="nter9" label="IN" />
+      <nt id="nter10" label="S" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="PRP" />
+      <nt id="nter13" label="VP" />
+      <nt id="nter14" label="VBD" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="DT" />
+      <nt id="nter17" label="NN" />
+      <nt id="nter18" label="," />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="PRP" />
+      <nt id="nter21" label="VP" />
+      <nt id="nter22" label="VBZ" />
+      <nt id="nter23" label="VP" />
+      <nt id="nter24" label="VBN" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VBN" />
+      <nt id="nter27" label="ADVP" />
+      <nt id="nter28" label="RB" />
+      <nt id="nter29" label="IN" />
+      <nt id="nter30" label="RB" />
+      <nt id="nter31" label="PP" />
+      <nt id="nter32" label="IN" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="DT" />
+      <nt id="nter36" label="NN" />
+      <nt id="nter37" label="PP" />
+      <nt id="nter38" label="IN" />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="NNP" />
+      <nt id="nter41" label="NNP" />
+      <nt id="nter42" label="." />
+      <!--Terminals-->
+      <!--Everyone-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--could-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--if-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--they-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--had-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--time-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--mine-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--has-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--been-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--researched-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--back-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--far-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--time-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--King-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Lud-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="ter4" to="nter12" />
+      <edge id="tre17" from="nter13" to="nter10" head="yes" />
+      <edge id="tre18" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter13" />
+      <edge id="tre21" from="nter16" to="nter15" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter15" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter2" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter2" />
+      <edge id="tre28" from="nter20" to="nter19" head="yes" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter2" head="yes" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter21" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter23" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter25" />
+      <edge id="tre40" from="nter28" to="nter27" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter27" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter25" />
+      <edge id="tre47" from="nter32" to="nter31" head="yes" />
+      <edge id="tre48" from="ter16" to="nter32" />
+      <edge id="tre49" from="nter33" to="nter31" />
+      <edge id="tre50" from="nter34" to="nter33" head="yes" />
+      <edge id="tre51" from="nter35" to="nter34" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter34" head="yes" />
+      <edge id="tre54" from="ter18" to="nter36" />
+      <edge id="tre55" from="nter37" to="nter33" />
+      <edge id="tre56" from="nter38" to="nter37" head="yes" />
+      <edge id="tre57" from="ter19" to="nter38" />
+      <edge id="tre58" from="nter39" to="nter37" />
+      <edge id="tre59" from="nter40" to="nter39" />
+      <edge id="tre60" from="ter20" to="nter40" />
+      <edge id="tre61" from="nter41" to="nter39" head="yes" />
+      <edge id="tre62" from="ter21" to="nter41" />
+      <edge id="tre63" from="nter42" to="nter2" />
+      <edge id="tre64" from="ter22" to="nter42" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:37+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:37.272+0100" endTimestamp="2017-11-21T16:33:37.900+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:37.915+0100" endTimestamp="2017-11-21T16:33:37.917+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Leaving all of the hard work to the few. Sign this, and prove me wrong. Petition * Arkansas Governor Asa Hutchinson: Save Jacob Goodwin From Extradition! * Change.org]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="7">Leaving</wf>
+    <wf id="w2" sent="1" para="1" offset="8" length="3">all</wf>
+    <wf id="w3" sent="1" para="1" offset="12" length="2">of</wf>
+    <wf id="w4" sent="1" para="1" offset="15" length="3">the</wf>
+    <wf id="w5" sent="1" para="1" offset="19" length="4">hard</wf>
+    <wf id="w6" sent="1" para="1" offset="24" length="4">work</wf>
+    <wf id="w7" sent="1" para="1" offset="29" length="2">to</wf>
+    <wf id="w8" sent="1" para="1" offset="32" length="3">the</wf>
+    <wf id="w9" sent="1" para="1" offset="36" length="3">few</wf>
+    <wf id="w10" sent="1" para="1" offset="39" length="1">.</wf>
+    <wf id="w11" sent="2" para="1" offset="41" length="4">Sign</wf>
+    <wf id="w12" sent="2" para="1" offset="46" length="4">this</wf>
+    <wf id="w13" sent="2" para="1" offset="50" length="1">,</wf>
+    <wf id="w14" sent="2" para="1" offset="52" length="3">and</wf>
+    <wf id="w15" sent="2" para="1" offset="56" length="5">prove</wf>
+    <wf id="w16" sent="2" para="1" offset="62" length="2">me</wf>
+    <wf id="w17" sent="2" para="1" offset="65" length="5">wrong</wf>
+    <wf id="w18" sent="2" para="1" offset="70" length="1">.</wf>
+    <wf id="w19" sent="3" para="1" offset="72" length="8">Petition</wf>
+    <wf id="w20" sent="3" para="1" offset="81" length="1">*</wf>
+    <wf id="w21" sent="3" para="1" offset="83" length="8">Arkansas</wf>
+    <wf id="w22" sent="3" para="1" offset="92" length="8">Governor</wf>
+    <wf id="w23" sent="3" para="1" offset="101" length="3">Asa</wf>
+    <wf id="w24" sent="3" para="1" offset="105" length="10">Hutchinson</wf>
+    <wf id="w25" sent="3" para="1" offset="115" length="1">:</wf>
+    <wf id="w26" sent="3" para="1" offset="117" length="4">Save</wf>
+    <wf id="w27" sent="3" para="1" offset="122" length="5">Jacob</wf>
+    <wf id="w28" sent="3" para="1" offset="128" length="7">Goodwin</wf>
+    <wf id="w29" sent="3" para="1" offset="136" length="4">From</wf>
+    <wf id="w30" sent="3" para="1" offset="141" length="11">Extradition</wf>
+    <wf id="w31" sent="3" para="1" offset="152" length="1">!</wf>
+    <wf id="w32" sent="4" para="1" offset="154" length="1">*</wf>
+    <wf id="w33" sent="4" para="1" offset="156" length="10">Change.org</wf>
+  </text>
+  <terms>
+    <!--Leaving-->
+    <term id="t1" type="open" lemma="leave" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t2" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t3" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--hard-->
+    <term id="t5" type="open" lemma="hard" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--work-->
+    <term id="t6" type="open" lemma="work" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t7" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t8" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--few-->
+    <term id="t9" type="open" lemma="few" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Sign-->
+    <term id="t11" type="open" lemma="sign" pos="V" morphofeat="VB">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t12" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t13" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t14" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--prove-->
+    <term id="t15" type="open" lemma="prove" pos="V" morphofeat="VB">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--me-->
+    <term id="t16" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--wrong-->
+    <term id="t17" type="open" lemma="wrong" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Petition-->
+    <term id="t19" type="open" lemma="petition" pos="N" morphofeat="NN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--*-->
+    <term id="t20" type="open" lemma="*" pos="O" morphofeat="SYM">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Arkansas-->
+    <term id="t21" type="open" lemma="Arkansas" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--Governor-->
+    <term id="t22" type="open" lemma="Governor" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--Asa-->
+    <term id="t23" type="open" lemma="Asa" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--Hutchinson-->
+    <term id="t24" type="open" lemma="Hutchinson" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t25" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--Save-->
+    <term id="t26" type="open" lemma="save" pos="V" morphofeat="VB">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--Jacob-->
+    <term id="t27" type="open" lemma="Jacob" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--Goodwin-->
+    <term id="t28" type="open" lemma="Goodwin" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--From-->
+    <term id="t29" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--Extradition-->
+    <term id="t30" type="open" lemma="extradition" pos="N" morphofeat="NN">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--!-->
+    <term id="t31" type="open" lemma="!" pos="O" morphofeat=".">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--*-->
+    <term id="t32" type="open" lemma="*" pos="O" morphofeat="SYM">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--Change.org-->
+    <term id="t33" type="open" lemma="change.org" pos="N" morphofeat="NN">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--OBJ(Leaving-1, all-2)-->
+    <dep from="t1" to="t2" rfunc="OBJ" />
+    <!--NMOD(all-2, of-3)-->
+    <dep from="t2" to="t3" rfunc="NMOD" />
+    <!--NMOD(work-6, the-4)-->
+    <dep from="t6" to="t4" rfunc="NMOD" />
+    <!--NMOD(work-6, hard-5)-->
+    <dep from="t6" to="t5" rfunc="NMOD" />
+    <!--PMOD(of-3, work-6)-->
+    <dep from="t3" to="t6" rfunc="PMOD" />
+    <!--ADV(Leaving-1, to-7)-->
+    <dep from="t1" to="t7" rfunc="ADV" />
+    <!--NMOD(few-9, the-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--PMOD(to-7, few-9)-->
+    <dep from="t7" to="t9" rfunc="PMOD" />
+    <!--P(Leaving-1, .-10)-->
+    <dep from="t1" to="t10" rfunc="P" />
+    <!--OBJ(Sign-11, this-12)-->
+    <dep from="t11" to="t12" rfunc="OBJ" />
+    <!--P(Sign-11, ,-13)-->
+    <dep from="t11" to="t13" rfunc="P" />
+    <!--COORD(Sign-11, and-14)-->
+    <dep from="t11" to="t14" rfunc="COORD" />
+    <!--CONJ(and-14, prove-15)-->
+    <dep from="t14" to="t15" rfunc="CONJ" />
+    <!--OBJ(prove-15, me-16)-->
+    <dep from="t15" to="t16" rfunc="OBJ" />
+    <!--OPRD(prove-15, wrong-17)-->
+    <dep from="t15" to="t17" rfunc="OPRD" />
+    <!--P(Sign-11, .-18)-->
+    <dep from="t11" to="t18" rfunc="P" />
+    <!--SBJ(Save-26, Petition-19)-->
+    <dep from="t26" to="t19" rfunc="SBJ" />
+    <!--NMOD(Petition-19, *-20)-->
+    <dep from="t19" to="t20" rfunc="NMOD" />
+    <!--NAME(Hutchinson-24, Arkansas-21)-->
+    <dep from="t24" to="t21" rfunc="NAME" />
+    <!--NAME(Hutchinson-24, Governor-22)-->
+    <dep from="t24" to="t22" rfunc="NAME" />
+    <!--NAME(Hutchinson-24, Asa-23)-->
+    <dep from="t24" to="t23" rfunc="NAME" />
+    <!--APPO(Petition-19, Hutchinson-24)-->
+    <dep from="t19" to="t24" rfunc="APPO" />
+    <!--P(Petition-19, :-25)-->
+    <dep from="t19" to="t25" rfunc="P" />
+    <!--NAME(Goodwin-28, Jacob-27)-->
+    <dep from="t28" to="t27" rfunc="NAME" />
+    <!--OBJ(Save-26, Goodwin-28)-->
+    <dep from="t26" to="t28" rfunc="OBJ" />
+    <!--ADV(Save-26, From-29)-->
+    <dep from="t26" to="t29" rfunc="ADV" />
+    <!--PMOD(From-29, Extradition-30)-->
+    <dep from="t29" to="t30" rfunc="PMOD" />
+    <!--P(Save-26, !-31)-->
+    <dep from="t26" to="t31" rfunc="P" />
+    <!--DEP(Change.org-33, *-32)-->
+    <dep from="t33" to="t32" rfunc="DEP" />
+  </deps>
+  <entities>
+    <entity id="e1" type="LOCATION">
+      <references>
+        <!--Arkansas-->
+        <span>
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Arkansas" confidence="0.9992619" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="PERSON">
+      <references>
+        <!--Asa Hutchinson-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Asa_Hutchinson" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="PERSON">
+      <references>
+        <!--Jacob Goodwin-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--wrong-->
+        <span>
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Wrong" confidence="0.9139423" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--Petition-->
+        <span>
+          <target id="t19" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Petition" confidence="0.99999994" />
+      </externalReferences>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--Extradition-->
+        <span>
+          <target id="t30" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Extradition" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e7">
+      <references>
+        <!--Governor-->
+        <span>
+          <target id="t22" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--Change.org-->
+        <span>
+          <target id="t33" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Change.org" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--work-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--me-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Leaving_Certificate_(Ireland)" confidence="0.9923665224869703" spotted="true">
+      <!--Leaving-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Wrong" confidence="0.9139422839984125" spotted="true">
+      <!--wrong-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Asa_Hutchinson" confidence="1.0" spotted="true">
+      <!--Asa Hutchinson-->
+      <span>
+        <target id="w23" />
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Petition" confidence="0.9999999341125112" spotted="true">
+      <!--Petition-->
+      <span>
+        <target id="w19" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Project_Sign" confidence="0.3201628863637789" spotted="true">
+      <!--Sign-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Extradition" confidence="0.999999989696505" spotted="true">
+      <!--Extradition-->
+      <span>
+        <target id="w30" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hard_rock" confidence="0.5909237019967466" spotted="true">
+      <!--hard-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Arkansas" confidence="0.9992618974136801" spotted="true">
+      <!--Arkansas-->
+      <span>
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Save_(baseball)" confidence="0.9253743949391574" spotted="true">
+      <!--Save-->
+      <span>
+        <target id="w26" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Employment" confidence="0.8592890543333355" spotted="true">
+      <!--work-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Legal_burden_of_proof" confidence="0.4705618246348314" spotted="true">
+      <!--prove-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le12" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jacob" confidence="0.9776745407593743" spotted="true">
+      <!--Jacob-->
+      <span>
+        <target id="w27" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le13" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/List_of_Governors_of_Arkansas" confidence="0.9874377719759286" spotted="true">
+      <!--Governor-->
+      <span>
+        <target id="w22" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le14" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Change.org" confidence="0.9999999999853344" spotted="true">
+      <!--Change.org-->
+      <span>
+        <target id="w33" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Leaving : A1[t2 all] A2[t7 to]-->
+    <predicate id="f_pr3" source="semafor" confidence="137.84914605742284">
+      <!--Leaving-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Departing" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Leaving_Certificate_(Ireland)" confidence="0.9923665" />
+        <externalRef resource="PropBank" reference="leave.02" source="mate" />
+        <externalRef resource="VerbNet" reference="future_having-13.3" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-02296153-v" />
+        <externalRef resource="WordNet" reference="ili-30-02229055-v" />
+        <externalRef resource="WordNet" reference="ili-30-00613683-v" />
+        <externalRef resource="WordNet" reference="ili-30-00613018-v" />
+        <externalRef resource="WordNet" reference="ili-30-02356230-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Leaving_Certificate_(Ireland)" confidence="0.9923665" />
+        <externalRef resource="FrameBase" reference="frame-Departing-exit.v" />
+      </externalReferences>
+      <role id="rl4" semRole="A1">
+        <!--all of the hard work-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Departing@Theme" />
+          <externalRef resource="VerbNet" reference="future_having-13.3@Theme" />
+          <externalRef resource="PropBank" reference="leave.02@1" />
+          <externalRef resource="FrameBase" reference="fe-Departing-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="A2">
+        <!--to the few-->
+        <span>
+          <target id="t7" head="yes" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="future_having-13.3@Goal" />
+          <externalRef resource="PropBank" reference="leave.02@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 all : [t2 all] [t3 of]-->
+    <predicate id="f_pr4" source="semafor" confidence="27.225311468773373">
+      <!--all-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--all of the hard work-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl6" semRole="">
+        <!--of the hard work-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Mass" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Mass" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 hard : [t4 the]-->
+    <predicate id="f_pr5" source="semafor" confidence="34.002037091083274">
+      <!--hard-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Difficulty" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hard_rock" confidence="0.5909237" />
+        <externalRef resource="FrameBase" reference="frame-Difficulty-hard.a" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--the hard work-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Difficulty@Activity" />
+          <externalRef resource="FrameBase" reference="fe-Difficulty-Activity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 work : AM-MNR[t5 hard]-->
+    <predicate id="f_pr6" source="semafor" confidence="87.89001671268996">
+      <!--work-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Working_on" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Employment" confidence="0.85928905" />
+        <externalRef resource="NomBank" reference="work.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Employment" confidence="0.85928905" />
+        <externalRef resource="FrameBase" reference="frame-Working_on-work.v" />
+      </externalReferences>
+      <role id="rl20" semRole="AM-MNR">
+        <!--hard-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t9 few : [t8 the]-->
+    <predicate id="f_pr7" source="semafor" confidence="24.292832966508968">
+      <!--few-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+        <externalRef resource="FrameBase" reference="frame-Quantity-few.n" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--the few-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 Sign : A1[t12 this]-->
+    <predicate id="f_pr10" source="semafor" confidence="70.76863430204537">
+      <!--Sign-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sign_agreement" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Project_Sign" confidence="0.3201629" />
+        <externalRef resource="PropBank" reference="sign.01" source="mate" />
+        <externalRef resource="VerbNet" reference="instr_communication-37.4" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00996485-v" />
+        <externalRef resource="WordNet" reference="ili-30-02464866-v" />
+        <externalRef resource="WordNet" reference="ili-30-01039330-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Project_Sign" confidence="0.3201629" />
+        <externalRef resource="FrameBase" reference="frame-Sign_agreement-sign.v" />
+      </externalReferences>
+      <role id="rl12" semRole="A1">
+        <!--this-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sign_agreement@Signatory" />
+          <externalRef resource="VerbNet" reference="instr_communication-37.4@Topic" />
+          <externalRef resource="PropBank" reference="sign.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Sign_agreement-Signatory" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 prove : [t12 this] C-A1[t17 wrong] A1[t16 me]-->
+    <predicate id="f_pr11" source="semafor" confidence="48.08934653319066">
+      <!--prove-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reasoning" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Legal_burden_of_proof" confidence="0.47056183" />
+        <externalRef resource="PropBank" reference="prove.01" source="mate" />
+        <externalRef resource="VerbNet" reference="deduce-97.2" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00664788-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Legal_burden_of_proof" confidence="0.47056183" />
+        <externalRef resource="FrameBase" reference="frame-Reasoning-prove.v" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--this-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Reasoning@Content" />
+          <externalRef resource="FrameBase" reference="fe-Reasoning-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="C-A1">
+        <!--wrong-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+      <role id="rl22" semRole="A1">
+        <!--me-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="deduce-97.2@Theme" />
+          <externalRef resource="PropBank" reference="prove.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 wrong : [t16 me]-->
+    <predicate id="f_pr12" source="semafor" confidence="16.51306514940342">
+      <!--wrong-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Morality_evaluation" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Wrong" confidence="0.9139423" />
+        <externalRef resource="FrameBase" reference="frame-Morality_evaluation-wrong.a" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--me-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Morality_evaluation@Evaluee" />
+          <externalRef resource="FrameBase" reference="fe-Morality_evaluation-Evaluee" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t26 Save : A1[t27 Jacob] A3[t29 From] A3[t19 Petition]-->
+    <predicate id="pr13" source="mate">
+      <!--Save-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="save.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1-1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02283716-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Save_(baseball)" confidence="0.9253744" />
+      </externalReferences>
+      <role id="rl15" semRole="A1">
+        <!--Jacob Goodwin-->
+        <span>
+          <target id="t27" />
+          <target id="t28" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="save.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A3">
+        <!--From Extradition-->
+        <span>
+          <target id="t29" head="yes" />
+          <target id="t30" />
+        </span>
+      </role>
+      <role id="rl17" semRole="A3">
+        <!--Petition * Arkansas Governor Asa Hutchinson :-->
+        <span>
+          <target id="t19" head="yes" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+      </role>
+    </predicate>
+    <!--t19 Petition : [t20 *]-->
+    <predicate id="f_pr14" source="semafor" confidence="66.15469969454568">
+      <!--Petition-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Request" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Petition" confidence="0.99999994" />
+        <externalRef resource="FrameBase" reference="frame-Request-request.v" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--* Arkansas Governor Asa Hutchinson-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Request@Message" />
+          <externalRef resource="FrameBase" reference="fe-Request-Message" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t22 Governor : [t22 Governor]-->
+    <predicate id="f_pr15" source="semafor" confidence="89.29524879886637">
+      <!--Governor-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/List_of_Governors_of_Arkansas" confidence="0.9874378" />
+        <externalRef resource="FrameBase" reference="frame-Leadership-rule.v" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--Governor-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Leader" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Leader" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t30 Extradition :-->
+    <predicate id="f_pr16" source="semafor" confidence="49.59991280237352">
+      <!--Extradition-->
+      <span>
+        <target id="t30" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Extradition" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Extradition" confidence="1.0" />
+        <externalRef resource="FrameBase" reference="frame-Extradition-extradite.v" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (VBG Leaving) (NP (NP (DT all)) (PP (IN of) (NP (DT the) (JJ hard) (NN work)))) (PP (TO to) (NP (DT the) (JJ few)))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (VP (VP (VB Sign) (NP (DT this))) (, ,) (CC and) (VP (VB prove) (S (NP (PRP me)) (ADJP (JJ wrong))))) (. .)))</tree>
+    <tree sentence="3">(ROOT (NP (NP (NP (NN Petition)) (SBAR (S (VP (SYM *) (NP (NNP Arkansas) (NNP Governor) (NNP Asa) (NNP Hutchinson)))))) (: :) (NP (VP (VB Save) (NP (NNP Jacob) (NNP Goodwin))) (PP (IN From) (NP (NN Extradition)))) (. !)))</tree>
+    <tree sentence="4">(ROOT (FRAG (X (SYM *)) (NP (NN Change.org))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="VBG" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="DT" />
+      <nt id="nter8" label="PP" />
+      <nt id="nter9" label="IN" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="DT" />
+      <nt id="nter12" label="JJ" />
+      <nt id="nter13" label="NN" />
+      <nt id="nter14" label="PP" />
+      <nt id="nter15" label="TO" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="DT" />
+      <nt id="nter18" label="JJ" />
+      <nt id="nter19" label="." />
+      <!--Terminals-->
+      <!--Leaving-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--hard-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--work-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--few-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter5" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter10" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter3" />
+      <edge id="tre21" from="nter15" to="nter14" head="yes" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter14" />
+      <edge id="tre24" from="nter17" to="nter16" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter16" head="yes" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter2" />
+      <edge id="tre29" from="ter10" to="nter19" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter20" label="ROOT" />
+      <nt id="nter21" label="S" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VP" />
+      <nt id="nter24" label="VB" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="DT" />
+      <nt id="nter27" label="," />
+      <nt id="nter28" label="CC" />
+      <nt id="nter29" label="VP" />
+      <nt id="nter30" label="VB" />
+      <nt id="nter31" label="S" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="PRP" />
+      <nt id="nter34" label="ADJP" />
+      <nt id="nter35" label="JJ" />
+      <nt id="nter36" label="." />
+      <!--Terminals-->
+      <!--Sign-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--prove-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--me-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--wrong-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre31" from="nter21" to="nter20" head="yes" />
+      <edge id="tre32" from="nter22" to="nter21" head="yes" />
+      <edge id="tre33" from="nter23" to="nter22" head="yes" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter23" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter22" />
+      <edge id="tre40" from="ter13" to="nter27" />
+      <edge id="tre41" from="nter28" to="nter22" />
+      <edge id="tre42" from="ter14" to="nter28" />
+      <edge id="tre43" from="nter29" to="nter22" />
+      <edge id="tre44" from="nter30" to="nter29" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter29" />
+      <edge id="tre47" from="nter32" to="nter31" />
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter31" head="yes" />
+      <edge id="tre51" from="nter35" to="nter34" head="yes" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter21" />
+      <edge id="tre54" from="ter18" to="nter36" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter37" label="ROOT" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="NP" />
+      <nt id="nter41" label="NN" />
+      <nt id="nter42" label="SBAR" />
+      <nt id="nter43" label="S" />
+      <nt id="nter44" label="VP" />
+      <nt id="nter45" label="SYM" />
+      <nt id="nter46" label="NP" />
+      <nt id="nter47" label="NNP" />
+      <nt id="nter48" label="NNP" />
+      <nt id="nter49" label="NNP" />
+      <nt id="nter50" label="NNP" />
+      <nt id="nter51" label=":" />
+      <nt id="nter52" label="NP" />
+      <nt id="nter53" label="VP" />
+      <nt id="nter54" label="VB" />
+      <nt id="nter55" label="NP" />
+      <nt id="nter56" label="NNP" />
+      <nt id="nter57" label="NNP" />
+      <nt id="nter58" label="PP" />
+      <nt id="nter59" label="IN" />
+      <nt id="nter60" label="NP" />
+      <nt id="nter61" label="NN" />
+      <nt id="nter62" label="." />
+      <!--Terminals-->
+      <!--Petition-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--*-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Arkansas-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--Governor-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--Asa-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--Hutchinson-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--Save-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--Jacob-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--Goodwin-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--From-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--Extradition-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--!-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre56" from="nter38" to="nter37" head="yes" />
+      <edge id="tre57" from="nter39" to="nter38" head="yes" />
+      <edge id="tre58" from="nter40" to="nter39" head="yes" />
+      <edge id="tre59" from="nter41" to="nter40" head="yes" />
+      <edge id="tre60" from="ter19" to="nter41" />
+      <edge id="tre61" from="nter42" to="nter39" />
+      <edge id="tre62" from="nter43" to="nter42" head="yes" />
+      <edge id="tre63" from="nter44" to="nter43" head="yes" />
+      <edge id="tre64" from="nter45" to="nter44" />
+      <edge id="tre65" from="ter20" to="nter45" />
+      <edge id="tre66" from="nter46" to="nter44" head="yes" />
+      <edge id="tre67" from="nter47" to="nter46" />
+      <edge id="tre68" from="ter21" to="nter47" />
+      <edge id="tre69" from="nter48" to="nter46" />
+      <edge id="tre70" from="ter22" to="nter48" />
+      <edge id="tre71" from="nter49" to="nter46" />
+      <edge id="tre72" from="ter23" to="nter49" />
+      <edge id="tre73" from="nter50" to="nter46" head="yes" />
+      <edge id="tre74" from="ter24" to="nter50" />
+      <edge id="tre75" from="nter51" to="nter38" />
+      <edge id="tre76" from="ter25" to="nter51" />
+      <edge id="tre77" from="nter52" to="nter38" />
+      <edge id="tre78" from="nter53" to="nter52" />
+      <edge id="tre79" from="nter54" to="nter53" head="yes" />
+      <edge id="tre80" from="ter26" to="nter54" />
+      <edge id="tre81" from="nter55" to="nter53" />
+      <edge id="tre82" from="nter56" to="nter55" />
+      <edge id="tre83" from="ter27" to="nter56" />
+      <edge id="tre84" from="nter57" to="nter55" head="yes" />
+      <edge id="tre85" from="ter28" to="nter57" />
+      <edge id="tre86" from="nter58" to="nter52" head="yes" />
+      <edge id="tre87" from="nter59" to="nter58" head="yes" />
+      <edge id="tre88" from="ter29" to="nter59" />
+      <edge id="tre89" from="nter60" to="nter58" />
+      <edge id="tre90" from="nter61" to="nter60" head="yes" />
+      <edge id="tre91" from="ter30" to="nter61" />
+      <edge id="tre92" from="nter62" to="nter38" />
+      <edge id="tre93" from="ter31" to="nter62" />
+    </tree>
+    <tree sentence="4">
+      <!--Non-terminals-->
+      <nt id="nter63" label="ROOT" />
+      <nt id="nter64" label="FRAG" />
+      <nt id="nter65" label="X" />
+      <nt id="nter66" label="SYM" />
+      <nt id="nter67" label="NP" />
+      <nt id="nter68" label="NN" />
+      <!--Terminals-->
+      <!--*-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--Change.org-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre95" from="nter64" to="nter63" head="yes" />
+      <edge id="tre96" from="nter65" to="nter64" />
+      <edge id="tre97" from="nter66" to="nter65" head="yes" />
+      <edge id="tre98" from="ter32" to="nter66" />
+      <edge id="tre99" from="nter67" to="nter64" head="yes" />
+      <edge id="tre100" from="nter68" to="nter67" head="yes" />
+      <edge id="tre101" from="ter33" to="nter68" />
+    </tree>
+  </constituency>
+</NAF>

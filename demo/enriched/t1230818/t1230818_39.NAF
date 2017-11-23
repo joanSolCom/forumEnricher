@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:10+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:10.754+0100" endTimestamp="2017-11-21T16:40:11.313+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:11.314+0100" endTimestamp="2017-11-21T16:40:11.315+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Not really, as I don't consider anyone who has a single Black ancestor to be White. And I'm not alone.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Not</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="6">really</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="1">,</wf>
+    <wf id="w4" sent="1" para="1" offset="12" length="2">as</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="1">I</wf>
+    <wf id="w6" sent="1" para="1" offset="17" length="2">do</wf>
+    <wf id="w7" sent="1" para="1" offset="19" length="3">n't</wf>
+    <wf id="w8" sent="1" para="1" offset="23" length="8">consider</wf>
+    <wf id="w9" sent="1" para="1" offset="32" length="6">anyone</wf>
+    <wf id="w10" sent="1" para="1" offset="39" length="3">who</wf>
+    <wf id="w11" sent="1" para="1" offset="43" length="3">has</wf>
+    <wf id="w12" sent="1" para="1" offset="47" length="1">a</wf>
+    <wf id="w13" sent="1" para="1" offset="49" length="6">single</wf>
+    <wf id="w14" sent="1" para="1" offset="56" length="5">Black</wf>
+    <wf id="w15" sent="1" para="1" offset="62" length="8">ancestor</wf>
+    <wf id="w16" sent="1" para="1" offset="71" length="2">to</wf>
+    <wf id="w17" sent="1" para="1" offset="74" length="2">be</wf>
+    <wf id="w18" sent="1" para="1" offset="77" length="5">White</wf>
+    <wf id="w19" sent="1" para="1" offset="82" length="1">.</wf>
+    <wf id="w20" sent="2" para="1" offset="84" length="3">And</wf>
+    <wf id="w21" sent="2" para="1" offset="88" length="1">I</wf>
+    <wf id="w22" sent="2" para="1" offset="89" length="2">'m</wf>
+    <wf id="w23" sent="2" para="1" offset="92" length="3">not</wf>
+    <wf id="w24" sent="2" para="1" offset="96" length="5">alone</wf>
+    <wf id="w25" sent="2" para="1" offset="101" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Not-->
+    <term id="t1" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--really-->
+    <term id="t2" type="open" lemma="really" pos="A" morphofeat="RB">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t3" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t4" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t5" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--do-->
+    <term id="t6" type="open" lemma="do" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t7" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--consider-->
+    <term id="t8" type="open" lemma="consider" pos="V" morphofeat="VB">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--anyone-->
+    <term id="t9" type="open" lemma="anyone" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--who-->
+    <term id="t10" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--has-->
+    <term id="t11" type="open" lemma="have" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t12" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--single-->
+    <term id="t13" type="open" lemma="single" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--Black-->
+    <term id="t14" type="open" lemma="black" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--ancestor-->
+    <term id="t15" type="open" lemma="ancestor" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t16" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t17" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--White-->
+    <term id="t18" type="open" lemma="White" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t19" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--And-->
+    <term id="t20" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t21" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--'m-->
+    <term id="t22" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t23" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--alone-->
+    <term id="t24" type="open" lemma="alone" pos="A" morphofeat="RB">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t25" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--AMOD(Not-1, really-2)-->
+    <dep from="t1" to="t2" rfunc="AMOD" />
+    <!--P(Not-1, ,-3)-->
+    <dep from="t1" to="t3" rfunc="P" />
+    <!--AMOD(Not-1, as-4)-->
+    <dep from="t1" to="t4" rfunc="AMOD" />
+    <!--SBJ(do-6, I-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--SUB(as-4, do-6)-->
+    <dep from="t4" to="t6" rfunc="SUB" />
+    <!--ADV(do-6, n't-7)-->
+    <dep from="t6" to="t7" rfunc="ADV" />
+    <!--VC(do-6, consider-8)-->
+    <dep from="t6" to="t8" rfunc="VC" />
+    <!--OBJ(consider-8, anyone-9)-->
+    <dep from="t8" to="t9" rfunc="OBJ" />
+    <!--SBJ(has-11, who-10)-->
+    <dep from="t11" to="t10" rfunc="SBJ" />
+    <!--NMOD(anyone-9, has-11)-->
+    <dep from="t9" to="t11" rfunc="NMOD" />
+    <!--NMOD(ancestor-15, a-12)-->
+    <dep from="t15" to="t12" rfunc="NMOD" />
+    <!--NMOD(ancestor-15, single-13)-->
+    <dep from="t15" to="t13" rfunc="NMOD" />
+    <!--NMOD(ancestor-15, Black-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--OBJ(has-11, ancestor-15)-->
+    <dep from="t11" to="t15" rfunc="OBJ" />
+    <!--OPRD(has-11, to-16)-->
+    <dep from="t11" to="t16" rfunc="OPRD" />
+    <!--IM(to-16, be-17)-->
+    <dep from="t16" to="t17" rfunc="IM" />
+    <!--PRD(be-17, White-18)-->
+    <dep from="t17" to="t18" rfunc="PRD" />
+    <!--P(Not-1, .-19)-->
+    <dep from="t1" to="t19" rfunc="P" />
+    <!--DEP('m-22, And-20)-->
+    <dep from="t22" to="t20" rfunc="DEP" />
+    <!--SBJ('m-22, I-21)-->
+    <dep from="t22" to="t21" rfunc="SBJ" />
+    <!--ADV('m-22, not-23)-->
+    <dep from="t22" to="t23" rfunc="ADV" />
+    <!--PRD('m-22, alone-24)-->
+    <dep from="t22" to="t24" rfunc="PRD" />
+    <!--P('m-22, .-25)-->
+    <dep from="t22" to="t25" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Black-->
+        <span>
+          <target id="t14" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.96090287" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--White-->
+        <span>
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.99396336" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--anyone-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--who-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--ancestor-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Single_(music)" confidence="0.9991790480967333" spotted="true">
+      <!--single-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.9609028406824536" spotted="true">
+      <!--Black-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.9939633319908626" spotted="true">
+      <!--White-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t17 be : A1[t12 a] A2[t18 White]-->
+    <predicate id="pr3" source="mate">
+      <!--be-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl8" semRole="A1">
+        <!--a single Black ancestor-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" head="yes" />
+        </span>
+      </role>
+      <role id="rl9" semRole="A2">
+        <!--White-->
+        <span>
+          <target id="t18" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t6 do : [t5 I]-->
+    <predicate id="f_pr4" source="semafor" confidence="63.95319013252598">
+      <!--do-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--I-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 consider : A0[t5 I] A1[t9 anyone] [t10 who] AM-NEG[t7 n't]-->
+    <predicate id="f_pr5" source="semafor" confidence="53.939265169136526">
+      <!--consider-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Categorization" />
+        <externalRef resource="PropBank" reference="consider.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Categorization-view.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Cognizer" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="A1">
+        <!--anyone who has a single Black ancestor to be White-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Item" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Item" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="">
+        <!--who has a single Black ancestor to be White-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Category" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Category" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t11 has : A1[t12 a] A0[t9 anyone] R-A0[t10 who] C-A1[t16 to]-->
+    <predicate id="f_pr6" source="semafor" confidence="47.54108800997592">
+      <!--has-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl14" semRole="A1">
+        <!--a single Black ancestor-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A0">
+        <!--anyone who has a single Black ancestor to be White-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+      <role id="rl27" semRole="R-A0">
+        <!--who-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </role>
+      <role id="rl28" semRole="C-A1">
+        <!--to be White-->
+        <span>
+          <target id="t16" head="yes" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+      </role>
+    </predicate>
+    <!--t13 single : [t12 a]-->
+    <predicate id="f_pr7" source="semafor" confidence="3.389836438686213">
+      <!--single-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sole_instance" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Single_(music)" confidence="0.99917907" />
+        <externalRef resource="FrameBase" reference="frame-Sole_instance-single.a" />
+      </externalReferences>
+      <role id="rl16" semRole="">
+        <!--a single Black ancestor-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sole_instance@Item" />
+          <externalRef resource="FrameBase" reference="fe-Sole_instance-Item" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 Black : [t14 Black] [t12 a]-->
+    <predicate id="f_pr8" source="semafor" confidence="60.88751200043043">
+      <!--Black-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.96090287" />
+        <externalRef resource="FrameBase" reference="frame-Color-black.a" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--Black-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="">
+        <!--a single Black ancestor-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 ancestor : [t9 anyone] [t12 a] [t14 Black]-->
+    <predicate id="f_pr9" source="semafor" confidence="19.5661796567123">
+      <!--ancestor-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Kinship" />
+        <externalRef resource="FrameBase" reference="frame-Kinship-ancestor.n" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--anyone who has a single Black ancestor to be White-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Ego" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Ego" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="">
+        <!--a single Black ancestor-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Alter" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Alter" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="">
+        <!--Black-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Kinship@Descriptor" />
+          <externalRef resource="FrameBase" reference="fe-Kinship-Descriptor" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 White : [t18 White]-->
+    <predicate id="f_pr10" source="semafor" confidence="47.22626689945306">
+      <!--White-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.99396336" />
+      </externalReferences>
+      <role id="rl22" semRole="">
+        <!--White-->
+        <span>
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t22 'm : AM-NEG[t23 not] A1[t21 I] AM-DIS[t20 And] A2[t24 alone]-->
+    <predicate id="pr11" source="mate">
+      <!--'m-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl23" semRole="AM-NEG">
+        <!--not-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+      </role>
+      <role id="rl24" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </role>
+      <role id="rl25" semRole="AM-DIS">
+        <!--And-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </role>
+      <role id="rl26" semRole="A2">
+        <!--alone-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (ADJP (RB Not) (RB really)) (, ,) (SBAR (IN as) (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB consider) (NP (NP (NN anyone)) (SBAR (WHNP (WP who)) (S (VP (VBZ has) (NP (DT a) (JJ single) (JJ Black) (NN ancestor) (S (VP (TO to) (VP (VB be) (NP (NNP White)))))))))))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (CC And) (NP (PRP I)) (VP (VBP 'm) (RB not) (ADJP (RB alone))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="ADJP" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="RB" />
+      <nt id="nter6" label="," />
+      <nt id="nter7" label="SBAR" />
+      <nt id="nter8" label="IN" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="PRP" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBP" />
+      <nt id="nter14" label="RB" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VB" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="NN" />
+      <nt id="nter20" label="SBAR" />
+      <nt id="nter21" label="WHNP" />
+      <nt id="nter22" label="WP" />
+      <nt id="nter23" label="S" />
+      <nt id="nter24" label="VP" />
+      <nt id="nter25" label="VBZ" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="DT" />
+      <nt id="nter28" label="JJ" />
+      <nt id="nter29" label="JJ" />
+      <nt id="nter30" label="NN" />
+      <nt id="nter31" label="S" />
+      <nt id="nter32" label="VP" />
+      <nt id="nter33" label="TO" />
+      <nt id="nter34" label="VP" />
+      <nt id="nter35" label="VB" />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="NNP" />
+      <nt id="nter38" label="." />
+      <!--Terminals-->
+      <!--Not-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--really-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--do-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--consider-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--anyone-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--who-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--has-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--single-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Black-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--ancestor-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--White-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="ter3" to="nter6" />
+      <edge id="tre10" from="nter7" to="nter2" />
+      <edge id="tre11" from="nter8" to="nter7" head="yes" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter7" />
+      <edge id="tre14" from="nter10" to="nter9" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter9" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter12" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter12" />
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="ter8" to="nter16" />
+      <edge id="tre25" from="nter17" to="nter15" />
+      <edge id="tre26" from="nter18" to="nter17" head="yes" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter17" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter20" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" />
+      <edge id="tre38" from="nter27" to="nter26" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter26" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter26" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter26" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter26" />
+      <edge id="tre47" from="nter32" to="nter31" head="yes" />
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter32" />
+      <edge id="tre51" from="nter35" to="nter34" head="yes" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter34" />
+      <edge id="tre54" from="nter37" to="nter36" head="yes" />
+      <edge id="tre55" from="ter18" to="nter37" />
+      <edge id="tre56" from="nter38" to="nter2" head="yes" />
+      <edge id="tre57" from="ter19" to="nter38" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter39" label="ROOT" />
+      <nt id="nter40" label="S" />
+      <nt id="nter41" label="CC" />
+      <nt id="nter42" label="NP" />
+      <nt id="nter43" label="PRP" />
+      <nt id="nter44" label="VP" />
+      <nt id="nter45" label="VBP" />
+      <nt id="nter46" label="RB" />
+      <nt id="nter47" label="ADJP" />
+      <nt id="nter48" label="RB" />
+      <nt id="nter49" label="." />
+      <!--Terminals-->
+      <!--And-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--'m-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--alone-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre59" from="nter40" to="nter39" head="yes" />
+      <edge id="tre60" from="nter41" to="nter40" />
+      <edge id="tre61" from="ter20" to="nter41" />
+      <edge id="tre62" from="nter42" to="nter40" />
+      <edge id="tre63" from="nter43" to="nter42" head="yes" />
+      <edge id="tre64" from="ter21" to="nter43" />
+      <edge id="tre65" from="nter44" to="nter40" head="yes" />
+      <edge id="tre66" from="nter45" to="nter44" head="yes" />
+      <edge id="tre67" from="ter22" to="nter45" />
+      <edge id="tre68" from="nter46" to="nter44" />
+      <edge id="tre69" from="ter23" to="nter46" />
+      <edge id="tre70" from="nter47" to="nter44" />
+      <edge id="tre71" from="nter48" to="nter47" head="yes" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter40" />
+      <edge id="tre74" from="ter25" to="nter49" />
+    </tree>
+  </constituency>
+</NAF>

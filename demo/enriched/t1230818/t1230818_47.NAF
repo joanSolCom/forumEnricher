@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:20+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:20.045+0100" endTimestamp="2017-11-21T16:40:20.341+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:20.368+0100" endTimestamp="2017-11-21T16:40:20.368+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I wouldn't tell anyone.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="5">would</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="3">n't</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="4">tell</wf>
+    <wf id="w5" sent="1" para="1" offset="16" length="6">anyone</wf>
+    <wf id="w6" sent="1" para="1" offset="22" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t2" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t3" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--tell-->
+    <term id="t4" type="open" lemma="tell" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--anyone-->
+    <term id="t5" type="open" lemma="anyone" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(would-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(would-2, n't-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--VC(would-2, tell-4)-->
+    <dep from="t2" to="t4" rfunc="VC" />
+    <!--OBJ(tell-4, anyone-5)-->
+    <dep from="t4" to="t5" rfunc="OBJ" />
+    <!--P(would-2, .-6)-->
+    <dep from="t2" to="t6" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--anyone-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <srl>
+    <!--t4 tell : A2[t5 anyone] A0[t1 I] AM-NEG[t3 n't] AM-MOD[t1 I]-->
+    <predicate id="f_pr2" source="semafor" confidence="68.25408127405318">
+      <!--tell-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Telling" />
+        <externalRef resource="PropBank" reference="tell.01" source="mate" />
+        <externalRef resource="VerbNet" reference="tell-37.2-1" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00746718-v" />
+        <externalRef resource="WordNet" reference="ili-30-00952524-v" />
+        <externalRef resource="WordNet" reference="ili-30-00953216-v" />
+        <externalRef resource="WordNet" reference="ili-30-01009240-v" />
+        <externalRef resource="WordNet" reference="ili-30-01019643-v" />
+        <externalRef resource="FrameBase" reference="frame-Telling-tell.v" />
+      </externalReferences>
+      <role id="rl5" semRole="A2">
+        <!--anyone-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Telling@Message" />
+          <externalRef resource="VerbNet" reference="tell-37.2@Recipient" />
+          <externalRef resource="PropBank" reference="tell.01@2" />
+          <externalRef resource="FrameBase" reference="fe-Telling-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl6" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Telling@Speaker" />
+          <externalRef resource="VerbNet" reference="tell-37.2@Agent" />
+          <externalRef resource="PropBank" reference="tell.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Telling-Speaker" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl8" semRole="AM-MOD">
+        <!--I would n't tell anyone .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (MD would) (RB n't) (VP (VB tell) (NP (NN anyone)))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="MD" />
+      <nt id="nter7" label="RB" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VB" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--tell-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--anyone-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter5" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter2" />
+      <edge id="tre18" from="ter6" to="nter12" />
+    </tree>
+  </constituency>
+</NAF>

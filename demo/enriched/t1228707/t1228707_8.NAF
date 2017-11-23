@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:19+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:19.711+0100" endTimestamp="2017-11-21T16:33:20.145+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:20.152+0100" endTimestamp="2017-11-21T16:33:20.153+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[The letters d, o, o, and m.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">The</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="7">letters</wf>
+    <wf id="w3" sent="1" para="1" offset="12" length="1">d</wf>
+    <wf id="w4" sent="1" para="1" offset="13" length="1">,</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="1">o</wf>
+    <wf id="w6" sent="1" para="1" offset="16" length="1">,</wf>
+    <wf id="w7" sent="1" para="1" offset="18" length="1">o</wf>
+    <wf id="w8" sent="1" para="1" offset="19" length="1">,</wf>
+    <wf id="w9" sent="1" para="1" offset="21" length="3">and</wf>
+    <wf id="w10" sent="1" para="1" offset="25" length="2">m.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term id="t1" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--letters-->
+    <term id="t2" type="open" lemma="letter" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--d-->
+    <term id="t3" type="open" lemma="d" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t4" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--o-->
+    <term id="t5" type="open" lemma="o" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t6" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--o-->
+    <term id="t7" type="open" lemma="o" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t8" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t9" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--m.-->
+    <term id="t10" type="open" lemma="m." pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(d-3, The-1)-->
+    <dep from="t3" to="t1" rfunc="NMOD" />
+    <!--NMOD(d-3, letters-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--P(d-3, ,-4)-->
+    <dep from="t3" to="t4" rfunc="P" />
+    <!--COORD(d-3, o-5)-->
+    <dep from="t3" to="t5" rfunc="COORD" />
+    <!--P(o-5, ,-6)-->
+    <dep from="t5" to="t6" rfunc="P" />
+    <!--COORD(o-5, o-7)-->
+    <dep from="t5" to="t7" rfunc="COORD" />
+    <!--P(o-7, ,-8)-->
+    <dep from="t7" to="t8" rfunc="P" />
+    <!--COORD(o-7, and-9)-->
+    <dep from="t7" to="t9" rfunc="COORD" />
+    <!--CONJ(and-9, m.-10)-->
+    <dep from="t9" to="t10" rfunc="CONJ" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--letters-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--d-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--o-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--o-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--m.-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/The_Letters_of_Vincent_van_Gogh" confidence="0.9999999315349749" spotted="true">
+      <!--The letters-->
+      <span>
+        <target id="w1" />
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 letters : [t2 letters]-->
+    <predicate id="f_pr1" source="semafor" confidence="63.32728880139219">
+      <!--letters-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Text" />
+        <externalRef resource="FrameBase" reference="frame-Text-letter.n" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--letters-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Text@Text" />
+          <externalRef resource="FrameBase" reference="fe-Text-Text" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (DT The) (NNS letters) (NN d)) (, ,) (NP (NN o) (, ,) (NN o) (, ,) (CC and) (NN m.))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="DT" />
+      <nt id="nter5" label="NNS" />
+      <nt id="nter6" label="NN" />
+      <nt id="nter7" label="," />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="NN" />
+      <nt id="nter10" label="," />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label="," />
+      <nt id="nter13" label="CC" />
+      <nt id="nter14" label="NN" />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--letters-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--d-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--o-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--o-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--m.-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter3" head="yes" />
+      <edge id="tre9" from="ter3" to="nter6" />
+      <edge id="tre10" from="nter7" to="nter2" />
+      <edge id="tre11" from="ter4" to="nter7" />
+      <edge id="tre12" from="nter8" to="nter2" />
+      <edge id="tre13" from="nter9" to="nter8" />
+      <edge id="tre14" from="ter5" to="nter9" />
+      <edge id="tre15" from="nter10" to="nter8" />
+      <edge id="tre16" from="ter6" to="nter10" />
+      <edge id="tre17" from="nter11" to="nter8" />
+      <edge id="tre18" from="ter7" to="nter11" />
+      <edge id="tre19" from="nter12" to="nter8" />
+      <edge id="tre20" from="ter8" to="nter12" />
+      <edge id="tre21" from="nter13" to="nter8" />
+      <edge id="tre22" from="ter9" to="nter13" />
+      <edge id="tre23" from="nter14" to="nter8" head="yes" />
+      <edge id="tre24" from="ter10" to="nter14" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:38:05+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:38:05.463+0100" endTimestamp="2017-11-21T16:38:05.755+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:38:05.756+0100" endTimestamp="2017-11-21T16:38:05.757+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA["Nonsense" in what sense?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">``</wf>
+    <wf id="w2" sent="1" para="1" offset="1" length="8">Nonsense</wf>
+    <wf id="w3" sent="1" para="1" offset="9" length="2">''</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="2">in</wf>
+    <wf id="w5" sent="1" para="1" offset="14" length="4">what</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="5">sense</wf>
+    <wf id="w7" sent="1" para="1" offset="24" length="1">?</wf>
+  </text>
+  <terms>
+    <!--``-->
+    <term id="t1" type="open" lemma="``" pos="O" morphofeat="``">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Nonsense-->
+    <term id="t2" type="open" lemma="nonsense" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--''-->
+    <term id="t3" type="open" lemma="''" pos="O" morphofeat="''">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t4" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--what-->
+    <term id="t5" type="open" lemma="what" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--sense-->
+    <term id="t6" type="open" lemma="sense" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t7" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Nonsense-2, ``-1)-->
+    <dep from="t2" to="t1" rfunc="P" />
+    <!--P(Nonsense-2, ''-3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+    <!--LOC(Nonsense-2, in-4)-->
+    <dep from="t2" to="t4" rfunc="LOC" />
+    <!--NMOD(sense-6, what-5)-->
+    <dep from="t6" to="t5" rfunc="NMOD" />
+    <!--PMOD(in-4, sense-6)-->
+    <dep from="t4" to="t6" rfunc="PMOD" />
+    <!--P(Nonsense-2, ?-7)-->
+    <dep from="t2" to="t7" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--Nonsense-->
+        <span>
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nonsense" confidence="0.9122379" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--what-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--sense-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nonsense" confidence="0.912237896514225" spotted="true">
+      <!--Nonsense-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t6 sense : A1[t5 what]-->
+    <predicate id="f_pr2" source="semafor" confidence="35.28367244552891">
+      <!--sense-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sensation" />
+        <externalRef resource="NomBank" reference="sense.03" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Sensation-sense.n" />
+      </externalReferences>
+      <role id="rl3" semRole="A1">
+        <!--what-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (`` ``) (NN Nonsense) ('' '')) (PP (IN in) (FRAG (X (WP what)) (NP (NN sense)))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="``" />
+      <nt id="nter5" label="NN" />
+      <nt id="nter6" label="''" />
+      <nt id="nter7" label="PP" />
+      <nt id="nter8" label="IN" />
+      <nt id="nter9" label="FRAG" />
+      <nt id="nter10" label="X" />
+      <nt id="nter11" label="WP" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NN" />
+      <nt id="nter14" label="." />
+      <!--Terminals-->
+      <!--``-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Nonsense-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--''-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--what-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--sense-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter3" />
+      <edge id="tre9" from="ter3" to="nter6" />
+      <edge id="tre10" from="nter7" to="nter2" />
+      <edge id="tre11" from="nter8" to="nter7" head="yes" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter7" />
+      <edge id="tre14" from="nter10" to="nter9" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter9" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter2" />
+      <edge id="tre21" from="ter7" to="nter14" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:34:38+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:34:38.156+0100" endTimestamp="2017-11-21T16:34:38.521+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:34:38.523+0100" endTimestamp="2017-11-21T16:34:38.523+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[You have absolutely no idea.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">You</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="4">have</wf>
+    <wf id="w3" sent="1" para="1" offset="9" length="10">absolutely</wf>
+    <wf id="w4" sent="1" para="1" offset="20" length="2">no</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="4">idea</wf>
+    <wf id="w6" sent="1" para="1" offset="27" length="1">.</wf>
+  </text>
+  <terms>
+    <!--You-->
+    <term id="t1" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t2" type="open" lemma="have" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--absolutely-->
+    <term id="t3" type="open" lemma="absolutely" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--no-->
+    <term id="t4" type="open" lemma="no" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--idea-->
+    <term id="t5" type="open" lemma="idea" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(have-2, You-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--NMOD(idea-5, absolutely-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NMOD(idea-5, no-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--OBJ(have-2, idea-5)-->
+    <dep from="t2" to="t5" rfunc="OBJ" />
+    <!--P(have-2, .-6)-->
+    <dep from="t2" to="t6" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--You-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--idea-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Idea" confidence="0.998405" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/You" confidence="0.7011824960844525" spotted="true">
+      <!--You-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Idea" confidence="0.9984050055066979" spotted="true">
+      <!--idea-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Absolute_monarchy" confidence="0.6465093430992598" spotted="true">
+      <!--absolutely-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t5 idea : AM-NEG[t4 no] A0[t1 You] A0[t3 absolutely]-->
+    <predicate id="pr2" source="mate">
+      <!--idea-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="idea.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Idea" confidence="0.998405" />
+      </externalReferences>
+      <role id="rl3" semRole="AM-NEG">
+        <!--no-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A0">
+        <!--You-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+      <role id="rl5" semRole="A0">
+        <!--absolutely-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t2 have : A1[t3 absolutely] A0[t1 You]-->
+    <predicate id="f_pr3" source="semafor" confidence="42.08541758926937">
+      <!--have-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl6" semRole="A1">
+        <!--absolutely no idea-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="A0">
+        <!--You-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 no :-->
+    <predicate id="f_pr4" source="semafor" confidence="21.64198947190636">
+      <!--no-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP You)) (VP (VBP have) (NP (RB absolutely) (DT no) (NN idea))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="RB" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="NN" />
+      <nt id="nter11" label="." />
+      <!--Terminals-->
+      <!--You-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--absolutely-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--no-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--idea-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter7" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter2" />
+      <edge id="tre17" from="ter6" to="nter11" />
+    </tree>
+  </constituency>
+</NAF>

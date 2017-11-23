@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:37:16+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:37:16.853+0100" endTimestamp="2017-11-21T16:37:17.295+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:37:17.298+0100" endTimestamp="2017-11-21T16:37:17.299+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Sin. Most White People today live and act like the Jews Today. Until we over come this, we can never truly be free.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Sin</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="1">.</wf>
+    <wf id="w3" sent="2" para="1" offset="5" length="4">Most</wf>
+    <wf id="w4" sent="2" para="1" offset="10" length="5">White</wf>
+    <wf id="w5" sent="2" para="1" offset="16" length="6">People</wf>
+    <wf id="w6" sent="2" para="1" offset="23" length="5">today</wf>
+    <wf id="w7" sent="2" para="1" offset="29" length="4">live</wf>
+    <wf id="w8" sent="2" para="1" offset="34" length="3">and</wf>
+    <wf id="w9" sent="2" para="1" offset="38" length="3">act</wf>
+    <wf id="w10" sent="2" para="1" offset="42" length="4">like</wf>
+    <wf id="w11" sent="2" para="1" offset="47" length="3">the</wf>
+    <wf id="w12" sent="2" para="1" offset="51" length="4">Jews</wf>
+    <wf id="w13" sent="2" para="1" offset="56" length="5">Today</wf>
+    <wf id="w14" sent="2" para="1" offset="61" length="1">.</wf>
+    <wf id="w15" sent="3" para="1" offset="63" length="5">Until</wf>
+    <wf id="w16" sent="3" para="1" offset="69" length="2">we</wf>
+    <wf id="w17" sent="3" para="1" offset="72" length="4">over</wf>
+    <wf id="w18" sent="3" para="1" offset="77" length="4">come</wf>
+    <wf id="w19" sent="3" para="1" offset="82" length="4">this</wf>
+    <wf id="w20" sent="3" para="1" offset="86" length="1">,</wf>
+    <wf id="w21" sent="3" para="1" offset="88" length="2">we</wf>
+    <wf id="w22" sent="3" para="1" offset="91" length="3">can</wf>
+    <wf id="w23" sent="3" para="1" offset="95" length="5">never</wf>
+    <wf id="w24" sent="3" para="1" offset="101" length="5">truly</wf>
+    <wf id="w25" sent="3" para="1" offset="107" length="2">be</wf>
+    <wf id="w26" sent="3" para="1" offset="110" length="4">free</wf>
+    <wf id="w27" sent="3" para="1" offset="114" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sin-->
+    <term id="t1" type="open" lemma="Sin" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t2" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Most-->
+    <term id="t3" type="open" lemma="most" pos="G" morphofeat="JJS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--White-->
+    <term id="t4" type="open" lemma="White" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--People-->
+    <term id="t5" type="open" lemma="People" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--today-->
+    <term id="t6" type="open" lemma="today" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--live-->
+    <term id="t7" type="open" lemma="live" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t8" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--act-->
+    <term id="t9" type="open" lemma="act" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--like-->
+    <term id="t10" type="open" lemma="like" pos="P" morphofeat="IN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t11" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t12" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Today-->
+    <term id="t13" type="open" lemma="today" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t14" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--Until-->
+    <term id="t15" type="open" lemma="until" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t16" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--over-->
+    <term id="t17" type="open" lemma="over" pos="P" morphofeat="IN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--come-->
+    <term id="t18" type="open" lemma="come" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t19" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t20" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t21" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--can-->
+    <term id="t22" type="open" lemma="can" pos="O" morphofeat="MD">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--never-->
+    <term id="t23" type="open" lemma="never" pos="A" morphofeat="RB">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--truly-->
+    <term id="t24" type="open" lemma="truly" pos="A" morphofeat="RB">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t25" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--free-->
+    <term id="t26" type="open" lemma="free" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t27" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Sin-1, .-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--NMOD(People-5, Most-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NAME(People-5, White-4)-->
+    <dep from="t5" to="t4" rfunc="NAME" />
+    <!--SBJ(live-7, People-5)-->
+    <dep from="t7" to="t5" rfunc="SBJ" />
+    <!--TMP(live-7, today-6)-->
+    <dep from="t7" to="t6" rfunc="TMP" />
+    <!--COORD(live-7, and-8)-->
+    <dep from="t7" to="t8" rfunc="COORD" />
+    <!--CONJ(and-8, act-9)-->
+    <dep from="t8" to="t9" rfunc="CONJ" />
+    <!--ADV(act-9, like-10)-->
+    <dep from="t9" to="t10" rfunc="ADV" />
+    <!--NMOD(Today-13, the-11)-->
+    <dep from="t13" to="t11" rfunc="NMOD" />
+    <!--NMOD(Today-13, Jews-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--PMOD(like-10, Today-13)-->
+    <dep from="t10" to="t13" rfunc="PMOD" />
+    <!--P(live-7, .-14)-->
+    <dep from="t7" to="t14" rfunc="P" />
+    <!--ADV(can-22, Until-15)-->
+    <dep from="t22" to="t15" rfunc="ADV" />
+    <!--SBJ(over-17, we-16)-->
+    <dep from="t17" to="t16" rfunc="SBJ" />
+    <!--SUB(Until-15, over-17)-->
+    <dep from="t15" to="t17" rfunc="SUB" />
+    <!--NMOD(this-19, come-18)-->
+    <dep from="t19" to="t18" rfunc="NMOD" />
+    <!--PMOD(over-17, this-19)-->
+    <dep from="t17" to="t19" rfunc="PMOD" />
+    <!--P(can-22, ,-20)-->
+    <dep from="t22" to="t20" rfunc="P" />
+    <!--SBJ(can-22, we-21)-->
+    <dep from="t22" to="t21" rfunc="SBJ" />
+    <!--TMP(can-22, never-23)-->
+    <dep from="t22" to="t23" rfunc="TMP" />
+    <!--ADV(can-22, truly-24)-->
+    <dep from="t22" to="t24" rfunc="ADV" />
+    <!--VC(can-22, be-25)-->
+    <dep from="t22" to="t25" rfunc="VC" />
+    <!--PRD(be-25, free-26)-->
+    <dep from="t25" to="t26" rfunc="PRD" />
+    <!--P(can-22, .-27)-->
+    <dep from="t22" to="t27" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9946642" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Sin-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sin" confidence="0.98801154" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--Most-->
+        <span>
+          <target id="t3" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Most" confidence="0.9827721" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--White People-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_people" confidence="0.99927926" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--we-->
+      <span>
+        <target id="t16" head="yes" />
+      </span>
+      <!--we-->
+      <span>
+        <target id="t21" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="2017-11-21">
+      <!--today-->
+      <span>
+        <target id="w6" />
+      </span>
+    </timex3>
+    <timex3 id="tmx2" type="DATE" value="2017-11-21">
+      <!--Today-->
+      <span>
+        <target id="w13" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sin" confidence="0.9880115678355306" spotted="true">
+      <!--Sin-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9946641930320068" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Most" confidence="0.9827720899160998" spotted="true">
+      <!--Most-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Pentecostalism" confidence="0.5570194766885406" spotted="true">
+      <!--today-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Today_(U.S._TV_program)" confidence="0.9586769625524819" spotted="true">
+      <!--Today-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_people" confidence="0.9992792808308445" spotted="true">
+      <!--White People-->
+      <span>
+        <target id="w4" />
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Live_album" confidence="0.7457074440039649" spotted="true">
+      <!--live-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Until..." confidence="0.8679687199314123" spotted="true">
+      <!--Until-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Sin : [t1 Sin]-->
+    <predicate id="f_pr1" source="semafor" confidence="30.034613153353877">
+      <!--Sin-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Misdeed" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sin" confidence="0.98801154" />
+        <externalRef resource="FrameBase" reference="frame-Misdeed-sin.v" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--Sin .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Misdeed@Misdeed" />
+          <externalRef resource="FrameBase" reference="fe-Misdeed-Misdeed" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 Most : [t4 White] [t3 Most]-->
+    <predicate id="f_pr4" source="semafor" confidence="21.16180528142067">
+      <!--Most-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Most" confidence="0.9827721" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--White-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Individuals" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="">
+        <!--Most-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 White : [t4 White] [t3 Most]-->
+    <predicate id="f_pr5" source="semafor" confidence="56.04463522163309">
+      <!--White-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--White-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="">
+        <!--Most White People-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 People : [t3 Most]-->
+    <predicate id="f_pr6" source="semafor" confidence="34.154661689414525">
+      <!--People-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_people" confidence="0.99927926" />
+        <externalRef resource="FrameBase" reference="frame-People-people.n" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--Most White People-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 today :-->
+    <predicate id="f_pr7" source="semafor" confidence="35.756960468091165">
+      <!--today-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_collocation" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Pentecostalism" confidence="0.5570195" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_collocation-today.n" />
+      </externalReferences>
+    </predicate>
+    <!--t7 live : A0[t3 Most] AM-TMP[t6 today]-->
+    <predicate id="f_pr8" source="semafor" confidence="36.824422304461336">
+      <!--live-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Residence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Live_album" confidence="0.74570745" />
+        <externalRef resource="PropBank" reference="live.01" source="mate" />
+        <externalRef resource="VerbNet" reference="lodge-46" />
+        <externalRef resource="ESO" reference="BeingAtAPlace" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02618149-v" />
+        <externalRef resource="WordNet" reference="ili-30-02616713-v" />
+        <externalRef resource="WordNet" reference="ili-30-02649830-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Live_album" confidence="0.74570745" />
+        <externalRef resource="FrameBase" reference="frame-Residence-live.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--Most White People-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Residence@Resident" />
+          <externalRef resource="VerbNet" reference="lodge-46@Theme" />
+          <externalRef resource="PropBank" reference="live.01@0" />
+          <externalRef resource="ESO" reference="BeingAtAPlace@atPlace-theme" />
+          <externalRef resource="FrameBase" reference="fe-Residence-Resident" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="AM-TMP">
+        <!--today-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Residence@Time" />
+          <externalRef resource="FrameBase" reference="fe-Residence-Time" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 act : A0[t3 Most] A1[t10 like]-->
+    <predicate id="f_pr9" source="semafor" confidence="72.81526665654692">
+      <!--act-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="PropBank" reference="act.01" source="mate" />
+        <externalRef resource="VerbNet" reference="dub-29.3" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00010435-v" />
+        <externalRef resource="WordNet" reference="ili-30-01095899-v" />
+        <externalRef resource="WordNet" reference="ili-30-00715868-v" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-act.v" />
+      </externalReferences>
+      <role id="rl26" semRole="A0">
+        <!--Most White People-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="dub-29.3@Agent" />
+          <externalRef resource="PropBank" reference="act.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl27" semRole="A1">
+        <!--like the Jews Today-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="dub-29.3@Result" />
+          <externalRef resource="PropBank" reference="act.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 Jews : [t12 Jews]-->
+    <predicate id="f_pr10" source="semafor" confidence="37.791255518733486">
+      <!--Jews-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9946642" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--Jews-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 Today :-->
+    <predicate id="f_pr11" source="semafor" confidence="35.756960468091165">
+      <!--Today-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_collocation" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Today_(U.S._TV_program)" confidence="0.95867693" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_collocation-today.n" />
+      </externalReferences>
+    </predicate>
+    <!--t25 be : AM-TMP[t15 Until] AM-MOD[t15 Until] AM-NEG[t23 never] A1[t21 we] AM-ADV[t24 truly] A2[t26 free]-->
+    <predicate id="pr13" source="mate">
+      <!--be-->
+      <span>
+        <target id="t25" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl15" semRole="AM-TMP">
+        <!--Until we over come this-->
+        <span>
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </role>
+      <role id="rl16" semRole="AM-MOD">
+        <!--Until we over come this , we can never truly be free .-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" head="yes" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+      </role>
+      <role id="rl17" semRole="AM-NEG">
+        <!--never-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+      </role>
+      <role id="rl18" semRole="A1">
+        <!--we-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </role>
+      <role id="rl19" semRole="AM-ADV">
+        <!--truly-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </role>
+      <role id="rl20" semRole="A2">
+        <!--free-->
+        <span>
+          <target id="t26" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t18 come : A1[t18 come] [t16 we]-->
+    <predicate id="f_pr14" source="semafor" confidence="113.48960882441418">
+      <!--come-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Arriving" />
+        <externalRef resource="PropBank" reference="come.01" source="mate" />
+        <externalRef resource="VerbNet" reference="escape-51.1" />
+        <externalRef resource="ESO" reference="Arriving" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01849221-v" />
+        <externalRef resource="WordNet" reference="ili-30-02005948-v" />
+        <externalRef resource="FrameBase" reference="frame-Arriving-come.v" />
+      </externalReferences>
+      <role id="rl21" semRole="A1">
+        <!--come this-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Arriving@Goal" />
+          <externalRef resource="VerbNet" reference="escape-51.1@Theme" />
+          <externalRef resource="PropBank" reference="come.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Arriving-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="">
+        <!--we-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Arriving@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Arriving-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t22 can : [t21 we]-->
+    <predicate id="f_pr15" source="semafor" confidence="46.46150227112557">
+      <!--can-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Capability" />
+      </externalReferences>
+      <role id="rl23" semRole="">
+        <!--we-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 never : [t21 we]-->
+    <predicate id="f_pr16" source="semafor" confidence="42.121291619186614">
+      <!--never-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-never.adv" />
+      </externalReferences>
+      <role id="rl24" semRole="">
+        <!--we-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t26 free : [t21 we]-->
+    <predicate id="f_pr17" source="semafor" confidence="24.150414757790433">
+      <!--free-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Expensiveness" />
+        <externalRef resource="FrameBase" reference="frame-Expensiveness-free.a" />
+      </externalReferences>
+      <role id="rl25" semRole="">
+        <!--we-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Expensiveness@Intended_event" />
+          <externalRef resource="FrameBase" reference="fe-Expensiveness-Intended_event" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (NP (NNP Sin)) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (NP (JJS Most)) (NP (NNP White) (NNPS People))) (NP-TMP (NN today)) (VP (VBP live) (CC and) (VBP act) (PP (IN like) (NP (DT the) (NNPS Jews))) (NP-TMP (NN Today))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (SBAR (IN Until) (S (NP (PRP we)) (VP (ADVP (IN over)) (VBN come) (NP (DT this))))) (, ,) (NP (PRP we)) (VP (MD can) (ADVP (RB never)) (ADVP (RB truly)) (VP (VB be) (ADJP (JJ free)))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--Sin-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter6" label="ROOT" />
+      <nt id="nter7" label="S" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="JJS" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NNP" />
+      <nt id="nter13" label="NNPS" />
+      <nt id="nter14" label="NP-TMP" />
+      <nt id="nter15" label="NN" />
+      <nt id="nter16" label="VP" />
+      <nt id="nter17" label="VBP" />
+      <nt id="nter18" label="CC" />
+      <nt id="nter19" label="VBP" />
+      <nt id="nter20" label="PP" />
+      <nt id="nter21" label="IN" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="DT" />
+      <nt id="nter24" label="NNPS" />
+      <nt id="nter25" label="NP-TMP" />
+      <nt id="nter26" label="NN" />
+      <nt id="nter27" label="." />
+      <!--Terminals-->
+      <!--Most-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--White-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--People-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--today-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--live-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--act-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--like-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--Today-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="nter10" to="nter9" head="yes" />
+      <edge id="tre13" from="ter3" to="nter10" />
+      <edge id="tre14" from="nter11" to="nter8" />
+      <edge id="tre15" from="nter12" to="nter11" />
+      <edge id="tre16" from="ter4" to="nter12" />
+      <edge id="tre17" from="nter13" to="nter11" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter7" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter7" head="yes" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter16" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter16" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter20" />
+      <edge id="tre33" from="nter23" to="nter22" />
+      <edge id="tre34" from="ter11" to="nter23" />
+      <edge id="tre35" from="nter24" to="nter22" head="yes" />
+      <edge id="tre36" from="ter12" to="nter24" />
+      <edge id="tre37" from="nter25" to="nter16" />
+      <edge id="tre38" from="nter26" to="nter25" head="yes" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter7" />
+      <edge id="tre41" from="ter14" to="nter27" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter28" label="ROOT" />
+      <nt id="nter29" label="S" />
+      <nt id="nter30" label="SBAR" />
+      <nt id="nter31" label="IN" />
+      <nt id="nter32" label="S" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="PRP" />
+      <nt id="nter35" label="VP" />
+      <nt id="nter36" label="ADVP" />
+      <nt id="nter37" label="IN" />
+      <nt id="nter38" label="VBN" />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="DT" />
+      <nt id="nter41" label="," />
+      <nt id="nter42" label="NP" />
+      <nt id="nter43" label="PRP" />
+      <nt id="nter44" label="VP" />
+      <nt id="nter45" label="MD" />
+      <nt id="nter46" label="ADVP" />
+      <nt id="nter47" label="RB" />
+      <nt id="nter48" label="ADVP" />
+      <nt id="nter49" label="RB" />
+      <nt id="nter50" label="VP" />
+      <nt id="nter51" label="VB" />
+      <nt id="nter52" label="ADJP" />
+      <nt id="nter53" label="JJ" />
+      <nt id="nter54" label="." />
+      <!--Terminals-->
+      <!--Until-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--over-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--come-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--can-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--never-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--truly-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--free-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre43" from="nter29" to="nter28" head="yes" />
+      <edge id="tre44" from="nter30" to="nter29" />
+      <edge id="tre45" from="nter31" to="nter30" head="yes" />
+      <edge id="tre46" from="ter15" to="nter31" />
+      <edge id="tre47" from="nter32" to="nter30" />
+      <edge id="tre48" from="nter33" to="nter32" />
+      <edge id="tre49" from="nter34" to="nter33" head="yes" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter32" head="yes" />
+      <edge id="tre52" from="nter36" to="nter35" />
+      <edge id="tre53" from="nter37" to="nter36" head="yes" />
+      <edge id="tre54" from="ter17" to="nter37" />
+      <edge id="tre55" from="nter38" to="nter35" head="yes" />
+      <edge id="tre56" from="ter18" to="nter38" />
+      <edge id="tre57" from="nter39" to="nter35" />
+      <edge id="tre58" from="nter40" to="nter39" head="yes" />
+      <edge id="tre59" from="ter19" to="nter40" />
+      <edge id="tre60" from="nter41" to="nter29" />
+      <edge id="tre61" from="ter20" to="nter41" />
+      <edge id="tre62" from="nter42" to="nter29" />
+      <edge id="tre63" from="nter43" to="nter42" head="yes" />
+      <edge id="tre64" from="ter21" to="nter43" />
+      <edge id="tre65" from="nter44" to="nter29" head="yes" />
+      <edge id="tre66" from="nter45" to="nter44" head="yes" />
+      <edge id="tre67" from="ter22" to="nter45" />
+      <edge id="tre68" from="nter46" to="nter44" />
+      <edge id="tre69" from="nter47" to="nter46" head="yes" />
+      <edge id="tre70" from="ter23" to="nter47" />
+      <edge id="tre71" from="nter48" to="nter44" />
+      <edge id="tre72" from="nter49" to="nter48" head="yes" />
+      <edge id="tre73" from="ter24" to="nter49" />
+      <edge id="tre74" from="nter50" to="nter44" />
+      <edge id="tre75" from="nter51" to="nter50" head="yes" />
+      <edge id="tre76" from="ter25" to="nter51" />
+      <edge id="tre77" from="nter52" to="nter50" />
+      <edge id="tre78" from="nter53" to="nter52" head="yes" />
+      <edge id="tre79" from="ter26" to="nter53" />
+      <edge id="tre80" from="nter54" to="nter29" />
+      <edge id="tre81" from="ter27" to="nter54" />
+    </tree>
+  </constituency>
+</NAF>

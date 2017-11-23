@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:03+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:03.334+0100" endTimestamp="2017-11-21T16:36:03.618+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:03.620+0100" endTimestamp="2017-11-21T16:36:03.621+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Altruism]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Altruism</wf>
+  </text>
+  <terms>
+    <!--Altruism-->
+    <term id="t1" type="open" lemma="Altruism" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Altruism-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Altruism" confidence="0.9999997" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Altruism" confidence="0.9999997180175952" spotted="true">
+      <!--Altruism-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NNP Altruism)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NNP" />
+      <!--Terminals-->
+      <!--Altruism-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+    </tree>
+  </constituency>
+</NAF>

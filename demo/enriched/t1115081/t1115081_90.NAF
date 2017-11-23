@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:56+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:56.600+0100" endTimestamp="2017-11-20T12:30:57.099+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:57.101+0100" endTimestamp="2017-11-20T12:30:57.102+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Does this help? How Anti-Whiteness is at the Heart of Jewish Identity | Age of Treason The Great Jewish Masque]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Does</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="4">this</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="4">help</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="1">?</wf>
+    <wf id="w5" sent="2" para="1" offset="16" length="3">How</wf>
+    <wf id="w6" sent="2" para="1" offset="20" length="14">Anti-Whiteness</wf>
+    <wf id="w7" sent="2" para="1" offset="35" length="2">is</wf>
+    <wf id="w8" sent="2" para="1" offset="38" length="2">at</wf>
+    <wf id="w9" sent="2" para="1" offset="41" length="3">the</wf>
+    <wf id="w10" sent="2" para="1" offset="45" length="5">Heart</wf>
+    <wf id="w11" sent="2" para="1" offset="51" length="2">of</wf>
+    <wf id="w12" sent="2" para="1" offset="54" length="6">Jewish</wf>
+    <wf id="w13" sent="2" para="1" offset="61" length="8">Identity</wf>
+    <wf id="w14" sent="2" para="1" offset="70" length="1">|</wf>
+    <wf id="w15" sent="2" para="1" offset="72" length="3">Age</wf>
+    <wf id="w16" sent="2" para="1" offset="76" length="2">of</wf>
+    <wf id="w17" sent="2" para="1" offset="79" length="7">Treason</wf>
+    <wf id="w18" sent="2" para="1" offset="87" length="3">The</wf>
+    <wf id="w19" sent="2" para="1" offset="91" length="5">Great</wf>
+    <wf id="w20" sent="2" para="1" offset="97" length="6">Jewish</wf>
+    <wf id="w21" sent="2" para="1" offset="104" length="6">Masque</wf>
+  </text>
+  <terms>
+    <!--Does-->
+    <term id="t1" type="open" lemma="do" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t2" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--help-->
+    <term id="t3" type="open" lemma="help" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t4" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--How-->
+    <term id="t5" type="open" lemma="how" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Anti-Whiteness-->
+    <term id="t6" type="open" lemma="Anti-Whiteness" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t7" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t8" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t9" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Heart-->
+    <term id="t10" type="open" lemma="Heart" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t11" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Jewish-->
+    <term id="t12" type="open" lemma="jewish" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Identity-->
+    <term id="t13" type="open" lemma="identity" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--|-->
+    <term id="t14" type="open" lemma="|" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--Age-->
+    <term id="t15" type="open" lemma="age" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t16" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Treason-->
+    <term id="t17" type="open" lemma="Treason" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--The-->
+    <term id="t18" type="open" lemma="The" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Great-->
+    <term id="t19" type="open" lemma="Great" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--Jewish-->
+    <term id="t20" type="open" lemma="Jewish" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Masque-->
+    <term id="t21" type="open" lemma="Masque" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(help-3, this-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--SBJ(Does-1, help-3)-->
+    <dep from="t1" to="t3" rfunc="SBJ" />
+    <!--P(Does-1, ?-4)-->
+    <dep from="t1" to="t4" rfunc="P" />
+    <!--SBJ(is-7, Anti-Whiteness-6)-->
+    <dep from="t7" to="t6" rfunc="SBJ" />
+    <!--AMOD(How-5, is-7)-->
+    <dep from="t5" to="t7" rfunc="AMOD" />
+    <!--LOC(is-7, at-8)-->
+    <dep from="t7" to="t8" rfunc="LOC" />
+    <!--NMOD(Heart-10, the-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--PMOD(at-8, Heart-10)-->
+    <dep from="t8" to="t10" rfunc="PMOD" />
+    <!--NMOD(Heart-10, of-11)-->
+    <dep from="t10" to="t11" rfunc="NMOD" />
+    <!--NMOD(Age-15, Jewish-12)-->
+    <dep from="t15" to="t12" rfunc="NMOD" />
+    <!--NMOD(Age-15, Identity-13)-->
+    <dep from="t15" to="t13" rfunc="NMOD" />
+    <!--NMOD(Age-15, |-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--PMOD(of-11, Age-15)-->
+    <dep from="t11" to="t15" rfunc="PMOD" />
+    <!--NMOD(Age-15, of-16)-->
+    <dep from="t15" to="t16" rfunc="NMOD" />
+    <!--NAME(Great-19, Treason-17)-->
+    <dep from="t19" to="t17" rfunc="NAME" />
+    <!--NAME(Great-19, The-18)-->
+    <dep from="t19" to="t18" rfunc="NAME" />
+    <!--NMOD(Masque-21, Great-19)-->
+    <dep from="t21" to="t19" rfunc="NMOD" />
+    <!--NAME(Masque-21, Jewish-20)-->
+    <dep from="t21" to="t20" rfunc="NAME" />
+    <!--PMOD(of-16, Masque-21)-->
+    <dep from="t16" to="t21" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--Heart of Jewish Identity Age of Treason The Great Jewish Masque-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.45521462" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--help-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--Anti-Whiteness-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--Heart of Jewish Identity | Age of Treason The Great Jewish Masque-->
+      <span>
+        <target id="t10" head="yes" />
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+        <target id="t21" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/John_Doe" confidence="0.9988561195416319" spotted="true">
+      <!--Does-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/How_(TV_series)" confidence="0.8010460990918236" spotted="true">
+      <!--How-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9797238965997195" spotted="true">
+      <!--Jewish-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jewish_identity" confidence="0.9999999997594102" spotted="true">
+      <!--Jewish Identity-->
+      <span>
+        <target id="w12" />
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/The_Age" confidence="0.5963558195263158" spotted="true">
+      <!--Age-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Masque" confidence="0.5819420554751917" spotted="true">
+      <!--Masque-->
+      <span>
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Great_(1975_film)" confidence="0.45533408387709223" spotted="true">
+      <!--Great-->
+      <span>
+        <target id="w19" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.455214618684665" spotted="true">
+      <!--Heart-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Treason" confidence="0.9994747084435841" spotted="true">
+      <!--Treason-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Does : [t2 this]-->
+    <predicate id="f_pr2" source="semafor" confidence="72.58606460572452">
+      <!--Does-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/John_Doe" confidence="0.9988561" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--this help-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 help :-->
+    <predicate id="f_pr3" source="semafor" confidence="88.77179995820062">
+      <!--help-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Assistance" />
+        <externalRef resource="NomBank" reference="help.01" source="mate" />
+        <externalRef resource="VerbNet" reference="help-72-1" />
+        <externalRef resource="PropBank" reference="help.01" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02547586-v" />
+        <externalRef resource="FrameBase" reference="frame-Assistance-aid.v" />
+      </externalReferences>
+    </predicate>
+    <!--t7 is : A2[t8 at] A1[t6 Anti-Whiteness]-->
+    <predicate id="pr4" source="mate">
+      <!--is-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl2" semRole="A2">
+        <!--at the Heart of Jewish Identity | Age of Treason The Great Jewish Masque-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </role>
+      <role id="rl3" semRole="A1">
+        <!--Anti-Whiteness-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t10 Heart : [t11 of] A1[t11 of] A0[t9 the]-->
+    <predicate id="f_pr7" source="semafor" confidence="21.79566685708049">
+      <!--Heart-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_orientational" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.45521462" />
+        <externalRef resource="NomBank" reference="Heart.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.45521462" />
+        <externalRef resource="FrameBase" reference="frame-Part_orientational-heart.n" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--of Jewish Identity-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_orientational@Whole" />
+          <externalRef resource="FrameBase" reference="fe-Part_orientational-Whole" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="A1">
+        <!--of Jewish Identity | Age of Treason The Great Jewish Masque-->
+        <span>
+          <target id="t11" head="yes" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </role>
+      <role id="rl18" semRole="A0">
+        <!--the Heart of Jewish Identity | Age of Treason The Great Jewish Masque-->
+        <span>
+          <target id="t9" />
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </role>
+    </predicate>
+    <!--t13 Identity : [t11 of]-->
+    <predicate id="f_pr8" source="semafor" confidence="16.419163776020476">
+      <!--Identity-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Identicality" />
+        <externalRef resource="FrameBase" reference="frame-Identicality-identity.n" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--of Jewish Identity-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Identicality@Current_instance" />
+          <externalRef resource="FrameBase" reference="fe-Identicality-Current_instance" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 Age : A2[t16 of] A1[t12 Jewish] A1[t14 |] A1[t13 Identity]-->
+    <predicate id="f_pr9" source="semafor" confidence="35.316454963639366">
+      <!--Age-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Calendric_unit" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/The_Age" confidence="0.5963558" />
+        <externalRef resource="NomBank" reference="age.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/The_Age" confidence="0.5963558" />
+        <externalRef resource="FrameBase" reference="frame-Calendric_unit-age.n" />
+      </externalReferences>
+      <role id="rl13" semRole="A2">
+        <!--of Treason The Great Jewish Masque-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Salient_event" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Salient_event" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--Jewish-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </role>
+      <role id="rl16" semRole="A1">
+        <!--|-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </role>
+      <role id="rl17" semRole="A1">
+        <!--Identity-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t17 Treason :-->
+    <predicate id="f_pr10" source="semafor" confidence="22.581206428337083">
+      <!--Treason-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Offenses" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Treason" confidence="0.9994747" />
+        <externalRef resource="FrameBase" reference="frame-Offenses-treason.n" />
+      </externalReferences>
+    </predicate>
+    <!--t19 Great :-->
+    <predicate id="f_pr11" source="semafor" confidence="45.828058934625815">
+      <!--Great-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Expertise" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Great_(1975_film)" confidence="0.4553341" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (VBZ Does) (NP (DT this) (NN help))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (SBAR (WHADVP (WRB How)) (S (NP (NNP Anti-Whiteness)) (VP (VBZ is) (PP (IN at) (NP (NP (DT the) (NNP Heart)) (PP (IN of) (NP (JJ Jewish) (NN Identity))))) (NP (NP (JJ |) (NN Age)) (PP (IN of) (NP (NNP Treason) (NNP The) (NNP Great) (NNP Jewish) (NNP Masque))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="VBZ" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="DT" />
+      <nt id="nter7" label="NN" />
+      <nt id="nter8" label="." />
+      <!--Terminals-->
+      <!--Does-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--help-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="nter6" to="nter5" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter2" />
+      <edge id="tre12" from="ter4" to="nter8" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter9" label="ROOT" />
+      <nt id="nter10" label="SBAR" />
+      <nt id="nter11" label="WHADVP" />
+      <nt id="nter12" label="WRB" />
+      <nt id="nter13" label="S" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="NNP" />
+      <nt id="nter16" label="VP" />
+      <nt id="nter17" label="VBZ" />
+      <nt id="nter18" label="PP" />
+      <nt id="nter19" label="IN" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="DT" />
+      <nt id="nter23" label="NNP" />
+      <nt id="nter24" label="PP" />
+      <nt id="nter25" label="IN" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="JJ" />
+      <nt id="nter28" label="NN" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="JJ" />
+      <nt id="nter32" label="NN" />
+      <nt id="nter33" label="PP" />
+      <nt id="nter34" label="IN" />
+      <nt id="nter35" label="NP" />
+      <nt id="nter36" label="NNP" />
+      <nt id="nter37" label="NNP" />
+      <nt id="nter38" label="NNP" />
+      <nt id="nter39" label="NNP" />
+      <nt id="nter40" label="NNP" />
+      <!--Terminals-->
+      <!--How-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Anti-Whiteness-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Heart-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Jewish-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--Identity-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--|-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Age-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Treason-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--The-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Great-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Jewish-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Masque-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre14" from="nter10" to="nter9" head="yes" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter10" />
+      <edge id="tre19" from="nter14" to="nter13" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter13" head="yes" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter18" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="nter22" to="nter21" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter21" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter20" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" />
+      <edge id="tre38" from="nter27" to="nter26" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter26" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter16" />
+      <edge id="tre43" from="nter30" to="nter29" head="yes" />
+      <edge id="tre44" from="nter31" to="nter30" />
+      <edge id="tre45" from="ter14" to="nter31" />
+      <edge id="tre46" from="nter32" to="nter30" head="yes" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter29" />
+      <edge id="tre49" from="nter34" to="nter33" head="yes" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter33" />
+      <edge id="tre52" from="nter36" to="nter35" />
+      <edge id="tre53" from="ter17" to="nter36" />
+      <edge id="tre54" from="nter37" to="nter35" />
+      <edge id="tre55" from="ter18" to="nter37" />
+      <edge id="tre56" from="nter38" to="nter35" />
+      <edge id="tre57" from="ter19" to="nter38" />
+      <edge id="tre58" from="nter39" to="nter35" />
+      <edge id="tre59" from="ter20" to="nter39" />
+      <edge id="tre60" from="nter40" to="nter35" head="yes" />
+      <edge id="tre61" from="ter21" to="nter40" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:37:02+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:37:02.828+0100" endTimestamp="2017-11-21T16:37:03.600+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:37:03.602+0100" endTimestamp="2017-11-21T16:37:03.602+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I ask the goyim folks who claim that "masonry" is of no harm this: Gee, how high a rank can you achieve in a B'nai B'rith lodge?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="3">ask</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="3">the</wf>
+    <wf id="w4" sent="1" para="1" offset="10" length="5">goyim</wf>
+    <wf id="w5" sent="1" para="1" offset="16" length="5">folks</wf>
+    <wf id="w6" sent="1" para="1" offset="22" length="3">who</wf>
+    <wf id="w7" sent="1" para="1" offset="26" length="5">claim</wf>
+    <wf id="w8" sent="1" para="1" offset="32" length="4">that</wf>
+    <wf id="w9" sent="1" para="1" offset="37" length="2">``</wf>
+    <wf id="w10" sent="1" para="1" offset="38" length="7">masonry</wf>
+    <wf id="w11" sent="1" para="1" offset="45" length="2">''</wf>
+    <wf id="w12" sent="1" para="1" offset="47" length="2">is</wf>
+    <wf id="w13" sent="1" para="1" offset="50" length="2">of</wf>
+    <wf id="w14" sent="1" para="1" offset="53" length="2">no</wf>
+    <wf id="w15" sent="1" para="1" offset="56" length="4">harm</wf>
+    <wf id="w16" sent="1" para="1" offset="61" length="4">this</wf>
+    <wf id="w17" sent="1" para="1" offset="65" length="1">:</wf>
+    <wf id="w18" sent="1" para="1" offset="67" length="3">Gee</wf>
+    <wf id="w19" sent="1" para="1" offset="70" length="1">,</wf>
+    <wf id="w20" sent="1" para="1" offset="72" length="3">how</wf>
+    <wf id="w21" sent="1" para="1" offset="76" length="4">high</wf>
+    <wf id="w22" sent="1" para="1" offset="81" length="1">a</wf>
+    <wf id="w23" sent="1" para="1" offset="83" length="4">rank</wf>
+    <wf id="w24" sent="1" para="1" offset="88" length="3">can</wf>
+    <wf id="w25" sent="1" para="1" offset="92" length="3">you</wf>
+    <wf id="w26" sent="1" para="1" offset="96" length="7">achieve</wf>
+    <wf id="w27" sent="1" para="1" offset="104" length="2">in</wf>
+    <wf id="w28" sent="1" para="1" offset="107" length="1">a</wf>
+    <wf id="w29" sent="1" para="1" offset="109" length="5">B'nai</wf>
+    <wf id="w30" sent="1" para="1" offset="115" length="6">B'rith</wf>
+    <wf id="w31" sent="1" para="1" offset="122" length="5">lodge</wf>
+    <wf id="w32" sent="1" para="1" offset="127" length="1">?</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--ask-->
+    <term id="t2" type="open" lemma="ask" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t3" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--goyim-->
+    <term id="t4" type="open" lemma="goyim" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--folks-->
+    <term id="t5" type="open" lemma="folk" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--who-->
+    <term id="t6" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--claim-->
+    <term id="t7" type="open" lemma="claim" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t8" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--``-->
+    <term id="t9" type="open" lemma="``" pos="O" morphofeat="``">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--masonry-->
+    <term id="t10" type="open" lemma="masonry" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--''-->
+    <term id="t11" type="open" lemma="''" pos="O" morphofeat="''">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t12" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t13" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--no-->
+    <term id="t14" type="open" lemma="no" pos="D" morphofeat="DT">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--harm-->
+    <term id="t15" type="open" lemma="harm" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t16" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t17" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--Gee-->
+    <term id="t18" type="open" lemma="Gee" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t19" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--how-->
+    <term id="t20" type="open" lemma="how" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--high-->
+    <term id="t21" type="open" lemma="high" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t22" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--rank-->
+    <term id="t23" type="open" lemma="rank" pos="N" morphofeat="NN">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--can-->
+    <term id="t24" type="open" lemma="can" pos="O" morphofeat="MD">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t25" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--achieve-->
+    <term id="t26" type="open" lemma="achieve" pos="V" morphofeat="VB">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t27" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t28" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--B'nai-->
+    <term id="t29" type="open" lemma="B'nai" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--B'rith-->
+    <term id="t30" type="open" lemma="B'rith" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--lodge-->
+    <term id="t31" type="open" lemma="lodge" pos="V" morphofeat="VB">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t32" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(ask-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--NMOD(folks-5, the-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NMOD(folks-5, goyim-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--OBJ(ask-2, folks-5)-->
+    <dep from="t2" to="t5" rfunc="OBJ" />
+    <!--SBJ(claim-7, who-6)-->
+    <dep from="t7" to="t6" rfunc="SBJ" />
+    <!--NMOD(folks-5, claim-7)-->
+    <dep from="t5" to="t7" rfunc="NMOD" />
+    <!--OBJ(claim-7, that-8)-->
+    <dep from="t7" to="t8" rfunc="OBJ" />
+    <!--P(is-12, ``-9)-->
+    <dep from="t12" to="t9" rfunc="P" />
+    <!--SBJ(is-12, masonry-10)-->
+    <dep from="t12" to="t10" rfunc="SBJ" />
+    <!--P(masonry-10, ''-11)-->
+    <dep from="t10" to="t11" rfunc="P" />
+    <!--SUB(that-8, is-12)-->
+    <dep from="t8" to="t12" rfunc="SUB" />
+    <!--ADV(is-12, of-13)-->
+    <dep from="t12" to="t13" rfunc="ADV" />
+    <!--NMOD(harm-15, no-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--PMOD(of-13, harm-15)-->
+    <dep from="t13" to="t15" rfunc="PMOD" />
+    <!--NMOD(Gee-18, this-16)-->
+    <dep from="t18" to="t16" rfunc="NMOD" />
+    <!--P(this-16, :-17)-->
+    <dep from="t16" to="t17" rfunc="P" />
+    <!--TMP(is-12, Gee-18)-->
+    <dep from="t12" to="t18" rfunc="TMP" />
+    <!--P(Gee-18, ,-19)-->
+    <dep from="t18" to="t19" rfunc="P" />
+    <!--NMOD(rank-23, how-20)-->
+    <dep from="t23" to="t20" rfunc="NMOD" />
+    <!--AMOD(how-20, high-21)-->
+    <dep from="t20" to="t21" rfunc="AMOD" />
+    <!--NMOD(rank-23, a-22)-->
+    <dep from="t23" to="t22" rfunc="NMOD" />
+    <!--TMP(can-24, rank-23)-->
+    <dep from="t24" to="t23" rfunc="TMP" />
+    <!--NMOD(Gee-18, can-24)-->
+    <dep from="t18" to="t24" rfunc="NMOD" />
+    <!--SBJ(can-24, you-25)-->
+    <dep from="t24" to="t25" rfunc="SBJ" />
+    <!--VC(can-24, achieve-26)-->
+    <dep from="t24" to="t26" rfunc="VC" />
+    <!--LOC(achieve-26, in-27)-->
+    <dep from="t26" to="t27" rfunc="LOC" />
+    <!--NMOD(B'rith-30, a-28)-->
+    <dep from="t30" to="t28" rfunc="NMOD" />
+    <!--NAME(B'rith-30, B'nai-29)-->
+    <dep from="t30" to="t29" rfunc="NAME" />
+    <!--PMOD(in-27, B'rith-30)-->
+    <dep from="t27" to="t30" rfunc="PMOD" />
+    <!--OPRD(ask-2, lodge-31)-->
+    <dep from="t2" to="t31" rfunc="OPRD" />
+    <!--P(ask-2, ?-32)-->
+    <dep from="t2" to="t32" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Gee-->
+        <span>
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gee_(Girls'_Generation_song)" confidence="0.31586623" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--harm-->
+        <span>
+          <target id="t15" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Harm" confidence="0.98018456" />
+      </externalReferences>
+    </entity>
+    <entity id="e3">
+      <references>
+        <!--B'nai B'rith-->
+        <span>
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/B'nai_B'rith" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--goyim-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--folks-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--who-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--masonry-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--rank-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Folk_Nation" confidence="0.999687108557507" spotted="true">
+      <!--folks-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gee_(Girls'_Generation_song)" confidence="0.31586624614708175" spotted="true">
+      <!--Gee-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Military_rank" confidence="0.7289652542266568" spotted="true">
+      <!--rank-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Freemasonry" confidence="0.9176769360569073" spotted="true">
+      <!--masonry-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Harm" confidence="0.9801845538136192" spotted="true">
+      <!--harm-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goy" confidence="0.999999980619066" spotted="true">
+      <!--goyim-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/High_school" confidence="0.9480040237675452" spotted="true">
+      <!--high-->
+      <span>
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/B'nai_B'rith" confidence="1.0" spotted="true">
+      <!--B'nai B'rith-->
+      <span>
+        <target id="w29" />
+        <target id="w30" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t12 is : A1[t10 masonry] A2[t16 this] A2[t13 of]-->
+    <predicate id="pr3" source="mate">
+      <!--is-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl7" semRole="A1">
+        <!--masonry ''-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+        </span>
+      </role>
+      <role id="rl8" semRole="A2">
+        <!--this : Gee , how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+      </role>
+      <role id="rl9" semRole="A2">
+        <!--of no harm-->
+        <span>
+          <target id="t13" head="yes" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </role>
+    </predicate>
+    <!--t15 harm : AM-NEG[t14 no] A1[t10 masonry]-->
+    <predicate id="pr4" source="mate">
+      <!--harm-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="harm.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="PropBank" reference="harm.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Harm" confidence="0.98018456" />
+      </externalReferences>
+      <role id="rl10" semRole="AM-NEG">
+        <!--no-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </role>
+      <role id="rl11" semRole="A1">
+        <!--masonry ''-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Experiencer" />
+          <externalRef resource="PropBank" reference="harm.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 ask : A1[t3 the] A0[t1 I] A2[t31 lodge]-->
+    <predicate id="f_pr8" source="semafor" confidence="62.33241716480506">
+      <!--ask-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Request" />
+        <externalRef resource="PropBank" reference="ask.01" source="mate" />
+        <externalRef resource="VerbNet" reference="inquire-37.1.2" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00784342-v" />
+        <externalRef resource="WordNet" reference="ili-30-00784727-v" />
+        <externalRef resource="WordNet" reference="ili-30-00897746-v" />
+        <externalRef resource="FrameBase" reference="frame-Request-ask.v" />
+      </externalReferences>
+      <role id="rl18" semRole="A1">
+        <!--the goyim folks who claim that `` masonry '' is of no harm this : Gee , how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Request@Message" />
+          <externalRef resource="VerbNet" reference="inquire-37.1.2@Topic" />
+          <externalRef resource="PropBank" reference="ask.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Request-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Request@Speaker" />
+          <externalRef resource="VerbNet" reference="inquire-37.1.2@Agent" />
+          <externalRef resource="PropBank" reference="ask.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Request-Speaker" />
+        </externalReferences>
+      </role>
+      <role id="rl35" semRole="A2">
+        <!--lodge-->
+        <span>
+          <target id="t31" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="inquire-37.1.2@Recipient" />
+          <externalRef resource="PropBank" reference="ask.01@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 folks : [t3 the]-->
+    <predicate id="f_pr9" source="semafor" confidence="33.60887261369621">
+      <!--folks-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Folk_Nation" confidence="0.99968714" />
+      </externalReferences>
+      <role id="rl20" semRole="">
+        <!--the goyim folks who claim that `` masonry '' is of no harm this : Gee , how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 claim : [t8 that] R-A0[t6 who] A0[t3 the] A1[t8 that]-->
+    <predicate id="f_pr10" source="semafor" confidence="126.58382967247267">
+      <!--claim-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Statement" />
+        <externalRef resource="PropBank" reference="claim.01" source="mate" />
+        <externalRef resource="VerbNet" reference="say-37.7-1" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00756338-v" />
+        <externalRef resource="FrameBase" reference="frame-Statement-claim.v" />
+      </externalReferences>
+      <role id="rl21" semRole="">
+        <!--that `` masonry '' is of no harm this : Gee , how high a rank can you achieve in a B'nai B'rith lodge ?-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Message" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl37" semRole="R-A0">
+        <!--who-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+      <role id="rl38" semRole="A0">
+        <!--the goyim folks who claim that `` masonry '' is of no harm this : Gee , how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="say-37.7@Agent" />
+          <externalRef resource="PropBank" reference="claim.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl39" semRole="A1">
+        <!--that `` masonry '' is of no harm this : Gee , how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="say-37.7@Topic" />
+          <externalRef resource="PropBank" reference="claim.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 no : [t14 no]-->
+    <predicate id="f_pr11" source="semafor" confidence="21.76564567644882">
+      <!--no-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl22" semRole="">
+        <!--no-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t21 high : [t20 how] [t21 high]-->
+    <predicate id="f_pr12" source="semafor" confidence="20.990992864064445">
+      <!--high-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Position_on_a_scale" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/High_school" confidence="0.948004" />
+        <externalRef resource="FrameBase" reference="frame-Position_on_a_scale-high.a" />
+      </externalReferences>
+      <role id="rl23" semRole="">
+        <!--how high a rank-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Position_on_a_scale@Variable" />
+          <externalRef resource="FrameBase" reference="fe-Position_on_a_scale-Variable" />
+        </externalReferences>
+      </role>
+      <role id="rl24" semRole="">
+        <!--high-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Position_on_a_scale@Value" />
+          <externalRef resource="FrameBase" reference="fe-Position_on_a_scale-Value" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 rank : [t20 how]-->
+    <predicate id="f_pr13" source="semafor" confidence="103.54770390686286">
+      <!--rank-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Assessing" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Military_rank" confidence="0.7289653" />
+        <externalRef resource="NomBank" reference="rank.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2" />
+        <externalRef resource="PropBank" reference="rank.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00660102-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Military_rank" confidence="0.7289653" />
+      </externalReferences>
+      <role id="rl25" semRole="">
+        <!--how high-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Assessing@Phenomenon" />
+          <externalRef resource="FrameBase" reference="fe-Assessing-Phenomenon" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t24 can : [t20 how] [t25 you]-->
+    <predicate id="f_pr14" source="semafor" confidence="43.091161824096595">
+      <!--can-->
+      <span>
+        <target id="t24" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Capability" />
+      </externalReferences>
+      <role id="rl26" semRole="">
+        <!--how high a rank-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Event" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl27" semRole="">
+        <!--you-->
+        <span>
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t26 achieve : [t31 lodge] AM-LOC[t27 in] A0[t25 you] AM-TMP[t16 this] AM-MOD[t20 how] AM-TMP[t20 how]-->
+    <predicate id="f_pr15" source="semafor" confidence="77.51869841278705">
+      <!--achieve-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Accomplishment" />
+        <externalRef resource="PropBank" reference="achieve.01" source="mate" />
+        <externalRef resource="VerbNet" reference="complete-55.2" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02526085-v" />
+        <externalRef resource="FrameBase" reference="frame-Accomplishment-achieve.v" />
+      </externalReferences>
+      <role id="rl28" semRole="">
+        <!--lodge-->
+        <span>
+          <target id="t31" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Accomplishment@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Accomplishment-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="AM-LOC">
+        <!--in a B'nai B'rith-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Accomplishment@Time" />
+          <externalRef resource="FrameBase" reference="fe-Accomplishment-Time" />
+        </externalReferences>
+      </role>
+      <role id="rl30" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Accomplishment@Agent" />
+          <externalRef resource="VerbNet" reference="complete-55.2@Agent" />
+          <externalRef resource="PropBank" reference="achieve.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Accomplishment-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl32" semRole="AM-TMP">
+        <!--this : Gee , how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+      </role>
+      <role id="rl33" semRole="AM-MOD">
+        <!--how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" head="yes" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+      </role>
+      <role id="rl34" semRole="AM-TMP">
+        <!--how high a rank-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t31 lodge : [t21 high] A1[t3 the]-->
+    <predicate id="f_pr16" source="semafor" confidence="79.74259204207998">
+      <!--lodge-->
+      <span>
+        <target id="t31" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Placing" />
+        <externalRef resource="PropBank" reference="lodge.02" source="mate" />
+        <externalRef resource="VerbNet" reference="put-9.1" />
+        <externalRef resource="ESO" reference="Placing" />
+        <externalRef resource="ESO" reference="BeingAtAPlace" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02651424-v" />
+        <externalRef resource="WordNet" reference="ili-30-01528069-v" />
+        <externalRef resource="FrameBase" reference="frame-Placing-lodge.v" />
+      </externalReferences>
+      <role id="rl31" semRole="">
+        <!--high a rank-->
+        <span>
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Placing@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Placing-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl36" semRole="A1">
+        <!--the goyim folks who claim that `` masonry '' is of no harm this : Gee , how high a rank can you achieve in a B'nai B'rith-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="put-9.1@Theme" />
+          <externalRef resource="PropBank" reference="lodge.02@1" />
+          <externalRef resource="ESO" reference="BeingAtAPlace@atPlace-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBP ask) (NP (NP (DT the) (NN goyim) (NNS folks)) (SBAR (WHNP (WP who)) (S (VP (VBP claim) (SBAR (IN that) (S (NP (`` ``) (NN masonry) ('' '')) (VP (VBZ is) (ADVP (IN of) (NP (DT no) (NN harm))) (NP (NP (DT this)) (: :) (SBARQ (NP (NNP Gee)) (, ,) (WHNP (WHNP (WRB how) (JJ high)) (NP (DT a) (NN rank))) (SQ (MD can) (NP (PRP you)) (VP (VB achieve) (PP (IN in) (NP (DT a) (NNP B'nai) (NNP B'rith))) (S (VP (VB lodge))))) (. ?)))))))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="NN" />
+      <nt id="nter11" label="NNS" />
+      <nt id="nter12" label="SBAR" />
+      <nt id="nter13" label="WHNP" />
+      <nt id="nter14" label="WP" />
+      <nt id="nter15" label="S" />
+      <nt id="nter16" label="VP" />
+      <nt id="nter17" label="VBP" />
+      <nt id="nter18" label="SBAR" />
+      <nt id="nter19" label="IN" />
+      <nt id="nter20" label="S" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="``" />
+      <nt id="nter23" label="NN" />
+      <nt id="nter24" label="''" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VBZ" />
+      <nt id="nter27" label="ADVP" />
+      <nt id="nter28" label="IN" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="DT" />
+      <nt id="nter31" label="NN" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="DT" />
+      <nt id="nter35" label=":" />
+      <nt id="nter36" label="SBARQ" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NNP" />
+      <nt id="nter39" label="," />
+      <nt id="nter40" label="WHNP" />
+      <nt id="nter41" label="WHNP" />
+      <nt id="nter42" label="WRB" />
+      <nt id="nter43" label="JJ" />
+      <nt id="nter44" label="NP" />
+      <nt id="nter45" label="DT" />
+      <nt id="nter46" label="NN" />
+      <nt id="nter47" label="SQ" />
+      <nt id="nter48" label="MD" />
+      <nt id="nter49" label="NP" />
+      <nt id="nter50" label="PRP" />
+      <nt id="nter51" label="VP" />
+      <nt id="nter52" label="VB" />
+      <nt id="nter53" label="PP" />
+      <nt id="nter54" label="IN" />
+      <nt id="nter55" label="NP" />
+      <nt id="nter56" label="DT" />
+      <nt id="nter57" label="NNP" />
+      <nt id="nter58" label="NNP" />
+      <nt id="nter59" label="S" />
+      <nt id="nter60" label="VP" />
+      <nt id="nter61" label="VB" />
+      <nt id="nter62" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--ask-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--goyim-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--folks-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--who-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--claim-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--``-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--masonry-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--''-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--no-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--harm-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Gee-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--how-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--high-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--rank-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--can-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--achieve-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--B'nai-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--B'rith-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--lodge-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter8" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter7" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter12" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter18" />
+      <edge id="tre29" from="nter21" to="nter20" />
+      <edge id="tre30" from="nter22" to="nter21" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter21" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter21" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter20" head="yes" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter25" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="nter30" to="nter29" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter29" head="yes" />
+      <edge id="tre46" from="ter15" to="nter31" />
+      <edge id="tre47" from="nter32" to="nter25" />
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="nter34" to="nter33" head="yes" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter32" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter32" />
+      <edge id="tre54" from="nter37" to="nter36" />
+      <edge id="tre55" from="nter38" to="nter37" head="yes" />
+      <edge id="tre56" from="ter18" to="nter38" />
+      <edge id="tre57" from="nter39" to="nter36" />
+      <edge id="tre58" from="ter19" to="nter39" />
+      <edge id="tre59" from="nter40" to="nter36" />
+      <edge id="tre60" from="nter41" to="nter40" head="yes" />
+      <edge id="tre61" from="nter42" to="nter41" head="yes" />
+      <edge id="tre62" from="ter20" to="nter42" />
+      <edge id="tre63" from="nter43" to="nter41" />
+      <edge id="tre64" from="ter21" to="nter43" />
+      <edge id="tre65" from="nter44" to="nter40" />
+      <edge id="tre66" from="nter45" to="nter44" />
+      <edge id="tre67" from="ter22" to="nter45" />
+      <edge id="tre68" from="nter46" to="nter44" head="yes" />
+      <edge id="tre69" from="ter23" to="nter46" />
+      <edge id="tre70" from="nter47" to="nter36" head="yes" />
+      <edge id="tre71" from="nter48" to="nter47" head="yes" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter47" />
+      <edge id="tre74" from="nter50" to="nter49" head="yes" />
+      <edge id="tre75" from="ter25" to="nter50" />
+      <edge id="tre76" from="nter51" to="nter47" />
+      <edge id="tre77" from="nter52" to="nter51" head="yes" />
+      <edge id="tre78" from="ter26" to="nter52" />
+      <edge id="tre79" from="nter53" to="nter51" />
+      <edge id="tre80" from="nter54" to="nter53" head="yes" />
+      <edge id="tre81" from="ter27" to="nter54" />
+      <edge id="tre82" from="nter55" to="nter53" />
+      <edge id="tre83" from="nter56" to="nter55" />
+      <edge id="tre84" from="ter28" to="nter56" />
+      <edge id="tre85" from="nter57" to="nter55" />
+      <edge id="tre86" from="ter29" to="nter57" />
+      <edge id="tre87" from="nter58" to="nter55" head="yes" />
+      <edge id="tre88" from="ter30" to="nter58" />
+      <edge id="tre89" from="nter59" to="nter51" />
+      <edge id="tre90" from="nter60" to="nter59" head="yes" />
+      <edge id="tre91" from="nter61" to="nter60" head="yes" />
+      <edge id="tre92" from="ter31" to="nter61" />
+      <edge id="tre93" from="nter62" to="nter36" />
+      <edge id="tre94" from="ter32" to="nter62" />
+    </tree>
+  </constituency>
+</NAF>

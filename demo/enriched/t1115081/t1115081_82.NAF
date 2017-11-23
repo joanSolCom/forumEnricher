@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:39+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:39.124+0100" endTimestamp="2017-11-20T12:30:39.554+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:39.557+0100" endTimestamp="2017-11-20T12:30:39.557+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Are you suggesting the Jews put a Horus eye on the dollar bill? I find that unlikely, considering Jews are vicious iconoclasts.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Are</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="3">you</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="10">suggesting</wf>
+    <wf id="w4" sent="1" para="1" offset="19" length="3">the</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="4">Jews</wf>
+    <wf id="w6" sent="1" para="1" offset="28" length="3">put</wf>
+    <wf id="w7" sent="1" para="1" offset="32" length="1">a</wf>
+    <wf id="w8" sent="1" para="1" offset="34" length="5">Horus</wf>
+    <wf id="w9" sent="1" para="1" offset="40" length="3">eye</wf>
+    <wf id="w10" sent="1" para="1" offset="44" length="2">on</wf>
+    <wf id="w11" sent="1" para="1" offset="47" length="3">the</wf>
+    <wf id="w12" sent="1" para="1" offset="51" length="6">dollar</wf>
+    <wf id="w13" sent="1" para="1" offset="58" length="4">bill</wf>
+    <wf id="w14" sent="1" para="1" offset="62" length="1">?</wf>
+    <wf id="w15" sent="2" para="1" offset="64" length="1">I</wf>
+    <wf id="w16" sent="2" para="1" offset="66" length="4">find</wf>
+    <wf id="w17" sent="2" para="1" offset="71" length="4">that</wf>
+    <wf id="w18" sent="2" para="1" offset="76" length="8">unlikely</wf>
+    <wf id="w19" sent="2" para="1" offset="84" length="1">,</wf>
+    <wf id="w20" sent="2" para="1" offset="86" length="11">considering</wf>
+    <wf id="w21" sent="2" para="1" offset="98" length="4">Jews</wf>
+    <wf id="w22" sent="2" para="1" offset="103" length="3">are</wf>
+    <wf id="w23" sent="2" para="1" offset="107" length="7">vicious</wf>
+    <wf id="w24" sent="2" para="1" offset="115" length="11">iconoclasts</wf>
+    <wf id="w25" sent="2" para="1" offset="126" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Are-->
+    <term id="t1" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t2" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--suggesting-->
+    <term id="t3" type="open" lemma="suggest" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t5" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--put-->
+    <term id="t6" type="open" lemma="put" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t7" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--Horus-->
+    <term id="t8" type="open" lemma="Horus" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--eye-->
+    <term id="t9" type="open" lemma="eye" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t10" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t11" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--dollar-->
+    <term id="t12" type="open" lemma="dollar" pos="N" morphofeat="NN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--bill-->
+    <term id="t13" type="open" lemma="bill" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t14" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t15" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--find-->
+    <term id="t16" type="open" lemma="find" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t17" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--unlikely-->
+    <term id="t18" type="open" lemma="unlikely" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t19" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--considering-->
+    <term id="t20" type="open" lemma="consider" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t21" type="open" lemma="jew" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t22" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--vicious-->
+    <term id="t23" type="open" lemma="vicious" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--iconoclasts-->
+    <term id="t24" type="open" lemma="iconoclast" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t25" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(Are-1, you-2)-->
+    <dep from="t1" to="t2" rfunc="SBJ" />
+    <!--VC(Are-1, suggesting-3)-->
+    <dep from="t1" to="t3" rfunc="VC" />
+    <!--NMOD(Jews-5, the-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--SBJ(put-6, Jews-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--OBJ(suggesting-3, put-6)-->
+    <dep from="t3" to="t6" rfunc="OBJ" />
+    <!--NMOD(eye-9, a-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--NMOD(eye-9, Horus-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--OBJ(put-6, eye-9)-->
+    <dep from="t6" to="t9" rfunc="OBJ" />
+    <!--PUT(put-6, on-10)-->
+    <dep from="t6" to="t10" rfunc="PUT" />
+    <!--NMOD(bill-13, the-11)-->
+    <dep from="t13" to="t11" rfunc="NMOD" />
+    <!--NMOD(bill-13, dollar-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--PMOD(on-10, bill-13)-->
+    <dep from="t10" to="t13" rfunc="PMOD" />
+    <!--P(Are-1, ?-14)-->
+    <dep from="t1" to="t14" rfunc="P" />
+    <!--SBJ(find-16, I-15)-->
+    <dep from="t16" to="t15" rfunc="SBJ" />
+    <!--OBJ(find-16, that-17)-->
+    <dep from="t16" to="t17" rfunc="OBJ" />
+    <!--NMOD(Jews-21, unlikely-18)-->
+    <dep from="t21" to="t18" rfunc="NMOD" />
+    <!--P(Jews-21, ,-19)-->
+    <dep from="t21" to="t19" rfunc="P" />
+    <!--NMOD(Jews-21, considering-20)-->
+    <dep from="t21" to="t20" rfunc="NMOD" />
+    <!--SBJ(are-22, Jews-21)-->
+    <dep from="t22" to="t21" rfunc="SBJ" />
+    <!--SUB(that-17, are-22)-->
+    <dep from="t17" to="t22" rfunc="SUB" />
+    <!--NMOD(iconoclasts-24, vicious-23)-->
+    <dep from="t24" to="t23" rfunc="NMOD" />
+    <!--OBJ(are-22, iconoclasts-24)-->
+    <dep from="t22" to="t24" rfunc="OBJ" />
+    <!--P(find-16, .-25)-->
+    <dep from="t16" to="t25" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99497056" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99497056" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--find-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9825365" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5">
+      <references>
+        <!--Horus-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--eye-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--dollar-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--bill-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--iconoclasts-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--the Jews-->
+      <span>
+        <target id="t4" />
+        <target id="t5" head="yes" />
+      </span>
+      <!--Jews-->
+      <span>
+        <target id="t21" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hectare" confidence="0.8793049408016025" spotted="true">
+      <!--Are-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Eye_of_Horus" confidence="0.9999999998992166" spotted="true">
+      <!--Horus eye-->
+      <span>
+        <target id="w8" />
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9825365132027181" spotted="true">
+      <!--find-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9949705714139434" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/United_States_one-dollar_bill" confidence="0.8458202205403227" spotted="true">
+      <!--dollar bill-->
+      <span>
+        <target id="w12" />
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Iconoclasm" confidence="0.9580813229029841" spotted="true">
+      <!--iconoclasts-->
+      <span>
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9949705714139434" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 suggesting : A1[t4 the] A0[t2 you]-->
+    <predicate id="f_pr5" source="semafor" confidence="134.5913038948744">
+      <!--suggesting-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Statement" />
+        <externalRef resource="PropBank" reference="suggest.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Statement-propose.v" />
+      </externalReferences>
+      <role id="rl8" semRole="A1">
+        <!--the Jews put a Horus eye on the dollar bill-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Message" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Speaker" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Speaker" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 Jews : [t4 the]-->
+    <predicate id="f_pr6" source="semafor" confidence="38.41737867623587">
+      <!--Jews-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99497056" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--the Jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 put : A0[t4 the] A1[t7 a] A2[t10 on]-->
+    <predicate id="f_pr7" source="semafor" confidence="122.96940436929272">
+      <!--put-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Placing" />
+        <externalRef resource="PropBank" reference="put.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Placing-lay.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--the Jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Placing@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Placing-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="A1">
+        <!--a Horus eye-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Placing@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Placing-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl27" semRole="A2">
+        <!--on the dollar bill-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </role>
+    </predicate>
+    <!--t9 eye : A0[t8 Horus] A0[t4 the]-->
+    <predicate id="f_pr8" source="semafor" confidence="33.49937747082684">
+      <!--eye-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Observable_body_parts" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Eye_of_Horus" confidence="1.0" />
+        <externalRef resource="NomBank" reference="eye.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="PropBank" reference="see.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-01635432-v" />
+        <externalRef resource="WordNet" reference="ili-30-00690614-v" />
+        <externalRef resource="WordNet" reference="ili-30-00623151-v" />
+        <externalRef resource="WordNet" reference="ili-30-02150948-v" />
+        <externalRef resource="WordNet" reference="ili-30-02128873-v" />
+        <externalRef resource="WordNet" reference="ili-30-00920336-v" />
+        <externalRef resource="WordNet" reference="ili-30-02129289-v" />
+        <externalRef resource="WordNet" reference="ili-30-02156225-v" />
+        <externalRef resource="WordNet" reference="ili-30-02131279-v" />
+        <externalRef resource="WordNet" reference="ili-30-02493030-v" />
+        <externalRef resource="WordNet" reference="ili-30-02488304-v" />
+        <externalRef resource="WordNet" reference="ili-30-02488488-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Eye_of_Horus" confidence="1.0" />
+        <externalRef resource="FrameBase" reference="frame-Observable_body_parts-eye.n" />
+      </externalReferences>
+      <role id="rl25" semRole="A0">
+        <!--Horus-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="see.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl26" semRole="A0">
+        <!--the Jews-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="see.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 bill :-->
+    <predicate id="f_pr9" source="semafor" confidence="32.242079854786816">
+      <!--bill-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Observable_body_parts" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/United_States_one-dollar_bill" confidence="0.84582025" />
+        <externalRef resource="NomBank" reference="bill.03" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/United_States_one-dollar_bill" confidence="0.84582025" />
+        <externalRef resource="FrameBase" reference="frame-Observable_body_parts-beak.n" />
+      </externalReferences>
+    </predicate>
+    <!--t22 are : A1[t18 unlikely] A2[t23 vicious]-->
+    <predicate id="pr12" source="mate">
+      <!--are-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl17" semRole="A1">
+        <!--unlikely , considering Jews-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" head="yes" />
+        </span>
+      </role>
+      <role id="rl18" semRole="A2">
+        <!--vicious iconoclasts-->
+        <span>
+          <target id="t23" />
+          <target id="t24" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 find : A0[t15 I] A1[t17 that]-->
+    <predicate id="f_pr13" source="semafor" confidence="117.38868183504584">
+      <!--find-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Becoming_aware" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9825365" />
+        <externalRef resource="PropBank" reference="find.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00918872-v" />
+        <externalRef resource="WordNet" reference="ili-30-00721437-v" />
+        <externalRef resource="WordNet" reference="ili-30-01637982-v" />
+        <externalRef resource="WordNet" reference="ili-30-02154508-v" />
+        <externalRef resource="WordNet" reference="ili-30-02285629-v" />
+        <externalRef resource="WordNet" reference="ili-30-02213336-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Find" confidence="0.9825365" />
+        <externalRef resource="FrameBase" reference="frame-Becoming_aware-espy.v" />
+      </externalReferences>
+      <role id="rl19" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Becoming_aware@Cognizer" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="find.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Becoming_aware-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="A1">
+        <!--that unlikely , considering Jews are vicious iconoclasts-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Becoming_aware@Phenomenon" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="find.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Becoming_aware-Phenomenon" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 unlikely : [t17 that]-->
+    <predicate id="f_pr14" source="semafor" confidence="35.88519559001739">
+      <!--unlikely-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Likelihood" />
+        <externalRef resource="FrameBase" reference="frame-Likelihood-unlikely.a" />
+      </externalReferences>
+      <role id="rl21" semRole="">
+        <!--that unlikely , considering Jews are vicious iconoclasts-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Likelihood@Hypothetical_event" />
+          <externalRef resource="FrameBase" reference="fe-Likelihood-Hypothetical_event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 considering : A0[t18 unlikely] [t23 vicious]-->
+    <predicate id="f_pr15" source="semafor" confidence="43.91325836006701">
+      <!--considering-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Categorization" />
+        <externalRef resource="PropBank" reference="consider.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Categorization-view.v" />
+      </externalReferences>
+      <role id="rl22" semRole="A0">
+        <!--unlikely , considering Jews-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Item" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Item" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="">
+        <!--vicious iconoclasts-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Category" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Category" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t21 Jews : [t18 unlikely]-->
+    <predicate id="f_pr16" source="semafor" confidence="39.17830635665794">
+      <!--Jews-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99497056" />
+        <externalRef resource="FrameBase" reference="frame-People_by_religion-jew.n" />
+      </externalReferences>
+      <role id="rl24" semRole="">
+        <!--unlikely , considering Jews-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 dollar :-->
+    <predicate id="pr17">
+      <!--dollar-->
+      <span>
+        <target id="t12" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="dollar.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SQ (VBP Are) (NP (PRP you)) (VP (VBG suggesting) (SBAR (S (NP (DT the) (NNPS Jews)) (VP (VBD put) (NP (DT a) (NNP Horus) (NN eye)) (PP (IN on) (NP (DT the) (NN dollar) (NN bill))))))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (S (NP (PRP I)) (VP (VBP find) (SBAR (IN that) (S (S (ADJP (JJ unlikely))) (, ,) (S (VP (VBG considering) (NP (NNS Jews)))) (VP (VBP are) (NP (JJ vicious) (NNS iconoclasts)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SQ" />
+      <nt id="nter3" label="VBP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VBG" />
+      <nt id="nter8" label="SBAR" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="DT" />
+      <nt id="nter12" label="NNPS" />
+      <nt id="nter13" label="VP" />
+      <nt id="nter14" label="VBD" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="DT" />
+      <nt id="nter17" label="NNP" />
+      <nt id="nter18" label="NN" />
+      <nt id="nter19" label="PP" />
+      <nt id="nter20" label="IN" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="DT" />
+      <nt id="nter23" label="NN" />
+      <nt id="nter24" label="NN" />
+      <nt id="nter25" label="." />
+      <!--Terminals-->
+      <!--Are-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--suggesting-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--put-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Horus-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--eye-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--dollar-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--bill-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter9" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter15" head="yes" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter13" />
+      <edge id="tre29" from="nter20" to="nter19" head="yes" />
+      <edge id="tre30" from="ter10" to="nter20" />
+      <edge id="tre31" from="nter21" to="nter19" />
+      <edge id="tre32" from="nter22" to="nter21" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter21" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter21" head="yes" />
+      <edge id="tre37" from="ter13" to="nter24" />
+      <edge id="tre38" from="nter25" to="nter2" />
+      <edge id="tre39" from="ter14" to="nter25" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter26" label="ROOT" />
+      <nt id="nter27" label="S" />
+      <nt id="nter28" label="NP" />
+      <nt id="nter29" label="PRP" />
+      <nt id="nter30" label="VP" />
+      <nt id="nter31" label="VBP" />
+      <nt id="nter32" label="SBAR" />
+      <nt id="nter33" label="IN" />
+      <nt id="nter34" label="S" />
+      <nt id="nter35" label="S" />
+      <nt id="nter36" label="ADJP" />
+      <nt id="nter37" label="JJ" />
+      <nt id="nter38" label="," />
+      <nt id="nter39" label="S" />
+      <nt id="nter40" label="VP" />
+      <nt id="nter41" label="VBG" />
+      <nt id="nter42" label="NP" />
+      <nt id="nter43" label="NNS" />
+      <nt id="nter44" label="VP" />
+      <nt id="nter45" label="VBP" />
+      <nt id="nter46" label="NP" />
+      <nt id="nter47" label="JJ" />
+      <nt id="nter48" label="NNS" />
+      <nt id="nter49" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--find-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--unlikely-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--considering-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--vicious-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--iconoclasts-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre41" from="nter27" to="nter26" head="yes" />
+      <edge id="tre42" from="nter28" to="nter27" />
+      <edge id="tre43" from="nter29" to="nter28" head="yes" />
+      <edge id="tre44" from="ter15" to="nter29" />
+      <edge id="tre45" from="nter30" to="nter27" head="yes" />
+      <edge id="tre46" from="nter31" to="nter30" head="yes" />
+      <edge id="tre47" from="ter16" to="nter31" />
+      <edge id="tre48" from="nter32" to="nter30" />
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="ter17" to="nter33" />
+      <edge id="tre51" from="nter34" to="nter32" />
+      <edge id="tre52" from="nter35" to="nter34" />
+      <edge id="tre53" from="nter36" to="nter35" head="yes" />
+      <edge id="tre54" from="nter37" to="nter36" head="yes" />
+      <edge id="tre55" from="ter18" to="nter37" />
+      <edge id="tre56" from="nter38" to="nter34" />
+      <edge id="tre57" from="ter19" to="nter38" />
+      <edge id="tre58" from="nter39" to="nter34" />
+      <edge id="tre59" from="nter40" to="nter39" head="yes" />
+      <edge id="tre60" from="nter41" to="nter40" head="yes" />
+      <edge id="tre61" from="ter20" to="nter41" />
+      <edge id="tre62" from="nter42" to="nter40" />
+      <edge id="tre63" from="nter43" to="nter42" head="yes" />
+      <edge id="tre64" from="ter21" to="nter43" />
+      <edge id="tre65" from="nter44" to="nter34" head="yes" />
+      <edge id="tre66" from="nter45" to="nter44" head="yes" />
+      <edge id="tre67" from="ter22" to="nter45" />
+      <edge id="tre68" from="nter46" to="nter44" />
+      <edge id="tre69" from="nter47" to="nter46" />
+      <edge id="tre70" from="ter23" to="nter47" />
+      <edge id="tre71" from="nter48" to="nter46" head="yes" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter27" />
+      <edge id="tre74" from="ter25" to="nter49" />
+    </tree>
+  </constituency>
+</NAF>

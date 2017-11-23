@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:28+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:28.238+0100" endTimestamp="2017-11-21T16:33:28.887+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:28.908+0100" endTimestamp="2017-11-21T16:33:28.910+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[WWII, boomers, Judeo-Christians, Marxists, capitalists and that one tribe with the ratlike features, forgot the name, Brews?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">WWII</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="7">boomers</wf>
+    <wf id="w4" sent="1" para="1" offset="13" length="1">,</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="16">Judeo-Christians</wf>
+    <wf id="w6" sent="1" para="1" offset="31" length="1">,</wf>
+    <wf id="w7" sent="1" para="1" offset="33" length="8">Marxists</wf>
+    <wf id="w8" sent="1" para="1" offset="41" length="1">,</wf>
+    <wf id="w9" sent="1" para="1" offset="43" length="11">capitalists</wf>
+    <wf id="w10" sent="1" para="1" offset="55" length="3">and</wf>
+    <wf id="w11" sent="1" para="1" offset="59" length="4">that</wf>
+    <wf id="w12" sent="1" para="1" offset="64" length="3">one</wf>
+    <wf id="w13" sent="1" para="1" offset="68" length="5">tribe</wf>
+    <wf id="w14" sent="1" para="1" offset="74" length="4">with</wf>
+    <wf id="w15" sent="1" para="1" offset="79" length="3">the</wf>
+    <wf id="w16" sent="1" para="1" offset="83" length="7">ratlike</wf>
+    <wf id="w17" sent="1" para="1" offset="91" length="8">features</wf>
+    <wf id="w18" sent="1" para="1" offset="99" length="1">,</wf>
+    <wf id="w19" sent="1" para="1" offset="101" length="6">forgot</wf>
+    <wf id="w20" sent="1" para="1" offset="108" length="3">the</wf>
+    <wf id="w21" sent="1" para="1" offset="112" length="4">name</wf>
+    <wf id="w22" sent="1" para="1" offset="116" length="1">,</wf>
+    <wf id="w23" sent="1" para="1" offset="118" length="5">Brews</wf>
+    <wf id="w24" sent="1" para="1" offset="123" length="1">?</wf>
+  </text>
+  <terms>
+    <!--WWII-->
+    <term id="t1" type="open" lemma="WWII" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--boomers-->
+    <term id="t3" type="open" lemma="boomer" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t4" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Judeo-Christians-->
+    <term id="t5" type="open" lemma="judeo-christians" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t6" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Marxists-->
+    <term id="t7" type="open" lemma="Marxists" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t8" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--capitalists-->
+    <term id="t9" type="open" lemma="capitalist" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t10" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t11" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--one-->
+    <term id="t12" type="open" lemma="one" pos="O" morphofeat="CD">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--tribe-->
+    <term id="t13" type="open" lemma="tribe" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--with-->
+    <term id="t14" type="open" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t15" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--ratlike-->
+    <term id="t16" type="open" lemma="ratlike" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--features-->
+    <term id="t17" type="open" lemma="feature" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t18" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--forgot-->
+    <term id="t19" type="open" lemma="forget" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t20" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--name-->
+    <term id="t21" type="open" lemma="name" pos="N" morphofeat="NN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t22" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--Brews-->
+    <term id="t23" type="open" lemma="Brews" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t24" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(WWII-1, ,-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--COORD(WWII-1, boomers-3)-->
+    <dep from="t1" to="t3" rfunc="COORD" />
+    <!--P(boomers-3, ,-4)-->
+    <dep from="t3" to="t4" rfunc="P" />
+    <!--COORD(boomers-3, Judeo-Christians-5)-->
+    <dep from="t3" to="t5" rfunc="COORD" />
+    <!--P(Judeo-Christians-5, ,-6)-->
+    <dep from="t5" to="t6" rfunc="P" />
+    <!--COORD(capitalists-9, Marxists-7)-->
+    <dep from="t9" to="t7" rfunc="COORD" />
+    <!--P(Marxists-7, ,-8)-->
+    <dep from="t7" to="t8" rfunc="P" />
+    <!--COORD(Judeo-Christians-5, capitalists-9)-->
+    <dep from="t5" to="t9" rfunc="COORD" />
+    <!--COORD(capitalists-9, and-10)-->
+    <dep from="t9" to="t10" rfunc="COORD" />
+    <!--CONJ(and-10, that-11)-->
+    <dep from="t10" to="t11" rfunc="CONJ" />
+    <!--NMOD(tribe-13, one-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--SBJ(forgot-19, tribe-13)-->
+    <dep from="t19" to="t13" rfunc="SBJ" />
+    <!--NMOD(tribe-13, with-14)-->
+    <dep from="t13" to="t14" rfunc="NMOD" />
+    <!--NMOD(features-17, the-15)-->
+    <dep from="t17" to="t15" rfunc="NMOD" />
+    <!--NMOD(features-17, ratlike-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--PMOD(with-14, features-17)-->
+    <dep from="t14" to="t17" rfunc="PMOD" />
+    <!--P(tribe-13, ,-18)-->
+    <dep from="t13" to="t18" rfunc="P" />
+    <!--SUB(that-11, forgot-19)-->
+    <dep from="t11" to="t19" rfunc="SUB" />
+    <!--NMOD(name-21, the-20)-->
+    <dep from="t21" to="t20" rfunc="NMOD" />
+    <!--OBJ(forgot-19, name-21)-->
+    <dep from="t19" to="t21" rfunc="OBJ" />
+    <!--P(name-21, ,-22)-->
+    <dep from="t21" to="t22" rfunc="P" />
+    <!--APPO(name-21, Brews-23)-->
+    <dep from="t21" to="t23" rfunc="APPO" />
+    <!--P(WWII-1, ?-24)-->
+    <dep from="t1" to="t24" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Judeo-Christians-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Judeo-Christian" confidence="0.6892165" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--Marxists-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marxism" confidence="0.978054" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="CARDINAL">
+      <references>
+        <!--one-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--WWII-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/World_War_II" confidence="0.9999781" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--tribe-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Tribe" confidence="0.76169795" />
+      </externalReferences>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--boomers-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--capitalists-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--features-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--name-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10">
+      <references>
+        <!--Brews-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--the name-->
+      <span>
+        <target id="t20" />
+        <target id="t21" head="yes" />
+      </span>
+      <!--Brews-->
+      <span>
+        <target id="t23" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/World_War_II" confidence="0.9999781233207884" spotted="true">
+      <!--WWII-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marxism" confidence="0.9780539857725966" spotted="true">
+      <!--Marxists-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Rat" confidence="0.9999999451906108" spotted="true">
+      <!--ratlike-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Tribe" confidence="0.7616979359619748" spotted="true">
+      <!--tribe-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Baby_boomer" confidence="0.8109307992581796" spotted="true">
+      <!--boomers-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Capitalism" confidence="0.9995911934792732" spotted="true">
+      <!--capitalists-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Feature_film" confidence="0.5778461662636224" spotted="true">
+      <!--features-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Judeo-Christian" confidence="0.6892165034894266" spotted="true">
+      <!--Judeo-Christians-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t12 one : [t12 one] [t12 one]-->
+    <predicate id="f_pr3" source="semafor" confidence="33.9463279885969">
+      <!--one-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cardinal_numbers" />
+        <externalRef resource="FrameBase" reference="frame-Cardinal_numbers-one.num" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--one-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Number" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Number" />
+        </externalReferences>
+      </role>
+      <role id="rl6" semRole="">
+        <!--one tribe with the ratlike features ,-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 tribe : [t12 one]-->
+    <predicate id="f_pr4" source="semafor" confidence="29.723483525970728">
+      <!--tribe-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Aggregate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Tribe" confidence="0.76169795" />
+        <externalRef resource="FrameBase" reference="frame-Aggregate-tribe.n" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--one tribe with the ratlike features ,-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Aggregate@Aggregate" />
+          <externalRef resource="FrameBase" reference="fe-Aggregate-Aggregate" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t19 forgot : A1[t20 the] A0[t12 one]-->
+    <predicate id="f_pr5" source="semafor" confidence="37.55980479166367">
+      <!--forgot-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Abandonment" />
+        <externalRef resource="PropBank" reference="forget.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Abandonment-forget.v" />
+      </externalReferences>
+      <role id="rl8" semRole="A1">
+        <!--the name , Brews-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Abandonment@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Abandonment-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A0">
+        <!--one tribe with the ratlike features ,-->
+        <span>
+          <target id="t12" />
+          <target id="t13" head="yes" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+      </role>
+    </predicate>
+    <!--t21 name : A2[t23 Brews] A2[t20 the]-->
+    <predicate id="f_pr6" source="semafor" confidence="22.366737607033052">
+      <!--name-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Being_named" />
+        <externalRef resource="NomBank" reference="name.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Being_named-call.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A2">
+        <!--Brews-->
+        <span>
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Being_named@Name" />
+          <externalRef resource="FrameBase" reference="fe-Being_named-Name" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="A2">
+        <!--the name , Brews-->
+        <span>
+          <target id="t20" />
+          <target id="t21" head="yes" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+      </role>
+    </predicate>
+    <!--t9 capitalists : A0[t7 Marxists]-->
+    <predicate id="pr7">
+      <!--capitalists-->
+      <span>
+        <target id="t9" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="capitalist.01" />
+      </externalReferences>
+      <role id="rl12" semRole="A0">
+        <!--Marxists , capitalists and that one tribe with the ratlike features , forgot the name , Brews-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" head="yes" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (UCP (NP (NP (NNP WWII)) (, ,) (NP (NNS boomers)) (, ,) (NP (NN Judeo-Christians)) (, ,) (NP (NNPS Marxists)) (, ,) (NP (NNS capitalists))) (CC and) (SBAR (IN that) (S (NP (NP (CD one) (NN tribe)) (PP (IN with) (NP (DT the) (JJ ratlike) (NNS features)))) (, ,) (VP (VBD forgot) (NP (NP (DT the) (NN name)) (, ,) (NP (NNP Brews))))) (. ?))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="UCP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="NNP" />
+      <nt id="nter6" label="," />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NNS" />
+      <nt id="nter9" label="," />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label="," />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="NNPS" />
+      <nt id="nter15" label="," />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="NNS" />
+      <nt id="nter18" label="CC" />
+      <nt id="nter19" label="SBAR" />
+      <nt id="nter20" label="IN" />
+      <nt id="nter21" label="S" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="CD" />
+      <nt id="nter25" label="NN" />
+      <nt id="nter26" label="PP" />
+      <nt id="nter27" label="IN" />
+      <nt id="nter28" label="NP" />
+      <nt id="nter29" label="DT" />
+      <nt id="nter30" label="JJ" />
+      <nt id="nter31" label="NNS" />
+      <nt id="nter32" label="," />
+      <nt id="nter33" label="VP" />
+      <nt id="nter34" label="VBD" />
+      <nt id="nter35" label="NP" />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="DT" />
+      <nt id="nter38" label="NN" />
+      <nt id="nter39" label="," />
+      <nt id="nter40" label="NP" />
+      <nt id="nter41" label="NNP" />
+      <nt id="nter42" label="." />
+      <!--Terminals-->
+      <!--WWII-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--boomers-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Judeo-Christians-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Marxists-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--capitalists-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--one-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--tribe-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--with-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--ratlike-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--features-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--forgot-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--name-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--Brews-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter3" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter3" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter3" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter3" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter3" />
+      <edge id="tre20" from="nter14" to="nter13" head="yes" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter3" />
+      <edge id="tre23" from="ter8" to="nter15" />
+      <edge id="tre24" from="nter16" to="nter3" />
+      <edge id="tre25" from="nter17" to="nter16" head="yes" />
+      <edge id="tre26" from="ter9" to="nter17" />
+      <edge id="tre27" from="nter18" to="nter2" />
+      <edge id="tre28" from="ter10" to="nter18" />
+      <edge id="tre29" from="nter19" to="nter2" head="yes" />
+      <edge id="tre30" from="nter20" to="nter19" head="yes" />
+      <edge id="tre31" from="ter11" to="nter20" />
+      <edge id="tre32" from="nter21" to="nter19" />
+      <edge id="tre33" from="nter22" to="nter21" />
+      <edge id="tre34" from="nter23" to="nter22" head="yes" />
+      <edge id="tre35" from="nter24" to="nter23" />
+      <edge id="tre36" from="ter12" to="nter24" />
+      <edge id="tre37" from="nter25" to="nter23" head="yes" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter22" />
+      <edge id="tre40" from="nter27" to="nter26" head="yes" />
+      <edge id="tre41" from="ter14" to="nter27" />
+      <edge id="tre42" from="nter28" to="nter26" />
+      <edge id="tre43" from="nter29" to="nter28" />
+      <edge id="tre44" from="ter15" to="nter29" />
+      <edge id="tre45" from="nter30" to="nter28" />
+      <edge id="tre46" from="ter16" to="nter30" />
+      <edge id="tre47" from="nter31" to="nter28" head="yes" />
+      <edge id="tre48" from="ter17" to="nter31" />
+      <edge id="tre49" from="nter32" to="nter21" />
+      <edge id="tre50" from="ter18" to="nter32" />
+      <edge id="tre51" from="nter33" to="nter21" head="yes" />
+      <edge id="tre52" from="nter34" to="nter33" head="yes" />
+      <edge id="tre53" from="ter19" to="nter34" />
+      <edge id="tre54" from="nter35" to="nter33" />
+      <edge id="tre55" from="nter36" to="nter35" head="yes" />
+      <edge id="tre56" from="nter37" to="nter36" />
+      <edge id="tre57" from="ter20" to="nter37" />
+      <edge id="tre58" from="nter38" to="nter36" head="yes" />
+      <edge id="tre59" from="ter21" to="nter38" />
+      <edge id="tre60" from="nter39" to="nter35" />
+      <edge id="tre61" from="ter22" to="nter39" />
+      <edge id="tre62" from="nter40" to="nter35" />
+      <edge id="tre63" from="nter41" to="nter40" head="yes" />
+      <edge id="tre64" from="ter23" to="nter41" />
+      <edge id="tre65" from="nter42" to="nter19" />
+      <edge id="tre66" from="ter24" to="nter42" />
+    </tree>
+  </constituency>
+</NAF>

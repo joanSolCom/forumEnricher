@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:21+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:21.634+0100" endTimestamp="2017-11-21T16:40:21.925+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:21.925+0100" endTimestamp="2017-11-21T16:40:21.926+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Can i still marry her though?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Can</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="1">i</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="5">still</wf>
+    <wf id="w4" sent="1" para="1" offset="12" length="5">marry</wf>
+    <wf id="w5" sent="1" para="1" offset="18" length="3">her</wf>
+    <wf id="w6" sent="1" para="1" offset="22" length="6">though</wf>
+    <wf id="w7" sent="1" para="1" offset="28" length="1">?</wf>
+  </text>
+  <terms>
+    <!--Can-->
+    <term id="t1" type="open" lemma="can" pos="O" morphofeat="MD">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--i-->
+    <term id="t2" type="open" lemma="i" pos="O" morphofeat="FW">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--still-->
+    <term id="t3" type="open" lemma="still" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--marry-->
+    <term id="t4" type="open" lemma="marry" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--her-->
+    <term id="t5" type="open" lemma="she" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--though-->
+    <term id="t6" type="open" lemma="though" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t7" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(Can-1, i-2)-->
+    <dep from="t1" to="t2" rfunc="SBJ" />
+    <!--TMP(Can-1, still-3)-->
+    <dep from="t1" to="t3" rfunc="TMP" />
+    <!--VC(Can-1, marry-4)-->
+    <dep from="t1" to="t4" rfunc="VC" />
+    <!--OBJ(marry-4, her-5)-->
+    <dep from="t4" to="t5" rfunc="OBJ" />
+    <!--ADV(marry-4, though-6)-->
+    <dep from="t4" to="t6" rfunc="ADV" />
+    <!--P(Can-1, ?-7)-->
+    <dep from="t1" to="t7" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--her-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Canada" confidence="0.6504703304586229" spotted="true">
+      <!--Can-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.9988368363965265" spotted="true">
+      <!--marry-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Can : [t2 i]-->
+    <predicate id="f_pr2" source="semafor" confidence="41.59577058639603">
+      <!--Can-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Capability" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Canada" confidence="0.6504703" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--i-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 still : [t2 i] [t3 still]-->
+    <predicate id="f_pr3" source="semafor" confidence="16.945154144374293">
+      <!--still-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Continued_state_of_affairs" />
+        <externalRef resource="FrameBase" reference="frame-Continued_state_of_affairs-still.adv" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--i-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Continued_state_of_affairs@State_of_affairs" />
+          <externalRef resource="FrameBase" reference="fe-Continued_state_of_affairs-State_of_affairs" />
+        </externalReferences>
+      </role>
+      <role id="rl8" semRole="">
+        <!--still-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Continued_state_of_affairs@Reference_occasion" />
+          <externalRef resource="FrameBase" reference="fe-Continued_state_of_affairs-Reference_occasion" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 marry : A1[t5 her] A1[t2 i] AM-MOD[t1 Can] AM-TMP[t3 still] AM-DIS[t6 though]-->
+    <predicate id="f_pr4" source="semafor" confidence="58.156677569016004">
+      <!--marry-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Forming_relationships" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.9988368" />
+        <externalRef resource="PropBank" reference="marry.01" source="mate" />
+        <externalRef resource="VerbNet" reference="marry-36.2" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02488834-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.9988368" />
+        <externalRef resource="FrameBase" reference="frame-Forming_relationships-wed.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--her-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Forming_relationships@Partner_2" />
+          <externalRef resource="VerbNet" reference="marry-36.2@Agent" />
+          <externalRef resource="PropBank" reference="marry.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Forming_relationships-Partner_2" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A1">
+        <!--i-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="marry-36.2@Agent" />
+          <externalRef resource="PropBank" reference="marry.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="AM-MOD">
+        <!--Can i still marry her though ?-->
+        <span>
+          <target id="t1" head="yes" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+      </role>
+      <role id="rl12" semRole="AM-TMP">
+        <!--still-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl13" semRole="AM-DIS">
+        <!--though-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SQ (MD Can) (NP (FW i)) (ADVP (RB still)) (VP (VB marry) (NP (PRP$ her)) (ADVP (IN though))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SQ" />
+      <nt id="nter3" label="MD" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="FW" />
+      <nt id="nter6" label="ADVP" />
+      <nt id="nter7" label="RB" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VB" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="PRP$" />
+      <nt id="nter12" label="ADVP" />
+      <nt id="nter13" label="IN" />
+      <nt id="nter14" label="." />
+      <!--Terminals-->
+      <!--Can-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--i-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--still-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--marry-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--her-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--though-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter2" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter8" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter2" />
+      <edge id="tre21" from="ter7" to="nter14" />
+    </tree>
+  </constituency>
+</NAF>

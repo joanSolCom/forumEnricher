@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:34:43+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:34:43.443+0100" endTimestamp="2017-11-21T16:34:45.118+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:34:45.119+0100" endTimestamp="2017-11-21T16:34:45.119+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[to you]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">to</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="3">you</wf>
+  </text>
+  <terms>
+    <!--to-->
+    <term id="t1" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t2" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--PMOD(to-1, you-2)-->
+    <dep from="t1" to="t2" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (PP (TO to) (NP (PRP you))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="PP" />
+      <nt id="nter3" label="TO" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <!--Terminals-->
+      <!--to-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:36+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:36.394+0100" endTimestamp="2017-11-21T16:39:37.037+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:37.058+0100" endTimestamp="2017-11-21T16:39:37.059+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I think it is more likely that vulnerable and desperate Whites being scammed or exploited or corrupted by mostly exploitive nonwhites. Stay away from nonwhites as much as possible. Those nonwhites would sell anything at highly inflated price, even food for any starving person.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="5">think</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="2">it</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="2">is</wf>
+    <wf id="w5" sent="1" para="1" offset="14" length="4">more</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="6">likely</wf>
+    <wf id="w7" sent="1" para="1" offset="26" length="4">that</wf>
+    <wf id="w8" sent="1" para="1" offset="31" length="10">vulnerable</wf>
+    <wf id="w9" sent="1" para="1" offset="42" length="3">and</wf>
+    <wf id="w10" sent="1" para="1" offset="46" length="9">desperate</wf>
+    <wf id="w11" sent="1" para="1" offset="56" length="6">Whites</wf>
+    <wf id="w12" sent="1" para="1" offset="63" length="5">being</wf>
+    <wf id="w13" sent="1" para="1" offset="69" length="7">scammed</wf>
+    <wf id="w14" sent="1" para="1" offset="77" length="2">or</wf>
+    <wf id="w15" sent="1" para="1" offset="80" length="9">exploited</wf>
+    <wf id="w16" sent="1" para="1" offset="90" length="2">or</wf>
+    <wf id="w17" sent="1" para="1" offset="93" length="9">corrupted</wf>
+    <wf id="w18" sent="1" para="1" offset="103" length="2">by</wf>
+    <wf id="w19" sent="1" para="1" offset="106" length="6">mostly</wf>
+    <wf id="w20" sent="1" para="1" offset="113" length="10">exploitive</wf>
+    <wf id="w21" sent="1" para="1" offset="124" length="9">nonwhites</wf>
+    <wf id="w22" sent="1" para="1" offset="133" length="1">.</wf>
+    <wf id="w23" sent="2" para="1" offset="135" length="4">Stay</wf>
+    <wf id="w24" sent="2" para="1" offset="140" length="4">away</wf>
+    <wf id="w25" sent="2" para="1" offset="145" length="4">from</wf>
+    <wf id="w26" sent="2" para="1" offset="150" length="9">nonwhites</wf>
+    <wf id="w27" sent="2" para="1" offset="160" length="2">as</wf>
+    <wf id="w28" sent="2" para="1" offset="163" length="4">much</wf>
+    <wf id="w29" sent="2" para="1" offset="168" length="2">as</wf>
+    <wf id="w30" sent="2" para="1" offset="171" length="8">possible</wf>
+    <wf id="w31" sent="2" para="1" offset="179" length="1">.</wf>
+    <wf id="w32" sent="3" para="1" offset="181" length="5">Those</wf>
+    <wf id="w33" sent="3" para="1" offset="187" length="9">nonwhites</wf>
+    <wf id="w34" sent="3" para="1" offset="197" length="5">would</wf>
+    <wf id="w35" sent="3" para="1" offset="203" length="4">sell</wf>
+    <wf id="w36" sent="3" para="1" offset="208" length="8">anything</wf>
+    <wf id="w37" sent="3" para="1" offset="217" length="2">at</wf>
+    <wf id="w38" sent="3" para="1" offset="220" length="6">highly</wf>
+    <wf id="w39" sent="3" para="1" offset="227" length="8">inflated</wf>
+    <wf id="w40" sent="3" para="1" offset="236" length="5">price</wf>
+    <wf id="w41" sent="3" para="1" offset="241" length="1">,</wf>
+    <wf id="w42" sent="3" para="1" offset="243" length="4">even</wf>
+    <wf id="w43" sent="3" para="1" offset="248" length="4">food</wf>
+    <wf id="w44" sent="3" para="1" offset="253" length="3">for</wf>
+    <wf id="w45" sent="3" para="1" offset="257" length="3">any</wf>
+    <wf id="w46" sent="3" para="1" offset="261" length="8">starving</wf>
+    <wf id="w47" sent="3" para="1" offset="270" length="6">person</wf>
+    <wf id="w48" sent="3" para="1" offset="276" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--think-->
+    <term id="t2" type="open" lemma="think" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t3" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t4" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--more-->
+    <term id="t5" type="open" lemma="more" pos="A" morphofeat="RBR">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--likely-->
+    <term id="t6" type="open" lemma="likely" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t7" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--vulnerable-->
+    <term id="t8" type="open" lemma="vulnerable" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t9" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--desperate-->
+    <term id="t10" type="open" lemma="desperate" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Whites-->
+    <term id="t11" type="open" lemma="whites" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--being-->
+    <term id="t12" type="open" lemma="be" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--scammed-->
+    <term id="t13" type="open" lemma="scam" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--or-->
+    <term id="t14" type="open" lemma="or" pos="C" morphofeat="CC">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--exploited-->
+    <term id="t15" type="open" lemma="exploit" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--or-->
+    <term id="t16" type="open" lemma="or" pos="C" morphofeat="CC">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--corrupted-->
+    <term id="t17" type="open" lemma="corrupt" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t18" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--mostly-->
+    <term id="t19" type="open" lemma="mostly" pos="A" morphofeat="RB">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--exploitive-->
+    <term id="t20" type="open" lemma="exploitive" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--nonwhites-->
+    <term id="t21" type="open" lemma="nonwhite" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t22" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--Stay-->
+    <term id="t23" type="open" lemma="Stay" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--away-->
+    <term id="t24" type="open" lemma="away" pos="A" morphofeat="RB">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t25" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--nonwhites-->
+    <term id="t26" type="open" lemma="nonwhite" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t27" type="open" lemma="as" pos="A" morphofeat="RB">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--much-->
+    <term id="t28" type="open" lemma="much" pos="A" morphofeat="RB">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t29" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--possible-->
+    <term id="t30" type="open" lemma="possible" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t31" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--Those-->
+    <term id="t32" type="open" lemma="those" pos="D" morphofeat="DT">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--nonwhites-->
+    <term id="t33" type="open" lemma="nonwhite" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t34" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--sell-->
+    <term id="t35" type="open" lemma="sell" pos="V" morphofeat="VB">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--anything-->
+    <term id="t36" type="open" lemma="anything" pos="N" morphofeat="NN">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t37" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--highly-->
+    <term id="t38" type="open" lemma="highly" pos="A" morphofeat="RB">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--inflated-->
+    <term id="t39" type="open" lemma="inflated" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--price-->
+    <term id="t40" type="open" lemma="price" pos="N" morphofeat="NN">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t41" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--even-->
+    <term id="t42" type="open" lemma="even" pos="A" morphofeat="RB">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--food-->
+    <term id="t43" type="open" lemma="food" pos="N" morphofeat="NN">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t44" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--any-->
+    <term id="t45" type="open" lemma="any" pos="D" morphofeat="DT">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--starving-->
+    <term id="t46" type="open" lemma="starve" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--person-->
+    <term id="t47" type="open" lemma="person" pos="N" morphofeat="NN">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t48" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(think-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--SBJ(is-4, it-3)-->
+    <dep from="t4" to="t3" rfunc="SBJ" />
+    <!--OBJ(think-2, is-4)-->
+    <dep from="t2" to="t4" rfunc="OBJ" />
+    <!--AMOD(likely-6, more-5)-->
+    <dep from="t6" to="t5" rfunc="AMOD" />
+    <!--PRD(is-4, likely-6)-->
+    <dep from="t4" to="t6" rfunc="PRD" />
+    <!--AMOD(likely-6, that-7)-->
+    <dep from="t6" to="t7" rfunc="AMOD" />
+    <!--NMOD(Whites-11, vulnerable-8)-->
+    <dep from="t11" to="t8" rfunc="NMOD" />
+    <!--COORD(vulnerable-8, and-9)-->
+    <dep from="t8" to="t9" rfunc="COORD" />
+    <!--CONJ(and-9, desperate-10)-->
+    <dep from="t9" to="t10" rfunc="CONJ" />
+    <!--SBJ(being-12, Whites-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--SUB(that-7, being-12)-->
+    <dep from="t7" to="t12" rfunc="SUB" />
+    <!--VC(being-12, scammed-13)-->
+    <dep from="t12" to="t13" rfunc="VC" />
+    <!--COORD(scammed-13, or-14)-->
+    <dep from="t13" to="t14" rfunc="COORD" />
+    <!--CONJ(or-14, exploited-15)-->
+    <dep from="t14" to="t15" rfunc="CONJ" />
+    <!--COORD(exploited-15, or-16)-->
+    <dep from="t15" to="t16" rfunc="COORD" />
+    <!--CONJ(or-16, corrupted-17)-->
+    <dep from="t16" to="t17" rfunc="CONJ" />
+    <!--LGS(scammed-13, by-18)-->
+    <dep from="t13" to="t18" rfunc="LGS" />
+    <!--AMOD(exploitive-20, mostly-19)-->
+    <dep from="t20" to="t19" rfunc="AMOD" />
+    <!--NMOD(nonwhites-21, exploitive-20)-->
+    <dep from="t21" to="t20" rfunc="NMOD" />
+    <!--PMOD(by-18, nonwhites-21)-->
+    <dep from="t18" to="t21" rfunc="PMOD" />
+    <!--P(think-2, .-22)-->
+    <dep from="t2" to="t22" rfunc="P" />
+    <!--NMOD(Stay-23, away-24)-->
+    <dep from="t23" to="t24" rfunc="NMOD" />
+    <!--AMOD(away-24, from-25)-->
+    <dep from="t24" to="t25" rfunc="AMOD" />
+    <!--PMOD(from-25, nonwhites-26)-->
+    <dep from="t25" to="t26" rfunc="PMOD" />
+    <!--COORD(from-25, as-27)-->
+    <dep from="t25" to="t27" rfunc="COORD" />
+    <!--AMOD(as-27, much-28)-->
+    <dep from="t27" to="t28" rfunc="AMOD" />
+    <!--AMOD(as-27, as-29)-->
+    <dep from="t27" to="t29" rfunc="AMOD" />
+    <!--PMOD(as-29, possible-30)-->
+    <dep from="t29" to="t30" rfunc="PMOD" />
+    <!--P(Stay-23, .-31)-->
+    <dep from="t23" to="t31" rfunc="P" />
+    <!--NMOD(nonwhites-33, Those-32)-->
+    <dep from="t33" to="t32" rfunc="NMOD" />
+    <!--SBJ(would-34, nonwhites-33)-->
+    <dep from="t34" to="t33" rfunc="SBJ" />
+    <!--VC(would-34, sell-35)-->
+    <dep from="t34" to="t35" rfunc="VC" />
+    <!--OBJ(sell-35, anything-36)-->
+    <dep from="t35" to="t36" rfunc="OBJ" />
+    <!--ADV(sell-35, at-37)-->
+    <dep from="t35" to="t37" rfunc="ADV" />
+    <!--AMOD(inflated-39, highly-38)-->
+    <dep from="t39" to="t38" rfunc="AMOD" />
+    <!--NMOD(price-40, inflated-39)-->
+    <dep from="t40" to="t39" rfunc="NMOD" />
+    <!--PMOD(at-37, price-40)-->
+    <dep from="t37" to="t40" rfunc="PMOD" />
+    <!--P(sell-35, ,-41)-->
+    <dep from="t35" to="t41" rfunc="P" />
+    <!--NMOD(food-43, even-42)-->
+    <dep from="t43" to="t42" rfunc="NMOD" />
+    <!--APPO(anything-36, food-43)-->
+    <dep from="t36" to="t43" rfunc="APPO" />
+    <!--ADV(sell-35, for-44)-->
+    <dep from="t35" to="t44" rfunc="ADV" />
+    <!--NMOD(person-47, any-45)-->
+    <dep from="t47" to="t45" rfunc="NMOD" />
+    <!--NMOD(person-47, starving-46)-->
+    <dep from="t47" to="t46" rfunc="NMOD" />
+    <!--PMOD(for-44, person-47)-->
+    <dep from="t44" to="t47" rfunc="PMOD" />
+    <!--P(would-34, .-48)-->
+    <dep from="t34" to="t48" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--Stay-->
+        <span>
+          <target id="t23" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Stay_(Rihanna_song)" confidence="0.803281" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--person-->
+        <span>
+          <target id="t47" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Person" confidence="0.56669945" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--Whites-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--nonwhites-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--nonwhites-->
+        <span>
+          <target id="t26" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--nonwhites-->
+        <span>
+          <target id="t33" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--anything-->
+        <span>
+          <target id="t36" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--price-->
+        <span>
+          <target id="t40" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11" unnamed="yes">
+      <references>
+        <!--food-->
+        <span>
+          <target id="t43" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--highly inflated price-->
+      <span>
+        <target id="t38" />
+        <target id="t39" />
+        <target id="t40" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Exploitation" confidence="0.7599802205487368" spotted="true">
+      <!--exploited-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Inflation" confidence="0.9999936551516332" spotted="true">
+      <!--inflated-->
+      <span>
+        <target id="w39" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Confidence_trick" confidence="0.9099044304449805" spotted="true">
+      <!--scammed-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starvation" confidence="0.9999999998709654" spotted="true">
+      <!--starving-->
+      <span>
+        <target id="w46" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Stay_(Rihanna_song)" confidence="0.8032810225410336" spotted="true">
+      <!--Stay-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_people" confidence="0.9998135124683948" spotted="true">
+      <!--Whites-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sexual_slavery" confidence="0.9394709299281615" spotted="true">
+      <!--sell-->
+      <span>
+        <target id="w35" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Political_corruption" confidence="0.8179160314450052" spotted="true">
+      <!--corrupted-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Desperate_(Divinyls_album)" confidence="0.7426146753657199" spotted="true">
+      <!--desperate-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Person" confidence="0.5666994276668414" spotted="true">
+      <!--person-->
+      <span>
+        <target id="w47" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Vulnerable_species" confidence="0.7108387465107452" spotted="true">
+      <!--vulnerable-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 is : A1[t3 it] A2[t5 more]-->
+    <predicate id="pr2" source="mate">
+      <!--is-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl3" semRole="A1">
+        <!--it-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A2">
+        <!--more likely that vulnerable and desperate Whites being scammed or exploited or corrupted by mostly exploitive nonwhites-->
+        <span>
+          <target id="t5" />
+          <target id="t6" head="yes" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </role>
+    </predicate>
+    <!--t15 exploited : A1[t8 vulnerable] A0[t18 by]-->
+    <predicate id="pr4" source="mate">
+      <!--exploited-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="exploit.01" source="mate" />
+        <externalRef resource="VerbNet" reference="use-105" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01162754-v" />
+        <externalRef resource="WordNet" reference="ili-30-01164273-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Exploitation" confidence="0.7599802" />
+      </externalReferences>
+      <role id="rl7" semRole="A1">
+        <!--vulnerable and desperate Whites-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="use-105@Theme" />
+          <externalRef resource="PropBank" reference="exploit.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl8" semRole="A0">
+        <!--by mostly exploitive nonwhites-->
+        <span>
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="use-105@Agent" />
+          <externalRef resource="PropBank" reference="exploit.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 corrupted :-->
+    <predicate id="pr5" source="mate">
+      <!--corrupted-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="corrupt.01" source="mate" />
+        <externalRef resource="VerbNet" reference="other_cos-45.4" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Political_corruption" confidence="0.81791604" />
+      </externalReferences>
+    </predicate>
+    <!--t2 think : A0[t1 I] A1[t3 it]-->
+    <predicate id="f_pr6" source="semafor" confidence="58.78734993715502">
+      <!--think-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Opinion" />
+        <externalRef resource="PropBank" reference="think.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Opinion-think.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Cognizer" />
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="think.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A1">
+        <!--it is more likely that vulnerable and desperate Whites being scammed or exploited or corrupted by mostly exploitive nonwhites-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Opinion" />
+          <externalRef resource="VerbNet" reference="wish-62@Theme" />
+          <externalRef resource="PropBank" reference="think.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Opinion" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 more : [t5 more] [t5 more]-->
+    <predicate id="f_pr7" source="semafor" confidence="19.97395134530906">
+      <!--more-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--more-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Added_set" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Added_set" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="">
+        <!--more likely that vulnerable and desperate Whites being scammed or exploited or corrupted by mostly exploitive nonwhites-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Class" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Class" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 likely : [t3 it] [t5 more]-->
+    <predicate id="f_pr8" source="semafor" confidence="40.04620317351189">
+      <!--likely-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Likelihood" />
+        <externalRef resource="FrameBase" reference="frame-Likelihood-likely.adv" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--it-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Likelihood@Hypothetical_event" />
+          <externalRef resource="FrameBase" reference="fe-Likelihood-Hypothetical_event" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--more-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Likelihood@Degree" />
+          <externalRef resource="FrameBase" reference="fe-Likelihood-Degree" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 vulnerable : [t8 vulnerable]-->
+    <predicate id="f_pr9" source="semafor" confidence="38.10311964333978">
+      <!--vulnerable-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Being_at_risk" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Vulnerable_species" confidence="0.71083874" />
+        <externalRef resource="FrameBase" reference="frame-Being_at_risk-vulnerable.a" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--vulnerable and desperate Whites-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Being_at_risk@Asset" />
+          <externalRef resource="FrameBase" reference="fe-Being_at_risk-Asset" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 Stay : [t24 away]-->
+    <predicate id="f_pr10" source="semafor" confidence="67.68744107181965">
+      <!--Stay-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporary_stay" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Stay_(Rihanna_song)" confidence="0.803281" />
+        <externalRef resource="FrameBase" reference="frame-Temporary_stay-stay.v" />
+      </externalReferences>
+      <role id="rl16" semRole="">
+        <!--away from nonwhites as much as possible-->
+        <span>
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Temporary_stay@Location" />
+          <externalRef resource="FrameBase" reference="fe-Temporary_stay-Location" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t28 much : [t29 as] [t28 much]-->
+    <predicate id="f_pr11" source="semafor" confidence="20.250759503385353">
+      <!--much-->
+      <span>
+        <target id="t28" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+        <externalRef resource="FrameBase" reference="frame-Relational_quantity-much.art" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--as possible-->
+        <span>
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Mass" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Mass" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="">
+        <!--much-->
+        <span>
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t30 possible :-->
+    <predicate id="f_pr12" source="semafor" confidence="34.021397467967084">
+      <!--possible-->
+      <span>
+        <target id="t30" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Likelihood" />
+        <externalRef resource="FrameBase" reference="frame-Likelihood-possibility.n" />
+      </externalReferences>
+    </predicate>
+    <!--t35 sell : A0[t32 Those] A1[t36 anything] A3[t44 for] A3[t37 at] AM-MOD[t32 Those]-->
+    <predicate id="f_pr16" source="semafor" confidence="101.07502738917434">
+      <!--sell-->
+      <span>
+        <target id="t35" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Commerce_sell" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sexual_slavery" confidence="0.93947095" />
+        <externalRef resource="PropBank" reference="sell.01" source="mate" />
+        <externalRef resource="VerbNet" reference="give-13.1-1" />
+        <externalRef resource="ESO" reference="Selling" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02244956-v" />
+        <externalRef resource="WordNet" reference="ili-30-02242464-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sexual_slavery" confidence="0.93947095" />
+        <externalRef resource="FrameBase" reference="frame-Commerce_sell-sell.v" />
+      </externalReferences>
+      <role id="rl29" semRole="A0">
+        <!--Those nonwhites-->
+        <span>
+          <target id="t32" />
+          <target id="t33" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Commerce_sell@Seller" />
+          <externalRef resource="VerbNet" reference="give-13.1@Agent" />
+          <externalRef resource="PropBank" reference="sell.01@0" />
+          <externalRef resource="ESO" reference="Selling@possession-owner_1" />
+          <externalRef resource="FrameBase" reference="fe-Commerce_sell-Seller" />
+        </externalReferences>
+      </role>
+      <role id="rl30" semRole="A1">
+        <!--anything even food-->
+        <span>
+          <target id="t36" />
+          <target id="t42" />
+          <target id="t43" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Commerce_sell@Goods" />
+          <externalRef resource="VerbNet" reference="give-13.1@Theme" />
+          <externalRef resource="PropBank" reference="sell.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Commerce_sell-Goods" />
+        </externalReferences>
+      </role>
+      <role id="rl40" semRole="A3">
+        <!--for any starving person-->
+        <span>
+          <target id="t44" head="yes" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+        </span>
+      </role>
+      <role id="rl41" semRole="A3">
+        <!--at highly inflated price-->
+        <span>
+          <target id="t37" head="yes" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+      </role>
+      <role id="rl42" semRole="AM-MOD">
+        <!--Those nonwhites would sell anything at highly inflated price , even food for any starving person .-->
+        <span>
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" head="yes" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+        </span>
+      </role>
+    </predicate>
+    <!--t39 inflated : [t38 highly]-->
+    <predicate id="f_pr17" source="semafor" confidence="76.19731754793847">
+      <!--inflated-->
+      <span>
+        <target id="t39" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cause_expansion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Inflation" confidence="0.9999937" />
+      </externalReferences>
+      <role id="rl31" semRole="">
+        <!--highly inflated price-->
+        <span>
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cause_expansion@Item" />
+          <externalRef resource="FrameBase" reference="fe-Cause_expansion-Item" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t40 price : A1[t36 anything] A1[t44 for] AM-MNR[t38 highly] A2[t38 highly]-->
+    <predicate id="f_pr18" source="semafor" confidence="30.44016707143089">
+      <!--price-->
+      <span>
+        <target id="t40" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Commerce_scenario" />
+        <externalRef resource="NomBank" reference="price.01" source="mate" />
+        <externalRef resource="VerbNet" reference="price-54.4" />
+        <externalRef resource="PropBank" reference="price.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00721889-v" />
+        <externalRef resource="WordNet" reference="ili-30-02351010-v" />
+        <externalRef resource="FrameBase" reference="frame-Commerce_scenario-price.n" />
+      </externalReferences>
+      <role id="rl36" semRole="A1">
+        <!--anything even food-->
+        <span>
+          <target id="t36" head="yes" />
+          <target id="t42" />
+          <target id="t43" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="price-54.4@Theme" />
+          <externalRef resource="PropBank" reference="price.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl37" semRole="A1">
+        <!--for any starving person-->
+        <span>
+          <target id="t44" head="yes" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="price-54.4@Theme" />
+          <externalRef resource="PropBank" reference="price.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl38" semRole="AM-MNR">
+        <!--highly inflated-->
+        <span>
+          <target id="t38" />
+          <target id="t39" head="yes" />
+        </span>
+      </role>
+      <role id="rl39" semRole="A2">
+        <!--highly inflated price-->
+        <span>
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="price-54.4@Value" />
+          <externalRef resource="PropBank" reference="price.01@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t43 food : [t42 even]-->
+    <predicate id="f_pr19" source="semafor" confidence="19.430136427910902">
+      <!--food-->
+      <span>
+        <target id="t43" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Food" />
+        <externalRef resource="FrameBase" reference="frame-Food-food.n" />
+      </externalReferences>
+      <role id="rl32" semRole="">
+        <!--even food-->
+        <span>
+          <target id="t42" />
+          <target id="t43" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Food@Food" />
+          <externalRef resource="FrameBase" reference="fe-Food-Food" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t45 any : [t45 any] [t45 any]-->
+    <predicate id="f_pr20" source="semafor" confidence="23.133124816886053">
+      <!--any-->
+      <span>
+        <target id="t45" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl33" semRole="">
+        <!--any-->
+        <span>
+          <target id="t45" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl34" semRole="">
+        <!--any starving person-->
+        <span>
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t46 starving : A1[t45 any]-->
+    <predicate id="f_pr21" source="semafor" confidence="53.333534780880036">
+      <!--starving-->
+      <span>
+        <target id="t46" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Death" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starvation" confidence="1.0" />
+        <externalRef resource="PropBank" reference="starve.01" source="mate" />
+        <externalRef resource="VerbNet" reference="suffocate-40.7" />
+        <externalRef resource="ESO" reference="Killing" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starvation" confidence="1.0" />
+        <externalRef resource="FrameBase" reference="frame-Death-starve.v" />
+      </externalReferences>
+      <role id="rl43" semRole="A1">
+        <!--any starving person-->
+        <span>
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="suffocate-40.7@Theme" />
+          <externalRef resource="PropBank" reference="starve.01@1" />
+          <externalRef resource="ESO" reference="Killing@destroying-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t47 person : [t45 any]-->
+    <predicate id="f_pr22" source="semafor" confidence="36.911983196754974">
+      <!--person-->
+      <span>
+        <target id="t47" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Person" confidence="0.56669945" />
+        <externalRef resource="FrameBase" reference="frame-People-person.n" />
+      </externalReferences>
+      <role id="rl35" semRole="">
+        <!--any starving person-->
+        <span>
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (VBZ is) (ADJP (RBR more) (JJ likely) (PP (IN that) (NP (NP (ADJP (JJ vulnerable) (CC and) (JJ desperate)) (NNS Whites)) (VP (VBG being) (VP (VP (VBN scammed) (CC or) (VBN exploited)) (CC or) (VP (VBN corrupted) (PP (IN by) (NP (ADJP (RB mostly) (JJ exploitive)) (NNS nonwhites))))))))))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (NP (NP (NNP Stay)) (PP (RB away) (IN from) (NP (NNS nonwhites))) (ADVP (RB as) (RB much) (PP (IN as) (ADJP (JJ possible)))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (NP (DT Those) (NNS nonwhites)) (VP (MD would) (VP (VB sell) (NP (NN anything)) (PP (IN at) (NP (NP (ADJP (RB highly) (JJ inflated)) (NN price)) (, ,) (NP (NP (RB even) (NN food)) (PP (IN for) (NP (DT any) (VBG starving) (NN person)))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="SBAR" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="PRP" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VBZ" />
+      <nt id="nter13" label="ADJP" />
+      <nt id="nter14" label="RBR" />
+      <nt id="nter15" label="JJ" />
+      <nt id="nter16" label="PP" />
+      <nt id="nter17" label="IN" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="ADJP" />
+      <nt id="nter21" label="JJ" />
+      <nt id="nter22" label="CC" />
+      <nt id="nter23" label="JJ" />
+      <nt id="nter24" label="NNS" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VBG" />
+      <nt id="nter27" label="VP" />
+      <nt id="nter28" label="VP" />
+      <nt id="nter29" label="VBN" />
+      <nt id="nter30" label="CC" />
+      <nt id="nter31" label="VBN" />
+      <nt id="nter32" label="CC" />
+      <nt id="nter33" label="VP" />
+      <nt id="nter34" label="VBN" />
+      <nt id="nter35" label="PP" />
+      <nt id="nter36" label="IN" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="ADJP" />
+      <nt id="nter39" label="RB" />
+      <nt id="nter40" label="JJ" />
+      <nt id="nter41" label="NNS" />
+      <nt id="nter42" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--think-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--more-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--likely-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--vulnerable-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--desperate-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Whites-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--being-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--scammed-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--or-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--exploited-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--or-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--corrupted-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--mostly-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--exploitive-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--nonwhites-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="nter10" to="nter9" head="yes" />
+      <edge id="tre13" from="ter3" to="nter10" />
+      <edge id="tre14" from="nter11" to="nter8" head="yes" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="ter4" to="nter12" />
+      <edge id="tre17" from="nter13" to="nter11" />
+      <edge id="tre18" from="nter14" to="nter13" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter13" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter13" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="nter20" to="nter19" />
+      <edge id="tre28" from="nter21" to="nter20" head="yes" />
+      <edge id="tre29" from="ter8" to="nter21" />
+      <edge id="tre30" from="nter22" to="nter20" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter20" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter19" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter18" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter25" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="nter29" to="nter28" head="yes" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter28" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter28" />
+      <edge id="tre46" from="ter15" to="nter31" />
+      <edge id="tre47" from="nter32" to="nter27" />
+      <edge id="tre48" from="ter16" to="nter32" />
+      <edge id="tre49" from="nter33" to="nter27" />
+      <edge id="tre50" from="nter34" to="nter33" head="yes" />
+      <edge id="tre51" from="ter17" to="nter34" />
+      <edge id="tre52" from="nter35" to="nter33" />
+      <edge id="tre53" from="nter36" to="nter35" head="yes" />
+      <edge id="tre54" from="ter18" to="nter36" />
+      <edge id="tre55" from="nter37" to="nter35" />
+      <edge id="tre56" from="nter38" to="nter37" />
+      <edge id="tre57" from="nter39" to="nter38" />
+      <edge id="tre58" from="ter19" to="nter39" />
+      <edge id="tre59" from="nter40" to="nter38" head="yes" />
+      <edge id="tre60" from="ter20" to="nter40" />
+      <edge id="tre61" from="nter41" to="nter37" head="yes" />
+      <edge id="tre62" from="ter21" to="nter41" />
+      <edge id="tre63" from="nter42" to="nter2" />
+      <edge id="tre64" from="ter22" to="nter42" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter43" label="ROOT" />
+      <nt id="nter44" label="NP" />
+      <nt id="nter45" label="NP" />
+      <nt id="nter46" label="NNP" />
+      <nt id="nter47" label="PP" />
+      <nt id="nter48" label="RB" />
+      <nt id="nter49" label="IN" />
+      <nt id="nter50" label="NP" />
+      <nt id="nter51" label="NNS" />
+      <nt id="nter52" label="ADVP" />
+      <nt id="nter53" label="RB" />
+      <nt id="nter54" label="RB" />
+      <nt id="nter55" label="PP" />
+      <nt id="nter56" label="IN" />
+      <nt id="nter57" label="ADJP" />
+      <nt id="nter58" label="JJ" />
+      <nt id="nter59" label="." />
+      <!--Terminals-->
+      <!--Stay-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--away-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--nonwhites-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--much-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--possible-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre66" from="nter44" to="nter43" head="yes" />
+      <edge id="tre67" from="nter45" to="nter44" head="yes" />
+      <edge id="tre68" from="nter46" to="nter45" head="yes" />
+      <edge id="tre69" from="ter23" to="nter46" />
+      <edge id="tre70" from="nter47" to="nter44" />
+      <edge id="tre71" from="nter48" to="nter47" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter47" head="yes" />
+      <edge id="tre74" from="ter25" to="nter49" />
+      <edge id="tre75" from="nter50" to="nter47" />
+      <edge id="tre76" from="nter51" to="nter50" head="yes" />
+      <edge id="tre77" from="ter26" to="nter51" />
+      <edge id="tre78" from="nter52" to="nter44" />
+      <edge id="tre79" from="nter53" to="nter52" />
+      <edge id="tre80" from="ter27" to="nter53" />
+      <edge id="tre81" from="nter54" to="nter52" head="yes" />
+      <edge id="tre82" from="ter28" to="nter54" />
+      <edge id="tre83" from="nter55" to="nter52" />
+      <edge id="tre84" from="nter56" to="nter55" head="yes" />
+      <edge id="tre85" from="ter29" to="nter56" />
+      <edge id="tre86" from="nter57" to="nter55" />
+      <edge id="tre87" from="nter58" to="nter57" head="yes" />
+      <edge id="tre88" from="ter30" to="nter58" />
+      <edge id="tre89" from="nter59" to="nter44" />
+      <edge id="tre90" from="ter31" to="nter59" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter60" label="ROOT" />
+      <nt id="nter61" label="S" />
+      <nt id="nter62" label="NP" />
+      <nt id="nter63" label="DT" />
+      <nt id="nter64" label="NNS" />
+      <nt id="nter65" label="VP" />
+      <nt id="nter66" label="MD" />
+      <nt id="nter67" label="VP" />
+      <nt id="nter68" label="VB" />
+      <nt id="nter69" label="NP" />
+      <nt id="nter70" label="NN" />
+      <nt id="nter71" label="PP" />
+      <nt id="nter72" label="IN" />
+      <nt id="nter73" label="NP" />
+      <nt id="nter74" label="NP" />
+      <nt id="nter75" label="ADJP" />
+      <nt id="nter76" label="RB" />
+      <nt id="nter77" label="JJ" />
+      <nt id="nter78" label="NN" />
+      <nt id="nter79" label="," />
+      <nt id="nter80" label="NP" />
+      <nt id="nter81" label="NP" />
+      <nt id="nter82" label="RB" />
+      <nt id="nter83" label="NN" />
+      <nt id="nter84" label="PP" />
+      <nt id="nter85" label="IN" />
+      <nt id="nter86" label="NP" />
+      <nt id="nter87" label="DT" />
+      <nt id="nter88" label="VBG" />
+      <nt id="nter89" label="NN" />
+      <nt id="nter90" label="." />
+      <!--Terminals-->
+      <!--Those-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--nonwhites-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--sell-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--anything-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--highly-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--inflated-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--price-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter41">
+        <span>
+          <target id="t41" />
+        </span>
+      </t>
+      <!--even-->
+      <t id="ter42">
+        <span>
+          <target id="t42" />
+        </span>
+      </t>
+      <!--food-->
+      <t id="ter43">
+        <span>
+          <target id="t43" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter44">
+        <span>
+          <target id="t44" />
+        </span>
+      </t>
+      <!--any-->
+      <t id="ter45">
+        <span>
+          <target id="t45" />
+        </span>
+      </t>
+      <!--starving-->
+      <t id="ter46">
+        <span>
+          <target id="t46" />
+        </span>
+      </t>
+      <!--person-->
+      <t id="ter47">
+        <span>
+          <target id="t47" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter48">
+        <span>
+          <target id="t48" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre92" from="nter61" to="nter60" head="yes" />
+      <edge id="tre93" from="nter62" to="nter61" />
+      <edge id="tre94" from="nter63" to="nter62" />
+      <edge id="tre95" from="ter32" to="nter63" />
+      <edge id="tre96" from="nter64" to="nter62" head="yes" />
+      <edge id="tre97" from="ter33" to="nter64" />
+      <edge id="tre98" from="nter65" to="nter61" head="yes" />
+      <edge id="tre99" from="nter66" to="nter65" head="yes" />
+      <edge id="tre100" from="ter34" to="nter66" />
+      <edge id="tre101" from="nter67" to="nter65" />
+      <edge id="tre102" from="nter68" to="nter67" head="yes" />
+      <edge id="tre103" from="ter35" to="nter68" />
+      <edge id="tre104" from="nter69" to="nter67" />
+      <edge id="tre105" from="nter70" to="nter69" head="yes" />
+      <edge id="tre106" from="ter36" to="nter70" />
+      <edge id="tre107" from="nter71" to="nter67" />
+      <edge id="tre108" from="nter72" to="nter71" head="yes" />
+      <edge id="tre109" from="ter37" to="nter72" />
+      <edge id="tre110" from="nter73" to="nter71" />
+      <edge id="tre111" from="nter74" to="nter73" head="yes" />
+      <edge id="tre112" from="nter75" to="nter74" />
+      <edge id="tre113" from="nter76" to="nter75" />
+      <edge id="tre114" from="ter38" to="nter76" />
+      <edge id="tre115" from="nter77" to="nter75" head="yes" />
+      <edge id="tre116" from="ter39" to="nter77" />
+      <edge id="tre117" from="nter78" to="nter74" head="yes" />
+      <edge id="tre118" from="ter40" to="nter78" />
+      <edge id="tre119" from="nter79" to="nter73" />
+      <edge id="tre120" from="ter41" to="nter79" />
+      <edge id="tre121" from="nter80" to="nter73" />
+      <edge id="tre122" from="nter81" to="nter80" head="yes" />
+      <edge id="tre123" from="nter82" to="nter81" />
+      <edge id="tre124" from="ter42" to="nter82" />
+      <edge id="tre125" from="nter83" to="nter81" head="yes" />
+      <edge id="tre126" from="ter43" to="nter83" />
+      <edge id="tre127" from="nter84" to="nter80" />
+      <edge id="tre128" from="nter85" to="nter84" head="yes" />
+      <edge id="tre129" from="ter44" to="nter85" />
+      <edge id="tre130" from="nter86" to="nter84" />
+      <edge id="tre131" from="nter87" to="nter86" />
+      <edge id="tre132" from="ter45" to="nter87" />
+      <edge id="tre133" from="nter88" to="nter86" />
+      <edge id="tre134" from="ter46" to="nter88" />
+      <edge id="tre135" from="nter89" to="nter86" head="yes" />
+      <edge id="tre136" from="ter47" to="nter89" />
+      <edge id="tre137" from="nter90" to="nter61" />
+      <edge id="tre138" from="ter48" to="nter90" />
+    </tree>
+  </constituency>
+</NAF>

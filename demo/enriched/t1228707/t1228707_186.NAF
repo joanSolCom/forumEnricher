@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:35+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:35.421+0100" endTimestamp="2017-11-21T16:39:35.728+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:35.729+0100" endTimestamp="2017-11-21T16:39:35.729+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Cultural Marxism and Capitalism without control]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Cultural</wf>
+    <wf id="w2" sent="1" para="1" offset="9" length="7">Marxism</wf>
+    <wf id="w3" sent="1" para="1" offset="17" length="3">and</wf>
+    <wf id="w4" sent="1" para="1" offset="21" length="10">Capitalism</wf>
+    <wf id="w5" sent="1" para="1" offset="32" length="7">without</wf>
+    <wf id="w6" sent="1" para="1" offset="40" length="7">control</wf>
+  </text>
+  <terms>
+    <!--Cultural-->
+    <term id="t1" type="open" lemma="cultural" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Marxism-->
+    <term id="t2" type="open" lemma="Marxism" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t3" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Capitalism-->
+    <term id="t4" type="open" lemma="capitalism" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--without-->
+    <term id="t5" type="open" lemma="without" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--control-->
+    <term id="t6" type="open" lemma="control" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(Marxism-2, Cultural-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--COORD(Marxism-2, and-3)-->
+    <dep from="t2" to="t3" rfunc="COORD" />
+    <!--CONJ(and-3, Capitalism-4)-->
+    <dep from="t3" to="t4" rfunc="CONJ" />
+    <!--NMOD(Capitalism-4, without-5)-->
+    <dep from="t4" to="t5" rfunc="NMOD" />
+    <!--PMOD(without-5, control-6)-->
+    <dep from="t5" to="t6" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Cultural Marxism-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Cultural_Marxism" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Capitalism-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Capitalism" confidence="0.9999751" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--control-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Cultural_Marxism" confidence="0.9999999995191189" spotted="true">
+      <!--Cultural Marxism-->
+      <span>
+        <target id="w1" />
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Capitalism" confidence="0.9999750768620584" spotted="true">
+      <!--Capitalism-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Control_theory" confidence="0.6554525739002486" spotted="true">
+      <!--control-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t6 control : [t4 Capitalism]-->
+    <predicate id="f_pr2" source="semafor" confidence="7.086239772162798">
+      <!--control-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Be_in_control" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Control_theory" confidence="0.65545255" />
+        <externalRef resource="NomBank" reference="control.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Control_theory" confidence="0.65545255" />
+        <externalRef resource="FrameBase" reference="frame-Be_in_control-control.n" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--Capitalism without control-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Be_in_control@Controlling_entity" />
+          <externalRef resource="FrameBase" reference="fe-Be_in_control-Controlling_entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (NP (JJ Cultural) (NNP Marxism)) (CC and) (NP (NN Capitalism))) (PP (IN without) (NP (NN control)))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="JJ" />
+      <nt id="nter6" label="NNP" />
+      <nt id="nter7" label="CC" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="NN" />
+      <nt id="nter10" label="PP" />
+      <nt id="nter11" label="IN" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NN" />
+      <!--Terminals-->
+      <!--Cultural-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Marxism-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Capitalism-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--without-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--control-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter4" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter3" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter3" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter2" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter10" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+    </tree>
+  </constituency>
+</NAF>

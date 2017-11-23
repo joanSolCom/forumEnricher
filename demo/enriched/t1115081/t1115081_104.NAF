@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:31:30+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:31:30.314+0100" endTimestamp="2017-11-20T12:31:30.822+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:31:30.825+0100" endTimestamp="2017-11-20T12:31:30.826+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[You are right, but Protestantism was used to fragment the Church of Rome. Jews hate Rome, because the Romans expelled them from Judea. They never forget a grudge. We are just cattle to them.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">You</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="3">are</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="5">right</wf>
+    <wf id="w4" sent="1" para="1" offset="13" length="1">,</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="3">but</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="13">Protestantism</wf>
+    <wf id="w7" sent="1" para="1" offset="33" length="3">was</wf>
+    <wf id="w8" sent="1" para="1" offset="37" length="4">used</wf>
+    <wf id="w9" sent="1" para="1" offset="42" length="2">to</wf>
+    <wf id="w10" sent="1" para="1" offset="45" length="8">fragment</wf>
+    <wf id="w11" sent="1" para="1" offset="54" length="3">the</wf>
+    <wf id="w12" sent="1" para="1" offset="58" length="6">Church</wf>
+    <wf id="w13" sent="1" para="1" offset="65" length="2">of</wf>
+    <wf id="w14" sent="1" para="1" offset="68" length="4">Rome</wf>
+    <wf id="w15" sent="1" para="1" offset="72" length="1">.</wf>
+    <wf id="w16" sent="2" para="1" offset="74" length="4">Jews</wf>
+    <wf id="w17" sent="2" para="1" offset="79" length="4">hate</wf>
+    <wf id="w18" sent="2" para="1" offset="84" length="4">Rome</wf>
+    <wf id="w19" sent="2" para="1" offset="88" length="1">,</wf>
+    <wf id="w20" sent="2" para="1" offset="90" length="7">because</wf>
+    <wf id="w21" sent="2" para="1" offset="98" length="3">the</wf>
+    <wf id="w22" sent="2" para="1" offset="102" length="6">Romans</wf>
+    <wf id="w23" sent="2" para="1" offset="109" length="8">expelled</wf>
+    <wf id="w24" sent="2" para="1" offset="118" length="4">them</wf>
+    <wf id="w25" sent="2" para="1" offset="123" length="4">from</wf>
+    <wf id="w26" sent="2" para="1" offset="128" length="5">Judea</wf>
+    <wf id="w27" sent="2" para="1" offset="133" length="1">.</wf>
+    <wf id="w28" sent="3" para="1" offset="135" length="4">They</wf>
+    <wf id="w29" sent="3" para="1" offset="140" length="5">never</wf>
+    <wf id="w30" sent="3" para="1" offset="146" length="6">forget</wf>
+    <wf id="w31" sent="3" para="1" offset="153" length="1">a</wf>
+    <wf id="w32" sent="3" para="1" offset="155" length="6">grudge</wf>
+    <wf id="w33" sent="3" para="1" offset="161" length="1">.</wf>
+    <wf id="w34" sent="4" para="1" offset="163" length="2">We</wf>
+    <wf id="w35" sent="4" para="1" offset="166" length="3">are</wf>
+    <wf id="w36" sent="4" para="1" offset="170" length="4">just</wf>
+    <wf id="w37" sent="4" para="1" offset="175" length="6">cattle</wf>
+    <wf id="w38" sent="4" para="1" offset="182" length="2">to</wf>
+    <wf id="w39" sent="4" para="1" offset="185" length="4">them</wf>
+    <wf id="w40" sent="4" para="1" offset="189" length="1">.</wf>
+  </text>
+  <terms>
+    <!--You-->
+    <term id="t1" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--right-->
+    <term id="t3" type="open" lemma="right" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t4" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--but-->
+    <term id="t5" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Protestantism-->
+    <term id="t6" type="open" lemma="Protestantism" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t7" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--used-->
+    <term id="t8" type="open" lemma="use" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t9" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--fragment-->
+    <term id="t10" type="open" lemma="fragment" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t11" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Church-->
+    <term id="t12" type="open" lemma="Church" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t13" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--Rome-->
+    <term id="t14" type="open" lemma="Rome" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t16" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--hate-->
+    <term id="t17" type="open" lemma="hate" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--Rome-->
+    <term id="t18" type="open" lemma="Rome" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t19" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--because-->
+    <term id="t20" type="open" lemma="because" pos="P" morphofeat="IN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t21" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--Romans-->
+    <term id="t22" type="open" lemma="Romans" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--expelled-->
+    <term id="t23" type="open" lemma="expel" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t24" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t25" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--Judea-->
+    <term id="t26" type="open" lemma="Judea" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t27" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--They-->
+    <term id="t28" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--never-->
+    <term id="t29" type="open" lemma="never" pos="A" morphofeat="RB">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--forget-->
+    <term id="t30" type="open" lemma="forget" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t31" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--grudge-->
+    <term id="t32" type="open" lemma="grudge" pos="N" morphofeat="NN">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t33" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--We-->
+    <term id="t34" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t35" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t36" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--cattle-->
+    <term id="t37" type="open" lemma="cattle" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t38" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t39" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t40" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(are-2, You-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(are-2, right-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--P(are-2, ,-4)-->
+    <dep from="t2" to="t4" rfunc="P" />
+    <!--COORD(are-2, but-5)-->
+    <dep from="t2" to="t5" rfunc="COORD" />
+    <!--SBJ(was-7, Protestantism-6)-->
+    <dep from="t7" to="t6" rfunc="SBJ" />
+    <!--CONJ(but-5, was-7)-->
+    <dep from="t5" to="t7" rfunc="CONJ" />
+    <!--ADV(was-7, used-8)-->
+    <dep from="t7" to="t8" rfunc="ADV" />
+    <!--ADV(used-8, to-9)-->
+    <dep from="t8" to="t9" rfunc="ADV" />
+    <!--NMOD(Church-12, fragment-10)-->
+    <dep from="t12" to="t10" rfunc="NMOD" />
+    <!--NMOD(Church-12, the-11)-->
+    <dep from="t12" to="t11" rfunc="NMOD" />
+    <!--PMOD(to-9, Church-12)-->
+    <dep from="t9" to="t12" rfunc="PMOD" />
+    <!--NMOD(Church-12, of-13)-->
+    <dep from="t12" to="t13" rfunc="NMOD" />
+    <!--PMOD(of-13, Rome-14)-->
+    <dep from="t13" to="t14" rfunc="PMOD" />
+    <!--P(are-2, .-15)-->
+    <dep from="t2" to="t15" rfunc="P" />
+    <!--SBJ(hate-17, Jews-16)-->
+    <dep from="t17" to="t16" rfunc="SBJ" />
+    <!--OBJ(hate-17, Rome-18)-->
+    <dep from="t17" to="t18" rfunc="OBJ" />
+    <!--P(hate-17, ,-19)-->
+    <dep from="t17" to="t19" rfunc="P" />
+    <!--PRP(hate-17, because-20)-->
+    <dep from="t17" to="t20" rfunc="PRP" />
+    <!--NMOD(Romans-22, the-21)-->
+    <dep from="t22" to="t21" rfunc="NMOD" />
+    <!--SBJ(expelled-23, Romans-22)-->
+    <dep from="t23" to="t22" rfunc="SBJ" />
+    <!--SUB(because-20, expelled-23)-->
+    <dep from="t20" to="t23" rfunc="SUB" />
+    <!--OBJ(expelled-23, them-24)-->
+    <dep from="t23" to="t24" rfunc="OBJ" />
+    <!--ADV(expelled-23, from-25)-->
+    <dep from="t23" to="t25" rfunc="ADV" />
+    <!--PMOD(from-25, Judea-26)-->
+    <dep from="t25" to="t26" rfunc="PMOD" />
+    <!--P(hate-17, .-27)-->
+    <dep from="t17" to="t27" rfunc="P" />
+    <!--SBJ(forget-30, They-28)-->
+    <dep from="t30" to="t28" rfunc="SBJ" />
+    <!--TMP(forget-30, never-29)-->
+    <dep from="t30" to="t29" rfunc="TMP" />
+    <!--NMOD(grudge-32, a-31)-->
+    <dep from="t32" to="t31" rfunc="NMOD" />
+    <!--OBJ(forget-30, grudge-32)-->
+    <dep from="t30" to="t32" rfunc="OBJ" />
+    <!--P(forget-30, .-33)-->
+    <dep from="t30" to="t33" rfunc="P" />
+    <!--SBJ(are-35, We-34)-->
+    <dep from="t35" to="t34" rfunc="SBJ" />
+    <!--ADV(are-35, just-36)-->
+    <dep from="t35" to="t36" rfunc="ADV" />
+    <!--OBJ(are-35, cattle-37)-->
+    <dep from="t35" to="t37" rfunc="OBJ" />
+    <!--ADV(are-35, to-38)-->
+    <dep from="t35" to="t38" rfunc="ADV" />
+    <!--PMOD(to-38, them-39)-->
+    <dep from="t38" to="t39" rfunc="PMOD" />
+    <!--P(are-35, .-40)-->
+    <dep from="t35" to="t40" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="LOCATION">
+      <references>
+        <!--Rome-->
+        <span>
+          <target id="t14" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Rome" confidence="0.8680436" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="LOCATION">
+      <references>
+        <!--Rome-->
+        <span>
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Rome" confidence="0.8680436" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="ORGANIZATION">
+      <references>
+        <!--Romans-->
+        <span>
+          <target id="t22" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Roman_Empire" confidence="0.6395497" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" type="LOCATION">
+      <references>
+        <!--Judea-->
+        <span>
+          <target id="t26" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Judea_(Roman_province)" confidence="0.5033978" />
+      </externalReferences>
+    </entity>
+    <entity id="e5">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9886444" />
+      </externalReferences>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--cattle-->
+        <span>
+          <target id="t37" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Cattle" confidence="0.9998957" />
+      </externalReferences>
+    </entity>
+    <entity id="e7">
+      <references>
+        <!--Protestantism-->
+        <span>
+          <target id="t6" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Protestantism" confidence="0.9994542" />
+      </externalReferences>
+    </entity>
+    <entity id="e8">
+      <references>
+        <!--Church-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Catholic_Church" confidence="0.98496526" />
+      </externalReferences>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--You-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--fragment-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e12" unnamed="yes">
+      <references>
+        <!--They-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e13" unnamed="yes">
+      <references>
+        <!--grudge-->
+        <span>
+          <target id="t32" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e14" unnamed="yes">
+      <references>
+        <!--We-->
+        <span>
+          <target id="t34" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e15" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t39" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--Rome-->
+      <span>
+        <target id="t18" head="yes" />
+      </span>
+      <!--Rome-->
+      <span>
+        <target id="t14" head="yes" />
+      </span>
+    </coref>
+    <coref id="co2">
+      <!--Jews-->
+      <span>
+        <target id="t16" head="yes" />
+      </span>
+      <!--They-->
+      <span>
+        <target id="t28" head="yes" />
+      </span>
+      <!--them-->
+      <span>
+        <target id="t24" head="yes" />
+      </span>
+      <!--them-->
+      <span>
+        <target id="t39" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/You_(George_Harrison_song)" confidence="0.9378346347403368" spotted="true">
+      <!--You-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Judea_(Roman_province)" confidence="0.5033978056597245" spotted="true">
+      <!--Judea-->
+      <span>
+        <target id="w26" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/South_Africa" confidence="0.5505302138459234" spotted="true">
+      <!--We-->
+      <span>
+        <target id="w34" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Rome" confidence="0.8680435741672846" spotted="true">
+      <!--Rome-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Roman_Empire" confidence="0.6395496683240425" spotted="true">
+      <!--Romans-->
+      <span>
+        <target id="w22" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/False_hero" confidence="0.8294330179655446" spotted="true">
+      <!--They-->
+      <span>
+        <target id="w28" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9886444411929063" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Habitat_fragmentation" confidence="0.3374362062059409" spotted="true">
+      <!--fragment-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Flight_and_expulsion_of_Germans_(1944–50)" confidence="0.7446219239400669" spotted="true">
+      <!--expelled-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hatred" confidence="0.9989954690064055" spotted="true">
+      <!--hate-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Cattle" confidence="0.9998956828101717" spotted="true">
+      <!--cattle-->
+      <span>
+        <target id="w37" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le12" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Forgetting" confidence="0.999994181202443" spotted="true">
+      <!--forget-->
+      <span>
+        <target id="w30" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le13" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Protestantism" confidence="0.9994542278691916" spotted="true">
+      <!--Protestantism-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le14" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Rome" confidence="0.8680435741672846" spotted="true">
+      <!--Rome-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le15" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Catholic_Church" confidence="0.9849652539545681" spotted="true">
+      <!--Church-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 are : A1[t1 You] A2[t3 right]-->
+    <predicate id="pr1" source="mate">
+      <!--are-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--You-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A2">
+        <!--right-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 was : A1[t6 Protestantism] A2[t8 used]-->
+    <predicate id="pr2" source="mate">
+      <!--was-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl3" semRole="A1">
+        <!--Protestantism-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A2">
+        <!--used to fragment the Church of Rome-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 right :-->
+    <predicate id="f_pr5" source="semafor" confidence="72.11238404584395">
+      <!--right-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Correctness" />
+      </externalReferences>
+    </predicate>
+    <!--t8 used : [t10 fragment] A1[t6 Protestantism] A2[t9 to]-->
+    <predicate id="f_pr6" source="semafor" confidence="121.31808089954005">
+      <!--used-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Using" />
+        <externalRef resource="PropBank" reference="use.01" source="mate" />
+        <externalRef resource="VerbNet" reference="fit-54.3" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01158572-v" />
+        <externalRef resource="WordNet" reference="ili-30-01158872-v" />
+        <externalRef resource="FrameBase" reference="frame-Using-use.v" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--fragment the Church of Rome-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Using@Instrument" />
+          <externalRef resource="FrameBase" reference="fe-Using-Instrument" />
+        </externalReferences>
+      </role>
+      <role id="rl34" semRole="A1">
+        <!--Protestantism-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="fit-54.3@Value" />
+          <externalRef resource="PropBank" reference="use.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl35" semRole="A2">
+        <!--to fragment the Church of Rome-->
+        <span>
+          <target id="t9" head="yes" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="fit-54.3@Location" />
+          <externalRef resource="PropBank" reference="use.01@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 fragment : [t10 fragment]-->
+    <predicate id="f_pr7" source="semafor" confidence="9.612883375615233">
+      <!--fragment-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_piece" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Habitat_fragmentation" confidence="0.3374362" />
+        <externalRef resource="FrameBase" reference="frame-Part_piece-shard.n" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--fragment-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_piece@Piece" />
+          <externalRef resource="FrameBase" reference="fe-Part_piece-Piece" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 Church : A1[t13 of] A1[t10 fragment] A0[t10 fragment]-->
+    <predicate id="f_pr8" source="semafor" confidence="65.76870196920135">
+      <!--Church-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Buildings" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Catholic_Church" confidence="0.98496526" />
+        <externalRef resource="NomBank" reference="Church.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Catholic_Church" confidence="0.98496526" />
+        <externalRef resource="FrameBase" reference="frame-Buildings-church.n" />
+      </externalReferences>
+      <role id="rl38" semRole="A1">
+        <!--of Rome-->
+        <span>
+          <target id="t13" head="yes" />
+          <target id="t14" />
+        </span>
+      </role>
+      <role id="rl39" semRole="A1">
+        <!--fragment-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </role>
+      <role id="rl40" semRole="A0">
+        <!--fragment the Church of Rome-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 Jews : [t16 Jews]-->
+    <predicate id="f_pr11" source="semafor" confidence="36.985628615900595">
+      <!--Jews-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9886444" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--Jews-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 hate : A1[t18 Rome] A0[t16 Jews] AM-CAU[t20 because]-->
+    <predicate id="f_pr12" source="semafor" confidence="66.7068561849845">
+      <!--hate-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Experiencer_focus" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hatred" confidence="0.9989955" />
+        <externalRef resource="PropBank" reference="hate.01" source="mate" />
+        <externalRef resource="VerbNet" reference="admire-31.2-1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01774136-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hatred" confidence="0.9989955" />
+        <externalRef resource="FrameBase" reference="frame-Experiencer_focus-hate.v" />
+      </externalReferences>
+      <role id="rl19" semRole="A1">
+        <!--Rome-->
+        <span>
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Experiencer_focus@Content" />
+          <externalRef resource="VerbNet" reference="admire-31.2@Stimulus" />
+          <externalRef resource="PropBank" reference="hate.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Experiencer_focus-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="A0">
+        <!--Jews-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Experiencer_focus@Experiencer" />
+          <externalRef resource="VerbNet" reference="admire-31.2@Experiencer" />
+          <externalRef resource="PropBank" reference="hate.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Experiencer_focus-Experiencer" />
+        </externalReferences>
+      </role>
+      <role id="rl36" semRole="AM-CAU">
+        <!--because the Romans expelled them from Judea-->
+        <span>
+          <target id="t20" head="yes" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+        </span>
+      </role>
+    </predicate>
+    <!--t23 expelled : A2[t25 from] A0[t21 the] A1[t24 them]-->
+    <predicate id="f_pr13" source="semafor" confidence="171.33880472513982">
+      <!--expelled-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Removing" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Flight_and_expulsion_of_Germans_(1944–50)" confidence="0.74462193" />
+        <externalRef resource="PropBank" reference="expel.01" source="mate" />
+        <externalRef resource="VerbNet" reference="remove-10.1" />
+        <externalRef resource="ESO" reference="Removing" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02401809-v" />
+        <externalRef resource="WordNet" reference="ili-30-02501738-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Flight_and_expulsion_of_Germans_(1944–50)" confidence="0.74462193" />
+        <externalRef resource="FrameBase" reference="frame-Removing-oust.v" />
+      </externalReferences>
+      <role id="rl21" semRole="A2">
+        <!--from Judea-->
+        <span>
+          <target id="t25" />
+          <target id="t26" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Removing@Source" />
+          <externalRef resource="VerbNet" reference="remove-10.1@Source" />
+          <externalRef resource="PropBank" reference="expel.01@2" />
+          <externalRef resource="ESO" reference="Removing@translocation-source" />
+          <externalRef resource="FrameBase" reference="fe-Removing-Source" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="A0">
+        <!--the Romans-->
+        <span>
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Removing@Agent" />
+          <externalRef resource="VerbNet" reference="remove-10.1@Agent" />
+          <externalRef resource="PropBank" reference="expel.01@0" />
+          <externalRef resource="ESO" reference="Removing@translocation-theme" />
+          <externalRef resource="FrameBase" reference="fe-Removing-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="A1">
+        <!--them-->
+        <span>
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Removing@Theme" />
+          <externalRef resource="VerbNet" reference="remove-10.1@Theme" />
+          <externalRef resource="PropBank" reference="expel.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Removing-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 never : [t28 They]-->
+    <predicate id="f_pr15" source="semafor" confidence="43.39550945347862">
+      <!--never-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-never.adv" />
+      </externalReferences>
+      <role id="rl27" semRole="">
+        <!--They-->
+        <span>
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t30 forget : A0[t28 They] A1[t31 a] AM-TMP[t29 never]-->
+    <predicate id="f_pr16" source="semafor" confidence="38.44966351816733">
+      <!--forget-->
+      <span>
+        <target id="t30" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Abandonment" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Forgetting" confidence="0.99999416" />
+        <externalRef resource="PropBank" reference="forget.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Forgetting" confidence="0.99999416" />
+        <externalRef resource="FrameBase" reference="frame-Abandonment-forget.v" />
+      </externalReferences>
+      <role id="rl28" semRole="A0">
+        <!--They-->
+        <span>
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Abandonment@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Abandonment-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="A1">
+        <!--a grudge-->
+        <span>
+          <target id="t31" />
+          <target id="t32" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Abandonment@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Abandonment-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl37" semRole="AM-TMP">
+        <!--never-->
+        <span>
+          <target id="t29" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t35 are : A2[t38 to] A2[t37 cattle] A1[t34 We] AM-ADV[t36 just]-->
+    <predicate id="pr17" source="mate">
+      <!--are-->
+      <span>
+        <target id="t35" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl30" semRole="A2">
+        <!--to them-->
+        <span>
+          <target id="t38" head="yes" />
+          <target id="t39" />
+        </span>
+      </role>
+      <role id="rl31" semRole="A2">
+        <!--cattle-->
+        <span>
+          <target id="t37" head="yes" />
+        </span>
+      </role>
+      <role id="rl32" semRole="A1">
+        <!--We-->
+        <span>
+          <target id="t34" head="yes" />
+        </span>
+      </role>
+      <role id="rl33" semRole="AM-ADV">
+        <!--just-->
+        <span>
+          <target id="t36" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (NP (PRP You)) (VP (VBP are) (ADJP (RB right)))) (, ,) (CC but) (S (NP (NNP Protestantism)) (VP (VBD was) (VP (VBN used) (PP (TO to) (NP (NN fragment))) (NP (NP (DT the) (NNP Church)) (PP (IN of) (NP (NNP Rome))))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (NNPS Jews)) (VP (VBP hate) (NP (NP (NNP Rome)) (, ,) (SBAR (IN because) (S (NP (DT the) (NNPS Romans)) (VP (VBD expelled) (NP (PRP them)) (PP (IN from) (NP (NNP Judea)))))))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (NP (PRP They)) (ADVP (RB never)) (VP (VBP forget) (NP (DT a) (NN grudge))) (. .)))</tree>
+    <tree sentence="4">(ROOT (S (NP (PRP We)) (VP (VBP are) (ADVP (RB just)) (NP (NP (NNS cattle)) (PP (TO to) (NP (PRP them))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VBP" />
+      <nt id="nter8" label="ADJP" />
+      <nt id="nter9" label="RB" />
+      <nt id="nter10" label="," />
+      <nt id="nter11" label="CC" />
+      <nt id="nter12" label="S" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="NNP" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VBD" />
+      <nt id="nter17" label="VP" />
+      <nt id="nter18" label="VBN" />
+      <nt id="nter19" label="PP" />
+      <nt id="nter20" label="TO" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="NN" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="DT" />
+      <nt id="nter26" label="NNP" />
+      <nt id="nter27" label="PP" />
+      <nt id="nter28" label="IN" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NNP" />
+      <nt id="nter31" label="." />
+      <!--Terminals-->
+      <!--You-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--right-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--but-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Protestantism-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--used-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--fragment-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Church-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Rome-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter2" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter2" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter2" />
+      <edge id="tre18" from="nter13" to="nter12" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter12" head="yes" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" />
+      <edge id="tre25" from="nter18" to="nter17" head="yes" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter17" />
+      <edge id="tre28" from="nter20" to="nter19" head="yes" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter19" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter17" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="nter25" to="nter24" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter23" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="nter30" to="nter29" head="yes" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter2" />
+      <edge id="tre46" from="ter15" to="nter31" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter32" label="ROOT" />
+      <nt id="nter33" label="S" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="NNPS" />
+      <nt id="nter36" label="VP" />
+      <nt id="nter37" label="VBP" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="NNP" />
+      <nt id="nter41" label="," />
+      <nt id="nter42" label="SBAR" />
+      <nt id="nter43" label="IN" />
+      <nt id="nter44" label="S" />
+      <nt id="nter45" label="NP" />
+      <nt id="nter46" label="DT" />
+      <nt id="nter47" label="NNPS" />
+      <nt id="nter48" label="VP" />
+      <nt id="nter49" label="VBD" />
+      <nt id="nter50" label="NP" />
+      <nt id="nter51" label="PRP" />
+      <nt id="nter52" label="PP" />
+      <nt id="nter53" label="IN" />
+      <nt id="nter54" label="NP" />
+      <nt id="nter55" label="NNP" />
+      <nt id="nter56" label="." />
+      <!--Terminals-->
+      <!--Jews-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--hate-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Rome-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--because-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--Romans-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--expelled-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--Judea-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="nter34" to="nter33" />
+      <edge id="tre50" from="nter35" to="nter34" head="yes" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter33" head="yes" />
+      <edge id="tre53" from="nter37" to="nter36" head="yes" />
+      <edge id="tre54" from="ter17" to="nter37" />
+      <edge id="tre55" from="nter38" to="nter36" />
+      <edge id="tre56" from="nter39" to="nter38" head="yes" />
+      <edge id="tre57" from="nter40" to="nter39" head="yes" />
+      <edge id="tre58" from="ter18" to="nter40" />
+      <edge id="tre59" from="nter41" to="nter38" />
+      <edge id="tre60" from="ter19" to="nter41" />
+      <edge id="tre61" from="nter42" to="nter38" />
+      <edge id="tre62" from="nter43" to="nter42" head="yes" />
+      <edge id="tre63" from="ter20" to="nter43" />
+      <edge id="tre64" from="nter44" to="nter42" />
+      <edge id="tre65" from="nter45" to="nter44" />
+      <edge id="tre66" from="nter46" to="nter45" />
+      <edge id="tre67" from="ter21" to="nter46" />
+      <edge id="tre68" from="nter47" to="nter45" head="yes" />
+      <edge id="tre69" from="ter22" to="nter47" />
+      <edge id="tre70" from="nter48" to="nter44" head="yes" />
+      <edge id="tre71" from="nter49" to="nter48" head="yes" />
+      <edge id="tre72" from="ter23" to="nter49" />
+      <edge id="tre73" from="nter50" to="nter48" />
+      <edge id="tre74" from="nter51" to="nter50" head="yes" />
+      <edge id="tre75" from="ter24" to="nter51" />
+      <edge id="tre76" from="nter52" to="nter48" />
+      <edge id="tre77" from="nter53" to="nter52" head="yes" />
+      <edge id="tre78" from="ter25" to="nter53" />
+      <edge id="tre79" from="nter54" to="nter52" />
+      <edge id="tre80" from="nter55" to="nter54" head="yes" />
+      <edge id="tre81" from="ter26" to="nter55" />
+      <edge id="tre82" from="nter56" to="nter33" />
+      <edge id="tre83" from="ter27" to="nter56" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter57" label="ROOT" />
+      <nt id="nter58" label="S" />
+      <nt id="nter59" label="NP" />
+      <nt id="nter60" label="PRP" />
+      <nt id="nter61" label="ADVP" />
+      <nt id="nter62" label="RB" />
+      <nt id="nter63" label="VP" />
+      <nt id="nter64" label="VBP" />
+      <nt id="nter65" label="NP" />
+      <nt id="nter66" label="DT" />
+      <nt id="nter67" label="NN" />
+      <nt id="nter68" label="." />
+      <!--Terminals-->
+      <!--They-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--never-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--forget-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--grudge-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre85" from="nter58" to="nter57" head="yes" />
+      <edge id="tre86" from="nter59" to="nter58" />
+      <edge id="tre87" from="nter60" to="nter59" head="yes" />
+      <edge id="tre88" from="ter28" to="nter60" />
+      <edge id="tre89" from="nter61" to="nter58" />
+      <edge id="tre90" from="nter62" to="nter61" head="yes" />
+      <edge id="tre91" from="ter29" to="nter62" />
+      <edge id="tre92" from="nter63" to="nter58" head="yes" />
+      <edge id="tre93" from="nter64" to="nter63" head="yes" />
+      <edge id="tre94" from="ter30" to="nter64" />
+      <edge id="tre95" from="nter65" to="nter63" />
+      <edge id="tre96" from="nter66" to="nter65" />
+      <edge id="tre97" from="ter31" to="nter66" />
+      <edge id="tre98" from="nter67" to="nter65" head="yes" />
+      <edge id="tre99" from="ter32" to="nter67" />
+      <edge id="tre100" from="nter68" to="nter58" />
+      <edge id="tre101" from="ter33" to="nter68" />
+    </tree>
+    <tree sentence="4">
+      <!--Non-terminals-->
+      <nt id="nter69" label="ROOT" />
+      <nt id="nter70" label="S" />
+      <nt id="nter71" label="NP" />
+      <nt id="nter72" label="PRP" />
+      <nt id="nter73" label="VP" />
+      <nt id="nter74" label="VBP" />
+      <nt id="nter75" label="ADVP" />
+      <nt id="nter76" label="RB" />
+      <nt id="nter77" label="NP" />
+      <nt id="nter78" label="NP" />
+      <nt id="nter79" label="NNS" />
+      <nt id="nter80" label="PP" />
+      <nt id="nter81" label="TO" />
+      <nt id="nter82" label="NP" />
+      <nt id="nter83" label="PRP" />
+      <nt id="nter84" label="." />
+      <!--Terminals-->
+      <!--We-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--cattle-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre103" from="nter70" to="nter69" head="yes" />
+      <edge id="tre104" from="nter71" to="nter70" />
+      <edge id="tre105" from="nter72" to="nter71" head="yes" />
+      <edge id="tre106" from="ter34" to="nter72" />
+      <edge id="tre107" from="nter73" to="nter70" head="yes" />
+      <edge id="tre108" from="nter74" to="nter73" head="yes" />
+      <edge id="tre109" from="ter35" to="nter74" />
+      <edge id="tre110" from="nter75" to="nter73" />
+      <edge id="tre111" from="nter76" to="nter75" head="yes" />
+      <edge id="tre112" from="ter36" to="nter76" />
+      <edge id="tre113" from="nter77" to="nter73" />
+      <edge id="tre114" from="nter78" to="nter77" head="yes" />
+      <edge id="tre115" from="nter79" to="nter78" head="yes" />
+      <edge id="tre116" from="ter37" to="nter79" />
+      <edge id="tre117" from="nter80" to="nter77" />
+      <edge id="tre118" from="nter81" to="nter80" head="yes" />
+      <edge id="tre119" from="ter38" to="nter81" />
+      <edge id="tre120" from="nter82" to="nter80" />
+      <edge id="tre121" from="nter83" to="nter82" head="yes" />
+      <edge id="tre122" from="ter39" to="nter83" />
+      <edge id="tre123" from="nter84" to="nter70" />
+      <edge id="tre124" from="ter40" to="nter84" />
+    </tree>
+  </constituency>
+</NAF>

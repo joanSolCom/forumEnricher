@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:31:23+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:31:23.479+0100" endTimestamp="2017-11-20T12:31:23.988+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:31:23.990+0100" endTimestamp="2017-11-20T12:31:23.990+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Try to understand short height, hooked nosed, brown colored, curly haired, glasses weared, Sub-Human.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Try</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="2">to</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="10">understand</wf>
+    <wf id="w4" sent="1" para="1" offset="18" length="5">short</wf>
+    <wf id="w5" sent="1" para="1" offset="24" length="6">height</wf>
+    <wf id="w6" sent="1" para="1" offset="30" length="1">,</wf>
+    <wf id="w7" sent="1" para="1" offset="32" length="6">hooked</wf>
+    <wf id="w8" sent="1" para="1" offset="39" length="5">nosed</wf>
+    <wf id="w9" sent="1" para="1" offset="44" length="1">,</wf>
+    <wf id="w10" sent="1" para="1" offset="46" length="5">brown</wf>
+    <wf id="w11" sent="1" para="1" offset="52" length="7">colored</wf>
+    <wf id="w12" sent="1" para="1" offset="59" length="1">,</wf>
+    <wf id="w13" sent="1" para="1" offset="61" length="5">curly</wf>
+    <wf id="w14" sent="1" para="1" offset="67" length="6">haired</wf>
+    <wf id="w15" sent="1" para="1" offset="73" length="1">,</wf>
+    <wf id="w16" sent="1" para="1" offset="75" length="7">glasses</wf>
+    <wf id="w17" sent="1" para="1" offset="83" length="6">weared</wf>
+    <wf id="w18" sent="1" para="1" offset="89" length="1">,</wf>
+    <wf id="w19" sent="1" para="1" offset="91" length="9">Sub-Human</wf>
+    <wf id="w20" sent="1" para="1" offset="100" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Try-->
+    <term id="t1" type="open" lemma="try" pos="V" morphofeat="VB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t2" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--understand-->
+    <term id="t3" type="open" lemma="understand" pos="V" morphofeat="VB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--short-->
+    <term id="t4" type="open" lemma="short" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--height-->
+    <term id="t5" type="open" lemma="height" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t6" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--hooked-->
+    <term id="t7" type="open" lemma="hooked" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--nosed-->
+    <term id="t8" type="open" lemma="nose" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t9" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--brown-->
+    <term id="t10" type="open" lemma="brown" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--colored-->
+    <term id="t11" type="open" lemma="color" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t12" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--curly-->
+    <term id="t13" type="open" lemma="curly" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--haired-->
+    <term id="t14" type="open" lemma="haired" pos="N" morphofeat="NN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t15" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--glasses-->
+    <term id="t16" type="open" lemma="glass" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--weared-->
+    <term id="t17" type="open" lemma="wear" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t18" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Sub-Human-->
+    <term id="t19" type="open" lemma="Sub-Human" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t20" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--OBJ(nosed-8, Try-1)-->
+    <dep from="t8" to="t1" rfunc="OBJ" />
+    <!--OPRD(Try-1, to-2)-->
+    <dep from="t1" to="t2" rfunc="OPRD" />
+    <!--IM(to-2, understand-3)-->
+    <dep from="t2" to="t3" rfunc="IM" />
+    <!--NMOD(height-5, short-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--OBJ(understand-3, height-5)-->
+    <dep from="t3" to="t5" rfunc="OBJ" />
+    <!--P(nosed-8, ,-6)-->
+    <dep from="t8" to="t6" rfunc="P" />
+    <!--SBJ(nosed-8, hooked-7)-->
+    <dep from="t8" to="t7" rfunc="SBJ" />
+    <!--OBJ(weared-17, nosed-8)-->
+    <dep from="t17" to="t8" rfunc="OBJ" />
+    <!--P(nosed-8, ,-9)-->
+    <dep from="t8" to="t9" rfunc="P" />
+    <!--NMOD(haired-14, brown-10)-->
+    <dep from="t14" to="t10" rfunc="NMOD" />
+    <!--AMOD(brown-10, colored-11)-->
+    <dep from="t10" to="t11" rfunc="AMOD" />
+    <!--P(haired-14, ,-12)-->
+    <dep from="t14" to="t12" rfunc="P" />
+    <!--NMOD(haired-14, curly-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--OBJ(nosed-8, haired-14)-->
+    <dep from="t8" to="t14" rfunc="OBJ" />
+    <!--P(weared-17, ,-15)-->
+    <dep from="t17" to="t15" rfunc="P" />
+    <!--SBJ(weared-17, glasses-16)-->
+    <dep from="t17" to="t16" rfunc="SBJ" />
+    <!--P(weared-17, ,-18)-->
+    <dep from="t17" to="t18" rfunc="P" />
+    <!--AMOD(hooked-7, Sub-Human-19)-->
+    <dep from="t7" to="t19" rfunc="AMOD" />
+    <!--P(Sub-Human-19, .-20)-->
+    <dep from="t19" to="t20" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Sub-Human-->
+        <span>
+          <target id="t19" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Try-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Try" confidence="0.9323376" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--glasses-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Glasses" confidence="0.9719185" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--brown-->
+        <span>
+          <target id="t10" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Brown" confidence="0.97853464" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--height-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--haired-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Try" confidence="0.9323375991810855" spotted="true">
+      <!--Try-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Batting_(cricket)" confidence="0.6818324963932251" spotted="true">
+      <!--hooked-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Short_film" confidence="0.9968218182738691" spotted="true">
+      <!--short-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hair" confidence="0.9999999994786606" spotted="true">
+      <!--haired-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Color" confidence="0.984517784160584" spotted="true">
+      <!--colored-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Glasses" confidence="0.9719185123661327" spotted="true">
+      <!--glasses-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hair" confidence="0.9998634016992918" spotted="true">
+      <!--curly-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Brown" confidence="0.9785346627070656" spotted="true">
+      <!--brown-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Try : [t2 to] A1[t2 to]-->
+    <predicate id="f_pr5" source="semafor" confidence="90.78616984688738">
+      <!--Try-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Attempt" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Try" confidence="0.9323376" />
+        <externalRef resource="PropBank" reference="try.01" source="mate" />
+        <externalRef resource="VerbNet" reference="try-61" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02530167-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Try" confidence="0.9323376" />
+        <externalRef resource="FrameBase" reference="frame-Attempt-try.v" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--to understand short height , hooked nosed , brown colored , curly haired , glasses weared , Sub-Human-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attempt@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Attempt-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="A1">
+        <!--to understand short height-->
+        <span>
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="try-61@Theme" />
+          <externalRef resource="PropBank" reference="try.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 understand : [t4 short] A1[t4 short]-->
+    <predicate id="f_pr6" source="semafor" confidence="51.77909300564275">
+      <!--understand-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Grasp" />
+        <externalRef resource="PropBank" reference="understand.01" source="mate" />
+        <externalRef resource="VerbNet" reference="comprehend-87.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594058-v" />
+        <externalRef resource="WordNet" reference="ili-30-00593522-v" />
+        <externalRef resource="WordNet" reference="ili-30-00593852-v" />
+        <externalRef resource="WordNet" reference="ili-30-00591115-v" />
+        <externalRef resource="WordNet" reference="ili-30-00588888-v" />
+        <externalRef resource="FrameBase" reference="frame-Grasp-grasp.v" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--short height , hooked nosed , brown colored , curly haired , glasses weared , Sub-Human-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grasp@Phenomenon" />
+          <externalRef resource="FrameBase" reference="fe-Grasp-Phenomenon" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="A1">
+        <!--short height-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="comprehend-87.2@Attribute" />
+          <externalRef resource="PropBank" reference="understand.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 short : [t4 short]-->
+    <predicate id="f_pr7" source="semafor" confidence="11.666345696442143">
+      <!--short-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Duration_attribute" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Short_film" confidence="0.9968218" />
+        <externalRef resource="FrameBase" reference="frame-Duration_attribute-short.a" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--short height-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Duration_attribute@Eventuality" />
+          <externalRef resource="FrameBase" reference="fe-Duration_attribute-Eventuality" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 height : [t4 short]-->
+    <predicate id="f_pr8" source="semafor" confidence="44.356314271182285">
+      <!--height-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Natural_features" />
+        <externalRef resource="FrameBase" reference="frame-Natural_features-height.n" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--short height-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Natural_features@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Natural_features-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 hooked : [t4 short]-->
+    <predicate id="f_pr9" source="semafor" confidence="15.048904144385247">
+      <!--hooked-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Addiction" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Batting_(cricket)" confidence="0.6818325" />
+        <externalRef resource="FrameBase" reference="frame-Addiction-addict.n" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--short height-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Addiction@Addict" />
+          <externalRef resource="FrameBase" reference="fe-Addiction-Addict" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 brown :-->
+    <predicate id="f_pr11" source="semafor" confidence="68.58242332130042">
+      <!--brown-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Apply_heat" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Brown" confidence="0.97853464" />
+      </externalReferences>
+    </predicate>
+    <!--t13 curly :-->
+    <predicate id="f_pr12" source="semafor" confidence="30.91309161227311">
+      <!--curly-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Hair_configuration" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hair" confidence="0.9998634" />
+        <externalRef resource="FrameBase" reference="frame-Hair_configuration-curl.v" />
+      </externalReferences>
+    </predicate>
+    <!--t16 glasses : [t16 glasses]-->
+    <predicate id="f_pr13" source="semafor" confidence="35.465544304677714">
+      <!--glasses-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Substance" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Glasses" confidence="0.9719185" />
+        <externalRef resource="FrameBase" reference="frame-Substance-glass.n" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--glasses-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Substance@Substance" />
+          <externalRef resource="FrameBase" reference="fe-Substance-Substance" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 weared : A0[t16 glasses] A1[t1 Try]-->
+    <predicate id="f_pr14" source="semafor" confidence="34.875559361637194">
+      <!--weared-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Wearing" />
+        <externalRef resource="PropBank" reference="wear.01" source="mate" />
+        <externalRef resource="VerbNet" reference="simple_dressing-41.3.1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-00050652-v" />
+        <externalRef resource="WordNet" reference="ili-30-00047745-v" />
+        <externalRef resource="WordNet" reference="ili-30-00052374-v" />
+        <externalRef resource="FrameBase" reference="frame-Wearing-wear.v" />
+      </externalReferences>
+      <role id="rl14" semRole="A0">
+        <!--glasses-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Wearing@Wearer" />
+          <externalRef resource="VerbNet" reference="simple_dressing-41.3.1@Agent" />
+          <externalRef resource="PropBank" reference="wear.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Wearing-Wearer" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--Try to understand short height , hooked nosed , brown colored , curly haired Sub-Human .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="simple_dressing-41.3.1@Theme" />
+          <externalRef resource="PropBank" reference="wear.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 colored :-->
+    <predicate id="pr15">
+      <!--colored-->
+      <span>
+        <target id="t11" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="color.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (VB Try) (S (VP (TO to) (VP (VB understand) (S (NP (NP (JJ short) (NN height)) (, ,) (ADJP (JJ hooked) (SBAR (S (VP (VBD nosed))))) (, ,) (NP (JJ brown) (VBN colored) (, ,) (JJ curly) (NN haired)) (, ,) (NP (NP (NNS glasses)) (VP (VBD weared))) (, ,)) (NP (NNP Sub-Human))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="VB" />
+      <nt id="nter5" label="S" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="TO" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VB" />
+      <nt id="nter10" label="S" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="JJ" />
+      <nt id="nter14" label="NN" />
+      <nt id="nter15" label="," />
+      <nt id="nter16" label="ADJP" />
+      <nt id="nter17" label="JJ" />
+      <nt id="nter18" label="SBAR" />
+      <nt id="nter19" label="S" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VBD" />
+      <nt id="nter22" label="," />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="VBN" />
+      <nt id="nter26" label="," />
+      <nt id="nter27" label="JJ" />
+      <nt id="nter28" label="NN" />
+      <nt id="nter29" label="," />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="NNS" />
+      <nt id="nter33" label="VP" />
+      <nt id="nter34" label="VBD" />
+      <nt id="nter35" label="," />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="NNP" />
+      <nt id="nter38" label="." />
+      <!--Terminals-->
+      <!--Try-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--understand-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--short-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--height-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--hooked-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--nosed-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--brown-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--colored-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--curly-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--haired-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--glasses-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--weared-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Sub-Human-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="nter13" to="nter12" />
+      <edge id="tre17" from="ter4" to="nter13" />
+      <edge id="tre18" from="nter14" to="nter12" head="yes" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter11" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter11" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="nter20" to="nter19" head="yes" />
+      <edge id="tre28" from="nter21" to="nter20" head="yes" />
+      <edge id="tre29" from="ter8" to="nter21" />
+      <edge id="tre30" from="nter22" to="nter11" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter11" />
+      <edge id="tre33" from="nter24" to="nter23" />
+      <edge id="tre34" from="ter10" to="nter24" />
+      <edge id="tre35" from="nter25" to="nter23" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter23" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter23" />
+      <edge id="tre40" from="ter13" to="nter27" />
+      <edge id="tre41" from="nter28" to="nter23" head="yes" />
+      <edge id="tre42" from="ter14" to="nter28" />
+      <edge id="tre43" from="nter29" to="nter11" />
+      <edge id="tre44" from="ter15" to="nter29" />
+      <edge id="tre45" from="nter30" to="nter11" />
+      <edge id="tre46" from="nter31" to="nter30" head="yes" />
+      <edge id="tre47" from="nter32" to="nter31" head="yes" />
+      <edge id="tre48" from="ter16" to="nter32" />
+      <edge id="tre49" from="nter33" to="nter30" />
+      <edge id="tre50" from="nter34" to="nter33" head="yes" />
+      <edge id="tre51" from="ter17" to="nter34" />
+      <edge id="tre52" from="nter35" to="nter11" />
+      <edge id="tre53" from="ter18" to="nter35" />
+      <edge id="tre54" from="nter36" to="nter10" />
+      <edge id="tre55" from="nter37" to="nter36" head="yes" />
+      <edge id="tre56" from="ter19" to="nter37" />
+      <edge id="tre57" from="nter38" to="nter2" />
+      <edge id="tre58" from="ter20" to="nter38" />
+    </tree>
+  </constituency>
+</NAF>

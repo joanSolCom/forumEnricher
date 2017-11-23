@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:28:32+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:28:32.327+0100" endTimestamp="2017-11-20T12:28:32.624+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:28:32.626+0100" endTimestamp="2017-11-20T12:28:32.627+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[WhiteRights has this in his sig line:]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="11">WhiteRights</wf>
+    <wf id="w2" sent="1" para="1" offset="12" length="3">has</wf>
+    <wf id="w3" sent="1" para="1" offset="16" length="4">this</wf>
+    <wf id="w4" sent="1" para="1" offset="21" length="2">in</wf>
+    <wf id="w5" sent="1" para="1" offset="24" length="3">his</wf>
+    <wf id="w6" sent="1" para="1" offset="28" length="3">sig</wf>
+    <wf id="w7" sent="1" para="1" offset="32" length="4">line</wf>
+    <wf id="w8" sent="1" para="1" offset="36" length="1">:</wf>
+  </text>
+  <terms>
+    <!--WhiteRights-->
+    <term id="t1" type="open" lemma="WhiteRights" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--has-->
+    <term id="t2" type="open" lemma="have" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t3" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t4" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--his-->
+    <term id="t5" type="open" lemma="he" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--sig-->
+    <term id="t6" type="open" lemma="sig" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--line-->
+    <term id="t7" type="open" lemma="line" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t8" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(has-2, WhiteRights-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--OBJ(has-2, this-3)-->
+    <dep from="t2" to="t3" rfunc="OBJ" />
+    <!--LOC(has-2, in-4)-->
+    <dep from="t2" to="t4" rfunc="LOC" />
+    <!--NMOD(line-7, his-5)-->
+    <dep from="t7" to="t5" rfunc="NMOD" />
+    <!--NMOD(line-7, sig-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--PMOD(in-4, line-7)-->
+    <dep from="t4" to="t7" rfunc="PMOD" />
+    <!--P(has-2, :-8)-->
+    <dep from="t2" to="t8" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--WhiteRights-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--his-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--sig-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--line-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--WhiteRights-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+      <!--his-->
+      <span>
+        <target id="t5" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Movement_(sign_language)" confidence="0.6499464133419103" spotted="true">
+      <!--sig-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 has : [t3 this] A0[t1 WhiteRights] A1[t3 this] AM-LOC[t4 in]-->
+    <predicate id="f_pr3" source="semafor" confidence="50.102217138775366">
+      <!--has-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--this in his sig line-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="A0">
+        <!--WhiteRights-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="A1">
+        <!--this-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="AM-LOC">
+        <!--in his sig line-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+      </role>
+    </predicate>
+    <!--t7 line : A1[t6 sig] A0[t5 his]-->
+    <predicate id="f_pr4" source="semafor" confidence="83.86934172831505">
+      <!--line-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Roadways" />
+        <externalRef resource="NomBank" reference="line.06" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Roadways-line.n" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--sig-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+      <role id="rl10" semRole="A0">
+        <!--his-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NNP WhiteRights)) (VP (VBZ has) (NP (NP (DT this)) (PP (IN in) (NP (PRP$ his) (NN sig) (NN line))))) (: :)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBZ" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="PP" />
+      <nt id="nter11" label="IN" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="PRP$" />
+      <nt id="nter14" label="NN" />
+      <nt id="nter15" label="NN" />
+      <nt id="nter16" label=":" />
+      <!--Terminals-->
+      <!--WhiteRights-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--has-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--his-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--sig-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--line-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter7" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" />
+      <edge id="tre17" from="nter13" to="nter12" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter12" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter12" head="yes" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter2" />
+      <edge id="tre24" from="ter8" to="nter16" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:38:58+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:38:58.895+0100" endTimestamp="2017-11-21T16:38:59.320+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:38:59.322+0100" endTimestamp="2017-11-21T16:38:59.322+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[The Protestant Reformation was the start, followed by the Enlightenment, followed by the French Revolution.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">The</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="10">Protestant</wf>
+    <wf id="w3" sent="1" para="1" offset="15" length="11">Reformation</wf>
+    <wf id="w4" sent="1" para="1" offset="27" length="3">was</wf>
+    <wf id="w5" sent="1" para="1" offset="31" length="3">the</wf>
+    <wf id="w6" sent="1" para="1" offset="35" length="5">start</wf>
+    <wf id="w7" sent="1" para="1" offset="40" length="1">,</wf>
+    <wf id="w8" sent="1" para="1" offset="42" length="8">followed</wf>
+    <wf id="w9" sent="1" para="1" offset="51" length="2">by</wf>
+    <wf id="w10" sent="1" para="1" offset="54" length="3">the</wf>
+    <wf id="w11" sent="1" para="1" offset="58" length="13">Enlightenment</wf>
+    <wf id="w12" sent="1" para="1" offset="71" length="1">,</wf>
+    <wf id="w13" sent="1" para="1" offset="73" length="8">followed</wf>
+    <wf id="w14" sent="1" para="1" offset="82" length="2">by</wf>
+    <wf id="w15" sent="1" para="1" offset="85" length="3">the</wf>
+    <wf id="w16" sent="1" para="1" offset="89" length="6">French</wf>
+    <wf id="w17" sent="1" para="1" offset="96" length="10">Revolution</wf>
+    <wf id="w18" sent="1" para="1" offset="106" length="1">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term id="t1" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Protestant-->
+    <term id="t2" type="open" lemma="Protestant" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Reformation-->
+    <term id="t3" type="open" lemma="Reformation" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t4" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t5" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--start-->
+    <term id="t6" type="open" lemma="start" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t7" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--followed-->
+    <term id="t8" type="open" lemma="follow" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t9" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t10" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Enlightenment-->
+    <term id="t11" type="open" lemma="enlightenment" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t12" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--followed-->
+    <term id="t13" type="open" lemma="follow" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t14" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t15" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--French-->
+    <term id="t16" type="open" lemma="french" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Revolution-->
+    <term id="t17" type="open" lemma="revolution" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(Reformation-3, The-1)-->
+    <dep from="t3" to="t1" rfunc="NMOD" />
+    <!--NAME(Reformation-3, Protestant-2)-->
+    <dep from="t3" to="t2" rfunc="NAME" />
+    <!--SBJ(was-4, Reformation-3)-->
+    <dep from="t4" to="t3" rfunc="SBJ" />
+    <!--NMOD(start-6, the-5)-->
+    <dep from="t6" to="t5" rfunc="NMOD" />
+    <!--OBJ(was-4, start-6)-->
+    <dep from="t4" to="t6" rfunc="OBJ" />
+    <!--P(start-6, ,-7)-->
+    <dep from="t6" to="t7" rfunc="P" />
+    <!--APPO(start-6, followed-8)-->
+    <dep from="t6" to="t8" rfunc="APPO" />
+    <!--LGS(followed-8, by-9)-->
+    <dep from="t8" to="t9" rfunc="LGS" />
+    <!--NMOD(Enlightenment-11, the-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--PMOD(by-9, Enlightenment-11)-->
+    <dep from="t9" to="t11" rfunc="PMOD" />
+    <!--P(followed-8, ,-12)-->
+    <dep from="t8" to="t12" rfunc="P" />
+    <!--COORD(followed-8, followed-13)-->
+    <dep from="t8" to="t13" rfunc="COORD" />
+    <!--LGS(followed-13, by-14)-->
+    <dep from="t13" to="t14" rfunc="LGS" />
+    <!--NMOD(Revolution-17, the-15)-->
+    <dep from="t17" to="t15" rfunc="NMOD" />
+    <!--NMOD(Revolution-17, French-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--PMOD(by-14, Revolution-17)-->
+    <dep from="t14" to="t17" rfunc="PMOD" />
+    <!--P(was-4, .-18)-->
+    <dep from="t4" to="t18" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Enlightenment-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Age_of_Enlightenment" confidence="0.99948746" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--French Revolution-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/French_Revolution" confidence="0.9999801" />
+      </externalReferences>
+    </entity>
+    <entity id="e3">
+      <references>
+        <!--Protestant Reformation-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Protestant_Reformation" confidence="0.99995154" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--start-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--The Protestant Reformation-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starting_pitcher" confidence="0.6965286906441974" spotted="true">
+      <!--start-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Protestant_Reformation" confidence="0.9999515688982986" spotted="true">
+      <!--Protestant Reformation-->
+      <span>
+        <target id="w2" />
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/French_Revolution" confidence="0.9999800889002315" spotted="true">
+      <!--French Revolution-->
+      <span>
+        <target id="w16" />
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Age_of_Enlightenment" confidence="0.99948745587331" spotted="true">
+      <!--Enlightenment-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 was : A1[t1 The] A2[t5 the]-->
+    <predicate id="pr1" source="mate">
+      <!--was-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--The Protestant Reformation-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A2">
+        <!--the start , followed by the Enlightenment , followed by the French Revolution-->
+        <span>
+          <target id="t5" />
+          <target id="t6" head="yes" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </role>
+    </predicate>
+    <!--t6 start :-->
+    <predicate id="f_pr5" source="semafor" confidence="20.473520481535218">
+      <!--start-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_subregion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starting_pitcher" confidence="0.6965287" />
+        <externalRef resource="NomBank" reference="start.01" source="mate" />
+        <externalRef resource="VerbNet" reference="begin-55.1-1" />
+        <externalRef resource="PropBank" reference="start.01" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01864230-v" />
+        <externalRef resource="WordNet" reference="ili-30-00345761-v" />
+        <externalRef resource="WordNet" reference="ili-30-00348746-v" />
+        <externalRef resource="WordNet" reference="ili-30-02014165-v" />
+        <externalRef resource="WordNet" reference="ili-30-01857717-v" />
+        <externalRef resource="WordNet" reference="ili-30-02379528-v" />
+        <externalRef resource="WordNet" reference="ili-30-02600948-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Starting_pitcher" confidence="0.6965287" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_subregion-start.n" />
+      </externalReferences>
+    </predicate>
+    <!--t8 followed : A1[t9 by] [t15 the]-->
+    <predicate id="f_pr6" source="semafor" confidence="17.80218097134316">
+      <!--followed-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relative_time" />
+        <externalRef resource="PropBank" reference="follow.01" source="mate" />
+        <externalRef resource="VerbNet" reference="occurrence-48.3" />
+        <externalRef resource="ESO" reference="Translocation" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Relative_time-follow.v" />
+      </externalReferences>
+      <role id="rl6" semRole="A1">
+        <!--by the Enlightenment-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relative_time@Focal_occasion" />
+          <externalRef resource="VerbNet" reference="occurrence-48.3@Theme" />
+          <externalRef resource="PropBank" reference="follow.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Relative_time-Focal_occasion" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="">
+        <!--the French Revolution-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relative_time@Landmark_occasion" />
+          <externalRef resource="FrameBase" reference="fe-Relative_time-Landmark_occasion" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 Enlightenment :-->
+    <predicate id="f_pr7" source="semafor" confidence="20.54996379759756">
+      <!--Enlightenment-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Mental_property" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Age_of_Enlightenment" confidence="0.99948746" />
+        <externalRef resource="FrameBase" reference="frame-Mental_property-enlightenment.n" />
+      </externalReferences>
+    </predicate>
+    <!--t13 followed : [t8 followed] [t15 the] A1[t14 by]-->
+    <predicate id="f_pr8" source="semafor" confidence="14.99900345254762">
+      <!--followed-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relative_time" />
+        <externalRef resource="PropBank" reference="follow.01" source="mate" />
+        <externalRef resource="VerbNet" reference="occurrence-48.3" />
+        <externalRef resource="ESO" reference="Translocation" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Relative_time-follow.v" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--followed by the Enlightenment , followed by the French Revolution-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relative_time@Focal_occasion" />
+          <externalRef resource="FrameBase" reference="fe-Relative_time-Focal_occasion" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="">
+        <!--the French Revolution-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relative_time@Landmark_occasion" />
+          <externalRef resource="FrameBase" reference="fe-Relative_time-Landmark_occasion" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="A1">
+        <!--by the French Revolution-->
+        <span>
+          <target id="t14" head="yes" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="occurrence-48.3@Theme" />
+          <externalRef resource="PropBank" reference="follow.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t16 French :-->
+    <predicate id="f_pr9" source="semafor" confidence="41.780108096149945">
+      <!--French-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Court_examination" />
+      </externalReferences>
+    </predicate>
+    <!--t17 Revolution : [t16 French]-->
+    <predicate id="f_pr10" source="semafor" confidence="81.53757877535612">
+      <!--Revolution-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Change_of_leadership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/French_Revolution" confidence="0.9999801" />
+        <externalRef resource="FrameBase" reference="frame-Change_of_leadership-revolt.v" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--French-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Change_of_leadership@Selector" />
+          <externalRef resource="FrameBase" reference="fe-Change_of_leadership-Selector" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (DT The) (NNP Protestant) (NNP Reformation)) (VP (VBD was) (NP (NP (DT the) (NN start)) (, ,) (VP (VBN followed) (PP (IN by) (NP (DT the) (NN Enlightenment)))) (, ,) (PP (VBN followed) (PP (IN by) (NP (DT the) (JJ French) (NN Revolution)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="DT" />
+      <nt id="nter5" label="NNP" />
+      <nt id="nter6" label="NNP" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VBD" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="DT" />
+      <nt id="nter12" label="NN" />
+      <nt id="nter13" label="," />
+      <nt id="nter14" label="VP" />
+      <nt id="nter15" label="VBN" />
+      <nt id="nter16" label="PP" />
+      <nt id="nter17" label="IN" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="DT" />
+      <nt id="nter20" label="NN" />
+      <nt id="nter21" label="," />
+      <nt id="nter22" label="PP" />
+      <nt id="nter23" label="VBN" />
+      <nt id="nter24" label="PP" />
+      <nt id="nter25" label="IN" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="DT" />
+      <nt id="nter28" label="JJ" />
+      <nt id="nter29" label="NN" />
+      <nt id="nter30" label="." />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Protestant-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Reformation-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--start-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--followed-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Enlightenment-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--followed-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--French-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Revolution-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter3" head="yes" />
+      <edge id="tre9" from="ter3" to="nter6" />
+      <edge id="tre10" from="nter7" to="nter2" head="yes" />
+      <edge id="tre11" from="nter8" to="nter7" head="yes" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter7" />
+      <edge id="tre14" from="nter10" to="nter9" head="yes" />
+      <edge id="tre15" from="nter11" to="nter10" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter10" head="yes" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter9" />
+      <edge id="tre20" from="ter7" to="nter13" />
+      <edge id="tre21" from="nter14" to="nter9" />
+      <edge id="tre22" from="nter15" to="nter14" head="yes" />
+      <edge id="tre23" from="ter8" to="nter15" />
+      <edge id="tre24" from="nter16" to="nter14" />
+      <edge id="tre25" from="nter17" to="nter16" head="yes" />
+      <edge id="tre26" from="ter9" to="nter17" />
+      <edge id="tre27" from="nter18" to="nter16" />
+      <edge id="tre28" from="nter19" to="nter18" />
+      <edge id="tre29" from="ter10" to="nter19" />
+      <edge id="tre30" from="nter20" to="nter18" head="yes" />
+      <edge id="tre31" from="ter11" to="nter20" />
+      <edge id="tre32" from="nter21" to="nter9" />
+      <edge id="tre33" from="ter12" to="nter21" />
+      <edge id="tre34" from="nter22" to="nter9" />
+      <edge id="tre35" from="nter23" to="nter22" head="yes" />
+      <edge id="tre36" from="ter13" to="nter23" />
+      <edge id="tre37" from="nter24" to="nter22" />
+      <edge id="tre38" from="nter25" to="nter24" head="yes" />
+      <edge id="tre39" from="ter14" to="nter25" />
+      <edge id="tre40" from="nter26" to="nter24" />
+      <edge id="tre41" from="nter27" to="nter26" />
+      <edge id="tre42" from="ter15" to="nter27" />
+      <edge id="tre43" from="nter28" to="nter26" />
+      <edge id="tre44" from="ter16" to="nter28" />
+      <edge id="tre45" from="nter29" to="nter26" head="yes" />
+      <edge id="tre46" from="ter17" to="nter29" />
+      <edge id="tre47" from="nter30" to="nter2" />
+      <edge id="tre48" from="ter18" to="nter30" />
+    </tree>
+  </constituency>
+</NAF>

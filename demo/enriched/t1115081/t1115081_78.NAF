@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:37+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:37.574+0100" endTimestamp="2017-11-20T12:30:37.899+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:37.900+0100" endTimestamp="2017-11-20T12:30:37.900+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Ah, more evidence Jews are real vampires!!]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">Ah</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="4" length="4">more</wf>
+    <wf id="w4" sent="1" para="1" offset="9" length="8">evidence</wf>
+    <wf id="w5" sent="1" para="1" offset="18" length="4">Jews</wf>
+    <wf id="w6" sent="1" para="1" offset="23" length="3">are</wf>
+    <wf id="w7" sent="1" para="1" offset="27" length="4">real</wf>
+    <wf id="w8" sent="1" para="1" offset="32" length="8">vampires</wf>
+    <wf id="w9" sent="1" para="1" offset="40" length="2">!!</wf>
+  </text>
+  <terms>
+    <!--Ah-->
+    <term id="t1" type="open" lemma="ah" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--more-->
+    <term id="t3" type="open" lemma="more" pos="G" morphofeat="JJR">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--evidence-->
+    <term id="t4" type="open" lemma="evidence" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t5" type="open" lemma="jew" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t6" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--real-->
+    <term id="t7" type="open" lemma="real" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--vampires-->
+    <term id="t8" type="open" lemma="vampire" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--!!-->
+    <term id="t9" type="open" lemma="!!" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(are-6, Ah-1)-->
+    <dep from="t6" to="t1" rfunc="ADV" />
+    <!--P(are-6, ,-2)-->
+    <dep from="t6" to="t2" rfunc="P" />
+    <!--NMOD(Jews-5, more-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NMOD(Jews-5, evidence-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--SBJ(are-6, Jews-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--NMOD(vampires-8, real-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--SBJ(!!-9, vampires-8)-->
+    <dep from="t9" to="t8" rfunc="SBJ" />
+    <!--OBJ(are-6, !!-9)-->
+    <dep from="t6" to="t9" rfunc="OBJ" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9971124" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--evidence-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Evidence" confidence="0.7864722" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--Ah-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--vampires-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Diminutive" confidence="0.5941728227536475" spotted="true">
+      <!--Ah-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Vampire" confidence="0.9928145301236638" spotted="true">
+      <!--vampires-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9971123991893301" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Evidence" confidence="0.7864722205250381" spotted="true">
+      <!--evidence-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Real_number" confidence="0.9669765515168022" spotted="true">
+      <!--real-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t6 are : A1[t3 more] AM-DIS[t1 Ah]-->
+    <predicate id="pr2" source="mate">
+      <!--are-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl3" semRole="A1">
+        <!--more evidence Jews-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="AM-DIS">
+        <!--Ah-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 more : [t3 more]-->
+    <predicate id="f_pr4" source="semafor" confidence="24.522268442452066">
+      <!--more-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+        <externalRef resource="FrameBase" reference="frame-Increment-more.a" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--more evidence Jews-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Added_set" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Added_set" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 evidence :-->
+    <predicate id="f_pr5" source="semafor" confidence="26.556772781810537">
+      <!--evidence-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Evidence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Evidence" confidence="0.7864722" />
+        <externalRef resource="FrameBase" reference="frame-Evidence-show.v" />
+      </externalReferences>
+    </predicate>
+    <!--t7 real : [t7 real]-->
+    <predicate id="f_pr7" source="semafor" confidence="54.558316057283676">
+      <!--real-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Existence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Real_number" confidence="0.9669765" />
+        <externalRef resource="FrameBase" reference="frame-Existence-exist.v" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--real vampires-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Existence@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Existence-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NN Ah)) (, ,) (NP (NP (JJR more) (NN evidence) (NNS Jews)) (SBAR (S (VP (VBP are) (NP (JJ real) (NNS vampires)))))) (VP (VBP !!))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NN" />
+      <nt id="nter5" label="," />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="JJR" />
+      <nt id="nter9" label="NN" />
+      <nt id="nter10" label="NNS" />
+      <nt id="nter11" label="SBAR" />
+      <nt id="nter12" label="S" />
+      <nt id="nter13" label="VP" />
+      <nt id="nter14" label="VBP" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="JJ" />
+      <nt id="nter17" label="NNS" />
+      <nt id="nter18" label="VP" />
+      <nt id="nter19" label="VBP" />
+      <!--Terminals-->
+      <!--Ah-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--more-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--evidence-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--real-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--vampires-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--!!-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter7" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter6" />
+      <edge id="tre17" from="nter12" to="nter11" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" head="yes" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter2" head="yes" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+    </tree>
+  </constituency>
+</NAF>

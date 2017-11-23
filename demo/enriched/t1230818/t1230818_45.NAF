@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:19+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:19.076+0100" endTimestamp="2017-11-21T16:40:19.342+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:19.343+0100" endTimestamp="2017-11-21T16:40:19.343+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Precisely.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="9">Precisely</wf>
+    <wf id="w2" sent="1" para="1" offset="9" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Precisely-->
+    <term id="t1" type="open" lemma="precisely" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t2" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Precisely-1, .-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+  </deps>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <srl>
+    <!--t1 Precisely : [t1 Precisely]-->
+    <predicate id="f_pr1" source="semafor" confidence="35.82824024768321">
+      <!--Precisely-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Obviousness" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--Precisely .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Obviousness@Phenomenon" />
+          <externalRef resource="FrameBase" reference="fe-Obviousness-Phenomenon" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (ADVP (RB Precisely)) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="ADVP" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--Precisely-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:33:04+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:33:04.387+0100" endTimestamp="2017-11-20T12:33:05.218+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:33:05.219+0100" endTimestamp="2017-11-20T12:33:05.220+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Best way to look for love is not too look for it at all...]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Best</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="3">way</wf>
+    <wf id="w3" sent="1" para="1" offset="9" length="2">to</wf>
+    <wf id="w4" sent="1" para="1" offset="12" length="4">look</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="3">for</wf>
+    <wf id="w6" sent="1" para="1" offset="21" length="4">love</wf>
+    <wf id="w7" sent="1" para="1" offset="26" length="2">is</wf>
+    <wf id="w8" sent="1" para="1" offset="29" length="3">not</wf>
+    <wf id="w9" sent="1" para="1" offset="33" length="3">too</wf>
+    <wf id="w10" sent="1" para="1" offset="37" length="4">look</wf>
+    <wf id="w11" sent="1" para="1" offset="42" length="3">for</wf>
+    <wf id="w12" sent="1" para="1" offset="46" length="2">it</wf>
+    <wf id="w13" sent="1" para="1" offset="49" length="2">at</wf>
+    <wf id="w14" sent="1" para="1" offset="52" length="3">all</wf>
+    <wf id="w15" sent="1" para="1" offset="55" length="3">...</wf>
+  </text>
+  <terms>
+    <!--Best-->
+    <term id="t1" type="open" lemma="best" pos="G" morphofeat="JJS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--way-->
+    <term id="t2" type="open" lemma="way" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t3" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--look-->
+    <term id="t4" type="open" lemma="look" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t5" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--love-->
+    <term id="t6" type="open" lemma="love" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t7" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t8" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--too-->
+    <term id="t9" type="open" lemma="too" pos="A" morphofeat="RB">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--look-->
+    <term id="t10" type="open" lemma="look" pos="V" morphofeat="VB">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t11" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t12" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t13" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t14" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t15" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(way-2, Best-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--SBJ(is-7, way-2)-->
+    <dep from="t7" to="t2" rfunc="SBJ" />
+    <!--NMOD(way-2, to-3)-->
+    <dep from="t2" to="t3" rfunc="NMOD" />
+    <!--IM(to-3, look-4)-->
+    <dep from="t3" to="t4" rfunc="IM" />
+    <!--ADV(look-4, for-5)-->
+    <dep from="t4" to="t5" rfunc="ADV" />
+    <!--PMOD(for-5, love-6)-->
+    <dep from="t5" to="t6" rfunc="PMOD" />
+    <!--ADV(is-7, not-8)-->
+    <dep from="t7" to="t8" rfunc="ADV" />
+    <!--ADV(is-7, too-9)-->
+    <dep from="t7" to="t9" rfunc="ADV" />
+    <!--VC(is-7, look-10)-->
+    <dep from="t7" to="t10" rfunc="VC" />
+    <!--ADV(look-10, for-11)-->
+    <dep from="t10" to="t11" rfunc="ADV" />
+    <!--PMOD(for-11, it-12)-->
+    <dep from="t11" to="t12" rfunc="PMOD" />
+    <!--ADV(look-10, at-13)-->
+    <dep from="t10" to="t13" rfunc="ADV" />
+    <!--AMOD(at-13, all-14)-->
+    <dep from="t13" to="t14" rfunc="AMOD" />
+    <!--P(is-7, ...-15)-->
+    <dep from="t7" to="t15" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--love-->
+        <span>
+          <target id="t6" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Love" confidence="0.9991621" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--way-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--Best way-->
+      <span>
+        <target id="t1" />
+        <target id="t2" head="yes" />
+      </span>
+      <!--it-->
+      <span>
+        <target id="t12" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Best_(film)" confidence="0.7919767110658021" spotted="true">
+      <!--Best-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Love" confidence="0.9991620714209112" spotted="true">
+      <!--love-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t7 is : AM-NEG[t8 not] A1[t1 Best]-->
+    <predicate id="pr3" source="mate">
+      <!--is-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl4" semRole="AM-NEG">
+        <!--not-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl5" semRole="A1">
+        <!--Best way to look for love-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 Best : [t1 Best]-->
+    <predicate id="f_pr5" source="semafor" confidence="33.96710535139976">
+      <!--Best-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Desirability" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Best_(film)" confidence="0.7919767" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--Best way to look for love-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Desirability@Evaluee" />
+          <externalRef resource="FrameBase" reference="fe-Desirability-Evaluee" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 way : A2[t1 Best] A1[t3 to]-->
+    <predicate id="f_pr6" source="semafor" confidence="19.461199595365525">
+      <!--way-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Means" />
+        <externalRef resource="NomBank" reference="way.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Means-way.n" />
+      </externalReferences>
+      <role id="rl13" semRole="A2">
+        <!--Best-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Means@Purpose" />
+          <externalRef resource="FrameBase" reference="fe-Means-Purpose" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="A1">
+        <!--to look for love-->
+        <span>
+          <target id="t3" head="yes" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </role>
+    </predicate>
+    <!--t4 look : [t9 too] A1[t5 for]-->
+    <predicate id="f_pr7" source="semafor" confidence="73.45465234294652">
+      <!--look-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Perception_active" />
+        <externalRef resource="PropBank" reference="look.01" source="mate" />
+        <externalRef resource="VerbNet" reference="peer-30.3" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02130524-v" />
+        <externalRef resource="WordNet" reference="ili-30-02153709-v" />
+        <externalRef resource="FrameBase" reference="frame-Perception_active-spy.v" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--too-->
+        <span>
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Perception_active@Direction" />
+          <externalRef resource="FrameBase" reference="fe-Perception_active-Direction" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="A1">
+        <!--for love-->
+        <span>
+          <target id="t5" head="yes" />
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="peer-30.3@Stimulus" />
+          <externalRef resource="PropBank" reference="look.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 love :-->
+    <predicate id="f_pr8" source="semafor" confidence="55.15348669520875">
+      <!--love-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Experiencer_focus" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Love" confidence="0.9991621" />
+      </externalReferences>
+    </predicate>
+    <!--t9 too : [t6 love]-->
+    <predicate id="f_pr9" source="semafor" confidence="11.213674188738455">
+      <!--too-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sufficiency" />
+        <externalRef resource="FrameBase" reference="frame-Sufficiency-too.adv" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--love-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sufficiency@Scale" />
+          <externalRef resource="FrameBase" reference="fe-Sufficiency-Scale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 look : AM-DIS[t9 too] AM-NEG[t8 not] AM-ADV[t1 Best] A1[t11 for] A1[t13 at]-->
+    <predicate id="f_pr10" source="semafor" confidence="61.42392013161559">
+      <!--look-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Perception_active" />
+        <externalRef resource="PropBank" reference="look.01" source="mate" />
+        <externalRef resource="VerbNet" reference="peer-30.3" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02130524-v" />
+        <externalRef resource="WordNet" reference="ili-30-02153709-v" />
+        <externalRef resource="FrameBase" reference="frame-Perception_active-spy.v" />
+      </externalReferences>
+      <role id="rl16" semRole="AM-DIS">
+        <!--too-->
+        <span>
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Perception_active@Perceiver_agentive" />
+          <externalRef resource="FrameBase" reference="fe-Perception_active-Perceiver_agentive" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="AM-NEG">
+        <!--not-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl19" semRole="AM-ADV">
+        <!--Best way to look for love-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </role>
+      <role id="rl20" semRole="A1">
+        <!--for it-->
+        <span>
+          <target id="t11" head="yes" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="peer-30.3@Stimulus" />
+          <externalRef resource="PropBank" reference="look.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="A1">
+        <!--at all-->
+        <span>
+          <target id="t13" head="yes" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="peer-30.3@Stimulus" />
+          <externalRef resource="PropBank" reference="look.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 all : [t14 all]-->
+    <predicate id="f_pr11" source="semafor" confidence="21.94967614432194">
+      <!--all-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--all-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (JJS Best) (NN way)) (VP (TO to) (VP (VB look) (SBAR (IN for) (S (NP (NN love)) (VP (VBZ is) (RB not) (ADVP (RB too)) (S (VP (VB look) (PP (IN for) (NP (PRP it))) (ADVP (IN at) (DT all))))))))) (: ...)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJS" />
+      <nt id="nter5" label="NN" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="TO" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VB" />
+      <nt id="nter10" label="SBAR" />
+      <nt id="nter11" label="IN" />
+      <nt id="nter12" label="S" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="NN" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VBZ" />
+      <nt id="nter17" label="RB" />
+      <nt id="nter18" label="ADVP" />
+      <nt id="nter19" label="RB" />
+      <nt id="nter20" label="S" />
+      <nt id="nter21" label="VP" />
+      <nt id="nter22" label="VB" />
+      <nt id="nter23" label="PP" />
+      <nt id="nter24" label="IN" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="PRP" />
+      <nt id="nter27" label="ADVP" />
+      <nt id="nter28" label="IN" />
+      <nt id="nter29" label="DT" />
+      <nt id="nter30" label=":" />
+      <!--Terminals-->
+      <!--Best-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--way-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--look-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--love-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--too-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--look-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter10" />
+      <edge id="tre18" from="nter13" to="nter12" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter12" head="yes" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter15" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter15" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter21" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter23" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter21" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter2" />
+      <edge id="tre45" from="ter15" to="nter30" />
+    </tree>
+  </constituency>
+</NAF>

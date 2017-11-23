@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:34:37+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:34:37.454+0100" endTimestamp="2017-11-21T16:34:37.761+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:34:37.763+0100" endTimestamp="2017-11-21T16:34:37.763+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[They can't touch me I assure you.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">They</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="2">ca</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="3">n't</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="5">touch</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="2">me</wf>
+    <wf id="w6" sent="1" para="1" offset="20" length="1">I</wf>
+    <wf id="w7" sent="1" para="1" offset="22" length="6">assure</wf>
+    <wf id="w8" sent="1" para="1" offset="29" length="3">you</wf>
+    <wf id="w9" sent="1" para="1" offset="32" length="1">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term id="t1" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--ca-->
+    <term id="t2" type="open" lemma="can" pos="O" morphofeat="MD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t3" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--touch-->
+    <term id="t4" type="open" lemma="touch" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--me-->
+    <term id="t5" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t6" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--assure-->
+    <term id="t7" type="open" lemma="assure" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t8" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t9" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(ca-2, They-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(ca-2, n't-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--VC(ca-2, touch-4)-->
+    <dep from="t2" to="t4" rfunc="VC" />
+    <!--OBJ(touch-4, me-5)-->
+    <dep from="t4" to="t5" rfunc="OBJ" />
+    <!--SBJ(assure-7, I-6)-->
+    <dep from="t7" to="t6" rfunc="SBJ" />
+    <!--OBJ(touch-4, assure-7)-->
+    <dep from="t4" to="t7" rfunc="OBJ" />
+    <!--OBJ(assure-7, you-8)-->
+    <dep from="t7" to="t8" rfunc="OBJ" />
+    <!--P(ca-2, .-9)-->
+    <dep from="t2" to="t9" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--They-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--me-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--me-->
+      <span>
+        <target id="t5" head="yes" />
+      </span>
+      <!--I-->
+      <span>
+        <target id="t6" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Immortal_(professional_wrestling)" confidence="0.2961201750797354" spotted="true">
+      <!--They-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 ca : [t1 They]-->
+    <predicate id="f_pr3" source="semafor" confidence="44.665397985410415">
+      <!--ca-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Capability" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--They-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Capability@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Capability-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 touch : A0[t1 They] AM-NEG[t3 n't] AM-MOD[t1 They] A1[t6 I] A1[t5 me]-->
+    <predicate id="f_pr4" source="semafor" confidence="27.3207741471519">
+      <!--touch-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Stimulus_focus" />
+        <externalRef resource="PropBank" reference="touch.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01770802-v" />
+        <externalRef resource="WordNet" reference="ili-30-01205696-v" />
+        <externalRef resource="WordNet" reference="ili-30-02676054-v" />
+        <externalRef resource="WordNet" reference="ili-30-01206218-v" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--They-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Stimulus_focus@Stimulus" />
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="touch.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Stimulus_focus-Stimulus" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl13" semRole="AM-MOD">
+        <!--They ca n't touch me I assure you .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </role>
+      <role id="rl14" semRole="A1">
+        <!--I assure you-->
+        <span>
+          <target id="t6" />
+          <target id="t7" head="yes" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Experiencer" />
+          <externalRef resource="PropBank" reference="touch.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--me-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Experiencer" />
+          <externalRef resource="PropBank" reference="touch.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 assure : A1[t8 you] A0[t6 I]-->
+    <predicate id="f_pr5" source="semafor" confidence="67.69148670574953">
+      <!--assure-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Telling" />
+        <externalRef resource="PropBank" reference="assure.01" source="mate" />
+        <externalRef resource="VerbNet" reference="advise-37.9" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00890590-v" />
+        <externalRef resource="WordNet" reference="ili-30-00884011-v" />
+        <externalRef resource="FrameBase" reference="frame-Telling-assure.v" />
+      </externalReferences>
+      <role id="rl10" semRole="A1">
+        <!--you-->
+        <span>
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Telling@Addressee" />
+          <externalRef resource="VerbNet" reference="advise-37.9@Recipient" />
+          <externalRef resource="PropBank" reference="assure.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Telling-Addressee" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Telling@Speaker" />
+          <externalRef resource="VerbNet" reference="advise-37.9@Agent" />
+          <externalRef resource="PropBank" reference="assure.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Telling-Speaker" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (NP (PRP They)) (VP (MD ca) (RB n't) (VP (VB touch) (NP (PRP me))))) (NP (PRP I)) (VP (VBP assure) (NP (PRP you))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="MD" />
+      <nt id="nter8" label="RB" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="VB" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="PRP" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="PRP" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VBP" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="PRP" />
+      <nt id="nter19" label="." />
+      <!--Terminals-->
+      <!--They-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--ca-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--touch-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--me-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--assure-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter6" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter2" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter2" head="yes" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" />
+      <edge id="tre25" from="nter18" to="nter17" head="yes" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter2" />
+      <edge id="tre28" from="ter9" to="nter19" />
+    </tree>
+  </constituency>
+</NAF>

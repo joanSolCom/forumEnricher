@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:41+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:41.837+0100" endTimestamp="2017-11-21T16:36:42.957+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:42.967+0100" endTimestamp="2017-11-21T16:36:42.969+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[We, as a race, accomplished much. Our success went to our heads and we tried to share with non-Whites. Our people did other dumb things, but I feel that giving our intellectual property to outsiders put us into the quack-mire in which we now sit.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">We</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="4" length="2">as</wf>
+    <wf id="w4" sent="1" para="1" offset="7" length="1">a</wf>
+    <wf id="w5" sent="1" para="1" offset="9" length="4">race</wf>
+    <wf id="w6" sent="1" para="1" offset="13" length="1">,</wf>
+    <wf id="w7" sent="1" para="1" offset="15" length="12">accomplished</wf>
+    <wf id="w8" sent="1" para="1" offset="28" length="4">much</wf>
+    <wf id="w9" sent="1" para="1" offset="32" length="1">.</wf>
+    <wf id="w10" sent="2" para="1" offset="34" length="3">Our</wf>
+    <wf id="w11" sent="2" para="1" offset="38" length="7">success</wf>
+    <wf id="w12" sent="2" para="1" offset="46" length="4">went</wf>
+    <wf id="w13" sent="2" para="1" offset="51" length="2">to</wf>
+    <wf id="w14" sent="2" para="1" offset="54" length="3">our</wf>
+    <wf id="w15" sent="2" para="1" offset="58" length="5">heads</wf>
+    <wf id="w16" sent="2" para="1" offset="64" length="3">and</wf>
+    <wf id="w17" sent="2" para="1" offset="68" length="2">we</wf>
+    <wf id="w18" sent="2" para="1" offset="71" length="5">tried</wf>
+    <wf id="w19" sent="2" para="1" offset="77" length="2">to</wf>
+    <wf id="w20" sent="2" para="1" offset="80" length="5">share</wf>
+    <wf id="w21" sent="2" para="1" offset="86" length="4">with</wf>
+    <wf id="w22" sent="2" para="1" offset="91" length="10">non-Whites</wf>
+    <wf id="w23" sent="2" para="1" offset="101" length="1">.</wf>
+    <wf id="w24" sent="3" para="1" offset="103" length="3">Our</wf>
+    <wf id="w25" sent="3" para="1" offset="107" length="6">people</wf>
+    <wf id="w26" sent="3" para="1" offset="114" length="3">did</wf>
+    <wf id="w27" sent="3" para="1" offset="118" length="5">other</wf>
+    <wf id="w28" sent="3" para="1" offset="124" length="4">dumb</wf>
+    <wf id="w29" sent="3" para="1" offset="129" length="6">things</wf>
+    <wf id="w30" sent="3" para="1" offset="135" length="1">,</wf>
+    <wf id="w31" sent="3" para="1" offset="137" length="3">but</wf>
+    <wf id="w32" sent="3" para="1" offset="141" length="1">I</wf>
+    <wf id="w33" sent="3" para="1" offset="143" length="4">feel</wf>
+    <wf id="w34" sent="3" para="1" offset="148" length="4">that</wf>
+    <wf id="w35" sent="3" para="1" offset="153" length="6">giving</wf>
+    <wf id="w36" sent="3" para="1" offset="160" length="3">our</wf>
+    <wf id="w37" sent="3" para="1" offset="164" length="12">intellectual</wf>
+    <wf id="w38" sent="3" para="1" offset="177" length="8">property</wf>
+    <wf id="w39" sent="3" para="1" offset="186" length="2">to</wf>
+    <wf id="w40" sent="3" para="1" offset="189" length="9">outsiders</wf>
+    <wf id="w41" sent="3" para="1" offset="199" length="3">put</wf>
+    <wf id="w42" sent="3" para="1" offset="203" length="2">us</wf>
+    <wf id="w43" sent="3" para="1" offset="206" length="4">into</wf>
+    <wf id="w44" sent="3" para="1" offset="211" length="3">the</wf>
+    <wf id="w45" sent="3" para="1" offset="215" length="10">quack-mire</wf>
+    <wf id="w46" sent="3" para="1" offset="226" length="2">in</wf>
+    <wf id="w47" sent="3" para="1" offset="229" length="5">which</wf>
+    <wf id="w48" sent="3" para="1" offset="235" length="2">we</wf>
+    <wf id="w49" sent="3" para="1" offset="238" length="3">now</wf>
+    <wf id="w50" sent="3" para="1" offset="242" length="3">sit</wf>
+    <wf id="w51" sent="3" para="1" offset="245" length="1">.</wf>
+  </text>
+  <terms>
+    <!--We-->
+    <term id="t1" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t3" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t4" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--race-->
+    <term id="t5" type="open" lemma="race" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t6" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--accomplished-->
+    <term id="t7" type="open" lemma="accomplish" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--much-->
+    <term id="t8" type="open" lemma="much" pos="A" morphofeat="RB">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t9" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Our-->
+    <term id="t10" type="open" lemma="we" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--success-->
+    <term id="t11" type="open" lemma="success" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--went-->
+    <term id="t12" type="open" lemma="go" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t13" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--our-->
+    <term id="t14" type="open" lemma="we" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--heads-->
+    <term id="t15" type="open" lemma="head" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t16" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t17" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--tried-->
+    <term id="t18" type="open" lemma="try" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t19" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--share-->
+    <term id="t20" type="open" lemma="share" pos="V" morphofeat="VB">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--with-->
+    <term id="t21" type="open" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--non-Whites-->
+    <term id="t22" type="open" lemma="non-whites" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t23" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--Our-->
+    <term id="t24" type="open" lemma="we" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--people-->
+    <term id="t25" type="open" lemma="people" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--did-->
+    <term id="t26" type="open" lemma="do" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--other-->
+    <term id="t27" type="open" lemma="other" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--dumb-->
+    <term id="t28" type="open" lemma="dumb" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--things-->
+    <term id="t29" type="open" lemma="thing" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t30" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--but-->
+    <term id="t31" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t32" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--feel-->
+    <term id="t33" type="open" lemma="feel" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t34" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--giving-->
+    <term id="t35" type="open" lemma="give" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--our-->
+    <term id="t36" type="open" lemma="we" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--intellectual-->
+    <term id="t37" type="open" lemma="intellectual" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--property-->
+    <term id="t38" type="open" lemma="property" pos="N" morphofeat="NN">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t39" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--outsiders-->
+    <term id="t40" type="open" lemma="outsider" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--put-->
+    <term id="t41" type="open" lemma="put" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--us-->
+    <term id="t42" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--into-->
+    <term id="t43" type="open" lemma="into" pos="P" morphofeat="IN">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t44" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--quack-mire-->
+    <term id="t45" type="open" lemma="quack-mire" pos="N" morphofeat="NN">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t46" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--which-->
+    <term id="t47" type="open" lemma="which" pos="O" morphofeat="WDT">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t48" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--now-->
+    <term id="t49" type="open" lemma="now" pos="A" morphofeat="RB">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--sit-->
+    <term id="t50" type="open" lemma="sit" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t51" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(accomplished-7, We-1)-->
+    <dep from="t7" to="t1" rfunc="SBJ" />
+    <!--P(accomplished-7, ,-2)-->
+    <dep from="t7" to="t2" rfunc="P" />
+    <!--ADV(accomplished-7, as-3)-->
+    <dep from="t7" to="t3" rfunc="ADV" />
+    <!--NMOD(race-5, a-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--PMOD(as-3, race-5)-->
+    <dep from="t3" to="t5" rfunc="PMOD" />
+    <!--P(accomplished-7, ,-6)-->
+    <dep from="t7" to="t6" rfunc="P" />
+    <!--OBJ(accomplished-7, much-8)-->
+    <dep from="t7" to="t8" rfunc="OBJ" />
+    <!--P(accomplished-7, .-9)-->
+    <dep from="t7" to="t9" rfunc="P" />
+    <!--NMOD(success-11, Our-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--SBJ(went-12, success-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--ADV(went-12, to-13)-->
+    <dep from="t12" to="t13" rfunc="ADV" />
+    <!--NMOD(heads-15, our-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--PMOD(to-13, heads-15)-->
+    <dep from="t13" to="t15" rfunc="PMOD" />
+    <!--COORD(went-12, and-16)-->
+    <dep from="t12" to="t16" rfunc="COORD" />
+    <!--SBJ(tried-18, we-17)-->
+    <dep from="t18" to="t17" rfunc="SBJ" />
+    <!--CONJ(and-16, tried-18)-->
+    <dep from="t16" to="t18" rfunc="CONJ" />
+    <!--OPRD(tried-18, to-19)-->
+    <dep from="t18" to="t19" rfunc="OPRD" />
+    <!--IM(to-19, share-20)-->
+    <dep from="t19" to="t20" rfunc="IM" />
+    <!--ADV(share-20, with-21)-->
+    <dep from="t20" to="t21" rfunc="ADV" />
+    <!--PMOD(with-21, non-Whites-22)-->
+    <dep from="t21" to="t22" rfunc="PMOD" />
+    <!--P(went-12, .-23)-->
+    <dep from="t12" to="t23" rfunc="P" />
+    <!--NMOD(people-25, Our-24)-->
+    <dep from="t25" to="t24" rfunc="NMOD" />
+    <!--SBJ(did-26, people-25)-->
+    <dep from="t26" to="t25" rfunc="SBJ" />
+    <!--NMOD(things-29, other-27)-->
+    <dep from="t29" to="t27" rfunc="NMOD" />
+    <!--NMOD(things-29, dumb-28)-->
+    <dep from="t29" to="t28" rfunc="NMOD" />
+    <!--OBJ(did-26, things-29)-->
+    <dep from="t26" to="t29" rfunc="OBJ" />
+    <!--P(did-26, ,-30)-->
+    <dep from="t26" to="t30" rfunc="P" />
+    <!--COORD(did-26, but-31)-->
+    <dep from="t26" to="t31" rfunc="COORD" />
+    <!--SBJ(feel-33, I-32)-->
+    <dep from="t33" to="t32" rfunc="SBJ" />
+    <!--CONJ(but-31, feel-33)-->
+    <dep from="t31" to="t33" rfunc="CONJ" />
+    <!--OBJ(feel-33, that-34)-->
+    <dep from="t33" to="t34" rfunc="OBJ" />
+    <!--SBJ(put-41, giving-35)-->
+    <dep from="t41" to="t35" rfunc="SBJ" />
+    <!--NMOD(property-38, our-36)-->
+    <dep from="t38" to="t36" rfunc="NMOD" />
+    <!--NMOD(property-38, intellectual-37)-->
+    <dep from="t38" to="t37" rfunc="NMOD" />
+    <!--OBJ(giving-35, property-38)-->
+    <dep from="t35" to="t38" rfunc="OBJ" />
+    <!--ADV(giving-35, to-39)-->
+    <dep from="t35" to="t39" rfunc="ADV" />
+    <!--PMOD(to-39, outsiders-40)-->
+    <dep from="t39" to="t40" rfunc="PMOD" />
+    <!--SUB(that-34, put-41)-->
+    <dep from="t34" to="t41" rfunc="SUB" />
+    <!--OBJ(put-41, us-42)-->
+    <dep from="t41" to="t42" rfunc="OBJ" />
+    <!--PUT(put-41, into-43)-->
+    <dep from="t41" to="t43" rfunc="PUT" />
+    <!--NMOD(quack-mire-45, the-44)-->
+    <dep from="t45" to="t44" rfunc="NMOD" />
+    <!--PMOD(into-43, quack-mire-45)-->
+    <dep from="t43" to="t45" rfunc="PMOD" />
+    <!--LOC(sit-50, in-46)-->
+    <dep from="t50" to="t46" rfunc="LOC" />
+    <!--PMOD(in-46, which-47)-->
+    <dep from="t46" to="t47" rfunc="PMOD" />
+    <!--SBJ(sit-50, we-48)-->
+    <dep from="t50" to="t48" rfunc="SBJ" />
+    <!--TMP(sit-50, now-49)-->
+    <dep from="t50" to="t49" rfunc="TMP" />
+    <!--NMOD(quack-mire-45, sit-50)-->
+    <dep from="t45" to="t50" rfunc="NMOD" />
+    <!--P(did-26, .-51)-->
+    <dep from="t26" to="t51" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--non-Whites-->
+        <span>
+          <target id="t22" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--intellectual property-->
+        <span>
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Intellectual_property" confidence="0.9916857" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--We-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--race-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--Our-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--success-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--our-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--heads-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--Our-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11" unnamed="yes">
+      <references>
+        <!--people-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e12" unnamed="yes">
+      <references>
+        <!--things-->
+        <span>
+          <target id="t29" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e13" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t32" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e14" unnamed="yes">
+      <references>
+        <!--our-->
+        <span>
+          <target id="t36" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e15" unnamed="yes">
+      <references>
+        <!--outsiders-->
+        <span>
+          <target id="t40" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e16" unnamed="yes">
+      <references>
+        <!--us-->
+        <span>
+          <target id="t42" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e17" unnamed="yes">
+      <references>
+        <!--quack-mire-->
+        <span>
+          <target id="t45" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e18" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t48" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--Our-->
+      <span>
+        <target id="t10" head="yes" />
+      </span>
+      <!--our-->
+      <span>
+        <target id="t14" head="yes" />
+      </span>
+      <!--we-->
+      <span>
+        <target id="t17" head="yes" />
+      </span>
+    </coref>
+    <coref id="co3">
+      <!--us-->
+      <span>
+        <target id="t42" head="yes" />
+      </span>
+      <!--we-->
+      <span>
+        <target id="t48" head="yes" />
+      </span>
+      <!--Our-->
+      <span>
+        <target id="t24" head="yes" />
+      </span>
+      <!--our-->
+      <span>
+        <target id="t36" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="PRESENT_REF">
+      <!--now-->
+      <span>
+        <target id="w49" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Montana" confidence="0.5035427846409802" spotted="true">
+      <!--We-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Share_(finance)" confidence="0.7233238331728632" spotted="true">
+      <!--share-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Christian" confidence="0.9957392119838632" spotted="true">
+      <!--Our-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Intellectual_property" confidence="0.9916857073977875" spotted="true">
+      <!--intellectual property-->
+      <span>
+        <target id="w37" />
+        <target id="w38" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goal" confidence="0.599376281437613" spotted="true">
+      <!--success-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Christian" confidence="0.9957392119838632" spotted="true">
+      <!--Our-->
+      <span>
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_(human_classification)" confidence="0.47369670480405396" spotted="true">
+      <!--race-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Head" confidence="0.37148855476106324" spotted="true">
+      <!--heads-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Outsider_(Dungeons_&amp;_Dragons)" confidence="0.9736786051300323" spotted="true">
+      <!--outsiders-->
+      <span>
+        <target id="w40" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t5 race : [t4 a]-->
+    <predicate id="f_pr2" source="semafor" confidence="24.119032418378104">
+      <!--race-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Type" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_(human_classification)" confidence="0.4736967" />
+        <externalRef resource="FrameBase" reference="frame-Type-race.n" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--a race-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Type@Subtype" />
+          <externalRef resource="FrameBase" reference="fe-Type-Subtype" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 accomplished : A1[t8 much] A0[t1 We] AM-ADV[t3 as]-->
+    <predicate id="f_pr3" source="semafor" confidence="72.22835501309271">
+      <!--accomplished-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Accomplishment" />
+        <externalRef resource="PropBank" reference="accomplish.01" source="mate" />
+        <externalRef resource="VerbNet" reference="complete-55.2" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01640855-v" />
+        <externalRef resource="WordNet" reference="ili-30-02526085-v" />
+        <externalRef resource="FrameBase" reference="frame-Accomplishment-achieve.v" />
+      </externalReferences>
+      <role id="rl5" semRole="A1">
+        <!--much-->
+        <span>
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Accomplishment@Goal" />
+          <externalRef resource="VerbNet" reference="complete-55.2@Theme" />
+          <externalRef resource="PropBank" reference="accomplish.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Accomplishment-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl6" semRole="A0">
+        <!--We-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Accomplishment@Agent" />
+          <externalRef resource="VerbNet" reference="complete-55.2@Agent" />
+          <externalRef resource="PropBank" reference="accomplish.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Accomplishment-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl47" semRole="AM-ADV">
+        <!--as a race-->
+        <span>
+          <target id="t3" head="yes" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 much : [t8 much]-->
+    <predicate id="f_pr4" source="semafor" confidence="20.94011122466522">
+      <!--much-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+        <externalRef resource="FrameBase" reference="frame-Relational_quantity-much.art" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--much-->
+        <span>
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 share : A2[t21 with] A0[t17 we]-->
+    <predicate id="pr9" source="mate">
+      <!--share-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="share.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Share_(finance)" confidence="0.7233238" />
+      </externalReferences>
+      <role id="rl14" semRole="A2">
+        <!--with non-Whites-->
+        <span>
+          <target id="t21" head="yes" />
+          <target id="t22" />
+        </span>
+      </role>
+      <role id="rl15" semRole="A0">
+        <!--we-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t11 success : A0[t10 Our]-->
+    <predicate id="f_pr10" source="semafor" confidence="77.06668120725737">
+      <!--success-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Success_or_failure" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goal" confidence="0.59937626" />
+        <externalRef resource="NomBank" reference="success.01" source="mate" />
+        <externalRef resource="VerbNet" reference="succeed-74-1" />
+        <externalRef resource="PropBank" reference="succeed.01" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02524171-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goal" confidence="0.59937626" />
+        <externalRef resource="FrameBase" reference="frame-Success_or_failure-success.n" />
+      </externalReferences>
+      <role id="rl48" semRole="A0">
+        <!--Our-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="succeed-74@Agent" />
+          <externalRef resource="PropBank" reference="succeed.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 went : A4[t13 to] A0[t10 Our]-->
+    <predicate id="f_pr11" source="semafor" confidence="103.14431954611085">
+      <!--went-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Motion" />
+        <externalRef resource="PropBank" reference="go.02" source="mate" />
+        <externalRef resource="VerbNet" reference="escape-51.1" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-01848718-v" />
+        <externalRef resource="WordNet" reference="ili-30-01835496-v" />
+        <externalRef resource="FrameBase" reference="frame-Motion-go.v" />
+      </externalReferences>
+      <role id="rl16" semRole="A4">
+        <!--to our heads-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Motion@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Motion-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="A0">
+        <!--Our success-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Motion@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Motion-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 heads : A1[t14 our]-->
+    <predicate id="f_pr12" source="semafor" confidence="85.10368934894737">
+      <!--heads-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Head" confidence="0.37148854" />
+        <externalRef resource="NomBank" reference="head.02" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Head" confidence="0.37148854" />
+        <externalRef resource="FrameBase" reference="frame-Leadership-head.v" />
+      </externalReferences>
+      <role id="rl19" semRole="A1">
+        <!--our-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Governed" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Governed" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 tried : A1[t19 to] A0[t17 we]-->
+    <predicate id="f_pr13" source="semafor" confidence="100.83375849090214">
+      <!--tried-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Attempt" />
+        <externalRef resource="PropBank" reference="try.01" source="mate" />
+        <externalRef resource="VerbNet" reference="try-61" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02530167-v" />
+        <externalRef resource="FrameBase" reference="frame-Attempt-try.v" />
+      </externalReferences>
+      <role id="rl20" semRole="A1">
+        <!--to share with non-Whites-->
+        <span>
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attempt@Goal" />
+          <externalRef resource="VerbNet" reference="try-61@Theme" />
+          <externalRef resource="PropBank" reference="try.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Attempt-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="A0">
+        <!--we-->
+        <span>
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attempt@Agent" />
+          <externalRef resource="VerbNet" reference="try-61@Agent" />
+          <externalRef resource="PropBank" reference="try.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Attempt-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t25 people : [t24 Our]-->
+    <predicate id="f_pr19" source="semafor" confidence="37.06313360945397">
+      <!--people-->
+      <span>
+        <target id="t25" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="FrameBase" reference="frame-People-people.n" />
+      </externalReferences>
+      <role id="rl35" semRole="">
+        <!--Our people-->
+        <span>
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t26 did : [t27 other] [t24 Our]-->
+    <predicate id="f_pr20" source="semafor" confidence="75.19792114555295">
+      <!--did-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl36" semRole="">
+        <!--other dumb things-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+      <role id="rl37" semRole="">
+        <!--Our people-->
+        <span>
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t27 other : [t27 other]-->
+    <predicate id="f_pr21" source="semafor" confidence="25.281248508699232">
+      <!--other-->
+      <span>
+        <target id="t27" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+        <externalRef resource="FrameBase" reference="frame-Increment-other.a" />
+      </externalReferences>
+      <role id="rl38" semRole="">
+        <!--other dumb things-->
+        <span>
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Class" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Class" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t33 feel : A0[t32 I] A1[t34 that]-->
+    <predicate id="f_pr22" source="semafor" confidence="15.761618607297343">
+      <!--feel-->
+      <span>
+        <target id="t33" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Feeling" />
+        <externalRef resource="PropBank" reference="feel.02" source="mate" />
+        <externalRef resource="VerbNet" reference="comprehend-87.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00715239-v" />
+        <externalRef resource="WordNet" reference="ili-30-00594058-v" />
+        <externalRef resource="WordNet" reference="ili-30-00593522-v" />
+        <externalRef resource="WordNet" reference="ili-30-00593852-v" />
+        <externalRef resource="WordNet" reference="ili-30-00591115-v" />
+        <externalRef resource="WordNet" reference="ili-30-00588888-v" />
+        <externalRef resource="FrameBase" reference="frame-Feeling-feel.v" />
+      </externalReferences>
+      <role id="rl39" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t32" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Feeling@Experiencer" />
+          <externalRef resource="VerbNet" reference="comprehend-87.2@Experiencer" />
+          <externalRef resource="PropBank" reference="feel.02@0" />
+          <externalRef resource="FrameBase" reference="fe-Feeling-Experiencer" />
+        </externalReferences>
+      </role>
+      <role id="rl55" semRole="A1">
+        <!--that giving our intellectual property to outsiders put us into the quack-mire in which we now sit-->
+        <span>
+          <target id="t34" head="yes" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="comprehend-87.2@Attribute" />
+          <externalRef resource="PropBank" reference="feel.02@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t35 giving : A2[t39 to] A1[t36 our]-->
+    <predicate id="f_pr23" source="semafor" confidence="74.357687057698">
+      <!--giving-->
+      <span>
+        <target id="t35" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Giving" />
+        <externalRef resource="PropBank" reference="give.01" source="mate" />
+        <externalRef resource="VerbNet" reference="give-13.1-1" />
+        <externalRef resource="ESO" reference="Giving" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01178565-v" />
+        <externalRef resource="WordNet" reference="ili-30-02199590-v" />
+        <externalRef resource="WordNet" reference="ili-30-02200686-v" />
+        <externalRef resource="WordNet" reference="ili-30-02200498-v" />
+        <externalRef resource="WordNet" reference="ili-30-02316868-v" />
+        <externalRef resource="WordNet" reference="ili-30-02230772-v" />
+        <externalRef resource="WordNet" reference="ili-30-02359553-v" />
+        <externalRef resource="WordNet" reference="ili-30-02309374-v" />
+        <externalRef resource="FrameBase" reference="frame-Giving-gift.v" />
+      </externalReferences>
+      <role id="rl40" semRole="A2">
+        <!--to outsiders-->
+        <span>
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Giving@Recipient" />
+          <externalRef resource="VerbNet" reference="give-13.1@Recipient" />
+          <externalRef resource="PropBank" reference="give.01@2" />
+          <externalRef resource="ESO" reference="Giving@possession-owner_2" />
+          <externalRef resource="FrameBase" reference="fe-Giving-Recipient" />
+        </externalReferences>
+      </role>
+      <role id="rl41" semRole="A1">
+        <!--our intellectual property-->
+        <span>
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Giving@Theme" />
+          <externalRef resource="VerbNet" reference="give-13.1@Theme" />
+          <externalRef resource="PropBank" reference="give.01@1" />
+          <externalRef resource="ESO" reference="Giving@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Giving-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t38 property : A1[t37 intellectual] A0[t36 our]-->
+    <predicate id="f_pr24" source="semafor" confidence="41.34987241383561">
+      <!--property-->
+      <span>
+        <target id="t38" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Intellectual_property" confidence="0.9916857" />
+        <externalRef resource="NomBank" reference="property.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Intellectual_property" confidence="0.9916857" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl53" semRole="A1">
+        <!--intellectual-->
+        <span>
+          <target id="t37" head="yes" />
+        </span>
+      </role>
+      <role id="rl54" semRole="A0">
+        <!--our-->
+        <span>
+          <target id="t36" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t41 put : A2[t43 into] A1[t42 us] A0[t35 giving]-->
+    <predicate id="f_pr25" source="semafor" confidence="107.4404937769232">
+      <!--put-->
+      <span>
+        <target id="t41" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Placing" />
+        <externalRef resource="PropBank" reference="put.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Placing-lay.v" />
+      </externalReferences>
+      <role id="rl43" semRole="A2">
+        <!--into the quack-mire in which we now sit-->
+        <span>
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Placing@Goal" />
+          <externalRef resource="FrameBase" reference="fe-Placing-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl44" semRole="A1">
+        <!--us-->
+        <span>
+          <target id="t42" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Placing@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Placing-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl52" semRole="A0">
+        <!--giving our intellectual property to outsiders-->
+        <span>
+          <target id="t35" head="yes" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+      </role>
+    </predicate>
+    <!--t49 now : [t48 we]-->
+    <predicate id="f_pr26" source="semafor" confidence="42.123014167352466">
+      <!--now-->
+      <span>
+        <target id="t49" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_collocation" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_collocation-now.adv" />
+      </externalReferences>
+      <role id="rl45" semRole="">
+        <!--we-->
+        <span>
+          <target id="t48" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Temporal_collocation@Trajector_event" />
+          <externalRef resource="FrameBase" reference="fe-Temporal_collocation-Trajector_event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t50 sit : A1[t48 we] A1[t44 the] AM-TMP[t49 now] R-AM-LOC[t46 in]-->
+    <predicate id="f_pr27" source="semafor" confidence="54.832775795499614">
+      <!--sit-->
+      <span>
+        <target id="t50" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Posture" />
+        <externalRef resource="PropBank" reference="sit.01" source="mate" />
+        <externalRef resource="VerbNet" reference="spatial_configuration-47.6" />
+        <externalRef resource="ESO" reference="Placing" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01984902-v" />
+        <externalRef resource="WordNet" reference="ili-30-01543998-v" />
+        <externalRef resource="WordNet" reference="ili-30-02692882-v" />
+        <externalRef resource="WordNet" reference="ili-30-01543123-v" />
+        <externalRef resource="FrameBase" reference="frame-Posture-sit.v" />
+      </externalReferences>
+      <role id="rl46" semRole="A1">
+        <!--we-->
+        <span>
+          <target id="t48" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Posture@Agent" />
+          <externalRef resource="VerbNet" reference="spatial_configuration-47.6@Theme" />
+          <externalRef resource="PropBank" reference="sit.01@1" />
+          <externalRef resource="ESO" reference="Placing@translocation-theme" />
+          <externalRef resource="FrameBase" reference="fe-Posture-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl49" semRole="A1">
+        <!--the quack-mire in which we now sit-->
+        <span>
+          <target id="t44" />
+          <target id="t45" head="yes" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="spatial_configuration-47.6@Theme" />
+          <externalRef resource="PropBank" reference="sit.01@1" />
+          <externalRef resource="ESO" reference="Placing@translocation-theme" />
+        </externalReferences>
+      </role>
+      <role id="rl50" semRole="AM-TMP">
+        <!--now-->
+        <span>
+          <target id="t49" head="yes" />
+        </span>
+      </role>
+      <role id="rl51" semRole="R-AM-LOC">
+        <!--in which-->
+        <span>
+          <target id="t46" head="yes" />
+          <target id="t47" />
+        </span>
+      </role>
+    </predicate>
+    <!--t29 things :-->
+    <predicate id="pr28">
+      <!--things-->
+      <span>
+        <target id="t29" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="thing.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP We)) (, ,) (PP (IN as) (NP (DT a) (NN race))) (, ,) (VP (VBN accomplished) (ADVP (RB much))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (S (NP (PRP$ Our) (NN success)) (VP (VBD went) (PP (TO to) (NP (PRP$ our) (NNS heads))))) (CC and) (S (NP (PRP we)) (VP (VBD tried) (S (VP (TO to) (VP (VB share) (PP (IN with) (NP (NNS non-Whites)))))))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (S (NP (PRP$ Our) (NNS people)) (VP (VBD did) (NP (JJ other) (JJ dumb) (NNS things)))) (, ,) (CC but) (S (NP (PRP I)) (VP (VBP feel) (SBAR (IN that) (S (S (VP (VBG giving) (NP (PRP$ our) (JJ intellectual) (NN property)) (PP (TO to) (NP (NNS outsiders))))) (VP (VBP put) (NP (PRP us)) (PP (IN into) (NP (NP (DT the) (NN quack-mire)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (PRP we)) (ADVP (RB now)) (VP (VBP sit))))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="," />
+      <nt id="nter6" label="PP" />
+      <nt id="nter7" label="IN" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="NN" />
+      <nt id="nter11" label="," />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBN" />
+      <nt id="nter14" label="ADVP" />
+      <nt id="nter15" label="RB" />
+      <nt id="nter16" label="." />
+      <!--Terminals-->
+      <!--We-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--race-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--accomplished-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--much-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter2" />
+      <edge id="tre17" from="ter6" to="nter11" />
+      <edge id="tre18" from="nter12" to="nter2" head="yes" />
+      <edge id="tre19" from="nter13" to="nter12" head="yes" />
+      <edge id="tre20" from="ter7" to="nter13" />
+      <edge id="tre21" from="nter14" to="nter12" />
+      <edge id="tre22" from="nter15" to="nter14" head="yes" />
+      <edge id="tre23" from="ter8" to="nter15" />
+      <edge id="tre24" from="nter16" to="nter2" />
+      <edge id="tre25" from="ter9" to="nter16" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter17" label="ROOT" />
+      <nt id="nter18" label="S" />
+      <nt id="nter19" label="S" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="PRP$" />
+      <nt id="nter22" label="NN" />
+      <nt id="nter23" label="VP" />
+      <nt id="nter24" label="VBD" />
+      <nt id="nter25" label="PP" />
+      <nt id="nter26" label="TO" />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="PRP$" />
+      <nt id="nter29" label="NNS" />
+      <nt id="nter30" label="CC" />
+      <nt id="nter31" label="S" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="PRP" />
+      <nt id="nter34" label="VP" />
+      <nt id="nter35" label="VBD" />
+      <nt id="nter36" label="S" />
+      <nt id="nter37" label="VP" />
+      <nt id="nter38" label="TO" />
+      <nt id="nter39" label="VP" />
+      <nt id="nter40" label="VB" />
+      <nt id="nter41" label="PP" />
+      <nt id="nter42" label="IN" />
+      <nt id="nter43" label="NP" />
+      <nt id="nter44" label="NNS" />
+      <nt id="nter45" label="." />
+      <!--Terminals-->
+      <!--Our-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--success-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--went-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--our-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--heads-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--tried-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--share-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--with-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--non-Whites-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre27" from="nter18" to="nter17" head="yes" />
+      <edge id="tre28" from="nter19" to="nter18" head="yes" />
+      <edge id="tre29" from="nter20" to="nter19" />
+      <edge id="tre30" from="nter21" to="nter20" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter20" head="yes" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter19" head="yes" />
+      <edge id="tre35" from="nter24" to="nter23" head="yes" />
+      <edge id="tre36" from="ter12" to="nter24" />
+      <edge id="tre37" from="nter25" to="nter23" />
+      <edge id="tre38" from="nter26" to="nter25" head="yes" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter25" />
+      <edge id="tre41" from="nter28" to="nter27" />
+      <edge id="tre42" from="ter14" to="nter28" />
+      <edge id="tre43" from="nter29" to="nter27" head="yes" />
+      <edge id="tre44" from="ter15" to="nter29" />
+      <edge id="tre45" from="nter30" to="nter18" />
+      <edge id="tre46" from="ter16" to="nter30" />
+      <edge id="tre47" from="nter31" to="nter18" />
+      <edge id="tre48" from="nter32" to="nter31" />
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="ter17" to="nter33" />
+      <edge id="tre51" from="nter34" to="nter31" head="yes" />
+      <edge id="tre52" from="nter35" to="nter34" head="yes" />
+      <edge id="tre53" from="ter18" to="nter35" />
+      <edge id="tre54" from="nter36" to="nter34" />
+      <edge id="tre55" from="nter37" to="nter36" head="yes" />
+      <edge id="tre56" from="nter38" to="nter37" head="yes" />
+      <edge id="tre57" from="ter19" to="nter38" />
+      <edge id="tre58" from="nter39" to="nter37" />
+      <edge id="tre59" from="nter40" to="nter39" head="yes" />
+      <edge id="tre60" from="ter20" to="nter40" />
+      <edge id="tre61" from="nter41" to="nter39" />
+      <edge id="tre62" from="nter42" to="nter41" head="yes" />
+      <edge id="tre63" from="ter21" to="nter42" />
+      <edge id="tre64" from="nter43" to="nter41" />
+      <edge id="tre65" from="nter44" to="nter43" head="yes" />
+      <edge id="tre66" from="ter22" to="nter44" />
+      <edge id="tre67" from="nter45" to="nter18" />
+      <edge id="tre68" from="ter23" to="nter45" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter46" label="ROOT" />
+      <nt id="nter47" label="S" />
+      <nt id="nter48" label="S" />
+      <nt id="nter49" label="NP" />
+      <nt id="nter50" label="PRP$" />
+      <nt id="nter51" label="NNS" />
+      <nt id="nter52" label="VP" />
+      <nt id="nter53" label="VBD" />
+      <nt id="nter54" label="NP" />
+      <nt id="nter55" label="JJ" />
+      <nt id="nter56" label="JJ" />
+      <nt id="nter57" label="NNS" />
+      <nt id="nter58" label="," />
+      <nt id="nter59" label="CC" />
+      <nt id="nter60" label="S" />
+      <nt id="nter61" label="NP" />
+      <nt id="nter62" label="PRP" />
+      <nt id="nter63" label="VP" />
+      <nt id="nter64" label="VBP" />
+      <nt id="nter65" label="SBAR" />
+      <nt id="nter66" label="IN" />
+      <nt id="nter67" label="S" />
+      <nt id="nter68" label="S" />
+      <nt id="nter69" label="VP" />
+      <nt id="nter70" label="VBG" />
+      <nt id="nter71" label="NP" />
+      <nt id="nter72" label="PRP$" />
+      <nt id="nter73" label="JJ" />
+      <nt id="nter74" label="NN" />
+      <nt id="nter75" label="PP" />
+      <nt id="nter76" label="TO" />
+      <nt id="nter77" label="NP" />
+      <nt id="nter78" label="NNS" />
+      <nt id="nter79" label="VP" />
+      <nt id="nter80" label="VBP" />
+      <nt id="nter81" label="NP" />
+      <nt id="nter82" label="PRP" />
+      <nt id="nter83" label="PP" />
+      <nt id="nter84" label="IN" />
+      <nt id="nter85" label="NP" />
+      <nt id="nter86" label="NP" />
+      <nt id="nter87" label="DT" />
+      <nt id="nter88" label="NN" />
+      <nt id="nter89" label="SBAR" />
+      <nt id="nter90" label="WHPP" />
+      <nt id="nter91" label="IN" />
+      <nt id="nter92" label="WHNP" />
+      <nt id="nter93" label="WDT" />
+      <nt id="nter94" label="S" />
+      <nt id="nter95" label="NP" />
+      <nt id="nter96" label="PRP" />
+      <nt id="nter97" label="ADVP" />
+      <nt id="nter98" label="RB" />
+      <nt id="nter99" label="VP" />
+      <nt id="nter100" label="VBP" />
+      <nt id="nter101" label="." />
+      <!--Terminals-->
+      <!--Our-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--people-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--did-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--other-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--dumb-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--things-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--but-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--feel-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--giving-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--our-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--intellectual-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--property-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--outsiders-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--put-->
+      <t id="ter41">
+        <span>
+          <target id="t41" />
+        </span>
+      </t>
+      <!--us-->
+      <t id="ter42">
+        <span>
+          <target id="t42" />
+        </span>
+      </t>
+      <!--into-->
+      <t id="ter43">
+        <span>
+          <target id="t43" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter44">
+        <span>
+          <target id="t44" />
+        </span>
+      </t>
+      <!--quack-mire-->
+      <t id="ter45">
+        <span>
+          <target id="t45" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter46">
+        <span>
+          <target id="t46" />
+        </span>
+      </t>
+      <!--which-->
+      <t id="ter47">
+        <span>
+          <target id="t47" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter48">
+        <span>
+          <target id="t48" />
+        </span>
+      </t>
+      <!--now-->
+      <t id="ter49">
+        <span>
+          <target id="t49" />
+        </span>
+      </t>
+      <!--sit-->
+      <t id="ter50">
+        <span>
+          <target id="t50" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter51">
+        <span>
+          <target id="t51" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre70" from="nter47" to="nter46" head="yes" />
+      <edge id="tre71" from="nter48" to="nter47" head="yes" />
+      <edge id="tre72" from="nter49" to="nter48" />
+      <edge id="tre73" from="nter50" to="nter49" />
+      <edge id="tre74" from="ter24" to="nter50" />
+      <edge id="tre75" from="nter51" to="nter49" head="yes" />
+      <edge id="tre76" from="ter25" to="nter51" />
+      <edge id="tre77" from="nter52" to="nter48" head="yes" />
+      <edge id="tre78" from="nter53" to="nter52" head="yes" />
+      <edge id="tre79" from="ter26" to="nter53" />
+      <edge id="tre80" from="nter54" to="nter52" />
+      <edge id="tre81" from="nter55" to="nter54" />
+      <edge id="tre82" from="ter27" to="nter55" />
+      <edge id="tre83" from="nter56" to="nter54" />
+      <edge id="tre84" from="ter28" to="nter56" />
+      <edge id="tre85" from="nter57" to="nter54" head="yes" />
+      <edge id="tre86" from="ter29" to="nter57" />
+      <edge id="tre87" from="nter58" to="nter47" />
+      <edge id="tre88" from="ter30" to="nter58" />
+      <edge id="tre89" from="nter59" to="nter47" />
+      <edge id="tre90" from="ter31" to="nter59" />
+      <edge id="tre91" from="nter60" to="nter47" />
+      <edge id="tre92" from="nter61" to="nter60" />
+      <edge id="tre93" from="nter62" to="nter61" head="yes" />
+      <edge id="tre94" from="ter32" to="nter62" />
+      <edge id="tre95" from="nter63" to="nter60" head="yes" />
+      <edge id="tre96" from="nter64" to="nter63" head="yes" />
+      <edge id="tre97" from="ter33" to="nter64" />
+      <edge id="tre98" from="nter65" to="nter63" />
+      <edge id="tre99" from="nter66" to="nter65" head="yes" />
+      <edge id="tre100" from="ter34" to="nter66" />
+      <edge id="tre101" from="nter67" to="nter65" />
+      <edge id="tre102" from="nter68" to="nter67" />
+      <edge id="tre103" from="nter69" to="nter68" head="yes" />
+      <edge id="tre104" from="nter70" to="nter69" head="yes" />
+      <edge id="tre105" from="ter35" to="nter70" />
+      <edge id="tre106" from="nter71" to="nter69" />
+      <edge id="tre107" from="nter72" to="nter71" />
+      <edge id="tre108" from="ter36" to="nter72" />
+      <edge id="tre109" from="nter73" to="nter71" />
+      <edge id="tre110" from="ter37" to="nter73" />
+      <edge id="tre111" from="nter74" to="nter71" head="yes" />
+      <edge id="tre112" from="ter38" to="nter74" />
+      <edge id="tre113" from="nter75" to="nter69" />
+      <edge id="tre114" from="nter76" to="nter75" head="yes" />
+      <edge id="tre115" from="ter39" to="nter76" />
+      <edge id="tre116" from="nter77" to="nter75" />
+      <edge id="tre117" from="nter78" to="nter77" head="yes" />
+      <edge id="tre118" from="ter40" to="nter78" />
+      <edge id="tre119" from="nter79" to="nter67" head="yes" />
+      <edge id="tre120" from="nter80" to="nter79" head="yes" />
+      <edge id="tre121" from="ter41" to="nter80" />
+      <edge id="tre122" from="nter81" to="nter79" />
+      <edge id="tre123" from="nter82" to="nter81" head="yes" />
+      <edge id="tre124" from="ter42" to="nter82" />
+      <edge id="tre125" from="nter83" to="nter79" />
+      <edge id="tre126" from="nter84" to="nter83" head="yes" />
+      <edge id="tre127" from="ter43" to="nter84" />
+      <edge id="tre128" from="nter85" to="nter83" />
+      <edge id="tre129" from="nter86" to="nter85" head="yes" />
+      <edge id="tre130" from="nter87" to="nter86" />
+      <edge id="tre131" from="ter44" to="nter87" />
+      <edge id="tre132" from="nter88" to="nter86" head="yes" />
+      <edge id="tre133" from="ter45" to="nter88" />
+      <edge id="tre134" from="nter89" to="nter85" />
+      <edge id="tre135" from="nter90" to="nter89" head="yes" />
+      <edge id="tre136" from="nter91" to="nter90" head="yes" />
+      <edge id="tre137" from="ter46" to="nter91" />
+      <edge id="tre138" from="nter92" to="nter90" />
+      <edge id="tre139" from="nter93" to="nter92" head="yes" />
+      <edge id="tre140" from="ter47" to="nter93" />
+      <edge id="tre141" from="nter94" to="nter89" />
+      <edge id="tre142" from="nter95" to="nter94" />
+      <edge id="tre143" from="nter96" to="nter95" head="yes" />
+      <edge id="tre144" from="ter48" to="nter96" />
+      <edge id="tre145" from="nter97" to="nter94" />
+      <edge id="tre146" from="nter98" to="nter97" head="yes" />
+      <edge id="tre147" from="ter49" to="nter98" />
+      <edge id="tre148" from="nter99" to="nter94" head="yes" />
+      <edge id="tre149" from="nter100" to="nter99" head="yes" />
+      <edge id="tre150" from="ter50" to="nter100" />
+      <edge id="tre151" from="nter101" to="nter47" />
+      <edge id="tre152" from="ter51" to="nter101" />
+    </tree>
+  </constituency>
+</NAF>

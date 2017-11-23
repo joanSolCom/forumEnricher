@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:37:18+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:37:18.708+0100" endTimestamp="2017-11-21T16:37:19.109+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:37:19.110+0100" endTimestamp="2017-11-21T16:37:19.111+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I'm referring to all of the White Liberals who are not proud of being White.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="1" length="2">'m</wf>
+    <wf id="w3" sent="1" para="1" offset="4" length="9">referring</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="2">to</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="3">all</wf>
+    <wf id="w6" sent="1" para="1" offset="21" length="2">of</wf>
+    <wf id="w7" sent="1" para="1" offset="24" length="3">the</wf>
+    <wf id="w8" sent="1" para="1" offset="28" length="5">White</wf>
+    <wf id="w9" sent="1" para="1" offset="34" length="8">Liberals</wf>
+    <wf id="w10" sent="1" para="1" offset="43" length="3">who</wf>
+    <wf id="w11" sent="1" para="1" offset="47" length="3">are</wf>
+    <wf id="w12" sent="1" para="1" offset="51" length="3">not</wf>
+    <wf id="w13" sent="1" para="1" offset="55" length="5">proud</wf>
+    <wf id="w14" sent="1" para="1" offset="61" length="2">of</wf>
+    <wf id="w15" sent="1" para="1" offset="64" length="5">being</wf>
+    <wf id="w16" sent="1" para="1" offset="70" length="5">White</wf>
+    <wf id="w17" sent="1" para="1" offset="75" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--'m-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--referring-->
+    <term id="t3" type="open" lemma="refer" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t4" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t5" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t6" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t7" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--White-->
+    <term id="t8" type="open" lemma="White" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Liberals-->
+    <term id="t9" type="open" lemma="liberal" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--who-->
+    <term id="t10" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t11" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t12" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--proud-->
+    <term id="t13" type="open" lemma="proud" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t14" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--being-->
+    <term id="t15" type="open" lemma="be" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--White-->
+    <term id="t16" type="open" lemma="White" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t17" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ('m-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--VC('m-2, referring-3)-->
+    <dep from="t2" to="t3" rfunc="VC" />
+    <!--ADV(referring-3, to-4)-->
+    <dep from="t3" to="t4" rfunc="ADV" />
+    <!--PMOD(to-4, all-5)-->
+    <dep from="t4" to="t5" rfunc="PMOD" />
+    <!--NMOD(all-5, of-6)-->
+    <dep from="t5" to="t6" rfunc="NMOD" />
+    <!--NMOD(Liberals-9, the-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--NMOD(Liberals-9, White-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--PMOD(of-6, Liberals-9)-->
+    <dep from="t6" to="t9" rfunc="PMOD" />
+    <!--SBJ(are-11, who-10)-->
+    <dep from="t11" to="t10" rfunc="SBJ" />
+    <!--NMOD(all-5, are-11)-->
+    <dep from="t5" to="t11" rfunc="NMOD" />
+    <!--ADV(are-11, not-12)-->
+    <dep from="t11" to="t12" rfunc="ADV" />
+    <!--PRD(are-11, proud-13)-->
+    <dep from="t11" to="t13" rfunc="PRD" />
+    <!--AMOD(proud-13, of-14)-->
+    <dep from="t13" to="t14" rfunc="AMOD" />
+    <!--PMOD(of-14, being-15)-->
+    <dep from="t14" to="t15" rfunc="PMOD" />
+    <!--OBJ(being-15, White-16)-->
+    <dep from="t15" to="t16" rfunc="OBJ" />
+    <!--P('m-2, .-17)-->
+    <dep from="t2" to="t17" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--White-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.998963" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--White-->
+        <span>
+          <target id="t8" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.998963" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--Liberals-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--who-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Liberal_Party_of_Canada" confidence="0.4600170124415222" spotted="true">
+      <!--Liberals-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reference" confidence="0.9423922341427378" spotted="true">
+      <!--referring-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.9989629908639043" spotted="true">
+      <!--White-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.9989629908639043" spotted="true">
+      <!--White-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t11 are : AM-NEG[t12 not] A2[t13 proud] A1[t5 all] R-A1[t10 who]-->
+    <predicate id="pr2" source="mate">
+      <!--are-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl3" semRole="AM-NEG">
+        <!--not-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A2">
+        <!--proud of being White-->
+        <span>
+          <target id="t13" head="yes" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </role>
+      <role id="rl5" semRole="A1">
+        <!--all of the White Liberals who are not proud of being White-->
+        <span>
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </role>
+      <role id="rl6" semRole="R-A1">
+        <!--who-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t15 being : A2[t16 White] R-A2[t10 who]-->
+    <predicate id="pr3" source="mate">
+      <!--being-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl7" semRole="A2">
+        <!--White-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </role>
+      <role id="rl8" semRole="R-A2">
+        <!--who-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 referring : A1[t4 to] A0[t1 I]-->
+    <predicate id="f_pr4" source="semafor" confidence="116.8610032670328">
+      <!--referring-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Statement" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reference" confidence="0.94239223" />
+        <externalRef resource="PropBank" reference="refer.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reference" confidence="0.94239223" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--to all of the White Liberals who are not proud of being White-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Message" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Speaker" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Speaker" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 all : [t5 all] [t6 of]-->
+    <predicate id="f_pr5" source="semafor" confidence="26.51483355174455">
+      <!--all-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--all of the White Liberals who are not proud of being White-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="">
+        <!--of the White Liberals-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Mass" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Mass" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 White : [t8 White] [t7 the]-->
+    <predicate id="f_pr6" source="semafor" confidence="56.85135097622343">
+      <!--White-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.998963" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--White-->
+        <span>
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--the White Liberals-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 Liberals :-->
+    <predicate id="f_pr7" source="semafor" confidence="33.52268584178803">
+      <!--Liberals-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Strictness" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Liberal_Party_of_Canada" confidence="0.46001703" />
+      </externalReferences>
+    </predicate>
+    <!--t16 White : [t16 White]-->
+    <predicate id="f_pr8" source="semafor" confidence="47.37208267756093">
+      <!--White-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census" confidence="0.998963" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--White-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBP 'm) (VP (VBG referring) (PP (TO to) (NP (NP (DT all)) (PP (IN of) (NP (DT the) (NNP White) (NNS Liberals))) (SBAR (WHNP (WP who)) (S (VP (VBP are) (RB not) (ADJP (JJ proud) (PP (IN of) (S (VP (VBG being) (NP (NNP White))))))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VBG" />
+      <nt id="nter9" label="PP" />
+      <nt id="nter10" label="TO" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="DT" />
+      <nt id="nter14" label="PP" />
+      <nt id="nter15" label="IN" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="DT" />
+      <nt id="nter18" label="NNP" />
+      <nt id="nter19" label="NNS" />
+      <nt id="nter20" label="SBAR" />
+      <nt id="nter21" label="WHNP" />
+      <nt id="nter22" label="WP" />
+      <nt id="nter23" label="S" />
+      <nt id="nter24" label="VP" />
+      <nt id="nter25" label="VBP" />
+      <nt id="nter26" label="RB" />
+      <nt id="nter27" label="ADJP" />
+      <nt id="nter28" label="JJ" />
+      <nt id="nter29" label="PP" />
+      <nt id="nter30" label="IN" />
+      <nt id="nter31" label="S" />
+      <nt id="nter32" label="VP" />
+      <nt id="nter33" label="VBG" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="NNP" />
+      <nt id="nter36" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--'m-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--referring-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--White-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Liberals-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--who-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--proud-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--being-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--White-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter11" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter14" />
+      <edge id="tre23" from="nter17" to="nter16" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter16" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter11" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="nter22" to="nter21" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter20" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter24" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter24" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="nter30" to="nter29" head="yes" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter29" />
+      <edge id="tre46" from="nter32" to="nter31" head="yes" />
+      <edge id="tre47" from="nter33" to="nter32" head="yes" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter32" />
+      <edge id="tre50" from="nter35" to="nter34" head="yes" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter2" />
+      <edge id="tre53" from="ter17" to="nter36" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:36+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:36.065+0100" endTimestamp="2017-11-21T16:39:36.387+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:36.388+0100" endTimestamp="2017-11-21T16:39:36.388+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Well put.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Well</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="3">put</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Well-->
+    <term id="t1" type="open" lemma="well" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--put-->
+    <term id="t2" type="open" lemma="put" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t3" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--AMOD(put-2, Well-1)-->
+    <dep from="t2" to="t1" rfunc="AMOD" />
+    <!--P(put-2, .-3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+  </deps>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Water_well" confidence="0.9306788664579126" spotted="true">
+      <!--Well-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 put : AM-DIS[t1 Well]-->
+    <predicate id="f_pr2" source="semafor" confidence="106.99097795672539">
+      <!--put-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Placing" />
+        <externalRef resource="PropBank" reference="put.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Placing-lay.v" />
+      </externalReferences>
+      <role id="rl2" semRole="AM-DIS">
+        <!--Well-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Placing@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Placing-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (VP (ADVP (RB Well)) (VBN put)) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="VP" />
+      <nt id="nter4" label="ADVP" />
+      <nt id="nter5" label="RB" />
+      <nt id="nter6" label="VBN" />
+      <nt id="nter7" label="." />
+      <!--Terminals-->
+      <!--Well-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--put-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter2" />
+      <edge id="tre10" from="ter3" to="nter7" />
+    </tree>
+  </constituency>
+</NAF>

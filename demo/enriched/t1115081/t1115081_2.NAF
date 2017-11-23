@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:26:40+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:26:40.997+0100" endTimestamp="2017-11-20T12:26:50.838+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:26:51.068+0100" endTimestamp="2017-11-20T12:26:51.638+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Fading Light helped me realize that I already knew much of this, even though I didn't know that I already knew. I'll post some of the more relevant quotes later tonight.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="6">Fading</wf>
+    <wf id="w2" sent="1" para="1" offset="7" length="5">Light</wf>
+    <wf id="w3" sent="1" para="1" offset="13" length="6">helped</wf>
+    <wf id="w4" sent="1" para="1" offset="20" length="2">me</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="7">realize</wf>
+    <wf id="w6" sent="1" para="1" offset="31" length="4">that</wf>
+    <wf id="w7" sent="1" para="1" offset="36" length="1">I</wf>
+    <wf id="w8" sent="1" para="1" offset="38" length="7">already</wf>
+    <wf id="w9" sent="1" para="1" offset="46" length="4">knew</wf>
+    <wf id="w10" sent="1" para="1" offset="51" length="4">much</wf>
+    <wf id="w11" sent="1" para="1" offset="56" length="2">of</wf>
+    <wf id="w12" sent="1" para="1" offset="59" length="4">this</wf>
+    <wf id="w13" sent="1" para="1" offset="63" length="1">,</wf>
+    <wf id="w14" sent="1" para="1" offset="65" length="4">even</wf>
+    <wf id="w15" sent="1" para="1" offset="70" length="6">though</wf>
+    <wf id="w16" sent="1" para="1" offset="77" length="1">I</wf>
+    <wf id="w17" sent="1" para="1" offset="79" length="3">did</wf>
+    <wf id="w18" sent="1" para="1" offset="82" length="3">n't</wf>
+    <wf id="w19" sent="1" para="1" offset="86" length="4">know</wf>
+    <wf id="w20" sent="1" para="1" offset="91" length="4">that</wf>
+    <wf id="w21" sent="1" para="1" offset="96" length="1">I</wf>
+    <wf id="w22" sent="1" para="1" offset="98" length="7">already</wf>
+    <wf id="w23" sent="1" para="1" offset="106" length="4">knew</wf>
+    <wf id="w24" sent="1" para="1" offset="110" length="1">.</wf>
+    <wf id="w25" sent="2" para="1" offset="112" length="1">I</wf>
+    <wf id="w26" sent="2" para="1" offset="113" length="3">'ll</wf>
+    <wf id="w27" sent="2" para="1" offset="117" length="4">post</wf>
+    <wf id="w28" sent="2" para="1" offset="122" length="4">some</wf>
+    <wf id="w29" sent="2" para="1" offset="127" length="2">of</wf>
+    <wf id="w30" sent="2" para="1" offset="130" length="3">the</wf>
+    <wf id="w31" sent="2" para="1" offset="134" length="4">more</wf>
+    <wf id="w32" sent="2" para="1" offset="139" length="8">relevant</wf>
+    <wf id="w33" sent="2" para="1" offset="148" length="6">quotes</wf>
+    <wf id="w34" sent="2" para="1" offset="155" length="5">later</wf>
+    <wf id="w35" sent="2" para="1" offset="161" length="7">tonight</wf>
+    <wf id="w36" sent="2" para="1" offset="168" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Fading-->
+    <term id="t1" type="open" lemma="fading" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Light-->
+    <term id="t2" type="open" lemma="light" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--helped-->
+    <term id="t3" type="open" lemma="help" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--me-->
+    <term id="t4" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--realize-->
+    <term id="t5" type="open" lemma="realize" pos="V" morphofeat="VB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t6" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t7" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--already-->
+    <term id="t8" type="open" lemma="already" pos="A" morphofeat="RB">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--knew-->
+    <term id="t9" type="open" lemma="know" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--much-->
+    <term id="t10" type="open" lemma="much" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t11" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t12" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t13" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--even-->
+    <term id="t14" type="open" lemma="even" pos="A" morphofeat="RB">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--though-->
+    <term id="t15" type="open" lemma="though" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t16" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--did-->
+    <term id="t17" type="open" lemma="do" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t18" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--know-->
+    <term id="t19" type="open" lemma="know" pos="V" morphofeat="VB">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t20" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t21" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--already-->
+    <term id="t22" type="open" lemma="already" pos="A" morphofeat="RB">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--knew-->
+    <term id="t23" type="open" lemma="know" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t24" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t25" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--'ll-->
+    <term id="t26" type="open" lemma="will" pos="O" morphofeat="MD">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--post-->
+    <term id="t27" type="open" lemma="post" pos="V" morphofeat="VB">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--some-->
+    <term id="t28" type="open" lemma="some" pos="D" morphofeat="DT">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t29" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t30" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--more-->
+    <term id="t31" type="open" lemma="more" pos="A" morphofeat="RBR">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--relevant-->
+    <term id="t32" type="open" lemma="relevant" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--quotes-->
+    <term id="t33" type="open" lemma="quote" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--later-->
+    <term id="t34" type="open" lemma="later" pos="A" morphofeat="RB">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--tonight-->
+    <term id="t35" type="open" lemma="tonight" pos="A" morphofeat="RB">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t36" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(Light-2, Fading-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--SBJ(helped-3, Light-2)-->
+    <dep from="t3" to="t2" rfunc="SBJ" />
+    <!--OBJ(helped-3, me-4)-->
+    <dep from="t3" to="t4" rfunc="OBJ" />
+    <!--OPRD(helped-3, realize-5)-->
+    <dep from="t3" to="t5" rfunc="OPRD" />
+    <!--OBJ(realize-5, that-6)-->
+    <dep from="t5" to="t6" rfunc="OBJ" />
+    <!--SBJ(knew-9, I-7)-->
+    <dep from="t9" to="t7" rfunc="SBJ" />
+    <!--TMP(knew-9, already-8)-->
+    <dep from="t9" to="t8" rfunc="TMP" />
+    <!--SUB(that-6, knew-9)-->
+    <dep from="t6" to="t9" rfunc="SUB" />
+    <!--OBJ(knew-9, much-10)-->
+    <dep from="t9" to="t10" rfunc="OBJ" />
+    <!--NMOD(much-10, of-11)-->
+    <dep from="t10" to="t11" rfunc="NMOD" />
+    <!--PMOD(of-11, this-12)-->
+    <dep from="t11" to="t12" rfunc="PMOD" />
+    <!--P(knew-9, ,-13)-->
+    <dep from="t9" to="t13" rfunc="P" />
+    <!--DEP(though-15, even-14)-->
+    <dep from="t15" to="t14" rfunc="DEP" />
+    <!--ADV(knew-9, though-15)-->
+    <dep from="t9" to="t15" rfunc="ADV" />
+    <!--SBJ(did-17, I-16)-->
+    <dep from="t17" to="t16" rfunc="SBJ" />
+    <!--SUB(though-15, did-17)-->
+    <dep from="t15" to="t17" rfunc="SUB" />
+    <!--ADV(did-17, n't-18)-->
+    <dep from="t17" to="t18" rfunc="ADV" />
+    <!--VC(did-17, know-19)-->
+    <dep from="t17" to="t19" rfunc="VC" />
+    <!--OBJ(know-19, that-20)-->
+    <dep from="t19" to="t20" rfunc="OBJ" />
+    <!--SBJ(knew-23, I-21)-->
+    <dep from="t23" to="t21" rfunc="SBJ" />
+    <!--TMP(knew-23, already-22)-->
+    <dep from="t23" to="t22" rfunc="TMP" />
+    <!--SUB(that-20, knew-23)-->
+    <dep from="t20" to="t23" rfunc="SUB" />
+    <!--P(helped-3, .-24)-->
+    <dep from="t3" to="t24" rfunc="P" />
+    <!--SBJ('ll-26, I-25)-->
+    <dep from="t26" to="t25" rfunc="SBJ" />
+    <!--VC('ll-26, post-27)-->
+    <dep from="t26" to="t27" rfunc="VC" />
+    <!--OBJ(post-27, some-28)-->
+    <dep from="t27" to="t28" rfunc="OBJ" />
+    <!--NMOD(some-28, of-29)-->
+    <dep from="t28" to="t29" rfunc="NMOD" />
+    <!--NMOD(quotes-33, the-30)-->
+    <dep from="t33" to="t30" rfunc="NMOD" />
+    <!--AMOD(relevant-32, more-31)-->
+    <dep from="t32" to="t31" rfunc="AMOD" />
+    <!--NMOD(quotes-33, relevant-32)-->
+    <dep from="t33" to="t32" rfunc="NMOD" />
+    <!--PMOD(of-29, quotes-33)-->
+    <dep from="t29" to="t33" rfunc="PMOD" />
+    <!--TMP(post-27, later-34)-->
+    <dep from="t27" to="t34" rfunc="TMP" />
+    <!--AMOD(later-34, tonight-35)-->
+    <dep from="t34" to="t35" rfunc="AMOD" />
+    <!--P('ll-26, .-36)-->
+    <dep from="t26" to="t36" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--Fading-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Fading" confidence="0.9985849" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Light-->
+        <span>
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Light" confidence="0.99870074" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--me-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--quotes-->
+        <span>
+          <target id="t33" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--I-->
+      <span>
+        <target id="t21" head="yes" />
+      </span>
+      <!--I-->
+      <span>
+        <target id="t7" head="yes" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t4" head="yes" />
+      </span>
+      <!--I-->
+      <span>
+        <target id="t16" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+    <timex3 id="tmx1" type="TIME" value="2017-11-20TNI">
+      <!--later tonight-->
+      <span>
+        <target id="w34" />
+        <target id="w35" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Fading" confidence="0.9985849189912541" spotted="true">
+      <!--Fading-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I'll" confidence="0.7380424647728412" spotted="true">
+      <!--I 'll-->
+      <span>
+        <target id="w25" />
+        <target id="w26" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/T.o.night" confidence="0.8742588525242765" spotted="true">
+      <!--tonight-->
+      <span>
+        <target id="w35" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Blog" confidence="0.6260032226245578" spotted="true">
+      <!--post-->
+      <span>
+        <target id="w27" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Light" confidence="0.9987007294011117" spotted="true">
+      <!--Light-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Realisation_(metrology)" confidence="0.6050393288608377" spotted="true">
+      <!--realize-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Relevance_(information_retrieval)" confidence="0.5898058422799345" spotted="true">
+      <!--relevant-->
+      <span>
+        <target id="w32" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 Light :-->
+    <predicate id="f_pr6" source="semafor" confidence="31.018211424427697">
+      <!--Light-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Location_of_light" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Light" confidence="0.99870074" />
+        <externalRef resource="FrameBase" reference="frame-Location_of_light-light.n" />
+      </externalReferences>
+    </predicate>
+    <!--t3 helped : A0[t1 Fading] A1[t4 me] A1[t5 realize]-->
+    <predicate id="f_pr7" source="semafor" confidence="100.44545392951215">
+      <!--helped-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Assistance" />
+        <externalRef resource="PropBank" reference="help.01" source="mate" />
+        <externalRef resource="VerbNet" reference="help-72-1" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02547586-v" />
+        <externalRef resource="FrameBase" reference="frame-Assistance-aid.v" />
+      </externalReferences>
+      <role id="rl15" semRole="A0">
+        <!--Fading Light-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Assistance@Helper" />
+          <externalRef resource="VerbNet" reference="help-72@Agent" />
+          <externalRef resource="PropBank" reference="help.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Assistance-Helper" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A1">
+        <!--me-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Assistance@Benefited_party" />
+          <externalRef resource="VerbNet" reference="help-72@Theme" />
+          <externalRef resource="PropBank" reference="help.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Assistance-Benefited_party" />
+        </externalReferences>
+      </role>
+      <role id="rl44" semRole="A1">
+        <!--realize that I already knew much of this , even though I did n't know that I already knew-->
+        <span>
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="help-72@Theme" />
+          <externalRef resource="PropBank" reference="help.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 realize : A1[t6 that] A0[t4 me]-->
+    <predicate id="f_pr8" source="semafor" confidence="52.694975497161906">
+      <!--realize-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Coming_to_believe" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Realisation_(metrology)" confidence="0.60503936" />
+        <externalRef resource="PropBank" reference="realize.01" source="mate" />
+        <externalRef resource="VerbNet" reference="discover-84" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00728617-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Realisation_(metrology)" confidence="0.60503936" />
+        <externalRef resource="FrameBase" reference="frame-Coming_to_believe-realize.v" />
+      </externalReferences>
+      <role id="rl17" semRole="A1">
+        <!--that I already knew much of this , even though I did n't know that I already knew-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Coming_to_believe@Content" />
+          <externalRef resource="VerbNet" reference="discover-84@Theme" />
+          <externalRef resource="PropBank" reference="realize.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Coming_to_believe-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="A0">
+        <!--me-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Coming_to_believe@Cognizer" />
+          <externalRef resource="VerbNet" reference="discover-84@Agent" />
+          <externalRef resource="PropBank" reference="realize.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Coming_to_believe-Cognizer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 already : [t7 I] [t8 already]-->
+    <predicate id="f_pr9" source="semafor" confidence="12.15676774392444">
+      <!--already-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Time_vector" />
+        <externalRef resource="FrameBase" reference="frame-Time_vector-already.adv" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--I-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Event" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="">
+        <!--already-->
+        <span>
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Direction" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Direction" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 knew : A1[t10 much] A0[t7 I] AM-ADV[t14 even] AM-TMP[t8 already]-->
+    <predicate id="f_pr10" source="semafor" confidence="79.19549907397425">
+      <!--knew-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="know.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl21" semRole="A1">
+        <!--much of this-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="know.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl48" semRole="AM-ADV">
+        <!--even though I did n't know that I already knew-->
+        <span>
+          <target id="t14" />
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+      </role>
+      <role id="rl49" semRole="AM-TMP">
+        <!--already-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t10 much : [t11 of] [t10 much]-->
+    <predicate id="f_pr11" source="semafor" confidence="28.250880505170592">
+      <!--much-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+      </externalReferences>
+      <role id="rl23" semRole="">
+        <!--of this-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Mass" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Mass" />
+        </externalReferences>
+      </role>
+      <role id="rl24" semRole="">
+        <!--much of this-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 did : [t16 I]-->
+    <predicate id="f_pr12" source="semafor" confidence="70.97884779150957">
+      <!--did-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl25" semRole="">
+        <!--I-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t19 know : A1[t20 that] A0[t16 I] AM-NEG[t18 n't]-->
+    <predicate id="f_pr13" source="semafor" confidence="73.1008543892463">
+      <!--know-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="know.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl26" semRole="A1">
+        <!--that I already knew-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="know.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl27" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl43" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t18" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t22 already : [t21 I] [t22 already]-->
+    <predicate id="f_pr14" source="semafor" confidence="12.1868777385673">
+      <!--already-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Time_vector" />
+        <externalRef resource="FrameBase" reference="frame-Time_vector-already.adv" />
+      </externalReferences>
+      <role id="rl28" semRole="">
+        <!--I-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Event" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="">
+        <!--already-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Direction" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Direction" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 knew : AM-TMP[t22 already] A0[t21 I]-->
+    <predicate id="f_pr15" source="semafor" confidence="74.70530804159795">
+      <!--knew-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="know.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl30" semRole="AM-TMP">
+        <!--already-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl31" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t27 post : A0[t25 I] [t28 some] AM-MOD[t25 I] AM-TMP[t34 later] A1[t28 some]-->
+    <predicate id="f_pr17" source="semafor" confidence="73.53654239602243">
+      <!--post-->
+      <span>
+        <target id="t27" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sending" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Blog" confidence="0.6260032" />
+        <externalRef resource="PropBank" reference="post.01" source="mate" />
+        <externalRef resource="VerbNet" reference="send-11.1" />
+        <externalRef resource="ESO" reference="Giving" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-01031256-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Blog" confidence="0.6260032" />
+        <externalRef resource="FrameBase" reference="frame-Sending-mail.v" />
+      </externalReferences>
+      <role id="rl36" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sending@Sender" />
+          <externalRef resource="VerbNet" reference="send-11.1@Agent" />
+          <externalRef resource="PropBank" reference="post.01@0" />
+          <externalRef resource="ESO" reference="Giving@possession-owner_1" />
+          <externalRef resource="FrameBase" reference="fe-Sending-Sender" />
+        </externalReferences>
+      </role>
+      <role id="rl37" semRole="">
+        <!--some of the more relevant quotes later-->
+        <span>
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sending@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Sending-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl45" semRole="AM-MOD">
+        <!--I 'll post some of the more relevant quotes later tonight .-->
+        <span>
+          <target id="t25" />
+          <target id="t26" head="yes" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+      </role>
+      <role id="rl46" semRole="AM-TMP">
+        <!--later tonight-->
+        <span>
+          <target id="t34" head="yes" />
+          <target id="t35" />
+        </span>
+      </role>
+      <role id="rl47" semRole="A1">
+        <!--some of the more relevant quotes-->
+        <span>
+          <target id="t28" head="yes" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="send-11.1@Theme" />
+          <externalRef resource="PropBank" reference="post.01@1" />
+          <externalRef resource="ESO" reference="Giving@possession-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t28 some : [t29 of] [t28 some]-->
+    <predicate id="f_pr18" source="semafor" confidence="27.815316036342356">
+      <!--some-->
+      <span>
+        <target id="t28" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+        <externalRef resource="FrameBase" reference="frame-Relational_quantity-some.art" />
+      </externalReferences>
+      <role id="rl38" semRole="">
+        <!--of the more relevant quotes later-->
+        <span>
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Individuals" />
+        </externalReferences>
+      </role>
+      <role id="rl39" semRole="">
+        <!--some of the more relevant quotes-->
+        <span>
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t31 more : [t31 more]-->
+    <predicate id="f_pr19" source="semafor" confidence="21.0408453853085">
+      <!--more-->
+      <span>
+        <target id="t31" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+      </externalReferences>
+      <role id="rl40" semRole="">
+        <!--more relevant-->
+        <span>
+          <target id="t31" />
+          <target id="t32" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Added_set" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Added_set" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t34 later : [t30 the] [t34 later]-->
+    <predicate id="f_pr20" source="semafor" confidence="17.50720985393323">
+      <!--later-->
+      <span>
+        <target id="t34" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Time_vector" />
+        <externalRef resource="FrameBase" reference="frame-Time_vector-later.adv" />
+      </externalReferences>
+      <role id="rl41" semRole="">
+        <!--the more relevant quotes-->
+        <span>
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Event" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl42" semRole="">
+        <!--later tonight-->
+        <span>
+          <target id="t34" />
+          <target id="t35" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Direction" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Direction" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t33 quotes :-->
+    <predicate id="pr21">
+      <!--quotes-->
+      <span>
+        <target id="t33" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="quote.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (JJ Fading) (NN Light)) (VP (VBD helped) (S (NP (PRP me)) (VP (VB realize) (SBAR (IN that) (S (NP (PRP I)) (ADVP (RB already)) (VP (VBD knew) (NP (NP (JJ much)) (PP (IN of) (NP (DT this)))) (, ,) (SBAR (RB even) (IN though) (S (NP (PRP I)) (VP (VBD did) (RB n't) (VP (VB know) (SBAR (IN that) (S (NP (PRP I)) (ADVP (RB already)) (VP (VBD knew)))))))))))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (PRP I)) (VP (MD 'll) (VP (VB post) (NP (NP (DT some)) (PP (IN of) (NP (NP (DT the) (ADJP (RBR more) (JJ relevant)) (NNS quotes)) (ADVP (RB later))))) (NP-TMP (RB tonight)))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label="NN" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VBD" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="PRP" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VB" />
+      <nt id="nter13" label="SBAR" />
+      <nt id="nter14" label="IN" />
+      <nt id="nter15" label="S" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="PRP" />
+      <nt id="nter18" label="ADVP" />
+      <nt id="nter19" label="RB" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VBD" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="PP" />
+      <nt id="nter26" label="IN" />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="DT" />
+      <nt id="nter29" label="," />
+      <nt id="nter30" label="SBAR" />
+      <nt id="nter31" label="RB" />
+      <nt id="nter32" label="IN" />
+      <nt id="nter33" label="S" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="PRP" />
+      <nt id="nter36" label="VP" />
+      <nt id="nter37" label="VBD" />
+      <nt id="nter38" label="RB" />
+      <nt id="nter39" label="VP" />
+      <nt id="nter40" label="VB" />
+      <nt id="nter41" label="SBAR" />
+      <nt id="nter42" label="IN" />
+      <nt id="nter43" label="S" />
+      <nt id="nter44" label="NP" />
+      <nt id="nter45" label="PRP" />
+      <nt id="nter46" label="ADVP" />
+      <nt id="nter47" label="RB" />
+      <nt id="nter48" label="VP" />
+      <nt id="nter49" label="VBD" />
+      <nt id="nter50" label="." />
+      <!--Terminals-->
+      <!--Fading-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Light-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--helped-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--me-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--realize-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--already-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--knew-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--much-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--even-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--though-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--did-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--know-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--already-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--knew-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter8" head="yes" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter11" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter15" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter15" head="yes" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter20" />
+      <edge id="tre32" from="nter23" to="nter22" head="yes" />
+      <edge id="tre33" from="nter24" to="nter23" head="yes" />
+      <edge id="tre34" from="ter10" to="nter24" />
+      <edge id="tre35" from="nter25" to="nter22" />
+      <edge id="tre36" from="nter26" to="nter25" head="yes" />
+      <edge id="tre37" from="ter11" to="nter26" />
+      <edge id="tre38" from="nter27" to="nter25" />
+      <edge id="tre39" from="nter28" to="nter27" head="yes" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter20" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter20" />
+      <edge id="tre44" from="nter31" to="nter30" />
+      <edge id="tre45" from="ter14" to="nter31" />
+      <edge id="tre46" from="nter32" to="nter30" head="yes" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter30" />
+      <edge id="tre49" from="nter34" to="nter33" />
+      <edge id="tre50" from="nter35" to="nter34" head="yes" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter33" head="yes" />
+      <edge id="tre53" from="nter37" to="nter36" head="yes" />
+      <edge id="tre54" from="ter17" to="nter37" />
+      <edge id="tre55" from="nter38" to="nter36" />
+      <edge id="tre56" from="ter18" to="nter38" />
+      <edge id="tre57" from="nter39" to="nter36" />
+      <edge id="tre58" from="nter40" to="nter39" head="yes" />
+      <edge id="tre59" from="ter19" to="nter40" />
+      <edge id="tre60" from="nter41" to="nter39" />
+      <edge id="tre61" from="nter42" to="nter41" head="yes" />
+      <edge id="tre62" from="ter20" to="nter42" />
+      <edge id="tre63" from="nter43" to="nter41" />
+      <edge id="tre64" from="nter44" to="nter43" />
+      <edge id="tre65" from="nter45" to="nter44" head="yes" />
+      <edge id="tre66" from="ter21" to="nter45" />
+      <edge id="tre67" from="nter46" to="nter43" />
+      <edge id="tre68" from="nter47" to="nter46" head="yes" />
+      <edge id="tre69" from="ter22" to="nter47" />
+      <edge id="tre70" from="nter48" to="nter43" head="yes" />
+      <edge id="tre71" from="nter49" to="nter48" head="yes" />
+      <edge id="tre72" from="ter23" to="nter49" />
+      <edge id="tre73" from="nter50" to="nter2" />
+      <edge id="tre74" from="ter24" to="nter50" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter51" label="ROOT" />
+      <nt id="nter52" label="S" />
+      <nt id="nter53" label="NP" />
+      <nt id="nter54" label="PRP" />
+      <nt id="nter55" label="VP" />
+      <nt id="nter56" label="MD" />
+      <nt id="nter57" label="VP" />
+      <nt id="nter58" label="VB" />
+      <nt id="nter59" label="NP" />
+      <nt id="nter60" label="NP" />
+      <nt id="nter61" label="DT" />
+      <nt id="nter62" label="PP" />
+      <nt id="nter63" label="IN" />
+      <nt id="nter64" label="NP" />
+      <nt id="nter65" label="NP" />
+      <nt id="nter66" label="DT" />
+      <nt id="nter67" label="ADJP" />
+      <nt id="nter68" label="RBR" />
+      <nt id="nter69" label="JJ" />
+      <nt id="nter70" label="NNS" />
+      <nt id="nter71" label="ADVP" />
+      <nt id="nter72" label="RB" />
+      <nt id="nter73" label="NP-TMP" />
+      <nt id="nter74" label="RB" />
+      <nt id="nter75" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--'ll-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--post-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--some-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--more-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--relevant-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--quotes-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--later-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--tonight-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre76" from="nter52" to="nter51" head="yes" />
+      <edge id="tre77" from="nter53" to="nter52" />
+      <edge id="tre78" from="nter54" to="nter53" head="yes" />
+      <edge id="tre79" from="ter25" to="nter54" />
+      <edge id="tre80" from="nter55" to="nter52" head="yes" />
+      <edge id="tre81" from="nter56" to="nter55" head="yes" />
+      <edge id="tre82" from="ter26" to="nter56" />
+      <edge id="tre83" from="nter57" to="nter55" />
+      <edge id="tre84" from="nter58" to="nter57" head="yes" />
+      <edge id="tre85" from="ter27" to="nter58" />
+      <edge id="tre86" from="nter59" to="nter57" />
+      <edge id="tre87" from="nter60" to="nter59" head="yes" />
+      <edge id="tre88" from="nter61" to="nter60" head="yes" />
+      <edge id="tre89" from="ter28" to="nter61" />
+      <edge id="tre90" from="nter62" to="nter59" />
+      <edge id="tre91" from="nter63" to="nter62" head="yes" />
+      <edge id="tre92" from="ter29" to="nter63" />
+      <edge id="tre93" from="nter64" to="nter62" />
+      <edge id="tre94" from="nter65" to="nter64" head="yes" />
+      <edge id="tre95" from="nter66" to="nter65" />
+      <edge id="tre96" from="ter30" to="nter66" />
+      <edge id="tre97" from="nter67" to="nter65" />
+      <edge id="tre98" from="nter68" to="nter67" />
+      <edge id="tre99" from="ter31" to="nter68" />
+      <edge id="tre100" from="nter69" to="nter67" head="yes" />
+      <edge id="tre101" from="ter32" to="nter69" />
+      <edge id="tre102" from="nter70" to="nter65" head="yes" />
+      <edge id="tre103" from="ter33" to="nter70" />
+      <edge id="tre104" from="nter71" to="nter64" />
+      <edge id="tre105" from="nter72" to="nter71" head="yes" />
+      <edge id="tre106" from="ter34" to="nter72" />
+      <edge id="tre107" from="nter73" to="nter57" />
+      <edge id="tre108" from="nter74" to="nter73" head="yes" />
+      <edge id="tre109" from="ter35" to="nter74" />
+      <edge id="tre110" from="nter75" to="nter52" />
+      <edge id="tre111" from="ter36" to="nter75" />
+    </tree>
+  </constituency>
+</NAF>

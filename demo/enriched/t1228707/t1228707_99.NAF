@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:42+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:42.982+0100" endTimestamp="2017-11-21T16:36:43.247+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:43.250+0100" endTimestamp="2017-11-21T16:36:43.251+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[White Guilt.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="5">White</wf>
+    <wf id="w2" sent="1" para="1" offset="6" length="5">Guilt</wf>
+    <wf id="w3" sent="1" para="1" offset="11" length="1">.</wf>
+  </text>
+  <terms>
+    <!--White-->
+    <term id="t1" type="open" lemma="White" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Guilt-->
+    <term id="t2" type="open" lemma="Guilt" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t3" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NAME(Guilt-2, White-1)-->
+    <dep from="t2" to="t1" rfunc="NAME" />
+    <!--P(Guilt-2, .-3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1">
+      <references>
+        <!--White Guilt-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/white_guilt" confidence="0.7996824" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/white_guilt" confidence="0.7996823635854647" spotted="true">
+      <!--White Guilt-->
+      <span>
+        <target id="w1" />
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 White : [t1 White] [t1 White]-->
+    <predicate id="f_pr1" source="semafor" confidence="56.774184024569436">
+      <!--White-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--White-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl2" semRole="">
+        <!--White Guilt .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 Guilt :-->
+    <predicate id="f_pr2" source="semafor" confidence="72.05834650722193">
+      <!--Guilt-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Emotion_directed" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/white_guilt" confidence="0.7996824" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NNP White) (NNP Guilt) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NNP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--White-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Guilt-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" head="yes" />
+      <edge id="tre6" from="ter2" to="nter4" />
+      <edge id="tre7" from="nter5" to="nter2" />
+      <edge id="tre8" from="ter3" to="nter5" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:58+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:58.721+0100" endTimestamp="2017-11-21T16:36:59.310+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:59.312+0100" endTimestamp="2017-11-21T16:36:59.313+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Aren't the Jews just utilizing Freemasonry (including Odd Fellow) to control their Shabbos goyim, and better infiltrate our ranks with them?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Are</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="3">n't</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="3">the</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="4">Jews</wf>
+    <wf id="w5" sent="1" para="1" offset="16" length="4">just</wf>
+    <wf id="w6" sent="1" para="1" offset="21" length="9">utilizing</wf>
+    <wf id="w7" sent="1" para="1" offset="31" length="11">Freemasonry</wf>
+    <wf id="w8" sent="1" para="1" offset="43" length="1">(</wf>
+    <wf id="w9" sent="1" para="1" offset="44" length="9">including</wf>
+    <wf id="w10" sent="1" para="1" offset="54" length="3">Odd</wf>
+    <wf id="w11" sent="1" para="1" offset="58" length="6">Fellow</wf>
+    <wf id="w12" sent="1" para="1" offset="64" length="1">)</wf>
+    <wf id="w13" sent="1" para="1" offset="66" length="2">to</wf>
+    <wf id="w14" sent="1" para="1" offset="69" length="7">control</wf>
+    <wf id="w15" sent="1" para="1" offset="77" length="5">their</wf>
+    <wf id="w16" sent="1" para="1" offset="83" length="7">Shabbos</wf>
+    <wf id="w17" sent="1" para="1" offset="91" length="5">goyim</wf>
+    <wf id="w18" sent="1" para="1" offset="96" length="1">,</wf>
+    <wf id="w19" sent="1" para="1" offset="98" length="3">and</wf>
+    <wf id="w20" sent="1" para="1" offset="102" length="6">better</wf>
+    <wf id="w21" sent="1" para="1" offset="109" length="10">infiltrate</wf>
+    <wf id="w22" sent="1" para="1" offset="120" length="3">our</wf>
+    <wf id="w23" sent="1" para="1" offset="124" length="5">ranks</wf>
+    <wf id="w24" sent="1" para="1" offset="130" length="4">with</wf>
+    <wf id="w25" sent="1" para="1" offset="135" length="4">them</wf>
+    <wf id="w26" sent="1" para="1" offset="139" length="1">?</wf>
+  </text>
+  <terms>
+    <!--Are-->
+    <term id="t1" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t2" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t3" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t4" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t5" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--utilizing-->
+    <term id="t6" type="open" lemma="utilize" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Freemasonry-->
+    <term id="t7" type="open" lemma="Freemasonry" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t8" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--including-->
+    <term id="t9" type="open" lemma="include" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Odd-->
+    <term id="t10" type="open" lemma="Odd" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Fellow-->
+    <term id="t11" type="open" lemma="Fellow" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t12" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t13" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--control-->
+    <term id="t14" type="open" lemma="control" pos="V" morphofeat="VB">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t15" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--Shabbos-->
+    <term id="t16" type="open" lemma="Shabbos" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--goyim-->
+    <term id="t17" type="open" lemma="goyim" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t18" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t19" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--better-->
+    <term id="t20" type="open" lemma="better" pos="A" morphofeat="RB">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--infiltrate-->
+    <term id="t21" type="open" lemma="infiltrate" pos="V" morphofeat="VB">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--our-->
+    <term id="t22" type="open" lemma="we" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--ranks-->
+    <term id="t23" type="open" lemma="rank" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--with-->
+    <term id="t24" type="open" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t25" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t26" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(Are-1, n't-2)-->
+    <dep from="t1" to="t2" rfunc="ADV" />
+    <!--NMOD(Jews-4, the-3)-->
+    <dep from="t4" to="t3" rfunc="NMOD" />
+    <!--SBJ(utilizing-6, Jews-4)-->
+    <dep from="t6" to="t4" rfunc="SBJ" />
+    <!--ADV(utilizing-6, just-5)-->
+    <dep from="t6" to="t5" rfunc="ADV" />
+    <!--VC(Are-1, utilizing-6)-->
+    <dep from="t1" to="t6" rfunc="VC" />
+    <!--OBJ(utilizing-6, Freemasonry-7)-->
+    <dep from="t6" to="t7" rfunc="OBJ" />
+    <!--P(including-9, (-8)-->
+    <dep from="t9" to="t8" rfunc="P" />
+    <!--PRN(Freemasonry-7, including-9)-->
+    <dep from="t7" to="t9" rfunc="PRN" />
+    <!--NAME(Fellow-11, Odd-10)-->
+    <dep from="t11" to="t10" rfunc="NAME" />
+    <!--OBJ(including-9, Fellow-11)-->
+    <dep from="t9" to="t11" rfunc="OBJ" />
+    <!--P(including-9, )-12)-->
+    <dep from="t9" to="t12" rfunc="P" />
+    <!--OPRD(utilizing-6, to-13)-->
+    <dep from="t6" to="t13" rfunc="OPRD" />
+    <!--IM(to-13, control-14)-->
+    <dep from="t13" to="t14" rfunc="IM" />
+    <!--NMOD(goyim-17, their-15)-->
+    <dep from="t17" to="t15" rfunc="NMOD" />
+    <!--NMOD(goyim-17, Shabbos-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--OBJ(control-14, goyim-17)-->
+    <dep from="t14" to="t17" rfunc="OBJ" />
+    <!--P(Are-1, ,-18)-->
+    <dep from="t1" to="t18" rfunc="P" />
+    <!--COORD(Are-1, and-19)-->
+    <dep from="t1" to="t19" rfunc="COORD" />
+    <!--ADV(infiltrate-21, better-20)-->
+    <dep from="t21" to="t20" rfunc="ADV" />
+    <!--CONJ(and-19, infiltrate-21)-->
+    <dep from="t19" to="t21" rfunc="CONJ" />
+    <!--NMOD(ranks-23, our-22)-->
+    <dep from="t23" to="t22" rfunc="NMOD" />
+    <!--OBJ(infiltrate-21, ranks-23)-->
+    <dep from="t21" to="t23" rfunc="OBJ" />
+    <!--ADV(infiltrate-21, with-24)-->
+    <dep from="t21" to="t24" rfunc="ADV" />
+    <!--PMOD(with-24, them-25)-->
+    <dep from="t24" to="t25" rfunc="PMOD" />
+    <!--P(Are-1, ?-26)-->
+    <dep from="t1" to="t26" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99992645" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--Shabbos-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Shabbat" confidence="0.9999998" />
+      </externalReferences>
+    </entity>
+    <entity id="e3">
+      <references>
+        <!--Odd Fellow-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Independent_Order_of_Odd_Fellows" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--Freemasonry-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Freemasonry" confidence="0.99993145" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--goyim-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--our-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--ranks-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--their-->
+      <span>
+        <target id="t15" head="yes" />
+      </span>
+      <!--them-->
+      <span>
+        <target id="t25" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Shabbat" confidence="0.9999998325230732" spotted="true">
+      <!--Shabbos-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Control_theory" confidence="0.6305065341800695" spotted="true">
+      <!--control-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Independent_Order_of_Odd_Fellows" confidence="0.9999999999999716" spotted="true">
+      <!--Odd Fellow-->
+      <span>
+        <target id="w10" />
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999264737629093" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Goy" confidence="0.9999999999998295" spotted="true">
+      <!--goyim-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Military_rank" confidence="0.6315965293659891" spotted="true">
+      <!--ranks-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Infiltration_(hydrology)" confidence="0.4132966246683993" spotted="true">
+      <!--infiltrate-->
+      <span>
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Freemasonry" confidence="0.9999314769113813" spotted="true">
+      <!--Freemasonry-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 Jews : [t3 the]-->
+    <predicate id="f_pr7" source="semafor" confidence="41.479300315001986">
+      <!--Jews-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99992645" />
+      </externalReferences>
+      <role id="rl16" semRole="">
+        <!--the Jews-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 utilizing : A1[t7 Freemasonry] AM-PNC[t13 to] AM-NEG[t2 n't] AM-ADV[t5 just] A0[t3 the]-->
+    <predicate id="f_pr8" source="semafor" confidence="118.9650597599632">
+      <!--utilizing-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Using" />
+        <externalRef resource="PropBank" reference="utilize.01" source="mate" />
+        <externalRef resource="VerbNet" reference="use-105" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01158872-v" />
+      </externalReferences>
+      <role id="rl17" semRole="A1">
+        <!--Freemasonry ( including Odd Fellow )-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Using@Instrument" />
+          <externalRef resource="VerbNet" reference="use-105@Theme" />
+          <externalRef resource="PropBank" reference="utilize.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Using-Instrument" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="AM-PNC">
+        <!--to control their Shabbos goyim-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Using@Purpose" />
+          <externalRef resource="FrameBase" reference="fe-Using-Purpose" />
+        </externalReferences>
+      </role>
+      <role id="rl30" semRole="AM-NEG">
+        <!--n't-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+      <role id="rl31" semRole="AM-ADV">
+        <!--just-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl32" semRole="A0">
+        <!--the Jews-->
+        <span>
+          <target id="t3" />
+          <target id="t4" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="use-105@Agent" />
+          <externalRef resource="PropBank" reference="utilize.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 including : A1[t10 Odd] [t7 Freemasonry]-->
+    <predicate id="f_pr9" source="semafor" confidence="44.50843820650463">
+      <!--including-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Inclusion" />
+        <externalRef resource="PropBank" reference="include.01" source="mate" />
+        <externalRef resource="VerbNet" reference="admit-65" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02449847-v" />
+        <externalRef resource="WordNet" reference="ili-30-00183879-v" />
+        <externalRef resource="FrameBase" reference="frame-Inclusion-include.v" />
+      </externalReferences>
+      <role id="rl19" semRole="A1">
+        <!--Odd Fellow-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Inclusion@Part" />
+          <externalRef resource="VerbNet" reference="admit-65@Theme" />
+          <externalRef resource="PropBank" reference="include.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Inclusion-Part" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="">
+        <!--Freemasonry ( including Odd Fellow )-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Inclusion@Total" />
+          <externalRef resource="FrameBase" reference="fe-Inclusion-Total" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 Fellow : [t10 Odd]-->
+    <predicate id="f_pr10" source="semafor" confidence="38.91176942708471">
+      <!--Fellow-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Independent_Order_of_Odd_Fellows" confidence="1.0" />
+        <externalRef resource="FrameBase" reference="frame-People-chap.n" />
+      </externalReferences>
+      <role id="rl21" semRole="">
+        <!--Odd Fellow-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 control : A1[t15 their] A0[t7 Freemasonry]-->
+    <predicate id="f_pr11" source="semafor" confidence="26.26441102245527">
+      <!--control-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Control" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Control_theory" confidence="0.6305065" />
+        <externalRef resource="PropBank" reference="control.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Control_theory" confidence="0.6305065" />
+        <externalRef resource="FrameBase" reference="frame-Control-control.v" />
+      </externalReferences>
+      <role id="rl22" semRole="A1">
+        <!--their Shabbos goyim-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Control@Dependent_entity" />
+          <externalRef resource="FrameBase" reference="fe-Control-Dependent_entity" />
+        </externalReferences>
+      </role>
+      <role id="rl33" semRole="A0">
+        <!--Freemasonry ( including Odd Fellow )-->
+        <span>
+          <target id="t7" head="yes" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+      </role>
+    </predicate>
+    <!--t20 better : [t20 better]-->
+    <predicate id="f_pr12" source="semafor" confidence="40.63501573113755">
+      <!--better-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Expertise" />
+      </externalReferences>
+      <role id="rl23" semRole="">
+        <!--better infiltrate our ranks with them-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Expertise@Skill" />
+          <externalRef resource="FrameBase" reference="fe-Expertise-Skill" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t21 infiltrate : A1[t22 our] [t3 the] AM-MNR[t20 better] A2[t24 with]-->
+    <predicate id="f_pr13" source="semafor" confidence="111.11264170638177">
+      <!--infiltrate-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Attack" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Infiltration_(hydrology)" confidence="0.4132966" />
+        <externalRef resource="PropBank" reference="infiltrate.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Infiltration_(hydrology)" confidence="0.4132966" />
+        <externalRef resource="FrameBase" reference="frame-Attack-infiltrate.v" />
+      </externalReferences>
+      <role id="rl24" semRole="A1">
+        <!--our ranks-->
+        <span>
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attack@Victim" />
+          <externalRef resource="FrameBase" reference="fe-Attack-Victim" />
+        </externalReferences>
+      </role>
+      <role id="rl25" semRole="">
+        <!--the Jews just utilizing Freemasonry ( including Odd Fellow ) to control their Shabbos goyim-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attack@Assailant" />
+          <externalRef resource="FrameBase" reference="fe-Attack-Assailant" />
+        </externalReferences>
+      </role>
+      <role id="rl26" semRole="AM-MNR">
+        <!--better-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </role>
+      <role id="rl27" semRole="A2">
+        <!--with them-->
+        <span>
+          <target id="t24" head="yes" />
+          <target id="t25" />
+        </span>
+      </role>
+    </predicate>
+    <!--t23 ranks : A2[t22 our] A1[t22 our]-->
+    <predicate id="f_pr14" source="semafor" confidence="120.084137033919">
+      <!--ranks-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Assessing" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Military_rank" confidence="0.6315965" />
+        <externalRef resource="NomBank" reference="rank.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2" />
+        <externalRef resource="PropBank" reference="rank.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00660102-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Military_rank" confidence="0.6315965" />
+      </externalReferences>
+      <role id="rl28" semRole="A2">
+        <!--our-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Attribute" />
+          <externalRef resource="PropBank" reference="rank.01@2" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="A1">
+        <!--our ranks-->
+        <span>
+          <target id="t22" />
+          <target id="t23" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="rank.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (VP (VBP Are) (RB n't) (NP (NP (DT the) (NNPS Jews)) (VP (ADVP (RB just)) (VBG utilizing) (S (NP (NP (NNP Freemasonry)) (PRN (-LRB- -LRB-) (PP (VBG including) (NP (NNP Odd) (NNP Fellow))) (-RRB- -RRB-))) (VP (TO to) (VP (VB control) (NP (PRP$ their) (NNP Shabbos) (NN goyim))))))))) (, ,) (CC and) (ADVP (RB better)) (S (VP (VB infiltrate) (NP (PRP$ our) (NNS ranks)) (PP (IN with) (NP (PRP them))))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="VP" />
+      <nt id="nter5" label="VBP" />
+      <nt id="nter6" label="RB" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="NNPS" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="ADVP" />
+      <nt id="nter13" label="RB" />
+      <nt id="nter14" label="VBG" />
+      <nt id="nter15" label="S" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="NNP" />
+      <nt id="nter19" label="PRN" />
+      <nt id="nter20" label="-LRB-" />
+      <nt id="nter21" label="PP" />
+      <nt id="nter22" label="VBG" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="NNP" />
+      <nt id="nter25" label="NNP" />
+      <nt id="nter26" label="-RRB-" />
+      <nt id="nter27" label="VP" />
+      <nt id="nter28" label="TO" />
+      <nt id="nter29" label="VP" />
+      <nt id="nter30" label="VB" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="PRP$" />
+      <nt id="nter33" label="NNP" />
+      <nt id="nter34" label="NN" />
+      <nt id="nter35" label="," />
+      <nt id="nter36" label="CC" />
+      <nt id="nter37" label="ADVP" />
+      <nt id="nter38" label="RB" />
+      <nt id="nter39" label="S" />
+      <nt id="nter40" label="VP" />
+      <nt id="nter41" label="VB" />
+      <nt id="nter42" label="NP" />
+      <nt id="nter43" label="PRP$" />
+      <nt id="nter44" label="NNS" />
+      <nt id="nter45" label="PP" />
+      <nt id="nter46" label="IN" />
+      <nt id="nter47" label="NP" />
+      <nt id="nter48" label="PRP" />
+      <nt id="nter49" label="." />
+      <!--Terminals-->
+      <!--Are-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--utilizing-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Freemasonry-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--including-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Odd-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Fellow-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--control-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Shabbos-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--goyim-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--better-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--infiltrate-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--our-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--ranks-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--with-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter4" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter4" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter7" />
+      <edge id="tre16" from="nter12" to="nter11" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter11" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter11" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="nter18" to="nter17" head="yes" />
+      <edge id="tre25" from="ter7" to="nter18" />
+      <edge id="tre26" from="nter19" to="nter16" />
+      <edge id="tre27" from="nter20" to="nter19" head="yes" />
+      <edge id="tre28" from="ter8" to="nter20" />
+      <edge id="tre29" from="nter21" to="nter19" />
+      <edge id="tre30" from="nter22" to="nter21" head="yes" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter21" />
+      <edge id="tre33" from="nter24" to="nter23" />
+      <edge id="tre34" from="ter10" to="nter24" />
+      <edge id="tre35" from="nter25" to="nter23" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter19" />
+      <edge id="tre38" from="ter12" to="nter26" />
+      <edge id="tre39" from="nter27" to="nter15" head="yes" />
+      <edge id="tre40" from="nter28" to="nter27" head="yes" />
+      <edge id="tre41" from="ter13" to="nter28" />
+      <edge id="tre42" from="nter29" to="nter27" />
+      <edge id="tre43" from="nter30" to="nter29" head="yes" />
+      <edge id="tre44" from="ter14" to="nter30" />
+      <edge id="tre45" from="nter31" to="nter29" />
+      <edge id="tre46" from="nter32" to="nter31" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter31" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter31" head="yes" />
+      <edge id="tre51" from="ter17" to="nter34" />
+      <edge id="tre52" from="nter35" to="nter2" />
+      <edge id="tre53" from="ter18" to="nter35" />
+      <edge id="tre54" from="nter36" to="nter2" />
+      <edge id="tre55" from="ter19" to="nter36" />
+      <edge id="tre56" from="nter37" to="nter2" />
+      <edge id="tre57" from="nter38" to="nter37" head="yes" />
+      <edge id="tre58" from="ter20" to="nter38" />
+      <edge id="tre59" from="nter39" to="nter2" />
+      <edge id="tre60" from="nter40" to="nter39" head="yes" />
+      <edge id="tre61" from="nter41" to="nter40" head="yes" />
+      <edge id="tre62" from="ter21" to="nter41" />
+      <edge id="tre63" from="nter42" to="nter40" />
+      <edge id="tre64" from="nter43" to="nter42" />
+      <edge id="tre65" from="ter22" to="nter43" />
+      <edge id="tre66" from="nter44" to="nter42" head="yes" />
+      <edge id="tre67" from="ter23" to="nter44" />
+      <edge id="tre68" from="nter45" to="nter40" />
+      <edge id="tre69" from="nter46" to="nter45" head="yes" />
+      <edge id="tre70" from="ter24" to="nter46" />
+      <edge id="tre71" from="nter47" to="nter45" />
+      <edge id="tre72" from="nter48" to="nter47" head="yes" />
+      <edge id="tre73" from="ter25" to="nter48" />
+      <edge id="tre74" from="nter49" to="nter2" />
+      <edge id="tre75" from="ter26" to="nter49" />
+    </tree>
+  </constituency>
+</NAF>

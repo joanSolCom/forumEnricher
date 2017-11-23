@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:47+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:47.117+0100" endTimestamp="2017-11-20T12:32:47.493+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:47.494+0100" endTimestamp="2017-11-20T12:32:47.494+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I thought the Aryans miscegenated themselves out of existence thousands of years ago?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="7">thought</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="3">the</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="6">Aryans</wf>
+    <wf id="w5" sent="1" para="1" offset="21" length="12">miscegenated</wf>
+    <wf id="w6" sent="1" para="1" offset="34" length="10">themselves</wf>
+    <wf id="w7" sent="1" para="1" offset="45" length="3">out</wf>
+    <wf id="w8" sent="1" para="1" offset="49" length="2">of</wf>
+    <wf id="w9" sent="1" para="1" offset="52" length="9">existence</wf>
+    <wf id="w10" sent="1" para="1" offset="62" length="9">thousands</wf>
+    <wf id="w11" sent="1" para="1" offset="72" length="2">of</wf>
+    <wf id="w12" sent="1" para="1" offset="75" length="5">years</wf>
+    <wf id="w13" sent="1" para="1" offset="81" length="3">ago</wf>
+    <wf id="w14" sent="1" para="1" offset="84" length="1">?</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--thought-->
+    <term id="t2" type="open" lemma="think" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t3" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Aryans-->
+    <term id="t4" type="open" lemma="Aryans" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--miscegenated-->
+    <term id="t5" type="open" lemma="miscegenate" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--themselves-->
+    <term id="t6" type="open" lemma="themselves" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--out-->
+    <term id="t7" type="open" lemma="out" pos="P" morphofeat="IN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t8" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--existence-->
+    <term id="t9" type="open" lemma="existence" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--thousands-->
+    <term id="t10" type="open" lemma="thousand" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t11" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--years-->
+    <term id="t12" type="open" lemma="year" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--ago-->
+    <term id="t13" type="open" lemma="ago" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t14" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(thought-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--NMOD(Aryans-4, the-3)-->
+    <dep from="t4" to="t3" rfunc="NMOD" />
+    <!--SBJ(miscegenated-5, Aryans-4)-->
+    <dep from="t5" to="t4" rfunc="SBJ" />
+    <!--OBJ(thought-2, miscegenated-5)-->
+    <dep from="t2" to="t5" rfunc="OBJ" />
+    <!--OBJ(miscegenated-5, themselves-6)-->
+    <dep from="t5" to="t6" rfunc="OBJ" />
+    <!--ADV(miscegenated-5, out-7)-->
+    <dep from="t5" to="t7" rfunc="ADV" />
+    <!--PMOD(out-7, of-8)-->
+    <dep from="t7" to="t8" rfunc="PMOD" />
+    <!--PMOD(of-8, existence-9)-->
+    <dep from="t8" to="t9" rfunc="PMOD" />
+    <!--AMOD(ago-13, thousands-10)-->
+    <dep from="t13" to="t10" rfunc="AMOD" />
+    <!--NMOD(thousands-10, of-11)-->
+    <dep from="t10" to="t11" rfunc="NMOD" />
+    <!--PMOD(of-11, years-12)-->
+    <dep from="t11" to="t12" rfunc="PMOD" />
+    <!--TMP(miscegenated-5, ago-13)-->
+    <dep from="t5" to="t13" rfunc="TMP" />
+    <!--P(thought-2, ?-14)-->
+    <dep from="t2" to="t14" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Aryans-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aryan" confidence="0.6707016" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--existence-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.9974964" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--themselves-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+    <timex3 id="tmx1" type="TIME" value="2016-11-20T12:32:47">
+      <!--thousands of years ago-->
+      <span>
+        <target id="w10" />
+        <target id="w11" />
+        <target id="w12" />
+        <target id="w13" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.9974964478189132" spotted="true">
+      <!--existence-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Miscegenation" confidence="0.9999999970670643" spotted="true">
+      <!--miscegenated-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aryan" confidence="0.6707016516079415" spotted="true">
+      <!--Aryans-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t7 out : [t3 the] [t10 thousands]-->
+    <predicate id="f_pr4" source="semafor" confidence="7.735522257050885">
+      <!--out of-->
+      <span>
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Partitive" />
+        <externalRef resource="FrameBase" reference="frame-Partitive-out_of.prep" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--the Aryans-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Partitive@Subset" />
+          <externalRef resource="FrameBase" reference="fe-Partitive-Subset" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="">
+        <!--thousands of years-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Partitive@Group" />
+          <externalRef resource="FrameBase" reference="fe-Partitive-Group" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 thought : A0[t1 I] A1[t3 the]-->
+    <predicate id="f_pr5" source="semafor" confidence="43.92114447871715">
+      <!--thought-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cogitation" />
+        <externalRef resource="PropBank" reference="think.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Cogitation-think.v" />
+      </externalReferences>
+      <role id="rl10" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cogitation@Cognizer" />
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="think.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Cogitation-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="A1">
+        <!--the Aryans miscegenated themselves out of existence thousands of years ago-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cogitation@Topic" />
+          <externalRef resource="VerbNet" reference="wish-62@Theme" />
+          <externalRef resource="PropBank" reference="think.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Cogitation-Topic" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 existence :-->
+    <predicate id="f_pr6" source="semafor" confidence="47.18937122178873">
+      <!--existence-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Existence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.9974964" />
+        <externalRef resource="FrameBase" reference="frame-Existence-exist.v" />
+      </externalReferences>
+    </predicate>
+    <!--t10 thousands : [t10 thousands] A1[t11 of]-->
+    <predicate id="f_pr7" source="semafor" confidence="34.438998129856884">
+      <!--thousands-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--thousands of years-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="A1">
+        <!--of years-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 years : [t12 years]-->
+    <predicate id="f_pr8" source="semafor" confidence="25.17711091596442">
+      <!--years-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Measure_duration" />
+        <externalRef resource="FrameBase" reference="frame-Measure_duration-year.n" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--years-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Measure_duration@Unit" />
+          <externalRef resource="FrameBase" reference="fe-Measure_duration-Unit" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBD thought) (SBAR (S (NP (DT the) (NNPS Aryans)) (VP (VBD miscegenated) (NP (PRP themselves)) (PP (IN out) (IN of) (NP (NP (NN existence) (NNS thousands)) (PP (IN of) (NP (NP (NNS years)) (ADVP (IN ago)))))))))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBD" />
+      <nt id="nter7" label="SBAR" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="DT" />
+      <nt id="nter11" label="NNPS" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBD" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="PRP" />
+      <nt id="nter16" label="PP" />
+      <nt id="nter17" label="IN" />
+      <nt id="nter18" label="IN" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="NN" />
+      <nt id="nter22" label="NNS" />
+      <nt id="nter23" label="PP" />
+      <nt id="nter24" label="IN" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="NNS" />
+      <nt id="nter28" label="ADVP" />
+      <nt id="nter29" label="IN" />
+      <nt id="nter30" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--thought-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Aryans-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--miscegenated-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--themselves-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--out-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--existence-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--thousands-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--years-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--ago-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="nter10" to="nter9" />
+      <edge id="tre13" from="ter3" to="nter10" />
+      <edge id="tre14" from="nter11" to="nter9" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter8" head="yes" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter12" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter12" />
+      <edge id="tre23" from="nter17" to="nter16" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" head="yes" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter16" />
+      <edge id="tre28" from="nter20" to="nter19" head="yes" />
+      <edge id="tre29" from="nter21" to="nter20" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter20" head="yes" />
+      <edge id="tre32" from="ter10" to="nter22" />
+      <edge id="tre33" from="nter23" to="nter19" />
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter23" />
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter25" />
+      <edge id="tre41" from="nter29" to="nter28" head="yes" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter2" />
+      <edge id="tre44" from="ter14" to="nter30" />
+    </tree>
+  </constituency>
+</NAF>

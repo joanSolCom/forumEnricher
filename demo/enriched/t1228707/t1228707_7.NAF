@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:19+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:19.093+0100" endTimestamp="2017-11-21T16:33:19.653+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:19.672+0100" endTimestamp="2017-11-21T16:33:19.675+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Our WHITE sense of humanity and decency, allowing others to exist freely.....................]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Our</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="5">WHITE</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="5">sense</wf>
+    <wf id="w4" sent="1" para="1" offset="16" length="2">of</wf>
+    <wf id="w5" sent="1" para="1" offset="19" length="8">humanity</wf>
+    <wf id="w6" sent="1" para="1" offset="28" length="3">and</wf>
+    <wf id="w7" sent="1" para="1" offset="32" length="7">decency</wf>
+    <wf id="w8" sent="1" para="1" offset="39" length="1">,</wf>
+    <wf id="w9" sent="1" para="1" offset="41" length="8">allowing</wf>
+    <wf id="w10" sent="1" para="1" offset="50" length="6">others</wf>
+    <wf id="w11" sent="1" para="1" offset="57" length="2">to</wf>
+    <wf id="w12" sent="1" para="1" offset="60" length="5">exist</wf>
+    <wf id="w13" sent="1" para="1" offset="66" length="6">freely</wf>
+    <wf id="w14" sent="1" para="1" offset="72" length="3">...</wf>
+  </text>
+  <terms>
+    <!--Our-->
+    <term id="t1" type="open" lemma="we" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--WHITE-->
+    <term id="t2" type="open" lemma="WHITE" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--sense-->
+    <term id="t3" type="open" lemma="sense" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t4" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--humanity-->
+    <term id="t5" type="open" lemma="humanity" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t6" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--decency-->
+    <term id="t7" type="open" lemma="decency" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t8" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--allowing-->
+    <term id="t9" type="open" lemma="allow" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--others-->
+    <term id="t10" type="open" lemma="other" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t11" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--exist-->
+    <term id="t12" type="open" lemma="exist" pos="V" morphofeat="VB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--freely-->
+    <term id="t13" type="open" lemma="freely" pos="A" morphofeat="RB">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t14" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(sense-3, Our-1)-->
+    <dep from="t3" to="t1" rfunc="NMOD" />
+    <!--NMOD(sense-3, WHITE-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--NMOD(sense-3, of-4)-->
+    <dep from="t3" to="t4" rfunc="NMOD" />
+    <!--PMOD(of-4, humanity-5)-->
+    <dep from="t4" to="t5" rfunc="PMOD" />
+    <!--COORD(humanity-5, and-6)-->
+    <dep from="t5" to="t6" rfunc="COORD" />
+    <!--CONJ(and-6, decency-7)-->
+    <dep from="t6" to="t7" rfunc="CONJ" />
+    <!--P(sense-3, ,-8)-->
+    <dep from="t3" to="t8" rfunc="P" />
+    <!--APPO(sense-3, allowing-9)-->
+    <dep from="t3" to="t9" rfunc="APPO" />
+    <!--OBJ(allowing-9, others-10)-->
+    <dep from="t9" to="t10" rfunc="OBJ" />
+    <!--OPRD(allowing-9, to-11)-->
+    <dep from="t9" to="t11" rfunc="OPRD" />
+    <!--IM(to-11, exist-12)-->
+    <dep from="t11" to="t12" rfunc="IM" />
+    <!--MNR(exist-12, freely-13)-->
+    <dep from="t12" to="t13" rfunc="MNR" />
+    <!--P(sense-3, ...-14)-->
+    <dep from="t3" to="t14" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--Our-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--WHITE-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--sense-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--humanity-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--decency-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--others-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Christian" confidence="0.992391426382347" spotted="true">
+      <!--Our-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Human" confidence="0.8596055816374516" spotted="true">
+      <!--humanity-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.9377404610322486" spotted="true">
+      <!--exist-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 WHITE : [t2 WHITE] [t1 Our]-->
+    <predicate id="f_pr4" source="semafor" confidence="55.53240487108876">
+      <!--WHITE-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--WHITE-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="">
+        <!--Our WHITE sense of humanity and decency , allowing others to exist freely ...-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 sense : A0[t1 Our] [t2 WHITE] A1[t4 of]-->
+    <predicate id="f_pr5" source="semafor" confidence="30.379032756373196">
+      <!--sense-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sensation" />
+        <externalRef resource="NomBank" reference="sense.01" source="mate" />
+        <externalRef resource="VerbNet" reference="see-30.1-1" />
+        <externalRef resource="PropBank" reference="sense.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02106006-v" />
+        <externalRef resource="FrameBase" reference="frame-Sensation-sense.n" />
+      </externalReferences>
+      <role id="rl10" semRole="A0">
+        <!--Our-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sensation@Perceiver_passive" />
+          <externalRef resource="VerbNet" reference="see-30.1@Experiencer" />
+          <externalRef resource="PropBank" reference="sense.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Sensation-Perceiver_passive" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="">
+        <!--WHITE-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sensation@Percept" />
+          <externalRef resource="FrameBase" reference="fe-Sensation-Percept" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="A1">
+        <!--of humanity and decency-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="see-30.1@Stimulus" />
+          <externalRef resource="PropBank" reference="sense.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 allowing : A1[t10 others] [t2 WHITE] C-A1[t11 to] A0[t1 Our]-->
+    <predicate id="f_pr6" source="semafor" confidence="76.78400285895614">
+      <!--allowing-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Grant_permission" />
+        <externalRef resource="PropBank" reference="allow.01" source="mate" />
+        <externalRef resource="VerbNet" reference="order-60" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00802318-v" />
+        <externalRef resource="FrameBase" reference="frame-Grant_permission-let.v" />
+      </externalReferences>
+      <role id="rl12" semRole="A1">
+        <!--others-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grant_permission@Grantee" />
+          <externalRef resource="VerbNet" reference="order-60@Topic" />
+          <externalRef resource="PropBank" reference="allow.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Grant_permission-Grantee" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="">
+        <!--WHITE-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grant_permission@Grantor" />
+          <externalRef resource="FrameBase" reference="fe-Grant_permission-Grantor" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="C-A1">
+        <!--to exist freely-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grant_permission@Action" />
+          <externalRef resource="FrameBase" reference="fe-Grant_permission-Action" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="A0">
+        <!--Our WHITE sense of humanity and decency , allowing others to exist freely ...-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" head="yes" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="order-60@Agent" />
+          <externalRef resource="PropBank" reference="allow.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 others : [t10 others]-->
+    <predicate id="f_pr7" source="semafor" confidence="25.73332016207328">
+      <!--others-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+        <externalRef resource="FrameBase" reference="frame-Increment-other.n" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--others-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Added_set" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Added_set" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 exist : A1[t10 others] AM-MNR[t13 freely]-->
+    <predicate id="f_pr8" source="semafor" confidence="50.29828204683846">
+      <!--exist-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Existence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.93774045" />
+        <externalRef resource="PropBank" reference="exist.01" source="mate" />
+        <externalRef resource="VerbNet" reference="gorge-39.6" />
+        <externalRef resource="ESO" reference="BeingInExistence" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02603699-v" />
+        <externalRef resource="WordNet" reference="ili-30-02616713-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Existence" confidence="0.93774045" />
+        <externalRef resource="FrameBase" reference="frame-Existence-exist.v" />
+      </externalReferences>
+      <role id="rl16" semRole="A1">
+        <!--others-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Existence@Entity" />
+          <externalRef resource="VerbNet" reference="gorge-39.6@Agent" />
+          <externalRef resource="PropBank" reference="exist.01@1" />
+          <externalRef resource="ESO" reference="BeingInExistence@exist-theme" />
+          <externalRef resource="FrameBase" reference="fe-Existence-Entity" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="AM-MNR">
+        <!--freely-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (NP (PRP$ Our) (NNP WHITE) (NN sense)) (PP (IN of) (NP (NN humanity) (CC and) (NN decency))) (, ,) (VP (VBG allowing) (NP (NNS others)) (S (VP (TO to) (VP (VB exist) (ADVP (RB freely))))))) (: ...)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP$" />
+      <nt id="nter6" label="NNP" />
+      <nt id="nter7" label="NN" />
+      <nt id="nter8" label="PP" />
+      <nt id="nter9" label="IN" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label="CC" />
+      <nt id="nter13" label="NN" />
+      <nt id="nter14" label="," />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VBG" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="NNS" />
+      <nt id="nter19" label="S" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="TO" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VB" />
+      <nt id="nter24" label="ADVP" />
+      <nt id="nter25" label="RB" />
+      <nt id="nter26" label=":" />
+      <!--Terminals-->
+      <!--Our-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--WHITE-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--sense-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--humanity-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--decency-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--allowing-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--others-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--exist-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--freely-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter4" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter4" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter3" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter10" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter10" />
+      <edge id="tre20" from="ter7" to="nter13" />
+      <edge id="tre21" from="nter14" to="nter3" />
+      <edge id="tre22" from="ter8" to="nter14" />
+      <edge id="tre23" from="nter15" to="nter3" />
+      <edge id="tre24" from="nter16" to="nter15" head="yes" />
+      <edge id="tre25" from="ter9" to="nter16" />
+      <edge id="tre26" from="nter17" to="nter15" />
+      <edge id="tre27" from="nter18" to="nter17" head="yes" />
+      <edge id="tre28" from="ter10" to="nter18" />
+      <edge id="tre29" from="nter19" to="nter15" />
+      <edge id="tre30" from="nter20" to="nter19" head="yes" />
+      <edge id="tre31" from="nter21" to="nter20" head="yes" />
+      <edge id="tre32" from="ter11" to="nter21" />
+      <edge id="tre33" from="nter22" to="nter20" />
+      <edge id="tre34" from="nter23" to="nter22" head="yes" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter22" />
+      <edge id="tre37" from="nter25" to="nter24" head="yes" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter2" />
+      <edge id="tre40" from="ter14" to="nter26" />
+    </tree>
+  </constituency>
+</NAF>

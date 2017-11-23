@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:41+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:41.977+0100" endTimestamp="2017-11-21T16:39:43.723+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:43.725+0100" endTimestamp="2017-11-21T16:39:43.726+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Doesn't this one drop rule reek of jewish divide and conquer? Guess it's a good thing we have (((23andme))) and (((ancestry.com))).]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Does</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="3">n't</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="4">this</wf>
+    <wf id="w4" sent="1" para="1" offset="13" length="3">one</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="4">drop</wf>
+    <wf id="w6" sent="1" para="1" offset="22" length="4">rule</wf>
+    <wf id="w7" sent="1" para="1" offset="27" length="4">reek</wf>
+    <wf id="w8" sent="1" para="1" offset="32" length="2">of</wf>
+    <wf id="w9" sent="1" para="1" offset="35" length="6">jewish</wf>
+    <wf id="w10" sent="1" para="1" offset="42" length="6">divide</wf>
+    <wf id="w11" sent="1" para="1" offset="49" length="3">and</wf>
+    <wf id="w12" sent="1" para="1" offset="53" length="7">conquer</wf>
+    <wf id="w13" sent="1" para="1" offset="60" length="1">?</wf>
+    <wf id="w14" sent="2" para="1" offset="62" length="5">Guess</wf>
+    <wf id="w15" sent="2" para="1" offset="68" length="2">it</wf>
+    <wf id="w16" sent="2" para="1" offset="70" length="2">'s</wf>
+    <wf id="w17" sent="2" para="1" offset="73" length="1">a</wf>
+    <wf id="w18" sent="2" para="1" offset="75" length="4">good</wf>
+    <wf id="w19" sent="2" para="1" offset="80" length="5">thing</wf>
+    <wf id="w20" sent="2" para="1" offset="86" length="2">we</wf>
+    <wf id="w21" sent="2" para="1" offset="89" length="4">have</wf>
+    <wf id="w22" sent="2" para="1" offset="94" length="1">(</wf>
+    <wf id="w23" sent="2" para="1" offset="95" length="1">(</wf>
+    <wf id="w24" sent="2" para="1" offset="96" length="1">(</wf>
+    <wf id="w25" sent="2" para="1" offset="97" length="7">23andme</wf>
+    <wf id="w26" sent="2" para="1" offset="104" length="1">)</wf>
+    <wf id="w27" sent="2" para="1" offset="105" length="1">)</wf>
+    <wf id="w28" sent="2" para="1" offset="106" length="1">)</wf>
+    <wf id="w29" sent="2" para="1" offset="108" length="3">and</wf>
+    <wf id="w30" sent="2" para="1" offset="112" length="1">(</wf>
+    <wf id="w31" sent="2" para="1" offset="113" length="1">(</wf>
+    <wf id="w32" sent="2" para="1" offset="114" length="1">(</wf>
+    <wf id="w33" sent="2" para="1" offset="115" length="12">ancestry.com</wf>
+    <wf id="w34" sent="2" para="1" offset="127" length="1">)</wf>
+    <wf id="w35" sent="2" para="1" offset="128" length="1">)</wf>
+    <wf id="w36" sent="2" para="1" offset="129" length="1">)</wf>
+    <wf id="w37" sent="2" para="1" offset="130" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Does-->
+    <term id="t1" type="open" lemma="do" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--n't-->
+    <term id="t2" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t3" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--one-->
+    <term id="t4" type="open" lemma="one" pos="O" morphofeat="CD">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--drop-->
+    <term id="t5" type="open" lemma="drop" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--rule-->
+    <term id="t6" type="open" lemma="rule" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--reek-->
+    <term id="t7" type="open" lemma="reek" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t8" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--jewish-->
+    <term id="t9" type="open" lemma="jewish" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--divide-->
+    <term id="t10" type="open" lemma="divide" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t11" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--conquer-->
+    <term id="t12" type="open" lemma="conquer" pos="V" morphofeat="VB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t13" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--Guess-->
+    <term id="t14" type="open" lemma="guess" pos="V" morphofeat="VB">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t15" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--'s-->
+    <term id="t16" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t17" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--good-->
+    <term id="t18" type="open" lemma="good" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--thing-->
+    <term id="t19" type="open" lemma="thing" pos="N" morphofeat="NN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t20" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t21" type="open" lemma="have" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t22" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t23" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t24" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--23andme-->
+    <term id="t25" type="open" lemma="23andme" pos="N" morphofeat="NN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t26" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t27" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t28" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t29" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t30" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t31" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t32" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--ancestry.com-->
+    <term id="t33" type="open" lemma="ancestry.com" pos="N" morphofeat="NN">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t34" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t35" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t36" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t37" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(Does-1, n't-2)-->
+    <dep from="t1" to="t2" rfunc="ADV" />
+    <!--NMOD(reek-7, this-3)-->
+    <dep from="t7" to="t3" rfunc="NMOD" />
+    <!--NMOD(reek-7, one-4)-->
+    <dep from="t7" to="t4" rfunc="NMOD" />
+    <!--NMOD(rule-6, drop-5)-->
+    <dep from="t6" to="t5" rfunc="NMOD" />
+    <!--NMOD(reek-7, rule-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--OBJ(Does-1, reek-7)-->
+    <dep from="t1" to="t7" rfunc="OBJ" />
+    <!--NMOD(reek-7, of-8)-->
+    <dep from="t7" to="t8" rfunc="NMOD" />
+    <!--NMOD(divide-10, jewish-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--PMOD(of-8, divide-10)-->
+    <dep from="t8" to="t10" rfunc="PMOD" />
+    <!--COORD(reek-7, and-11)-->
+    <dep from="t7" to="t11" rfunc="COORD" />
+    <!--CONJ(and-11, conquer-12)-->
+    <dep from="t11" to="t12" rfunc="CONJ" />
+    <!--P(Does-1, ?-13)-->
+    <dep from="t1" to="t13" rfunc="P" />
+    <!--SBJ('s-16, it-15)-->
+    <dep from="t16" to="t15" rfunc="SBJ" />
+    <!--OBJ(Guess-14, 's-16)-->
+    <dep from="t14" to="t16" rfunc="OBJ" />
+    <!--NMOD(thing-19, a-17)-->
+    <dep from="t19" to="t17" rfunc="NMOD" />
+    <!--NMOD(thing-19, good-18)-->
+    <dep from="t19" to="t18" rfunc="NMOD" />
+    <!--PRD('s-16, thing-19)-->
+    <dep from="t16" to="t19" rfunc="PRD" />
+    <!--SBJ(have-21, we-20)-->
+    <dep from="t21" to="t20" rfunc="SBJ" />
+    <!--NMOD(thing-19, have-21)-->
+    <dep from="t19" to="t21" rfunc="NMOD" />
+    <!--P(23andme-25, (-22)-->
+    <dep from="t25" to="t22" rfunc="P" />
+    <!--P(23andme-25, (-23)-->
+    <dep from="t25" to="t23" rfunc="P" />
+    <!--P(23andme-25, (-24)-->
+    <dep from="t25" to="t24" rfunc="P" />
+    <!--OBJ(have-21, 23andme-25)-->
+    <dep from="t21" to="t25" rfunc="OBJ" />
+    <!--P(23andme-25, )-26)-->
+    <dep from="t25" to="t26" rfunc="P" />
+    <!--P(23andme-25, )-27)-->
+    <dep from="t25" to="t27" rfunc="P" />
+    <!--P(23andme-25, )-28)-->
+    <dep from="t25" to="t28" rfunc="P" />
+    <!--COORD(23andme-25, and-29)-->
+    <dep from="t25" to="t29" rfunc="COORD" />
+    <!--P(ancestry.com-33, (-30)-->
+    <dep from="t33" to="t30" rfunc="P" />
+    <!--P(ancestry.com-33, (-31)-->
+    <dep from="t33" to="t31" rfunc="P" />
+    <!--P(ancestry.com-33, (-32)-->
+    <dep from="t33" to="t32" rfunc="P" />
+    <!--CONJ(and-29, ancestry.com-33)-->
+    <dep from="t29" to="t33" rfunc="CONJ" />
+    <!--P(ancestry.com-33, )-34)-->
+    <dep from="t33" to="t34" rfunc="P" />
+    <!--P(ancestry.com-33, )-35)-->
+    <dep from="t33" to="t35" rfunc="P" />
+    <!--P(ancestry.com-33, )-36)-->
+    <dep from="t33" to="t36" rfunc="P" />
+    <!--P(Guess-14, .-37)-->
+    <dep from="t14" to="t37" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="CARDINAL">
+      <references>
+        <!--one-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--23andme-->
+        <span>
+          <target id="t25" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/23andMe" confidence="0.9999999" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--ancestry.com-->
+        <span>
+          <target id="t33" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ancestry.com" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--drop-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--rule-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--reek-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--divide-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--thing-->
+        <span>
+          <target id="t19" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--it-->
+      <span>
+        <target id="t15" head="yes" />
+      </span>
+      <!--a good thing we have ( ( ( 23andme ) ) )-->
+      <span>
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" head="yes" />
+        <target id="t20" />
+        <target id="t21" />
+        <target id="t22" />
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Glossary_of_professional_wrestling_terms" confidence="0.5232823295948008" spotted="true">
+      <!--drop-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/23andMe" confidence="0.9999998883037682" spotted="true">
+      <!--23andme-->
+      <span>
+        <target id="w25" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999999199762645" spotted="true">
+      <!--jewish-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ancestry.com" confidence="0.9999999882031149" spotted="true">
+      <!--ancestry.com-->
+      <span>
+        <target id="w33" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Good_(economics)" confidence="0.7792517887494641" spotted="true">
+      <!--good-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Guess_(clothing)" confidence="0.9978338901822099" spotted="true">
+      <!--Guess-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Does :-->
+    <predicate id="f_pr4" source="semafor" confidence="66.46643551126672">
+      <!--Does-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+    </predicate>
+    <!--t4 one : [t4 one] [t5 drop]-->
+    <predicate id="f_pr5" source="semafor" confidence="30.668816285158712">
+      <!--one-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cardinal_numbers" />
+        <externalRef resource="FrameBase" reference="frame-Cardinal_numbers-one.num" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--one-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Number" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Number" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="">
+        <!--drop-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 drop :-->
+    <predicate id="f_pr6" source="semafor" confidence="73.95686851247876">
+      <!--drop-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Path_shape" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Glossary_of_professional_wrestling_terms" confidence="0.52328235" />
+      </externalReferences>
+    </predicate>
+    <!--t6 rule : [t3 this] A1[t8 of] A3[t5 drop] A1[t5 drop]-->
+    <predicate id="f_pr7" source="semafor" confidence="86.8320769210666">
+      <!--rule-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="NomBank" reference="rule.01" source="mate" />
+        <externalRef resource="VerbNet" reference="dub-29.3" />
+        <externalRef resource="PropBank" reference="rule.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00715868-v" />
+        <externalRef resource="FrameBase" reference="frame-Leadership-rule.v" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--this one drop rule reek of jewish divide and conquer-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Leader" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Leader" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="A1">
+        <!--of jewish divide-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="dub-29.3@Result" />
+          <externalRef resource="PropBank" reference="rule.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="A3">
+        <!--drop-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl19" semRole="A1">
+        <!--drop rule-->
+        <span>
+          <target id="t5" />
+          <target id="t6" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="dub-29.3@Result" />
+          <externalRef resource="PropBank" reference="rule.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 conquer : [t3 this]-->
+    <predicate id="f_pr9" source="semafor" confidence="46.59205296882822">
+      <!--conquer-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Conquering" />
+        <externalRef resource="PropBank" reference="conquer.01" source="mate" />
+        <externalRef resource="VerbNet" reference="subjugate-42.3" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Conquering-capture.v" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--this one drop rule reek of jewish divide and conquer-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Conquering@Conqueror" />
+          <externalRef resource="FrameBase" reference="fe-Conquering-Conqueror" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t16 's : A1[t15 it] A2[t17 a]-->
+    <predicate id="pr11" source="mate">
+      <!--'s-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl11" semRole="A1">
+        <!--it-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </role>
+      <role id="rl12" semRole="A2">
+        <!--a good thing we have ( ( ( 23andme ) ) ) and ( ( ( ancestry.com ) ) )-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" head="yes" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+      </role>
+    </predicate>
+    <!--t21 have : A1[t22 (] A0[t20 we] A1[t17 a]-->
+    <predicate id="pr12" source="mate">
+      <!--have-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+      </externalReferences>
+      <role id="rl13" semRole="A1">
+        <!--( ( ( 23andme ) ) ) and ( ( ( ancestry.com ) ) )-->
+        <span>
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" head="yes" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="A0">
+        <!--we-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--a good thing we have ( ( ( 23andme ) ) ) and ( ( ( ancestry.com ) ) )-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" head="yes" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 Guess : A1[t15 it]-->
+    <predicate id="f_pr14" source="semafor" confidence="42.02463198806697">
+      <!--Guess-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Coming_to_believe" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Guess_(clothing)" confidence="0.9978339" />
+        <externalRef resource="PropBank" reference="guess.01" source="mate" />
+        <externalRef resource="VerbNet" reference="conjecture-29.5-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00672433-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Guess_(clothing)" confidence="0.9978339" />
+        <externalRef resource="FrameBase" reference="frame-Coming_to_believe-guess.v" />
+      </externalReferences>
+      <role id="rl16" semRole="A1">
+        <!--it 's a good thing we have ( ( ( 23andme ) ) ) and ( ( ( ancestry.com ) ) )-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Coming_to_believe@Content" />
+          <externalRef resource="VerbNet" reference="conjecture-29.5@Theme" />
+          <externalRef resource="PropBank" reference="guess.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Coming_to_believe-Content" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 divide :-->
+    <predicate id="pr15">
+      <!--divide-->
+      <span>
+        <target id="t10" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="divide.01" />
+      </externalReferences>
+    </predicate>
+    <!--t18 good :-->
+    <predicate id="pr16">
+      <!--good-->
+      <span>
+        <target id="t18" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="good.01" />
+      </externalReferences>
+    </predicate>
+    <!--t19 thing :-->
+    <predicate id="pr17">
+      <!--thing-->
+      <span>
+        <target id="t19" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="thing.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SQ (VBZ Does) (RB n't) (NP (NP (DT this) (CD one) (NN drop) (NN rule) (NN reek)) (PP (IN of) (NP (JJ jewish) (NX (NX (NN divide)) (CC and))))) (VP (VB conquer)) (. ?)))</tree>
+    <tree sentence="2">(ROOT (SQ (VP (VB Guess) (PRN (S (NP (PRP it)) (VP (VBZ 's) (NP (NP (DT a) (ADJP (ADJP (JJ good) (NN thing)) (PRN (S (NP (PRP we)) (VP (VBP have) (S (NP (-LRB- -LRB-) (-LRB- -LRB-) (NP (-LRB- -LRB-) (NN 23andme) (-RRB- -RRB-)) (-RRB- -RRB-))))) (-RRB- -RRB-)))) (CC and) (NP (NP (-LRB- -LRB-)) (-LRB- -LRB-) (NP (-LRB- -LRB-) (NN ancestry.com) (-RRB- -RRB-)) (-RRB- -RRB-))))) (-RRB- -RRB-))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SQ" />
+      <nt id="nter3" label="VBZ" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="DT" />
+      <nt id="nter8" label="CD" />
+      <nt id="nter9" label="NN" />
+      <nt id="nter10" label="NN" />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label="PP" />
+      <nt id="nter13" label="IN" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="JJ" />
+      <nt id="nter16" label="NX" />
+      <nt id="nter17" label="NX" />
+      <nt id="nter18" label="NN" />
+      <nt id="nter19" label="CC" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VB" />
+      <nt id="nter22" label="." />
+      <!--Terminals-->
+      <!--Does-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--n't-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--one-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--drop-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--rule-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--reek-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--jewish-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--divide-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--conquer-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="ter2" to="nter4" />
+      <edge id="tre7" from="nter5" to="nter2" />
+      <edge id="tre8" from="nter6" to="nter5" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter6" />
+      <edge id="tre14" from="ter5" to="nter9" />
+      <edge id="tre15" from="nter10" to="nter6" />
+      <edge id="tre16" from="ter6" to="nter10" />
+      <edge id="tre17" from="nter11" to="nter6" head="yes" />
+      <edge id="tre18" from="ter7" to="nter11" />
+      <edge id="tre19" from="nter12" to="nter5" />
+      <edge id="tre20" from="nter13" to="nter12" head="yes" />
+      <edge id="tre21" from="ter8" to="nter13" />
+      <edge id="tre22" from="nter14" to="nter12" />
+      <edge id="tre23" from="nter15" to="nter14" />
+      <edge id="tre24" from="ter9" to="nter15" />
+      <edge id="tre25" from="nter16" to="nter14" head="yes" />
+      <edge id="tre26" from="nter17" to="nter16" head="yes" />
+      <edge id="tre27" from="nter18" to="nter17" head="yes" />
+      <edge id="tre28" from="ter10" to="nter18" />
+      <edge id="tre29" from="nter19" to="nter16" />
+      <edge id="tre30" from="ter11" to="nter19" />
+      <edge id="tre31" from="nter20" to="nter2" />
+      <edge id="tre32" from="nter21" to="nter20" head="yes" />
+      <edge id="tre33" from="ter12" to="nter21" />
+      <edge id="tre34" from="nter22" to="nter2" />
+      <edge id="tre35" from="ter13" to="nter22" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter23" label="ROOT" />
+      <nt id="nter24" label="SQ" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VB" />
+      <nt id="nter27" label="PRN" />
+      <nt id="nter28" label="S" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="PRP" />
+      <nt id="nter31" label="VP" />
+      <nt id="nter32" label="VBZ" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="DT" />
+      <nt id="nter36" label="ADJP" />
+      <nt id="nter37" label="ADJP" />
+      <nt id="nter38" label="JJ" />
+      <nt id="nter39" label="NN" />
+      <nt id="nter40" label="PRN" />
+      <nt id="nter41" label="S" />
+      <nt id="nter42" label="NP" />
+      <nt id="nter43" label="PRP" />
+      <nt id="nter44" label="VP" />
+      <nt id="nter45" label="VBP" />
+      <nt id="nter46" label="S" />
+      <nt id="nter47" label="NP" />
+      <nt id="nter48" label="-LRB-" />
+      <nt id="nter49" label="-LRB-" />
+      <nt id="nter50" label="NP" />
+      <nt id="nter51" label="-LRB-" />
+      <nt id="nter52" label="NN" />
+      <nt id="nter53" label="-RRB-" />
+      <nt id="nter54" label="-RRB-" />
+      <nt id="nter55" label="-RRB-" />
+      <nt id="nter56" label="CC" />
+      <nt id="nter57" label="NP" />
+      <nt id="nter58" label="NP" />
+      <nt id="nter59" label="-LRB-" />
+      <nt id="nter60" label="-LRB-" />
+      <nt id="nter61" label="NP" />
+      <nt id="nter62" label="-LRB-" />
+      <nt id="nter63" label="NN" />
+      <nt id="nter64" label="-RRB-" />
+      <nt id="nter65" label="-RRB-" />
+      <nt id="nter66" label="-RRB-" />
+      <nt id="nter67" label="." />
+      <!--Terminals-->
+      <!--Guess-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--'s-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--good-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--thing-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--23andme-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--ancestry.com-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre37" from="nter24" to="nter23" head="yes" />
+      <edge id="tre38" from="nter25" to="nter24" head="yes" />
+      <edge id="tre39" from="nter26" to="nter25" head="yes" />
+      <edge id="tre40" from="ter14" to="nter26" />
+      <edge id="tre41" from="nter27" to="nter25" />
+      <edge id="tre42" from="nter28" to="nter27" head="yes" />
+      <edge id="tre43" from="nter29" to="nter28" />
+      <edge id="tre44" from="nter30" to="nter29" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter28" head="yes" />
+      <edge id="tre47" from="nter32" to="nter31" head="yes" />
+      <edge id="tre48" from="ter16" to="nter32" />
+      <edge id="tre49" from="nter33" to="nter31" />
+      <edge id="tre50" from="nter34" to="nter33" head="yes" />
+      <edge id="tre51" from="nter35" to="nter34" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter34" head="yes" />
+      <edge id="tre54" from="nter37" to="nter36" head="yes" />
+      <edge id="tre55" from="nter38" to="nter37" />
+      <edge id="tre56" from="ter18" to="nter38" />
+      <edge id="tre57" from="nter39" to="nter37" head="yes" />
+      <edge id="tre58" from="ter19" to="nter39" />
+      <edge id="tre59" from="nter40" to="nter36" />
+      <edge id="tre60" from="nter41" to="nter40" head="yes" />
+      <edge id="tre61" from="nter42" to="nter41" />
+      <edge id="tre62" from="nter43" to="nter42" head="yes" />
+      <edge id="tre63" from="ter20" to="nter43" />
+      <edge id="tre64" from="nter44" to="nter41" head="yes" />
+      <edge id="tre65" from="nter45" to="nter44" head="yes" />
+      <edge id="tre66" from="ter21" to="nter45" />
+      <edge id="tre67" from="nter46" to="nter44" />
+      <edge id="tre68" from="nter47" to="nter46" head="yes" />
+      <edge id="tre69" from="nter48" to="nter47" />
+      <edge id="tre70" from="ter22" to="nter48" />
+      <edge id="tre71" from="nter49" to="nter47" />
+      <edge id="tre72" from="ter23" to="nter49" />
+      <edge id="tre73" from="nter50" to="nter47" head="yes" />
+      <edge id="tre74" from="nter51" to="nter50" />
+      <edge id="tre75" from="ter24" to="nter51" />
+      <edge id="tre76" from="nter52" to="nter50" head="yes" />
+      <edge id="tre77" from="ter25" to="nter52" />
+      <edge id="tre78" from="nter53" to="nter50" />
+      <edge id="tre79" from="ter26" to="nter53" />
+      <edge id="tre80" from="nter54" to="nter47" />
+      <edge id="tre81" from="ter27" to="nter54" />
+      <edge id="tre82" from="nter55" to="nter40" />
+      <edge id="tre83" from="ter28" to="nter55" />
+      <edge id="tre84" from="nter56" to="nter33" />
+      <edge id="tre85" from="ter29" to="nter56" />
+      <edge id="tre86" from="nter57" to="nter33" />
+      <edge id="tre87" from="nter58" to="nter57" head="yes" />
+      <edge id="tre88" from="nter59" to="nter58" head="yes" />
+      <edge id="tre89" from="ter30" to="nter59" />
+      <edge id="tre90" from="nter60" to="nter57" />
+      <edge id="tre91" from="ter31" to="nter60" />
+      <edge id="tre92" from="nter61" to="nter57" />
+      <edge id="tre93" from="nter62" to="nter61" />
+      <edge id="tre94" from="ter32" to="nter62" />
+      <edge id="tre95" from="nter63" to="nter61" head="yes" />
+      <edge id="tre96" from="ter33" to="nter63" />
+      <edge id="tre97" from="nter64" to="nter61" />
+      <edge id="tre98" from="ter34" to="nter64" />
+      <edge id="tre99" from="nter65" to="nter57" />
+      <edge id="tre100" from="ter35" to="nter65" />
+      <edge id="tre101" from="nter66" to="nter27" />
+      <edge id="tre102" from="ter36" to="nter66" />
+      <edge id="tre103" from="nter67" to="nter24" />
+      <edge id="tre104" from="ter37" to="nter67" />
+    </tree>
+  </constituency>
+</NAF>

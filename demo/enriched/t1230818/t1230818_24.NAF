@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:57+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:57.912+0100" endTimestamp="2017-11-21T16:39:58.330+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:58.332+0100" endTimestamp="2017-11-21T16:39:58.332+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I am interested in all my ancestors, not just famous and the infamous. Why would you have Ashkenazi or gypsy in your lineage?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="2">am</wf>
+    <wf id="w3" sent="1" para="1" offset="5" length="10">interested</wf>
+    <wf id="w4" sent="1" para="1" offset="16" length="2">in</wf>
+    <wf id="w5" sent="1" para="1" offset="19" length="3">all</wf>
+    <wf id="w6" sent="1" para="1" offset="23" length="2">my</wf>
+    <wf id="w7" sent="1" para="1" offset="26" length="9">ancestors</wf>
+    <wf id="w8" sent="1" para="1" offset="35" length="1">,</wf>
+    <wf id="w9" sent="1" para="1" offset="37" length="3">not</wf>
+    <wf id="w10" sent="1" para="1" offset="41" length="4">just</wf>
+    <wf id="w11" sent="1" para="1" offset="46" length="6">famous</wf>
+    <wf id="w12" sent="1" para="1" offset="53" length="3">and</wf>
+    <wf id="w13" sent="1" para="1" offset="57" length="3">the</wf>
+    <wf id="w14" sent="1" para="1" offset="61" length="8">infamous</wf>
+    <wf id="w15" sent="1" para="1" offset="69" length="1">.</wf>
+    <wf id="w16" sent="2" para="1" offset="71" length="3">Why</wf>
+    <wf id="w17" sent="2" para="1" offset="75" length="5">would</wf>
+    <wf id="w18" sent="2" para="1" offset="81" length="3">you</wf>
+    <wf id="w19" sent="2" para="1" offset="85" length="4">have</wf>
+    <wf id="w20" sent="2" para="1" offset="90" length="9">Ashkenazi</wf>
+    <wf id="w21" sent="2" para="1" offset="100" length="2">or</wf>
+    <wf id="w22" sent="2" para="1" offset="103" length="5">gypsy</wf>
+    <wf id="w23" sent="2" para="1" offset="109" length="2">in</wf>
+    <wf id="w24" sent="2" para="1" offset="112" length="4">your</wf>
+    <wf id="w25" sent="2" para="1" offset="117" length="7">lineage</wf>
+    <wf id="w26" sent="2" para="1" offset="124" length="1">?</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--am-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--interested-->
+    <term id="t3" type="open" lemma="interested" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t4" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t5" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t6" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--ancestors-->
+    <term id="t7" type="open" lemma="ancestor" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t8" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t9" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t10" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--famous-->
+    <term id="t11" type="open" lemma="famous" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t12" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t13" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--infamous-->
+    <term id="t14" type="open" lemma="infamous" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--Why-->
+    <term id="t16" type="open" lemma="why" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t17" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t18" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t19" type="open" lemma="have" pos="V" morphofeat="VB">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--Ashkenazi-->
+    <term id="t20" type="open" lemma="Ashkenazi" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--or-->
+    <term id="t21" type="open" lemma="or" pos="C" morphofeat="CC">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--gypsy-->
+    <term id="t22" type="open" lemma="gypsy" pos="N" morphofeat="NN">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t23" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--your-->
+    <term id="t24" type="open" lemma="you" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--lineage-->
+    <term id="t25" type="open" lemma="lineage" pos="N" morphofeat="NN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t26" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(am-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--PRD(am-2, interested-3)-->
+    <dep from="t2" to="t3" rfunc="PRD" />
+    <!--AMOD(interested-3, in-4)-->
+    <dep from="t3" to="t4" rfunc="AMOD" />
+    <!--NMOD(ancestors-7, all-5)-->
+    <dep from="t7" to="t5" rfunc="NMOD" />
+    <!--NMOD(ancestors-7, my-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--PMOD(in-4, ancestors-7)-->
+    <dep from="t4" to="t7" rfunc="PMOD" />
+    <!--P(interested-3, ,-8)-->
+    <dep from="t3" to="t8" rfunc="P" />
+    <!--AMOD(famous-11, not-9)-->
+    <dep from="t11" to="t9" rfunc="AMOD" />
+    <!--AMOD(famous-11, just-10)-->
+    <dep from="t11" to="t10" rfunc="AMOD" />
+    <!--COORD(interested-3, famous-11)-->
+    <dep from="t3" to="t11" rfunc="COORD" />
+    <!--COORD(famous-11, and-12)-->
+    <dep from="t11" to="t12" rfunc="COORD" />
+    <!--NMOD(infamous-14, the-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--CONJ(and-12, infamous-14)-->
+    <dep from="t12" to="t14" rfunc="CONJ" />
+    <!--P(am-2, .-15)-->
+    <dep from="t2" to="t15" rfunc="P" />
+    <!--DEP(would-17, Why-16)-->
+    <dep from="t17" to="t16" rfunc="DEP" />
+    <!--SBJ(would-17, you-18)-->
+    <dep from="t17" to="t18" rfunc="SBJ" />
+    <!--VC(would-17, have-19)-->
+    <dep from="t17" to="t19" rfunc="VC" />
+    <!--OBJ(have-19, Ashkenazi-20)-->
+    <dep from="t19" to="t20" rfunc="OBJ" />
+    <!--COORD(Ashkenazi-20, or-21)-->
+    <dep from="t20" to="t21" rfunc="COORD" />
+    <!--CONJ(or-21, gypsy-22)-->
+    <dep from="t21" to="t22" rfunc="CONJ" />
+    <!--LOC(have-19, in-23)-->
+    <dep from="t19" to="t23" rfunc="LOC" />
+    <!--NMOD(lineage-25, your-24)-->
+    <dep from="t25" to="t24" rfunc="NMOD" />
+    <!--PMOD(in-23, lineage-25)-->
+    <dep from="t23" to="t25" rfunc="PMOD" />
+    <!--P(would-17, ?-26)-->
+    <dep from="t17" to="t26" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Ashkenazi-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ashkenazi_Jews" confidence="0.9999597" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--ancestors-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t18" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--gypsy-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--your-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--lineage-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+      <!--my-->
+      <span>
+        <target id="t6" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Why_(Annie_Lennox_song)" confidence="0.4305797983455074" spotted="true">
+      <!--Why-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Romani_people" confidence="0.999573576171996" spotted="true">
+      <!--gypsy-->
+      <span>
+        <target id="w22" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ashkenazi_Jews" confidence="0.9999597132346394" spotted="true">
+      <!--Ashkenazi-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Infamous_(video_game)" confidence="0.3909319016906729" spotted="true">
+      <!--infamous-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 am : A1[t1 I] A2[t3 interested]-->
+    <predicate id="pr1" source="mate">
+      <!--am-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A2">
+        <!--interested in all my ancestors , not just famous and the infamous-->
+        <span>
+          <target id="t3" head="yes" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 interested : [t5 all] [t1 I]-->
+    <predicate id="f_pr3" source="semafor" confidence="71.16816943639466">
+      <!--interested-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Experiencer_focus" />
+        <externalRef resource="FrameBase" reference="frame-Experiencer_focus-interested.a" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--all my ancestors , not just famous and the infamous-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Experiencer_focus@Content" />
+          <externalRef resource="FrameBase" reference="fe-Experiencer_focus-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Experiencer_focus@Experiencer" />
+          <externalRef resource="FrameBase" reference="fe-Experiencer_focus-Experiencer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 all : [t5 all]-->
+    <predicate id="f_pr4" source="semafor" confidence="23.97784183653942">
+      <!--all-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--all-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 famous : [t10 just] [t5 all]-->
+    <predicate id="f_pr6" source="semafor" confidence="36.8252681721572">
+      <!--famous-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Fame" />
+        <externalRef resource="FrameBase" reference="frame-Fame-fame.n" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--just-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Fame@Degree" />
+          <externalRef resource="FrameBase" reference="fe-Fame-Degree" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="">
+        <!--all my ancestors-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Fame@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Fame-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 infamous :-->
+    <predicate id="f_pr7" source="semafor" confidence="37.211665141281095">
+      <!--infamous-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Fame" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Infamous_(video_game)" confidence="0.3909319" />
+        <externalRef resource="FrameBase" reference="frame-Fame-infamous.a" />
+      </externalReferences>
+    </predicate>
+    <!--t16 Why : [t16 Why]-->
+    <predicate id="f_pr10" source="semafor" confidence="10.190846205949665">
+      <!--Why-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reason" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Why_(Annie_Lennox_song)" confidence="0.4305798" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--Why-->
+        <span>
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Reason@State_of_Affairs" />
+          <externalRef resource="FrameBase" reference="fe-Reason-State_of_Affairs" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t19 have : [t20 Ashkenazi] A0[t18 you] AM-MOD[t16 Why] R-AM-CAU[t16 Why] AM-LOC[t23 in] A1[t20 Ashkenazi]-->
+    <predicate id="f_pr11" source="semafor" confidence="43.075858199406774">
+      <!--have-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--Ashkenazi or gypsy in your lineage-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="A0">
+        <!--you-->
+        <span>
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="AM-MOD">
+        <!--Why would you have Ashkenazi or gypsy in your lineage ?-->
+        <span>
+          <target id="t16" />
+          <target id="t17" head="yes" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+        </span>
+      </role>
+      <role id="rl21" semRole="R-AM-CAU">
+        <!--Why-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </role>
+      <role id="rl22" semRole="AM-LOC">
+        <!--in your lineage-->
+        <span>
+          <target id="t23" head="yes" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+      </role>
+      <role id="rl23" semRole="A1">
+        <!--Ashkenazi or gypsy-->
+        <span>
+          <target id="t20" head="yes" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBP am) (ADJP (JJ interested) (PP (IN in) (NP (NP (NP (DT all)) (NP (PRP$ my) (NNS ancestors))) (, ,) (NP (RB not) (RB just) (JJ famous)) (CC and) (NP (DT the) (JJ infamous)))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (MD would) (NP (PRP you)) (VP (VB have) (NP (NP (NNP Ashkenazi)) (CC or) (NP (NP (NN gypsy)) (PP (IN in) (NP (PRP$ your) (NN lineage))))))) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="ADJP" />
+      <nt id="nter8" label="JJ" />
+      <nt id="nter9" label="PP" />
+      <nt id="nter10" label="IN" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="DT" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="PRP$" />
+      <nt id="nter17" label="NNS" />
+      <nt id="nter18" label="," />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="RB" />
+      <nt id="nter21" label="RB" />
+      <nt id="nter22" label="JJ" />
+      <nt id="nter23" label="CC" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="DT" />
+      <nt id="nter26" label="JJ" />
+      <nt id="nter27" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--am-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--interested-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--ancestors-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--famous-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--infamous-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter12" />
+      <edge id="tre21" from="nter16" to="nter15" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter15" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter11" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter11" />
+      <edge id="tre28" from="nter20" to="nter19" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter19" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter19" head="yes" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter11" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter11" />
+      <edge id="tre37" from="nter25" to="nter24" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter24" head="yes" />
+      <edge id="tre40" from="ter14" to="nter26" />
+      <edge id="tre41" from="nter27" to="nter2" />
+      <edge id="tre42" from="ter15" to="nter27" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter28" label="ROOT" />
+      <nt id="nter29" label="SBARQ" />
+      <nt id="nter30" label="WHADVP" />
+      <nt id="nter31" label="WRB" />
+      <nt id="nter32" label="SQ" />
+      <nt id="nter33" label="MD" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="PRP" />
+      <nt id="nter36" label="VP" />
+      <nt id="nter37" label="VB" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="NNP" />
+      <nt id="nter41" label="CC" />
+      <nt id="nter42" label="NP" />
+      <nt id="nter43" label="NP" />
+      <nt id="nter44" label="NN" />
+      <nt id="nter45" label="PP" />
+      <nt id="nter46" label="IN" />
+      <nt id="nter47" label="NP" />
+      <nt id="nter48" label="PRP$" />
+      <nt id="nter49" label="NN" />
+      <nt id="nter50" label="." />
+      <!--Terminals-->
+      <!--Why-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Ashkenazi-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--or-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--gypsy-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--your-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--lineage-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre44" from="nter29" to="nter28" head="yes" />
+      <edge id="tre45" from="nter30" to="nter29" />
+      <edge id="tre46" from="nter31" to="nter30" head="yes" />
+      <edge id="tre47" from="ter16" to="nter31" />
+      <edge id="tre48" from="nter32" to="nter29" head="yes" />
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="ter17" to="nter33" />
+      <edge id="tre51" from="nter34" to="nter32" />
+      <edge id="tre52" from="nter35" to="nter34" head="yes" />
+      <edge id="tre53" from="ter18" to="nter35" />
+      <edge id="tre54" from="nter36" to="nter32" />
+      <edge id="tre55" from="nter37" to="nter36" head="yes" />
+      <edge id="tre56" from="ter19" to="nter37" />
+      <edge id="tre57" from="nter38" to="nter36" />
+      <edge id="tre58" from="nter39" to="nter38" head="yes" />
+      <edge id="tre59" from="nter40" to="nter39" head="yes" />
+      <edge id="tre60" from="ter20" to="nter40" />
+      <edge id="tre61" from="nter41" to="nter38" />
+      <edge id="tre62" from="ter21" to="nter41" />
+      <edge id="tre63" from="nter42" to="nter38" />
+      <edge id="tre64" from="nter43" to="nter42" head="yes" />
+      <edge id="tre65" from="nter44" to="nter43" head="yes" />
+      <edge id="tre66" from="ter22" to="nter44" />
+      <edge id="tre67" from="nter45" to="nter42" />
+      <edge id="tre68" from="nter46" to="nter45" head="yes" />
+      <edge id="tre69" from="ter23" to="nter46" />
+      <edge id="tre70" from="nter47" to="nter45" />
+      <edge id="tre71" from="nter48" to="nter47" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter47" head="yes" />
+      <edge id="tre74" from="ter25" to="nter49" />
+      <edge id="tre75" from="nter50" to="nter29" />
+      <edge id="tre76" from="ter26" to="nter50" />
+    </tree>
+  </constituency>
+</NAF>

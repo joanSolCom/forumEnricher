@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:27+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:27.512+0100" endTimestamp="2017-11-21T16:33:27.896+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:27.902+0100" endTimestamp="2017-11-21T16:33:27.903+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Judeo-Christianity is at the top of the list....]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="18">Judeo-Christianity</wf>
+    <wf id="w2" sent="1" para="1" offset="19" length="2">is</wf>
+    <wf id="w3" sent="1" para="1" offset="22" length="2">at</wf>
+    <wf id="w4" sent="1" para="1" offset="25" length="3">the</wf>
+    <wf id="w5" sent="1" para="1" offset="29" length="3">top</wf>
+    <wf id="w6" sent="1" para="1" offset="33" length="2">of</wf>
+    <wf id="w7" sent="1" para="1" offset="36" length="3">the</wf>
+    <wf id="w8" sent="1" para="1" offset="40" length="4">list</wf>
+    <wf id="w9" sent="1" para="1" offset="44" length="3">...</wf>
+  </text>
+  <terms>
+    <!--Judeo-Christianity-->
+    <term id="t1" type="open" lemma="judeo-christianity" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t3" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--top-->
+    <term id="t5" type="open" lemma="top" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t6" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t7" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--list-->
+    <term id="t8" type="open" lemma="list" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t9" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(is-2, Judeo-Christianity-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(is-2, at-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--NMOD(top-5, the-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--PMOD(at-3, top-5)-->
+    <dep from="t3" to="t5" rfunc="PMOD" />
+    <!--NMOD(top-5, of-6)-->
+    <dep from="t5" to="t6" rfunc="NMOD" />
+    <!--NMOD(list-8, the-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--PMOD(of-6, list-8)-->
+    <dep from="t6" to="t8" rfunc="PMOD" />
+    <!--P(is-2, ...-9)-->
+    <dep from="t2" to="t9" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--top-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Top" confidence="0.45242417" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Judeo-Christianity-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--list-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Judeo-Christian" confidence="0.997638285490778" spotted="true">
+      <!--Judeo-Christianity-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Top" confidence="0.4524241554524659" spotted="true">
+      <!--top-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 is : A2[t3 at] A1[t1 Judeo-Christianity]-->
+    <predicate id="pr1" source="mate">
+      <!--is-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A2">
+        <!--at the top of the list-->
+        <span>
+          <target id="t3" head="yes" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A1">
+        <!--Judeo-Christianity-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 top : A1[t6 of]-->
+    <predicate id="f_pr4" source="semafor" confidence="22.0603101695161">
+      <!--top-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_orientational" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Top" confidence="0.45242417" />
+        <externalRef resource="NomBank" reference="top.03" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Top" confidence="0.45242417" />
+        <externalRef resource="FrameBase" reference="frame-Part_orientational-tip.n" />
+      </externalReferences>
+      <role id="rl5" semRole="A1">
+        <!--of the list-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Part_orientational@Whole" />
+          <externalRef resource="FrameBase" reference="fe-Part_orientational-Whole" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 list :-->
+    <predicate id="f_pr5" source="semafor" confidence="67.29617535793429">
+      <!--list-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Text" />
+        <externalRef resource="NomBank" reference="list.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Text-list.n" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NN Judeo-Christianity)) (VP (VBZ is) (PP (IN at) (NP (NP (DT the) (NN top)) (PP (IN of) (NP (DT the) (NN list)))))) (: ...)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NN" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBZ" />
+      <nt id="nter7" label="PP" />
+      <nt id="nter8" label="IN" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="DT" />
+      <nt id="nter12" label="NN" />
+      <nt id="nter13" label="PP" />
+      <nt id="nter14" label="IN" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="DT" />
+      <nt id="nter17" label="NN" />
+      <nt id="nter18" label=":" />
+      <!--Terminals-->
+      <!--Judeo-Christianity-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--top-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--list-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter9" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" head="yes" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter2" />
+      <edge id="tre27" from="ter9" to="nter18" />
+    </tree>
+  </constituency>
+</NAF>

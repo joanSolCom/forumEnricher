@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:31:24+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:31:24.497+0100" endTimestamp="2017-11-20T12:31:25.157+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:31:25.159+0100" endTimestamp="2017-11-20T12:31:25.159+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Hopefully the following excerpt from Transcript of Greg Johnson's Interview with Kevin MacDonald on Trump, 2015,]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="9">Hopefully</wf>
+    <wf id="w2" sent="1" para="1" offset="10" length="3">the</wf>
+    <wf id="w3" sent="1" para="1" offset="14" length="9">following</wf>
+    <wf id="w4" sent="1" para="1" offset="24" length="7">excerpt</wf>
+    <wf id="w5" sent="1" para="1" offset="32" length="4">from</wf>
+    <wf id="w6" sent="1" para="1" offset="37" length="10">Transcript</wf>
+    <wf id="w7" sent="1" para="1" offset="48" length="2">of</wf>
+    <wf id="w8" sent="1" para="1" offset="51" length="4">Greg</wf>
+    <wf id="w9" sent="1" para="1" offset="56" length="7">Johnson</wf>
+    <wf id="w10" sent="1" para="1" offset="63" length="2">'s</wf>
+    <wf id="w11" sent="1" para="1" offset="66" length="9">Interview</wf>
+    <wf id="w12" sent="1" para="1" offset="76" length="4">with</wf>
+    <wf id="w13" sent="1" para="1" offset="81" length="5">Kevin</wf>
+    <wf id="w14" sent="1" para="1" offset="87" length="9">MacDonald</wf>
+    <wf id="w15" sent="1" para="1" offset="97" length="2">on</wf>
+    <wf id="w16" sent="1" para="1" offset="100" length="5">Trump</wf>
+    <wf id="w17" sent="1" para="1" offset="105" length="1">,</wf>
+    <wf id="w18" sent="1" para="1" offset="107" length="4">2015</wf>
+    <wf id="w19" sent="1" para="1" offset="111" length="1">,</wf>
+  </text>
+  <terms>
+    <!--Hopefully-->
+    <term id="t1" type="open" lemma="hopefully" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t2" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--following-->
+    <term id="t3" type="open" lemma="follow" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--excerpt-->
+    <term id="t4" type="open" lemma="excerpt" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t5" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Transcript-->
+    <term id="t6" type="open" lemma="transcript" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t7" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--Greg-->
+    <term id="t8" type="open" lemma="Greg" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Johnson-->
+    <term id="t9" type="open" lemma="Johnson" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--'s-->
+    <term id="t10" type="open" lemma="'s" pos="O" morphofeat="POS">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Interview-->
+    <term id="t11" type="open" lemma="interview" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--with-->
+    <term id="t12" type="open" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Kevin-->
+    <term id="t13" type="open" lemma="Kevin" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--MacDonald-->
+    <term id="t14" type="open" lemma="MacDonald" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t15" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--Trump-->
+    <term id="t16" type="open" lemma="Trump" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t17" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--2015-->
+    <term id="t18" type="open" lemma="2015" pos="O" morphofeat="CD">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t19" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(excerpt-4, Hopefully-1)-->
+    <dep from="t4" to="t1" rfunc="NMOD" />
+    <!--NMOD(excerpt-4, the-2)-->
+    <dep from="t4" to="t2" rfunc="NMOD" />
+    <!--NMOD(excerpt-4, following-3)-->
+    <dep from="t4" to="t3" rfunc="NMOD" />
+    <!--NMOD(excerpt-4, from-5)-->
+    <dep from="t4" to="t5" rfunc="NMOD" />
+    <!--PMOD(from-5, Transcript-6)-->
+    <dep from="t5" to="t6" rfunc="PMOD" />
+    <!--NMOD(Transcript-6, of-7)-->
+    <dep from="t6" to="t7" rfunc="NMOD" />
+    <!--NAME(Johnson-9, Greg-8)-->
+    <dep from="t9" to="t8" rfunc="NAME" />
+    <!--NMOD(Interview-11, Johnson-9)-->
+    <dep from="t11" to="t9" rfunc="NMOD" />
+    <!--SUFFIX(Johnson-9, 's-10)-->
+    <dep from="t9" to="t10" rfunc="SUFFIX" />
+    <!--PMOD(of-7, Interview-11)-->
+    <dep from="t7" to="t11" rfunc="PMOD" />
+    <!--NMOD(Interview-11, with-12)-->
+    <dep from="t11" to="t12" rfunc="NMOD" />
+    <!--NAME(MacDonald-14, Kevin-13)-->
+    <dep from="t14" to="t13" rfunc="NAME" />
+    <!--PMOD(with-12, MacDonald-14)-->
+    <dep from="t12" to="t14" rfunc="PMOD" />
+    <!--LOC(MacDonald-14, on-15)-->
+    <dep from="t14" to="t15" rfunc="LOC" />
+    <!--PMOD(on-15, Trump-16)-->
+    <dep from="t15" to="t16" rfunc="PMOD" />
+    <!--P(Trump-16, ,-17)-->
+    <dep from="t16" to="t17" rfunc="P" />
+    <!--APPO(Trump-16, 2015-18)-->
+    <dep from="t16" to="t18" rfunc="APPO" />
+    <!--P(excerpt-4, ,-19)-->
+    <dep from="t4" to="t19" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Greg Johnson-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gregory_H._Johnson" confidence="0.44643995" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="PERSON">
+      <references>
+        <!--Kevin MacDonald-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Kevin_Macdonald_(director)" confidence="0.94701976" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" type="PERSON">
+      <references>
+        <!--Trump-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Donald_Trump" confidence="0.9520354" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--Interview-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Interview" confidence="0.7640676" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--excerpt-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--Transcript-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+    <timex3 id="tmx1" type="DATE" value="2015">
+      <!--2015-->
+      <span>
+        <target id="w18" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Kevin_Macdonald_(director)" confidence="0.9470197703287699" spotted="true">
+      <!--Kevin MacDonald-->
+      <span>
+        <target id="w13" />
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Interview" confidence="0.7640675757580382" spotted="true">
+      <!--Interview-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gregory_H._Johnson" confidence="0.44643994756568506" spotted="true">
+      <!--Greg Johnson-->
+      <span>
+        <target id="w8" />
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Donald_Trump" confidence="0.9520353983002645" spotted="true">
+      <!--Trump-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Transcription_(genetics)" confidence="0.8667934297448731" spotted="true">
+      <!--Transcript-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t6 Transcript : A1[t7 of]-->
+    <predicate id="pr2" source="mate">
+      <!--Transcript-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="transcript.01" source="mate" />
+        <externalRef resource="VerbNet" reference="transcribe-25.4" />
+        <externalRef resource="PropBank" reference="transcribe.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00994682-v" />
+        <externalRef resource="WordNet" reference="ili-30-00995103-v" />
+        <externalRef resource="WordNet" reference="ili-30-00994895-v" />
+        <externalRef resource="WordNet" reference="ili-30-01708113-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Transcription_(genetics)" confidence="0.86679345" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--of Greg Johnson 's Interview with Kevin MacDonald on Trump , 2015-->
+        <span>
+          <target id="t7" head="yes" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="transcribe-25.4@Theme" />
+          <externalRef resource="PropBank" reference="transcribe.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 Interview : A0[t12 with] A0[t8 Greg]-->
+    <predicate id="pr3" source="mate">
+      <!--Interview-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="interview.01" source="mate" />
+        <externalRef resource="VerbNet" reference="interrogate-37.1.3" />
+        <externalRef resource="PropBank" reference="interview.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00808855-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Interview" confidence="0.7640676" />
+      </externalReferences>
+      <role id="rl2" semRole="A0">
+        <!--with Kevin MacDonald on Trump , 2015-->
+        <span>
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="interrogate-37.1.3@Agent" />
+          <externalRef resource="PropBank" reference="interview.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl3" semRole="A0">
+        <!--Greg Johnson 's-->
+        <span>
+          <target id="t8" />
+          <target id="t9" head="yes" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="interrogate-37.1.3@Agent" />
+          <externalRef resource="PropBank" reference="interview.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 following : [t1 Hopefully]-->
+    <predicate id="f_pr4" source="semafor" confidence="21.09220609844744">
+      <!--following-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relative_time" />
+        <externalRef resource="PropBank" reference="follow.01" source="mate" />
+        <externalRef resource="VerbNet" reference="occurrence-48.3" />
+        <externalRef resource="ESO" reference="Translocation" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Relative_time-follow.v" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--Hopefully the-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relative_time@Focal_occasion" />
+          <externalRef resource="FrameBase" reference="fe-Relative_time-Focal_occasion" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 excerpt : A1[t1 Hopefully]-->
+    <predicate id="pr5">
+      <!--excerpt-->
+      <span>
+        <target id="t4" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="excerpt.01" />
+      </externalReferences>
+      <role id="rl5" semRole="A1">
+        <!--Hopefully the following excerpt from Transcript of Greg Johnson 's Interview with Kevin MacDonald on Trump , 2015 ,-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (ADVP (RB Hopefully)) (NP (NP (DT the)) (PP (VBG following) (NP (NP (NN excerpt)) (PP (IN from) (NP (NP (NN Transcript)) (PP (IN of) (NP (NP (NP (NNP Greg) (NNP Johnson) (POS 's)) (NN Interview)) (PP (IN with) (NP (NP (NNP Kevin) (NNP MacDonald)) (PP (IN on) (NP (NP (NNP Trump)) (, ,) (NP (CD 2015)) (, ,))))))))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="ADVP" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="DT" />
+      <nt id="nter8" label="PP" />
+      <nt id="nter9" label="VBG" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NN" />
+      <nt id="nter13" label="PP" />
+      <nt id="nter14" label="IN" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="NN" />
+      <nt id="nter18" label="PP" />
+      <nt id="nter19" label="IN" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="NNP" />
+      <nt id="nter24" label="NNP" />
+      <nt id="nter25" label="POS" />
+      <nt id="nter26" label="NN" />
+      <nt id="nter27" label="PP" />
+      <nt id="nter28" label="IN" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="NNP" />
+      <nt id="nter32" label="NNP" />
+      <nt id="nter33" label="PP" />
+      <nt id="nter34" label="IN" />
+      <nt id="nter35" label="NP" />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="NNP" />
+      <nt id="nter38" label="," />
+      <nt id="nter39" label="NP" />
+      <nt id="nter40" label="CD" />
+      <nt id="nter41" label="," />
+      <!--Terminals-->
+      <!--Hopefully-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--following-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--excerpt-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Transcript-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Greg-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Johnson-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--'s-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Interview-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--with-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--Kevin-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--MacDonald-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Trump-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--2015-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter5" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="ter4" to="nter12" />
+      <edge id="tre17" from="nter13" to="nter10" />
+      <edge id="tre18" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter13" />
+      <edge id="tre21" from="nter16" to="nter15" head="yes" />
+      <edge id="tre22" from="nter17" to="nter16" head="yes" />
+      <edge id="tre23" from="ter6" to="nter17" />
+      <edge id="tre24" from="nter18" to="nter15" />
+      <edge id="tre25" from="nter19" to="nter18" head="yes" />
+      <edge id="tre26" from="ter7" to="nter19" />
+      <edge id="tre27" from="nter20" to="nter18" />
+      <edge id="tre28" from="nter21" to="nter20" head="yes" />
+      <edge id="tre29" from="nter22" to="nter21" />
+      <edge id="tre30" from="nter23" to="nter22" />
+      <edge id="tre31" from="ter8" to="nter23" />
+      <edge id="tre32" from="nter24" to="nter22" />
+      <edge id="tre33" from="ter9" to="nter24" />
+      <edge id="tre34" from="nter25" to="nter22" head="yes" />
+      <edge id="tre35" from="ter10" to="nter25" />
+      <edge id="tre36" from="nter26" to="nter21" head="yes" />
+      <edge id="tre37" from="ter11" to="nter26" />
+      <edge id="tre38" from="nter27" to="nter20" />
+      <edge id="tre39" from="nter28" to="nter27" head="yes" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter27" />
+      <edge id="tre42" from="nter30" to="nter29" head="yes" />
+      <edge id="tre43" from="nter31" to="nter30" />
+      <edge id="tre44" from="ter13" to="nter31" />
+      <edge id="tre45" from="nter32" to="nter30" head="yes" />
+      <edge id="tre46" from="ter14" to="nter32" />
+      <edge id="tre47" from="nter33" to="nter29" />
+      <edge id="tre48" from="nter34" to="nter33" head="yes" />
+      <edge id="tre49" from="ter15" to="nter34" />
+      <edge id="tre50" from="nter35" to="nter33" />
+      <edge id="tre51" from="nter36" to="nter35" head="yes" />
+      <edge id="tre52" from="nter37" to="nter36" head="yes" />
+      <edge id="tre53" from="ter16" to="nter37" />
+      <edge id="tre54" from="nter38" to="nter35" />
+      <edge id="tre55" from="ter17" to="nter38" />
+      <edge id="tre56" from="nter39" to="nter35" />
+      <edge id="tre57" from="nter40" to="nter39" head="yes" />
+      <edge id="tre58" from="ter18" to="nter40" />
+      <edge id="tre59" from="nter41" to="nter35" />
+      <edge id="tre60" from="ter19" to="nter41" />
+    </tree>
+  </constituency>
+</NAF>

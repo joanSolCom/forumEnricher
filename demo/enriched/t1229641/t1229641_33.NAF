@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:33:03+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:33:03.300+0100" endTimestamp="2017-11-20T12:33:03.585+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:33:03.586+0100" endTimestamp="2017-11-20T12:33:03.586+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I was born ready]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="3">was</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="4">born</wf>
+    <wf id="w4" sent="1" para="1" offset="11" length="5">ready</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--born-->
+    <term id="t3" type="open" lemma="bear" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--ready-->
+    <term id="t4" type="open" lemma="ready" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(was-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--VC(was-2, born-3)-->
+    <dep from="t2" to="t3" rfunc="VC" />
+    <!--OPRD(born-3, ready-4)-->
+    <dep from="t3" to="t4" rfunc="OPRD" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Name_at_birth" confidence="0.4687765227668182" spotted="true">
+      <!--born-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ready_(2011_film)" confidence="0.38778018837414513" spotted="true">
+      <!--ready-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 born : A1[t1 I] AM-PRD[t4 ready]-->
+    <predicate id="f_pr2" source="semafor" confidence="38.4265883713696">
+      <!--born-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Being_born" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Name_at_birth" confidence="0.46877652" />
+        <externalRef resource="PropBank" reference="bear.02" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Name_at_birth" confidence="0.46877652" />
+      </externalReferences>
+      <role id="rl3" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Being_born@Child" />
+          <externalRef resource="FrameBase" reference="fe-Being_born-Child" />
+        </externalReferences>
+      </role>
+      <role id="rl4" semRole="AM-PRD">
+        <!--ready-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t4 ready :-->
+    <predicate id="f_pr3" source="semafor" confidence="28.57384898754809">
+      <!--ready-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Activity_ready_state" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ready_(2011_film)" confidence="0.3877802" />
+        <externalRef resource="FrameBase" reference="frame-Activity_ready_state-ready.a" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBD was) (VP (VBN born) (S (ADJP (JJ ready)))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBD" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VBN" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="ADJP" />
+      <nt id="nter11" label="JJ" />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--born-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--ready-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+    </tree>
+  </constituency>
+</NAF>

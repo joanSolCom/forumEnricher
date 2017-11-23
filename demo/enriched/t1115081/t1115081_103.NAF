@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:31:29+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:31:30.002+0100" endTimestamp="2017-11-20T12:31:30.302+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:31:30.303+0100" endTimestamp="2017-11-20T12:31:30.304+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Catholicism is jewish too mate.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="11">Catholicism</wf>
+    <wf id="w2" sent="1" para="1" offset="12" length="2">is</wf>
+    <wf id="w3" sent="1" para="1" offset="15" length="6">jewish</wf>
+    <wf id="w4" sent="1" para="1" offset="22" length="3">too</wf>
+    <wf id="w5" sent="1" para="1" offset="26" length="4">mate</wf>
+    <wf id="w6" sent="1" para="1" offset="30" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Catholicism-->
+    <term id="t1" type="open" lemma="Catholicism" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--jewish-->
+    <term id="t3" type="open" lemma="jewish" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--too-->
+    <term id="t4" type="open" lemma="too" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--mate-->
+    <term id="t5" type="open" lemma="mate" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t6" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(is-2, Catholicism-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--NMOD(mate-5, jewish-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NMOD(mate-5, too-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--OBJ(is-2, mate-5)-->
+    <dep from="t2" to="t5" rfunc="OBJ" />
+    <!--P(is-2, .-6)-->
+    <dep from="t2" to="t6" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Catholicism-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Catholicism" confidence="0.8000597" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--mate-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Catholicism" confidence="0.8000596973487727" spotted="true">
+      <!--Catholicism-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mate_(beverage)" confidence="0.4829424864474736" spotted="true">
+      <!--mate-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9999998540247255" spotted="true">
+      <!--jewish-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 is : A2[t3 jewish] A1[t1 Catholicism]-->
+    <predicate id="pr1" source="mate">
+      <!--is-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A2">
+        <!--jewish too mate-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A1">
+        <!--Catholicism-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t4 too : [t3 jewish]-->
+    <predicate id="f_pr3" source="semafor" confidence="12.860817899676432">
+      <!--too-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sufficiency" />
+        <externalRef resource="FrameBase" reference="frame-Sufficiency-too.adv" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--jewish-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sufficiency@Scale" />
+          <externalRef resource="FrameBase" reference="fe-Sufficiency-Scale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 mate : A0[t3 jewish] A2[t1 Catholicism] A2[t3 jewish] A2[t4 too]-->
+    <predicate id="f_pr4" source="semafor" confidence="44.167536916852214">
+      <!--mate-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Personal_relationship" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mate_(beverage)" confidence="0.4829425" />
+        <externalRef resource="NomBank" reference="mate.02" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mate_(beverage)" confidence="0.4829425" />
+        <externalRef resource="FrameBase" reference="frame-Personal_relationship-mate.n" />
+      </externalReferences>
+      <role id="rl8" semRole="A0">
+        <!--jewish too mate-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Personal_relationship@Partner_1" />
+          <externalRef resource="FrameBase" reference="fe-Personal_relationship-Partner_1" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="A2">
+        <!--Catholicism-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Personal_relationship@Partner_2" />
+          <externalRef resource="FrameBase" reference="fe-Personal_relationship-Partner_2" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A2">
+        <!--jewish-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl11" semRole="A2">
+        <!--too-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NNP Catholicism)) (VP (VBZ is) (NP (ADJP (JJ jewish) (RB too)) (NN mate))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBZ" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="ADJP" />
+      <nt id="nter9" label="JJ" />
+      <nt id="nter10" label="RB" />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label="." />
+      <!--Terminals-->
+      <!--Catholicism-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--jewish-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--too-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--mate-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter7" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter2" />
+      <edge id="tre18" from="ter6" to="nter12" />
+    </tree>
+  </constituency>
+</NAF>

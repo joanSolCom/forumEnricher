@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:44+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:44.876+0100" endTimestamp="2017-11-21T16:40:45.382+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:45.385+0100" endTimestamp="2017-11-21T16:40:45.385+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Why insult zoo animals by comparing them to nig nogs? Anyway, I never was a "liberal" on race. But each day I usually hate nig nogs more than I did the previous day.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">Why</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="6">insult</wf>
+    <wf id="w3" sent="1" para="1" offset="11" length="3">zoo</wf>
+    <wf id="w4" sent="1" para="1" offset="15" length="7">animals</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="2">by</wf>
+    <wf id="w6" sent="1" para="1" offset="26" length="9">comparing</wf>
+    <wf id="w7" sent="1" para="1" offset="36" length="4">them</wf>
+    <wf id="w8" sent="1" para="1" offset="41" length="2">to</wf>
+    <wf id="w9" sent="1" para="1" offset="44" length="3">nig</wf>
+    <wf id="w10" sent="1" para="1" offset="48" length="4">nogs</wf>
+    <wf id="w11" sent="1" para="1" offset="52" length="1">?</wf>
+    <wf id="w12" sent="2" para="1" offset="54" length="6">Anyway</wf>
+    <wf id="w13" sent="2" para="1" offset="60" length="1">,</wf>
+    <wf id="w14" sent="2" para="1" offset="62" length="1">I</wf>
+    <wf id="w15" sent="2" para="1" offset="64" length="5">never</wf>
+    <wf id="w16" sent="2" para="1" offset="70" length="3">was</wf>
+    <wf id="w17" sent="2" para="1" offset="74" length="1">a</wf>
+    <wf id="w18" sent="2" para="1" offset="76" length="2">``</wf>
+    <wf id="w19" sent="2" para="1" offset="77" length="7">liberal</wf>
+    <wf id="w20" sent="2" para="1" offset="84" length="2">''</wf>
+    <wf id="w21" sent="2" para="1" offset="86" length="2">on</wf>
+    <wf id="w22" sent="2" para="1" offset="89" length="4">race</wf>
+    <wf id="w23" sent="2" para="1" offset="93" length="1">.</wf>
+    <wf id="w24" sent="3" para="1" offset="95" length="3">But</wf>
+    <wf id="w25" sent="3" para="1" offset="99" length="4">each</wf>
+    <wf id="w26" sent="3" para="1" offset="104" length="3">day</wf>
+    <wf id="w27" sent="3" para="1" offset="108" length="1">I</wf>
+    <wf id="w28" sent="3" para="1" offset="110" length="7">usually</wf>
+    <wf id="w29" sent="3" para="1" offset="118" length="4">hate</wf>
+    <wf id="w30" sent="3" para="1" offset="123" length="3">nig</wf>
+    <wf id="w31" sent="3" para="1" offset="127" length="4">nogs</wf>
+    <wf id="w32" sent="3" para="1" offset="132" length="4">more</wf>
+    <wf id="w33" sent="3" para="1" offset="137" length="4">than</wf>
+    <wf id="w34" sent="3" para="1" offset="142" length="1">I</wf>
+    <wf id="w35" sent="3" para="1" offset="144" length="3">did</wf>
+    <wf id="w36" sent="3" para="1" offset="148" length="3">the</wf>
+    <wf id="w37" sent="3" para="1" offset="152" length="8">previous</wf>
+    <wf id="w38" sent="3" para="1" offset="161" length="3">day</wf>
+    <wf id="w39" sent="3" para="1" offset="164" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Why-->
+    <term id="t1" type="open" lemma="why" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--insult-->
+    <term id="t2" type="open" lemma="insult" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--zoo-->
+    <term id="t3" type="open" lemma="zoo" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--animals-->
+    <term id="t4" type="open" lemma="animal" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t5" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--comparing-->
+    <term id="t6" type="open" lemma="compare" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t7" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t8" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--nig-->
+    <term id="t9" type="open" lemma="nig" pos="V" morphofeat="VB">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--nogs-->
+    <term id="t10" type="open" lemma="nog" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t11" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Anyway-->
+    <term id="t12" type="open" lemma="anyway" pos="A" morphofeat="RB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t13" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t14" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--never-->
+    <term id="t15" type="open" lemma="never" pos="A" morphofeat="RB">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t16" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t17" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--``-->
+    <term id="t18" type="open" lemma="``" pos="O" morphofeat="``">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--liberal-->
+    <term id="t19" type="open" lemma="liberal" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--''-->
+    <term id="t20" type="open" lemma="''" pos="O" morphofeat="''">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t21" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--race-->
+    <term id="t22" type="open" lemma="race" pos="N" morphofeat="NN">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t23" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--But-->
+    <term id="t24" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--each-->
+    <term id="t25" type="open" lemma="each" pos="D" morphofeat="DT">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--day-->
+    <term id="t26" type="open" lemma="day" pos="N" morphofeat="NN">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t27" type="open" lemma="i" pos="O" morphofeat="CD">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--usually-->
+    <term id="t28" type="open" lemma="usually" pos="A" morphofeat="RB">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--hate-->
+    <term id="t29" type="open" lemma="hate" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--nig-->
+    <term id="t30" type="open" lemma="nig" pos="N" morphofeat="NN">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--nogs-->
+    <term id="t31" type="open" lemma="nog" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--more-->
+    <term id="t32" type="open" lemma="more" pos="A" morphofeat="RBR">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--than-->
+    <term id="t33" type="open" lemma="than" pos="P" morphofeat="IN">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t34" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--did-->
+    <term id="t35" type="open" lemma="do" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t36" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--previous-->
+    <term id="t37" type="open" lemma="previous" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--day-->
+    <term id="t38" type="open" lemma="day" pos="N" morphofeat="NN">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t39" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--AMOD(insult-2, Why-1)-->
+    <dep from="t2" to="t1" rfunc="AMOD" />
+    <!--NMOD(animals-4, zoo-3)-->
+    <dep from="t4" to="t3" rfunc="NMOD" />
+    <!--OBJ(insult-2, animals-4)-->
+    <dep from="t2" to="t4" rfunc="OBJ" />
+    <!--ADV(insult-2, by-5)-->
+    <dep from="t2" to="t5" rfunc="ADV" />
+    <!--PMOD(by-5, comparing-6)-->
+    <dep from="t5" to="t6" rfunc="PMOD" />
+    <!--OBJ(comparing-6, them-7)-->
+    <dep from="t6" to="t7" rfunc="OBJ" />
+    <!--OPRD(comparing-6, to-8)-->
+    <dep from="t6" to="t8" rfunc="OPRD" />
+    <!--IM(to-8, nig-9)-->
+    <dep from="t8" to="t9" rfunc="IM" />
+    <!--OBJ(nig-9, nogs-10)-->
+    <dep from="t9" to="t10" rfunc="OBJ" />
+    <!--P(insult-2, ?-11)-->
+    <dep from="t2" to="t11" rfunc="P" />
+    <!--ADV(was-16, Anyway-12)-->
+    <dep from="t16" to="t12" rfunc="ADV" />
+    <!--P(was-16, ,-13)-->
+    <dep from="t16" to="t13" rfunc="P" />
+    <!--SBJ(was-16, I-14)-->
+    <dep from="t16" to="t14" rfunc="SBJ" />
+    <!--TMP(was-16, never-15)-->
+    <dep from="t16" to="t15" rfunc="TMP" />
+    <!--NMOD(liberal-19, a-17)-->
+    <dep from="t19" to="t17" rfunc="NMOD" />
+    <!--P(liberal-19, ``-18)-->
+    <dep from="t19" to="t18" rfunc="P" />
+    <!--OPRD(was-16, liberal-19)-->
+    <dep from="t16" to="t19" rfunc="OPRD" />
+    <!--P(liberal-19, ''-20)-->
+    <dep from="t19" to="t20" rfunc="P" />
+    <!--AMOD(liberal-19, on-21)-->
+    <dep from="t19" to="t21" rfunc="AMOD" />
+    <!--PMOD(on-21, race-22)-->
+    <dep from="t21" to="t22" rfunc="PMOD" />
+    <!--P(was-16, .-23)-->
+    <dep from="t16" to="t23" rfunc="P" />
+    <!--DEP(hate-29, But-24)-->
+    <dep from="t29" to="t24" rfunc="DEP" />
+    <!--NMOD(day-26, each-25)-->
+    <dep from="t26" to="t25" rfunc="NMOD" />
+    <!--TMP(hate-29, day-26)-->
+    <dep from="t29" to="t26" rfunc="TMP" />
+    <!--NMOD(day-26, I-27)-->
+    <dep from="t26" to="t27" rfunc="NMOD" />
+    <!--TMP(hate-29, usually-28)-->
+    <dep from="t29" to="t28" rfunc="TMP" />
+    <!--NMOD(nogs-31, nig-30)-->
+    <dep from="t31" to="t30" rfunc="NMOD" />
+    <!--OBJ(hate-29, nogs-31)-->
+    <dep from="t29" to="t31" rfunc="OBJ" />
+    <!--ADV(hate-29, more-32)-->
+    <dep from="t29" to="t32" rfunc="ADV" />
+    <!--AMOD(more-32, than-33)-->
+    <dep from="t32" to="t33" rfunc="AMOD" />
+    <!--SBJ(did-35, I-34)-->
+    <dep from="t35" to="t34" rfunc="SBJ" />
+    <!--SUB(than-33, did-35)-->
+    <dep from="t33" to="t35" rfunc="SUB" />
+    <!--NMOD(day-38, the-36)-->
+    <dep from="t38" to="t36" rfunc="NMOD" />
+    <!--NMOD(day-38, previous-37)-->
+    <dep from="t38" to="t37" rfunc="NMOD" />
+    <!--TMP(did-35, day-38)-->
+    <dep from="t35" to="t38" rfunc="TMP" />
+    <!--P(hate-29, .-39)-->
+    <dep from="t29" to="t39" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="CARDINAL">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t27" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="0.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--day-->
+        <span>
+          <target id="t38" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.63720423" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--day-->
+        <span>
+          <target id="t26" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.63720423" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--zoo-->
+        <span>
+          <target id="t3" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Zoo" confidence="0.99994576" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--insult-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--animals-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--nogs-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--race-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11" unnamed="yes">
+      <references>
+        <!--nig-->
+        <span>
+          <target id="t30" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e12" unnamed="yes">
+      <references>
+        <!--nogs-->
+        <span>
+          <target id="t31" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e13" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t34" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--I-->
+      <span>
+        <target id="t14" head="yes" />
+      </span>
+      <!--a `` liberal '' on race-->
+      <span>
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" head="yes" />
+        <target id="t20" />
+        <target id="t21" />
+        <target id="t22" />
+      </span>
+    </coref>
+    <coref id="co3">
+      <!--I-->
+      <span>
+        <target id="t27" head="yes" />
+      </span>
+      <!--I-->
+      <span>
+        <target id="t34" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="2017-11-21">
+      <!--the previous day-->
+      <span>
+        <target id="w36" />
+        <target id="w37" />
+        <target id="w38" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Why_(Annie_Lennox_song)" confidence="0.4305797983455074" spotted="true">
+      <!--Why-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.6372042510302149" spotted="true">
+      <!--day-->
+      <span>
+        <target id="w38" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.6372042510302149" spotted="true">
+      <!--day-->
+      <span>
+        <target id="w26" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Zoo" confidence="0.999945765049462" spotted="true">
+      <!--zoo-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Direct_Line_Group" confidence="0.8679687199313877" spotted="true">
+      <!--nig-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Liberalism" confidence="0.7581657154873099" spotted="true">
+      <!--liberal-->
+      <span>
+        <target id="w19" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Animal" confidence="0.9994072211788629" spotted="true">
+      <!--animals-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Anyway_(Martina_McBride_song)" confidence="0.7018688956679694" spotted="true">
+      <!--Anyway-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hate_speech" confidence="0.9808993181028941" spotted="true">
+      <!--hate-->
+      <span>
+        <target id="w29" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_(human_classification)" confidence="0.9813297765651231" spotted="true">
+      <!--race-->
+      <span>
+        <target id="w22" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Comparative_linguistics" confidence="0.6217345284042212" spotted="true">
+      <!--comparing-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le12" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Direct_Line_Group" confidence="0.8679687199313877" spotted="true">
+      <!--nig-->
+      <span>
+        <target id="w30" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le13" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Conjunction_(grammar)" confidence="0.9853551669450031" spotted="true">
+      <!--But-->
+      <span>
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Why :-->
+    <predicate id="f_pr4" source="semafor" confidence="10.005771427310563">
+      <!--Why-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reason" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Why_(Annie_Lennox_song)" confidence="0.4305798" />
+      </externalReferences>
+    </predicate>
+    <!--t2 insult : A0[t1 Why] A0[t5 by] A0[t3 zoo]-->
+    <predicate id="f_pr5" source="semafor" confidence="78.1472735023265">
+      <!--insult-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cause_emotion" />
+        <externalRef resource="NomBank" reference="insult.01" source="mate" />
+        <externalRef resource="VerbNet" reference="amuse-31.1" />
+        <externalRef resource="PropBank" reference="insult.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00848420-v" />
+        <externalRef resource="FrameBase" reference="frame-Cause_emotion-insult.v" />
+      </externalReferences>
+      <role id="rl33" semRole="A0">
+        <!--Why-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="insult.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl34" semRole="A0">
+        <!--by comparing them to nig nogs-->
+        <span>
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="insult.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl35" semRole="A0">
+        <!--zoo animals-->
+        <span>
+          <target id="t3" />
+          <target id="t4" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="amuse-31.1@Stimulus" />
+          <externalRef resource="PropBank" reference="insult.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 zoo : [t3 zoo]-->
+    <predicate id="f_pr6" source="semafor" confidence="41.38445120172059">
+      <!--zoo-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Locale_by_use" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Zoo" confidence="0.99994576" />
+        <externalRef resource="FrameBase" reference="frame-Locale_by_use-zoo.n" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--zoo-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Locale_by_use@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Locale_by_use-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 comparing : A1[t7 them] [t1 Why] A2[t8 to]-->
+    <predicate id="f_pr7" source="semafor" confidence="34.648472492416815">
+      <!--comparing-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Evaluative_comparison" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Comparative_linguistics" confidence="0.6217345" />
+        <externalRef resource="PropBank" reference="compare.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Comparative_linguistics" confidence="0.6217345" />
+        <externalRef resource="FrameBase" reference="frame-Evaluative_comparison-compare.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--them-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Evaluative_comparison@Standard_item" />
+          <externalRef resource="FrameBase" reference="fe-Evaluative_comparison-Standard_item" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="">
+        <!--Why insult zoo animals by comparing them to nig nogs ?-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Evaluative_comparison@Profiled_item" />
+          <externalRef resource="FrameBase" reference="fe-Evaluative_comparison-Profiled_item" />
+        </externalReferences>
+      </role>
+      <role id="rl36" semRole="A2">
+        <!--to nig nogs-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 was : AM-NEG[t15 never] AM-DIS[t12 Anyway] A1[t14 I] A2[t17 a]-->
+    <predicate id="pr8" source="mate">
+      <!--was-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl11" semRole="AM-NEG">
+        <!--never-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </role>
+      <role id="rl12" semRole="AM-DIS">
+        <!--Anyway-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </role>
+      <role id="rl13" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </role>
+      <role id="rl14" semRole="A2">
+        <!--a `` liberal '' on race-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" head="yes" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+      </role>
+    </predicate>
+    <!--t15 never : [t14 I]-->
+    <predicate id="f_pr9" source="semafor" confidence="45.06659331856029">
+      <!--never-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-never.adv" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--I-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t19 liberal :-->
+    <predicate id="f_pr10" source="semafor" confidence="33.7825205582823">
+      <!--liberal-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Strictness" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Liberalism" confidence="0.7581657" />
+        <externalRef resource="FrameBase" reference="frame-Strictness-liberal.a" />
+      </externalReferences>
+    </predicate>
+    <!--t22 race : [t22 race] [t17 a]-->
+    <predicate id="f_pr11" source="semafor" confidence="22.553577151785746">
+      <!--race-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Type" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Race_(human_classification)" confidence="0.9813298" />
+        <externalRef resource="FrameBase" reference="frame-Type-race.n" />
+      </externalReferences>
+      <role id="rl16" semRole="">
+        <!--race-->
+        <span>
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Type@Subtype" />
+          <externalRef resource="FrameBase" reference="fe-Type-Subtype" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="">
+        <!--a `` liberal '' on race-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Type@Type_Property" />
+          <externalRef resource="FrameBase" reference="fe-Type-Type_Property" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t26 day : [t25 each]-->
+    <predicate id="f_pr14" source="semafor" confidence="33.31208947518854">
+      <!--day-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Calendric_unit" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.63720423" />
+        <externalRef resource="FrameBase" reference="frame-Calendric_unit-day.n" />
+      </externalReferences>
+      <role id="rl24" semRole="">
+        <!--each day I-->
+        <span>
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Unit" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Unit" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 hate : A1[t30 nig] AM-TMP[t25 each] AM-TMP[t28 usually] A1[t32 more] AM-DIS[t24 But]-->
+    <predicate id="f_pr15" source="semafor" confidence="61.49585662368339">
+      <!--hate-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Experiencer_focus" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hate_speech" confidence="0.98089933" />
+        <externalRef resource="PropBank" reference="hate.01" source="mate" />
+        <externalRef resource="VerbNet" reference="admire-31.2-1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01774136-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hate_speech" confidence="0.98089933" />
+        <externalRef resource="FrameBase" reference="frame-Experiencer_focus-hate.v" />
+      </externalReferences>
+      <role id="rl25" semRole="A1">
+        <!--nig nogs-->
+        <span>
+          <target id="t30" />
+          <target id="t31" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Experiencer_focus@Content" />
+          <externalRef resource="VerbNet" reference="admire-31.2@Stimulus" />
+          <externalRef resource="PropBank" reference="hate.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Experiencer_focus-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl26" semRole="AM-TMP">
+        <!--each day I-->
+        <span>
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Experiencer_focus@Experiencer" />
+          <externalRef resource="FrameBase" reference="fe-Experiencer_focus-Experiencer" />
+        </externalReferences>
+      </role>
+      <role id="rl37" semRole="AM-TMP">
+        <!--usually-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+      </role>
+      <role id="rl38" semRole="A1">
+        <!--more than I did the previous day-->
+        <span>
+          <target id="t32" head="yes" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="admire-31.2@Stimulus" />
+          <externalRef resource="PropBank" reference="hate.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl39" semRole="AM-DIS">
+        <!--But-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t32 more : [t33 than]-->
+    <predicate id="f_pr16" source="semafor" confidence="24.418720037578876">
+      <!--more-->
+      <span>
+        <target id="t32" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+      </externalReferences>
+      <role id="rl27" semRole="">
+        <!--than I did the previous day-->
+        <span>
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Class" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Class" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t35 did : [t36 the] [t34 I]-->
+    <predicate id="f_pr17" source="semafor" confidence="85.6009579474706">
+      <!--did-->
+      <span>
+        <target id="t35" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl28" semRole="">
+        <!--the previous day-->
+        <span>
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="">
+        <!--I-->
+        <span>
+          <target id="t34" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t37 previous : [t36 the]-->
+    <predicate id="f_pr18" source="semafor" confidence="22.25305666067517">
+      <!--previous-->
+      <span>
+        <target id="t37" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relative_time" />
+        <externalRef resource="FrameBase" reference="frame-Relative_time-previous.a" />
+      </externalReferences>
+      <role id="rl30" semRole="">
+        <!--the previous day-->
+        <span>
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relative_time@Focal_occasion" />
+          <externalRef resource="FrameBase" reference="fe-Relative_time-Focal_occasion" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t38 day : [t37 previous] [t36 the]-->
+    <predicate id="f_pr19" source="semafor" confidence="31.94781006512391">
+      <!--day-->
+      <span>
+        <target id="t38" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Calendric_unit" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Day" confidence="0.63720423" />
+        <externalRef resource="FrameBase" reference="frame-Calendric_unit-day.n" />
+      </externalReferences>
+      <role id="rl31" semRole="">
+        <!--previous-->
+        <span>
+          <target id="t37" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Relative_time" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Relative_time" />
+        </externalReferences>
+      </role>
+      <role id="rl32" semRole="">
+        <!--the previous day-->
+        <span>
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Unit" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Unit" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SBARQ (WHNP (WHNP (WHADVP (WRB Why) (NP (NN insult) (NN zoo))) (NNS animals)) (PP (IN by))) (S (VP (VBG comparing) (S (NP (PRP them)) (VP (TO to) (VP (VB nig) (NP (NNS nogs))))))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (S (ADVP (RB Anyway)) (, ,) (NP (PRP I)) (ADVP (RB never)) (VP (VBD was) (NP (DT a) (ADJP (ADJP (`` ``) (JJ liberal) ('' '')) (PP (IN on))) (NN race))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (CC But) (NP (NP (DT each) (NN day)) (NP (CD I))) (ADVP (RB usually)) (VP (VBP hate) (NP (NN nig) (NNS nogs)) (ADVP (ADVP (RBR more)) (SBAR (IN than) (S (NP (PRP I)) (VP (VBD did) (NP (DT the) (JJ previous) (NN day))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SBARQ" />
+      <nt id="nter3" label="WHNP" />
+      <nt id="nter4" label="WHNP" />
+      <nt id="nter5" label="WHADVP" />
+      <nt id="nter6" label="WRB" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NN" />
+      <nt id="nter9" label="NN" />
+      <nt id="nter10" label="NNS" />
+      <nt id="nter11" label="PP" />
+      <nt id="nter12" label="IN" />
+      <nt id="nter13" label="S" />
+      <nt id="nter14" label="VP" />
+      <nt id="nter15" label="VBG" />
+      <nt id="nter16" label="S" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="PRP" />
+      <nt id="nter19" label="VP" />
+      <nt id="nter20" label="TO" />
+      <nt id="nter21" label="VP" />
+      <nt id="nter22" label="VB" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="NNS" />
+      <nt id="nter25" label="." />
+      <!--Terminals-->
+      <!--Why-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--insult-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--zoo-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--animals-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--comparing-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--nig-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--nogs-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="nter6" to="nter5" head="yes" />
+      <edge id="tre7" from="ter1" to="nter6" />
+      <edge id="tre8" from="nter7" to="nter5" />
+      <edge id="tre9" from="nter8" to="nter7" />
+      <edge id="tre10" from="ter2" to="nter8" />
+      <edge id="tre11" from="nter9" to="nter7" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter4" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter3" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter2" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter14" />
+      <edge id="tre23" from="nter17" to="nter16" />
+      <edge id="tre24" from="nter18" to="nter17" head="yes" />
+      <edge id="tre25" from="ter7" to="nter18" />
+      <edge id="tre26" from="nter19" to="nter16" head="yes" />
+      <edge id="tre27" from="nter20" to="nter19" head="yes" />
+      <edge id="tre28" from="ter8" to="nter20" />
+      <edge id="tre29" from="nter21" to="nter19" />
+      <edge id="tre30" from="nter22" to="nter21" head="yes" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter21" />
+      <edge id="tre33" from="nter24" to="nter23" head="yes" />
+      <edge id="tre34" from="ter10" to="nter24" />
+      <edge id="tre35" from="nter25" to="nter2" />
+      <edge id="tre36" from="ter11" to="nter25" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter26" label="ROOT" />
+      <nt id="nter27" label="S" />
+      <nt id="nter28" label="ADVP" />
+      <nt id="nter29" label="RB" />
+      <nt id="nter30" label="," />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="PRP" />
+      <nt id="nter33" label="ADVP" />
+      <nt id="nter34" label="RB" />
+      <nt id="nter35" label="VP" />
+      <nt id="nter36" label="VBD" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="DT" />
+      <nt id="nter39" label="ADJP" />
+      <nt id="nter40" label="ADJP" />
+      <nt id="nter41" label="``" />
+      <nt id="nter42" label="JJ" />
+      <nt id="nter43" label="''" />
+      <nt id="nter44" label="PP" />
+      <nt id="nter45" label="IN" />
+      <nt id="nter46" label="NN" />
+      <nt id="nter47" label="." />
+      <!--Terminals-->
+      <!--Anyway-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--never-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--``-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--liberal-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--''-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--race-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="nter28" to="nter27" />
+      <edge id="tre40" from="nter29" to="nter28" head="yes" />
+      <edge id="tre41" from="ter12" to="nter29" />
+      <edge id="tre42" from="nter30" to="nter27" />
+      <edge id="tre43" from="ter13" to="nter30" />
+      <edge id="tre44" from="nter31" to="nter27" />
+      <edge id="tre45" from="nter32" to="nter31" head="yes" />
+      <edge id="tre46" from="ter14" to="nter32" />
+      <edge id="tre47" from="nter33" to="nter27" />
+      <edge id="tre48" from="nter34" to="nter33" head="yes" />
+      <edge id="tre49" from="ter15" to="nter34" />
+      <edge id="tre50" from="nter35" to="nter27" head="yes" />
+      <edge id="tre51" from="nter36" to="nter35" head="yes" />
+      <edge id="tre52" from="ter16" to="nter36" />
+      <edge id="tre53" from="nter37" to="nter35" />
+      <edge id="tre54" from="nter38" to="nter37" />
+      <edge id="tre55" from="ter17" to="nter38" />
+      <edge id="tre56" from="nter39" to="nter37" />
+      <edge id="tre57" from="nter40" to="nter39" head="yes" />
+      <edge id="tre58" from="nter41" to="nter40" />
+      <edge id="tre59" from="ter18" to="nter41" />
+      <edge id="tre60" from="nter42" to="nter40" head="yes" />
+      <edge id="tre61" from="ter19" to="nter42" />
+      <edge id="tre62" from="nter43" to="nter40" />
+      <edge id="tre63" from="ter20" to="nter43" />
+      <edge id="tre64" from="nter44" to="nter39" />
+      <edge id="tre65" from="nter45" to="nter44" head="yes" />
+      <edge id="tre66" from="ter21" to="nter45" />
+      <edge id="tre67" from="nter46" to="nter37" head="yes" />
+      <edge id="tre68" from="ter22" to="nter46" />
+      <edge id="tre69" from="nter47" to="nter27" />
+      <edge id="tre70" from="ter23" to="nter47" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter48" label="ROOT" />
+      <nt id="nter49" label="S" />
+      <nt id="nter50" label="CC" />
+      <nt id="nter51" label="NP" />
+      <nt id="nter52" label="NP" />
+      <nt id="nter53" label="DT" />
+      <nt id="nter54" label="NN" />
+      <nt id="nter55" label="NP" />
+      <nt id="nter56" label="CD" />
+      <nt id="nter57" label="ADVP" />
+      <nt id="nter58" label="RB" />
+      <nt id="nter59" label="VP" />
+      <nt id="nter60" label="VBP" />
+      <nt id="nter61" label="NP" />
+      <nt id="nter62" label="NN" />
+      <nt id="nter63" label="NNS" />
+      <nt id="nter64" label="ADVP" />
+      <nt id="nter65" label="ADVP" />
+      <nt id="nter66" label="RBR" />
+      <nt id="nter67" label="SBAR" />
+      <nt id="nter68" label="IN" />
+      <nt id="nter69" label="S" />
+      <nt id="nter70" label="NP" />
+      <nt id="nter71" label="PRP" />
+      <nt id="nter72" label="VP" />
+      <nt id="nter73" label="VBD" />
+      <nt id="nter74" label="NP" />
+      <nt id="nter75" label="DT" />
+      <nt id="nter76" label="JJ" />
+      <nt id="nter77" label="NN" />
+      <nt id="nter78" label="." />
+      <!--Terminals-->
+      <!--But-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--each-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--day-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--usually-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--hate-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--nig-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--nogs-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--more-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--than-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--did-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--previous-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--day-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre72" from="nter49" to="nter48" head="yes" />
+      <edge id="tre73" from="nter50" to="nter49" />
+      <edge id="tre74" from="ter24" to="nter50" />
+      <edge id="tre75" from="nter51" to="nter49" />
+      <edge id="tre76" from="nter52" to="nter51" head="yes" />
+      <edge id="tre77" from="nter53" to="nter52" />
+      <edge id="tre78" from="ter25" to="nter53" />
+      <edge id="tre79" from="nter54" to="nter52" head="yes" />
+      <edge id="tre80" from="ter26" to="nter54" />
+      <edge id="tre81" from="nter55" to="nter51" />
+      <edge id="tre82" from="nter56" to="nter55" head="yes" />
+      <edge id="tre83" from="ter27" to="nter56" />
+      <edge id="tre84" from="nter57" to="nter49" />
+      <edge id="tre85" from="nter58" to="nter57" head="yes" />
+      <edge id="tre86" from="ter28" to="nter58" />
+      <edge id="tre87" from="nter59" to="nter49" head="yes" />
+      <edge id="tre88" from="nter60" to="nter59" head="yes" />
+      <edge id="tre89" from="ter29" to="nter60" />
+      <edge id="tre90" from="nter61" to="nter59" />
+      <edge id="tre91" from="nter62" to="nter61" />
+      <edge id="tre92" from="ter30" to="nter62" />
+      <edge id="tre93" from="nter63" to="nter61" head="yes" />
+      <edge id="tre94" from="ter31" to="nter63" />
+      <edge id="tre95" from="nter64" to="nter59" />
+      <edge id="tre96" from="nter65" to="nter64" head="yes" />
+      <edge id="tre97" from="nter66" to="nter65" head="yes" />
+      <edge id="tre98" from="ter32" to="nter66" />
+      <edge id="tre99" from="nter67" to="nter64" />
+      <edge id="tre100" from="nter68" to="nter67" head="yes" />
+      <edge id="tre101" from="ter33" to="nter68" />
+      <edge id="tre102" from="nter69" to="nter67" />
+      <edge id="tre103" from="nter70" to="nter69" />
+      <edge id="tre104" from="nter71" to="nter70" head="yes" />
+      <edge id="tre105" from="ter34" to="nter71" />
+      <edge id="tre106" from="nter72" to="nter69" head="yes" />
+      <edge id="tre107" from="nter73" to="nter72" head="yes" />
+      <edge id="tre108" from="ter35" to="nter73" />
+      <edge id="tre109" from="nter74" to="nter72" />
+      <edge id="tre110" from="nter75" to="nter74" />
+      <edge id="tre111" from="ter36" to="nter75" />
+      <edge id="tre112" from="nter76" to="nter74" />
+      <edge id="tre113" from="ter37" to="nter76" />
+      <edge id="tre114" from="nter77" to="nter74" head="yes" />
+      <edge id="tre115" from="ter38" to="nter77" />
+      <edge id="tre116" from="nter78" to="nter49" />
+      <edge id="tre117" from="ter39" to="nter78" />
+    </tree>
+  </constituency>
+</NAF>

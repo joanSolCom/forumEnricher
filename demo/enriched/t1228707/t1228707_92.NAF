@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:15+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:15.870+0100" endTimestamp="2017-11-21T16:36:16.395+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:16.397+0100" endTimestamp="2017-11-21T16:36:16.398+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Once I'm not encumbered by my phone keyboard, we will examine just how clearly and in what context you did.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Once</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="1">I</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="2">'m</wf>
+    <wf id="w4" sent="1" para="1" offset="9" length="3">not</wf>
+    <wf id="w5" sent="1" para="1" offset="13" length="10">encumbered</wf>
+    <wf id="w6" sent="1" para="1" offset="24" length="2">by</wf>
+    <wf id="w7" sent="1" para="1" offset="27" length="2">my</wf>
+    <wf id="w8" sent="1" para="1" offset="30" length="5">phone</wf>
+    <wf id="w9" sent="1" para="1" offset="36" length="8">keyboard</wf>
+    <wf id="w10" sent="1" para="1" offset="44" length="1">,</wf>
+    <wf id="w11" sent="1" para="1" offset="46" length="2">we</wf>
+    <wf id="w12" sent="1" para="1" offset="49" length="4">will</wf>
+    <wf id="w13" sent="1" para="1" offset="54" length="7">examine</wf>
+    <wf id="w14" sent="1" para="1" offset="62" length="4">just</wf>
+    <wf id="w15" sent="1" para="1" offset="67" length="3">how</wf>
+    <wf id="w16" sent="1" para="1" offset="71" length="7">clearly</wf>
+    <wf id="w17" sent="1" para="1" offset="79" length="3">and</wf>
+    <wf id="w18" sent="1" para="1" offset="83" length="2">in</wf>
+    <wf id="w19" sent="1" para="1" offset="86" length="4">what</wf>
+    <wf id="w20" sent="1" para="1" offset="91" length="7">context</wf>
+    <wf id="w21" sent="1" para="1" offset="99" length="3">you</wf>
+    <wf id="w22" sent="1" para="1" offset="103" length="3">did</wf>
+    <wf id="w23" sent="1" para="1" offset="106" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Once-->
+    <term id="t1" type="open" lemma="once" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t2" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--'m-->
+    <term id="t3" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t4" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--encumbered-->
+    <term id="t5" type="open" lemma="encumber" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t6" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t7" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--phone-->
+    <term id="t8" type="open" lemma="phone" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--keyboard-->
+    <term id="t9" type="open" lemma="keyboard" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t10" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t11" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--will-->
+    <term id="t12" type="open" lemma="will" pos="O" morphofeat="MD">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--examine-->
+    <term id="t13" type="open" lemma="examine" pos="V" morphofeat="VB">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t14" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--how-->
+    <term id="t15" type="open" lemma="how" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--clearly-->
+    <term id="t16" type="open" lemma="clearly" pos="A" morphofeat="RB">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t17" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t18" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--what-->
+    <term id="t19" type="open" lemma="what" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--context-->
+    <term id="t20" type="open" lemma="context" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t21" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--did-->
+    <term id="t22" type="open" lemma="do" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t23" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--TMP(will-12, Once-1)-->
+    <dep from="t12" to="t1" rfunc="TMP" />
+    <!--SBJ('m-3, I-2)-->
+    <dep from="t3" to="t2" rfunc="SBJ" />
+    <!--SUB(Once-1, 'm-3)-->
+    <dep from="t1" to="t3" rfunc="SUB" />
+    <!--ADV('m-3, not-4)-->
+    <dep from="t3" to="t4" rfunc="ADV" />
+    <!--VC('m-3, encumbered-5)-->
+    <dep from="t3" to="t5" rfunc="VC" />
+    <!--LGS(encumbered-5, by-6)-->
+    <dep from="t5" to="t6" rfunc="LGS" />
+    <!--NMOD(keyboard-9, my-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--NMOD(keyboard-9, phone-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--PMOD(by-6, keyboard-9)-->
+    <dep from="t6" to="t9" rfunc="PMOD" />
+    <!--P(will-12, ,-10)-->
+    <dep from="t12" to="t10" rfunc="P" />
+    <!--SBJ(will-12, we-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--VC(will-12, examine-13)-->
+    <dep from="t12" to="t13" rfunc="VC" />
+    <!--AMOD(how-15, just-14)-->
+    <dep from="t15" to="t14" rfunc="AMOD" />
+    <!--ADV(did-22, how-15)-->
+    <dep from="t22" to="t15" rfunc="ADV" />
+    <!--AMOD(how-15, clearly-16)-->
+    <dep from="t15" to="t16" rfunc="AMOD" />
+    <!--COORD(how-15, and-17)-->
+    <dep from="t15" to="t17" rfunc="COORD" />
+    <!--CONJ(and-17, in-18)-->
+    <dep from="t17" to="t18" rfunc="CONJ" />
+    <!--NMOD(context-20, what-19)-->
+    <dep from="t20" to="t19" rfunc="NMOD" />
+    <!--PMOD(in-18, context-20)-->
+    <dep from="t18" to="t20" rfunc="PMOD" />
+    <!--SBJ(did-22, you-21)-->
+    <dep from="t22" to="t21" rfunc="SBJ" />
+    <!--OBJ(examine-13, did-22)-->
+    <dep from="t13" to="t22" rfunc="OBJ" />
+    <!--P(will-12, .-23)-->
+    <dep from="t12" to="t23" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--phone-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--keyboard-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--what-->
+        <span>
+          <target id="t19" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--context-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t2" head="yes" />
+      </span>
+      <!--my-->
+      <span>
+        <target id="t7" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="PAST_REF">
+      <!--Once-->
+      <span>
+        <target id="w1" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Once_(Nightwish_album)" confidence="0.7228250860048375" spotted="true">
+      <!--Once-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Computer_keyboard" confidence="0.8971449556679991" spotted="true">
+      <!--keyboard-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Archaeological_context" confidence="0.6228628258529958" spotted="true">
+      <!--context-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t9 keyboard : A1[t8 phone] A1[t7 my]-->
+    <predicate id="pr2" source="mate">
+      <!--keyboard-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="keyboard.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Computer_keyboard" confidence="0.897145" />
+      </externalReferences>
+      <role id="rl4" semRole="A1">
+        <!--phone-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl5" semRole="A1">
+        <!--my-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 Once : [t2 I] [t1 Once]-->
+    <predicate id="f_pr4" source="semafor" confidence="14.61241917888663">
+      <!--Once-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Time_vector" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Once_(Nightwish_album)" confidence="0.7228251" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--I-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Event" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="">
+        <!--Once I 'm not encumbered by my phone keyboard-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Time_vector@Direction" />
+          <externalRef resource="FrameBase" reference="fe-Time_vector-Direction" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 encumbered : A1[t2 I] A0[t6 by] AM-NEG[t4 not]-->
+    <predicate id="f_pr5" source="semafor" confidence="63.241942088576415">
+      <!--encumbered-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Hindering" />
+        <externalRef resource="PropBank" reference="encumber.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Hindering-hamper.v" />
+      </externalReferences>
+      <role id="rl12" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Hindering@Hindrance" />
+          <externalRef resource="FrameBase" reference="fe-Hindering-Hindrance" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="A0">
+        <!--by my phone keyboard-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Hindering@Action" />
+          <externalRef resource="FrameBase" reference="fe-Hindering-Action" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="AM-NEG">
+        <!--not-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 phone :-->
+    <predicate id="f_pr6" source="semafor" confidence="59.36765644612833">
+      <!--phone-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Contacting" />
+      </externalReferences>
+    </predicate>
+    <!--t13 examine : A0[t11 we] AM-TMP[t1 Once] A1[t14 just] AM-MOD[t1 Once]-->
+    <predicate id="f_pr7" source="semafor" confidence="55.7936918689302">
+      <!--examine-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Inspecting" />
+        <externalRef resource="PropBank" reference="examine.01" source="mate" />
+        <externalRef resource="VerbNet" reference="sight-30.2" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00644583-v" />
+        <externalRef resource="WordNet" reference="ili-30-00788564-v" />
+        <externalRef resource="WordNet" reference="ili-30-02131279-v" />
+        <externalRef resource="FrameBase" reference="frame-Inspecting-examine.v" />
+      </externalReferences>
+      <role id="rl14" semRole="A0">
+        <!--we-->
+        <span>
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Inspecting@Inspector" />
+          <externalRef resource="VerbNet" reference="sight-30.2@Experiencer" />
+          <externalRef resource="PropBank" reference="examine.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Inspecting-Inspector" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="AM-TMP">
+        <!--Once I 'm not encumbered by my phone keyboard-->
+        <span>
+          <target id="t1" head="yes" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </role>
+      <role id="rl19" semRole="A1">
+        <!--just how clearly and in what context you did-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="sight-30.2@Stimulus" />
+          <externalRef resource="PropBank" reference="examine.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="AM-MOD">
+        <!--Once I 'm not encumbered by my phone keyboard , we will examine just how clearly and in what context you did .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 clearly : [t14 just]-->
+    <predicate id="f_pr8" source="semafor" confidence="42.60363478807466">
+      <!--clearly-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Obviousness" />
+        <externalRef resource="FrameBase" reference="frame-Obviousness-clearly.adv" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--just how clearly and in what context-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Obviousness@Phenomenon" />
+          <externalRef resource="FrameBase" reference="fe-Obviousness-Phenomenon" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t22 did : [t21 you]-->
+    <predicate id="f_pr9" source="semafor" confidence="76.08167024390035">
+      <!--did-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl16" semRole="">
+        <!--you-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Agent" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 context :-->
+    <predicate id="pr10">
+      <!--context-->
+      <span>
+        <target id="t20" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="context.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (SBAR (RB Once) (S (NP (PRP I)) (VP (VBP 'm) (RB not) (VP (VBN encumbered) (PP (IN by) (NP (PRP$ my) (NN phone) (NN keyboard))))))) (, ,) (NP (PRP we)) (VP (MD will) (VP (VB examine) (SBAR (RB just) (WHADVP (WRB how)) (S (UCP (ADVP (RB clearly)) (CC and) (PP (IN in) (NP (NP (WP what) (NN context)) (SBAR (S (NP (PRP you)) (VP (VBD did))))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="SBAR" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="S" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="PRP" />
+      <nt id="nter8" label="VP" />
+      <nt id="nter9" label="VBP" />
+      <nt id="nter10" label="RB" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VBN" />
+      <nt id="nter13" label="PP" />
+      <nt id="nter14" label="IN" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="PRP$" />
+      <nt id="nter17" label="NN" />
+      <nt id="nter18" label="NN" />
+      <nt id="nter19" label="," />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="PRP" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="MD" />
+      <nt id="nter24" label="VP" />
+      <nt id="nter25" label="VB" />
+      <nt id="nter26" label="SBAR" />
+      <nt id="nter27" label="RB" />
+      <nt id="nter28" label="WHADVP" />
+      <nt id="nter29" label="WRB" />
+      <nt id="nter30" label="S" />
+      <nt id="nter31" label="UCP" />
+      <nt id="nter32" label="ADVP" />
+      <nt id="nter33" label="RB" />
+      <nt id="nter34" label="CC" />
+      <nt id="nter35" label="PP" />
+      <nt id="nter36" label="IN" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="WP" />
+      <nt id="nter40" label="NN" />
+      <nt id="nter41" label="SBAR" />
+      <nt id="nter42" label="S" />
+      <nt id="nter43" label="NP" />
+      <nt id="nter44" label="PRP" />
+      <nt id="nter45" label="VP" />
+      <nt id="nter46" label="VBD" />
+      <nt id="nter47" label="." />
+      <!--Terminals-->
+      <!--Once-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--'m-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--encumbered-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--phone-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--keyboard-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--will-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--examine-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--how-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--clearly-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--what-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--context-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--did-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter5" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" head="yes" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter8" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter11" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter15" head="yes" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter2" />
+      <edge id="tre29" from="ter10" to="nter19" />
+      <edge id="tre30" from="nter20" to="nter2" />
+      <edge id="tre31" from="nter21" to="nter20" head="yes" />
+      <edge id="tre32" from="ter11" to="nter21" />
+      <edge id="tre33" from="nter22" to="nter2" head="yes" />
+      <edge id="tre34" from="nter23" to="nter22" head="yes" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter22" />
+      <edge id="tre37" from="nter25" to="nter24" head="yes" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter24" />
+      <edge id="tre40" from="nter27" to="nter26" />
+      <edge id="tre41" from="ter14" to="nter27" />
+      <edge id="tre42" from="nter28" to="nter26" head="yes" />
+      <edge id="tre43" from="nter29" to="nter28" head="yes" />
+      <edge id="tre44" from="ter15" to="nter29" />
+      <edge id="tre45" from="nter30" to="nter26" />
+      <edge id="tre46" from="nter31" to="nter30" head="yes" />
+      <edge id="tre47" from="nter32" to="nter31" />
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter31" />
+      <edge id="tre51" from="ter17" to="nter34" />
+      <edge id="tre52" from="nter35" to="nter31" head="yes" />
+      <edge id="tre53" from="nter36" to="nter35" head="yes" />
+      <edge id="tre54" from="ter18" to="nter36" />
+      <edge id="tre55" from="nter37" to="nter35" />
+      <edge id="tre56" from="nter38" to="nter37" head="yes" />
+      <edge id="tre57" from="nter39" to="nter38" />
+      <edge id="tre58" from="ter19" to="nter39" />
+      <edge id="tre59" from="nter40" to="nter38" head="yes" />
+      <edge id="tre60" from="ter20" to="nter40" />
+      <edge id="tre61" from="nter41" to="nter37" />
+      <edge id="tre62" from="nter42" to="nter41" head="yes" />
+      <edge id="tre63" from="nter43" to="nter42" />
+      <edge id="tre64" from="nter44" to="nter43" head="yes" />
+      <edge id="tre65" from="ter21" to="nter44" />
+      <edge id="tre66" from="nter45" to="nter42" head="yes" />
+      <edge id="tre67" from="nter46" to="nter45" head="yes" />
+      <edge id="tre68" from="ter22" to="nter46" />
+      <edge id="tre69" from="nter47" to="nter2" />
+      <edge id="tre70" from="ter23" to="nter47" />
+    </tree>
+  </constituency>
+</NAF>

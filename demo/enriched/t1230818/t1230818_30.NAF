@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:03+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:03.606+0100" endTimestamp="2017-11-21T16:40:04.005+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:04.007+0100" endTimestamp="2017-11-21T16:40:04.008+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Nonsense! Perhaps not by heart, but many people have this information. I know who all 16 of my great-grandparents were.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="8">Nonsense</wf>
+    <wf id="w2" sent="1" para="1" offset="8" length="1">!</wf>
+    <wf id="w3" sent="2" para="1" offset="10" length="7">Perhaps</wf>
+    <wf id="w4" sent="2" para="1" offset="18" length="3">not</wf>
+    <wf id="w5" sent="2" para="1" offset="22" length="2">by</wf>
+    <wf id="w6" sent="2" para="1" offset="25" length="5">heart</wf>
+    <wf id="w7" sent="2" para="1" offset="30" length="1">,</wf>
+    <wf id="w8" sent="2" para="1" offset="32" length="3">but</wf>
+    <wf id="w9" sent="2" para="1" offset="36" length="4">many</wf>
+    <wf id="w10" sent="2" para="1" offset="41" length="6">people</wf>
+    <wf id="w11" sent="2" para="1" offset="48" length="4">have</wf>
+    <wf id="w12" sent="2" para="1" offset="53" length="4">this</wf>
+    <wf id="w13" sent="2" para="1" offset="58" length="11">information</wf>
+    <wf id="w14" sent="2" para="1" offset="69" length="1">.</wf>
+    <wf id="w15" sent="3" para="1" offset="71" length="1">I</wf>
+    <wf id="w16" sent="3" para="1" offset="73" length="4">know</wf>
+    <wf id="w17" sent="3" para="1" offset="78" length="3">who</wf>
+    <wf id="w18" sent="3" para="1" offset="82" length="3">all</wf>
+    <wf id="w19" sent="3" para="1" offset="86" length="2">16</wf>
+    <wf id="w20" sent="3" para="1" offset="89" length="2">of</wf>
+    <wf id="w21" sent="3" para="1" offset="92" length="2">my</wf>
+    <wf id="w22" sent="3" para="1" offset="95" length="18">great-grandparents</wf>
+    <wf id="w23" sent="3" para="1" offset="114" length="4">were</wf>
+    <wf id="w24" sent="3" para="1" offset="118" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nonsense-->
+    <term id="t1" type="open" lemma="nonsense" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--!-->
+    <term id="t2" type="open" lemma="!" pos="O" morphofeat=".">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Perhaps-->
+    <term id="t3" type="open" lemma="perhaps" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t4" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t5" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--heart-->
+    <term id="t6" type="open" lemma="heart" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t7" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--but-->
+    <term id="t8" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--many-->
+    <term id="t9" type="open" lemma="many" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--people-->
+    <term id="t10" type="open" lemma="people" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--have-->
+    <term id="t11" type="open" lemma="have" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t12" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--information-->
+    <term id="t13" type="open" lemma="information" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t14" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t15" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--know-->
+    <term id="t16" type="open" lemma="know" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--who-->
+    <term id="t17" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t18" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--16-->
+    <term id="t19" type="open" lemma="16" pos="O" morphofeat="CD">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t20" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t21" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--great-grandparents-->
+    <term id="t22" type="open" lemma="great-grandparent" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--were-->
+    <term id="t23" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t24" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Nonsense-1, !-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--AMOD(Perhaps-3, not-4)-->
+    <dep from="t3" to="t4" rfunc="AMOD" />
+    <!--AMOD(Perhaps-3, by-5)-->
+    <dep from="t3" to="t5" rfunc="AMOD" />
+    <!--PMOD(by-5, heart-6)-->
+    <dep from="t5" to="t6" rfunc="PMOD" />
+    <!--P(Perhaps-3, ,-7)-->
+    <dep from="t3" to="t7" rfunc="P" />
+    <!--COORD(Perhaps-3, but-8)-->
+    <dep from="t3" to="t8" rfunc="COORD" />
+    <!--NMOD(people-10, many-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--SBJ(have-11, people-10)-->
+    <dep from="t11" to="t10" rfunc="SBJ" />
+    <!--CONJ(but-8, have-11)-->
+    <dep from="t8" to="t11" rfunc="CONJ" />
+    <!--NMOD(information-13, this-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--OBJ(have-11, information-13)-->
+    <dep from="t11" to="t13" rfunc="OBJ" />
+    <!--P(Perhaps-3, .-14)-->
+    <dep from="t3" to="t14" rfunc="P" />
+    <!--SBJ(know-16, I-15)-->
+    <dep from="t16" to="t15" rfunc="SBJ" />
+    <!--PRD(were-23, who-17)-->
+    <dep from="t23" to="t17" rfunc="PRD" />
+    <!--NMOD(16-19, all-18)-->
+    <dep from="t19" to="t18" rfunc="NMOD" />
+    <!--SBJ(were-23, 16-19)-->
+    <dep from="t23" to="t19" rfunc="SBJ" />
+    <!--NMOD(16-19, of-20)-->
+    <dep from="t19" to="t20" rfunc="NMOD" />
+    <!--NMOD(great-grandparents-22, my-21)-->
+    <dep from="t22" to="t21" rfunc="NMOD" />
+    <!--PMOD(of-20, great-grandparents-22)-->
+    <dep from="t20" to="t22" rfunc="PMOD" />
+    <!--OBJ(know-16, were-23)-->
+    <dep from="t16" to="t23" rfunc="OBJ" />
+    <!--P(know-16, .-24)-->
+    <dep from="t16" to="t24" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="CARDINAL">
+      <references>
+        <!--16-->
+        <span>
+          <target id="t19" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="16.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Nonsense-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nonsense" confidence="0.89805317" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--heart-->
+        <span>
+          <target id="t6" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.9876619" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--people-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--information-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--who-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--great-grandparents-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t15" head="yes" />
+      </span>
+      <!--my-->
+      <span>
+        <target id="t21" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nonsense" confidence="0.8980531562834224" spotted="true">
+      <!--Nonsense-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.9876619225520997" spotted="true">
+      <!--heart-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Quizás,_Quizás,_Quizás" confidence="0.9215022536723187" spotted="true">
+      <!--Perhaps-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Grandparent" confidence="0.9986998643654356" spotted="true">
+      <!--great-grandparents-->
+      <span>
+        <target id="w22" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t6 heart :-->
+    <predicate id="f_pr3" source="semafor" confidence="15.030217766761123">
+      <!--heart-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Part_orientational" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.9876619" />
+        <externalRef resource="NomBank" reference="heart.02" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heart" confidence="0.9876619" />
+        <externalRef resource="FrameBase" reference="frame-Part_orientational-heart.n" />
+      </externalReferences>
+    </predicate>
+    <!--t9 many : [t9 many] [t9 many]-->
+    <predicate id="f_pr4" source="semafor" confidence="33.43572711249054">
+      <!--many-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+        <externalRef resource="FrameBase" reference="frame-Quantity-many.a" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--many-->
+        <span>
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="">
+        <!--many people-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 people : [t9 many]-->
+    <predicate id="f_pr5" source="semafor" confidence="33.06488597410778">
+      <!--people-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="FrameBase" reference="frame-People-people.n" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--many people-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 have : A1[t12 this] A0[t9 many]-->
+    <predicate id="f_pr6" source="semafor" confidence="41.64556008638557">
+      <!--have-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Possession" />
+        <externalRef resource="PropBank" reference="have.03" source="mate" />
+        <externalRef resource="VerbNet" reference="own-100" />
+        <externalRef resource="ESO" reference="HavingInPossession" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02204692-v" />
+        <externalRef resource="FrameBase" reference="frame-Possession-own.v" />
+      </externalReferences>
+      <role id="rl7" semRole="A1">
+        <!--this information-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Possession" />
+          <externalRef resource="VerbNet" reference="own-100@Theme" />
+          <externalRef resource="PropBank" reference="have.03@1" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Possession" />
+        </externalReferences>
+      </role>
+      <role id="rl8" semRole="A0">
+        <!--many people-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Possession@Owner" />
+          <externalRef resource="VerbNet" reference="own-100@Pivot" />
+          <externalRef resource="PropBank" reference="have.03@0" />
+          <externalRef resource="ESO" reference="HavingInPossession@possession-owner" />
+          <externalRef resource="FrameBase" reference="fe-Possession-Owner" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 information : [t12 this]-->
+    <predicate id="f_pr7" source="semafor" confidence="29.154549792771398">
+      <!--information-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Information" />
+        <externalRef resource="FrameBase" reference="frame-Information-data.n" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--this information-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Information@Information" />
+          <externalRef resource="FrameBase" reference="fe-Information-Information" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 were : R-A2[t17 who] A1[t18 all]-->
+    <predicate id="pr10" source="mate">
+      <!--were-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl13" semRole="R-A2">
+        <!--who-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </role>
+      <role id="rl14" semRole="A1">
+        <!--all 16 of my great-grandparents-->
+        <span>
+          <target id="t18" />
+          <target id="t19" head="yes" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 know : A1[t17 who] A0[t15 I]-->
+    <predicate id="f_pr11" source="semafor" confidence="76.78653133429657">
+      <!--know-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="know.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl15" semRole="A1">
+        <!--who all 16 of my great-grandparents were-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="know.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 all : [t18 all]-->
+    <predicate id="f_pr12" source="semafor" confidence="20.369621983342263">
+      <!--all-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl17" semRole="">
+        <!--all-->
+        <span>
+          <target id="t18" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (INTJ (NN Nonsense) (. !)))</tree>
+    <tree sentence="2">(ROOT (S (ADVP (RB Perhaps)) (PP (RB not) (PP (IN by) (NP (NN heart)))) (, ,) (S (CC but) (NP (JJ many) (NNS people)) (VP (VBP have) (NP (DT this) (NN information)))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (NP (PRP I)) (VP (VBP know) (SBAR (WHNP (WP who)) (S (NP (NP (QP (DT all) (CD 16))) (PP (IN of) (NP (PRP$ my) (NNS great-grandparents)))) (VP (VBD were))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="INTJ" />
+      <nt id="nter3" label="NN" />
+      <nt id="nter4" label="." />
+      <!--Terminals-->
+      <!--Nonsense-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--!-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="ter2" to="nter4" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter5" label="ROOT" />
+      <nt id="nter6" label="S" />
+      <nt id="nter7" label="ADVP" />
+      <nt id="nter8" label="RB" />
+      <nt id="nter9" label="PP" />
+      <nt id="nter10" label="RB" />
+      <nt id="nter11" label="PP" />
+      <nt id="nter12" label="IN" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="NN" />
+      <nt id="nter15" label="," />
+      <nt id="nter16" label="S" />
+      <nt id="nter17" label="CC" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="JJ" />
+      <nt id="nter20" label="NNS" />
+      <nt id="nter21" label="VP" />
+      <nt id="nter22" label="VBP" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="DT" />
+      <nt id="nter25" label="NN" />
+      <nt id="nter26" label="." />
+      <!--Terminals-->
+      <!--Perhaps-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--heart-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--but-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--many-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--people-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--have-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--information-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre8" from="nter6" to="nter5" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter6" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" head="yes" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter11" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter6" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter6" head="yes" />
+      <edge id="tre24" from="nter17" to="nter16" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter16" />
+      <edge id="tre27" from="nter19" to="nter18" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter18" head="yes" />
+      <edge id="tre30" from="ter10" to="nter20" />
+      <edge id="tre31" from="nter21" to="nter16" head="yes" />
+      <edge id="tre32" from="nter22" to="nter21" head="yes" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter21" />
+      <edge id="tre35" from="nter24" to="nter23" />
+      <edge id="tre36" from="ter12" to="nter24" />
+      <edge id="tre37" from="nter25" to="nter23" head="yes" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter6" />
+      <edge id="tre40" from="ter14" to="nter26" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter27" label="ROOT" />
+      <nt id="nter28" label="S" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="PRP" />
+      <nt id="nter31" label="VP" />
+      <nt id="nter32" label="VBP" />
+      <nt id="nter33" label="SBAR" />
+      <nt id="nter34" label="WHNP" />
+      <nt id="nter35" label="WP" />
+      <nt id="nter36" label="S" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="QP" />
+      <nt id="nter40" label="DT" />
+      <nt id="nter41" label="CD" />
+      <nt id="nter42" label="PP" />
+      <nt id="nter43" label="IN" />
+      <nt id="nter44" label="NP" />
+      <nt id="nter45" label="PRP$" />
+      <nt id="nter46" label="NNS" />
+      <nt id="nter47" label="VP" />
+      <nt id="nter48" label="VBD" />
+      <nt id="nter49" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--know-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--who-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--16-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--great-grandparents-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--were-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre42" from="nter28" to="nter27" head="yes" />
+      <edge id="tre43" from="nter29" to="nter28" />
+      <edge id="tre44" from="nter30" to="nter29" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter28" head="yes" />
+      <edge id="tre47" from="nter32" to="nter31" head="yes" />
+      <edge id="tre48" from="ter16" to="nter32" />
+      <edge id="tre49" from="nter33" to="nter31" />
+      <edge id="tre50" from="nter34" to="nter33" head="yes" />
+      <edge id="tre51" from="nter35" to="nter34" head="yes" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter33" />
+      <edge id="tre54" from="nter37" to="nter36" />
+      <edge id="tre55" from="nter38" to="nter37" head="yes" />
+      <edge id="tre56" from="nter39" to="nter38" head="yes" />
+      <edge id="tre57" from="nter40" to="nter39" head="yes" />
+      <edge id="tre58" from="ter18" to="nter40" />
+      <edge id="tre59" from="nter41" to="nter39" />
+      <edge id="tre60" from="ter19" to="nter41" />
+      <edge id="tre61" from="nter42" to="nter37" />
+      <edge id="tre62" from="nter43" to="nter42" head="yes" />
+      <edge id="tre63" from="ter20" to="nter43" />
+      <edge id="tre64" from="nter44" to="nter42" />
+      <edge id="tre65" from="nter45" to="nter44" />
+      <edge id="tre66" from="ter21" to="nter45" />
+      <edge id="tre67" from="nter46" to="nter44" head="yes" />
+      <edge id="tre68" from="ter22" to="nter46" />
+      <edge id="tre69" from="nter47" to="nter36" head="yes" />
+      <edge id="tre70" from="nter48" to="nter47" head="yes" />
+      <edge id="tre71" from="ter23" to="nter48" />
+      <edge id="tre72" from="nter49" to="nter28" />
+      <edge id="tre73" from="ter24" to="nter49" />
+    </tree>
+  </constituency>
+</NAF>

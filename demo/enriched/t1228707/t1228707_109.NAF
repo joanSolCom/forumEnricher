@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:37:00+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:37:00.351+0100" endTimestamp="2017-11-21T16:37:01.080+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:37:01.084+0100" endTimestamp="2017-11-21T16:37:01.086+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[They also hijacked National Socialism to serve their purposes in the postwar era. Nazism as it is portrayed by Hollywood is earning them shekels and giving them political power to silence their enemies by labeling them antisemites. I'm an antisemite -- and proud of it.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">They</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="4">also</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="8">hijacked</wf>
+    <wf id="w4" sent="1" para="1" offset="19" length="8">National</wf>
+    <wf id="w5" sent="1" para="1" offset="28" length="9">Socialism</wf>
+    <wf id="w6" sent="1" para="1" offset="38" length="2">to</wf>
+    <wf id="w7" sent="1" para="1" offset="41" length="5">serve</wf>
+    <wf id="w8" sent="1" para="1" offset="47" length="5">their</wf>
+    <wf id="w9" sent="1" para="1" offset="53" length="8">purposes</wf>
+    <wf id="w10" sent="1" para="1" offset="62" length="2">in</wf>
+    <wf id="w11" sent="1" para="1" offset="65" length="3">the</wf>
+    <wf id="w12" sent="1" para="1" offset="69" length="7">postwar</wf>
+    <wf id="w13" sent="1" para="1" offset="77" length="3">era</wf>
+    <wf id="w14" sent="1" para="1" offset="80" length="1">.</wf>
+    <wf id="w15" sent="2" para="1" offset="82" length="6">Nazism</wf>
+    <wf id="w16" sent="2" para="1" offset="89" length="2">as</wf>
+    <wf id="w17" sent="2" para="1" offset="92" length="2">it</wf>
+    <wf id="w18" sent="2" para="1" offset="95" length="2">is</wf>
+    <wf id="w19" sent="2" para="1" offset="98" length="9">portrayed</wf>
+    <wf id="w20" sent="2" para="1" offset="108" length="2">by</wf>
+    <wf id="w21" sent="2" para="1" offset="111" length="9">Hollywood</wf>
+    <wf id="w22" sent="2" para="1" offset="121" length="2">is</wf>
+    <wf id="w23" sent="2" para="1" offset="124" length="7">earning</wf>
+    <wf id="w24" sent="2" para="1" offset="132" length="4">them</wf>
+    <wf id="w25" sent="2" para="1" offset="137" length="7">shekels</wf>
+    <wf id="w26" sent="2" para="1" offset="145" length="3">and</wf>
+    <wf id="w27" sent="2" para="1" offset="149" length="6">giving</wf>
+    <wf id="w28" sent="2" para="1" offset="156" length="4">them</wf>
+    <wf id="w29" sent="2" para="1" offset="161" length="9">political</wf>
+    <wf id="w30" sent="2" para="1" offset="171" length="5">power</wf>
+    <wf id="w31" sent="2" para="1" offset="177" length="2">to</wf>
+    <wf id="w32" sent="2" para="1" offset="180" length="7">silence</wf>
+    <wf id="w33" sent="2" para="1" offset="188" length="5">their</wf>
+    <wf id="w34" sent="2" para="1" offset="194" length="7">enemies</wf>
+    <wf id="w35" sent="2" para="1" offset="202" length="2">by</wf>
+    <wf id="w36" sent="2" para="1" offset="205" length="8">labeling</wf>
+    <wf id="w37" sent="2" para="1" offset="214" length="4">them</wf>
+    <wf id="w38" sent="2" para="1" offset="219" length="11">antisemites</wf>
+    <wf id="w39" sent="2" para="1" offset="230" length="1">.</wf>
+    <wf id="w40" sent="3" para="1" offset="232" length="1">I</wf>
+    <wf id="w41" sent="3" para="1" offset="233" length="2">'m</wf>
+    <wf id="w42" sent="3" para="1" offset="236" length="2">an</wf>
+    <wf id="w43" sent="3" para="1" offset="239" length="10">antisemite</wf>
+    <wf id="w44" sent="3" para="1" offset="250" length="2">--</wf>
+    <wf id="w45" sent="3" para="1" offset="253" length="3">and</wf>
+    <wf id="w46" sent="3" para="1" offset="257" length="5">proud</wf>
+    <wf id="w47" sent="3" para="1" offset="263" length="2">of</wf>
+    <wf id="w48" sent="3" para="1" offset="266" length="2">it</wf>
+    <wf id="w49" sent="3" para="1" offset="268" length="1">.</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term id="t1" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--also-->
+    <term id="t2" type="open" lemma="also" pos="A" morphofeat="RB">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--hijacked-->
+    <term id="t3" type="open" lemma="hijack" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--National-->
+    <term id="t4" type="open" lemma="National" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Socialism-->
+    <term id="t5" type="open" lemma="Socialism" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t6" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--serve-->
+    <term id="t7" type="open" lemma="serve" pos="V" morphofeat="VB">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t8" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--purposes-->
+    <term id="t9" type="open" lemma="purpose" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t10" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t11" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--postwar-->
+    <term id="t12" type="open" lemma="postwar" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--era-->
+    <term id="t13" type="open" lemma="era" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t14" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--Nazism-->
+    <term id="t15" type="open" lemma="Nazism" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t16" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t17" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t18" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--portrayed-->
+    <term id="t19" type="open" lemma="portray" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t20" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Hollywood-->
+    <term id="t21" type="open" lemma="Hollywood" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t22" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--earning-->
+    <term id="t23" type="open" lemma="earn" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t24" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--shekels-->
+    <term id="t25" type="open" lemma="shekel" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t26" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--giving-->
+    <term id="t27" type="open" lemma="give" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t28" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--political-->
+    <term id="t29" type="open" lemma="political" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--power-->
+    <term id="t30" type="open" lemma="power" pos="N" morphofeat="NN">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t31" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--silence-->
+    <term id="t32" type="open" lemma="silence" pos="N" morphofeat="NN">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t33" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--enemies-->
+    <term id="t34" type="open" lemma="enemy" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t35" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--labeling-->
+    <term id="t36" type="open" lemma="label" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--them-->
+    <term id="t37" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--antisemites-->
+    <term id="t38" type="open" lemma="antisemite" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t39" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t40" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--'m-->
+    <term id="t41" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--an-->
+    <term id="t42" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--antisemite-->
+    <term id="t43" type="open" lemma="antisemite" pos="N" morphofeat="NN">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!---  - .-->
+    <term id="t44" type="open" lemma="--" pos="O" morphofeat=":">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t45" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--proud-->
+    <term id="t46" type="open" lemma="proud" pos="N" morphofeat="NN">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t47" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t48" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t49" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(hijacked-3, They-1)-->
+    <dep from="t3" to="t1" rfunc="SBJ" />
+    <!--ADV(hijacked-3, also-2)-->
+    <dep from="t3" to="t2" rfunc="ADV" />
+    <!--NAME(Socialism-5, National-4)-->
+    <dep from="t5" to="t4" rfunc="NAME" />
+    <!--OBJ(hijacked-3, Socialism-5)-->
+    <dep from="t3" to="t5" rfunc="OBJ" />
+    <!--OPRD(hijacked-3, to-6)-->
+    <dep from="t3" to="t6" rfunc="OPRD" />
+    <!--IM(to-6, serve-7)-->
+    <dep from="t6" to="t7" rfunc="IM" />
+    <!--NMOD(purposes-9, their-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--OBJ(serve-7, purposes-9)-->
+    <dep from="t7" to="t9" rfunc="OBJ" />
+    <!--ADV(serve-7, in-10)-->
+    <dep from="t7" to="t10" rfunc="ADV" />
+    <!--NMOD(era-13, the-11)-->
+    <dep from="t13" to="t11" rfunc="NMOD" />
+    <!--NMOD(era-13, postwar-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--PMOD(in-10, era-13)-->
+    <dep from="t10" to="t13" rfunc="PMOD" />
+    <!--P(hijacked-3, .-14)-->
+    <dep from="t3" to="t14" rfunc="P" />
+    <!--SBJ(is-22, Nazism-15)-->
+    <dep from="t22" to="t15" rfunc="SBJ" />
+    <!--NMOD(Nazism-15, as-16)-->
+    <dep from="t15" to="t16" rfunc="NMOD" />
+    <!--SBJ(is-18, it-17)-->
+    <dep from="t18" to="t17" rfunc="SBJ" />
+    <!--SUB(as-16, is-18)-->
+    <dep from="t16" to="t18" rfunc="SUB" />
+    <!--VC(is-18, portrayed-19)-->
+    <dep from="t18" to="t19" rfunc="VC" />
+    <!--LGS(portrayed-19, by-20)-->
+    <dep from="t19" to="t20" rfunc="LGS" />
+    <!--PMOD(by-20, Hollywood-21)-->
+    <dep from="t20" to="t21" rfunc="PMOD" />
+    <!--OPRD(is-22, earning-23)-->
+    <dep from="t22" to="t23" rfunc="OPRD" />
+    <!--OBJ(earning-23, them-24)-->
+    <dep from="t23" to="t24" rfunc="OBJ" />
+    <!--OBJ(earning-23, shekels-25)-->
+    <dep from="t23" to="t25" rfunc="OBJ" />
+    <!--COORD(earning-23, and-26)-->
+    <dep from="t23" to="t26" rfunc="COORD" />
+    <!--CONJ(and-26, giving-27)-->
+    <dep from="t26" to="t27" rfunc="CONJ" />
+    <!--OBJ(giving-27, them-28)-->
+    <dep from="t27" to="t28" rfunc="OBJ" />
+    <!--NMOD(power-30, political-29)-->
+    <dep from="t30" to="t29" rfunc="NMOD" />
+    <!--OBJ(giving-27, power-30)-->
+    <dep from="t27" to="t30" rfunc="OBJ" />
+    <!--NMOD(power-30, to-31)-->
+    <dep from="t30" to="t31" rfunc="NMOD" />
+    <!--IM(to-31, silence-32)-->
+    <dep from="t31" to="t32" rfunc="IM" />
+    <!--NMOD(enemies-34, their-33)-->
+    <dep from="t34" to="t33" rfunc="NMOD" />
+    <!--OBJ(silence-32, enemies-34)-->
+    <dep from="t32" to="t34" rfunc="OBJ" />
+    <!--MNR(giving-27, by-35)-->
+    <dep from="t27" to="t35" rfunc="MNR" />
+    <!--PMOD(by-35, labeling-36)-->
+    <dep from="t35" to="t36" rfunc="PMOD" />
+    <!--NMOD(antisemites-38, them-37)-->
+    <dep from="t38" to="t37" rfunc="NMOD" />
+    <!--OBJ(labeling-36, antisemites-38)-->
+    <dep from="t36" to="t38" rfunc="OBJ" />
+    <!--P(is-22, .-39)-->
+    <dep from="t22" to="t39" rfunc="P" />
+    <!--SBJ('m-41, I-40)-->
+    <dep from="t41" to="t40" rfunc="SBJ" />
+    <!--NMOD(antisemite-43, an-42)-->
+    <dep from="t43" to="t42" rfunc="NMOD" />
+    <!--PRD('m-41, antisemite-43)-->
+    <dep from="t41" to="t43" rfunc="PRD" />
+    <!--P(antisemite-43,  -  - -44)-->
+    <dep from="t43" to="t44" rfunc="P" />
+    <!--COORD(antisemite-43, and-45)-->
+    <dep from="t43" to="t45" rfunc="COORD" />
+    <!--CONJ(and-45, proud-46)-->
+    <dep from="t45" to="t46" rfunc="CONJ" />
+    <!--NMOD(proud-46, of-47)-->
+    <dep from="t46" to="t47" rfunc="NMOD" />
+    <!--PMOD(of-47, it-48)-->
+    <dep from="t47" to="t48" rfunc="PMOD" />
+    <!--P('m-41, .-49)-->
+    <dep from="t41" to="t49" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Nazism-->
+        <span>
+          <target id="t15" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nazism" confidence="0.99990636" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="LOCATION">
+      <references>
+        <!--Hollywood-->
+        <span>
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hollywood" confidence="0.9982827" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--era-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Era" confidence="0.5659983" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--National Socialism-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nazism" confidence="0.9992773" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--They-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--purposes-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--shekels-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e12" unnamed="yes">
+      <references>
+        <!--power-->
+        <span>
+          <target id="t30" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e13" unnamed="yes">
+      <references>
+        <!--silence-->
+        <span>
+          <target id="t32" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e14" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t33" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e15" unnamed="yes">
+      <references>
+        <!--enemies-->
+        <span>
+          <target id="t34" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e16" unnamed="yes">
+      <references>
+        <!--them-->
+        <span>
+          <target id="t37" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e17" unnamed="yes">
+      <references>
+        <!--antisemites-->
+        <span>
+          <target id="t38" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e18" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t40" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e19" unnamed="yes">
+      <references>
+        <!--antisemite-->
+        <span>
+          <target id="t43" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e20" unnamed="yes">
+      <references>
+        <!--proud-->
+        <span>
+          <target id="t46" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e21" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t48" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--National Socialism-->
+      <span>
+        <target id="t4" />
+        <target id="t5" head="yes" />
+      </span>
+      <!--it-->
+      <span>
+        <target id="t17" head="yes" />
+      </span>
+    </coref>
+    <coref id="co3">
+      <!--Nazism as it is portrayed by Hollywood-->
+      <span>
+        <target id="t15" head="yes" />
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+        <target id="t21" />
+      </span>
+      <!--it-->
+      <span>
+        <target id="t48" head="yes" />
+      </span>
+    </coref>
+    <coref id="co4">
+      <!--their-->
+      <span>
+        <target id="t8" head="yes" />
+      </span>
+      <!--They-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+    </coref>
+    <coref id="co5">
+      <!--their-->
+      <span>
+        <target id="t33" head="yes" />
+      </span>
+      <!--them-->
+      <span>
+        <target id="t37" head="yes" />
+      </span>
+      <!--them-->
+      <span>
+        <target id="t24" head="yes" />
+      </span>
+      <!--them-->
+      <span>
+        <target id="t28" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/New_Gods" confidence="0.49153103061265935" spotted="true">
+      <!--They-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Power_(social_and_political)" confidence="0.9999608772272992" spotted="true">
+      <!--political power-->
+      <span>
+        <target id="w29" />
+        <target id="w30" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Serve_(tennis)" confidence="0.9893656911431894" spotted="true">
+      <!--serve-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Israeli_new_shekel" confidence="0.6064449781671305" spotted="true">
+      <!--shekels-->
+      <span>
+        <target id="w25" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aircraft_hijacking" confidence="0.8588451608661245" spotted="true">
+      <!--hijacked-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Era" confidence="0.5659983099561259" spotted="true">
+      <!--era-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hollywood" confidence="0.9982826886736608" spotted="true">
+      <!--Hollywood-->
+      <span>
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Antisemitism" confidence="0.9999999999954525" spotted="true">
+      <!--antisemite-->
+      <span>
+        <target id="w43" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nazism" confidence="0.9999063408530993" spotted="true">
+      <!--Nazism-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nazism" confidence="0.9992772863037023" spotted="true">
+      <!--National Socialism-->
+      <span>
+        <target id="w4" />
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Censorship" confidence="0.6795708652469764" spotted="true">
+      <!--silence-->
+      <span>
+        <target id="w32" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le12" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Intention" confidence="0.9799648448887232" spotted="true">
+      <!--purposes-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le13" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Antisemitism" confidence="0.9999999999954525" spotted="true">
+      <!--antisemites-->
+      <span>
+        <target id="w38" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le14" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Income" confidence="0.8857005087357624" spotted="true">
+      <!--earning-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 hijacked : A0[t1 They] A1[t4 National] AM-DIS[t2 also] AM-PNC[t6 to]-->
+    <predicate id="f_pr5" source="semafor" confidence="45.41895289636846">
+      <!--hijacked-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Piracy" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aircraft_hijacking" confidence="0.8588452" />
+        <externalRef resource="PropBank" reference="hijack.01" source="mate" />
+        <externalRef resource="VerbNet" reference="force-59-1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01471825-v" />
+        <externalRef resource="WordNet" reference="ili-30-02275034-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aircraft_hijacking" confidence="0.8588452" />
+        <externalRef resource="FrameBase" reference="frame-Piracy-hijack.v" />
+      </externalReferences>
+      <role id="rl12" semRole="A0">
+        <!--They-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Piracy@Perpetrator" />
+          <externalRef resource="VerbNet" reference="force-59@Agent" />
+          <externalRef resource="PropBank" reference="hijack.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Piracy-Perpetrator" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="A1">
+        <!--National Socialism-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Piracy@Vehicle" />
+          <externalRef resource="VerbNet" reference="force-59@Patient" />
+          <externalRef resource="PropBank" reference="hijack.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Piracy-Vehicle" />
+        </externalReferences>
+      </role>
+      <role id="rl59" semRole="AM-DIS">
+        <!--also-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+      <role id="rl60" semRole="AM-PNC">
+        <!--to serve their purposes in the postwar era-->
+        <span>
+          <target id="t6" head="yes" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </role>
+    </predicate>
+    <!--t4 National : [t4 National]-->
+    <predicate id="f_pr6" source="semafor" confidence="45.33851764775291">
+      <!--National-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Political_locales" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--National-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Political_locales@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Political_locales-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 serve : A0[t1 They] A2[t8 their] A0[t4 National] AM-LOC[t10 in]-->
+    <predicate id="f_pr7" source="semafor" confidence="75.18759316677988">
+      <!--serve-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Assistance" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Serve_(tennis)" confidence="0.9893657" />
+        <externalRef resource="PropBank" reference="serve.01" source="mate" />
+        <externalRef resource="VerbNet" reference="spend_time-104" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02709107-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Serve_(tennis)" confidence="0.9893657" />
+        <externalRef resource="FrameBase" reference="frame-Assistance-aid.v" />
+      </externalReferences>
+      <role id="rl15" semRole="A0">
+        <!--They-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Assistance@Helper" />
+          <externalRef resource="VerbNet" reference="spend_time-104@Agent" />
+          <externalRef resource="PropBank" reference="serve.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Assistance-Helper" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A2">
+        <!--their purposes-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Assistance@Benefited_party" />
+          <externalRef resource="FrameBase" reference="fe-Assistance-Benefited_party" />
+        </externalReferences>
+      </role>
+      <role id="rl57" semRole="A0">
+        <!--National Socialism-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="spend_time-104@Agent" />
+          <externalRef resource="PropBank" reference="serve.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl58" semRole="AM-LOC">
+        <!--in the postwar era-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </role>
+    </predicate>
+    <!--t9 purposes : A1[t8 their] A0[t8 their]-->
+    <predicate id="f_pr8" source="semafor" confidence="43.167057462528334">
+      <!--purposes-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Purpose" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Intention" confidence="0.97996485" />
+        <externalRef resource="NomBank" reference="purpose.01" source="mate" />
+        <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1" />
+        <externalRef resource="PropBank" reference="justify.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00894738-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Intention" confidence="0.97996485" />
+        <externalRef resource="FrameBase" reference="frame-Purpose-aim.v" />
+      </externalReferences>
+      <role id="rl55" semRole="A1">
+        <!--their purposes-->
+        <span>
+          <target id="t8" />
+          <target id="t9" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1@Topic" />
+          <externalRef resource="PropBank" reference="justify.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl56" semRole="A0">
+        <!--their-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1@Agent" />
+          <externalRef resource="PropBank" reference="justify.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 era : A1[t12 postwar]-->
+    <predicate id="f_pr9" source="semafor" confidence="32.83814019666649">
+      <!--era-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Calendric_unit" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Era" confidence="0.5659983" />
+        <externalRef resource="NomBank" reference="era.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Era" confidence="0.5659983" />
+        <externalRef resource="FrameBase" reference="frame-Calendric_unit-era.n" />
+      </externalReferences>
+      <role id="rl18" semRole="A1">
+        <!--postwar-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Calendric_unit@Salient_event" />
+          <externalRef resource="FrameBase" reference="fe-Calendric_unit-Salient_event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t22 is : A1[t15 Nazism]-->
+    <predicate id="pr11" source="mate">
+      <!--is-->
+      <span>
+        <target id="t22" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl21" semRole="A1">
+        <!--Nazism as it is portrayed by Hollywood-->
+        <span>
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </role>
+    </predicate>
+    <!--t34 enemies : A1[t33 their] A0[t33 their]-->
+    <predicate id="pr16" source="mate">
+      <!--enemies-->
+      <span>
+        <target id="t34" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="enemy.01" source="mate" />
+      </externalReferences>
+      <role id="rl33" semRole="A1">
+        <!--their-->
+        <span>
+          <target id="t33" head="yes" />
+        </span>
+      </role>
+      <role id="rl34" semRole="A0">
+        <!--their enemies-->
+        <span>
+          <target id="t33" />
+          <target id="t34" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t19 portrayed : A1[t17 it] A0[t20 by]-->
+    <predicate id="f_pr19" source="semafor" confidence="44.68644197579119">
+      <!--portrayed-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Communicate_categorization" />
+        <externalRef resource="PropBank" reference="portray.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Communicate_categorization-paint.v" />
+      </externalReferences>
+      <role id="rl38" semRole="A1">
+        <!--it-->
+        <span>
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Communicate_categorization@Item" />
+          <externalRef resource="FrameBase" reference="fe-Communicate_categorization-Item" />
+        </externalReferences>
+      </role>
+      <role id="rl61" semRole="A0">
+        <!--by Hollywood-->
+        <span>
+          <target id="t20" head="yes" />
+          <target id="t21" />
+        </span>
+      </role>
+    </predicate>
+    <!--t23 earning : A1[t24 them] A0[t15 Nazism] A1[t25 shekels]-->
+    <predicate id="f_pr20" source="semafor" confidence="51.3884621418016">
+      <!--earning-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Earnings_and_losses" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Income" confidence="0.8857005" />
+        <externalRef resource="PropBank" reference="earn.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1-1" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02289295-v" />
+        <externalRef resource="WordNet" reference="ili-30-02290196-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Income" confidence="0.8857005" />
+        <externalRef resource="FrameBase" reference="frame-Earnings_and_losses-earn.v" />
+      </externalReferences>
+      <role id="rl39" semRole="A1">
+        <!--them-->
+        <span>
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Earnings_and_losses@Earnings" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="earn.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Earnings_and_losses-Earnings" />
+        </externalReferences>
+      </role>
+      <role id="rl48" semRole="A0">
+        <!--Nazism as it is portrayed by Hollywood-->
+        <span>
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="earn.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl49" semRole="A1">
+        <!--shekels-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="earn.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t27 giving : A2[t28 them] A1[t29 political] A0[t15 Nazism] AM-MNR[t35 by]-->
+    <predicate id="f_pr21" source="semafor" confidence="70.36342631102627">
+      <!--giving-->
+      <span>
+        <target id="t27" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Giving" />
+        <externalRef resource="PropBank" reference="give.01" source="mate" />
+        <externalRef resource="VerbNet" reference="give-13.1-1" />
+        <externalRef resource="ESO" reference="Giving" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01178565-v" />
+        <externalRef resource="WordNet" reference="ili-30-02199590-v" />
+        <externalRef resource="WordNet" reference="ili-30-02200686-v" />
+        <externalRef resource="WordNet" reference="ili-30-02200498-v" />
+        <externalRef resource="WordNet" reference="ili-30-02316868-v" />
+        <externalRef resource="WordNet" reference="ili-30-02230772-v" />
+        <externalRef resource="WordNet" reference="ili-30-02359553-v" />
+        <externalRef resource="WordNet" reference="ili-30-02309374-v" />
+        <externalRef resource="FrameBase" reference="frame-Giving-gift.v" />
+      </externalReferences>
+      <role id="rl40" semRole="A2">
+        <!--them-->
+        <span>
+          <target id="t28" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Giving@Recipient" />
+          <externalRef resource="VerbNet" reference="give-13.1@Recipient" />
+          <externalRef resource="PropBank" reference="give.01@2" />
+          <externalRef resource="ESO" reference="Giving@possession-owner_2" />
+          <externalRef resource="FrameBase" reference="fe-Giving-Recipient" />
+        </externalReferences>
+      </role>
+      <role id="rl41" semRole="A1">
+        <!--political power to silence their enemies-->
+        <span>
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Giving@Theme" />
+          <externalRef resource="VerbNet" reference="give-13.1@Theme" />
+          <externalRef resource="PropBank" reference="give.01@1" />
+          <externalRef resource="ESO" reference="Giving@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Giving-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl52" semRole="A0">
+        <!--Nazism as it is portrayed by Hollywood-->
+        <span>
+          <target id="t15" head="yes" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="give-13.1@Agent" />
+          <externalRef resource="PropBank" reference="give.01@0" />
+          <externalRef resource="ESO" reference="Giving@possession-owner_1" />
+        </externalReferences>
+      </role>
+      <role id="rl53" semRole="AM-MNR">
+        <!--by labeling them antisemites-->
+        <span>
+          <target id="t35" head="yes" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+      </role>
+    </predicate>
+    <!--t30 power : A1[t29 political] A1[t31 to] A0[t28 them]-->
+    <predicate id="f_pr22" source="semafor" confidence="74.23190880810202">
+      <!--power-->
+      <span>
+        <target id="t30" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Power_(social_and_political)" confidence="0.9999609" />
+        <externalRef resource="NomBank" reference="power.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Power_(social_and_political)" confidence="0.9999609" />
+      </externalReferences>
+      <role id="rl42" semRole="A1">
+        <!--political-->
+        <span>
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Leadership@Type" />
+          <externalRef resource="FrameBase" reference="fe-Leadership-Type" />
+        </externalReferences>
+      </role>
+      <role id="rl50" semRole="A1">
+        <!--to silence their enemies-->
+        <span>
+          <target id="t31" head="yes" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+        </span>
+      </role>
+      <role id="rl51" semRole="A0">
+        <!--them-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t32 silence : A1[t33 their]-->
+    <predicate id="f_pr23" source="semafor" confidence="98.39150616516991">
+      <!--silence-->
+      <span>
+        <target id="t32" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Killing" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Censorship" confidence="0.67957085" />
+        <externalRef resource="NomBank" reference="silence.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Censorship" confidence="0.67957085" />
+      </externalReferences>
+      <role id="rl62" semRole="A1">
+        <!--their enemies-->
+        <span>
+          <target id="t33" />
+          <target id="t34" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t36 labeling : A1[t37 them] [t33 their] A2[t37 them]-->
+    <predicate id="f_pr24" source="semafor" confidence="35.98000965124238">
+      <!--labeling-->
+      <span>
+        <target id="t36" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Labeling" />
+        <externalRef resource="PropBank" reference="label.01" source="mate" />
+        <externalRef resource="VerbNet" reference="dub-29.3" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-01588493-v" />
+        <externalRef resource="WordNet" reference="ili-30-00971650-v" />
+        <externalRef resource="FrameBase" reference="frame-Labeling-label.v" />
+      </externalReferences>
+      <role id="rl43" semRole="A1">
+        <!--them antisemites-->
+        <span>
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Labeling@Label" />
+          <externalRef resource="VerbNet" reference="dub-29.3@Theme" />
+          <externalRef resource="PropBank" reference="label.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Labeling-Label" />
+        </externalReferences>
+      </role>
+      <role id="rl44" semRole="">
+        <!--their enemies-->
+        <span>
+          <target id="t33" />
+          <target id="t34" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Labeling@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Labeling-Entity" />
+        </externalReferences>
+      </role>
+      <role id="rl54" semRole="A2">
+        <!--them-->
+        <span>
+          <target id="t37" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="dub-29.3@Result" />
+          <externalRef resource="PropBank" reference="label.01@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t41 'm : A2[t42 an] A1[t40 I]-->
+    <predicate id="pr25" source="mate">
+      <!--'m-->
+      <span>
+        <target id="t41" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl45" semRole="A2">
+        <!--an antisemite  -  -  and proud of it-->
+        <span>
+          <target id="t42" />
+          <target id="t43" head="yes" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+        </span>
+      </role>
+      <role id="rl46" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t40" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP They)) (ADVP (RB also)) (VP (VBD hijacked) (S (NP (NNP National) (NNP Socialism)) (VP (TO to) (VP (VB serve) (NP (PRP$ their) (NNS purposes)) (PP (IN in) (NP (DT the) (JJ postwar) (NN era))))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (NP (NNP Nazism)) (SBAR (IN as) (S (NP (PRP it)) (VP (VBZ is) (VP (VBN portrayed) (PP (IN by) (NP (NNP Hollywood)))))))) (VP (VBZ is) (VP (VP (VBG earning) (NP (PRP them)) (NP (NNS shekels))) (CC and) (VP (VBG giving) (NP (PRP them)) (NP (NP (JJ political) (NN power)) (PP (TO to) (NP (NN silence))))) (NP (NP (PRP$ their) (NNS enemies)) (PP (IN by) (S (VP (VBG labeling) (S (NP (PRP them)) (NP (NNS antisemites))))))))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (NP (PRP I)) (VP (VBP 'm) (NP (NP (DT an) (NN antisemite)) (: --) (CC and) (NP (NP (NN proud)) (PP (IN of) (NP (PRP it)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="ADVP" />
+      <nt id="nter6" label="RB" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VBD" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NNP" />
+      <nt id="nter12" label="NNP" />
+      <nt id="nter13" label="VP" />
+      <nt id="nter14" label="TO" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VB" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="PRP$" />
+      <nt id="nter19" label="NNS" />
+      <nt id="nter20" label="PP" />
+      <nt id="nter21" label="IN" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="DT" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="NN" />
+      <nt id="nter26" label="." />
+      <!--Terminals-->
+      <!--They-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--also-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--hijacked-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--National-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Socialism-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--serve-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--purposes-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--postwar-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--era-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter2" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter9" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" />
+      <edge id="tre25" from="nter18" to="nter17" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter17" head="yes" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter15" />
+      <edge id="tre30" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter20" />
+      <edge id="tre33" from="nter23" to="nter22" />
+      <edge id="tre34" from="ter11" to="nter23" />
+      <edge id="tre35" from="nter24" to="nter22" />
+      <edge id="tre36" from="ter12" to="nter24" />
+      <edge id="tre37" from="nter25" to="nter22" head="yes" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter2" />
+      <edge id="tre40" from="ter14" to="nter26" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter27" label="ROOT" />
+      <nt id="nter28" label="S" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="NNP" />
+      <nt id="nter32" label="SBAR" />
+      <nt id="nter33" label="IN" />
+      <nt id="nter34" label="S" />
+      <nt id="nter35" label="NP" />
+      <nt id="nter36" label="PRP" />
+      <nt id="nter37" label="VP" />
+      <nt id="nter38" label="VBZ" />
+      <nt id="nter39" label="VP" />
+      <nt id="nter40" label="VBN" />
+      <nt id="nter41" label="PP" />
+      <nt id="nter42" label="IN" />
+      <nt id="nter43" label="NP" />
+      <nt id="nter44" label="NNP" />
+      <nt id="nter45" label="VP" />
+      <nt id="nter46" label="VBZ" />
+      <nt id="nter47" label="VP" />
+      <nt id="nter48" label="VP" />
+      <nt id="nter49" label="VBG" />
+      <nt id="nter50" label="NP" />
+      <nt id="nter51" label="PRP" />
+      <nt id="nter52" label="NP" />
+      <nt id="nter53" label="NNS" />
+      <nt id="nter54" label="CC" />
+      <nt id="nter55" label="VP" />
+      <nt id="nter56" label="VBG" />
+      <nt id="nter57" label="NP" />
+      <nt id="nter58" label="PRP" />
+      <nt id="nter59" label="NP" />
+      <nt id="nter60" label="NP" />
+      <nt id="nter61" label="JJ" />
+      <nt id="nter62" label="NN" />
+      <nt id="nter63" label="PP" />
+      <nt id="nter64" label="TO" />
+      <nt id="nter65" label="NP" />
+      <nt id="nter66" label="NN" />
+      <nt id="nter67" label="NP" />
+      <nt id="nter68" label="NP" />
+      <nt id="nter69" label="PRP$" />
+      <nt id="nter70" label="NNS" />
+      <nt id="nter71" label="PP" />
+      <nt id="nter72" label="IN" />
+      <nt id="nter73" label="S" />
+      <nt id="nter74" label="VP" />
+      <nt id="nter75" label="VBG" />
+      <nt id="nter76" label="S" />
+      <nt id="nter77" label="NP" />
+      <nt id="nter78" label="PRP" />
+      <nt id="nter79" label="NP" />
+      <nt id="nter80" label="NNS" />
+      <nt id="nter81" label="." />
+      <!--Terminals-->
+      <!--Nazism-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--portrayed-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Hollywood-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--earning-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--shekels-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--giving-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--political-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--power-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--silence-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--enemies-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--labeling-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--them-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--antisemites-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre42" from="nter28" to="nter27" head="yes" />
+      <edge id="tre43" from="nter29" to="nter28" />
+      <edge id="tre44" from="nter30" to="nter29" head="yes" />
+      <edge id="tre45" from="nter31" to="nter30" head="yes" />
+      <edge id="tre46" from="ter15" to="nter31" />
+      <edge id="tre47" from="nter32" to="nter29" />
+      <edge id="tre48" from="nter33" to="nter32" head="yes" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter32" />
+      <edge id="tre51" from="nter35" to="nter34" />
+      <edge id="tre52" from="nter36" to="nter35" head="yes" />
+      <edge id="tre53" from="ter17" to="nter36" />
+      <edge id="tre54" from="nter37" to="nter34" head="yes" />
+      <edge id="tre55" from="nter38" to="nter37" head="yes" />
+      <edge id="tre56" from="ter18" to="nter38" />
+      <edge id="tre57" from="nter39" to="nter37" />
+      <edge id="tre58" from="nter40" to="nter39" head="yes" />
+      <edge id="tre59" from="ter19" to="nter40" />
+      <edge id="tre60" from="nter41" to="nter39" />
+      <edge id="tre61" from="nter42" to="nter41" head="yes" />
+      <edge id="tre62" from="ter20" to="nter42" />
+      <edge id="tre63" from="nter43" to="nter41" />
+      <edge id="tre64" from="nter44" to="nter43" head="yes" />
+      <edge id="tre65" from="ter21" to="nter44" />
+      <edge id="tre66" from="nter45" to="nter28" head="yes" />
+      <edge id="tre67" from="nter46" to="nter45" head="yes" />
+      <edge id="tre68" from="ter22" to="nter46" />
+      <edge id="tre69" from="nter47" to="nter45" />
+      <edge id="tre70" from="nter48" to="nter47" head="yes" />
+      <edge id="tre71" from="nter49" to="nter48" head="yes" />
+      <edge id="tre72" from="ter23" to="nter49" />
+      <edge id="tre73" from="nter50" to="nter48" />
+      <edge id="tre74" from="nter51" to="nter50" head="yes" />
+      <edge id="tre75" from="ter24" to="nter51" />
+      <edge id="tre76" from="nter52" to="nter48" />
+      <edge id="tre77" from="nter53" to="nter52" head="yes" />
+      <edge id="tre78" from="ter25" to="nter53" />
+      <edge id="tre79" from="nter54" to="nter47" />
+      <edge id="tre80" from="ter26" to="nter54" />
+      <edge id="tre81" from="nter55" to="nter47" />
+      <edge id="tre82" from="nter56" to="nter55" head="yes" />
+      <edge id="tre83" from="ter27" to="nter56" />
+      <edge id="tre84" from="nter57" to="nter55" />
+      <edge id="tre85" from="nter58" to="nter57" head="yes" />
+      <edge id="tre86" from="ter28" to="nter58" />
+      <edge id="tre87" from="nter59" to="nter55" />
+      <edge id="tre88" from="nter60" to="nter59" head="yes" />
+      <edge id="tre89" from="nter61" to="nter60" />
+      <edge id="tre90" from="ter29" to="nter61" />
+      <edge id="tre91" from="nter62" to="nter60" head="yes" />
+      <edge id="tre92" from="ter30" to="nter62" />
+      <edge id="tre93" from="nter63" to="nter59" />
+      <edge id="tre94" from="nter64" to="nter63" head="yes" />
+      <edge id="tre95" from="ter31" to="nter64" />
+      <edge id="tre96" from="nter65" to="nter63" />
+      <edge id="tre97" from="nter66" to="nter65" head="yes" />
+      <edge id="tre98" from="ter32" to="nter66" />
+      <edge id="tre99" from="nter67" to="nter47" />
+      <edge id="tre100" from="nter68" to="nter67" head="yes" />
+      <edge id="tre101" from="nter69" to="nter68" />
+      <edge id="tre102" from="ter33" to="nter69" />
+      <edge id="tre103" from="nter70" to="nter68" head="yes" />
+      <edge id="tre104" from="ter34" to="nter70" />
+      <edge id="tre105" from="nter71" to="nter67" />
+      <edge id="tre106" from="nter72" to="nter71" head="yes" />
+      <edge id="tre107" from="ter35" to="nter72" />
+      <edge id="tre108" from="nter73" to="nter71" />
+      <edge id="tre109" from="nter74" to="nter73" head="yes" />
+      <edge id="tre110" from="nter75" to="nter74" head="yes" />
+      <edge id="tre111" from="ter36" to="nter75" />
+      <edge id="tre112" from="nter76" to="nter74" />
+      <edge id="tre113" from="nter77" to="nter76" head="yes" />
+      <edge id="tre114" from="nter78" to="nter77" head="yes" />
+      <edge id="tre115" from="ter37" to="nter78" />
+      <edge id="tre116" from="nter79" to="nter76" />
+      <edge id="tre117" from="nter80" to="nter79" head="yes" />
+      <edge id="tre118" from="ter38" to="nter80" />
+      <edge id="tre119" from="nter81" to="nter28" />
+      <edge id="tre120" from="ter39" to="nter81" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter82" label="ROOT" />
+      <nt id="nter83" label="S" />
+      <nt id="nter84" label="NP" />
+      <nt id="nter85" label="PRP" />
+      <nt id="nter86" label="VP" />
+      <nt id="nter87" label="VBP" />
+      <nt id="nter88" label="NP" />
+      <nt id="nter89" label="NP" />
+      <nt id="nter90" label="DT" />
+      <nt id="nter91" label="NN" />
+      <nt id="nter92" label=":" />
+      <nt id="nter93" label="CC" />
+      <nt id="nter94" label="NP" />
+      <nt id="nter95" label="NP" />
+      <nt id="nter96" label="NN" />
+      <nt id="nter97" label="PP" />
+      <nt id="nter98" label="IN" />
+      <nt id="nter99" label="NP" />
+      <nt id="nter100" label="PRP" />
+      <nt id="nter101" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--'m-->
+      <t id="ter41">
+        <span>
+          <target id="t41" />
+        </span>
+      </t>
+      <!--an-->
+      <t id="ter42">
+        <span>
+          <target id="t42" />
+        </span>
+      </t>
+      <!--antisemite-->
+      <t id="ter43">
+        <span>
+          <target id="t43" />
+        </span>
+      </t>
+      <!---  - .-->
+      <t id="ter44">
+        <span>
+          <target id="t44" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter45">
+        <span>
+          <target id="t45" />
+        </span>
+      </t>
+      <!--proud-->
+      <t id="ter46">
+        <span>
+          <target id="t46" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter47">
+        <span>
+          <target id="t47" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter48">
+        <span>
+          <target id="t48" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter49">
+        <span>
+          <target id="t49" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre122" from="nter83" to="nter82" head="yes" />
+      <edge id="tre123" from="nter84" to="nter83" />
+      <edge id="tre124" from="nter85" to="nter84" head="yes" />
+      <edge id="tre125" from="ter40" to="nter85" />
+      <edge id="tre126" from="nter86" to="nter83" head="yes" />
+      <edge id="tre127" from="nter87" to="nter86" head="yes" />
+      <edge id="tre128" from="ter41" to="nter87" />
+      <edge id="tre129" from="nter88" to="nter86" />
+      <edge id="tre130" from="nter89" to="nter88" head="yes" />
+      <edge id="tre131" from="nter90" to="nter89" />
+      <edge id="tre132" from="ter42" to="nter90" />
+      <edge id="tre133" from="nter91" to="nter89" head="yes" />
+      <edge id="tre134" from="ter43" to="nter91" />
+      <edge id="tre135" from="nter92" to="nter88" />
+      <edge id="tre136" from="ter44" to="nter92" />
+      <edge id="tre137" from="nter93" to="nter88" />
+      <edge id="tre138" from="ter45" to="nter93" />
+      <edge id="tre139" from="nter94" to="nter88" />
+      <edge id="tre140" from="nter95" to="nter94" head="yes" />
+      <edge id="tre141" from="nter96" to="nter95" head="yes" />
+      <edge id="tre142" from="ter46" to="nter96" />
+      <edge id="tre143" from="nter97" to="nter94" />
+      <edge id="tre144" from="nter98" to="nter97" head="yes" />
+      <edge id="tre145" from="ter47" to="nter98" />
+      <edge id="tre146" from="nter99" to="nter97" />
+      <edge id="tre147" from="nter100" to="nter99" head="yes" />
+      <edge id="tre148" from="ter48" to="nter100" />
+      <edge id="tre149" from="nter101" to="nter83" />
+      <edge id="tre150" from="ter49" to="nter101" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:39+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:39.795+0100" endTimestamp="2017-11-21T16:40:40.183+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:40.184+0100" endTimestamp="2017-11-21T16:40:40.185+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Great thread. We all reached the same destination, frequently by different routes.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="5">Great</wf>
+    <wf id="w2" sent="1" para="1" offset="6" length="6">thread</wf>
+    <wf id="w3" sent="1" para="1" offset="12" length="1">.</wf>
+    <wf id="w4" sent="2" para="1" offset="14" length="2">We</wf>
+    <wf id="w5" sent="2" para="1" offset="17" length="3">all</wf>
+    <wf id="w6" sent="2" para="1" offset="21" length="7">reached</wf>
+    <wf id="w7" sent="2" para="1" offset="29" length="3">the</wf>
+    <wf id="w8" sent="2" para="1" offset="33" length="4">same</wf>
+    <wf id="w9" sent="2" para="1" offset="38" length="11">destination</wf>
+    <wf id="w10" sent="2" para="1" offset="49" length="1">,</wf>
+    <wf id="w11" sent="2" para="1" offset="51" length="10">frequently</wf>
+    <wf id="w12" sent="2" para="1" offset="62" length="2">by</wf>
+    <wf id="w13" sent="2" para="1" offset="65" length="9">different</wf>
+    <wf id="w14" sent="2" para="1" offset="75" length="6">routes</wf>
+    <wf id="w15" sent="2" para="1" offset="81" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Great-->
+    <term id="t1" type="open" lemma="great" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--thread-->
+    <term id="t2" type="open" lemma="thread" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t3" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--We-->
+    <term id="t4" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t5" type="open" lemma="all" pos="D" morphofeat="DT">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--reached-->
+    <term id="t6" type="open" lemma="reach" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t7" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--same-->
+    <term id="t8" type="open" lemma="same" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--destination-->
+    <term id="t9" type="open" lemma="destination" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t10" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--frequently-->
+    <term id="t11" type="open" lemma="frequently" pos="A" morphofeat="RB">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--by-->
+    <term id="t12" type="open" lemma="by" pos="P" morphofeat="IN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--different-->
+    <term id="t13" type="open" lemma="different" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--routes-->
+    <term id="t14" type="open" lemma="route" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(thread-2, Great-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--P(thread-2, .-3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+    <!--SBJ(reached-6, We-4)-->
+    <dep from="t6" to="t4" rfunc="SBJ" />
+    <!--APPO(We-4, all-5)-->
+    <dep from="t4" to="t5" rfunc="APPO" />
+    <!--NMOD(destination-9, the-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--NMOD(destination-9, same-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--OBJ(reached-6, destination-9)-->
+    <dep from="t6" to="t9" rfunc="OBJ" />
+    <!--P(destination-9, ,-10)-->
+    <dep from="t9" to="t10" rfunc="P" />
+    <!--PMOD(by-12, frequently-11)-->
+    <dep from="t12" to="t11" rfunc="PMOD" />
+    <!--NMOD(destination-9, by-12)-->
+    <dep from="t9" to="t12" rfunc="NMOD" />
+    <!--NMOD(routes-14, different-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--PMOD(by-12, routes-14)-->
+    <dep from="t12" to="t14" rfunc="PMOD" />
+    <!--P(reached-6, .-15)-->
+    <dep from="t6" to="t15" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--thread-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--We-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--destination-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--routes-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Great_(1975_film)" confidence="0.3519515949006283" spotted="true">
+      <!--Great-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reach_(advertising)" confidence="0.25965460339128615" spotted="true">
+      <!--reached-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.6358090741900827" spotted="true">
+      <!--thread-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Tourist_attraction" confidence="0.4519391446780014" spotted="true">
+      <!--destination-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Express_bus_service" confidence="0.4720999404906198" spotted="true">
+      <!--routes-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Montana" confidence="0.5314377076527058" spotted="true">
+      <!--We-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Great : [t1 Great]-->
+    <predicate id="f_pr1" source="semafor" confidence="41.11310838803515">
+      <!--Great-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Desirability" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Great_(1975_film)" confidence="0.3519516" />
+        <externalRef resource="FrameBase" reference="frame-Desirability-great.a" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--Great thread .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Desirability@Evaluee" />
+          <externalRef resource="FrameBase" reference="fe-Desirability-Evaluee" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t2 thread : [t1 Great]-->
+    <predicate id="f_pr2" source="semafor" confidence="43.987574274140854">
+      <!--thread-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Natural_features" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.63580906" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--Great thread .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Natural_features@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Natural_features-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 destination : A0[t4 We] A0[t11 frequently]-->
+    <predicate id="pr4" source="mate">
+      <!--destination-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="destination.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Tourist_attraction" confidence="0.45193914" />
+      </externalReferences>
+      <role id="rl5" semRole="A0">
+        <!--We all-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+        </span>
+      </role>
+      <role id="rl6" semRole="A0">
+        <!--frequently by different routes-->
+        <span>
+          <target id="t11" />
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 all : [t5 all]-->
+    <predicate id="f_pr5" source="semafor" confidence="21.02789624737562">
+      <!--all-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--all-->
+        <span>
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 reached : A0[t4 We] A1[t7 the]-->
+    <predicate id="f_pr6" source="semafor" confidence="108.5679047736036">
+      <!--reached-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Arriving" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reach_(advertising)" confidence="0.2596546" />
+        <externalRef resource="PropBank" reference="reach.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1" />
+        <externalRef resource="ESO" reference="Arriving" />
+        <externalRef resource="ESO" reference="QuantityChange" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02230772-v" />
+        <externalRef resource="WordNet" reference="ili-30-02020590-v" />
+        <externalRef resource="WordNet" reference="ili-30-02006834-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reach_(advertising)" confidence="0.2596546" />
+        <externalRef resource="FrameBase" reference="frame-Arriving-reach.v" />
+      </externalReferences>
+      <role id="rl8" semRole="A0">
+        <!--We all-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Arriving@Theme" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="reach.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Arriving-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="A1">
+        <!--the same destination , frequently by different routes-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" head="yes" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="reach.01@1" />
+          <externalRef resource="ESO" reference="Arriving@translocation-goal" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 same : [t7 the]-->
+    <predicate id="f_pr7" source="semafor" confidence="20.129855933982114">
+      <!--same-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Identicality" />
+        <externalRef resource="FrameBase" reference="frame-Identicality-same.a" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--the same destination , frequently by different routes-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Identicality@Type" />
+          <externalRef resource="FrameBase" reference="fe-Identicality-Type" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 frequently : [t13 different]-->
+    <predicate id="f_pr8" source="semafor" confidence="37.893828903728014">
+      <!--frequently-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+        <externalRef resource="FrameBase" reference="frame-Frequency-often.adv" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--different routes-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Frequency@Event" />
+          <externalRef resource="FrameBase" reference="fe-Frequency-Event" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 different : [t13 different]-->
+    <predicate id="f_pr9" source="semafor" confidence="60.67097281769766">
+      <!--different-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Similarity" />
+        <externalRef resource="FrameBase" reference="frame-Similarity-differ.v" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--different routes-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Similarity@Entities" />
+          <externalRef resource="FrameBase" reference="fe-Similarity-Entities" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 routes : [t13 different]-->
+    <predicate id="f_pr10" source="semafor" confidence="94.50520491475629">
+      <!--routes-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Roadways" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Express_bus_service" confidence="0.47209993" />
+        <externalRef resource="FrameBase" reference="frame-Roadways-road.n" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--different routes-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Roadways@Roadway" />
+          <externalRef resource="FrameBase" reference="fe-Roadways-Roadway" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (JJ Great) (NN thread) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (PRP We)) (ADVP (DT all)) (VP (VBD reached) (NP (DT the) (JJ same) (NN destination)) (, ,) (ADVP (RB frequently)) (PP (IN by) (NP (JJ different) (NNS routes)))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="JJ" />
+      <nt id="nter4" label="NN" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--Great-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--thread-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" head="yes" />
+      <edge id="tre6" from="ter2" to="nter4" />
+      <edge id="tre7" from="nter5" to="nter2" />
+      <edge id="tre8" from="ter3" to="nter5" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter6" label="ROOT" />
+      <nt id="nter7" label="S" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="PRP" />
+      <nt id="nter10" label="ADVP" />
+      <nt id="nter11" label="DT" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBD" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="DT" />
+      <nt id="nter16" label="JJ" />
+      <nt id="nter17" label="NN" />
+      <nt id="nter18" label="," />
+      <nt id="nter19" label="ADVP" />
+      <nt id="nter20" label="RB" />
+      <nt id="nter21" label="PP" />
+      <nt id="nter22" label="IN" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="NNS" />
+      <nt id="nter26" label="." />
+      <!--Terminals-->
+      <!--We-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--reached-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--same-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--destination-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--frequently-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--by-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--different-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--routes-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre10" from="nter7" to="nter6" head="yes" />
+      <edge id="tre11" from="nter8" to="nter7" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter7" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter7" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter12" />
+      <edge id="tre21" from="nter15" to="nter14" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter14" />
+      <edge id="tre24" from="ter8" to="nter16" />
+      <edge id="tre25" from="nter17" to="nter14" head="yes" />
+      <edge id="tre26" from="ter9" to="nter17" />
+      <edge id="tre27" from="nter18" to="nter12" />
+      <edge id="tre28" from="ter10" to="nter18" />
+      <edge id="tre29" from="nter19" to="nter12" />
+      <edge id="tre30" from="nter20" to="nter19" head="yes" />
+      <edge id="tre31" from="ter11" to="nter20" />
+      <edge id="tre32" from="nter21" to="nter12" />
+      <edge id="tre33" from="nter22" to="nter21" head="yes" />
+      <edge id="tre34" from="ter12" to="nter22" />
+      <edge id="tre35" from="nter23" to="nter21" />
+      <edge id="tre36" from="nter24" to="nter23" />
+      <edge id="tre37" from="ter13" to="nter24" />
+      <edge id="tre38" from="nter25" to="nter23" head="yes" />
+      <edge id="tre39" from="ter14" to="nter25" />
+      <edge id="tre40" from="nter26" to="nter7" />
+      <edge id="tre41" from="ter15" to="nter26" />
+    </tree>
+  </constituency>
+</NAF>

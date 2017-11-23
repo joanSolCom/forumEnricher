@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:57+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:57.110+0100" endTimestamp="2017-11-20T12:30:57.491+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:57.493+0100" endTimestamp="2017-11-20T12:30:57.494+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Hope this article helps. Irmin Vinson, "Jewish Hypocrisy: An Idle Speculation" | Counter-Currents Publishing Excerpts:]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">Hope</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="4">this</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="7">article</wf>
+    <wf id="w4" sent="1" para="1" offset="18" length="5">helps</wf>
+    <wf id="w5" sent="1" para="1" offset="23" length="1">.</wf>
+    <wf id="w6" sent="2" para="1" offset="25" length="5">Irmin</wf>
+    <wf id="w7" sent="2" para="1" offset="31" length="6">Vinson</wf>
+    <wf id="w8" sent="2" para="1" offset="37" length="1">,</wf>
+    <wf id="w9" sent="2" para="1" offset="39" length="2">``</wf>
+    <wf id="w10" sent="2" para="1" offset="40" length="6">Jewish</wf>
+    <wf id="w11" sent="2" para="1" offset="47" length="9">Hypocrisy</wf>
+    <wf id="w12" sent="2" para="1" offset="56" length="1">:</wf>
+    <wf id="w13" sent="2" para="1" offset="58" length="2">An</wf>
+    <wf id="w14" sent="2" para="1" offset="61" length="4">Idle</wf>
+    <wf id="w15" sent="2" para="1" offset="66" length="11">Speculation</wf>
+    <wf id="w16" sent="2" para="1" offset="77" length="2">''</wf>
+    <wf id="w17" sent="2" para="1" offset="79" length="1">|</wf>
+    <wf id="w18" sent="2" para="1" offset="81" length="16">Counter-Currents</wf>
+    <wf id="w19" sent="2" para="1" offset="98" length="10">Publishing</wf>
+    <wf id="w20" sent="2" para="1" offset="109" length="8">Excerpts</wf>
+    <wf id="w21" sent="2" para="1" offset="117" length="1">:</wf>
+  </text>
+  <terms>
+    <!--Hope-->
+    <term id="t1" type="open" lemma="Hope" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t2" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--article-->
+    <term id="t3" type="open" lemma="article" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--helps-->
+    <term id="t4" type="open" lemma="help" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t5" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Irmin-->
+    <term id="t6" type="open" lemma="Irmin" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Vinson-->
+    <term id="t7" type="open" lemma="Vinson" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t8" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--``-->
+    <term id="t9" type="open" lemma="``" pos="O" morphofeat="``">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Jewish-->
+    <term id="t10" type="open" lemma="jewish" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Hypocrisy-->
+    <term id="t11" type="open" lemma="hypocrisy" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t12" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--An-->
+    <term id="t13" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--Idle-->
+    <term id="t14" type="open" lemma="idle" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--Speculation-->
+    <term id="t15" type="open" lemma="speculation" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--''-->
+    <term id="t16" type="open" lemma="''" pos="O" morphofeat="''">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--|-->
+    <term id="t17" type="open" lemma="|" pos="O" morphofeat="SYM">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--Counter-Currents-->
+    <term id="t18" type="open" lemma="Counter-Currents" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Publishing-->
+    <term id="t19" type="open" lemma="Publishing" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--Excerpts-->
+    <term id="t20" type="open" lemma="excerpt" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t21" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(helps-4, Hope-1)-->
+    <dep from="t4" to="t1" rfunc="SBJ" />
+    <!--NMOD(article-3, this-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--SBJ(helps-4, article-3)-->
+    <dep from="t4" to="t3" rfunc="SBJ" />
+    <!--P(helps-4, .-5)-->
+    <dep from="t4" to="t5" rfunc="P" />
+    <!--NAME(Vinson-7, Irmin-6)-->
+    <dep from="t7" to="t6" rfunc="NAME" />
+    <!--P(Vinson-7, ,-8)-->
+    <dep from="t7" to="t8" rfunc="P" />
+    <!--P(Hypocrisy-11, ``-9)-->
+    <dep from="t11" to="t9" rfunc="P" />
+    <!--NMOD(Hypocrisy-11, Jewish-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--APPO(Vinson-7, Hypocrisy-11)-->
+    <dep from="t7" to="t11" rfunc="APPO" />
+    <!--P(Hypocrisy-11, :-12)-->
+    <dep from="t11" to="t12" rfunc="P" />
+    <!--NMOD(Speculation-15, An-13)-->
+    <dep from="t15" to="t13" rfunc="NMOD" />
+    <!--NMOD(Speculation-15, Idle-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--APPO(Hypocrisy-11, Speculation-15)-->
+    <dep from="t11" to="t15" rfunc="APPO" />
+    <!--P(Hypocrisy-11, ''-16)-->
+    <dep from="t11" to="t16" rfunc="P" />
+    <!--APPO(Hypocrisy-11, |-17)-->
+    <dep from="t11" to="t17" rfunc="APPO" />
+    <!--NAME(Publishing-19, Counter-Currents-18)-->
+    <dep from="t19" to="t18" rfunc="NAME" />
+    <!--NMOD(Excerpts-20, Publishing-19)-->
+    <dep from="t20" to="t19" rfunc="NMOD" />
+    <!--COORD(|-17, Excerpts-20)-->
+    <dep from="t17" to="t20" rfunc="COORD" />
+    <!--P(Vinson-7, :-21)-->
+    <dep from="t7" to="t21" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Irmin Vinson-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Fred_M._Vinson" confidence="0.4753816" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Hope-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hope_Williams_Brady" confidence="0.27914286" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--Speculation-->
+        <span>
+          <target id="t15" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Speculation" confidence="0.93045944" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--Publishing-->
+        <span>
+          <target id="t19" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Publishing" confidence="0.9999994" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--Hypocrisy-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hypocrisy" confidence="0.94113415" />
+      </externalReferences>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--article-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7">
+      <references>
+        <!--Counter-Currents-->
+        <span>
+          <target id="t18" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--Excerpts-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hope_Williams_Brady" confidence="0.2791428462466839" spotted="true">
+      <!--Hope-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Speculation" confidence="0.9304594567819988" spotted="true">
+      <!--Speculation-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Publishing" confidence="0.9999993762332009" spotted="true">
+      <!--Publishing-->
+      <span>
+        <target id="w19" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.94269488019859" spotted="true">
+      <!--Jewish-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Irminones" confidence="0.7613842160283751" spotted="true">
+      <!--Irmin-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Article_(grammar)" confidence="0.5161143751437294" spotted="true">
+      <!--article-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/English_articles" confidence="0.9913479149164263" spotted="true">
+      <!--An-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Idle,_West_Yorkshire" confidence="0.5505315002132599" spotted="true">
+      <!--Idle-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Fred_M._Vinson" confidence="0.47538161547616353" spotted="true">
+      <!--Vinson-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hypocrisy" confidence="0.941134161664366" spotted="true">
+      <!--Hypocrisy-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Hope :-->
+    <predicate id="f_pr3" source="semafor" confidence="82.97248000348841">
+      <!--Hope-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Desiring" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hope_Williams_Brady" confidence="0.27914286" />
+        <externalRef resource="FrameBase" reference="frame-Desiring-hope.v" />
+      </externalReferences>
+    </predicate>
+    <!--t3 article :-->
+    <predicate id="f_pr4" source="semafor" confidence="54.88808867894469">
+      <!--article-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Text" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Article_(grammar)" confidence="0.51611435" />
+        <externalRef resource="NomBank" reference="article.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Article_(grammar)" confidence="0.51611435" />
+        <externalRef resource="FrameBase" reference="frame-Text-article.n" />
+      </externalReferences>
+    </predicate>
+    <!--t4 helps : A0[t2 this] A0[t1 Hope]-->
+    <predicate id="f_pr5" source="semafor" confidence="87.82909357358187">
+      <!--helps-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Assistance" />
+        <externalRef resource="PropBank" reference="help.01" source="mate" />
+        <externalRef resource="VerbNet" reference="help-72-1" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02547586-v" />
+        <externalRef resource="FrameBase" reference="frame-Assistance-aid.v" />
+      </externalReferences>
+      <role id="rl4" semRole="A0">
+        <!--this article-->
+        <span>
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Assistance@Helper" />
+          <externalRef resource="VerbNet" reference="help-72@Agent" />
+          <externalRef resource="PropBank" reference="help.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Assistance-Helper" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="A0">
+        <!--Hope-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="help-72@Agent" />
+          <externalRef resource="PropBank" reference="help.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 Speculation : AM-MNR[t14 Idle]-->
+    <predicate id="pr6" source="mate">
+      <!--Speculation-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="speculation.01" source="mate" />
+        <externalRef resource="VerbNet" reference="conjecture-29.5-1" />
+        <externalRef resource="PropBank" reference="speculate.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00633443-v" />
+        <externalRef resource="WordNet" reference="ili-30-00927049-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Speculation" confidence="0.93045944" />
+      </externalReferences>
+      <role id="rl5" semRole="AM-MNR">
+        <!--Idle-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t20 Excerpts : A1[t18 Counter-Currents] A1[t18 Counter-Currents]-->
+    <predicate id="pr7" source="mate">
+      <!--Excerpts-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="excerpt.01" source="mate" />
+        <externalRef resource="VerbNet" reference="remove-10.1" />
+        <externalRef resource="PropBank" reference="extract.01" />
+        <externalRef resource="ESO" reference="Removing" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00229280-v" />
+        <externalRef resource="WordNet" reference="ili-30-01351170-v" />
+        <externalRef resource="WordNet" reference="ili-30-00677021-v" />
+        <externalRef resource="WordNet" reference="ili-30-01351754-v" />
+        <externalRef resource="WordNet" reference="ili-30-01459392-v" />
+        <externalRef resource="WordNet" reference="ili-30-02239098-v" />
+      </externalReferences>
+      <role id="rl6" semRole="A1">
+        <!--Counter-Currents Publishing-->
+        <span>
+          <target id="t18" />
+          <target id="t19" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="remove-10.1@Theme" />
+          <externalRef resource="PropBank" reference="extract.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl8" semRole="A1">
+        <!--Counter-Currents Publishing Excerpts-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t11 Hypocrisy :-->
+    <predicate id="pr8">
+      <!--Hypocrisy-->
+      <span>
+        <target id="t11" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="hypocrisy.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NP (NNP Hope)) (NP (DT this) (NN article))) (VP (VBZ helps)) (. .)))</tree>
+    <tree sentence="2">(ROOT (NP (NP (NNP Irmin) (NNP Vinson)) (, ,) (NP (NP (`` ``) (JJ Jewish) (NN Hypocrisy)) (: :) (NP (NP (DT An) (JJ Idle)) (NP (NP (NN Speculation) ('' '')) (SBAR (S (VP (SYM |) (NP (NNP Counter-Currents) (NNP Publishing) (NNS Excerpts)))))))) (: :)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="NNP" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="DT" />
+      <nt id="nter8" label="NN" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="VBZ" />
+      <nt id="nter11" label="." />
+      <!--Terminals-->
+      <!--Hope-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--article-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--helps-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" />
+      <edge id="tre8" from="nter7" to="nter6" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter2" head="yes" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter2" />
+      <edge id="tre16" from="ter5" to="nter11" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter12" label="ROOT" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="NNP" />
+      <nt id="nter16" label="NNP" />
+      <nt id="nter17" label="," />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="``" />
+      <nt id="nter21" label="JJ" />
+      <nt id="nter22" label="NN" />
+      <nt id="nter23" label=":" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="DT" />
+      <nt id="nter27" label="JJ" />
+      <nt id="nter28" label="NP" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NN" />
+      <nt id="nter31" label="''" />
+      <nt id="nter32" label="SBAR" />
+      <nt id="nter33" label="S" />
+      <nt id="nter34" label="VP" />
+      <nt id="nter35" label="SYM" />
+      <nt id="nter36" label="NP" />
+      <nt id="nter37" label="NNP" />
+      <nt id="nter38" label="NNP" />
+      <nt id="nter39" label="NNS" />
+      <nt id="nter40" label=":" />
+      <!--Terminals-->
+      <!--Irmin-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Vinson-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--``-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Jewish-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Hypocrisy-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--An-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Idle-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Speculation-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--''-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--|-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Counter-Currents-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Publishing-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Excerpts-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="nter15" to="nter14" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter14" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter13" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter13" />
+      <edge id="tre27" from="nter19" to="nter18" head="yes" />
+      <edge id="tre28" from="nter20" to="nter19" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter19" />
+      <edge id="tre31" from="ter10" to="nter21" />
+      <edge id="tre32" from="nter22" to="nter19" head="yes" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter18" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter18" />
+      <edge id="tre37" from="nter25" to="nter24" head="yes" />
+      <edge id="tre38" from="nter26" to="nter25" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter25" head="yes" />
+      <edge id="tre41" from="ter14" to="nter27" />
+      <edge id="tre42" from="nter28" to="nter24" />
+      <edge id="tre43" from="nter29" to="nter28" head="yes" />
+      <edge id="tre44" from="nter30" to="nter29" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter29" />
+      <edge id="tre47" from="ter16" to="nter31" />
+      <edge id="tre48" from="nter32" to="nter28" />
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="nter34" to="nter33" head="yes" />
+      <edge id="tre51" from="nter35" to="nter34" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter34" head="yes" />
+      <edge id="tre54" from="nter37" to="nter36" />
+      <edge id="tre55" from="ter18" to="nter37" />
+      <edge id="tre56" from="nter38" to="nter36" />
+      <edge id="tre57" from="ter19" to="nter38" />
+      <edge id="tre58" from="nter39" to="nter36" head="yes" />
+      <edge id="tre59" from="ter20" to="nter39" />
+      <edge id="tre60" from="nter40" to="nter13" />
+      <edge id="tre61" from="ter21" to="nter40" />
+    </tree>
+  </constituency>
+</NAF>

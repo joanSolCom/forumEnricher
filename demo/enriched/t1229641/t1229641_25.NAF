@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:59+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:59.120+0100" endTimestamp="2017-11-20T12:32:59.665+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:59.668+0100" endTimestamp="2017-11-20T12:32:59.669+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Propaganda reasons. Also, gypsies, from the Greek ΓΥΦΤΟΙ, derives from the word Egypt, because many of those were from there. True gypsies are dravidians.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="10">Propaganda</wf>
+    <wf id="w2" sent="1" para="1" offset="11" length="7">reasons</wf>
+    <wf id="w3" sent="1" para="1" offset="18" length="1">.</wf>
+    <wf id="w4" sent="2" para="1" offset="20" length="4">Also</wf>
+    <wf id="w5" sent="2" para="1" offset="24" length="1">,</wf>
+    <wf id="w6" sent="2" para="1" offset="26" length="7">gypsies</wf>
+    <wf id="w7" sent="2" para="1" offset="33" length="1">,</wf>
+    <wf id="w8" sent="2" para="1" offset="35" length="4">from</wf>
+    <wf id="w9" sent="2" para="1" offset="40" length="3">the</wf>
+    <wf id="w10" sent="2" para="1" offset="44" length="5">Greek</wf>
+    <wf id="w11" sent="2" para="1" offset="50" length="6">ΓΥΦΤΟΙ</wf>
+    <wf id="w12" sent="2" para="1" offset="56" length="1">,</wf>
+    <wf id="w13" sent="2" para="1" offset="58" length="7">derives</wf>
+    <wf id="w14" sent="2" para="1" offset="66" length="4">from</wf>
+    <wf id="w15" sent="2" para="1" offset="71" length="3">the</wf>
+    <wf id="w16" sent="2" para="1" offset="75" length="4">word</wf>
+    <wf id="w17" sent="2" para="1" offset="80" length="5">Egypt</wf>
+    <wf id="w18" sent="2" para="1" offset="85" length="1">,</wf>
+    <wf id="w19" sent="2" para="1" offset="87" length="7">because</wf>
+    <wf id="w20" sent="2" para="1" offset="95" length="4">many</wf>
+    <wf id="w21" sent="2" para="1" offset="100" length="2">of</wf>
+    <wf id="w22" sent="2" para="1" offset="103" length="5">those</wf>
+    <wf id="w23" sent="2" para="1" offset="109" length="4">were</wf>
+    <wf id="w24" sent="2" para="1" offset="114" length="4">from</wf>
+    <wf id="w25" sent="2" para="1" offset="119" length="5">there</wf>
+    <wf id="w26" sent="2" para="1" offset="124" length="1">.</wf>
+    <wf id="w27" sent="3" para="1" offset="126" length="4">True</wf>
+    <wf id="w28" sent="3" para="1" offset="131" length="7">gypsies</wf>
+    <wf id="w29" sent="3" para="1" offset="139" length="3">are</wf>
+    <wf id="w30" sent="3" para="1" offset="143" length="10">dravidians</wf>
+    <wf id="w31" sent="3" para="1" offset="153" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Propaganda-->
+    <term id="t1" type="open" lemma="propaganda" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--reasons-->
+    <term id="t2" type="open" lemma="reason" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t3" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Also-->
+    <term id="t4" type="open" lemma="also" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t5" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--gypsies-->
+    <term id="t6" type="open" lemma="gypsy" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t7" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t8" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t9" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Greek-->
+    <term id="t10" type="open" lemma="greek" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--ΓΥΦΤΟΙ-->
+    <term id="t11" type="open" lemma="γυφτοι" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t12" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--derives-->
+    <term id="t13" type="open" lemma="derive" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t14" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t15" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--word-->
+    <term id="t16" type="open" lemma="word" pos="N" morphofeat="NN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Egypt-->
+    <term id="t17" type="open" lemma="Egypt" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t18" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--because-->
+    <term id="t19" type="open" lemma="because" pos="A" morphofeat="RB">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--many-->
+    <term id="t20" type="open" lemma="many" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t21" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--those-->
+    <term id="t22" type="open" lemma="those" pos="D" morphofeat="DT">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--were-->
+    <term id="t23" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t24" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--there-->
+    <term id="t25" type="open" lemma="there" pos="A" morphofeat="RB">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t26" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--True-->
+    <term id="t27" type="open" lemma="true" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--gypsies-->
+    <term id="t28" type="open" lemma="gypsy" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t29" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--dravidians-->
+    <term id="t30" type="open" lemma="dravidian" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t31" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(reasons-2, Propaganda-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--P(reasons-2, .-3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+    <!--ADV(derives-13, Also-4)-->
+    <dep from="t13" to="t4" rfunc="ADV" />
+    <!--P(derives-13, ,-5)-->
+    <dep from="t13" to="t5" rfunc="P" />
+    <!--SBJ(derives-13, gypsies-6)-->
+    <dep from="t13" to="t6" rfunc="SBJ" />
+    <!--P(derives-13, ,-7)-->
+    <dep from="t13" to="t7" rfunc="P" />
+    <!--ADV(derives-13, from-8)-->
+    <dep from="t13" to="t8" rfunc="ADV" />
+    <!--NMOD(ΓΥΦΤΟΙ-11, the-9)-->
+    <dep from="t11" to="t9" rfunc="NMOD" />
+    <!--NMOD(ΓΥΦΤΟΙ-11, Greek-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--PMOD(from-8, ΓΥΦΤΟΙ-11)-->
+    <dep from="t8" to="t11" rfunc="PMOD" />
+    <!--P(derives-13, ,-12)-->
+    <dep from="t13" to="t12" rfunc="P" />
+    <!--ADV(derives-13, from-14)-->
+    <dep from="t13" to="t14" rfunc="ADV" />
+    <!--NMOD(word-16, the-15)-->
+    <dep from="t16" to="t15" rfunc="NMOD" />
+    <!--PMOD(from-14, word-16)-->
+    <dep from="t14" to="t16" rfunc="PMOD" />
+    <!--APPO(word-16, Egypt-17)-->
+    <dep from="t16" to="t17" rfunc="APPO" />
+    <!--P(derives-13, ,-18)-->
+    <dep from="t13" to="t18" rfunc="P" />
+    <!--PRP(derives-13, because-19)-->
+    <dep from="t13" to="t19" rfunc="PRP" />
+    <!--SBJ(were-23, many-20)-->
+    <dep from="t23" to="t20" rfunc="SBJ" />
+    <!--NMOD(many-20, of-21)-->
+    <dep from="t20" to="t21" rfunc="NMOD" />
+    <!--PMOD(of-21, those-22)-->
+    <dep from="t21" to="t22" rfunc="PMOD" />
+    <!--SUB(because-19, were-23)-->
+    <dep from="t19" to="t23" rfunc="SUB" />
+    <!--ADV(were-23, from-24)-->
+    <dep from="t23" to="t24" rfunc="ADV" />
+    <!--PMOD(from-24, there-25)-->
+    <dep from="t24" to="t25" rfunc="PMOD" />
+    <!--P(derives-13, .-26)-->
+    <dep from="t13" to="t26" rfunc="P" />
+    <!--NMOD(gypsies-28, True-27)-->
+    <dep from="t28" to="t27" rfunc="NMOD" />
+    <!--SBJ(are-29, gypsies-28)-->
+    <dep from="t29" to="t28" rfunc="SBJ" />
+    <!--OBJ(are-29, dravidians-30)-->
+    <dep from="t29" to="t30" rfunc="OBJ" />
+    <!--P(are-29, .-31)-->
+    <dep from="t29" to="t31" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Greek-->
+        <span>
+          <target id="t10" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Greek_language" confidence="0.9359664" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="LOCATION">
+      <references>
+        <!--Egypt-->
+        <span>
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Egypt" confidence="0.95199186" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--Propaganda-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Propaganda" confidence="0.99829525" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--word-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word" confidence="0.98846143" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--reasons-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--gypsies-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--ΓΥΦΤΟΙ-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--gypsies-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--dravidians-->
+        <span>
+          <target id="t30" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--dravidians-->
+      <span>
+        <target id="t30" head="yes" />
+      </span>
+      <!--gypsies-->
+      <span>
+        <target id="t28" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Propaganda" confidence="0.9982952327956156" spotted="true">
+      <!--Propaganda-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Egypt" confidence="0.9519918497250011" spotted="true">
+      <!--Egypt-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Romani_people" confidence="0.963771441192449" spotted="true">
+      <!--gypsies-->
+      <span>
+        <target id="w28" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Romani_people" confidence="0.963771441192449" spotted="true">
+      <!--gypsies-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Etymology" confidence="0.905707945679127" spotted="true">
+      <!--derives-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reason" confidence="0.9922279932426538" spotted="true">
+      <!--reasons-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word" confidence="0.9884614639431347" spotted="true">
+      <!--word-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Greek_language" confidence="0.9359663542866957" spotted="true">
+      <!--Greek-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Truth" confidence="0.9929092597545506" spotted="true">
+      <!--True-->
+      <span>
+        <target id="w27" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Dravidian_peoples" confidence="0.9999999745971028" spotted="true">
+      <!--dravidians-->
+      <span>
+        <target id="w30" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 reasons : A2[t1 Propaganda]-->
+    <predicate id="f_pr2" source="semafor" confidence="10.462208809773571">
+      <!--reasons-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reason" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reason" confidence="0.992228" />
+        <externalRef resource="NomBank" reference="reason.02" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reason" confidence="0.992228" />
+        <externalRef resource="FrameBase" reference="frame-Reason-basis.n" />
+      </externalReferences>
+      <role id="rl16" semRole="A2">
+        <!--Propaganda-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t13 derives : A2[t14 from] AM-DIS[t4 Also] A2[t8 from] AM-CAU[t19 because] A0[t6 gypsies]-->
+    <predicate id="pr3" source="mate">
+      <!--derives-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="derive.01" source="mate" />
+        <externalRef resource="VerbNet" reference="appear-48.1.1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00636574-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Etymology" confidence="0.90570796" />
+      </externalReferences>
+      <role id="rl2" semRole="A2">
+        <!--from the word Egypt-->
+        <span>
+          <target id="t14" head="yes" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="PropBank" reference="derive.01@2" />
+        </externalReferences>
+      </role>
+      <role id="rl3" semRole="AM-DIS">
+        <!--Also-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+      <role id="rl4" semRole="A2">
+        <!--from the Greek ΓΥΦΤΟΙ-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="PropBank" reference="derive.01@2" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="AM-CAU">
+        <!--because many of those were from there-->
+        <span>
+          <target id="t19" head="yes" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+      </role>
+      <role id="rl6" semRole="A0">
+        <!--gypsies-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="PropBank" reference="derive.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 were : A1[t20 many] AM-DIR[t24 from]-->
+    <predicate id="pr4" source="mate">
+      <!--were-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl7" semRole="A1">
+        <!--many of those-->
+        <span>
+          <target id="t20" head="yes" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+      </role>
+      <role id="rl8" semRole="AM-DIR">
+        <!--from there-->
+        <span>
+          <target id="t24" head="yes" />
+          <target id="t25" />
+        </span>
+      </role>
+    </predicate>
+    <!--t10 Greek : [t10 Greek] [t9 the]-->
+    <predicate id="f_pr5" source="semafor" confidence="11.596525833516452">
+      <!--Greek-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Origin" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Greek_language" confidence="0.9359664" />
+        <externalRef resource="FrameBase" reference="frame-Origin-greek.a" />
+      </externalReferences>
+      <role id="rl9" semRole="">
+        <!--Greek-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Origin@Origin" />
+          <externalRef resource="FrameBase" reference="fe-Origin-Origin" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="">
+        <!--the Greek ΓΥΦΤΟΙ-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Origin@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Origin-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t16 word :-->
+    <predicate id="f_pr6" source="semafor" confidence="10.999460234268561">
+      <!--word-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Simple_name" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word" confidence="0.98846143" />
+        <externalRef resource="FrameBase" reference="frame-Simple_name-word.n" />
+      </externalReferences>
+    </predicate>
+    <!--t20 many : [t20 many] [t21 of]-->
+    <predicate id="f_pr7" source="semafor" confidence="36.403030919171904">
+      <!--many-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+        <externalRef resource="FrameBase" reference="frame-Quantity-many.a" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--many of those-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="">
+        <!--of those were from there-->
+        <span>
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t25 there : [t25 there]-->
+    <predicate id="f_pr8" source="semafor" confidence="26.21523481546198">
+      <!--there-->
+      <span>
+        <target id="t25" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Locative_relation" />
+        <externalRef resource="FrameBase" reference="frame-Locative_relation-there.adv" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--there-->
+        <span>
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Locative_relation@Ground" />
+          <externalRef resource="FrameBase" reference="fe-Locative_relation-Ground" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 are : A2[t30 dravidians] A1[t27 True]-->
+    <predicate id="pr9" source="mate">
+      <!--are-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl14" semRole="A2">
+        <!--dravidians-->
+        <span>
+          <target id="t30" head="yes" />
+        </span>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--True gypsies-->
+        <span>
+          <target id="t27" />
+          <target id="t28" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 Propaganda :-->
+    <predicate id="pr10">
+      <!--Propaganda-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="propaganda.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NN Propaganda) (NNS reasons) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (ADVP (RB Also)) (, ,) (NP (NP (NNS gypsies)) (, ,) (PP (IN from) (NP (DT the) (JJ Greek) (NN ΓΥΦΤΟΙ))) (, ,)) (VP (VBZ derives) (PP (IN from) (NP (DT the) (NN word) (NNP Egypt))) (, ,) (PP (RB because) (ADJP (JJ many) (PP (IN of) (NP (NP (DT those)) (SBAR (S (VP (VBD were) (PP (IN from) (NP (RB there))))))))))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (ADVP (JJ True)) (NP (NNS gypsies)) (VP (VBP are) (NP (NNS dravidians))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NN" />
+      <nt id="nter4" label="NNS" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--Propaganda-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--reasons-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" head="yes" />
+      <edge id="tre6" from="ter2" to="nter4" />
+      <edge id="tre7" from="nter5" to="nter2" />
+      <edge id="tre8" from="ter3" to="nter5" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter6" label="ROOT" />
+      <nt id="nter7" label="S" />
+      <nt id="nter8" label="ADVP" />
+      <nt id="nter9" label="RB" />
+      <nt id="nter10" label="," />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NNS" />
+      <nt id="nter14" label="," />
+      <nt id="nter15" label="PP" />
+      <nt id="nter16" label="IN" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="DT" />
+      <nt id="nter19" label="JJ" />
+      <nt id="nter20" label="NN" />
+      <nt id="nter21" label="," />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VBZ" />
+      <nt id="nter24" label="PP" />
+      <nt id="nter25" label="IN" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="DT" />
+      <nt id="nter28" label="NN" />
+      <nt id="nter29" label="NNP" />
+      <nt id="nter30" label="," />
+      <nt id="nter31" label="PP" />
+      <nt id="nter32" label="RB" />
+      <nt id="nter33" label="ADJP" />
+      <nt id="nter34" label="JJ" />
+      <nt id="nter35" label="PP" />
+      <nt id="nter36" label="IN" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="DT" />
+      <nt id="nter40" label="SBAR" />
+      <nt id="nter41" label="S" />
+      <nt id="nter42" label="VP" />
+      <nt id="nter43" label="VBD" />
+      <nt id="nter44" label="PP" />
+      <nt id="nter45" label="IN" />
+      <nt id="nter46" label="NP" />
+      <nt id="nter47" label="RB" />
+      <nt id="nter48" label="." />
+      <!--Terminals-->
+      <!--Also-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--gypsies-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Greek-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--ΓΥΦΤΟΙ-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--derives-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--word-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Egypt-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--because-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--many-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--those-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--were-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--there-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre10" from="nter7" to="nter6" head="yes" />
+      <edge id="tre11" from="nter8" to="nter7" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter7" />
+      <edge id="tre15" from="ter5" to="nter10" />
+      <edge id="tre16" from="nter11" to="nter7" />
+      <edge id="tre17" from="nter12" to="nter11" head="yes" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter11" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter11" />
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="ter8" to="nter16" />
+      <edge id="tre25" from="nter17" to="nter15" />
+      <edge id="tre26" from="nter18" to="nter17" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter17" />
+      <edge id="tre29" from="ter10" to="nter19" />
+      <edge id="tre30" from="nter20" to="nter17" head="yes" />
+      <edge id="tre31" from="ter11" to="nter20" />
+      <edge id="tre32" from="nter21" to="nter11" />
+      <edge id="tre33" from="ter12" to="nter21" />
+      <edge id="tre34" from="nter22" to="nter7" head="yes" />
+      <edge id="tre35" from="nter23" to="nter22" head="yes" />
+      <edge id="tre36" from="ter13" to="nter23" />
+      <edge id="tre37" from="nter24" to="nter22" />
+      <edge id="tre38" from="nter25" to="nter24" head="yes" />
+      <edge id="tre39" from="ter14" to="nter25" />
+      <edge id="tre40" from="nter26" to="nter24" />
+      <edge id="tre41" from="nter27" to="nter26" />
+      <edge id="tre42" from="ter15" to="nter27" />
+      <edge id="tre43" from="nter28" to="nter26" />
+      <edge id="tre44" from="ter16" to="nter28" />
+      <edge id="tre45" from="nter29" to="nter26" head="yes" />
+      <edge id="tre46" from="ter17" to="nter29" />
+      <edge id="tre47" from="nter30" to="nter22" />
+      <edge id="tre48" from="ter18" to="nter30" />
+      <edge id="tre49" from="nter31" to="nter22" />
+      <edge id="tre50" from="nter32" to="nter31" />
+      <edge id="tre51" from="ter19" to="nter32" />
+      <edge id="tre52" from="nter33" to="nter31" head="yes" />
+      <edge id="tre53" from="nter34" to="nter33" head="yes" />
+      <edge id="tre54" from="ter20" to="nter34" />
+      <edge id="tre55" from="nter35" to="nter33" />
+      <edge id="tre56" from="nter36" to="nter35" head="yes" />
+      <edge id="tre57" from="ter21" to="nter36" />
+      <edge id="tre58" from="nter37" to="nter35" />
+      <edge id="tre59" from="nter38" to="nter37" head="yes" />
+      <edge id="tre60" from="nter39" to="nter38" head="yes" />
+      <edge id="tre61" from="ter22" to="nter39" />
+      <edge id="tre62" from="nter40" to="nter37" />
+      <edge id="tre63" from="nter41" to="nter40" head="yes" />
+      <edge id="tre64" from="nter42" to="nter41" head="yes" />
+      <edge id="tre65" from="nter43" to="nter42" head="yes" />
+      <edge id="tre66" from="ter23" to="nter43" />
+      <edge id="tre67" from="nter44" to="nter42" />
+      <edge id="tre68" from="nter45" to="nter44" head="yes" />
+      <edge id="tre69" from="ter24" to="nter45" />
+      <edge id="tre70" from="nter46" to="nter44" />
+      <edge id="tre71" from="nter47" to="nter46" head="yes" />
+      <edge id="tre72" from="ter25" to="nter47" />
+      <edge id="tre73" from="nter48" to="nter7" />
+      <edge id="tre74" from="ter26" to="nter48" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter49" label="ROOT" />
+      <nt id="nter50" label="S" />
+      <nt id="nter51" label="ADVP" />
+      <nt id="nter52" label="JJ" />
+      <nt id="nter53" label="NP" />
+      <nt id="nter54" label="NNS" />
+      <nt id="nter55" label="VP" />
+      <nt id="nter56" label="VBP" />
+      <nt id="nter57" label="NP" />
+      <nt id="nter58" label="NNS" />
+      <nt id="nter59" label="." />
+      <!--Terminals-->
+      <!--True-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--gypsies-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--dravidians-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre76" from="nter50" to="nter49" head="yes" />
+      <edge id="tre77" from="nter51" to="nter50" />
+      <edge id="tre78" from="nter52" to="nter51" head="yes" />
+      <edge id="tre79" from="ter27" to="nter52" />
+      <edge id="tre80" from="nter53" to="nter50" />
+      <edge id="tre81" from="nter54" to="nter53" head="yes" />
+      <edge id="tre82" from="ter28" to="nter54" />
+      <edge id="tre83" from="nter55" to="nter50" head="yes" />
+      <edge id="tre84" from="nter56" to="nter55" head="yes" />
+      <edge id="tre85" from="ter29" to="nter56" />
+      <edge id="tre86" from="nter57" to="nter55" />
+      <edge id="tre87" from="nter58" to="nter57" head="yes" />
+      <edge id="tre88" from="ter30" to="nter58" />
+      <edge id="tre89" from="nter59" to="nter50" />
+      <edge id="tre90" from="ter31" to="nter59" />
+    </tree>
+  </constituency>
+</NAF>

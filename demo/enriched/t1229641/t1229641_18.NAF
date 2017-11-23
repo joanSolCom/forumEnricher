@@ -1,0 +1,9 @@
+<html><head><title>Grizzly 2.3.21</title><style><!--div.header {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#003300;font-size:22px;-moz-border-radius-topleft: 10px;border-top-left-radius: 10px;-moz-border-radius-topright: 10px;border-top-right-radius: 10px;padding-left: 5px}div.body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#FFFFCC;font-size:16px;padding-top:10px;padding-bottom:10px;padding-left:10px}div.footer {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#666633;font-size:14px;-moz-border-radius-bottomleft: 10px;border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px;padding-left: 5px}BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;}B {font-family:Tahoma,Arial,sans-serif;color:black;}A {color : black;}HR {color : #999966;}--></style> </head><body><div class="header">Internal Server Error</div><div class="body"><b>java.lang.NullPointerException</b><pre>     1: eu.fbk.dkm.pikes.tintop.AnnotationPipeline.parseAll(AnnotationPipeline.java:1006)
+     2: eu.fbk.dkm.pikes.tintop.AnnotationPipeline.parseAll(AnnotationPipeline.java:993)
+     3: eu.fbk.dkm.pikes.tintop.AnnotationPipeline.parseFromNAF(AnnotationPipeline.java:1039)
+     4: eu.fbk.dkm.pikes.tintop.server.Text2NafHandler.service(Text2NafHandler.java:29)
+     5: org.glassfish.grizzly.http.server.HttpHandler$1.run(HttpHandler.java:224)
+     6: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+     7: org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+     8: java.lang.Thread.run(Thread.java:745)
+</pre>Please see the log for more detail.</div><div class="footer">Grizzly 2.3.21</div></body></html>

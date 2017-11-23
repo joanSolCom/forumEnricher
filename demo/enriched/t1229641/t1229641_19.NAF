@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:56+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:56.687+0100" endTimestamp="2017-11-20T12:32:57.036+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:57.038+0100" endTimestamp="2017-11-20T12:32:57.039+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[They are. True Romanians are Aryans=Europeans. Gypsies/Roma are NOT, of course...]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">They</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="3">are</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="1">.</wf>
+    <wf id="w4" sent="2" para="1" offset="10" length="4">True</wf>
+    <wf id="w5" sent="2" para="1" offset="15" length="9">Romanians</wf>
+    <wf id="w6" sent="2" para="1" offset="25" length="3">are</wf>
+    <wf id="w7" sent="2" para="1" offset="29" length="6">Aryans</wf>
+    <wf id="w8" sent="2" para="1" offset="35" length="1">=</wf>
+    <wf id="w9" sent="2" para="1" offset="36" length="9">Europeans</wf>
+    <wf id="w10" sent="2" para="1" offset="45" length="1">.</wf>
+    <wf id="w11" sent="3" para="1" offset="47" length="12">Gypsies/Roma</wf>
+    <wf id="w12" sent="3" para="1" offset="60" length="3">are</wf>
+    <wf id="w13" sent="3" para="1" offset="64" length="3">NOT</wf>
+    <wf id="w14" sent="3" para="1" offset="67" length="1">,</wf>
+    <wf id="w15" sent="3" para="1" offset="69" length="2">of</wf>
+    <wf id="w16" sent="3" para="1" offset="72" length="6">course</wf>
+    <wf id="w17" sent="3" para="1" offset="78" length="3">...</wf>
+  </text>
+  <terms>
+    <!--They-->
+    <term id="t1" type="open" lemma="they" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t3" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--True-->
+    <term id="t4" type="open" lemma="true" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Romanians-->
+    <term id="t5" type="open" lemma="Romanians" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t6" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Aryans-->
+    <term id="t7" type="open" lemma="Aryans" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--=-->
+    <term id="t8" type="open" lemma="=" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Europeans-->
+    <term id="t9" type="open" lemma="Europeans" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Gypsies/Roma-->
+    <term id="t11" type="open" lemma="gypsies/roma" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t12" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--NOT-->
+    <term id="t13" type="open" lemma="NOT" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t14" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t15" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--course-->
+    <term id="t16" type="open" lemma="course" pos="N" morphofeat="NN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t17" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(are-2, They-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--P(are-2, .-3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+    <!--NMOD(Romanians-5, True-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--SBJ(are-6, Romanians-5)-->
+    <dep from="t6" to="t5" rfunc="SBJ" />
+    <!--NAME(Europeans-9, Aryans-7)-->
+    <dep from="t9" to="t7" rfunc="NAME" />
+    <!--NMOD(Europeans-9, =-8)-->
+    <dep from="t9" to="t8" rfunc="NMOD" />
+    <!--OBJ(are-6, Europeans-9)-->
+    <dep from="t6" to="t9" rfunc="OBJ" />
+    <!--P(are-6, .-10)-->
+    <dep from="t6" to="t10" rfunc="P" />
+    <!--SBJ(are-12, Gypsies/Roma-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--OBJ(are-12, NOT-13)-->
+    <dep from="t12" to="t13" rfunc="OBJ" />
+    <!--P(are-12, ,-14)-->
+    <dep from="t12" to="t14" rfunc="P" />
+    <!--ADV(are-12, of-15)-->
+    <dep from="t12" to="t15" rfunc="ADV" />
+    <!--PMOD(of-15, course-16)-->
+    <dep from="t15" to="t16" rfunc="PMOD" />
+    <!--P(are-12, ...-17)-->
+    <dep from="t12" to="t17" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Romanians-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Romanians" confidence="0.99879634" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--Europeans-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Europe" confidence="0.94491327" />
+      </externalReferences>
+    </entity>
+    <entity id="e3">
+      <references>
+        <!--NOT-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Negation" confidence="0.84590703" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--Aryans-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aryan_race" confidence="0.50038505" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--They-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--Gypsies/Roma-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--course-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/False_hero" confidence="0.9872814420900944" spotted="true">
+      <!--They-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Negation" confidence="0.8459070090434188" spotted="true">
+      <!--NOT-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Europe" confidence="0.9449132763121755" spotted="true">
+      <!--Europeans-->
+      <span>
+        <target id="w9" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aryan_race" confidence="0.5003850729912662" spotted="true">
+      <!--Aryans-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Romanians" confidence="0.9987963338417706" spotted="true">
+      <!--Romanians-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 are : A1[t1 They]-->
+    <predicate id="pr1" source="mate">
+      <!--are-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--They-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t6 are : A2[t7 Aryans] A1[t4 True]-->
+    <predicate id="pr2" source="mate">
+      <!--are-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl2" semRole="A2">
+        <!--Aryans = Europeans-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+      <role id="rl3" semRole="A1">
+        <!--True Romanians-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t9 Europeans : [t7 Aryans]-->
+    <predicate id="f_pr3" source="semafor" confidence="10.359399209606337">
+      <!--Europeans-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Origin" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Europe" confidence="0.94491327" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--Aryans = Europeans-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Origin@Origin" />
+          <externalRef resource="FrameBase" reference="fe-Origin-Origin" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 are : A1[t11 Gypsies/Roma] AM-DIS[t15 of] A2[t13 NOT]-->
+    <predicate id="pr4" source="mate">
+      <!--are-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl5" semRole="A1">
+        <!--Gypsies/Roma-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </role>
+      <role id="rl6" semRole="AM-DIS">
+        <!--of course-->
+        <span>
+          <target id="t15" head="yes" />
+          <target id="t16" />
+        </span>
+      </role>
+      <role id="rl7" semRole="A2">
+        <!--NOT-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP They)) (VP (VBP are)) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (ADVP (JJ True)) (NP (NNPS Romanians)) (VP (VBP are) (NP (NNPS Aryans)) (NP (JJ =) (NNPS Europeans))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (NP (NN Gypsies/Roma)) (VP (VBP are) (NP (NP (NNP NOT)) (, ,) (PP (IN of) (NP (NN course))))) (: ...)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="." />
+      <!--Terminals-->
+      <!--They-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter2" />
+      <edge id="tre10" from="ter3" to="nter7" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter8" label="ROOT" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="ADVP" />
+      <nt id="nter11" label="JJ" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NNPS" />
+      <nt id="nter14" label="VP" />
+      <nt id="nter15" label="VBP" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="NNPS" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="JJ" />
+      <nt id="nter20" label="NNPS" />
+      <nt id="nter21" label="." />
+      <!--Terminals-->
+      <!--True-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Romanians-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Aryans-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--=-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Europeans-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="nter10" to="nter9" />
+      <edge id="tre14" from="nter11" to="nter10" head="yes" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter9" />
+      <edge id="tre17" from="nter13" to="nter12" head="yes" />
+      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre19" from="nter14" to="nter9" head="yes" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter14" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter14" />
+      <edge id="tre26" from="nter19" to="nter18" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter18" head="yes" />
+      <edge id="tre29" from="ter9" to="nter20" />
+      <edge id="tre30" from="nter21" to="nter9" />
+      <edge id="tre31" from="ter10" to="nter21" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter22" label="ROOT" />
+      <nt id="nter23" label="S" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="NN" />
+      <nt id="nter26" label="VP" />
+      <nt id="nter27" label="VBP" />
+      <nt id="nter28" label="NP" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NNP" />
+      <nt id="nter31" label="," />
+      <nt id="nter32" label="PP" />
+      <nt id="nter33" label="IN" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="NN" />
+      <nt id="nter36" label=":" />
+      <!--Terminals-->
+      <!--Gypsies/Roma-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--NOT-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--course-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre33" from="nter23" to="nter22" head="yes" />
+      <edge id="tre34" from="nter24" to="nter23" />
+      <edge id="tre35" from="nter25" to="nter24" head="yes" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter23" head="yes" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter26" />
+      <edge id="tre41" from="nter29" to="nter28" head="yes" />
+      <edge id="tre42" from="nter30" to="nter29" head="yes" />
+      <edge id="tre43" from="ter13" to="nter30" />
+      <edge id="tre44" from="nter31" to="nter28" />
+      <edge id="tre45" from="ter14" to="nter31" />
+      <edge id="tre46" from="nter32" to="nter28" />
+      <edge id="tre47" from="nter33" to="nter32" head="yes" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter32" />
+      <edge id="tre50" from="nter35" to="nter34" head="yes" />
+      <edge id="tre51" from="ter16" to="nter35" />
+      <edge id="tre52" from="nter36" to="nter23" />
+      <edge id="tre53" from="ter17" to="nter36" />
+    </tree>
+  </constituency>
+</NAF>

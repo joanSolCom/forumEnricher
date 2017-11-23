@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:17+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:17.621+0100" endTimestamp="2017-11-21T16:36:18.097+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:18.101+0100" endTimestamp="2017-11-21T16:36:18.103+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I think I know why the media were asking about Louis Beam recently... .... Oops...sorry...]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="5">think</wf>
+    <wf id="w3" sent="1" para="1" offset="8" length="1">I</wf>
+    <wf id="w4" sent="1" para="1" offset="10" length="4">know</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="3">why</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="3">the</wf>
+    <wf id="w7" sent="1" para="1" offset="23" length="5">media</wf>
+    <wf id="w8" sent="1" para="1" offset="29" length="4">were</wf>
+    <wf id="w9" sent="1" para="1" offset="34" length="6">asking</wf>
+    <wf id="w10" sent="1" para="1" offset="41" length="5">about</wf>
+    <wf id="w11" sent="1" para="1" offset="47" length="5">Louis</wf>
+    <wf id="w12" sent="1" para="1" offset="53" length="4">Beam</wf>
+    <wf id="w13" sent="1" para="1" offset="58" length="8">recently</wf>
+    <wf id="w14" sent="1" para="1" offset="66" length="3">...</wf>
+    <wf id="w15" sent="1" para="1" offset="70" length="3">...</wf>
+    <wf id="w16" sent="1" para="1" offset="73" length="1">.</wf>
+    <wf id="w17" sent="2" para="1" offset="75" length="4">Oops</wf>
+    <wf id="w18" sent="2" para="1" offset="79" length="3">...</wf>
+    <wf id="w19" sent="2" para="1" offset="82" length="5">sorry</wf>
+    <wf id="w20" sent="2" para="1" offset="87" length="3">...</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--think-->
+    <term id="t2" type="open" lemma="think" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t3" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--know-->
+    <term id="t4" type="open" lemma="know" pos="V" morphofeat="VB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--why-->
+    <term id="t5" type="open" lemma="why" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t6" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--media-->
+    <term id="t7" type="open" lemma="media" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--were-->
+    <term id="t8" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--asking-->
+    <term id="t9" type="open" lemma="ask" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--about-->
+    <term id="t10" type="open" lemma="about" pos="P" morphofeat="IN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Louis-->
+    <term id="t11" type="open" lemma="Louis" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Beam-->
+    <term id="t12" type="open" lemma="Beam" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--recently-->
+    <term id="t13" type="open" lemma="recently" pos="A" morphofeat="RB">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t14" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t15" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t16" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Oops-->
+    <term id="t17" type="open" lemma="oops" pos="O" morphofeat="UH">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t18" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--sorry-->
+    <term id="t19" type="open" lemma="sorry" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t20" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(think-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--SBJ(know-4, I-3)-->
+    <dep from="t4" to="t3" rfunc="SBJ" />
+    <!--OBJ(think-2, know-4)-->
+    <dep from="t2" to="t4" rfunc="OBJ" />
+    <!--PRP(were-8, why-5)-->
+    <dep from="t8" to="t5" rfunc="PRP" />
+    <!--NMOD(media-7, the-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--SBJ(were-8, media-7)-->
+    <dep from="t8" to="t7" rfunc="SBJ" />
+    <!--OBJ(know-4, were-8)-->
+    <dep from="t4" to="t8" rfunc="OBJ" />
+    <!--VC(were-8, asking-9)-->
+    <dep from="t8" to="t9" rfunc="VC" />
+    <!--ADV(asking-9, about-10)-->
+    <dep from="t9" to="t10" rfunc="ADV" />
+    <!--NAME(Beam-12, Louis-11)-->
+    <dep from="t12" to="t11" rfunc="NAME" />
+    <!--PMOD(about-10, Beam-12)-->
+    <dep from="t10" to="t12" rfunc="PMOD" />
+    <!--TMP(asking-9, recently-13)-->
+    <dep from="t9" to="t13" rfunc="TMP" />
+    <!--P(think-2, ...-14)-->
+    <dep from="t2" to="t14" rfunc="P" />
+    <!--P(think-2, ...-15)-->
+    <dep from="t2" to="t15" rfunc="P" />
+    <!--P(think-2, .-16)-->
+    <dep from="t2" to="t16" rfunc="P" />
+    <!--DEP(sorry-19, Oops-17)-->
+    <dep from="t19" to="t17" rfunc="DEP" />
+    <!--P(sorry-19, ...-18)-->
+    <dep from="t19" to="t18" rfunc="P" />
+    <!--P(sorry-19, ...-20)-->
+    <dep from="t19" to="t20" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="ORGANIZATION">
+      <references>
+        <!--Louis Beam-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Louis_Beam" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--media-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--I-->
+      <span>
+        <target id="t1" head="yes" />
+      </span>
+      <!--I-->
+      <span>
+        <target id="t3" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="PAST_REF">
+      <!--recently-->
+      <span>
+        <target id="w13" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mass_media" confidence="0.8264174860316896" spotted="true">
+      <!--media-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Oops!..._I_Did_It_Again" confidence="0.9976623092086591" spotted="true">
+      <!--Oops-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Louis_Beam" confidence="0.9999999966913293" spotted="true">
+      <!--Louis Beam-->
+      <span>
+        <target id="w11" />
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 think : A0[t1 I] A1[t3 I]-->
+    <predicate id="f_pr4" source="semafor" confidence="56.221339591586975">
+      <!--think-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Opinion" />
+        <externalRef resource="PropBank" reference="think.01" source="mate" />
+        <externalRef resource="VerbNet" reference="wish-62" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00631737-v" />
+        <externalRef resource="FrameBase" reference="frame-Opinion-think.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Cognizer" />
+          <externalRef resource="VerbNet" reference="wish-62@Experiencer" />
+          <externalRef resource="PropBank" reference="think.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A1">
+        <!--I know why the media were asking about Louis Beam recently-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Opinion@Opinion" />
+          <externalRef resource="VerbNet" reference="wish-62@Theme" />
+          <externalRef resource="PropBank" reference="think.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Opinion-Opinion" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 know : A1[t5 why] A0[t3 I] A0[t1 I]-->
+    <predicate id="f_pr5" source="semafor" confidence="79.72490056298815">
+      <!--know-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="PropBank" reference="know.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A1">
+        <!--why the media were asking about Louis Beam recently-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="know.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="A0">
+        <!--I think I know why the media were asking about Louis Beam recently ... ... .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 why :-->
+    <predicate id="f_pr6" source="semafor" confidence="9.633040145395043">
+      <!--why-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reason" />
+      </externalReferences>
+    </predicate>
+    <!--t9 asking : A0[t6 the] AM-TMP[t13 recently] A1[t10 about]-->
+    <predicate id="f_pr7" source="semafor" confidence="65.91904769943497">
+      <!--asking-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Request" />
+        <externalRef resource="PropBank" reference="ask.01" source="mate" />
+        <externalRef resource="VerbNet" reference="inquire-37.1.2" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00784342-v" />
+        <externalRef resource="WordNet" reference="ili-30-00784727-v" />
+        <externalRef resource="WordNet" reference="ili-30-00897746-v" />
+        <externalRef resource="FrameBase" reference="frame-Request-ask.v" />
+      </externalReferences>
+      <role id="rl13" semRole="A0">
+        <!--the media-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Request@Speaker" />
+          <externalRef resource="VerbNet" reference="inquire-37.1.2@Agent" />
+          <externalRef resource="PropBank" reference="ask.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Request-Speaker" />
+        </externalReferences>
+      </role>
+      <role id="rl15" semRole="AM-TMP">
+        <!--recently-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+      <role id="rl16" semRole="A1">
+        <!--about Louis Beam-->
+        <span>
+          <target id="t10" head="yes" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="inquire-37.1.2@Topic" />
+          <externalRef resource="PropBank" reference="ask.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 recently :-->
+    <predicate id="f_pr8" source="semafor" confidence="35.27418739947149">
+      <!--recently-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temporal_collocation" />
+        <externalRef resource="FrameBase" reference="frame-Temporal_collocation-recently.adv" />
+      </externalReferences>
+    </predicate>
+    <!--t19 sorry : [t17 Oops]-->
+    <predicate id="f_pr9" source="semafor" confidence="28.467429911486523">
+      <!--sorry-->
+      <span>
+        <target id="t19" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Contrition" />
+        <externalRef resource="FrameBase" reference="frame-Contrition-sorry.a" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--Oops ... sorry ...-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Contrition@Emotional_state" />
+          <externalRef resource="FrameBase" reference="fe-Contrition-Emotional_state" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (NP (PRP I)) (VP (VBP think) (S (NP (PRP I)) (VP (VB know) (SBAR (WHADVP (WRB why)) (S (NP (DT the) (NNS media)) (VP (VBD were) (VP (VBG asking) (PP (IN about) (NP (NNP Louis) (NNP Beam))) (ADVP (RB recently)))))))))) (: ...) (: ...) (. .)))</tree>
+    <tree sentence="2">(ROOT (FRAG (FRAG (UH Oops)) (: ...) (FRAG (ADJP (JJ sorry)) (: ...))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VBP" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="PRP" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VB" />
+      <nt id="nter13" label="SBAR" />
+      <nt id="nter14" label="WHADVP" />
+      <nt id="nter15" label="WRB" />
+      <nt id="nter16" label="S" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="DT" />
+      <nt id="nter19" label="NNS" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VBD" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VBG" />
+      <nt id="nter24" label="PP" />
+      <nt id="nter25" label="IN" />
+      <nt id="nter26" label="NP" />
+      <nt id="nter27" label="NNP" />
+      <nt id="nter28" label="NNP" />
+      <nt id="nter29" label="ADVP" />
+      <nt id="nter30" label="RB" />
+      <nt id="nter31" label=":" />
+      <nt id="nter32" label=":" />
+      <nt id="nter33" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--think-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--know-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--why-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--media-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--were-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--asking-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--about-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Louis-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Beam-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--recently-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter3" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="ter2" to="nter7" />
+      <edge id="tre10" from="nter8" to="nter6" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="nter10" to="nter9" head="yes" />
+      <edge id="tre13" from="ter3" to="nter10" />
+      <edge id="tre14" from="nter11" to="nter8" head="yes" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="ter4" to="nter12" />
+      <edge id="tre17" from="nter13" to="nter11" />
+      <edge id="tre18" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="nter15" to="nter14" head="yes" />
+      <edge id="tre20" from="ter5" to="nter15" />
+      <edge id="tre21" from="nter16" to="nter13" />
+      <edge id="tre22" from="nter17" to="nter16" />
+      <edge id="tre23" from="nter18" to="nter17" />
+      <edge id="tre24" from="ter6" to="nter18" />
+      <edge id="tre25" from="nter19" to="nter17" head="yes" />
+      <edge id="tre26" from="ter7" to="nter19" />
+      <edge id="tre27" from="nter20" to="nter16" head="yes" />
+      <edge id="tre28" from="nter21" to="nter20" head="yes" />
+      <edge id="tre29" from="ter8" to="nter21" />
+      <edge id="tre30" from="nter22" to="nter20" />
+      <edge id="tre31" from="nter23" to="nter22" head="yes" />
+      <edge id="tre32" from="ter9" to="nter23" />
+      <edge id="tre33" from="nter24" to="nter22" />
+      <edge id="tre34" from="nter25" to="nter24" head="yes" />
+      <edge id="tre35" from="ter10" to="nter25" />
+      <edge id="tre36" from="nter26" to="nter24" />
+      <edge id="tre37" from="nter27" to="nter26" />
+      <edge id="tre38" from="ter11" to="nter27" />
+      <edge id="tre39" from="nter28" to="nter26" head="yes" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter22" />
+      <edge id="tre42" from="nter30" to="nter29" head="yes" />
+      <edge id="tre43" from="ter13" to="nter30" />
+      <edge id="tre44" from="nter31" to="nter2" />
+      <edge id="tre45" from="ter14" to="nter31" />
+      <edge id="tre46" from="nter32" to="nter2" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter2" />
+      <edge id="tre49" from="ter16" to="nter33" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter34" label="ROOT" />
+      <nt id="nter35" label="FRAG" />
+      <nt id="nter36" label="FRAG" />
+      <nt id="nter37" label="UH" />
+      <nt id="nter38" label=":" />
+      <nt id="nter39" label="FRAG" />
+      <nt id="nter40" label="ADJP" />
+      <nt id="nter41" label="JJ" />
+      <nt id="nter42" label=":" />
+      <!--Terminals-->
+      <!--Oops-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--sorry-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre51" from="nter35" to="nter34" head="yes" />
+      <edge id="tre52" from="nter36" to="nter35" />
+      <edge id="tre53" from="nter37" to="nter36" head="yes" />
+      <edge id="tre54" from="ter17" to="nter37" />
+      <edge id="tre55" from="nter38" to="nter35" />
+      <edge id="tre56" from="ter18" to="nter38" />
+      <edge id="tre57" from="nter39" to="nter35" head="yes" />
+      <edge id="tre58" from="nter40" to="nter39" />
+      <edge id="tre59" from="nter41" to="nter40" head="yes" />
+      <edge id="tre60" from="ter19" to="nter41" />
+      <edge id="tre61" from="nter42" to="nter39" head="yes" />
+      <edge id="tre62" from="ter20" to="nter42" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:47+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:47.502+0100" endTimestamp="2017-11-20T12:32:47.844+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:47.846+0100" endTimestamp="2017-11-20T12:32:47.846+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[FALSE Genetics are real and dictate who we are. Aryan is ONLY inheritable.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="5">FALSE</wf>
+    <wf id="w2" sent="1" para="1" offset="6" length="8">Genetics</wf>
+    <wf id="w3" sent="1" para="1" offset="15" length="3">are</wf>
+    <wf id="w4" sent="1" para="1" offset="19" length="4">real</wf>
+    <wf id="w5" sent="1" para="1" offset="24" length="3">and</wf>
+    <wf id="w6" sent="1" para="1" offset="28" length="7">dictate</wf>
+    <wf id="w7" sent="1" para="1" offset="36" length="3">who</wf>
+    <wf id="w8" sent="1" para="1" offset="40" length="2">we</wf>
+    <wf id="w9" sent="1" para="1" offset="43" length="3">are</wf>
+    <wf id="w10" sent="1" para="1" offset="46" length="1">.</wf>
+    <wf id="w11" sent="2" para="1" offset="48" length="5">Aryan</wf>
+    <wf id="w12" sent="2" para="1" offset="54" length="2">is</wf>
+    <wf id="w13" sent="2" para="1" offset="57" length="4">ONLY</wf>
+    <wf id="w14" sent="2" para="1" offset="62" length="11">inheritable</wf>
+    <wf id="w15" sent="2" para="1" offset="73" length="1">.</wf>
+  </text>
+  <terms>
+    <!--FALSE-->
+    <term id="t1" type="open" lemma="false" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Genetics-->
+    <term id="t2" type="open" lemma="Genetics" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t3" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--real-->
+    <term id="t4" type="open" lemma="real" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t5" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--dictate-->
+    <term id="t6" type="open" lemma="dictate" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--who-->
+    <term id="t7" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t8" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t9" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t10" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Aryan-->
+    <term id="t11" type="open" lemma="Aryan" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t12" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--ONLY-->
+    <term id="t13" type="open" lemma="ONLY" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--inheritable-->
+    <term id="t14" type="open" lemma="inheritable" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(Genetics-2, FALSE-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--SBJ(are-3, Genetics-2)-->
+    <dep from="t3" to="t2" rfunc="SBJ" />
+    <!--PRD(are-3, real-4)-->
+    <dep from="t3" to="t4" rfunc="PRD" />
+    <!--COORD(are-3, and-5)-->
+    <dep from="t3" to="t5" rfunc="COORD" />
+    <!--CONJ(and-5, dictate-6)-->
+    <dep from="t5" to="t6" rfunc="CONJ" />
+    <!--PRD(are-9, who-7)-->
+    <dep from="t9" to="t7" rfunc="PRD" />
+    <!--SBJ(are-9, we-8)-->
+    <dep from="t9" to="t8" rfunc="SBJ" />
+    <!--OBJ(dictate-6, are-9)-->
+    <dep from="t6" to="t9" rfunc="OBJ" />
+    <!--P(are-3, .-10)-->
+    <dep from="t3" to="t10" rfunc="P" />
+    <!--SBJ(is-12, Aryan-11)-->
+    <dep from="t12" to="t11" rfunc="SBJ" />
+    <!--OBJ(is-12, ONLY-13)-->
+    <dep from="t12" to="t13" rfunc="OBJ" />
+    <!--OPRD(is-12, inheritable-14)-->
+    <dep from="t12" to="t14" rfunc="OPRD" />
+    <!--P(is-12, .-15)-->
+    <dep from="t12" to="t15" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Aryan-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aryan_race" confidence="0.58480316" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--FALSE-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/FALSE" confidence="0.9999099" />
+      </externalReferences>
+    </entity>
+    <entity id="e3">
+      <references>
+        <!--Genetics-->
+        <span>
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Genetics" confidence="0.998088" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--ONLY-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bestseller_(company)" confidence="0.9611203" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--who-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/FALSE" confidence="0.9999098956278938" spotted="true">
+      <!--FALSE-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Aryan_race" confidence="0.5848031843725826" spotted="true">
+      <!--Aryan-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Real_number" confidence="0.9572063586215498" spotted="true">
+      <!--real-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Genetics" confidence="0.9980880002411707" spotted="true">
+      <!--Genetics-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bestseller_(company)" confidence="0.9611203331096014" spotted="true">
+      <!--ONLY-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Dictation_(exercise)" confidence="0.9963831468533548" spotted="true">
+      <!--dictate-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Heredity" confidence="0.9007258195765802" spotted="true">
+      <!--inheritable-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 are : A2[t4 real] A1[t1 FALSE]-->
+    <predicate id="pr1" source="mate">
+      <!--are-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A2">
+        <!--real-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A1">
+        <!--FALSE Genetics-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t6 dictate : A0[t1 FALSE] A1[t7 who]-->
+    <predicate id="pr2" source="mate">
+      <!--dictate-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="dictate.01" source="mate" />
+        <externalRef resource="VerbNet" reference="dub-29.3" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00626890-v" />
+        <externalRef resource="WordNet" reference="ili-30-00715868-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Dictation_(exercise)" confidence="0.99638313" />
+      </externalReferences>
+      <role id="rl3" semRole="A0">
+        <!--FALSE Genetics-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="dub-29.3@Agent" />
+          <externalRef resource="PropBank" reference="dictate.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl4" semRole="A1">
+        <!--who we are-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="dub-29.3@Result" />
+          <externalRef resource="PropBank" reference="dictate.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 are : A1[t8 we] R-A2[t7 who]-->
+    <predicate id="pr3" source="mate">
+      <!--are-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl5" semRole="A1">
+        <!--we-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl6" semRole="R-A2">
+        <!--who-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 FALSE : [t1 FALSE]-->
+    <predicate id="f_pr4" source="semafor" confidence="13.308748514803742">
+      <!--FALSE-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Artificiality" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/FALSE" confidence="0.9999099" />
+        <externalRef resource="FrameBase" reference="frame-Artificiality-false.a" />
+      </externalReferences>
+      <role id="rl7" semRole="">
+        <!--FALSE Genetics-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Artificiality@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Artificiality-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 real : [t1 FALSE]-->
+    <predicate id="f_pr5" source="semafor" confidence="55.49712499788197">
+      <!--real-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Existence" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Real_number" confidence="0.95720637" />
+        <externalRef resource="FrameBase" reference="frame-Existence-exist.v" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--FALSE Genetics-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Existence@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Existence-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 is : A1[t11 Aryan] A2[t13 ONLY]-->
+    <predicate id="pr6" source="mate">
+      <!--is-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--Aryan-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </role>
+      <role id="rl10" semRole="A2">
+        <!--ONLY-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (JJ FALSE) (NNP Genetics)) (VP (VP (VBP are) (ADJP (JJ real))) (CC and) (VP (VBP dictate) (SBAR (WHNP (WP who)) (S (NP (PRP we)) (VP (VBP are)))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (NNP Aryan)) (VP (VBZ is) (NP (NP (NNP ONLY)) (ADJP (JJ inheritable)))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label="NNP" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VBP" />
+      <nt id="nter9" label="ADJP" />
+      <nt id="nter10" label="JJ" />
+      <nt id="nter11" label="CC" />
+      <nt id="nter12" label="VP" />
+      <nt id="nter13" label="VBP" />
+      <nt id="nter14" label="SBAR" />
+      <nt id="nter15" label="WHNP" />
+      <nt id="nter16" label="WP" />
+      <nt id="nter17" label="S" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="PRP" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VBP" />
+      <nt id="nter22" label="." />
+      <!--Terminals-->
+      <!--FALSE-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--Genetics-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--real-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--dictate-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--who-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter6" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter6" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter12" />
+      <edge id="tre21" from="nter15" to="nter14" head="yes" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter14" />
+      <edge id="tre25" from="nter18" to="nter17" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter17" head="yes" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter2" />
+      <edge id="tre32" from="ter10" to="nter22" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter23" label="ROOT" />
+      <nt id="nter24" label="S" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="NNP" />
+      <nt id="nter27" label="VP" />
+      <nt id="nter28" label="VBZ" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="NNP" />
+      <nt id="nter32" label="ADJP" />
+      <nt id="nter33" label="JJ" />
+      <nt id="nter34" label="." />
+      <!--Terminals-->
+      <!--Aryan-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--ONLY-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--inheritable-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre34" from="nter24" to="nter23" head="yes" />
+      <edge id="tre35" from="nter25" to="nter24" />
+      <edge id="tre36" from="nter26" to="nter25" head="yes" />
+      <edge id="tre37" from="ter11" to="nter26" />
+      <edge id="tre38" from="nter27" to="nter24" head="yes" />
+      <edge id="tre39" from="nter28" to="nter27" head="yes" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter27" />
+      <edge id="tre42" from="nter30" to="nter29" head="yes" />
+      <edge id="tre43" from="nter31" to="nter30" head="yes" />
+      <edge id="tre44" from="ter13" to="nter31" />
+      <edge id="tre45" from="nter32" to="nter29" />
+      <edge id="tre46" from="nter33" to="nter32" head="yes" />
+      <edge id="tre47" from="ter14" to="nter33" />
+      <edge id="tre48" from="nter34" to="nter24" />
+      <edge id="tre49" from="ter15" to="nter34" />
+    </tree>
+  </constituency>
+</NAF>

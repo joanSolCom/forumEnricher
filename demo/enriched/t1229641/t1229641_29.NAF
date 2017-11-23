@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:33:01+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:33:01.777+0100" endTimestamp="2017-11-20T12:33:02.181+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:33:02.183+0100" endTimestamp="2017-11-20T12:33:02.183+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[But, why waste bullets like that? A flamethrower should take care of the infestation.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">But</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="5" length="3">why</wf>
+    <wf id="w4" sent="1" para="1" offset="9" length="5">waste</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="7">bullets</wf>
+    <wf id="w6" sent="1" para="1" offset="23" length="4">like</wf>
+    <wf id="w7" sent="1" para="1" offset="28" length="4">that</wf>
+    <wf id="w8" sent="1" para="1" offset="32" length="1">?</wf>
+    <wf id="w9" sent="2" para="1" offset="34" length="1">A</wf>
+    <wf id="w10" sent="2" para="1" offset="36" length="12">flamethrower</wf>
+    <wf id="w11" sent="2" para="1" offset="49" length="6">should</wf>
+    <wf id="w12" sent="2" para="1" offset="56" length="4">take</wf>
+    <wf id="w13" sent="2" para="1" offset="61" length="4">care</wf>
+    <wf id="w14" sent="2" para="1" offset="66" length="2">of</wf>
+    <wf id="w15" sent="2" para="1" offset="69" length="3">the</wf>
+    <wf id="w16" sent="2" para="1" offset="73" length="11">infestation</wf>
+    <wf id="w17" sent="2" para="1" offset="84" length="1">.</wf>
+  </text>
+  <terms>
+    <!--But-->
+    <term id="t1" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--why-->
+    <term id="t3" type="open" lemma="why" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--waste-->
+    <term id="t4" type="open" lemma="waste" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--bullets-->
+    <term id="t5" type="open" lemma="bullet" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--like-->
+    <term id="t6" type="open" lemma="like" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t7" type="open" lemma="that" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t8" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--A-->
+    <term id="t9" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--flamethrower-->
+    <term id="t10" type="open" lemma="flamethrower" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--should-->
+    <term id="t11" type="open" lemma="should" pos="O" morphofeat="MD">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--take-->
+    <term id="t12" type="open" lemma="take" pos="V" morphofeat="VB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--care-->
+    <term id="t13" type="open" lemma="care" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t14" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t15" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--infestation-->
+    <term id="t16" type="open" lemma="infestation" pos="N" morphofeat="NN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t17" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--DEP(why-3, But-1)-->
+    <dep from="t3" to="t1" rfunc="DEP" />
+    <!--P(why-3, ,-2)-->
+    <dep from="t3" to="t2" rfunc="P" />
+    <!--NMOD(bullets-5, waste-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--NMOD(why-3, bullets-5)-->
+    <dep from="t3" to="t5" rfunc="NMOD" />
+    <!--NMOD(bullets-5, like-6)-->
+    <dep from="t5" to="t6" rfunc="NMOD" />
+    <!--PMOD(like-6, that-7)-->
+    <dep from="t6" to="t7" rfunc="PMOD" />
+    <!--P(why-3, ?-8)-->
+    <dep from="t3" to="t8" rfunc="P" />
+    <!--NMOD(flamethrower-10, A-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--SBJ(should-11, flamethrower-10)-->
+    <dep from="t11" to="t10" rfunc="SBJ" />
+    <!--VC(should-11, take-12)-->
+    <dep from="t11" to="t12" rfunc="VC" />
+    <!--OBJ(take-12, care-13)-->
+    <dep from="t12" to="t13" rfunc="OBJ" />
+    <!--ADV(take-12, of-14)-->
+    <dep from="t12" to="t14" rfunc="ADV" />
+    <!--NMOD(infestation-16, the-15)-->
+    <dep from="t16" to="t15" rfunc="NMOD" />
+    <!--PMOD(of-14, infestation-16)-->
+    <dep from="t14" to="t16" rfunc="PMOD" />
+    <!--P(should-11, .-17)-->
+    <dep from="t11" to="t17" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--flamethrower-->
+        <span>
+          <target id="t10" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Flamethrower" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--waste-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Waste" confidence="0.97155774" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--infestation-->
+        <span>
+          <target id="t16" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Infestation" confidence="0.9999908" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--bullets-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--care-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--why waste bullets-->
+      <span>
+        <target id="t3" head="yes" />
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+      <!--that-->
+      <span>
+        <target id="t7" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Conjunction_(grammar)" confidence="0.9363902304778002" spotted="true">
+      <!--But-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Flamethrower" confidence="0.9999999799051695" spotted="true">
+      <!--flamethrower-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Waste" confidence="0.9715577643622926" spotted="true">
+      <!--waste-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Infestation" confidence="0.9999908143796108" spotted="true">
+      <!--infestation-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bullet" confidence="0.9987294512258549" spotted="true">
+      <!--bullets-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 why : [t1 But]-->
+    <predicate id="f_pr1" source="semafor" confidence="9.669685874852583">
+      <!--why-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reason" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--But , why waste bullets like that ?-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Reason@State_of_Affairs" />
+          <externalRef resource="FrameBase" reference="fe-Reason-State_of_Affairs" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 bullets : [t4 waste]-->
+    <predicate id="f_pr2" source="semafor" confidence="14.624464770847503">
+      <!--bullets-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Ammunition" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bullet" confidence="0.99872947" />
+        <externalRef resource="FrameBase" reference="frame-Ammunition-bullet.n" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--waste bullets like that-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Ammunition@Ammunition" />
+          <externalRef resource="FrameBase" reference="fe-Ammunition-Ammunition" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 care : A0[t9 A] A1[t14 of]-->
+    <predicate id="pr4" source="mate">
+      <!--care-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="care.01" source="mate" />
+      </externalReferences>
+      <role id="rl6" semRole="A0">
+        <!--A flamethrower-->
+        <span>
+          <target id="t9" />
+          <target id="t10" head="yes" />
+        </span>
+      </role>
+      <role id="rl7" semRole="A1">
+        <!--of the infestation-->
+        <span>
+          <target id="t14" head="yes" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </role>
+    </predicate>
+    <!--t11 should : [t9 A]-->
+    <predicate id="f_pr5" source="semafor" confidence="46.003916761568924">
+      <!--should-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Required_event" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--A flamethrower-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Required_event@Required_situation" />
+          <externalRef resource="FrameBase" reference="fe-Required_event-Required_situation" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 take : A0[t9 A] [t13 care] AM-MOD[t9 A] A1[t13 care]-->
+    <predicate id="f_pr6" source="semafor" confidence="24.90884452472165">
+      <!--take-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Have_as_requirement" />
+        <externalRef resource="PropBank" reference="take.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1-1" />
+        <externalRef resource="ESO" reference="Transportation" />
+        <externalRef resource="ESO" reference="Removing" />
+        <externalRef resource="ESO" reference="Taking" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01999798-v" />
+        <externalRef resource="WordNet" reference="ili-30-02077656-v" />
+        <externalRef resource="WordNet" reference="ili-30-02717102-v" />
+        <externalRef resource="WordNet" reference="ili-30-02206619-v" />
+        <externalRef resource="WordNet" reference="ili-30-02289295-v" />
+        <externalRef resource="WordNet" reference="ili-30-02290196-v" />
+        <externalRef resource="FrameBase" reference="frame-Have_as_requirement-need.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--A flamethrower-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Have_as_requirement@Dependent" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="take.01@0" />
+          <externalRef resource="ESO" reference="Taking@possession-theme" />
+          <externalRef resource="ESO" reference="Removing@translocation-theme" />
+          <externalRef resource="ESO" reference="Transportation@translocation-theme" />
+          <externalRef resource="ESO" reference="Taking@possession-owner_1" />
+          <externalRef resource="FrameBase" reference="fe-Have_as_requirement-Dependent" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="">
+        <!--care of the infestation-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Have_as_requirement@Requirement" />
+          <externalRef resource="FrameBase" reference="fe-Have_as_requirement-Requirement" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="AM-MOD">
+        <!--A flamethrower should take care of the infestation .-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" head="yes" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </role>
+      <role id="rl12" semRole="A1">
+        <!--care-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="take.01@1" />
+          <externalRef resource="ESO" reference="Taking@possession-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 waste :-->
+    <predicate id="pr7">
+      <!--waste-->
+      <span>
+        <target id="t4" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="waste.01" />
+      </externalReferences>
+    </predicate>
+    <!--t16 infestation :-->
+    <predicate id="pr8">
+      <!--infestation-->
+      <span>
+        <target id="t16" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="infestation.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (CC But) (, ,) (S (NP (WRB why) (NN waste) (NNS bullets)) (PP (IN like) (NP (DT that)))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (S (NP (DT A) (NN flamethrower)) (VP (MD should) (VP (VB take) (NP (NP (NN care)) (PP (IN of) (NP (DT the) (NN infestation)))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="CC" />
+      <nt id="nter4" label="," />
+      <nt id="nter5" label="S" />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="WRB" />
+      <nt id="nter8" label="NN" />
+      <nt id="nter9" label="NNS" />
+      <nt id="nter10" label="PP" />
+      <nt id="nter11" label="IN" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="DT" />
+      <nt id="nter14" label="." />
+      <!--Terminals-->
+      <!--But-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--why-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--waste-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--bullets-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--like-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="ter2" to="nter4" />
+      <edge id="tre7" from="nter5" to="nter2" head="yes" />
+      <edge id="tre8" from="nter6" to="nter5" head="yes" />
+      <edge id="tre9" from="nter7" to="nter6" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter6" head="yes" />
+      <edge id="tre14" from="ter5" to="nter9" />
+      <edge id="tre15" from="nter10" to="nter5" />
+      <edge id="tre16" from="nter11" to="nter10" head="yes" />
+      <edge id="tre17" from="ter6" to="nter11" />
+      <edge id="tre18" from="nter12" to="nter10" />
+      <edge id="tre19" from="nter13" to="nter12" head="yes" />
+      <edge id="tre20" from="ter7" to="nter13" />
+      <edge id="tre21" from="nter14" to="nter2" />
+      <edge id="tre22" from="ter8" to="nter14" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter15" label="ROOT" />
+      <nt id="nter16" label="S" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="DT" />
+      <nt id="nter19" label="NN" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="MD" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VB" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="NP" />
+      <nt id="nter26" label="NN" />
+      <nt id="nter27" label="PP" />
+      <nt id="nter28" label="IN" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="DT" />
+      <nt id="nter31" label="NN" />
+      <nt id="nter32" label="." />
+      <!--Terminals-->
+      <!--A-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--flamethrower-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--should-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--take-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--care-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--infestation-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre24" from="nter16" to="nter15" head="yes" />
+      <edge id="tre25" from="nter17" to="nter16" />
+      <edge id="tre26" from="nter18" to="nter17" />
+      <edge id="tre27" from="ter9" to="nter18" />
+      <edge id="tre28" from="nter19" to="nter17" head="yes" />
+      <edge id="tre29" from="ter10" to="nter19" />
+      <edge id="tre30" from="nter20" to="nter16" head="yes" />
+      <edge id="tre31" from="nter21" to="nter20" head="yes" />
+      <edge id="tre32" from="ter11" to="nter21" />
+      <edge id="tre33" from="nter22" to="nter20" />
+      <edge id="tre34" from="nter23" to="nter22" head="yes" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter22" />
+      <edge id="tre37" from="nter25" to="nter24" head="yes" />
+      <edge id="tre38" from="nter26" to="nter25" head="yes" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter24" />
+      <edge id="tre41" from="nter28" to="nter27" head="yes" />
+      <edge id="tre42" from="ter14" to="nter28" />
+      <edge id="tre43" from="nter29" to="nter27" />
+      <edge id="tre44" from="nter30" to="nter29" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter29" head="yes" />
+      <edge id="tre47" from="ter16" to="nter31" />
+      <edge id="tre48" from="nter32" to="nter16" />
+      <edge id="tre49" from="ter17" to="nter32" />
+    </tree>
+  </constituency>
+</NAF>

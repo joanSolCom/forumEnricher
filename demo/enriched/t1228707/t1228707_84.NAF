@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:36:06+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:36:06.338+0100" endTimestamp="2017-11-21T16:36:06.764+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:36:06.766+0100" endTimestamp="2017-11-21T16:36:06.767+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[The human penchant of wanting something for nothing and voting into office politicians who promised just that.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="3">The</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="5">human</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="8">penchant</wf>
+    <wf id="w4" sent="1" para="1" offset="19" length="2">of</wf>
+    <wf id="w5" sent="1" para="1" offset="22" length="7">wanting</wf>
+    <wf id="w6" sent="1" para="1" offset="30" length="9">something</wf>
+    <wf id="w7" sent="1" para="1" offset="40" length="3">for</wf>
+    <wf id="w8" sent="1" para="1" offset="44" length="7">nothing</wf>
+    <wf id="w9" sent="1" para="1" offset="52" length="3">and</wf>
+    <wf id="w10" sent="1" para="1" offset="56" length="6">voting</wf>
+    <wf id="w11" sent="1" para="1" offset="63" length="4">into</wf>
+    <wf id="w12" sent="1" para="1" offset="68" length="6">office</wf>
+    <wf id="w13" sent="1" para="1" offset="75" length="11">politicians</wf>
+    <wf id="w14" sent="1" para="1" offset="87" length="3">who</wf>
+    <wf id="w15" sent="1" para="1" offset="91" length="8">promised</wf>
+    <wf id="w16" sent="1" para="1" offset="100" length="4">just</wf>
+    <wf id="w17" sent="1" para="1" offset="105" length="4">that</wf>
+    <wf id="w18" sent="1" para="1" offset="109" length="1">.</wf>
+  </text>
+  <terms>
+    <!--The-->
+    <term id="t1" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--human-->
+    <term id="t2" type="open" lemma="human" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--penchant-->
+    <term id="t3" type="open" lemma="penchant" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t4" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--wanting-->
+    <term id="t5" type="open" lemma="want" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--something-->
+    <term id="t6" type="open" lemma="something" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t7" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--nothing-->
+    <term id="t8" type="open" lemma="nothing" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t9" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--voting-->
+    <term id="t10" type="open" lemma="voting" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--into-->
+    <term id="t11" type="open" lemma="into" pos="P" morphofeat="IN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--office-->
+    <term id="t12" type="open" lemma="office" pos="N" morphofeat="NN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--politicians-->
+    <term id="t13" type="open" lemma="politician" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--who-->
+    <term id="t14" type="open" lemma="who" pos="Q" morphofeat="WP">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--promised-->
+    <term id="t15" type="open" lemma="promise" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t16" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t17" type="open" lemma="that" pos="D" morphofeat="DT">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t18" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(penchant-3, The-1)-->
+    <dep from="t3" to="t1" rfunc="NMOD" />
+    <!--NMOD(penchant-3, human-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--NMOD(penchant-3, of-4)-->
+    <dep from="t3" to="t4" rfunc="NMOD" />
+    <!--PMOD(of-4, wanting-5)-->
+    <dep from="t4" to="t5" rfunc="PMOD" />
+    <!--OBJ(wanting-5, something-6)-->
+    <dep from="t5" to="t6" rfunc="OBJ" />
+    <!--NMOD(something-6, for-7)-->
+    <dep from="t6" to="t7" rfunc="NMOD" />
+    <!--PMOD(for-7, nothing-8)-->
+    <dep from="t7" to="t8" rfunc="PMOD" />
+    <!--COORD(nothing-8, and-9)-->
+    <dep from="t8" to="t9" rfunc="COORD" />
+    <!--CONJ(and-9, voting-10)-->
+    <dep from="t9" to="t10" rfunc="CONJ" />
+    <!--ADV(wanting-5, into-11)-->
+    <dep from="t5" to="t11" rfunc="ADV" />
+    <!--NMOD(politicians-13, office-12)-->
+    <dep from="t13" to="t12" rfunc="NMOD" />
+    <!--PMOD(into-11, politicians-13)-->
+    <dep from="t11" to="t13" rfunc="PMOD" />
+    <!--SBJ(promised-15, who-14)-->
+    <dep from="t15" to="t14" rfunc="SBJ" />
+    <!--NMOD(politicians-13, promised-15)-->
+    <dep from="t13" to="t15" rfunc="NMOD" />
+    <!--OBJ(promised-15, just-16)-->
+    <dep from="t15" to="t16" rfunc="OBJ" />
+    <!--NMOD(just-16, that-17)-->
+    <dep from="t16" to="t17" rfunc="NMOD" />
+    <!--P(penchant-3, .-18)-->
+    <dep from="t3" to="t18" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--human-->
+        <span>
+          <target id="t2" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Human" confidence="0.92802125" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--office-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Office" confidence="0.9132239" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--voting-->
+        <span>
+          <target id="t10" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Voting" confidence="0.99781924" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--penchant-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--something-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--nothing-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--politicians-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--who-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/English_articles" confidence="0.9015523877283611" spotted="true">
+      <!--The-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Human" confidence="0.928021250422975" spotted="true">
+      <!--human-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Office" confidence="0.9132239478775499" spotted="true">
+      <!--office-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Voting" confidence="0.9978192726678845" spotted="true">
+      <!--voting-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Politician" confidence="0.9856049290968127" spotted="true">
+      <!--politicians-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Promise" confidence="0.9271351960033272" spotted="true">
+      <!--promised-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t10 voting :-->
+    <predicate id="pr3" source="mate">
+      <!--voting-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="voting.01" source="mate" />
+        <externalRef resource="VerbNet" reference="dub-29.3" />
+        <externalRef resource="PropBank" reference="vote.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02462201-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Voting" confidence="0.99781924" />
+      </externalReferences>
+    </predicate>
+    <!--t2 human : [t2 human]-->
+    <predicate id="f_pr5" source="semafor" confidence="43.43260232751828">
+      <!--human-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Human" confidence="0.92802125" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--human-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t3 penchant : A1[t4 of] A0[t2 human]-->
+    <predicate id="f_pr6" source="semafor" confidence="22.097420023848024">
+      <!--penchant-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Inclination" />
+        <externalRef resource="NomBank" reference="penchant.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Inclination-penchant.n" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--of wanting something for nothing and voting into office politicians who promised just that-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Inclination@Behavior" />
+          <externalRef resource="FrameBase" reference="fe-Inclination-Behavior" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="A0">
+        <!--human-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 wanting : A1[t6 something] A2[t11 into]-->
+    <predicate id="f_pr7" source="semafor" confidence="81.5124038117724">
+      <!--wanting-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Desiring" />
+        <externalRef resource="PropBank" reference="want.01" source="mate" />
+        <externalRef resource="VerbNet" reference="appoint-29.1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00709205-v" />
+        <externalRef resource="FrameBase" reference="frame-Desiring-hope.v" />
+      </externalReferences>
+      <role id="rl10" semRole="A1">
+        <!--something for nothing and voting-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Desiring@Event" />
+          <externalRef resource="VerbNet" reference="appoint-29.1@Result" />
+          <externalRef resource="PropBank" reference="want.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Desiring-Event" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="A2">
+        <!--into office politicians who promised just that-->
+        <span>
+          <target id="t11" head="yes" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </role>
+    </predicate>
+    <!--t12 office : [t12 office]-->
+    <predicate id="f_pr8" source="semafor" confidence="23.615998582628947">
+      <!--office-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Building_subparts" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Office" confidence="0.9132239" />
+        <externalRef resource="FrameBase" reference="frame-Building_subparts-office.n" />
+      </externalReferences>
+      <role id="rl11" semRole="">
+        <!--office-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Building_subparts@Building_part" />
+          <externalRef resource="FrameBase" reference="fe-Building_subparts-Building_part" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 politicians : [t12 office] [t14 who] [t12 office]-->
+    <predicate id="f_pr9" source="semafor" confidence="59.29380725104539">
+      <!--politicians-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_vocation" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Politician" confidence="0.98560494" />
+        <externalRef resource="FrameBase" reference="frame-People_by_vocation-politician.n" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--office politicians who promised just that-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_vocation@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_vocation-Person" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="">
+        <!--who promised just that-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_vocation@Descriptor" />
+          <externalRef resource="FrameBase" reference="fe-People_by_vocation-Descriptor" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="">
+        <!--office-->
+        <span>
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_vocation@Employer" />
+          <externalRef resource="FrameBase" reference="fe-People_by_vocation-Employer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 promised : A2[t16 just] [t11 into] R-A0[t14 who] A0[t12 office]-->
+    <predicate id="f_pr10" source="semafor" confidence="43.00022950501588">
+      <!--promised-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Commitment" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Promise" confidence="0.92713517" />
+        <externalRef resource="PropBank" reference="promise.01" source="mate" />
+        <externalRef resource="VerbNet" reference="future_having-13.3" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00884317-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Promise" confidence="0.92713517" />
+        <externalRef resource="FrameBase" reference="frame-Commitment-pledge.v" />
+      </externalReferences>
+      <role id="rl15" semRole="A2">
+        <!--just that-->
+        <span>
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Commitment@Message" />
+          <externalRef resource="VerbNet" reference="future_having-13.3@Theme" />
+          <externalRef resource="VerbNet" reference="future_having-13.3@Goal" />
+          <externalRef resource="PropBank" reference="promise.01@2" />
+          <externalRef resource="FrameBase" reference="fe-Commitment-Message" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="">
+        <!--into office politicians who promised just that-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Commitment@Speaker" />
+          <externalRef resource="FrameBase" reference="fe-Commitment-Speaker" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="R-A0">
+        <!--who-->
+        <span>
+          <target id="t14" head="yes" />
+        </span>
+      </role>
+      <role id="rl20" semRole="A0">
+        <!--office politicians who promised just that-->
+        <span>
+          <target id="t12" />
+          <target id="t13" head="yes" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="future_having-13.3@Agent" />
+          <externalRef resource="PropBank" reference="promise.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (DT The) (JJ human) (NN penchant)) (PP (IN of) (S (VP (VBG wanting) (NP (NP (NN something)) (PP (IN for) (NP (NN nothing) (CC and) (NN voting)))) (PP (IN into) (NP (NP (NN office) (NNS politicians)) (SBAR (WHNP (WP who)) (S (VP (VBD promised) (NP (RB just) (DT that)))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="DT" />
+      <nt id="nter5" label="JJ" />
+      <nt id="nter6" label="NN" />
+      <nt id="nter7" label="PP" />
+      <nt id="nter8" label="IN" />
+      <nt id="nter9" label="S" />
+      <nt id="nter10" label="VP" />
+      <nt id="nter11" label="VBG" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="NN" />
+      <nt id="nter15" label="PP" />
+      <nt id="nter16" label="IN" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="NN" />
+      <nt id="nter19" label="CC" />
+      <nt id="nter20" label="NN" />
+      <nt id="nter21" label="PP" />
+      <nt id="nter22" label="IN" />
+      <nt id="nter23" label="NP" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="NN" />
+      <nt id="nter26" label="NNS" />
+      <nt id="nter27" label="SBAR" />
+      <nt id="nter28" label="WHNP" />
+      <nt id="nter29" label="WP" />
+      <nt id="nter30" label="S" />
+      <nt id="nter31" label="VP" />
+      <nt id="nter32" label="VBD" />
+      <nt id="nter33" label="NP" />
+      <nt id="nter34" label="RB" />
+      <nt id="nter35" label="DT" />
+      <nt id="nter36" label="." />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--human-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--penchant-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--wanting-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--something-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--nothing-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--voting-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--into-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--office-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--politicians-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--who-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--promised-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter3" head="yes" />
+      <edge id="tre9" from="ter3" to="nter6" />
+      <edge id="tre10" from="nter7" to="nter2" />
+      <edge id="tre11" from="nter8" to="nter7" head="yes" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter7" />
+      <edge id="tre14" from="nter10" to="nter9" head="yes" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter10" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter12" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="ter7" to="nter16" />
+      <edge id="tre24" from="nter17" to="nter15" />
+      <edge id="tre25" from="nter18" to="nter17" head="yes" />
+      <edge id="tre26" from="ter8" to="nter18" />
+      <edge id="tre27" from="nter19" to="nter17" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter17" />
+      <edge id="tre30" from="ter10" to="nter20" />
+      <edge id="tre31" from="nter21" to="nter10" />
+      <edge id="tre32" from="nter22" to="nter21" head="yes" />
+      <edge id="tre33" from="ter11" to="nter22" />
+      <edge id="tre34" from="nter23" to="nter21" />
+      <edge id="tre35" from="nter24" to="nter23" head="yes" />
+      <edge id="tre36" from="nter25" to="nter24" />
+      <edge id="tre37" from="ter12" to="nter25" />
+      <edge id="tre38" from="nter26" to="nter24" head="yes" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter23" />
+      <edge id="tre41" from="nter28" to="nter27" head="yes" />
+      <edge id="tre42" from="nter29" to="nter28" head="yes" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter27" />
+      <edge id="tre45" from="nter31" to="nter30" head="yes" />
+      <edge id="tre46" from="nter32" to="nter31" head="yes" />
+      <edge id="tre47" from="ter15" to="nter32" />
+      <edge id="tre48" from="nter33" to="nter31" />
+      <edge id="tre49" from="nter34" to="nter33" head="yes" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter33" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter2" />
+      <edge id="tre54" from="ter18" to="nter36" />
+    </tree>
+  </constituency>
+</NAF>

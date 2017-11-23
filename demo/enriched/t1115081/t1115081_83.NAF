@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:39+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:39.567+0100" endTimestamp="2017-11-20T12:30:39.961+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:39.963+0100" endTimestamp="2017-11-20T12:30:39.964+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Gilamut, care to respond to some of my more recent posts in this thread? Hope so!]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="7">Gilamut</wf>
+    <wf id="w2" sent="1" para="1" offset="7" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="9" length="4">care</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="2">to</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="7">respond</wf>
+    <wf id="w6" sent="1" para="1" offset="25" length="2">to</wf>
+    <wf id="w7" sent="1" para="1" offset="28" length="4">some</wf>
+    <wf id="w8" sent="1" para="1" offset="33" length="2">of</wf>
+    <wf id="w9" sent="1" para="1" offset="36" length="2">my</wf>
+    <wf id="w10" sent="1" para="1" offset="39" length="4">more</wf>
+    <wf id="w11" sent="1" para="1" offset="44" length="6">recent</wf>
+    <wf id="w12" sent="1" para="1" offset="51" length="5">posts</wf>
+    <wf id="w13" sent="1" para="1" offset="57" length="2">in</wf>
+    <wf id="w14" sent="1" para="1" offset="60" length="4">this</wf>
+    <wf id="w15" sent="1" para="1" offset="65" length="6">thread</wf>
+    <wf id="w16" sent="1" para="1" offset="71" length="1">?</wf>
+    <wf id="w17" sent="2" para="1" offset="73" length="4">Hope</wf>
+    <wf id="w18" sent="2" para="1" offset="78" length="2">so</wf>
+    <wf id="w19" sent="2" para="1" offset="80" length="1">!</wf>
+  </text>
+  <terms>
+    <!--Gilamut-->
+    <term id="t1" type="open" lemma="Gilamut" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--care-->
+    <term id="t3" type="open" lemma="care" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t4" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--respond-->
+    <term id="t5" type="open" lemma="respond" pos="V" morphofeat="VB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t6" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--some-->
+    <term id="t7" type="open" lemma="some" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t8" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--my-->
+    <term id="t9" type="open" lemma="my" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--more-->
+    <term id="t10" type="open" lemma="more" pos="G" morphofeat="JJR">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--recent-->
+    <term id="t11" type="open" lemma="recent" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--posts-->
+    <term id="t12" type="open" lemma="post" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--in-->
+    <term id="t13" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t14" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--thread-->
+    <term id="t15" type="open" lemma="thread" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t16" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Hope-->
+    <term id="t17" type="open" lemma="Hope" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--so-->
+    <term id="t18" type="open" lemma="so" pos="A" morphofeat="RB">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--!-->
+    <term id="t19" type="open" lemma="!" pos="O" morphofeat=".">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Gilamut-1, ,-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--APPO(Gilamut-1, care-3)-->
+    <dep from="t1" to="t3" rfunc="APPO" />
+    <!--NMOD(care-3, to-4)-->
+    <dep from="t3" to="t4" rfunc="NMOD" />
+    <!--IM(to-4, respond-5)-->
+    <dep from="t4" to="t5" rfunc="IM" />
+    <!--ADV(respond-5, to-6)-->
+    <dep from="t5" to="t6" rfunc="ADV" />
+    <!--PMOD(to-6, some-7)-->
+    <dep from="t6" to="t7" rfunc="PMOD" />
+    <!--NMOD(some-7, of-8)-->
+    <dep from="t7" to="t8" rfunc="NMOD" />
+    <!--NMOD(posts-12, my-9)-->
+    <dep from="t12" to="t9" rfunc="NMOD" />
+    <!--AMOD(recent-11, more-10)-->
+    <dep from="t11" to="t10" rfunc="AMOD" />
+    <!--NMOD(posts-12, recent-11)-->
+    <dep from="t12" to="t11" rfunc="NMOD" />
+    <!--PMOD(of-8, posts-12)-->
+    <dep from="t8" to="t12" rfunc="PMOD" />
+    <!--LOC(posts-12, in-13)-->
+    <dep from="t12" to="t13" rfunc="LOC" />
+    <!--NMOD(thread-15, this-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--PMOD(in-13, thread-15)-->
+    <dep from="t13" to="t15" rfunc="PMOD" />
+    <!--P(Gilamut-1, ?-16)-->
+    <dep from="t1" to="t16" rfunc="P" />
+    <!--NMOD(Hope-17, so-18)-->
+    <dep from="t17" to="t18" rfunc="NMOD" />
+    <!--P(Hope-17, !-19)-->
+    <dep from="t17" to="t19" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Gilamut-->
+        <span>
+          <target id="t1" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Hope-->
+        <span>
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hope,_British_Columbia" confidence="0.33662647" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--care-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--my-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--posts-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--thread-->
+        <span>
+          <target id="t15" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.6503060103155003" spotted="true">
+      <!--thread-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Internet_forum" confidence="0.8807943786336915" spotted="true">
+      <!--posts-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hope,_British_Columbia" confidence="0.33662646719729145" spotted="true">
+      <!--Hope-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 care : A1[t4 to]-->
+    <predicate id="pr1" source="mate">
+      <!--care-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="care.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--to respond to some of my more recent posts in this thread-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </role>
+    </predicate>
+    <!--t5 respond : A1[t6 to]-->
+    <predicate id="f_pr4" source="semafor" confidence="48.28638451872649">
+      <!--respond-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Response" />
+        <externalRef resource="PropBank" reference="respond.01" source="mate" />
+        <externalRef resource="VerbNet" reference="say-37.7" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Response-react.v" />
+      </externalReferences>
+      <role id="rl7" semRole="A1">
+        <!--to some of my more recent posts in this thread-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Response@Trigger" />
+          <externalRef resource="VerbNet" reference="say-37.7@Recipient" />
+          <externalRef resource="PropBank" reference="respond.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Response-Trigger" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 some : [t8 of] [t7 some]-->
+    <predicate id="f_pr5" source="semafor" confidence="25.625539927425848">
+      <!--some-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+        <externalRef resource="FrameBase" reference="frame-Relational_quantity-some.art" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--of my more recent posts in this thread-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Individuals" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="">
+        <!--some of my more recent posts in this thread-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 more : [t7 some]-->
+    <predicate id="f_pr6" source="semafor" confidence="22.43224550715872">
+      <!--more-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+        <externalRef resource="FrameBase" reference="frame-Increment-more.a" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--some of my more recent posts in this thread-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Added_set" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Added_set" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 recent :-->
+    <predicate id="f_pr7" source="semafor" confidence="20.920901315463922">
+      <!--recent-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relative_time" />
+        <externalRef resource="FrameBase" reference="frame-Relative_time-late.a" />
+      </externalReferences>
+    </predicate>
+    <!--t12 posts : AM-TMP[t10 more] A1[t13 in] A0[t9 my] A1[t9 my]-->
+    <predicate id="f_pr8" source="semafor" confidence="79.56551664201157">
+      <!--posts-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sending" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Internet_forum" confidence="0.8807944" />
+        <externalRef resource="NomBank" reference="post.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Internet_forum" confidence="0.8807944" />
+      </externalReferences>
+      <role id="rl11" semRole="AM-TMP">
+        <!--more recent-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sending@Theme" />
+          <externalRef resource="FrameBase" reference="fe-Sending-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl13" semRole="A1">
+        <!--in this thread-->
+        <span>
+          <target id="t13" head="yes" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </role>
+      <role id="rl14" semRole="A0">
+        <!--my-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </role>
+      <role id="rl15" semRole="A1">
+        <!--my more recent posts in this thread-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" head="yes" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </role>
+    </predicate>
+    <!--t15 thread : [t14 this]-->
+    <predicate id="f_pr9" source="semafor" confidence="50.45163678969392">
+      <!--thread-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Natural_features" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.650306" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--this thread-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Natural_features@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Natural_features-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 Hope :-->
+    <predicate id="f_pr10" source="semafor" confidence="83.9382750813556">
+      <!--Hope-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Desiring" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Hope,_British_Columbia" confidence="0.33662647" />
+        <externalRef resource="FrameBase" reference="frame-Desiring-hope.v" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (NNP Gilamut)) (, ,) (NP (NN care) (S (VP (TO to) (VP (VB respond) (PP (TO to) (NP (NP (DT some)) (PP (IN of) (NP (NP (PRP$ my) (JJR more) (JJ recent) (NNS posts)) (PP (IN in) (NP (DT this) (NN thread))))))))))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (FRAG (NP (NNP Hope)) (ADVP (RB so)) (. !)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NNP" />
+      <nt id="nter5" label="," />
+      <nt id="nter6" label="NP" />
+      <nt id="nter7" label="NN" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="VP" />
+      <nt id="nter10" label="TO" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VB" />
+      <nt id="nter13" label="PP" />
+      <nt id="nter14" label="TO" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="DT" />
+      <nt id="nter18" label="PP" />
+      <nt id="nter19" label="IN" />
+      <nt id="nter20" label="NP" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="PRP$" />
+      <nt id="nter23" label="JJR" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="NNS" />
+      <nt id="nter26" label="PP" />
+      <nt id="nter27" label="IN" />
+      <nt id="nter28" label="NP" />
+      <nt id="nter29" label="DT" />
+      <nt id="nter30" label="NN" />
+      <nt id="nter31" label="." />
+      <!--Terminals-->
+      <!--Gilamut-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--care-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--respond-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--some-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--my-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--more-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--recent-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--posts-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--thread-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter9" />
+      <edge id="tre16" from="nter12" to="nter11" head="yes" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter11" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" />
+      <edge id="tre22" from="nter16" to="nter15" head="yes" />
+      <edge id="tre23" from="nter17" to="nter16" head="yes" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter15" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter18" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="nter22" to="nter21" />
+      <edge id="tre31" from="ter9" to="nter22" />
+      <edge id="tre32" from="nter23" to="nter21" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter21" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter21" head="yes" />
+      <edge id="tre37" from="ter12" to="nter25" />
+      <edge id="tre38" from="nter26" to="nter20" />
+      <edge id="tre39" from="nter27" to="nter26" head="yes" />
+      <edge id="tre40" from="ter13" to="nter27" />
+      <edge id="tre41" from="nter28" to="nter26" />
+      <edge id="tre42" from="nter29" to="nter28" />
+      <edge id="tre43" from="ter14" to="nter29" />
+      <edge id="tre44" from="nter30" to="nter28" head="yes" />
+      <edge id="tre45" from="ter15" to="nter30" />
+      <edge id="tre46" from="nter31" to="nter2" />
+      <edge id="tre47" from="ter16" to="nter31" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter32" label="ROOT" />
+      <nt id="nter33" label="FRAG" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="NNP" />
+      <nt id="nter36" label="ADVP" />
+      <nt id="nter37" label="RB" />
+      <nt id="nter38" label="." />
+      <!--Terminals-->
+      <!--Hope-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--so-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--!-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="nter34" to="nter33" />
+      <edge id="tre51" from="nter35" to="nter34" head="yes" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter33" />
+      <edge id="tre54" from="nter37" to="nter36" head="yes" />
+      <edge id="tre55" from="ter18" to="nter37" />
+      <edge id="tre56" from="nter38" to="nter33" head="yes" />
+      <edge id="tre57" from="ter19" to="nter38" />
+    </tree>
+  </constituency>
+</NAF>

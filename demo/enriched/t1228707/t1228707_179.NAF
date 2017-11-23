@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:28+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:28.517+0100" endTimestamp="2017-11-21T16:39:29.499+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:29.501+0100" endTimestamp="2017-11-21T16:39:29.502+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[G'day, I would lay the multifaceted "blame" to include all the individual Commander of Chiefs of the all the armed forces of the all the nations that gave the orders to mobilize their military for war.....amongst the rest of the obvious decision making culprits.... Regards, Southern Born.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="5">G'day</wf>
+    <wf id="w2" sent="1" para="1" offset="5" length="1">,</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="1">I</wf>
+    <wf id="w4" sent="1" para="1" offset="9" length="5">would</wf>
+    <wf id="w5" sent="1" para="1" offset="15" length="3">lay</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="3">the</wf>
+    <wf id="w7" sent="1" para="1" offset="23" length="12">multifaceted</wf>
+    <wf id="w8" sent="1" para="1" offset="36" length="2">``</wf>
+    <wf id="w9" sent="1" para="1" offset="37" length="5">blame</wf>
+    <wf id="w10" sent="1" para="1" offset="42" length="2">''</wf>
+    <wf id="w11" sent="1" para="1" offset="44" length="2">to</wf>
+    <wf id="w12" sent="1" para="1" offset="47" length="7">include</wf>
+    <wf id="w13" sent="1" para="1" offset="55" length="3">all</wf>
+    <wf id="w14" sent="1" para="1" offset="59" length="3">the</wf>
+    <wf id="w15" sent="1" para="1" offset="63" length="10">individual</wf>
+    <wf id="w16" sent="1" para="1" offset="74" length="9">Commander</wf>
+    <wf id="w17" sent="1" para="1" offset="84" length="2">of</wf>
+    <wf id="w18" sent="1" para="1" offset="87" length="6">Chiefs</wf>
+    <wf id="w19" sent="1" para="1" offset="94" length="2">of</wf>
+    <wf id="w20" sent="1" para="1" offset="97" length="3">the</wf>
+    <wf id="w21" sent="1" para="1" offset="101" length="3">all</wf>
+    <wf id="w22" sent="1" para="1" offset="105" length="3">the</wf>
+    <wf id="w23" sent="1" para="1" offset="109" length="5">armed</wf>
+    <wf id="w24" sent="1" para="1" offset="115" length="6">forces</wf>
+    <wf id="w25" sent="1" para="1" offset="122" length="2">of</wf>
+    <wf id="w26" sent="1" para="1" offset="125" length="3">the</wf>
+    <wf id="w27" sent="1" para="1" offset="129" length="3">all</wf>
+    <wf id="w28" sent="1" para="1" offset="133" length="3">the</wf>
+    <wf id="w29" sent="1" para="1" offset="137" length="7">nations</wf>
+    <wf id="w30" sent="1" para="1" offset="145" length="4">that</wf>
+    <wf id="w31" sent="1" para="1" offset="150" length="4">gave</wf>
+    <wf id="w32" sent="1" para="1" offset="155" length="3">the</wf>
+    <wf id="w33" sent="1" para="1" offset="159" length="6">orders</wf>
+    <wf id="w34" sent="1" para="1" offset="166" length="2">to</wf>
+    <wf id="w35" sent="1" para="1" offset="169" length="8">mobilize</wf>
+    <wf id="w36" sent="1" para="1" offset="178" length="5">their</wf>
+    <wf id="w37" sent="1" para="1" offset="184" length="8">military</wf>
+    <wf id="w38" sent="1" para="1" offset="193" length="3">for</wf>
+    <wf id="w39" sent="1" para="1" offset="197" length="3">war</wf>
+    <wf id="w40" sent="1" para="1" offset="200" length="3">...</wf>
+    <wf id="w41" sent="1" para="1" offset="205" length="7">amongst</wf>
+    <wf id="w42" sent="1" para="1" offset="213" length="3">the</wf>
+    <wf id="w43" sent="1" para="1" offset="217" length="4">rest</wf>
+    <wf id="w44" sent="1" para="1" offset="222" length="2">of</wf>
+    <wf id="w45" sent="1" para="1" offset="225" length="3">the</wf>
+    <wf id="w46" sent="1" para="1" offset="229" length="7">obvious</wf>
+    <wf id="w47" sent="1" para="1" offset="237" length="8">decision</wf>
+    <wf id="w48" sent="1" para="1" offset="246" length="6">making</wf>
+    <wf id="w49" sent="1" para="1" offset="253" length="8">culprits</wf>
+    <wf id="w50" sent="1" para="1" offset="261" length="3">...</wf>
+    <wf id="w51" sent="1" para="1" offset="264" length="1">.</wf>
+    <wf id="w52" sent="2" para="1" offset="266" length="7">Regards</wf>
+    <wf id="w53" sent="2" para="1" offset="273" length="1">,</wf>
+    <wf id="w54" sent="2" para="1" offset="275" length="8">Southern</wf>
+    <wf id="w55" sent="2" para="1" offset="284" length="4">Born</wf>
+    <wf id="w56" sent="2" para="1" offset="288" length="1">.</wf>
+  </text>
+  <terms>
+    <!--G'day-->
+    <term id="t1" type="open" lemma="G'day" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t2" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t3" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--would-->
+    <term id="t4" type="open" lemma="would" pos="O" morphofeat="MD">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--lay-->
+    <term id="t5" type="open" lemma="lay" pos="V" morphofeat="VB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t6" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--multifaceted-->
+    <term id="t7" type="open" lemma="multifaceted" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--``-->
+    <term id="t8" type="open" lemma="``" pos="O" morphofeat="``">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--blame-->
+    <term id="t9" type="open" lemma="blame" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--''-->
+    <term id="t10" type="open" lemma="''" pos="O" morphofeat="''">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t11" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--include-->
+    <term id="t12" type="open" lemma="include" pos="V" morphofeat="VB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t13" type="open" lemma="all" pos="D" morphofeat="PDT">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t14" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--individual-->
+    <term id="t15" type="open" lemma="individual" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--Commander-->
+    <term id="t16" type="open" lemma="Commander" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t17" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--Chiefs-->
+    <term id="t18" type="open" lemma="Chiefs" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t19" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t20" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t21" type="open" lemma="all" pos="D" morphofeat="PDT">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t22" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--armed-->
+    <term id="t23" type="open" lemma="armed" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--forces-->
+    <term id="t24" type="open" lemma="force" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t25" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t26" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--all-->
+    <term id="t27" type="open" lemma="all" pos="D" morphofeat="PDT">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t28" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--nations-->
+    <term id="t29" type="open" lemma="nation" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t30" type="open" lemma="that" pos="O" morphofeat="WDT">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--gave-->
+    <term id="t31" type="open" lemma="give" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t32" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--orders-->
+    <term id="t33" type="open" lemma="order" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t34" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--mobilize-->
+    <term id="t35" type="open" lemma="mobilize" pos="V" morphofeat="VB">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t36" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--military-->
+    <term id="t37" type="open" lemma="military" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--for-->
+    <term id="t38" type="open" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--war-->
+    <term id="t39" type="open" lemma="war" pos="N" morphofeat="NN">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t40" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--amongst-->
+    <term id="t41" type="open" lemma="amongst" pos="P" morphofeat="IN">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t42" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--rest-->
+    <term id="t43" type="open" lemma="rest" pos="N" morphofeat="NN">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t44" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t45" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--obvious-->
+    <term id="t46" type="open" lemma="obvious" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--decision-->
+    <term id="t47" type="open" lemma="decision" pos="N" morphofeat="NN">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--making-->
+    <term id="t48" type="open" lemma="make" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--culprits-->
+    <term id="t49" type="open" lemma="culprit" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t50" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t51" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+    <!--Regards-->
+    <term id="t52" type="open" lemma="regards" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w52" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t53" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w53" />
+      </span>
+    </term>
+    <!--Southern-->
+    <term id="t54" type="open" lemma="Southern" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w54" />
+      </span>
+    </term>
+    <!--Born-->
+    <term id="t55" type="open" lemma="Born" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w55" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t56" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w56" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(would-4, G'day-1)-->
+    <dep from="t4" to="t1" rfunc="ADV" />
+    <!--P(would-4, ,-2)-->
+    <dep from="t4" to="t2" rfunc="P" />
+    <!--SBJ(would-4, I-3)-->
+    <dep from="t4" to="t3" rfunc="SBJ" />
+    <!--VC(would-4, lay-5)-->
+    <dep from="t4" to="t5" rfunc="VC" />
+    <!--NMOD(blame-9, the-6)-->
+    <dep from="t9" to="t6" rfunc="NMOD" />
+    <!--NMOD(blame-9, multifaceted-7)-->
+    <dep from="t9" to="t7" rfunc="NMOD" />
+    <!--P(blame-9, ``-8)-->
+    <dep from="t9" to="t8" rfunc="P" />
+    <!--OBJ(lay-5, blame-9)-->
+    <dep from="t5" to="t9" rfunc="OBJ" />
+    <!--P(blame-9, ''-10)-->
+    <dep from="t9" to="t10" rfunc="P" />
+    <!--NMOD(blame-9, to-11)-->
+    <dep from="t9" to="t11" rfunc="NMOD" />
+    <!--IM(to-11, include-12)-->
+    <dep from="t11" to="t12" rfunc="IM" />
+    <!--NMOD(Commander-16, all-13)-->
+    <dep from="t16" to="t13" rfunc="NMOD" />
+    <!--NMOD(Commander-16, the-14)-->
+    <dep from="t16" to="t14" rfunc="NMOD" />
+    <!--NMOD(Commander-16, individual-15)-->
+    <dep from="t16" to="t15" rfunc="NMOD" />
+    <!--OBJ(include-12, Commander-16)-->
+    <dep from="t12" to="t16" rfunc="OBJ" />
+    <!--NMOD(Commander-16, of-17)-->
+    <dep from="t16" to="t17" rfunc="NMOD" />
+    <!--PMOD(of-17, Chiefs-18)-->
+    <dep from="t17" to="t18" rfunc="PMOD" />
+    <!--NMOD(Chiefs-18, of-19)-->
+    <dep from="t18" to="t19" rfunc="NMOD" />
+    <!--NMOD(forces-24, the-20)-->
+    <dep from="t24" to="t20" rfunc="NMOD" />
+    <!--NMOD(forces-24, all-21)-->
+    <dep from="t24" to="t21" rfunc="NMOD" />
+    <!--NMOD(forces-24, the-22)-->
+    <dep from="t24" to="t22" rfunc="NMOD" />
+    <!--NMOD(forces-24, armed-23)-->
+    <dep from="t24" to="t23" rfunc="NMOD" />
+    <!--PMOD(of-19, forces-24)-->
+    <dep from="t19" to="t24" rfunc="PMOD" />
+    <!--NMOD(forces-24, of-25)-->
+    <dep from="t24" to="t25" rfunc="NMOD" />
+    <!--NMOD(nations-29, the-26)-->
+    <dep from="t29" to="t26" rfunc="NMOD" />
+    <!--NMOD(nations-29, all-27)-->
+    <dep from="t29" to="t27" rfunc="NMOD" />
+    <!--NMOD(nations-29, the-28)-->
+    <dep from="t29" to="t28" rfunc="NMOD" />
+    <!--PMOD(of-25, nations-29)-->
+    <dep from="t25" to="t29" rfunc="PMOD" />
+    <!--SBJ(gave-31, that-30)-->
+    <dep from="t31" to="t30" rfunc="SBJ" />
+    <!--NMOD(forces-24, gave-31)-->
+    <dep from="t24" to="t31" rfunc="NMOD" />
+    <!--NMOD(orders-33, the-32)-->
+    <dep from="t33" to="t32" rfunc="NMOD" />
+    <!--OBJ(gave-31, orders-33)-->
+    <dep from="t31" to="t33" rfunc="OBJ" />
+    <!--OPRD(gave-31, to-34)-->
+    <dep from="t31" to="t34" rfunc="OPRD" />
+    <!--IM(to-34, mobilize-35)-->
+    <dep from="t34" to="t35" rfunc="IM" />
+    <!--NMOD(military-37, their-36)-->
+    <dep from="t37" to="t36" rfunc="NMOD" />
+    <!--OBJ(mobilize-35, military-37)-->
+    <dep from="t35" to="t37" rfunc="OBJ" />
+    <!--ADV(mobilize-35, for-38)-->
+    <dep from="t35" to="t38" rfunc="ADV" />
+    <!--PMOD(for-38, war-39)-->
+    <dep from="t38" to="t39" rfunc="PMOD" />
+    <!--P(mobilize-35, ...-40)-->
+    <dep from="t35" to="t40" rfunc="P" />
+    <!--TMP(mobilize-35, amongst-41)-->
+    <dep from="t35" to="t41" rfunc="TMP" />
+    <!--NMOD(rest-43, the-42)-->
+    <dep from="t43" to="t42" rfunc="NMOD" />
+    <!--PMOD(amongst-41, rest-43)-->
+    <dep from="t41" to="t43" rfunc="PMOD" />
+    <!--NMOD(rest-43, of-44)-->
+    <dep from="t43" to="t44" rfunc="NMOD" />
+    <!--NMOD(decision-47, the-45)-->
+    <dep from="t47" to="t45" rfunc="NMOD" />
+    <!--NMOD(decision-47, obvious-46)-->
+    <dep from="t47" to="t46" rfunc="NMOD" />
+    <!--PMOD(of-44, decision-47)-->
+    <dep from="t44" to="t47" rfunc="PMOD" />
+    <!--APPO(decision-47, making-48)-->
+    <dep from="t47" to="t48" rfunc="APPO" />
+    <!--OBJ(making-48, culprits-49)-->
+    <dep from="t48" to="t49" rfunc="OBJ" />
+    <!--P(would-4, ...-50)-->
+    <dep from="t4" to="t50" rfunc="P" />
+    <!--P(would-4, .-51)-->
+    <dep from="t4" to="t51" rfunc="P" />
+    <!--SBJ(,-53, Regards-52)-->
+    <dep from="t53" to="t52" rfunc="SBJ" />
+    <!--P(Born-55, ,-53)-->
+    <dep from="t55" to="t53" rfunc="P" />
+    <!--NAME(Born-55, Southern-54)-->
+    <dep from="t55" to="t54" rfunc="NAME" />
+    <!--P(Born-55, .-56)-->
+    <dep from="t55" to="t56" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--Regards-->
+        <span>
+          <target id="t52" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Regards" confidence="0.9939747" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--armed forces-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Armed_forces" confidence="0.82643354" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--decision making-->
+        <span>
+          <target id="t47" />
+          <target id="t48" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Decision_making" confidence="0.9999849" />
+      </externalReferences>
+    </entity>
+    <entity id="e4">
+      <references>
+        <!--Southern-->
+        <span>
+          <target id="t54" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Southern_United_States" confidence="0.97508234" />
+      </externalReferences>
+    </entity>
+    <entity id="e5">
+      <references>
+        <!--Chiefs-->
+        <span>
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Kansas_City_Chiefs" confidence="0.6692871" />
+      </externalReferences>
+    </entity>
+    <entity id="e6">
+      <references>
+        <!--Born-->
+        <span>
+          <target id="t55" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Max_Born" confidence="0.981366" />
+      </externalReferences>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--individual-->
+        <span>
+          <target id="t15" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Individual" confidence="0.98695135" />
+      </externalReferences>
+    </entity>
+    <entity id="e8">
+      <references>
+        <!--G'day-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--blame-->
+        <span>
+          <target id="t9" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11">
+      <references>
+        <!--Commander-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e12" unnamed="yes">
+      <references>
+        <!--nations-->
+        <span>
+          <target id="t29" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e13" unnamed="yes">
+      <references>
+        <!--orders-->
+        <span>
+          <target id="t33" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e14" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t36" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e15" unnamed="yes">
+      <references>
+        <!--war-->
+        <span>
+          <target id="t39" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e16" unnamed="yes">
+      <references>
+        <!--rest-->
+        <span>
+          <target id="t43" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e17" unnamed="yes">
+      <references>
+        <!--culprits-->
+        <span>
+          <target id="t49" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Inventive_step_and_non-obviousness" confidence="0.9999793069461339" spotted="true">
+      <!--obvious-->
+      <span>
+        <target id="w46" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nation" confidence="0.9937343857643295" spotted="true">
+      <!--nations-->
+      <span>
+        <target id="w29" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mobilization" confidence="0.9999992828333304" spotted="true">
+      <!--mobilize-->
+      <span>
+        <target id="w35" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Regards" confidence="0.9939746590358204" spotted="true">
+      <!--Regards-->
+      <span>
+        <target id="w52" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Armed_forces" confidence="0.8264335671195692" spotted="true">
+      <!--armed forces-->
+      <span>
+        <target id="w23" />
+        <target id="w24" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Decision_making" confidence="0.9999849410135503" spotted="true">
+      <!--decision making-->
+      <span>
+        <target id="w47" />
+        <target id="w48" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Southern_United_States" confidence="0.9750823400269522" spotted="true">
+      <!--Southern-->
+      <span>
+        <target id="w54" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Kansas_City_Chiefs" confidence="0.6692870620762653" spotted="true">
+      <!--Chiefs-->
+      <span>
+        <target id="w18" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Leisure" confidence="0.9008113014965046" spotted="true">
+      <!--rest-->
+      <span>
+        <target id="w43" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Max_Born" confidence="0.9813660021393048" spotted="true">
+      <!--Born-->
+      <span>
+        <target id="w55" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Culprit" confidence="0.999999320133899" spotted="true">
+      <!--culprits-->
+      <span>
+        <target id="w49" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le12" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Individual" confidence="0.9869513223380387" spotted="true">
+      <!--individual-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le13" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Order_(honour)" confidence="0.8283269505460302" spotted="true">
+      <!--orders-->
+      <span>
+        <target id="w33" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t35 mobilize : AM-PNC[t38 for] A0[t20 the] A1[t36 their]-->
+    <predicate id="pr8" source="mate">
+      <!--mobilize-->
+      <span>
+        <target id="t35" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="mobilize.01" source="mate" />
+        <externalRef resource="VerbNet" reference="other_cos-45.4" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mobilization" confidence="0.9999993" />
+      </externalReferences>
+      <role id="rl18" semRole="AM-PNC">
+        <!--for war-->
+        <span>
+          <target id="t38" head="yes" />
+          <target id="t39" />
+        </span>
+      </role>
+      <role id="rl19" semRole="A0">
+        <!--the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" head="yes" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="other_cos-45.4@Agent" />
+          <externalRef resource="PropBank" reference="mobilize.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl20" semRole="A1">
+        <!--their military-->
+        <span>
+          <target id="t36" />
+          <target id="t37" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="other_cos-45.4@Patient" />
+          <externalRef resource="PropBank" reference="mobilize.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 lay : A0[t3 I] AM-MOD[t1 G'day] A0[t1 G'day] A1[t6 the]-->
+    <predicate id="f_pr12" source="semafor" confidence="25.910316213981762">
+      <!--lay-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Being_located" />
+        <externalRef resource="PropBank" reference="lay.01" source="mate" />
+        <externalRef resource="VerbNet" reference="put_spatial-9.2" />
+        <externalRef resource="ESO" reference="Placing" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01544692-v" />
+        <externalRef resource="WordNet" reference="ili-30-01494310-v" />
+      </externalReferences>
+      <role id="rl26" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Being_located@Theme" />
+          <externalRef resource="VerbNet" reference="put_spatial-9.2@Agent" />
+          <externalRef resource="PropBank" reference="lay.01@0" />
+          <externalRef resource="ESO" reference="Placing@translocation-theme" />
+          <externalRef resource="FrameBase" reference="fe-Being_located-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl61" semRole="AM-MOD">
+        <!--G'day , I would lay the multifaceted `` blame '' to include all the individual Commander of Chiefs of the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits ... .-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+          <target id="t51" />
+        </span>
+      </role>
+      <role id="rl62" semRole="A0">
+        <!--G'day-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="put_spatial-9.2@Agent" />
+          <externalRef resource="PropBank" reference="lay.01@0" />
+          <externalRef resource="ESO" reference="Placing@translocation-theme" />
+        </externalReferences>
+      </role>
+      <role id="rl63" semRole="A1">
+        <!--the multifaceted `` blame '' to include all the individual Commander of Chiefs of the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" head="yes" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="put_spatial-9.2@Theme" />
+          <externalRef resource="PropBank" reference="lay.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 blame : A0[t3 I] A1[t11 to] A0[t1 G'day] AM-MNR[t7 multifaceted]-->
+    <predicate id="f_pr13" source="semafor" confidence="45.44628065352068">
+      <!--blame-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Judgment" />
+        <externalRef resource="NomBank" reference="blame.01" source="mate" />
+        <externalRef resource="VerbNet" reference="judgment-33" />
+        <externalRef resource="PropBank" reference="blame.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="FrameBase" reference="frame-Judgment-blame.v" />
+      </externalReferences>
+      <role id="rl50" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="judgment-33@Agent" />
+          <externalRef resource="PropBank" reference="blame.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl51" semRole="A1">
+        <!--to include all the individual Commander of Chiefs of the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t11" head="yes" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="judgment-33@Theme" />
+          <externalRef resource="VerbNet" reference="judgment-33@Attribute" />
+          <externalRef resource="PropBank" reference="blame.01@1" />
+          <externalRef resource="PropBank" reference="blame.01@2" />
+        </externalReferences>
+      </role>
+      <role id="rl52" semRole="A0">
+        <!--G'day-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="judgment-33@Agent" />
+          <externalRef resource="PropBank" reference="blame.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl53" semRole="AM-MNR">
+        <!--multifaceted-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t12 include : [t13 all] [t3 I] A1[t13 all]-->
+    <predicate id="f_pr14" source="semafor" confidence="38.93896233617262">
+      <!--include-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Inclusion" />
+        <externalRef resource="PropBank" reference="include.01" source="mate" />
+        <externalRef resource="VerbNet" reference="admit-65" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02449847-v" />
+        <externalRef resource="WordNet" reference="ili-30-00183879-v" />
+        <externalRef resource="FrameBase" reference="frame-Inclusion-include.v" />
+      </externalReferences>
+      <role id="rl27" semRole="">
+        <!--all-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Inclusion@Part" />
+          <externalRef resource="FrameBase" reference="fe-Inclusion-Part" />
+        </externalReferences>
+      </role>
+      <role id="rl28" semRole="">
+        <!--I-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Inclusion@Total" />
+          <externalRef resource="FrameBase" reference="fe-Inclusion-Total" />
+        </externalReferences>
+      </role>
+      <role id="rl48" semRole="A1">
+        <!--all the individual Commander of Chiefs of the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" head="yes" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="admit-65@Theme" />
+          <externalRef resource="PropBank" reference="include.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 all : [t13 all]-->
+    <predicate id="f_pr15" source="semafor" confidence="23.570428384124597">
+      <!--all-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl29" semRole="">
+        <!--all-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 individual : [t15 individual]-->
+    <predicate id="f_pr16" source="semafor" confidence="35.14641744534919">
+      <!--individual-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Individual" confidence="0.98695135" />
+      </externalReferences>
+      <role id="rl30" semRole="">
+        <!--individual-->
+        <span>
+          <target id="t15" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t16 Commander : A1[t17 of] A0[t13 all]-->
+    <predicate id="f_pr17" source="semafor" confidence="80.27758192748341">
+      <!--Commander-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Leadership" />
+        <externalRef resource="NomBank" reference="Commander.01" source="mate" />
+        <externalRef resource="VerbNet" reference="order-60-1" />
+        <externalRef resource="PropBank" reference="command.02" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00751567-v" />
+        <externalRef resource="FrameBase" reference="frame-Leadership-command.v" />
+      </externalReferences>
+      <role id="rl60" semRole="A1">
+        <!--of Chiefs of the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t17" head="yes" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="order-60@Recipient" />
+          <externalRef resource="PropBank" reference="command.02@1" />
+        </externalReferences>
+      </role>
+      <role id="rl64" semRole="A0">
+        <!--all the individual Commander of Chiefs of the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" head="yes" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+      </role>
+    </predicate>
+    <!--t21 all : [t21 all]-->
+    <predicate id="f_pr19" source="semafor" confidence="23.504490738859918">
+      <!--all-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl34" semRole="">
+        <!--all-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t23 armed : [t20 the]-->
+    <predicate id="f_pr20" source="semafor" confidence="20.001753459663604">
+      <!--armed-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Bearing_arms" />
+        <externalRef resource="FrameBase" reference="frame-Bearing_arms-armed.a" />
+      </externalReferences>
+      <role id="rl35" semRole="">
+        <!--the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Bearing_arms@Protagonist" />
+          <externalRef resource="FrameBase" reference="fe-Bearing_arms-Protagonist" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t24 forces : A1[t25 of] A1[t23 armed]-->
+    <predicate id="f_pr21" source="semafor" confidence="34.987039828438405">
+      <!--forces-->
+      <span>
+        <target id="t24" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Military" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Armed_forces" confidence="0.82643354" />
+        <externalRef resource="NomBank" reference="force.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Armed_forces" confidence="0.82643354" />
+        <externalRef resource="FrameBase" reference="frame-Military-force.n" />
+      </externalReferences>
+      <role id="rl43" semRole="A1">
+        <!--of the all the nations-->
+        <span>
+          <target id="t25" head="yes" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </role>
+      <role id="rl44" semRole="A1">
+        <!--armed-->
+        <span>
+          <target id="t23" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t27 all : [t27 all]-->
+    <predicate id="f_pr22" source="semafor" confidence="23.648086776078575">
+      <!--all-->
+      <span>
+        <target id="t27" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+      </externalReferences>
+      <role id="rl37" semRole="">
+        <!--all-->
+        <span>
+          <target id="t27" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 nations : [t26 the]-->
+    <predicate id="f_pr23" source="semafor" confidence="37.51767309468937">
+      <!--nations-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Political_locales" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Nation" confidence="0.99373436" />
+        <externalRef resource="FrameBase" reference="frame-Political_locales-state.n" />
+      </externalReferences>
+      <role id="rl38" semRole="">
+        <!--the all the nations-->
+        <span>
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Political_locales@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Political_locales-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t31 gave : A0[t20 the] AM-PNC[t34 to] R-A0[t30 that] A1[t32 the]-->
+    <predicate id="f_pr24" source="semafor" confidence="68.44737952404394">
+      <!--gave-->
+      <span>
+        <target id="t31" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Giving" />
+        <externalRef resource="PropBank" reference="give.01" source="mate" />
+        <externalRef resource="VerbNet" reference="give-13.1-1" />
+        <externalRef resource="ESO" reference="Giving" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01178565-v" />
+        <externalRef resource="WordNet" reference="ili-30-02199590-v" />
+        <externalRef resource="WordNet" reference="ili-30-02200686-v" />
+        <externalRef resource="WordNet" reference="ili-30-02200498-v" />
+        <externalRef resource="WordNet" reference="ili-30-02316868-v" />
+        <externalRef resource="WordNet" reference="ili-30-02230772-v" />
+        <externalRef resource="WordNet" reference="ili-30-02359553-v" />
+        <externalRef resource="WordNet" reference="ili-30-02309374-v" />
+        <externalRef resource="FrameBase" reference="frame-Giving-gift.v" />
+      </externalReferences>
+      <role id="rl56" semRole="A0">
+        <!--the all the armed forces of the all the nations that gave the orders to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" head="yes" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="give-13.1@Agent" />
+          <externalRef resource="PropBank" reference="give.01@0" />
+          <externalRef resource="ESO" reference="Giving@possession-owner_1" />
+        </externalReferences>
+      </role>
+      <role id="rl57" semRole="AM-PNC">
+        <!--to mobilize their military for war ... amongst the rest of the obvious decision making culprits-->
+        <span>
+          <target id="t34" head="yes" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+      </role>
+      <role id="rl58" semRole="R-A0">
+        <!--that-->
+        <span>
+          <target id="t30" head="yes" />
+        </span>
+      </role>
+      <role id="rl59" semRole="A1">
+        <!--the orders-->
+        <span>
+          <target id="t32" />
+          <target id="t33" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="give-13.1@Theme" />
+          <externalRef resource="PropBank" reference="give.01@1" />
+          <externalRef resource="ESO" reference="Giving@possession-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t33 orders :-->
+    <predicate id="f_pr25" source="semafor" confidence="32.93809212363475">
+      <!--orders-->
+      <span>
+        <target id="t33" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Purpose" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Order_(honour)" confidence="0.82832694" />
+      </externalReferences>
+    </predicate>
+    <!--t37 military : [t36 their]-->
+    <predicate id="f_pr26" source="semafor" confidence="43.514571560413906">
+      <!--military-->
+      <span>
+        <target id="t37" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Military" />
+        <externalRef resource="FrameBase" reference="frame-Military-military.a" />
+      </externalReferences>
+      <role id="rl39" semRole="">
+        <!--their military-->
+        <span>
+          <target id="t36" />
+          <target id="t37" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Military@Force" />
+          <externalRef resource="FrameBase" reference="fe-Military-Force" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t39 war :-->
+    <predicate id="f_pr27" source="semafor" confidence="89.79900828177976">
+      <!--war-->
+      <span>
+        <target id="t39" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Hostile_encounter" />
+        <externalRef resource="FrameBase" reference="frame-Hostile_encounter-war.n" />
+      </externalReferences>
+    </predicate>
+    <!--t43 rest : A1[t44 of]-->
+    <predicate id="f_pr28" source="semafor" confidence="33.39292501632364">
+      <!--rest-->
+      <span>
+        <target id="t43" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Stimulus_focus" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Leisure" confidence="0.9008113" />
+        <externalRef resource="NomBank" reference="rest.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Leisure" confidence="0.9008113" />
+        <externalRef resource="FrameBase" reference="frame-Stimulus_focus-rest.n" />
+      </externalReferences>
+      <role id="rl47" semRole="A1">
+        <!--of the obvious decision making culprits-->
+        <span>
+          <target id="t44" head="yes" />
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+      </role>
+    </predicate>
+    <!--t46 obvious : [t45 the]-->
+    <predicate id="f_pr29" source="semafor" confidence="47.829248790299516">
+      <!--obvious-->
+      <span>
+        <target id="t46" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Obviousness" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Inventive_step_and_non-obviousness" confidence="0.9999793" />
+        <externalRef resource="FrameBase" reference="frame-Obviousness-obviously.adv" />
+      </externalReferences>
+      <role id="rl40" semRole="">
+        <!--the obvious decision making culprits-->
+        <span>
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Obviousness@Phenomenon" />
+          <externalRef resource="FrameBase" reference="fe-Obviousness-Phenomenon" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t47 decision : A1[t48 making] AM-ADV[t46 obvious]-->
+    <predicate id="f_pr30" source="semafor" confidence="24.35425958991179">
+      <!--decision-->
+      <span>
+        <target id="t47" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Deciding" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Decision_making" confidence="0.9999849" />
+        <externalRef resource="NomBank" reference="decision.01" source="mate" />
+        <externalRef resource="VerbNet" reference="correspond-36.1" />
+        <externalRef resource="PropBank" reference="decide.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00698855-v" />
+        <externalRef resource="WordNet" reference="ili-30-00697589-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Decision_making" confidence="0.9999849" />
+        <externalRef resource="FrameBase" reference="frame-Deciding-decide.v" />
+      </externalReferences>
+      <role id="rl45" semRole="A1">
+        <!--making culprits-->
+        <span>
+          <target id="t48" head="yes" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="correspond-36.1@Theme" />
+          <externalRef resource="PropBank" reference="decide.01@1" />
+        </externalReferences>
+      </role>
+      <role id="rl46" semRole="AM-ADV">
+        <!--obvious-->
+        <span>
+          <target id="t46" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t48 making : A1[t49 culprits] A0[t45 the]-->
+    <predicate id="f_pr31" source="semafor" confidence="81.2861926348266">
+      <!--making-->
+      <span>
+        <target id="t48" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Manufacturing" />
+        <externalRef resource="PropBank" reference="make.01" source="mate" />
+        <externalRef resource="VerbNet" reference="build-26.1-1" />
+        <externalRef resource="ESO" reference="Arriving" />
+        <externalRef resource="ESO" reference="Translocation" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02621395-v" />
+        <externalRef resource="WordNet" reference="ili-30-01621555-v" />
+        <externalRef resource="WordNet" reference="ili-30-01619014-v" />
+        <externalRef resource="WordNet" reference="ili-30-01664172-v" />
+        <externalRef resource="WordNet" reference="ili-30-01755504-v" />
+        <externalRef resource="WordNet" reference="ili-30-01654628-v" />
+        <externalRef resource="WordNet" reference="ili-30-02748759-v" />
+        <externalRef resource="WordNet" reference="ili-30-02748627-v" />
+        <externalRef resource="FrameBase" reference="frame-Manufacturing-make.v" />
+      </externalReferences>
+      <role id="rl54" semRole="A1">
+        <!--culprits-->
+        <span>
+          <target id="t49" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="build-26.1@Product" />
+          <externalRef resource="PropBank" reference="make.01@1" />
+          <externalRef resource="ESO" reference="Arriving@translocation-goal" />
+        </externalReferences>
+      </role>
+      <role id="rl55" semRole="A0">
+        <!--the obvious decision making culprits-->
+        <span>
+          <target id="t45" />
+          <target id="t46" />
+          <target id="t47" head="yes" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="build-26.1@Agent" />
+          <externalRef resource="PropBank" reference="make.01@0" />
+          <externalRef resource="ESO" reference="Translocation@translocation-source" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t52 Regards : [t52 Regards]-->
+    <predicate id="f_pr32" source="semafor" confidence="50.51964363669509">
+      <!--Regards-->
+      <span>
+        <target id="t52" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Categorization" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Regards" confidence="0.9939747" />
+      </externalReferences>
+      <role id="rl42" semRole="">
+        <!--Regards , Southern Born .-->
+        <span>
+          <target id="t52" />
+          <target id="t53" />
+          <target id="t54" />
+          <target id="t55" />
+          <target id="t56" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Categorization@Item" />
+          <externalRef resource="FrameBase" reference="fe-Categorization-Item" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t55 Born :-->
+    <predicate id="f_pr33" source="semafor" confidence="32.19605832572625">
+      <!--Born-->
+      <span>
+        <target id="t55" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Being_born" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Max_Born" confidence="0.981366" />
+      </externalReferences>
+    </predicate>
+    <!--t49 culprits :-->
+    <predicate id="pr34">
+      <!--culprits-->
+      <span>
+        <target id="t49" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="culprit.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(X (NNP G'day) (, ,) (PRP I) (MD would) (VB lay) (DT the) (JJ multifaceted) (`` ``) (NN blame) ('' '') (TO to) (VB include) (PDT all) (DT the) (JJ individual) (NNP Commander) (IN of) (NNPS Chiefs) (IN of) (DT the) (PDT all) (DT the) (JJ armed) (NNS forces) (IN of) (DT the) (PDT all) (DT the) (NNS nations) (WDT that) (VBD gave) (DT the) (NNS orders) (TO to) (VB mobilize) (PRP$ their) (JJ military) (IN for) (NN war) (: ...) (IN amongst) (DT the) (NN rest) (IN of) (DT the) (JJ obvious) (NN decision) (VBG making) (NNS culprits) (: ...) (. .))</tree>
+    <tree sentence="2">(ROOT (NP (NP (NNS Regards)) (, ,) (NP (NNP Southern) (NNP Born)) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="X" />
+      <nt id="nter2" label="NNP" />
+      <nt id="nter3" label="," />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="MD" />
+      <nt id="nter6" label="VB" />
+      <nt id="nter7" label="DT" />
+      <nt id="nter8" label="JJ" />
+      <nt id="nter9" label="``" />
+      <nt id="nter10" label="NN" />
+      <nt id="nter11" label="''" />
+      <nt id="nter12" label="TO" />
+      <nt id="nter13" label="VB" />
+      <nt id="nter14" label="PDT" />
+      <nt id="nter15" label="DT" />
+      <nt id="nter16" label="JJ" />
+      <nt id="nter17" label="NNP" />
+      <nt id="nter18" label="IN" />
+      <nt id="nter19" label="NNPS" />
+      <nt id="nter20" label="IN" />
+      <nt id="nter21" label="DT" />
+      <nt id="nter22" label="PDT" />
+      <nt id="nter23" label="DT" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="NNS" />
+      <nt id="nter26" label="IN" />
+      <nt id="nter27" label="DT" />
+      <nt id="nter28" label="PDT" />
+      <nt id="nter29" label="DT" />
+      <nt id="nter30" label="NNS" />
+      <nt id="nter31" label="WDT" />
+      <nt id="nter32" label="VBD" />
+      <nt id="nter33" label="DT" />
+      <nt id="nter34" label="NNS" />
+      <nt id="nter35" label="TO" />
+      <nt id="nter36" label="VB" />
+      <nt id="nter37" label="PRP$" />
+      <nt id="nter38" label="JJ" />
+      <nt id="nter39" label="IN" />
+      <nt id="nter40" label="NN" />
+      <nt id="nter41" label=":" />
+      <nt id="nter42" label="IN" />
+      <nt id="nter43" label="DT" />
+      <nt id="nter44" label="NN" />
+      <nt id="nter45" label="IN" />
+      <nt id="nter46" label="DT" />
+      <nt id="nter47" label="JJ" />
+      <nt id="nter48" label="NN" />
+      <nt id="nter49" label="VBG" />
+      <nt id="nter50" label="NNS" />
+      <nt id="nter51" label=":" />
+      <nt id="nter52" label="." />
+      <!--Terminals-->
+      <!--G'day-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--would-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--lay-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--multifaceted-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--``-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--blame-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--''-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--include-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--individual-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Commander-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--Chiefs-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--armed-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--forces-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--all-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--nations-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--gave-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--orders-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--mobilize-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--military-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--war-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--amongst-->
+      <t id="ter41">
+        <span>
+          <target id="t41" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter42">
+        <span>
+          <target id="t42" />
+        </span>
+      </t>
+      <!--rest-->
+      <t id="ter43">
+        <span>
+          <target id="t43" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter44">
+        <span>
+          <target id="t44" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter45">
+        <span>
+          <target id="t45" />
+        </span>
+      </t>
+      <!--obvious-->
+      <t id="ter46">
+        <span>
+          <target id="t46" />
+        </span>
+      </t>
+      <!--decision-->
+      <t id="ter47">
+        <span>
+          <target id="t47" />
+        </span>
+      </t>
+      <!--making-->
+      <t id="ter48">
+        <span>
+          <target id="t48" />
+        </span>
+      </t>
+      <!--culprits-->
+      <t id="ter49">
+        <span>
+          <target id="t49" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter50">
+        <span>
+          <target id="t50" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter51">
+        <span>
+          <target id="t51" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" />
+      <edge id="tre3" from="ter1" to="nter2" />
+      <edge id="tre4" from="nter3" to="nter1" />
+      <edge id="tre5" from="ter2" to="nter3" />
+      <edge id="tre6" from="nter4" to="nter1" />
+      <edge id="tre7" from="ter3" to="nter4" />
+      <edge id="tre8" from="nter5" to="nter1" />
+      <edge id="tre9" from="ter4" to="nter5" />
+      <edge id="tre10" from="nter6" to="nter1" />
+      <edge id="tre11" from="ter5" to="nter6" />
+      <edge id="tre12" from="nter7" to="nter1" />
+      <edge id="tre13" from="ter6" to="nter7" />
+      <edge id="tre14" from="nter8" to="nter1" />
+      <edge id="tre15" from="ter7" to="nter8" />
+      <edge id="tre16" from="nter9" to="nter1" />
+      <edge id="tre17" from="ter8" to="nter9" />
+      <edge id="tre18" from="nter10" to="nter1" />
+      <edge id="tre19" from="ter9" to="nter10" />
+      <edge id="tre20" from="nter11" to="nter1" />
+      <edge id="tre21" from="ter10" to="nter11" />
+      <edge id="tre22" from="nter12" to="nter1" />
+      <edge id="tre23" from="ter11" to="nter12" />
+      <edge id="tre24" from="nter13" to="nter1" />
+      <edge id="tre25" from="ter12" to="nter13" />
+      <edge id="tre26" from="nter14" to="nter1" />
+      <edge id="tre27" from="ter13" to="nter14" />
+      <edge id="tre28" from="nter15" to="nter1" />
+      <edge id="tre29" from="ter14" to="nter15" />
+      <edge id="tre30" from="nter16" to="nter1" />
+      <edge id="tre31" from="ter15" to="nter16" />
+      <edge id="tre32" from="nter17" to="nter1" />
+      <edge id="tre33" from="ter16" to="nter17" />
+      <edge id="tre34" from="nter18" to="nter1" />
+      <edge id="tre35" from="ter17" to="nter18" />
+      <edge id="tre36" from="nter19" to="nter1" />
+      <edge id="tre37" from="ter18" to="nter19" />
+      <edge id="tre38" from="nter20" to="nter1" />
+      <edge id="tre39" from="ter19" to="nter20" />
+      <edge id="tre40" from="nter21" to="nter1" />
+      <edge id="tre41" from="ter20" to="nter21" />
+      <edge id="tre42" from="nter22" to="nter1" />
+      <edge id="tre43" from="ter21" to="nter22" />
+      <edge id="tre44" from="nter23" to="nter1" />
+      <edge id="tre45" from="ter22" to="nter23" />
+      <edge id="tre46" from="nter24" to="nter1" />
+      <edge id="tre47" from="ter23" to="nter24" />
+      <edge id="tre48" from="nter25" to="nter1" />
+      <edge id="tre49" from="ter24" to="nter25" />
+      <edge id="tre50" from="nter26" to="nter1" />
+      <edge id="tre51" from="ter25" to="nter26" />
+      <edge id="tre52" from="nter27" to="nter1" />
+      <edge id="tre53" from="ter26" to="nter27" />
+      <edge id="tre54" from="nter28" to="nter1" />
+      <edge id="tre55" from="ter27" to="nter28" />
+      <edge id="tre56" from="nter29" to="nter1" />
+      <edge id="tre57" from="ter28" to="nter29" />
+      <edge id="tre58" from="nter30" to="nter1" />
+      <edge id="tre59" from="ter29" to="nter30" />
+      <edge id="tre60" from="nter31" to="nter1" />
+      <edge id="tre61" from="ter30" to="nter31" />
+      <edge id="tre62" from="nter32" to="nter1" />
+      <edge id="tre63" from="ter31" to="nter32" />
+      <edge id="tre64" from="nter33" to="nter1" />
+      <edge id="tre65" from="ter32" to="nter33" />
+      <edge id="tre66" from="nter34" to="nter1" />
+      <edge id="tre67" from="ter33" to="nter34" />
+      <edge id="tre68" from="nter35" to="nter1" />
+      <edge id="tre69" from="ter34" to="nter35" />
+      <edge id="tre70" from="nter36" to="nter1" />
+      <edge id="tre71" from="ter35" to="nter36" />
+      <edge id="tre72" from="nter37" to="nter1" />
+      <edge id="tre73" from="ter36" to="nter37" />
+      <edge id="tre74" from="nter38" to="nter1" />
+      <edge id="tre75" from="ter37" to="nter38" />
+      <edge id="tre76" from="nter39" to="nter1" />
+      <edge id="tre77" from="ter38" to="nter39" />
+      <edge id="tre78" from="nter40" to="nter1" />
+      <edge id="tre79" from="ter39" to="nter40" />
+      <edge id="tre80" from="nter41" to="nter1" />
+      <edge id="tre81" from="ter40" to="nter41" />
+      <edge id="tre82" from="nter42" to="nter1" />
+      <edge id="tre83" from="ter41" to="nter42" />
+      <edge id="tre84" from="nter43" to="nter1" />
+      <edge id="tre85" from="ter42" to="nter43" />
+      <edge id="tre86" from="nter44" to="nter1" />
+      <edge id="tre87" from="ter43" to="nter44" />
+      <edge id="tre88" from="nter45" to="nter1" />
+      <edge id="tre89" from="ter44" to="nter45" />
+      <edge id="tre90" from="nter46" to="nter1" />
+      <edge id="tre91" from="ter45" to="nter46" />
+      <edge id="tre92" from="nter47" to="nter1" />
+      <edge id="tre93" from="ter46" to="nter47" />
+      <edge id="tre94" from="nter48" to="nter1" />
+      <edge id="tre95" from="ter47" to="nter48" />
+      <edge id="tre96" from="nter49" to="nter1" />
+      <edge id="tre97" from="ter48" to="nter49" />
+      <edge id="tre98" from="nter50" to="nter1" />
+      <edge id="tre99" from="ter49" to="nter50" />
+      <edge id="tre100" from="nter51" to="nter1" />
+      <edge id="tre101" from="ter50" to="nter51" />
+      <edge id="tre102" from="nter52" to="nter1" head="yes" />
+      <edge id="tre103" from="ter51" to="nter52" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter53" label="ROOT" />
+      <nt id="nter54" label="NP" />
+      <nt id="nter55" label="NP" />
+      <nt id="nter56" label="NNS" />
+      <nt id="nter57" label="," />
+      <nt id="nter58" label="NP" />
+      <nt id="nter59" label="NNP" />
+      <nt id="nter60" label="NNP" />
+      <nt id="nter61" label="." />
+      <!--Terminals-->
+      <!--Regards-->
+      <t id="ter52">
+        <span>
+          <target id="t52" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter53">
+        <span>
+          <target id="t53" />
+        </span>
+      </t>
+      <!--Southern-->
+      <t id="ter54">
+        <span>
+          <target id="t54" />
+        </span>
+      </t>
+      <!--Born-->
+      <t id="ter55">
+        <span>
+          <target id="t55" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter56">
+        <span>
+          <target id="t56" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre105" from="nter54" to="nter53" head="yes" />
+      <edge id="tre106" from="nter55" to="nter54" head="yes" />
+      <edge id="tre107" from="nter56" to="nter55" head="yes" />
+      <edge id="tre108" from="ter52" to="nter56" />
+      <edge id="tre109" from="nter57" to="nter54" />
+      <edge id="tre110" from="ter53" to="nter57" />
+      <edge id="tre111" from="nter58" to="nter54" />
+      <edge id="tre112" from="nter59" to="nter58" />
+      <edge id="tre113" from="ter54" to="nter59" />
+      <edge id="tre114" from="nter60" to="nter58" head="yes" />
+      <edge id="tre115" from="ter55" to="nter60" />
+      <edge id="tre116" from="nter61" to="nter54" />
+      <edge id="tre117" from="ter56" to="nter61" />
+    </tree>
+  </constituency>
+</NAF>

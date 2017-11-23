@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:28:58+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:28:58.512+0100" endTimestamp="2017-11-20T12:28:59.084+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:28:59.088+0100" endTimestamp="2017-11-20T12:28:59.089+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I was not aware of the work of Theodor Fritsch, of Blessed Memory. I recommend that everyone read https://en.wikipedia.org/wiki/Theodor_Fritsch . This quote is a better version of the mystery of the Jew mind that I was trying to explain.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="3">was</wf>
+    <wf id="w3" sent="1" para="1" offset="6" length="3">not</wf>
+    <wf id="w4" sent="1" para="1" offset="10" length="5">aware</wf>
+    <wf id="w5" sent="1" para="1" offset="16" length="2">of</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="3">the</wf>
+    <wf id="w7" sent="1" para="1" offset="23" length="4">work</wf>
+    <wf id="w8" sent="1" para="1" offset="28" length="2">of</wf>
+    <wf id="w9" sent="1" para="1" offset="31" length="7">Theodor</wf>
+    <wf id="w10" sent="1" para="1" offset="39" length="7">Fritsch</wf>
+    <wf id="w11" sent="1" para="1" offset="46" length="1">,</wf>
+    <wf id="w12" sent="1" para="1" offset="48" length="2">of</wf>
+    <wf id="w13" sent="1" para="1" offset="51" length="7">Blessed</wf>
+    <wf id="w14" sent="1" para="1" offset="59" length="6">Memory</wf>
+    <wf id="w15" sent="1" para="1" offset="65" length="1">.</wf>
+    <wf id="w16" sent="2" para="1" offset="67" length="1">I</wf>
+    <wf id="w17" sent="2" para="1" offset="69" length="9">recommend</wf>
+    <wf id="w18" sent="2" para="1" offset="79" length="4">that</wf>
+    <wf id="w19" sent="2" para="1" offset="84" length="8">everyone</wf>
+    <wf id="w20" sent="2" para="1" offset="93" length="4">read</wf>
+    <wf id="w21" sent="2" para="1" offset="98" length="45">https://en.wikipedia.org/wiki/Theodor_Fritsch</wf>
+    <wf id="w22" sent="2" para="1" offset="144" length="1">.</wf>
+    <wf id="w23" sent="3" para="1" offset="146" length="4">This</wf>
+    <wf id="w24" sent="3" para="1" offset="151" length="5">quote</wf>
+    <wf id="w25" sent="3" para="1" offset="157" length="2">is</wf>
+    <wf id="w26" sent="3" para="1" offset="160" length="1">a</wf>
+    <wf id="w27" sent="3" para="1" offset="162" length="6">better</wf>
+    <wf id="w28" sent="3" para="1" offset="169" length="7">version</wf>
+    <wf id="w29" sent="3" para="1" offset="177" length="2">of</wf>
+    <wf id="w30" sent="3" para="1" offset="180" length="3">the</wf>
+    <wf id="w31" sent="3" para="1" offset="184" length="7">mystery</wf>
+    <wf id="w32" sent="3" para="1" offset="192" length="2">of</wf>
+    <wf id="w33" sent="3" para="1" offset="195" length="3">the</wf>
+    <wf id="w34" sent="3" para="1" offset="199" length="3">Jew</wf>
+    <wf id="w35" sent="3" para="1" offset="203" length="4">mind</wf>
+    <wf id="w36" sent="3" para="1" offset="208" length="4">that</wf>
+    <wf id="w37" sent="3" para="1" offset="213" length="1">I</wf>
+    <wf id="w38" sent="3" para="1" offset="215" length="3">was</wf>
+    <wf id="w39" sent="3" para="1" offset="219" length="6">trying</wf>
+    <wf id="w40" sent="3" para="1" offset="226" length="2">to</wf>
+    <wf id="w41" sent="3" para="1" offset="229" length="7">explain</wf>
+    <wf id="w42" sent="3" para="1" offset="236" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t2" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t3" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--aware-->
+    <term id="t4" type="open" lemma="aware" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t5" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t6" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--work-->
+    <term id="t7" type="open" lemma="work" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t8" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Theodor-->
+    <term id="t9" type="open" lemma="Theodor" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Fritsch-->
+    <term id="t10" type="open" lemma="Fritsch" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t11" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t12" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Blessed-->
+    <term id="t13" type="open" lemma="blessed" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--Memory-->
+    <term id="t14" type="open" lemma="memory" pos="N" morphofeat="NN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t15" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t16" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--recommend-->
+    <term id="t17" type="open" lemma="recommend" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t18" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--everyone-->
+    <term id="t19" type="open" lemma="everyone" pos="N" morphofeat="NN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--read-->
+    <term id="t20" type="open" lemma="read" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--https://en.wikipedia.org/wiki/Theodor_Fritsch-->
+    <term id="t21" type="open" lemma="https://en.wikipedia.org/wiki/theodor_fritsch" pos="N" morphofeat="NN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t22" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--This-->
+    <term id="t23" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--quote-->
+    <term id="t24" type="open" lemma="quote" pos="N" morphofeat="NN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t25" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t26" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--better-->
+    <term id="t27" type="open" lemma="better" pos="G" morphofeat="JJR">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--version-->
+    <term id="t28" type="open" lemma="version" pos="N" morphofeat="NN">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t29" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t30" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--mystery-->
+    <term id="t31" type="open" lemma="mystery" pos="N" morphofeat="NN">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t32" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t33" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--Jew-->
+    <term id="t34" type="open" lemma="jew" pos="N" morphofeat="NN">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--mind-->
+    <term id="t35" type="open" lemma="mind" pos="N" morphofeat="NN">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t36" type="open" lemma="that" pos="P" morphofeat="IN">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t37" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--was-->
+    <term id="t38" type="open" lemma="be" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--trying-->
+    <term id="t39" type="open" lemma="try" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t40" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--explain-->
+    <term id="t41" type="open" lemma="explain" pos="V" morphofeat="VB">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t42" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(was-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--ADV(was-2, not-3)-->
+    <dep from="t2" to="t3" rfunc="ADV" />
+    <!--PRD(was-2, aware-4)-->
+    <dep from="t2" to="t4" rfunc="PRD" />
+    <!--AMOD(aware-4, of-5)-->
+    <dep from="t4" to="t5" rfunc="AMOD" />
+    <!--NMOD(work-7, the-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--PMOD(of-5, work-7)-->
+    <dep from="t5" to="t7" rfunc="PMOD" />
+    <!--NMOD(work-7, of-8)-->
+    <dep from="t7" to="t8" rfunc="NMOD" />
+    <!--NAME(Fritsch-10, Theodor-9)-->
+    <dep from="t10" to="t9" rfunc="NAME" />
+    <!--PMOD(of-8, Fritsch-10)-->
+    <dep from="t8" to="t10" rfunc="PMOD" />
+    <!--P(Fritsch-10, ,-11)-->
+    <dep from="t10" to="t11" rfunc="P" />
+    <!--NMOD(Fritsch-10, of-12)-->
+    <dep from="t10" to="t12" rfunc="NMOD" />
+    <!--NMOD(Memory-14, Blessed-13)-->
+    <dep from="t14" to="t13" rfunc="NMOD" />
+    <!--PMOD(of-12, Memory-14)-->
+    <dep from="t12" to="t14" rfunc="PMOD" />
+    <!--P(was-2, .-15)-->
+    <dep from="t2" to="t15" rfunc="P" />
+    <!--SBJ(recommend-17, I-16)-->
+    <dep from="t17" to="t16" rfunc="SBJ" />
+    <!--OBJ(recommend-17, that-18)-->
+    <dep from="t17" to="t18" rfunc="OBJ" />
+    <!--SBJ(read-20, everyone-19)-->
+    <dep from="t20" to="t19" rfunc="SBJ" />
+    <!--SUB(that-18, read-20)-->
+    <dep from="t18" to="t20" rfunc="SUB" />
+    <!--OBJ(read-20, https://en.wikipedia.org/wiki/Theodor_Fritsch-21)-->
+    <dep from="t20" to="t21" rfunc="OBJ" />
+    <!--P(recommend-17, .-22)-->
+    <dep from="t17" to="t22" rfunc="P" />
+    <!--NMOD(quote-24, This-23)-->
+    <dep from="t24" to="t23" rfunc="NMOD" />
+    <!--SBJ(is-25, quote-24)-->
+    <dep from="t25" to="t24" rfunc="SBJ" />
+    <!--NMOD(version-28, a-26)-->
+    <dep from="t28" to="t26" rfunc="NMOD" />
+    <!--NMOD(version-28, better-27)-->
+    <dep from="t28" to="t27" rfunc="NMOD" />
+    <!--OBJ(is-25, version-28)-->
+    <dep from="t25" to="t28" rfunc="OBJ" />
+    <!--NMOD(version-28, of-29)-->
+    <dep from="t28" to="t29" rfunc="NMOD" />
+    <!--NMOD(mystery-31, the-30)-->
+    <dep from="t31" to="t30" rfunc="NMOD" />
+    <!--PMOD(of-29, mystery-31)-->
+    <dep from="t29" to="t31" rfunc="PMOD" />
+    <!--NMOD(mystery-31, of-32)-->
+    <dep from="t31" to="t32" rfunc="NMOD" />
+    <!--NMOD(mind-35, the-33)-->
+    <dep from="t35" to="t33" rfunc="NMOD" />
+    <!--NMOD(mind-35, Jew-34)-->
+    <dep from="t35" to="t34" rfunc="NMOD" />
+    <!--PMOD(of-32, mind-35)-->
+    <dep from="t32" to="t35" rfunc="PMOD" />
+    <!--NMOD(version-28, that-36)-->
+    <dep from="t28" to="t36" rfunc="NMOD" />
+    <!--SBJ(was-38, I-37)-->
+    <dep from="t38" to="t37" rfunc="SBJ" />
+    <!--SUB(that-36, was-38)-->
+    <dep from="t36" to="t38" rfunc="SUB" />
+    <!--OPRD(was-38, trying-39)-->
+    <dep from="t38" to="t39" rfunc="OPRD" />
+    <!--OPRD(trying-39, to-40)-->
+    <dep from="t39" to="t40" rfunc="OPRD" />
+    <!--IM(to-40, explain-41)-->
+    <dep from="t40" to="t41" rfunc="IM" />
+    <!--P(is-25, .-42)-->
+    <dep from="t25" to="t42" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Theodor Fritsch-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Theodor_Fritsch" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="MISC">
+      <references>
+        <!--Jew-->
+        <span>
+          <target id="t34" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99299455" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--mind-->
+        <span>
+          <target id="t35" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mind" confidence="0.99926454" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--Memory-->
+        <span>
+          <target id="t14" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Memory" confidence="0.9995354" />
+      </externalReferences>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--work-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--everyone-->
+        <span>
+          <target id="t19" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e9" unnamed="yes">
+      <references>
+        <!--https://en.wikipedia.org/wiki/Theodor_Fritsch-->
+        <span>
+          <target id="t21" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e10" unnamed="yes">
+      <references>
+        <!--quote-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e11" unnamed="yes">
+      <references>
+        <!--version-->
+        <span>
+          <target id="t28" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e12" unnamed="yes">
+      <references>
+        <!--mystery-->
+        <span>
+          <target id="t31" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e13" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t37" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co2">
+      <!--This quote-->
+      <span>
+        <target id="t23" />
+        <target id="t24" head="yes" />
+      </span>
+      <!--a better version of the mystery of the Jew mind-->
+      <span>
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" head="yes" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Temple_(LDS_Church)" confidence="0.8873517431258143" spotted="true">
+      <!--recommend-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Explanation" confidence="0.9934932306930281" spotted="true">
+      <!--explain-->
+      <span>
+        <target id="w41" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9929945576318081" spotted="true">
+      <!--Jew-->
+      <span>
+        <target id="w34" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Cover_version" confidence="0.9871276964030208" spotted="true">
+      <!--version-->
+      <span>
+        <target id="w28" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Awareness" confidence="0.9999978998160257" spotted="true">
+      <!--aware-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mind" confidence="0.9992645135057648" spotted="true">
+      <!--mind-->
+      <span>
+        <target id="w35" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sathya_Sai_Baba" confidence="0.9993358791117547" spotted="true">
+      <!--This-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Beatification" confidence="0.9985973422100286" spotted="true">
+      <!--Blessed-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le9" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sacred_mysteries" confidence="0.8537945394173664" spotted="true">
+      <!--mystery-->
+      <span>
+        <target id="w31" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le10" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Memory" confidence="0.9995354026113095" spotted="true">
+      <!--Memory-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le11" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reading_(process)" confidence="0.7033557303245176" spotted="true">
+      <!--read-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le12" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Theodor_Fritsch" confidence="1.0" spotted="true">
+      <!--Theodor Fritsch-->
+      <span>
+        <target id="w9" />
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 was : A2[t4 aware] AM-NEG[t3 not] A1[t1 I]-->
+    <predicate id="pr1" source="mate">
+      <!--was-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A2">
+        <!--aware of the work of Theodor Fritsch , of Blessed Memory-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </role>
+      <role id="rl2" semRole="AM-NEG">
+        <!--not-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+      <role id="rl3" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t4 aware : [t5 of] [t1 I]-->
+    <predicate id="f_pr3" source="semafor" confidence="71.68616153253338">
+      <!--aware-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Awareness" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Awareness" confidence="0.9999979" />
+        <externalRef resource="FrameBase" reference="frame-Awareness-know.v" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--of the work of Theodor Fritsch , of Blessed Memory-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Content" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Content" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Awareness@Cognizer" />
+          <externalRef resource="FrameBase" reference="fe-Awareness-Cognizer" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 work : A0[t1 I] A0[t8 of]-->
+    <predicate id="f_pr4" source="semafor" confidence="87.95668923363984">
+      <!--work-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Working_on" />
+        <externalRef resource="NomBank" reference="work.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Working_on-work.v" />
+      </externalReferences>
+      <role id="rl35" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+      <role id="rl36" semRole="A0">
+        <!--of Theodor Fritsch , of Blessed Memory-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </role>
+    </predicate>
+    <!--t14 Memory : [t13 Blessed]-->
+    <predicate id="f_pr5" source="semafor" confidence="59.00566202336702">
+      <!--Memory-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Memory" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Memory" confidence="0.9995354" />
+        <externalRef resource="FrameBase" reference="frame-Memory-recall.v" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--Blessed Memory-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Memory@Content" />
+          <externalRef resource="FrameBase" reference="fe-Memory-Content" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t17 recommend : A0[t16 I] A1[t18 that]-->
+    <predicate id="pr6" source="mate">
+      <!--recommend-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="recommend.01" source="mate" />
+        <externalRef resource="VerbNet" reference="reflexive_appearance-48.1.2" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-00882948-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Temple_(LDS_Church)" confidence="0.88735175" />
+      </externalReferences>
+      <role id="rl9" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="reflexive_appearance-48.1.2@Agent" />
+          <externalRef resource="PropBank" reference="recommend.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A1">
+        <!--that everyone read https://en.wikipedia.org/wiki/Theodor_Fritsch-->
+        <span>
+          <target id="t18" head="yes" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="reflexive_appearance-48.1.2@Theme" />
+          <externalRef resource="PropBank" reference="recommend.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 read : A0[t19 everyone] A1[t21 https://en.wikipedia.org/wiki/Theodor_Fritsch]-->
+    <predicate id="f_pr8" source="semafor" confidence="55.797623908816306">
+      <!--read-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reading" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reading_(process)" confidence="0.7033557" />
+        <externalRef resource="PropBank" reference="read.01" source="mate" />
+        <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00593852-v" />
+        <externalRef resource="WordNet" reference="ili-30-00625119-v" />
+        <externalRef resource="WordNet" reference="ili-30-00922867-v" />
+        <externalRef resource="WordNet" reference="ili-30-00626428-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reading_(process)" confidence="0.7033557" />
+        <externalRef resource="FrameBase" reference="frame-Reading-read.v" />
+      </externalReferences>
+      <role id="rl13" semRole="A0">
+        <!--everyone-->
+        <span>
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Reading@Reader" />
+          <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1@Agent" />
+          <externalRef resource="PropBank" reference="read.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Reading-Reader" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="A1">
+        <!--https://en.wikipedia.org/wiki/Theodor_Fritsch-->
+        <span>
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Reading@Text" />
+          <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1@Topic" />
+          <externalRef resource="PropBank" reference="read.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Reading-Text" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t25 is : A1[t23 This] A2[t26 a]-->
+    <predicate id="pr9" source="mate">
+      <!--is-->
+      <span>
+        <target id="t25" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl15" semRole="A1">
+        <!--This quote-->
+        <span>
+          <target id="t23" />
+          <target id="t24" head="yes" />
+        </span>
+      </role>
+      <role id="rl16" semRole="A2">
+        <!--a better version of the mystery of the Jew mind that I was trying to explain-->
+        <span>
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" head="yes" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+        </span>
+      </role>
+    </predicate>
+    <!--t35 mind : A0[t34 Jew]-->
+    <predicate id="pr12" source="mate">
+      <!--mind-->
+      <span>
+        <target id="t35" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="mind.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="PropBank" reference="know.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mind" confidence="0.99926454" />
+      </externalReferences>
+      <role id="rl20" semRole="A0">
+        <!--Jew-->
+        <span>
+          <target id="t34" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Agent" />
+          <externalRef resource="PropBank" reference="know.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t38 was : A1[t37 I]-->
+    <predicate id="pr13" source="mate">
+      <!--was-->
+      <span>
+        <target id="t38" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl21" semRole="A1">
+        <!--I-->
+        <span>
+          <target id="t37" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t27 better : [t26 a]-->
+    <predicate id="f_pr16" source="semafor" confidence="34.30909881428039">
+      <!--better-->
+      <span>
+        <target id="t27" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Desirability" />
+      </externalReferences>
+      <role id="rl25" semRole="">
+        <!--a better version of the mystery of the Jew mind that I was trying to explain-->
+        <span>
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Desirability@Evaluee" />
+          <externalRef resource="FrameBase" reference="fe-Desirability-Evaluee" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t28 version : A1[t29 of] A1[t36 that]-->
+    <predicate id="f_pr17" source="semafor" confidence="22.4692861164186">
+      <!--version-->
+      <span>
+        <target id="t28" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Type" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Cover_version" confidence="0.9871277" />
+        <externalRef resource="NomBank" reference="version.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Cover_version" confidence="0.9871277" />
+        <externalRef resource="FrameBase" reference="frame-Type-version.n" />
+      </externalReferences>
+      <role id="rl27" semRole="A1">
+        <!--of the mystery of the Jew mind-->
+        <span>
+          <target id="t29" />
+          <target id="t30" />
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Type@Category" />
+          <externalRef resource="FrameBase" reference="fe-Type-Category" />
+        </externalReferences>
+      </role>
+      <role id="rl33" semRole="A1">
+        <!--that I was trying to explain-->
+        <span>
+          <target id="t36" head="yes" />
+          <target id="t37" />
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+        </span>
+      </role>
+    </predicate>
+    <!--t31 mystery : A1[t32 of]-->
+    <predicate id="f_pr18" source="semafor" confidence="58.8279816458551">
+      <!--mystery-->
+      <span>
+        <target id="t31" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Text" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sacred_mysteries" confidence="0.8537945" />
+        <externalRef resource="NomBank" reference="mystery.01" source="mate" />
+        <externalRef resource="VerbNet" reference="characterize-29.2-1" />
+        <externalRef resource="PropBank" reference="know.01" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594621-v" />
+        <externalRef resource="WordNet" reference="ili-30-00595935-v" />
+        <externalRef resource="WordNet" reference="ili-30-00608670-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sacred_mysteries" confidence="0.8537945" />
+        <externalRef resource="FrameBase" reference="frame-Text-mystery.n" />
+      </externalReferences>
+      <role id="rl34" semRole="A1">
+        <!--of the Jew mind-->
+        <span>
+          <target id="t32" head="yes" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="characterize-29.2@Theme" />
+          <externalRef resource="PropBank" reference="know.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t34 Jew : [t34 Jew]-->
+    <predicate id="f_pr19" source="semafor" confidence="34.74444497577582">
+      <!--Jew-->
+      <span>
+        <target id="t34" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99299455" />
+        <externalRef resource="FrameBase" reference="frame-People_by_religion-jew.n" />
+      </externalReferences>
+      <role id="rl29" semRole="">
+        <!--Jew-->
+        <span>
+          <target id="t34" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t39 trying : A1[t40 to] A0[t37 I]-->
+    <predicate id="f_pr20" source="semafor" confidence="97.57143935524337">
+      <!--trying-->
+      <span>
+        <target id="t39" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Attempt" />
+        <externalRef resource="PropBank" reference="try.01" source="mate" />
+        <externalRef resource="VerbNet" reference="try-61" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02530167-v" />
+        <externalRef resource="FrameBase" reference="frame-Attempt-try.v" />
+      </externalReferences>
+      <role id="rl30" semRole="A1">
+        <!--to explain-->
+        <span>
+          <target id="t40" />
+          <target id="t41" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attempt@Goal" />
+          <externalRef resource="VerbNet" reference="try-61@Theme" />
+          <externalRef resource="PropBank" reference="try.01@1" />
+          <externalRef resource="FrameBase" reference="fe-Attempt-Goal" />
+        </externalReferences>
+      </role>
+      <role id="rl31" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t37" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Attempt@Agent" />
+          <externalRef resource="VerbNet" reference="try-61@Agent" />
+          <externalRef resource="PropBank" reference="try.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Attempt-Agent" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t41 explain : A0[t37 I]-->
+    <predicate id="f_pr21" source="semafor" confidence="110.88448685463061">
+      <!--explain-->
+      <span>
+        <target id="t41" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Statement" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Explanation" confidence="0.99349326" />
+        <externalRef resource="PropBank" reference="explain.01" source="mate" />
+        <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-01065456-v" />
+        <externalRef resource="WordNet" reference="ili-30-00939277-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Explanation" confidence="0.99349326" />
+        <externalRef resource="FrameBase" reference="frame-Statement-explain.v" />
+      </externalReferences>
+      <role id="rl32" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t37" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Speaker" />
+          <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1@Agent" />
+          <externalRef resource="PropBank" reference="explain.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Speaker" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t24 quote :-->
+    <predicate id="pr22">
+      <!--quote-->
+      <span>
+        <target id="t24" head="yes" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="quote.01" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBD was) (RB not) (ADJP (JJ aware) (PP (IN of) (NP (NP (DT the) (NN work)) (PP (IN of) (NP (NNP Theodor) (NNP Fritsch))) (, ,) (PP (IN of) (NP (JJ Blessed) (NN Memory))))))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (NP (PRP I)) (VP (VBP recommend) (SBAR (IN that) (S (NP (NN everyone)) (VP (VBD read) (NP (NN https://en.wikipedia.org/wiki/Theodor_Fritsch)))))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (NP (DT This) (NN quote)) (VP (VBZ is) (NP (NP (DT a) (JJR better) (NN version)) (PP (IN of) (NP (NP (DT the) (NN mystery)) (PP (IN of) (NP (DT the) (NN Jew) (NN mind)))))) (SBAR (IN that) (S (NP (PRP I)) (VP (VBD was) (VP (VBG trying) (S (VP (TO to) (VP (VB explain))))))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBD" />
+      <nt id="nter7" label="RB" />
+      <nt id="nter8" label="ADJP" />
+      <nt id="nter9" label="JJ" />
+      <nt id="nter10" label="PP" />
+      <nt id="nter11" label="IN" />
+      <nt id="nter12" label="NP" />
+      <nt id="nter13" label="NP" />
+      <nt id="nter14" label="DT" />
+      <nt id="nter15" label="NN" />
+      <nt id="nter16" label="PP" />
+      <nt id="nter17" label="IN" />
+      <nt id="nter18" label="NP" />
+      <nt id="nter19" label="NNP" />
+      <nt id="nter20" label="NNP" />
+      <nt id="nter21" label="," />
+      <nt id="nter22" label="PP" />
+      <nt id="nter23" label="IN" />
+      <nt id="nter24" label="NP" />
+      <nt id="nter25" label="JJ" />
+      <nt id="nter26" label="NN" />
+      <nt id="nter27" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--aware-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--work-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Theodor-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Fritsch-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--Blessed-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--Memory-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter5" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" />
+      <edge id="tre15" from="nter11" to="nter10" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter10" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" />
+      <edge id="tre20" from="ter6" to="nter14" />
+      <edge id="tre21" from="nter15" to="nter13" head="yes" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter12" />
+      <edge id="tre24" from="nter17" to="nter16" head="yes" />
+      <edge id="tre25" from="ter8" to="nter17" />
+      <edge id="tre26" from="nter18" to="nter16" />
+      <edge id="tre27" from="nter19" to="nter18" />
+      <edge id="tre28" from="ter9" to="nter19" />
+      <edge id="tre29" from="nter20" to="nter18" head="yes" />
+      <edge id="tre30" from="ter10" to="nter20" />
+      <edge id="tre31" from="nter21" to="nter12" />
+      <edge id="tre32" from="ter11" to="nter21" />
+      <edge id="tre33" from="nter22" to="nter12" />
+      <edge id="tre34" from="nter23" to="nter22" head="yes" />
+      <edge id="tre35" from="ter12" to="nter23" />
+      <edge id="tre36" from="nter24" to="nter22" />
+      <edge id="tre37" from="nter25" to="nter24" />
+      <edge id="tre38" from="ter13" to="nter25" />
+      <edge id="tre39" from="nter26" to="nter24" head="yes" />
+      <edge id="tre40" from="ter14" to="nter26" />
+      <edge id="tre41" from="nter27" to="nter2" />
+      <edge id="tre42" from="ter15" to="nter27" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter28" label="ROOT" />
+      <nt id="nter29" label="S" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="PRP" />
+      <nt id="nter32" label="VP" />
+      <nt id="nter33" label="VBP" />
+      <nt id="nter34" label="SBAR" />
+      <nt id="nter35" label="IN" />
+      <nt id="nter36" label="S" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NN" />
+      <nt id="nter39" label="VP" />
+      <nt id="nter40" label="VBD" />
+      <nt id="nter41" label="NP" />
+      <nt id="nter42" label="NN" />
+      <nt id="nter43" label="." />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--recommend-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--everyone-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--read-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--https://en.wikipedia.org/wiki/Theodor_Fritsch-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre44" from="nter29" to="nter28" head="yes" />
+      <edge id="tre45" from="nter30" to="nter29" />
+      <edge id="tre46" from="nter31" to="nter30" head="yes" />
+      <edge id="tre47" from="ter16" to="nter31" />
+      <edge id="tre48" from="nter32" to="nter29" head="yes" />
+      <edge id="tre49" from="nter33" to="nter32" head="yes" />
+      <edge id="tre50" from="ter17" to="nter33" />
+      <edge id="tre51" from="nter34" to="nter32" />
+      <edge id="tre52" from="nter35" to="nter34" head="yes" />
+      <edge id="tre53" from="ter18" to="nter35" />
+      <edge id="tre54" from="nter36" to="nter34" />
+      <edge id="tre55" from="nter37" to="nter36" />
+      <edge id="tre56" from="nter38" to="nter37" head="yes" />
+      <edge id="tre57" from="ter19" to="nter38" />
+      <edge id="tre58" from="nter39" to="nter36" head="yes" />
+      <edge id="tre59" from="nter40" to="nter39" head="yes" />
+      <edge id="tre60" from="ter20" to="nter40" />
+      <edge id="tre61" from="nter41" to="nter39" />
+      <edge id="tre62" from="nter42" to="nter41" head="yes" />
+      <edge id="tre63" from="ter21" to="nter42" />
+      <edge id="tre64" from="nter43" to="nter29" />
+      <edge id="tre65" from="ter22" to="nter43" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter44" label="ROOT" />
+      <nt id="nter45" label="S" />
+      <nt id="nter46" label="NP" />
+      <nt id="nter47" label="DT" />
+      <nt id="nter48" label="NN" />
+      <nt id="nter49" label="VP" />
+      <nt id="nter50" label="VBZ" />
+      <nt id="nter51" label="NP" />
+      <nt id="nter52" label="NP" />
+      <nt id="nter53" label="DT" />
+      <nt id="nter54" label="JJR" />
+      <nt id="nter55" label="NN" />
+      <nt id="nter56" label="PP" />
+      <nt id="nter57" label="IN" />
+      <nt id="nter58" label="NP" />
+      <nt id="nter59" label="NP" />
+      <nt id="nter60" label="DT" />
+      <nt id="nter61" label="NN" />
+      <nt id="nter62" label="PP" />
+      <nt id="nter63" label="IN" />
+      <nt id="nter64" label="NP" />
+      <nt id="nter65" label="DT" />
+      <nt id="nter66" label="NN" />
+      <nt id="nter67" label="NN" />
+      <nt id="nter68" label="SBAR" />
+      <nt id="nter69" label="IN" />
+      <nt id="nter70" label="S" />
+      <nt id="nter71" label="NP" />
+      <nt id="nter72" label="PRP" />
+      <nt id="nter73" label="VP" />
+      <nt id="nter74" label="VBD" />
+      <nt id="nter75" label="VP" />
+      <nt id="nter76" label="VBG" />
+      <nt id="nter77" label="S" />
+      <nt id="nter78" label="VP" />
+      <nt id="nter79" label="TO" />
+      <nt id="nter80" label="VP" />
+      <nt id="nter81" label="VB" />
+      <nt id="nter82" label="." />
+      <!--Terminals-->
+      <!--This-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--quote-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--better-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--version-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--mystery-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--Jew-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--mind-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--trying-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--explain-->
+      <t id="ter41">
+        <span>
+          <target id="t41" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter42">
+        <span>
+          <target id="t42" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre67" from="nter45" to="nter44" head="yes" />
+      <edge id="tre68" from="nter46" to="nter45" />
+      <edge id="tre69" from="nter47" to="nter46" />
+      <edge id="tre70" from="ter23" to="nter47" />
+      <edge id="tre71" from="nter48" to="nter46" head="yes" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter45" head="yes" />
+      <edge id="tre74" from="nter50" to="nter49" head="yes" />
+      <edge id="tre75" from="ter25" to="nter50" />
+      <edge id="tre76" from="nter51" to="nter49" />
+      <edge id="tre77" from="nter52" to="nter51" head="yes" />
+      <edge id="tre78" from="nter53" to="nter52" />
+      <edge id="tre79" from="ter26" to="nter53" />
+      <edge id="tre80" from="nter54" to="nter52" />
+      <edge id="tre81" from="ter27" to="nter54" />
+      <edge id="tre82" from="nter55" to="nter52" head="yes" />
+      <edge id="tre83" from="ter28" to="nter55" />
+      <edge id="tre84" from="nter56" to="nter51" />
+      <edge id="tre85" from="nter57" to="nter56" head="yes" />
+      <edge id="tre86" from="ter29" to="nter57" />
+      <edge id="tre87" from="nter58" to="nter56" />
+      <edge id="tre88" from="nter59" to="nter58" head="yes" />
+      <edge id="tre89" from="nter60" to="nter59" />
+      <edge id="tre90" from="ter30" to="nter60" />
+      <edge id="tre91" from="nter61" to="nter59" head="yes" />
+      <edge id="tre92" from="ter31" to="nter61" />
+      <edge id="tre93" from="nter62" to="nter58" />
+      <edge id="tre94" from="nter63" to="nter62" head="yes" />
+      <edge id="tre95" from="ter32" to="nter63" />
+      <edge id="tre96" from="nter64" to="nter62" />
+      <edge id="tre97" from="nter65" to="nter64" />
+      <edge id="tre98" from="ter33" to="nter65" />
+      <edge id="tre99" from="nter66" to="nter64" />
+      <edge id="tre100" from="ter34" to="nter66" />
+      <edge id="tre101" from="nter67" to="nter64" head="yes" />
+      <edge id="tre102" from="ter35" to="nter67" />
+      <edge id="tre103" from="nter68" to="nter49" />
+      <edge id="tre104" from="nter69" to="nter68" head="yes" />
+      <edge id="tre105" from="ter36" to="nter69" />
+      <edge id="tre106" from="nter70" to="nter68" />
+      <edge id="tre107" from="nter71" to="nter70" />
+      <edge id="tre108" from="nter72" to="nter71" head="yes" />
+      <edge id="tre109" from="ter37" to="nter72" />
+      <edge id="tre110" from="nter73" to="nter70" head="yes" />
+      <edge id="tre111" from="nter74" to="nter73" head="yes" />
+      <edge id="tre112" from="ter38" to="nter74" />
+      <edge id="tre113" from="nter75" to="nter73" />
+      <edge id="tre114" from="nter76" to="nter75" head="yes" />
+      <edge id="tre115" from="ter39" to="nter76" />
+      <edge id="tre116" from="nter77" to="nter75" />
+      <edge id="tre117" from="nter78" to="nter77" head="yes" />
+      <edge id="tre118" from="nter79" to="nter78" head="yes" />
+      <edge id="tre119" from="ter40" to="nter79" />
+      <edge id="tre120" from="nter80" to="nter78" />
+      <edge id="tre121" from="nter81" to="nter80" head="yes" />
+      <edge id="tre122" from="ter41" to="nter81" />
+      <edge id="tre123" from="nter82" to="nter45" />
+      <edge id="tre124" from="ter42" to="nter82" />
+    </tree>
+  </constituency>
+</NAF>

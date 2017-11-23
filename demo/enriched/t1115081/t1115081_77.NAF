@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:37+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:37.013+0100" endTimestamp="2017-11-20T12:30:37.559+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:37.562+0100" endTimestamp="2017-11-20T12:30:37.562+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[A duplicate (but much older) thread has re-surfaced: Do Jews suffer from a sort of Narcissistic Personality Disorder? Just 2 pages long.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">A</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="9">duplicate</wf>
+    <wf id="w3" sent="1" para="1" offset="12" length="1">(</wf>
+    <wf id="w4" sent="1" para="1" offset="13" length="3">but</wf>
+    <wf id="w5" sent="1" para="1" offset="17" length="4">much</wf>
+    <wf id="w6" sent="1" para="1" offset="22" length="5">older</wf>
+    <wf id="w7" sent="1" para="1" offset="27" length="1">)</wf>
+    <wf id="w8" sent="1" para="1" offset="29" length="6">thread</wf>
+    <wf id="w9" sent="1" para="1" offset="36" length="3">has</wf>
+    <wf id="w10" sent="1" para="1" offset="40" length="11">re-surfaced</wf>
+    <wf id="w11" sent="1" para="1" offset="51" length="1">:</wf>
+    <wf id="w12" sent="1" para="1" offset="53" length="2">Do</wf>
+    <wf id="w13" sent="1" para="1" offset="56" length="4">Jews</wf>
+    <wf id="w14" sent="1" para="1" offset="61" length="6">suffer</wf>
+    <wf id="w15" sent="1" para="1" offset="68" length="4">from</wf>
+    <wf id="w16" sent="1" para="1" offset="73" length="1">a</wf>
+    <wf id="w17" sent="1" para="1" offset="75" length="4">sort</wf>
+    <wf id="w18" sent="1" para="1" offset="80" length="2">of</wf>
+    <wf id="w19" sent="1" para="1" offset="83" length="12">Narcissistic</wf>
+    <wf id="w20" sent="1" para="1" offset="96" length="11">Personality</wf>
+    <wf id="w21" sent="1" para="1" offset="108" length="8">Disorder</wf>
+    <wf id="w22" sent="1" para="1" offset="116" length="1">?</wf>
+    <wf id="w23" sent="2" para="1" offset="118" length="4">Just</wf>
+    <wf id="w24" sent="2" para="1" offset="123" length="1">2</wf>
+    <wf id="w25" sent="2" para="1" offset="125" length="5">pages</wf>
+    <wf id="w26" sent="2" para="1" offset="131" length="4">long</wf>
+    <wf id="w27" sent="2" para="1" offset="135" length="1">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term id="t1" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--duplicate-->
+    <term id="t2" type="open" lemma="duplicate" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--(-->
+    <term id="t3" type="open" lemma="(" pos="O" morphofeat="(">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--but-->
+    <term id="t4" type="open" lemma="but" pos="C" morphofeat="CC">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--much-->
+    <term id="t5" type="open" lemma="much" pos="A" morphofeat="RB">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--older-->
+    <term id="t6" type="open" lemma="older" pos="G" morphofeat="JJR">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--)-->
+    <term id="t7" type="open" lemma=")" pos="O" morphofeat=")">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--thread-->
+    <term id="t8" type="open" lemma="thread" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--has-->
+    <term id="t9" type="open" lemma="have" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--re-surfaced-->
+    <term id="t10" type="open" lemma="re-surface" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t11" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Do-->
+    <term id="t12" type="open" lemma="do" pos="V" morphofeat="VB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Jews-->
+    <term id="t13" type="open" lemma="Jews" pos="R" morphofeat="NNPS">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--suffer-->
+    <term id="t14" type="open" lemma="suffer" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t15" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t16" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--sort-->
+    <term id="t17" type="open" lemma="sort" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t18" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Narcissistic-->
+    <term id="t19" type="open" lemma="narcissistic" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--Personality-->
+    <term id="t20" type="open" lemma="personality" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Disorder-->
+    <term id="t21" type="open" lemma="disorder" pos="N" morphofeat="NN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t22" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--Just-->
+    <term id="t23" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--2-->
+    <term id="t24" type="open" lemma="2" pos="O" morphofeat="CD">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--pages-->
+    <term id="t25" type="open" lemma="page" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--long-->
+    <term id="t26" type="open" lemma="long" pos="A" morphofeat="RB">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t27" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(duplicate-2, A-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--P(duplicate-2, (-3)-->
+    <dep from="t2" to="t3" rfunc="P" />
+    <!--COORD(duplicate-2, but-4)-->
+    <dep from="t2" to="t4" rfunc="COORD" />
+    <!--NMOD(thread-8, much-5)-->
+    <dep from="t8" to="t5" rfunc="NMOD" />
+    <!--AMOD(much-5, older-6)-->
+    <dep from="t5" to="t6" rfunc="AMOD" />
+    <!--P(much-5, )-7)-->
+    <dep from="t5" to="t7" rfunc="P" />
+    <!--SBJ(has-9, thread-8)-->
+    <dep from="t9" to="t8" rfunc="SBJ" />
+    <!--CONJ(but-4, has-9)-->
+    <dep from="t4" to="t9" rfunc="CONJ" />
+    <!--VC(has-9, re-surfaced-10)-->
+    <dep from="t9" to="t10" rfunc="VC" />
+    <!--P(duplicate-2, :-11)-->
+    <dep from="t2" to="t11" rfunc="P" />
+    <!--COORD(duplicate-2, Do-12)-->
+    <dep from="t2" to="t12" rfunc="COORD" />
+    <!--SBJ(suffer-14, Jews-13)-->
+    <dep from="t14" to="t13" rfunc="SBJ" />
+    <!--TMP(Do-12, suffer-14)-->
+    <dep from="t12" to="t14" rfunc="TMP" />
+    <!--ADV(suffer-14, from-15)-->
+    <dep from="t14" to="t15" rfunc="ADV" />
+    <!--NMOD(sort-17, a-16)-->
+    <dep from="t17" to="t16" rfunc="NMOD" />
+    <!--PMOD(from-15, sort-17)-->
+    <dep from="t15" to="t17" rfunc="PMOD" />
+    <!--NMOD(sort-17, of-18)-->
+    <dep from="t17" to="t18" rfunc="NMOD" />
+    <!--NMOD(Disorder-21, Narcissistic-19)-->
+    <dep from="t21" to="t19" rfunc="NMOD" />
+    <!--NMOD(Disorder-21, Personality-20)-->
+    <dep from="t21" to="t20" rfunc="NMOD" />
+    <!--PMOD(of-18, Disorder-21)-->
+    <dep from="t18" to="t21" rfunc="PMOD" />
+    <!--P(duplicate-2, ?-22)-->
+    <dep from="t2" to="t22" rfunc="P" />
+    <!--NMOD(pages-25, Just-23)-->
+    <dep from="t25" to="t23" rfunc="NMOD" />
+    <!--NMOD(pages-25, 2-24)-->
+    <dep from="t25" to="t24" rfunc="NMOD" />
+    <!--AMOD(pages-25, long-26)-->
+    <dep from="t25" to="t26" rfunc="AMOD" />
+    <!--P(pages-25, .-27)-->
+    <dep from="t25" to="t27" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Jews-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99584734" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" type="CARDINAL">
+      <references>
+        <!--2-->
+        <span>
+          <target id="t24" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="2.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--Narcissistic Personality Disorder-->
+        <span>
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Narcissistic_personality_disorder" confidence="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--thread-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--sort-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--pages-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gene_duplication" confidence="0.734864716659409" spotted="true">
+      <!--duplicate-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Narcissistic_personality_disorder" confidence="1.0" spotted="true">
+      <!--Narcissistic Personality Disorder-->
+      <span>
+        <target id="w19" />
+        <target id="w20" />
+        <target id="w21" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Vowel_length" confidence="0.861907854468536" spotted="true">
+      <!--long-->
+      <span>
+        <target id="w26" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Justice" confidence="0.9828334055868704" spotted="true">
+      <!--Just-->
+      <span>
+        <target id="w23" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.9958473544470291" spotted="true">
+      <!--Jews-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sorting_algorithm" confidence="0.9920585298303907" spotted="true">
+      <!--sort-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.9909807179456163" spotted="true">
+      <!--thread-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le8" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Suffering" confidence="0.9964671139948132" spotted="true">
+      <!--suffer-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 duplicate : A0[t1 A]-->
+    <predicate id="f_pr6" source="semafor" confidence="95.83506968265044">
+      <!--duplicate-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Duplication" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gene_duplication" confidence="0.7348647" />
+        <externalRef resource="PropBank" reference="duplicate.01" source="mate" />
+        <externalRef resource="VerbNet" reference="transcribe-25.4" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01735308-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Gene_duplication" confidence="0.7348647" />
+        <externalRef resource="FrameBase" reference="frame-Duplication-duplicate.v" />
+      </externalReferences>
+      <role id="rl26" semRole="A0">
+        <!--A-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="transcribe-25.4@Agent" />
+          <externalRef resource="PropBank" reference="duplicate.01@0" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 much : [t6 older] [t5 much]-->
+    <predicate id="f_pr7" source="semafor" confidence="27.88455834598765">
+      <!--much-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Relational_quantity" />
+        <externalRef resource="FrameBase" reference="frame-Relational_quantity-much.art" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--older-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Mass" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Mass" />
+        </externalReferences>
+      </role>
+      <role id="rl9" semRole="">
+        <!--much older )-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Relational_quantity@Denoted_quantity" />
+          <externalRef resource="FrameBase" reference="fe-Relational_quantity-Denoted_quantity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t6 older : [t6 older] [t5 much] [t5 much]-->
+    <predicate id="f_pr8" source="semafor" confidence="41.65921993555635">
+      <!--older-->
+      <span>
+        <target id="t6" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Age" />
+      </externalReferences>
+      <role id="rl10" semRole="">
+        <!--older-->
+        <span>
+          <target id="t6" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Age@Age" />
+          <externalRef resource="FrameBase" reference="fe-Age-Age" />
+        </externalReferences>
+      </role>
+      <role id="rl11" semRole="">
+        <!--much older )-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Age@Degree" />
+          <externalRef resource="FrameBase" reference="fe-Age-Degree" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="">
+        <!--much older ) thread-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Age@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Age-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t8 thread : [t5 much]-->
+    <predicate id="f_pr9" source="semafor" confidence="45.797755985535524">
+      <!--thread-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Natural_features" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.99098074" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--much older ) thread-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Natural_features@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Natural_features-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 Do : [t13 Jews]-->
+    <predicate id="f_pr10" source="semafor" confidence="70.78786216921775">
+      <!--Do-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-do.v" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--Jews-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 Jews : [t13 Jews]-->
+    <predicate id="f_pr11" source="semafor" confidence="36.773855349564485">
+      <!--Jews-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People_by_religion" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Jews" confidence="0.99584734" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--Jews-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People_by_religion@Person" />
+          <externalRef resource="FrameBase" reference="fe-People_by_religion-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 suffer : A1[t15 from] A0[t13 Jews]-->
+    <predicate id="f_pr12" source="semafor" confidence="41.037094460101386">
+      <!--suffer-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Catastrophe" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Suffering" confidence="0.9964671" />
+        <externalRef resource="PropBank" reference="suffer.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Suffering" confidence="0.9964671" />
+        <externalRef resource="FrameBase" reference="frame-Catastrophe-suffer.v" />
+      </externalReferences>
+      <role id="rl16" semRole="A1">
+        <!--from a sort of Narcissistic Personality Disorder-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Catastrophe@Undesirable_Event" />
+          <externalRef resource="FrameBase" reference="fe-Catastrophe-Undesirable_Event" />
+        </externalReferences>
+      </role>
+      <role id="rl25" semRole="A0">
+        <!--Jews-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t17 sort : A1[t18 of]-->
+    <predicate id="f_pr13" source="semafor" confidence="19.862704946517738">
+      <!--sort-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Type" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sorting_algorithm" confidence="0.9920585" />
+        <externalRef resource="NomBank" reference="sort.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Sorting_algorithm" confidence="0.9920585" />
+        <externalRef resource="FrameBase" reference="frame-Type-form.n" />
+      </externalReferences>
+      <role id="rl18" semRole="A1">
+        <!--of Narcissistic Personality Disorder-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Type@Category" />
+          <externalRef resource="FrameBase" reference="fe-Type-Category" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t21 Disorder : A1[t20 Personality] AM-MNR[t19 Narcissistic]-->
+    <predicate id="f_pr14" source="semafor" confidence="29.71284140400642">
+      <!--Disorder-->
+      <span>
+        <target id="t21" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Medical_conditions" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Narcissistic_personality_disorder" confidence="1.0" />
+        <externalRef resource="NomBank" reference="disorder.02" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Narcissistic_personality_disorder" confidence="1.0" />
+        <externalRef resource="FrameBase" reference="frame-Medical_conditions-disorder.n" />
+      </externalReferences>
+      <role id="rl19" semRole="A1">
+        <!--Personality-->
+        <span>
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Medical_conditions@Symptom" />
+          <externalRef resource="FrameBase" reference="fe-Medical_conditions-Symptom" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="AM-MNR">
+        <!--Narcissistic-->
+        <span>
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Medical_conditions@Degree" />
+          <externalRef resource="FrameBase" reference="fe-Medical_conditions-Degree" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t24 2 : [t24 2] [t23 Just]-->
+    <predicate id="f_pr15" source="semafor" confidence="30.541356045634764">
+      <!--2-->
+      <span>
+        <target id="t24" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cardinal_numbers" />
+      </externalReferences>
+      <role id="rl22" semRole="">
+        <!--2-->
+        <span>
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Number" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Number" />
+        </externalReferences>
+      </role>
+      <role id="rl23" semRole="">
+        <!--Just 2 pages long .-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t25 pages :-->
+    <predicate id="f_pr16" source="semafor" confidence="72.12629867755615">
+      <!--pages-->
+      <span>
+        <target id="t25" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Contacting" />
+      </externalReferences>
+    </predicate>
+    <!--t26 long : [t23 Just]-->
+    <predicate id="f_pr17" source="semafor" confidence="7.664018974934151">
+      <!--long-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Duration_attribute" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Vowel_length" confidence="0.86190784" />
+      </externalReferences>
+      <role id="rl24" semRole="">
+        <!--Just 2 pages long .-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Duration_attribute@Eventuality" />
+          <externalRef resource="FrameBase" reference="fe-Duration_attribute-Eventuality" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (DT A) (S (S (VP (VBP duplicate) (SBAR (S (PRN (-LRB- -LRB-) (PP (CC but) (NP (NP (RB much)) (ADJP (JJR older)))) (-RRB- -RRB-)) (NP (NN thread)) (VP (VBZ has) (VP (VBN re-surfaced))))))) (: :) (S (VP (VB Do) (NP (NNPS Jews)))))) (VP (VBP suffer) (PP (IN from) (NP (NP (DT a) (NN sort)) (PP (IN of) (NP (JJ Narcissistic) (NN Personality) (NN Disorder)))))) (. ?)))</tree>
+    <tree sentence="2">(ROOT (FRAG (ADVP (NP (RB Just) (CD 2) (NNS pages)) (RB long)) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="DT" />
+      <nt id="nter5" label="S" />
+      <nt id="nter6" label="S" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VBP" />
+      <nt id="nter9" label="SBAR" />
+      <nt id="nter10" label="S" />
+      <nt id="nter11" label="PRN" />
+      <nt id="nter12" label="-LRB-" />
+      <nt id="nter13" label="PP" />
+      <nt id="nter14" label="CC" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="RB" />
+      <nt id="nter18" label="ADJP" />
+      <nt id="nter19" label="JJR" />
+      <nt id="nter20" label="-RRB-" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="NN" />
+      <nt id="nter23" label="VP" />
+      <nt id="nter24" label="VBZ" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VBN" />
+      <nt id="nter27" label=":" />
+      <nt id="nter28" label="S" />
+      <nt id="nter29" label="VP" />
+      <nt id="nter30" label="VB" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="NNPS" />
+      <nt id="nter33" label="VP" />
+      <nt id="nter34" label="VBP" />
+      <nt id="nter35" label="PP" />
+      <nt id="nter36" label="IN" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="DT" />
+      <nt id="nter40" label="NN" />
+      <nt id="nter41" label="PP" />
+      <nt id="nter42" label="IN" />
+      <nt id="nter43" label="NP" />
+      <nt id="nter44" label="JJ" />
+      <nt id="nter45" label="NN" />
+      <nt id="nter46" label="NN" />
+      <nt id="nter47" label="." />
+      <!--Terminals-->
+      <!--A-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--duplicate-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--(-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--but-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--much-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--older-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--)-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--thread-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--has-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--re-surfaced-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Do-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--Jews-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--suffer-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--sort-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--Narcissistic-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Personality-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--Disorder-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="nter7" to="nter6" head="yes" />
+      <edge id="tre9" from="nter8" to="nter7" head="yes" />
+      <edge id="tre10" from="ter2" to="nter8" />
+      <edge id="tre11" from="nter9" to="nter7" />
+      <edge id="tre12" from="nter10" to="nter9" head="yes" />
+      <edge id="tre13" from="nter11" to="nter10" />
+      <edge id="tre14" from="nter12" to="nter11" head="yes" />
+      <edge id="tre15" from="ter3" to="nter12" />
+      <edge id="tre16" from="nter13" to="nter11" />
+      <edge id="tre17" from="nter14" to="nter13" />
+      <edge id="tre18" from="ter4" to="nter14" />
+      <edge id="tre19" from="nter15" to="nter13" head="yes" />
+      <edge id="tre20" from="nter16" to="nter15" head="yes" />
+      <edge id="tre21" from="nter17" to="nter16" head="yes" />
+      <edge id="tre22" from="ter5" to="nter17" />
+      <edge id="tre23" from="nter18" to="nter15" />
+      <edge id="tre24" from="nter19" to="nter18" head="yes" />
+      <edge id="tre25" from="ter6" to="nter19" />
+      <edge id="tre26" from="nter20" to="nter11" />
+      <edge id="tre27" from="ter7" to="nter20" />
+      <edge id="tre28" from="nter21" to="nter10" />
+      <edge id="tre29" from="nter22" to="nter21" head="yes" />
+      <edge id="tre30" from="ter8" to="nter22" />
+      <edge id="tre31" from="nter23" to="nter10" head="yes" />
+      <edge id="tre32" from="nter24" to="nter23" head="yes" />
+      <edge id="tre33" from="ter9" to="nter24" />
+      <edge id="tre34" from="nter25" to="nter23" />
+      <edge id="tre35" from="nter26" to="nter25" head="yes" />
+      <edge id="tre36" from="ter10" to="nter26" />
+      <edge id="tre37" from="nter27" to="nter5" />
+      <edge id="tre38" from="ter11" to="nter27" />
+      <edge id="tre39" from="nter28" to="nter5" />
+      <edge id="tre40" from="nter29" to="nter28" head="yes" />
+      <edge id="tre41" from="nter30" to="nter29" head="yes" />
+      <edge id="tre42" from="ter12" to="nter30" />
+      <edge id="tre43" from="nter31" to="nter29" />
+      <edge id="tre44" from="nter32" to="nter31" head="yes" />
+      <edge id="tre45" from="ter13" to="nter32" />
+      <edge id="tre46" from="nter33" to="nter2" head="yes" />
+      <edge id="tre47" from="nter34" to="nter33" head="yes" />
+      <edge id="tre48" from="ter14" to="nter34" />
+      <edge id="tre49" from="nter35" to="nter33" />
+      <edge id="tre50" from="nter36" to="nter35" head="yes" />
+      <edge id="tre51" from="ter15" to="nter36" />
+      <edge id="tre52" from="nter37" to="nter35" />
+      <edge id="tre53" from="nter38" to="nter37" head="yes" />
+      <edge id="tre54" from="nter39" to="nter38" />
+      <edge id="tre55" from="ter16" to="nter39" />
+      <edge id="tre56" from="nter40" to="nter38" head="yes" />
+      <edge id="tre57" from="ter17" to="nter40" />
+      <edge id="tre58" from="nter41" to="nter37" />
+      <edge id="tre59" from="nter42" to="nter41" head="yes" />
+      <edge id="tre60" from="ter18" to="nter42" />
+      <edge id="tre61" from="nter43" to="nter41" />
+      <edge id="tre62" from="nter44" to="nter43" />
+      <edge id="tre63" from="ter19" to="nter44" />
+      <edge id="tre64" from="nter45" to="nter43" />
+      <edge id="tre65" from="ter20" to="nter45" />
+      <edge id="tre66" from="nter46" to="nter43" head="yes" />
+      <edge id="tre67" from="ter21" to="nter46" />
+      <edge id="tre68" from="nter47" to="nter2" />
+      <edge id="tre69" from="ter22" to="nter47" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter48" label="ROOT" />
+      <nt id="nter49" label="FRAG" />
+      <nt id="nter50" label="ADVP" />
+      <nt id="nter51" label="NP" />
+      <nt id="nter52" label="RB" />
+      <nt id="nter53" label="CD" />
+      <nt id="nter54" label="NNS" />
+      <nt id="nter55" label="RB" />
+      <nt id="nter56" label="." />
+      <!--Terminals-->
+      <!--Just-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--2-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--pages-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--long-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre71" from="nter49" to="nter48" head="yes" />
+      <edge id="tre72" from="nter50" to="nter49" />
+      <edge id="tre73" from="nter51" to="nter50" />
+      <edge id="tre74" from="nter52" to="nter51" />
+      <edge id="tre75" from="ter23" to="nter52" />
+      <edge id="tre76" from="nter53" to="nter51" />
+      <edge id="tre77" from="ter24" to="nter53" />
+      <edge id="tre78" from="nter54" to="nter51" head="yes" />
+      <edge id="tre79" from="ter25" to="nter54" />
+      <edge id="tre80" from="nter55" to="nter50" head="yes" />
+      <edge id="tre81" from="ter26" to="nter55" />
+      <edge id="tre82" from="nter56" to="nter49" head="yes" />
+      <edge id="tre83" from="ter27" to="nter56" />
+    </tree>
+  </constituency>
+</NAF>

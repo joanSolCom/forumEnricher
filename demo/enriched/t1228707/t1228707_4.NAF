@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:33:16+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:33:16.320+0100" endTimestamp="2017-11-21T16:33:17.511+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:33:17.589+0100" endTimestamp="2017-11-21T16:33:17.593+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[1964. Both the Civil Rights Act and Immigration Act.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="4">1964</wf>
+    <wf id="w2" sent="1" para="1" offset="4" length="1">.</wf>
+    <wf id="w3" sent="2" para="1" offset="6" length="4">Both</wf>
+    <wf id="w4" sent="2" para="1" offset="11" length="3">the</wf>
+    <wf id="w5" sent="2" para="1" offset="15" length="5">Civil</wf>
+    <wf id="w6" sent="2" para="1" offset="21" length="6">Rights</wf>
+    <wf id="w7" sent="2" para="1" offset="28" length="3">Act</wf>
+    <wf id="w8" sent="2" para="1" offset="32" length="3">and</wf>
+    <wf id="w9" sent="2" para="1" offset="36" length="11">Immigration</wf>
+    <wf id="w10" sent="2" para="1" offset="48" length="3">Act</wf>
+    <wf id="w11" sent="2" para="1" offset="51" length="1">.</wf>
+  </text>
+  <terms>
+    <!--1964-->
+    <term id="t1" type="open" lemma="1964" pos="O" morphofeat="CD">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t2" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Both-->
+    <term id="t3" type="open" lemma="both" pos="C" morphofeat="CC">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t4" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Civil-->
+    <term id="t5" type="open" lemma="Civil" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Rights-->
+    <term id="t6" type="open" lemma="Rights" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Act-->
+    <term id="t7" type="open" lemma="Act" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t8" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Immigration-->
+    <term id="t9" type="open" lemma="Immigration" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Act-->
+    <term id="t10" type="open" lemma="Act" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t11" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(1964-1, .-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--DEP(Act-7, Both-3)-->
+    <dep from="t7" to="t3" rfunc="DEP" />
+    <!--NMOD(Act-7, the-4)-->
+    <dep from="t7" to="t4" rfunc="NMOD" />
+    <!--NAME(Rights-6, Civil-5)-->
+    <dep from="t6" to="t5" rfunc="NAME" />
+    <!--NMOD(Act-7, Rights-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--COORD(Act-7, and-8)-->
+    <dep from="t7" to="t8" rfunc="COORD" />
+    <!--NAME(Act-10, Immigration-9)-->
+    <dep from="t10" to="t9" rfunc="NAME" />
+    <!--CONJ(and-8, Act-10)-->
+    <dep from="t8" to="t10" rfunc="CONJ" />
+    <!--P(Act-7, .-11)-->
+    <dep from="t7" to="t11" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" type="MISC">
+      <references>
+        <!--Civil Rights Act-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Civil_Rights_Act_of_1964" confidence="0.99511826" />
+      </externalReferences>
+    </entity>
+    <entity id="e2">
+      <references>
+        <!--Immigration Act-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Immigration_and_Nationality_Act_of_1965" confidence="0.7359452" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+    <timex3 id="tmx1" type="DATE" value="1964">
+      <!--1964-->
+      <span>
+        <target id="w1" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/1964_Pacific_typhoon_season" confidence="0.5296820830336949" spotted="true">
+      <!--1964-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Immigration_and_Nationality_Act_of_1965" confidence="0.7359452369532843" spotted="true">
+      <!--Immigration Act-->
+      <span>
+        <target id="w9" />
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Bothell,_Washington" confidence="0.6729888133658423" spotted="true">
+      <!--Both-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Civil_Rights_Act_of_1964" confidence="0.9951182322645717" spotted="true">
+      <!--Civil Rights Act-->
+      <span>
+        <target id="w5" />
+        <target id="w6" />
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t7 Act : [t3 Both]-->
+    <predicate id="f_pr1" source="semafor" confidence="84.86304552324796">
+      <!--Act-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Civil_Rights_Act_of_1964" confidence="0.99511826" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-act.v" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--Both the Civil Rights Act and Immigration Act .-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 Act : [t9 Immigration]-->
+    <predicate id="f_pr2" source="semafor" confidence="89.2026354985596">
+      <!--Act-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Intentionally_act" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Immigration_and_Nationality_Act_of_1965" confidence="0.7359452" />
+        <externalRef resource="FrameBase" reference="frame-Intentionally_act-act.v" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--Immigration Act-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Intentionally_act@Act" />
+          <externalRef resource="FrameBase" reference="fe-Intentionally_act-Act" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (NP (CD 1964)) (. .)))</tree>
+    <tree sentence="2">(ROOT (NP (NP (CC Both) (NP (DT the) (NNP Civil) (NNP Rights) (NNP Act)) (CC and) (NP (NNP Immigration) (NNP Act))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="CD" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--1964-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter6" label="ROOT" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="CC" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="DT" />
+      <nt id="nter12" label="NNP" />
+      <nt id="nter13" label="NNP" />
+      <nt id="nter14" label="NNP" />
+      <nt id="nter15" label="CC" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="NNP" />
+      <nt id="nter18" label="NNP" />
+      <nt id="nter19" label="." />
+      <!--Terminals-->
+      <!--Both-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Civil-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Rights-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--Act-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Immigration-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--Act-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" head="yes" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="ter4" to="nter11" />
+      <edge id="tre16" from="nter12" to="nter10" />
+      <edge id="tre17" from="ter5" to="nter12" />
+      <edge id="tre18" from="nter13" to="nter10" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter10" head="yes" />
+      <edge id="tre21" from="ter7" to="nter14" />
+      <edge id="tre22" from="nter15" to="nter8" />
+      <edge id="tre23" from="ter8" to="nter15" />
+      <edge id="tre24" from="nter16" to="nter8" />
+      <edge id="tre25" from="nter17" to="nter16" />
+      <edge id="tre26" from="ter9" to="nter17" />
+      <edge id="tre27" from="nter18" to="nter16" head="yes" />
+      <edge id="tre28" from="ter10" to="nter18" />
+      <edge id="tre29" from="nter19" to="nter7" />
+      <edge id="tre30" from="ter11" to="nter19" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:30:38+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:30:38.835+0100" endTimestamp="2017-11-20T12:30:39.114+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:30:39.115+0100" endTimestamp="2017-11-20T12:30:39.115+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[A post from another thread]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">A</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="4">post</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="4">from</wf>
+    <wf id="w4" sent="1" para="1" offset="12" length="7">another</wf>
+    <wf id="w5" sent="1" para="1" offset="20" length="6">thread</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term id="t1" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--post-->
+    <term id="t2" type="open" lemma="post" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--from-->
+    <term id="t3" type="open" lemma="from" pos="P" morphofeat="IN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--another-->
+    <term id="t4" type="open" lemma="another" pos="D" morphofeat="DT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--thread-->
+    <term id="t5" type="open" lemma="thread" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(post-2, A-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--NMOD(post-2, from-3)-->
+    <dep from="t2" to="t3" rfunc="NMOD" />
+    <!--NMOD(thread-5, another-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--PMOD(from-3, thread-5)-->
+    <dep from="t3" to="t5" rfunc="PMOD" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--post-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--thread-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mail" confidence="0.3747934914071516" spotted="true">
+      <!--post-->
+      <span>
+        <target id="w2" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.6673563327986033" spotted="true">
+      <!--thread-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t2 post : A2[t3 from]-->
+    <predicate id="f_pr2" source="semafor" confidence="77.71737018124648">
+      <!--post-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sending" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mail" confidence="0.3747935" />
+        <externalRef resource="NomBank" reference="post.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Mail" confidence="0.3747935" />
+      </externalReferences>
+      <role id="rl2" semRole="A2">
+        <!--from another thread-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sending@Source" />
+          <externalRef resource="FrameBase" reference="fe-Sending-Source" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 another : [t4 another]-->
+    <predicate id="f_pr3" source="semafor" confidence="21.131491794023322">
+      <!--another-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Increment" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--another thread-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Increment@Class" />
+          <externalRef resource="FrameBase" reference="fe-Increment-Class" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 thread : [t4 another]-->
+    <predicate id="f_pr4" source="semafor" confidence="51.2345732160566">
+      <!--thread-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Natural_features" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Thread_(computing)" confidence="0.6673563" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--another thread-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Natural_features@Locale" />
+          <externalRef resource="FrameBase" reference="fe-Natural_features-Locale" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (DT A) (NN post)) (PP (IN from) (NP (DT another) (NN thread)))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="DT" />
+      <nt id="nter5" label="NN" />
+      <nt id="nter6" label="PP" />
+      <nt id="nter7" label="IN" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="NN" />
+      <!--Terminals-->
+      <!--A-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--post-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--from-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--another-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--thread-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter8" head="yes" />
+      <edge id="tre15" from="ter5" to="nter10" />
+    </tree>
+  </constituency>
+</NAF>

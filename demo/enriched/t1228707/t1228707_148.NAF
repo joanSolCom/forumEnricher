@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:38:11+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:38:11.785+0100" endTimestamp="2017-11-21T16:38:12.518+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:38:12.519+0100" endTimestamp="2017-11-21T16:38:12.520+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Weaponized women are just one of their contrivances Too many regular folks focus on the symptoms and not the disease, that's why we're here to help]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="10">Weaponized</wf>
+    <wf id="w2" sent="1" para="1" offset="11" length="5">women</wf>
+    <wf id="w3" sent="1" para="1" offset="17" length="3">are</wf>
+    <wf id="w4" sent="1" para="1" offset="21" length="4">just</wf>
+    <wf id="w5" sent="1" para="1" offset="26" length="3">one</wf>
+    <wf id="w6" sent="1" para="1" offset="30" length="2">of</wf>
+    <wf id="w7" sent="1" para="1" offset="33" length="5">their</wf>
+    <wf id="w8" sent="1" para="1" offset="39" length="12">contrivances</wf>
+    <wf id="w9" sent="1" para="1" offset="52" length="3">Too</wf>
+    <wf id="w10" sent="1" para="1" offset="56" length="4">many</wf>
+    <wf id="w11" sent="1" para="1" offset="61" length="7">regular</wf>
+    <wf id="w12" sent="1" para="1" offset="69" length="5">folks</wf>
+    <wf id="w13" sent="1" para="1" offset="75" length="5">focus</wf>
+    <wf id="w14" sent="1" para="1" offset="81" length="2">on</wf>
+    <wf id="w15" sent="1" para="1" offset="84" length="3">the</wf>
+    <wf id="w16" sent="1" para="1" offset="88" length="8">symptoms</wf>
+    <wf id="w17" sent="1" para="1" offset="97" length="3">and</wf>
+    <wf id="w18" sent="1" para="1" offset="101" length="3">not</wf>
+    <wf id="w19" sent="1" para="1" offset="105" length="3">the</wf>
+    <wf id="w20" sent="1" para="1" offset="109" length="7">disease</wf>
+    <wf id="w21" sent="1" para="1" offset="116" length="1">,</wf>
+    <wf id="w22" sent="1" para="1" offset="118" length="4">that</wf>
+    <wf id="w23" sent="1" para="1" offset="122" length="2">'s</wf>
+    <wf id="w24" sent="1" para="1" offset="125" length="3">why</wf>
+    <wf id="w25" sent="1" para="1" offset="129" length="2">we</wf>
+    <wf id="w26" sent="1" para="1" offset="131" length="3">'re</wf>
+    <wf id="w27" sent="1" para="1" offset="135" length="4">here</wf>
+    <wf id="w28" sent="1" para="1" offset="140" length="2">to</wf>
+    <wf id="w29" sent="1" para="1" offset="143" length="4">help</wf>
+  </text>
+  <terms>
+    <!--Weaponized-->
+    <term id="t1" type="open" lemma="weaponize" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--women-->
+    <term id="t2" type="open" lemma="woman" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--are-->
+    <term id="t3" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--just-->
+    <term id="t4" type="open" lemma="just" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--one-->
+    <term id="t5" type="open" lemma="one" pos="O" morphofeat="CD">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--of-->
+    <term id="t6" type="open" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--their-->
+    <term id="t7" type="open" lemma="they" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--contrivances-->
+    <term id="t8" type="open" lemma="contrivance" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Too-->
+    <term id="t9" type="open" lemma="too" pos="A" morphofeat="RB">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--many-->
+    <term id="t10" type="open" lemma="many" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--regular-->
+    <term id="t11" type="open" lemma="regular" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--folks-->
+    <term id="t12" type="open" lemma="folk" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--focus-->
+    <term id="t13" type="open" lemma="focus" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t14" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t15" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--symptoms-->
+    <term id="t16" type="open" lemma="symptom" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t17" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--not-->
+    <term id="t18" type="open" lemma="not" pos="A" morphofeat="RB">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t19" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--disease-->
+    <term id="t20" type="open" lemma="disease" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t21" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--that-->
+    <term id="t22" type="open" lemma="that" pos="D" morphofeat="DT">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--'s-->
+    <term id="t23" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--why-->
+    <term id="t24" type="open" lemma="why" pos="O" morphofeat="WRB">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t25" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--'re-->
+    <term id="t26" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--here-->
+    <term id="t27" type="open" lemma="here" pos="A" morphofeat="RB">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t28" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--help-->
+    <term id="t29" type="open" lemma="help" pos="V" morphofeat="VB">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(women-2, Weaponized-1)-->
+    <dep from="t2" to="t1" rfunc="NMOD" />
+    <!--SBJ(are-3, women-2)-->
+    <dep from="t3" to="t2" rfunc="SBJ" />
+    <!--NMOD(one-5, just-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--OBJ(are-3, one-5)-->
+    <dep from="t3" to="t5" rfunc="OBJ" />
+    <!--NMOD(one-5, of-6)-->
+    <dep from="t5" to="t6" rfunc="NMOD" />
+    <!--NMOD(contrivances-8, their-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--PMOD(of-6, contrivances-8)-->
+    <dep from="t6" to="t8" rfunc="PMOD" />
+    <!--AMOD(many-10, Too-9)-->
+    <dep from="t10" to="t9" rfunc="AMOD" />
+    <!--NMOD(folks-12, many-10)-->
+    <dep from="t12" to="t10" rfunc="NMOD" />
+    <!--NMOD(folks-12, regular-11)-->
+    <dep from="t12" to="t11" rfunc="NMOD" />
+    <!--SBJ(focus-13, folks-12)-->
+    <dep from="t13" to="t12" rfunc="SBJ" />
+    <!--NMOD(one-5, focus-13)-->
+    <dep from="t5" to="t13" rfunc="NMOD" />
+    <!--ADV(focus-13, on-14)-->
+    <dep from="t13" to="t14" rfunc="ADV" />
+    <!--NMOD(symptoms-16, the-15)-->
+    <dep from="t16" to="t15" rfunc="NMOD" />
+    <!--PMOD(on-14, symptoms-16)-->
+    <dep from="t14" to="t16" rfunc="PMOD" />
+    <!--COORD(symptoms-16, and-17)-->
+    <dep from="t16" to="t17" rfunc="COORD" />
+    <!--NMOD(disease-20, not-18)-->
+    <dep from="t20" to="t18" rfunc="NMOD" />
+    <!--NMOD(disease-20, the-19)-->
+    <dep from="t20" to="t19" rfunc="NMOD" />
+    <!--CONJ(and-17, disease-20)-->
+    <dep from="t17" to="t20" rfunc="CONJ" />
+    <!--P(focus-13, ,-21)-->
+    <dep from="t13" to="t21" rfunc="P" />
+    <!--SBJ('s-23, that-22)-->
+    <dep from="t23" to="t22" rfunc="SBJ" />
+    <!--COORD(focus-13, 's-23)-->
+    <dep from="t13" to="t23" rfunc="COORD" />
+    <!--PRP('re-26, why-24)-->
+    <dep from="t26" to="t24" rfunc="PRP" />
+    <!--SBJ('re-26, we-25)-->
+    <dep from="t26" to="t25" rfunc="SBJ" />
+    <!--PRD-PRP('s-23, 're-26)-->
+    <dep from="t23" to="t26" rfunc="PRD-PRP" />
+    <!--LOC-PRD('re-26, here-27)-->
+    <dep from="t26" to="t27" rfunc="LOC-PRD" />
+    <!--PRP('re-26, to-28)-->
+    <dep from="t26" to="t28" rfunc="PRP" />
+    <!--IM(to-28, help-29)-->
+    <dep from="t28" to="t29" rfunc="IM" />
+  </deps>
+  <entities>
+    <entity id="e1" type="CARDINAL">
+      <references>
+        <!--one-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="value" reference="1.0" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--disease-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Disease" confidence="0.9987532" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--women-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--their-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--contrivances-->
+        <span>
+          <target id="t8" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--folks-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--symptoms-->
+        <span>
+          <target id="t16" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e8" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref id="co1">
+      <!--the disease-->
+      <span>
+        <target id="t19" />
+        <target id="t20" head="yes" />
+      </span>
+      <!--that-->
+      <span>
+        <target id="t22" head="yes" />
+      </span>
+    </coref>
+  </coreferences>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Folk_Nation" confidence="0.999687108557507" spotted="true">
+      <!--folks-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Symptom" confidence="0.9987486364792433" spotted="true">
+      <!--symptoms-->
+      <span>
+        <target id="w16" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Focus_(optics)" confidence="0.8101190236681823" spotted="true">
+      <!--focus-->
+      <span>
+        <target id="w13" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Regular_polygon" confidence="0.41130194077778204" spotted="true">
+      <!--regular-->
+      <span>
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Disease" confidence="0.9987531956827318" spotted="true">
+      <!--disease-->
+      <span>
+        <target id="w20" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 are : A2[t4 just] A1[t1 Weaponized]-->
+    <predicate id="pr2" source="mate">
+      <!--are-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl2" semRole="A2">
+        <!--just one of their contrivances Too many regular folks focus on the symptoms and not the disease , that 's why we 're here to help-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </role>
+      <role id="rl3" semRole="A1">
+        <!--Weaponized women-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t23 's : A1[t22 that]-->
+    <predicate id="pr6" source="mate">
+      <!--'s-->
+      <span>
+        <target id="t23" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--that-->
+        <span>
+          <target id="t22" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t26 're : AM-PRP[t28 to] R-AM-CAU[t24 why] A2[t27 here] A1[t25 we]-->
+    <predicate id="pr7" source="mate">
+      <!--'re-->
+      <span>
+        <target id="t26" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl10" semRole="AM-PRP">
+        <!--to help-->
+        <span>
+          <target id="t28" head="yes" />
+          <target id="t29" />
+        </span>
+      </role>
+      <role id="rl11" semRole="R-AM-CAU">
+        <!--why-->
+        <span>
+          <target id="t24" head="yes" />
+        </span>
+      </role>
+      <role id="rl12" semRole="A2">
+        <!--here-->
+        <span>
+          <target id="t27" head="yes" />
+        </span>
+      </role>
+      <role id="rl13" semRole="A1">
+        <!--we-->
+        <span>
+          <target id="t25" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t1 Weaponized : [t1 Weaponized] A1[t1 Weaponized]-->
+    <predicate id="f_pr9" source="semafor" confidence="62.191247094783975">
+      <!--Weaponized-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Processing_materials" />
+        <externalRef resource="PropBank" reference="weaponize.01" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Processing_materials-weaponize.v" />
+      </externalReferences>
+      <role id="rl14" semRole="">
+        <!--Weaponized women are just one of their contrivances Too many regular folks focus on the symptoms and not the disease , that 's why we 're here to help-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Processing_materials@Material" />
+          <externalRef resource="FrameBase" reference="fe-Processing_materials-Material" />
+        </externalReferences>
+      </role>
+      <role id="rl31" semRole="A1">
+        <!--Weaponized women-->
+        <span>
+          <target id="t1" />
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t2 women : [t1 Weaponized]-->
+    <predicate id="f_pr10" source="semafor" confidence="33.55152233938358">
+      <!--women-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="FrameBase" reference="frame-People-woman.n" />
+      </externalReferences>
+      <role id="rl15" semRole="">
+        <!--Weaponized women-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 one : [t4 just] [t6 of]-->
+    <predicate id="f_pr11" source="semafor" confidence="29.416055046253135">
+      <!--one-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Cardinal_numbers" />
+        <externalRef resource="FrameBase" reference="frame-Cardinal_numbers-one.num" />
+      </externalReferences>
+      <role id="rl16" semRole="">
+        <!--just one of their contrivances Too many regular folks focus on the symptoms and not the disease , that 's why we 're here to help-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Number" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Number" />
+        </externalReferences>
+      </role>
+      <role id="rl17" semRole="">
+        <!--of their contrivances-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Cardinal_numbers@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Cardinal_numbers-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t9 Too : [t7 their]-->
+    <predicate id="f_pr13" source="semafor" confidence="11.523036978798274">
+      <!--Too-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sufficiency" />
+        <externalRef resource="FrameBase" reference="frame-Sufficiency-too.adv" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--their contrivances-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sufficiency@Scale" />
+          <externalRef resource="FrameBase" reference="fe-Sufficiency-Scale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 many : [t9 Too] [t9 Too]-->
+    <predicate id="f_pr14" source="semafor" confidence="35.56236658648596">
+      <!--many-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+        <externalRef resource="FrameBase" reference="frame-Quantity-many.a" />
+      </externalReferences>
+      <role id="rl20" semRole="">
+        <!--Too many-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="">
+        <!--Too many regular folks focus on the symptoms and not the disease , that 's why we 're here to help-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t12 folks : [t9 Too]-->
+    <predicate id="f_pr15" source="semafor" confidence="35.10156815923241">
+      <!--folks-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Folk_Nation" confidence="0.99968714" />
+      </externalReferences>
+      <role id="rl22" semRole="">
+        <!--Too many regular folks-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 focus : A2[t14 on] A0[t9 Too] A1[t4 just]-->
+    <predicate id="f_pr16" source="semafor" confidence="66.0236973225844">
+      <!--focus-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Place_weight_on" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Focus_(optics)" confidence="0.81011903" />
+        <externalRef resource="PropBank" reference="focus.01" source="mate" />
+        <externalRef resource="VerbNet" reference="focus-87.1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00722232-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Focus_(optics)" confidence="0.81011903" />
+        <externalRef resource="FrameBase" reference="frame-Place_weight_on-focus.v" />
+      </externalReferences>
+      <role id="rl23" semRole="A2">
+        <!--on the symptoms and not the disease-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Place_weight_on@Consideration" />
+          <externalRef resource="VerbNet" reference="focus-87.1@Theme" />
+          <externalRef resource="PropBank" reference="focus.01@2" />
+          <externalRef resource="FrameBase" reference="fe-Place_weight_on-Consideration" />
+        </externalReferences>
+      </role>
+      <role id="rl24" semRole="A0">
+        <!--Too many regular folks-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Place_weight_on@Agent" />
+          <externalRef resource="VerbNet" reference="focus-87.1@Experiencer" />
+          <externalRef resource="PropBank" reference="focus.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Place_weight_on-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl32" semRole="A1">
+        <!--just one of their contrivances Too many regular folks focus on the symptoms and not the disease , that 's why we 're here to help-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </role>
+    </predicate>
+    <!--t16 symptoms : [t15 the]-->
+    <predicate id="f_pr17" source="semafor" confidence="11.303861548911147">
+      <!--symptoms-->
+      <span>
+        <target id="t16" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sign" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Symptom" confidence="0.99874866" />
+        <externalRef resource="FrameBase" reference="frame-Sign-symptom.n" />
+      </externalReferences>
+      <role id="rl25" semRole="">
+        <!--the symptoms and not the disease-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sign@Indicator" />
+          <externalRef resource="FrameBase" reference="fe-Sign-Indicator" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 disease : A2[t18 not]-->
+    <predicate id="f_pr18" source="semafor" confidence="35.788302377759884">
+      <!--disease-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Medical_conditions" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Disease" confidence="0.9987532" />
+        <externalRef resource="NomBank" reference="disease.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Disease" confidence="0.9987532" />
+        <externalRef resource="FrameBase" reference="frame-Medical_conditions-disease.n" />
+      </externalReferences>
+      <role id="rl26" semRole="A2">
+        <!--not the disease-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Medical_conditions@Ailment" />
+          <externalRef resource="FrameBase" reference="fe-Medical_conditions-Ailment" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t24 why : [t24 why]-->
+    <predicate id="f_pr19" source="semafor" confidence="9.962647222801507">
+      <!--why-->
+      <span>
+        <target id="t24" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Reason" />
+      </externalReferences>
+      <role id="rl27" semRole="">
+        <!--why-->
+        <span>
+          <target id="t24" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Reason@State_of_Affairs" />
+          <externalRef resource="FrameBase" reference="fe-Reason-State_of_Affairs" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t27 here : [t1 Weaponized] [t27 here]-->
+    <predicate id="f_pr20" source="semafor" confidence="33.59441043261654">
+      <!--here-->
+      <span>
+        <target id="t27" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Locative_relation" />
+        <externalRef resource="FrameBase" reference="frame-Locative_relation-here.adv" />
+      </externalReferences>
+      <role id="rl28" semRole="">
+        <!--Weaponized women are just one of their contrivances Too many regular folks focus on the symptoms and not the disease , that 's why we 're here to help-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Locative_relation@Figure" />
+          <externalRef resource="FrameBase" reference="fe-Locative_relation-Figure" />
+        </externalReferences>
+      </role>
+      <role id="rl29" semRole="">
+        <!--here-->
+        <span>
+          <target id="t27" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Locative_relation@Ground" />
+          <externalRef resource="FrameBase" reference="fe-Locative_relation-Ground" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t29 help : [t25 we]-->
+    <predicate id="f_pr21" source="semafor" confidence="88.13833736469844">
+      <!--help-->
+      <span>
+        <target id="t29" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Assistance" />
+        <externalRef resource="PropBank" reference="help.01" source="mate" />
+        <externalRef resource="VerbNet" reference="help-72-1" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-02547586-v" />
+        <externalRef resource="FrameBase" reference="frame-Assistance-aid.v" />
+      </externalReferences>
+      <role id="rl30" semRole="">
+        <!--we-->
+        <span>
+          <target id="t25" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Assistance@Helper" />
+          <externalRef resource="FrameBase" reference="fe-Assistance-Helper" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (S (VP (VP (VBN Weaponized) (SBAR (S (NP (NNS women)) (VP (VBP are) (ADVP (RB just) (NP (CD one)) (PP (IN of) (NP (PRP$ their) (NNS contrivances)))) (ADJP (RB Too) (JJ many) (SBAR (S (NP (JJ regular) (NNS folks)) (VP (VBP focus) (PP (IN on) (NP (DT the) (NNS symptoms))))))))))) (CC and) (VP (RB not) (NP (DT the) (NN disease))))) (, ,) (NP (DT that)) (VP (VBZ 's) (SBAR (WHADVP (WRB why)) (S (NP (PRP we)) (VP (VBP 're) (ADVP (RB here)) (S (VP (TO to) (VP (VB help))))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="S" />
+      <nt id="nter4" label="VP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBN" />
+      <nt id="nter7" label="SBAR" />
+      <nt id="nter8" label="S" />
+      <nt id="nter9" label="NP" />
+      <nt id="nter10" label="NNS" />
+      <nt id="nter11" label="VP" />
+      <nt id="nter12" label="VBP" />
+      <nt id="nter13" label="ADVP" />
+      <nt id="nter14" label="RB" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="CD" />
+      <nt id="nter17" label="PP" />
+      <nt id="nter18" label="IN" />
+      <nt id="nter19" label="NP" />
+      <nt id="nter20" label="PRP$" />
+      <nt id="nter21" label="NNS" />
+      <nt id="nter22" label="ADJP" />
+      <nt id="nter23" label="RB" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="SBAR" />
+      <nt id="nter26" label="S" />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="JJ" />
+      <nt id="nter29" label="NNS" />
+      <nt id="nter30" label="VP" />
+      <nt id="nter31" label="VBP" />
+      <nt id="nter32" label="PP" />
+      <nt id="nter33" label="IN" />
+      <nt id="nter34" label="NP" />
+      <nt id="nter35" label="DT" />
+      <nt id="nter36" label="NNS" />
+      <nt id="nter37" label="CC" />
+      <nt id="nter38" label="VP" />
+      <nt id="nter39" label="RB" />
+      <nt id="nter40" label="NP" />
+      <nt id="nter41" label="DT" />
+      <nt id="nter42" label="NN" />
+      <nt id="nter43" label="," />
+      <nt id="nter44" label="NP" />
+      <nt id="nter45" label="DT" />
+      <nt id="nter46" label="VP" />
+      <nt id="nter47" label="VBZ" />
+      <nt id="nter48" label="SBAR" />
+      <nt id="nter49" label="WHADVP" />
+      <nt id="nter50" label="WRB" />
+      <nt id="nter51" label="S" />
+      <nt id="nter52" label="NP" />
+      <nt id="nter53" label="PRP" />
+      <nt id="nter54" label="VP" />
+      <nt id="nter55" label="VBP" />
+      <nt id="nter56" label="ADVP" />
+      <nt id="nter57" label="RB" />
+      <nt id="nter58" label="S" />
+      <nt id="nter59" label="VP" />
+      <nt id="nter60" label="TO" />
+      <nt id="nter61" label="VP" />
+      <nt id="nter62" label="VB" />
+      <!--Terminals-->
+      <!--Weaponized-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--women-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--just-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--one-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--their-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--contrivances-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Too-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--many-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--regular-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--folks-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--focus-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--symptoms-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--disease-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--that-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--'s-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--why-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--'re-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--here-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--help-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" head="yes" />
+      <edge id="tre6" from="nter6" to="nter5" head="yes" />
+      <edge id="tre7" from="ter1" to="nter6" />
+      <edge id="tre8" from="nter7" to="nter5" />
+      <edge id="tre9" from="nter8" to="nter7" head="yes" />
+      <edge id="tre10" from="nter9" to="nter8" />
+      <edge id="tre11" from="nter10" to="nter9" head="yes" />
+      <edge id="tre12" from="ter2" to="nter10" />
+      <edge id="tre13" from="nter11" to="nter8" head="yes" />
+      <edge id="tre14" from="nter12" to="nter11" head="yes" />
+      <edge id="tre15" from="ter3" to="nter12" />
+      <edge id="tre16" from="nter13" to="nter11" />
+      <edge id="tre17" from="nter14" to="nter13" head="yes" />
+      <edge id="tre18" from="ter4" to="nter14" />
+      <edge id="tre19" from="nter15" to="nter13" />
+      <edge id="tre20" from="nter16" to="nter15" head="yes" />
+      <edge id="tre21" from="ter5" to="nter16" />
+      <edge id="tre22" from="nter17" to="nter13" />
+      <edge id="tre23" from="nter18" to="nter17" head="yes" />
+      <edge id="tre24" from="ter6" to="nter18" />
+      <edge id="tre25" from="nter19" to="nter17" />
+      <edge id="tre26" from="nter20" to="nter19" />
+      <edge id="tre27" from="ter7" to="nter20" />
+      <edge id="tre28" from="nter21" to="nter19" head="yes" />
+      <edge id="tre29" from="ter8" to="nter21" />
+      <edge id="tre30" from="nter22" to="nter11" />
+      <edge id="tre31" from="nter23" to="nter22" />
+      <edge id="tre32" from="ter9" to="nter23" />
+      <edge id="tre33" from="nter24" to="nter22" head="yes" />
+      <edge id="tre34" from="ter10" to="nter24" />
+      <edge id="tre35" from="nter25" to="nter22" />
+      <edge id="tre36" from="nter26" to="nter25" head="yes" />
+      <edge id="tre37" from="nter27" to="nter26" />
+      <edge id="tre38" from="nter28" to="nter27" />
+      <edge id="tre39" from="ter11" to="nter28" />
+      <edge id="tre40" from="nter29" to="nter27" head="yes" />
+      <edge id="tre41" from="ter12" to="nter29" />
+      <edge id="tre42" from="nter30" to="nter26" head="yes" />
+      <edge id="tre43" from="nter31" to="nter30" head="yes" />
+      <edge id="tre44" from="ter13" to="nter31" />
+      <edge id="tre45" from="nter32" to="nter30" />
+      <edge id="tre46" from="nter33" to="nter32" head="yes" />
+      <edge id="tre47" from="ter14" to="nter33" />
+      <edge id="tre48" from="nter34" to="nter32" />
+      <edge id="tre49" from="nter35" to="nter34" />
+      <edge id="tre50" from="ter15" to="nter35" />
+      <edge id="tre51" from="nter36" to="nter34" head="yes" />
+      <edge id="tre52" from="ter16" to="nter36" />
+      <edge id="tre53" from="nter37" to="nter4" />
+      <edge id="tre54" from="ter17" to="nter37" />
+      <edge id="tre55" from="nter38" to="nter4" />
+      <edge id="tre56" from="nter39" to="nter38" />
+      <edge id="tre57" from="ter18" to="nter39" />
+      <edge id="tre58" from="nter40" to="nter38" head="yes" />
+      <edge id="tre59" from="nter41" to="nter40" />
+      <edge id="tre60" from="ter19" to="nter41" />
+      <edge id="tre61" from="nter42" to="nter40" head="yes" />
+      <edge id="tre62" from="ter20" to="nter42" />
+      <edge id="tre63" from="nter43" to="nter2" />
+      <edge id="tre64" from="ter21" to="nter43" />
+      <edge id="tre65" from="nter44" to="nter2" />
+      <edge id="tre66" from="nter45" to="nter44" head="yes" />
+      <edge id="tre67" from="ter22" to="nter45" />
+      <edge id="tre68" from="nter46" to="nter2" head="yes" />
+      <edge id="tre69" from="nter47" to="nter46" head="yes" />
+      <edge id="tre70" from="ter23" to="nter47" />
+      <edge id="tre71" from="nter48" to="nter46" />
+      <edge id="tre72" from="nter49" to="nter48" head="yes" />
+      <edge id="tre73" from="nter50" to="nter49" head="yes" />
+      <edge id="tre74" from="ter24" to="nter50" />
+      <edge id="tre75" from="nter51" to="nter48" />
+      <edge id="tre76" from="nter52" to="nter51" />
+      <edge id="tre77" from="nter53" to="nter52" head="yes" />
+      <edge id="tre78" from="ter25" to="nter53" />
+      <edge id="tre79" from="nter54" to="nter51" head="yes" />
+      <edge id="tre80" from="nter55" to="nter54" head="yes" />
+      <edge id="tre81" from="ter26" to="nter55" />
+      <edge id="tre82" from="nter56" to="nter54" />
+      <edge id="tre83" from="nter57" to="nter56" head="yes" />
+      <edge id="tre84" from="ter27" to="nter57" />
+      <edge id="tre85" from="nter58" to="nter54" />
+      <edge id="tre86" from="nter59" to="nter58" head="yes" />
+      <edge id="tre87" from="nter60" to="nter59" head="yes" />
+      <edge id="tre88" from="ter28" to="nter60" />
+      <edge id="tre89" from="nter61" to="nter59" />
+      <edge id="tre90" from="nter62" to="nter61" head="yes" />
+      <edge id="tre91" from="ter29" to="nter62" />
+    </tree>
+  </constituency>
+</NAF>

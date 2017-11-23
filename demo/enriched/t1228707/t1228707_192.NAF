@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:38+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:38.276+0100" endTimestamp="2017-11-21T16:39:38.565+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:38.566+0100" endTimestamp="2017-11-21T16:39:38.566+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Exactly. Too many traitors out there.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="7">Exactly</wf>
+    <wf id="w2" sent="1" para="1" offset="7" length="1">.</wf>
+    <wf id="w3" sent="2" para="1" offset="9" length="3">Too</wf>
+    <wf id="w4" sent="2" para="1" offset="13" length="4">many</wf>
+    <wf id="w5" sent="2" para="1" offset="18" length="8">traitors</wf>
+    <wf id="w6" sent="2" para="1" offset="27" length="3">out</wf>
+    <wf id="w7" sent="2" para="1" offset="31" length="5">there</wf>
+    <wf id="w8" sent="2" para="1" offset="36" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Exactly-->
+    <term id="t1" type="open" lemma="exactly" pos="A" morphofeat="RB">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t2" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Too-->
+    <term id="t3" type="open" lemma="too" pos="A" morphofeat="RB">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--many-->
+    <term id="t4" type="open" lemma="many" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--traitors-->
+    <term id="t5" type="open" lemma="traitor" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--out-->
+    <term id="t6" type="open" lemma="out" pos="P" morphofeat="IN">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--there-->
+    <term id="t7" type="open" lemma="there" pos="A" morphofeat="RB">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t8" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--P(Exactly-1, .-2)-->
+    <dep from="t1" to="t2" rfunc="P" />
+    <!--AMOD(many-4, Too-3)-->
+    <dep from="t4" to="t3" rfunc="AMOD" />
+    <!--NMOD(traitors-5, many-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--LOC(traitors-5, out-6)-->
+    <dep from="t5" to="t6" rfunc="LOC" />
+    <!--PMOD(out-6, there-7)-->
+    <dep from="t6" to="t7" rfunc="PMOD" />
+    <!--P(traitors-5, .-8)-->
+    <dep from="t5" to="t8" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--traitors-->
+        <span>
+          <target id="t5" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Treason" confidence="0.9888812854244389" spotted="true">
+      <!--traitors-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Exactly :-->
+    <predicate id="f_pr1" source="semafor" confidence="32.699513824057775">
+      <!--Exactly-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Frequency" />
+      </externalReferences>
+    </predicate>
+    <!--t3 Too : [t3 Too]-->
+    <predicate id="f_pr2" source="semafor" confidence="10.829077227573508">
+      <!--Too-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sufficiency" />
+        <externalRef resource="FrameBase" reference="frame-Sufficiency-too.adv" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--Too many traitors out there .-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sufficiency@Scale" />
+          <externalRef resource="FrameBase" reference="fe-Sufficiency-Scale" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t4 many : [t3 Too] [t3 Too]-->
+    <predicate id="f_pr3" source="semafor" confidence="32.66289212386156">
+      <!--many-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quantity" />
+        <externalRef resource="FrameBase" reference="frame-Quantity-many.a" />
+      </externalReferences>
+      <role id="rl2" semRole="">
+        <!--Too many-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Quantity" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Quantity" />
+        </externalReferences>
+      </role>
+      <role id="rl3" semRole="">
+        <!--Too many traitors out there .-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quantity@Individuals" />
+          <externalRef resource="FrameBase" reference="fe-Quantity-Individuals" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 there : [t7 there]-->
+    <predicate id="f_pr4" source="semafor" confidence="28.5109153664803">
+      <!--there-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Locative_relation" />
+        <externalRef resource="FrameBase" reference="frame-Locative_relation-there.adv" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--there-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Locative_relation@Ground" />
+          <externalRef resource="FrameBase" reference="fe-Locative_relation-Ground" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (FRAG (ADVP (RB Exactly)) (. .)))</tree>
+    <tree sentence="2">(ROOT (NP (NP (RB Too) (JJ many) (NNS traitors)) (PP (IN out) (NP (RB there))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="FRAG" />
+      <nt id="nter3" label="ADVP" />
+      <nt id="nter4" label="RB" />
+      <nt id="nter5" label="." />
+      <!--Terminals-->
+      <!--Exactly-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter6" label="ROOT" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="RB" />
+      <nt id="nter10" label="JJ" />
+      <nt id="nter11" label="NNS" />
+      <nt id="nter12" label="PP" />
+      <nt id="nter13" label="IN" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="RB" />
+      <nt id="nter16" label="." />
+      <!--Terminals-->
+      <!--Too-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--many-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--traitors-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--out-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--there-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter8" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter7" />
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="ter6" to="nter13" />
+      <edge id="tre20" from="nter14" to="nter12" />
+      <edge id="tre21" from="nter15" to="nter14" head="yes" />
+      <edge id="tre22" from="ter7" to="nter15" />
+      <edge id="tre23" from="nter16" to="nter7" />
+      <edge id="tre24" from="ter8" to="nter16" />
+    </tree>
+  </constituency>
+</NAF>

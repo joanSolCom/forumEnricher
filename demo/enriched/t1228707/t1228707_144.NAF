@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:38:10+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:38:10.213+0100" endTimestamp="2017-11-21T16:38:10.601+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:38:10.606+0100" endTimestamp="2017-11-21T16:38:10.607+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Ok I understand completely. Yes his argument is valid. However we must concentrate on the situation at hand!]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">Ok</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="1">I</wf>
+    <wf id="w3" sent="1" para="1" offset="5" length="10">understand</wf>
+    <wf id="w4" sent="1" para="1" offset="16" length="10">completely</wf>
+    <wf id="w5" sent="1" para="1" offset="26" length="1">.</wf>
+    <wf id="w6" sent="2" para="1" offset="28" length="3">Yes</wf>
+    <wf id="w7" sent="2" para="1" offset="32" length="3">his</wf>
+    <wf id="w8" sent="2" para="1" offset="36" length="8">argument</wf>
+    <wf id="w9" sent="2" para="1" offset="45" length="2">is</wf>
+    <wf id="w10" sent="2" para="1" offset="48" length="5">valid</wf>
+    <wf id="w11" sent="2" para="1" offset="53" length="1">.</wf>
+    <wf id="w12" sent="3" para="1" offset="55" length="7">However</wf>
+    <wf id="w13" sent="3" para="1" offset="63" length="2">we</wf>
+    <wf id="w14" sent="3" para="1" offset="66" length="4">must</wf>
+    <wf id="w15" sent="3" para="1" offset="71" length="11">concentrate</wf>
+    <wf id="w16" sent="3" para="1" offset="83" length="2">on</wf>
+    <wf id="w17" sent="3" para="1" offset="86" length="3">the</wf>
+    <wf id="w18" sent="3" para="1" offset="90" length="9">situation</wf>
+    <wf id="w19" sent="3" para="1" offset="100" length="2">at</wf>
+    <wf id="w20" sent="3" para="1" offset="103" length="4">hand</wf>
+    <wf id="w21" sent="3" para="1" offset="107" length="1">!</wf>
+  </text>
+  <terms>
+    <!--Ok-->
+    <term id="t1" type="open" lemma="ok" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--I-->
+    <term id="t2" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--understand-->
+    <term id="t3" type="open" lemma="understand" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--completely-->
+    <term id="t4" type="open" lemma="completely" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t5" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Yes-->
+    <term id="t6" type="open" lemma="yes" pos="O" morphofeat="UH">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--his-->
+    <term id="t7" type="open" lemma="he" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--argument-->
+    <term id="t8" type="open" lemma="argument" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--is-->
+    <term id="t9" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--valid-->
+    <term id="t10" type="open" lemma="valid" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t11" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--However-->
+    <term id="t12" type="open" lemma="however" pos="A" morphofeat="RB">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--we-->
+    <term id="t13" type="open" lemma="we" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--must-->
+    <term id="t14" type="open" lemma="must" pos="O" morphofeat="MD">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--concentrate-->
+    <term id="t15" type="open" lemma="concentrate" pos="V" morphofeat="VB">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--on-->
+    <term id="t16" type="open" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--the-->
+    <term id="t17" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--situation-->
+    <term id="t18" type="open" lemma="situation" pos="N" morphofeat="NN">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--at-->
+    <term id="t19" type="open" lemma="at" pos="P" morphofeat="IN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--hand-->
+    <term id="t20" type="open" lemma="hand" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--!-->
+    <term id="t21" type="open" lemma="!" pos="O" morphofeat=".">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--ADV(understand-3, Ok-1)-->
+    <dep from="t3" to="t1" rfunc="ADV" />
+    <!--SBJ(understand-3, I-2)-->
+    <dep from="t3" to="t2" rfunc="SBJ" />
+    <!--ADV(understand-3, completely-4)-->
+    <dep from="t3" to="t4" rfunc="ADV" />
+    <!--P(understand-3, .-5)-->
+    <dep from="t3" to="t5" rfunc="P" />
+    <!--DEP(is-9, Yes-6)-->
+    <dep from="t9" to="t6" rfunc="DEP" />
+    <!--NMOD(argument-8, his-7)-->
+    <dep from="t8" to="t7" rfunc="NMOD" />
+    <!--SBJ(is-9, argument-8)-->
+    <dep from="t9" to="t8" rfunc="SBJ" />
+    <!--PRD(is-9, valid-10)-->
+    <dep from="t9" to="t10" rfunc="PRD" />
+    <!--P(is-9, .-11)-->
+    <dep from="t9" to="t11" rfunc="P" />
+    <!--ADV(must-14, However-12)-->
+    <dep from="t14" to="t12" rfunc="ADV" />
+    <!--SBJ(must-14, we-13)-->
+    <dep from="t14" to="t13" rfunc="SBJ" />
+    <!--VC(must-14, concentrate-15)-->
+    <dep from="t14" to="t15" rfunc="VC" />
+    <!--ADV(concentrate-15, on-16)-->
+    <dep from="t15" to="t16" rfunc="ADV" />
+    <!--NMOD(situation-18, the-17)-->
+    <dep from="t18" to="t17" rfunc="NMOD" />
+    <!--PMOD(on-16, situation-18)-->
+    <dep from="t16" to="t18" rfunc="PMOD" />
+    <!--LOC(situation-18, at-19)-->
+    <dep from="t18" to="t19" rfunc="LOC" />
+    <!--PMOD(at-19, hand-20)-->
+    <dep from="t19" to="t20" rfunc="PMOD" />
+    <!--P(must-14, !-21)-->
+    <dep from="t14" to="t21" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--argument-->
+        <span>
+          <target id="t8" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Argument" confidence="0.9996054" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--However-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/However" confidence="0.7380425" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--his-->
+        <span>
+          <target id="t7" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--we-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--situation-->
+        <span>
+          <target id="t18" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e7" unnamed="yes">
+      <references>
+        <!--hand-->
+        <span>
+          <target id="t20" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Ok_languages" confidence="0.8115941695500809" spotted="true">
+      <!--Ok-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Validity" confidence="0.997258394535009" spotted="true">
+      <!--valid-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I_Understand_(1941_song)" confidence="0.5986628205828106" spotted="true">
+      <!--I understand-->
+      <span>
+        <target id="w2" />
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Argument" confidence="0.9996054270055271" spotted="true">
+      <!--argument-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le5" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/However" confidence="0.7380424647728412" spotted="true">
+      <!--However-->
+      <span>
+        <target id="w12" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le6" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Attention" confidence="0.6918445799109008" spotted="true">
+      <!--concentrate-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le7" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Yes_(band)" confidence="0.9306269116615209" spotted="true">
+      <!--Yes-->
+      <span>
+        <target id="w6" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t3 understand : A0[t2 I] AM-MNR[t4 completely] AM-DIS[t1 Ok]-->
+    <predicate id="f_pr2" source="semafor" confidence="44.840657452487704">
+      <!--understand-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Grasp" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I_Understand_(1941_song)" confidence="0.5986628" />
+        <externalRef resource="PropBank" reference="understand.01" source="mate" />
+        <externalRef resource="VerbNet" reference="comprehend-87.2-1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00594058-v" />
+        <externalRef resource="WordNet" reference="ili-30-00593522-v" />
+        <externalRef resource="WordNet" reference="ili-30-00593852-v" />
+        <externalRef resource="WordNet" reference="ili-30-00591115-v" />
+        <externalRef resource="WordNet" reference="ili-30-00588888-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/I_Understand_(1941_song)" confidence="0.5986628" />
+        <externalRef resource="FrameBase" reference="frame-Grasp-grasp.v" />
+      </externalReferences>
+      <role id="rl4" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grasp@Cognizer" />
+          <externalRef resource="VerbNet" reference="comprehend-87.2@Experiencer" />
+          <externalRef resource="PropBank" reference="understand.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Grasp-Cognizer" />
+        </externalReferences>
+      </role>
+      <role id="rl5" semRole="AM-MNR">
+        <!--completely-->
+        <span>
+          <target id="t4" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Grasp@Phenomenon" />
+          <externalRef resource="FrameBase" reference="fe-Grasp-Phenomenon" />
+        </externalReferences>
+      </role>
+      <role id="rl21" semRole="AM-DIS">
+        <!--Ok-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t9 is : AM-DIS[t6 Yes] A1[t7 his] A2[t10 valid]-->
+    <predicate id="pr4" source="mate">
+      <!--is-->
+      <span>
+        <target id="t9" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl8" semRole="AM-DIS">
+        <!--Yes-->
+        <span>
+          <target id="t6" head="yes" />
+        </span>
+      </role>
+      <role id="rl9" semRole="A1">
+        <!--his argument-->
+        <span>
+          <target id="t7" />
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+      <role id="rl10" semRole="A2">
+        <!--valid-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t8 argument : A0[t7 his] A1[t7 his]-->
+    <predicate id="f_pr5" source="semafor" confidence="58.54315744431045">
+      <!--argument-->
+      <span>
+        <target id="t8" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Quarreling" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Argument" confidence="0.9996054" />
+        <externalRef resource="NomBank" reference="argument.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Argument" confidence="0.9996054" />
+        <externalRef resource="FrameBase" reference="frame-Quarreling-argue.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--his-->
+        <span>
+          <target id="t7" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Quarreling@Issue" />
+          <externalRef resource="FrameBase" reference="fe-Quarreling-Issue" />
+        </externalReferences>
+      </role>
+      <role id="rl22" semRole="A1">
+        <!--his argument-->
+        <span>
+          <target id="t7" />
+          <target id="t8" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t10 valid : [t7 his]-->
+    <predicate id="f_pr6" source="semafor" confidence="44.90783736594949">
+      <!--valid-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Being_in_effect" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Validity" confidence="0.99725837" />
+        <externalRef resource="FrameBase" reference="frame-Being_in_effect-valid.a" />
+      </externalReferences>
+      <role id="rl12" semRole="">
+        <!--his argument-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Being_in_effect@Binding_principle" />
+          <externalRef resource="FrameBase" reference="fe-Being_in_effect-Binding_principle" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t15 concentrate : A0[t13 we] AM-MOD[t12 However] AM-DIS[t12 However] A1[t16 on]-->
+    <predicate id="pr7" source="mate">
+      <!--concentrate-->
+      <span>
+        <target id="t15" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="concentrate.01" source="mate" />
+        <externalRef resource="VerbNet" reference="focus-87.1" />
+        <externalRef resource="EventType" reference="cognition" />
+        <externalRef resource="WordNet" reference="ili-30-00722232-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Attention" confidence="0.6918446" />
+      </externalReferences>
+      <role id="rl13" semRole="A0">
+        <!--we-->
+        <span>
+          <target id="t13" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="focus-87.1@Experiencer" />
+          <externalRef resource="PropBank" reference="concentrate.01@0" />
+        </externalReferences>
+      </role>
+      <role id="rl14" semRole="AM-MOD">
+        <!--However we must concentrate on the situation at hand !-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" head="yes" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </role>
+      <role id="rl15" semRole="AM-DIS">
+        <!--However-->
+        <span>
+          <target id="t12" head="yes" />
+        </span>
+      </role>
+      <role id="rl16" semRole="A1">
+        <!--on the situation at hand-->
+        <span>
+          <target id="t16" head="yes" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="focus-87.1@Theme" />
+          <externalRef resource="PropBank" reference="concentrate.01@1" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t18 situation : A3[t19 at]-->
+    <predicate id="pr8" source="mate">
+      <!--situation-->
+      <span>
+        <target id="t18" />
+      </span>
+      <externalReferences>
+        <externalRef resource="NomBank" reference="situation.01" source="mate" />
+      </externalReferences>
+      <role id="rl17" semRole="A3">
+        <!--at hand-->
+        <span>
+          <target id="t19" head="yes" />
+          <target id="t20" />
+        </span>
+      </role>
+    </predicate>
+    <!--t12 However : [t13 we]-->
+    <predicate id="f_pr10" source="semafor" confidence="7.339637513089317">
+      <!--However-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Concessive" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/However" confidence="0.7380425" />
+        <externalRef resource="FrameBase" reference="frame-Concessive-however.adv" />
+      </externalReferences>
+      <role id="rl18" semRole="">
+        <!--we-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Concessive@Main_statement" />
+          <externalRef resource="FrameBase" reference="fe-Concessive-Main_statement" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 must : [t13 we]-->
+    <predicate id="f_pr11" source="semafor" confidence="40.38370314153575">
+      <!--must-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Required_event" />
+      </externalReferences>
+      <role id="rl19" semRole="">
+        <!--we-->
+        <span>
+          <target id="t13" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Required_event@Required_situation" />
+          <externalRef resource="FrameBase" reference="fe-Required_event-Required_situation" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t20 hand :-->
+    <predicate id="f_pr12" source="semafor" confidence="37.41229740421055">
+      <!--hand-->
+      <span>
+        <target id="t20" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Observable_body_parts" />
+        <externalRef resource="NomBank" reference="hand.07" source="mate" />
+        <externalRef resource="FrameBase" reference="frame-Observable_body_parts-hand.n" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (ADVP (JJ Ok)) (NP (PRP I)) (VP (VBP understand) (ADVP (RB completely))) (. .)))</tree>
+    <tree sentence="2">(ROOT (S (S (INTJ (UH Yes)) (NP (PRP$ his) (NN argument)) (VP (VBZ is) (ADJP (JJ valid)))) (. .)))</tree>
+    <tree sentence="3">(ROOT (S (ADVP (RB However)) (NP (PRP we)) (VP (MD must) (VP (VB concentrate) (PP (IN on) (NP (NP (DT the) (NN situation)) (PP (IN at) (NP (NN hand))))))) (. !)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="ADVP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label="NP" />
+      <nt id="nter6" label="PRP" />
+      <nt id="nter7" label="VP" />
+      <nt id="nter8" label="VBP" />
+      <nt id="nter9" label="ADVP" />
+      <nt id="nter10" label="RB" />
+      <nt id="nter11" label="." />
+      <!--Terminals-->
+      <!--Ok-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--understand-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--completely-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter2" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter7" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter2" />
+      <edge id="tre16" from="ter5" to="nter11" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter12" label="ROOT" />
+      <nt id="nter13" label="S" />
+      <nt id="nter14" label="S" />
+      <nt id="nter15" label="INTJ" />
+      <nt id="nter16" label="UH" />
+      <nt id="nter17" label="NP" />
+      <nt id="nter18" label="PRP$" />
+      <nt id="nter19" label="NN" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VBZ" />
+      <nt id="nter22" label="ADJP" />
+      <nt id="nter23" label="JJ" />
+      <nt id="nter24" label="." />
+      <!--Terminals-->
+      <!--Yes-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--his-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--argument-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--valid-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre18" from="nter13" to="nter12" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="nter15" to="nter14" />
+      <edge id="tre21" from="nter16" to="nter15" head="yes" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter14" />
+      <edge id="tre24" from="nter18" to="nter17" />
+      <edge id="tre25" from="ter7" to="nter18" />
+      <edge id="tre26" from="nter19" to="nter17" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter14" head="yes" />
+      <edge id="tre29" from="nter21" to="nter20" head="yes" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter20" />
+      <edge id="tre32" from="nter23" to="nter22" head="yes" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter13" />
+      <edge id="tre35" from="ter11" to="nter24" />
+    </tree>
+    <tree sentence="3">
+      <!--Non-terminals-->
+      <nt id="nter25" label="ROOT" />
+      <nt id="nter26" label="S" />
+      <nt id="nter27" label="ADVP" />
+      <nt id="nter28" label="RB" />
+      <nt id="nter29" label="NP" />
+      <nt id="nter30" label="PRP" />
+      <nt id="nter31" label="VP" />
+      <nt id="nter32" label="MD" />
+      <nt id="nter33" label="VP" />
+      <nt id="nter34" label="VB" />
+      <nt id="nter35" label="PP" />
+      <nt id="nter36" label="IN" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NP" />
+      <nt id="nter39" label="DT" />
+      <nt id="nter40" label="NN" />
+      <nt id="nter41" label="PP" />
+      <nt id="nter42" label="IN" />
+      <nt id="nter43" label="NP" />
+      <nt id="nter44" label="NN" />
+      <nt id="nter45" label="." />
+      <!--Terminals-->
+      <!--However-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--must-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--concentrate-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--situation-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--at-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--hand-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--!-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre37" from="nter26" to="nter25" head="yes" />
+      <edge id="tre38" from="nter27" to="nter26" />
+      <edge id="tre39" from="nter28" to="nter27" head="yes" />
+      <edge id="tre40" from="ter12" to="nter28" />
+      <edge id="tre41" from="nter29" to="nter26" />
+      <edge id="tre42" from="nter30" to="nter29" head="yes" />
+      <edge id="tre43" from="ter13" to="nter30" />
+      <edge id="tre44" from="nter31" to="nter26" head="yes" />
+      <edge id="tre45" from="nter32" to="nter31" head="yes" />
+      <edge id="tre46" from="ter14" to="nter32" />
+      <edge id="tre47" from="nter33" to="nter31" />
+      <edge id="tre48" from="nter34" to="nter33" head="yes" />
+      <edge id="tre49" from="ter15" to="nter34" />
+      <edge id="tre50" from="nter35" to="nter33" />
+      <edge id="tre51" from="nter36" to="nter35" head="yes" />
+      <edge id="tre52" from="ter16" to="nter36" />
+      <edge id="tre53" from="nter37" to="nter35" />
+      <edge id="tre54" from="nter38" to="nter37" head="yes" />
+      <edge id="tre55" from="nter39" to="nter38" />
+      <edge id="tre56" from="ter17" to="nter39" />
+      <edge id="tre57" from="nter40" to="nter38" head="yes" />
+      <edge id="tre58" from="ter18" to="nter40" />
+      <edge id="tre59" from="nter41" to="nter37" />
+      <edge id="tre60" from="nter42" to="nter41" head="yes" />
+      <edge id="tre61" from="ter19" to="nter42" />
+      <edge id="tre62" from="nter43" to="nter41" />
+      <edge id="tre63" from="nter44" to="nter43" head="yes" />
+      <edge id="tre64" from="ter20" to="nter44" />
+      <edge id="tre65" from="nter45" to="nter26" />
+      <edge id="tre66" from="ter21" to="nter45" />
+    </tree>
+  </constituency>
+</NAF>

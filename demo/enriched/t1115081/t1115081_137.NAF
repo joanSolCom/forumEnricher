@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-20T12:32:28+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-20T12:32:28.514+0100" endTimestamp="2017-11-20T12:32:28.952+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-20T12:32:28.954+0100" endTimestamp="2017-11-20T12:32:28.954+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[I take it you must be referring to this post, titled as The Hitler's Test: https://www.stormfront.org/forum/t11...6]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">I</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="4">take</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="2">it</wf>
+    <wf id="w4" sent="1" para="1" offset="10" length="3">you</wf>
+    <wf id="w5" sent="1" para="1" offset="14" length="4">must</wf>
+    <wf id="w6" sent="1" para="1" offset="19" length="2">be</wf>
+    <wf id="w7" sent="1" para="1" offset="22" length="9">referring</wf>
+    <wf id="w8" sent="1" para="1" offset="32" length="2">to</wf>
+    <wf id="w9" sent="1" para="1" offset="35" length="4">this</wf>
+    <wf id="w10" sent="1" para="1" offset="40" length="4">post</wf>
+    <wf id="w11" sent="1" para="1" offset="44" length="1">,</wf>
+    <wf id="w12" sent="1" para="1" offset="46" length="6">titled</wf>
+    <wf id="w13" sent="1" para="1" offset="53" length="2">as</wf>
+    <wf id="w14" sent="1" para="1" offset="56" length="3">The</wf>
+    <wf id="w15" sent="1" para="1" offset="60" length="6">Hitler</wf>
+    <wf id="w16" sent="1" para="1" offset="66" length="2">'s</wf>
+    <wf id="w17" sent="1" para="1" offset="69" length="4">Test</wf>
+    <wf id="w18" sent="1" para="1" offset="73" length="1">:</wf>
+    <wf id="w19" sent="1" para="1" offset="75" length="40">https://www.stormfront.org/forum/t11...6</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term id="t1" type="open" lemma="I" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--take-->
+    <term id="t2" type="open" lemma="take" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--it-->
+    <term id="t3" type="open" lemma="it" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--you-->
+    <term id="t4" type="open" lemma="you" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--must-->
+    <term id="t5" type="open" lemma="must" pos="O" morphofeat="MD">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--be-->
+    <term id="t6" type="open" lemma="be" pos="V" morphofeat="VB">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--referring-->
+    <term id="t7" type="open" lemma="refer" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--to-->
+    <term id="t8" type="open" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--this-->
+    <term id="t9" type="open" lemma="this" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--post-->
+    <term id="t10" type="open" lemma="post" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--,-->
+    <term id="t11" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--titled-->
+    <term id="t12" type="open" lemma="title" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--as-->
+    <term id="t13" type="open" lemma="as" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--The-->
+    <term id="t14" type="open" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--Hitler-->
+    <term id="t15" type="open" lemma="Hitler" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--'s-->
+    <term id="t16" type="open" lemma="'s" pos="O" morphofeat="POS">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Test-->
+    <term id="t17" type="open" lemma="test" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--:-->
+    <term id="t18" type="open" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--https://www.stormfront.org/forum/t11...6-->
+    <term id="t19" type="open" lemma="https://www.stormfront.org/forum/t11...6" pos="N" morphofeat="NN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(take-2, I-1)-->
+    <dep from="t2" to="t1" rfunc="SBJ" />
+    <!--OBJ(take-2, it-3)-->
+    <dep from="t2" to="t3" rfunc="OBJ" />
+    <!--SBJ(must-5, you-4)-->
+    <dep from="t5" to="t4" rfunc="SBJ" />
+    <!--OBJ(take-2, must-5)-->
+    <dep from="t2" to="t5" rfunc="OBJ" />
+    <!--VC(must-5, be-6)-->
+    <dep from="t5" to="t6" rfunc="VC" />
+    <!--VC(be-6, referring-7)-->
+    <dep from="t6" to="t7" rfunc="VC" />
+    <!--ADV(referring-7, to-8)-->
+    <dep from="t7" to="t8" rfunc="ADV" />
+    <!--NMOD(post-10, this-9)-->
+    <dep from="t10" to="t9" rfunc="NMOD" />
+    <!--PMOD(to-8, post-10)-->
+    <dep from="t8" to="t10" rfunc="PMOD" />
+    <!--P(take-2, ,-11)-->
+    <dep from="t2" to="t11" rfunc="P" />
+    <!--APPO(you-4, titled-12)-->
+    <dep from="t4" to="t12" rfunc="APPO" />
+    <!--ADV(titled-12, as-13)-->
+    <dep from="t12" to="t13" rfunc="ADV" />
+    <!--NMOD(Hitler-15, The-14)-->
+    <dep from="t15" to="t14" rfunc="NMOD" />
+    <!--NMOD(Test-17, Hitler-15)-->
+    <dep from="t17" to="t15" rfunc="NMOD" />
+    <!--SUFFIX(Hitler-15, 's-16)-->
+    <dep from="t15" to="t16" rfunc="SUFFIX" />
+    <!--PMOD(as-13, Test-17)-->
+    <dep from="t13" to="t17" rfunc="PMOD" />
+    <!--P(Test-17, :-18)-->
+    <dep from="t17" to="t18" rfunc="P" />
+    <!--APPO(Test-17, https://www.stormfront.org/forum/t11...6-19)-->
+    <dep from="t17" to="t19" rfunc="APPO" />
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <references>
+        <!--Hitler-->
+        <span>
+          <target id="t15" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Adolf_Hitler" confidence="0.9998566" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--I-->
+        <span>
+          <target id="t1" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--it-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e4" unnamed="yes">
+      <references>
+        <!--you-->
+        <span>
+          <target id="t4" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e5" unnamed="yes">
+      <references>
+        <!--post-->
+        <span>
+          <target id="t10" head="yes" />
+        </span>
+      </references>
+    </entity>
+    <entity id="e6" unnamed="yes">
+      <references>
+        <!--Test-->
+        <span>
+          <target id="t17" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-20" />
+    <timex3 id="tmx1" type="TIME" value="2017-11-20T11">
+      <!--https://www.stormfront.org/forum/t11...6-->
+      <span>
+        <target id="w19" />
+      </span>
+    </timex3>
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Test_cricket" confidence="0.996015004258362" spotted="true">
+      <!--Test-->
+      <span>
+        <target id="w17" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reference" confidence="0.9122522127965244" spotted="true">
+      <!--referring-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Blog" confidence="0.6202208682806478" spotted="true">
+      <!--post-->
+      <span>
+        <target id="w10" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Adolf_Hitler" confidence="0.9998566054601954" spotted="true">
+      <!--Hitler-->
+      <span>
+        <target id="w15" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t12 titled : A1[t4 you] A2[t13 as]-->
+    <predicate id="pr3" source="mate">
+      <!--titled-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="title.01" source="mate" />
+      </externalReferences>
+      <role id="rl7" semRole="A1">
+        <!--you titled as The Hitler 's Test : https://www.stormfront.org/forum/t11...6-->
+        <span>
+          <target id="t4" head="yes" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </role>
+      <role id="rl8" semRole="A2">
+        <!--as The Hitler 's Test : https://www.stormfront.org/forum/t11...6-->
+        <span>
+          <target id="t13" head="yes" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </role>
+    </predicate>
+    <!--t2 take : A0[t1 I] A1[t3 it] A1[t4 you]-->
+    <predicate id="f_pr5" source="semafor" confidence="52.40025863737995">
+      <!--take-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Taking" />
+        <externalRef resource="PropBank" reference="take.01" source="mate" />
+        <externalRef resource="VerbNet" reference="get-13.5.1-1" />
+        <externalRef resource="ESO" reference="Transportation" />
+        <externalRef resource="ESO" reference="Removing" />
+        <externalRef resource="ESO" reference="Taking" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-01999798-v" />
+        <externalRef resource="WordNet" reference="ili-30-02077656-v" />
+        <externalRef resource="WordNet" reference="ili-30-02717102-v" />
+        <externalRef resource="WordNet" reference="ili-30-02206619-v" />
+        <externalRef resource="WordNet" reference="ili-30-02289295-v" />
+        <externalRef resource="WordNet" reference="ili-30-02290196-v" />
+        <externalRef resource="FrameBase" reference="frame-Taking-take.v" />
+      </externalReferences>
+      <role id="rl11" semRole="A0">
+        <!--I-->
+        <span>
+          <target id="t1" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Taking@Agent" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Agent" />
+          <externalRef resource="PropBank" reference="take.01@0" />
+          <externalRef resource="ESO" reference="Taking@possession-theme" />
+          <externalRef resource="ESO" reference="Removing@translocation-theme" />
+          <externalRef resource="ESO" reference="Transportation@translocation-theme" />
+          <externalRef resource="ESO" reference="Taking@possession-owner_1" />
+          <externalRef resource="FrameBase" reference="fe-Taking-Agent" />
+        </externalReferences>
+      </role>
+      <role id="rl12" semRole="A1">
+        <!--it-->
+        <span>
+          <target id="t3" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Taking@Theme" />
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="take.01@1" />
+          <externalRef resource="ESO" reference="Taking@possession-theme" />
+          <externalRef resource="FrameBase" reference="fe-Taking-Theme" />
+        </externalReferences>
+      </role>
+      <role id="rl18" semRole="A1">
+        <!--you must be referring to this post titled as The Hitler 's Test : https://www.stormfront.org/forum/t11...6-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="get-13.5.1@Theme" />
+          <externalRef resource="PropBank" reference="take.01@1" />
+          <externalRef resource="ESO" reference="Taking@possession-theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 must : [t4 you]-->
+    <predicate id="f_pr6" source="semafor" confidence="38.49958482697284">
+      <!--must-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Required_event" />
+      </externalReferences>
+      <role id="rl13" semRole="">
+        <!--you titled as The Hitler 's Test : https://www.stormfront.org/forum/t11...6-->
+        <span>
+          <target id="t4" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Required_event@Required_situation" />
+          <externalRef resource="FrameBase" reference="fe-Required_event-Required_situation" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 referring : A0[t4 you] A1[t8 to] AM-MOD[t4 you]-->
+    <predicate id="f_pr7" source="semafor" confidence="118.53015557304407">
+      <!--referring-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Statement" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reference" confidence="0.9122522" />
+        <externalRef resource="PropBank" reference="refer.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Reference" confidence="0.9122522" />
+      </externalReferences>
+      <role id="rl14" semRole="A0">
+        <!--you titled as The Hitler 's Test : https://www.stormfront.org/forum/t11...6-->
+        <span>
+          <target id="t4" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Statement@Speaker" />
+          <externalRef resource="FrameBase" reference="fe-Statement-Speaker" />
+        </externalReferences>
+      </role>
+      <role id="rl16" semRole="A1">
+        <!--to this post-->
+        <span>
+          <target id="t8" head="yes" />
+          <target id="t9" />
+          <target id="t10" />
+        </span>
+      </role>
+      <role id="rl17" semRole="AM-MOD">
+        <!--you must be referring to this post titled as The Hitler 's Test : https://www.stormfront.org/forum/t11...6-->
+        <span>
+          <target id="t4" />
+          <target id="t5" head="yes" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </role>
+    </predicate>
+    <!--t10 post :-->
+    <predicate id="f_pr8" source="semafor" confidence="79.13102163891499">
+      <!--post-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sending" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Blog" confidence="0.62022084" />
+      </externalReferences>
+    </predicate>
+    <!--t17 Test : A0[t14 The] A2[t19 https://www.stormfront.org/forum/t11...6]-->
+    <predicate id="f_pr9" source="semafor" confidence="83.4403416615948">
+      <!--Test-->
+      <span>
+        <target id="t17" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Operational_testing" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Test_cricket" confidence="0.996015" />
+        <externalRef resource="NomBank" reference="test.01" source="mate" />
+        <externalRef resource="VerbNet" reference="investigate-35.4" />
+        <externalRef resource="PropBank" reference="test.01" />
+        <externalRef resource="EventType" reference="contextual" />
+        <externalRef resource="WordNet" reference="ili-30-02533109-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Test_cricket" confidence="0.996015" />
+        <externalRef resource="FrameBase" reference="frame-Operational_testing-test.n" />
+      </externalReferences>
+      <role id="rl15" semRole="A0">
+        <!--The Hitler 's-->
+        <span>
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Operational_testing@Tester" />
+          <externalRef resource="VerbNet" reference="investigate-35.4@Agent" />
+          <externalRef resource="PropBank" reference="test.01@0" />
+          <externalRef resource="FrameBase" reference="fe-Operational_testing-Tester" />
+        </externalReferences>
+      </role>
+      <role id="rl19" semRole="A2">
+        <!--https://www.stormfront.org/forum/t11...6-->
+        <span>
+          <target id="t19" head="yes" />
+        </span>
+        <externalReferences>
+          <externalRef resource="VerbNet" reference="investigate-35.4@Theme" />
+          <externalRef resource="PropBank" reference="test.01@2" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (PRP I)) (VP (VBP take) (NP (PRP it)) (SBAR (S (NP (PRP you)) (VP (MD must) (VP (VB be) (VP (VBG referring) (PP (TO to) (NP (NP (DT this) (NN post)) (, ,) (VP (VBN titled) (PP (IN as) (NP (NP (DT The) (NNP Hitler) (POS 's)) (NN Test)))) (: :) (NP (NN https://www.stormfront.org/forum/t11...6))))))))))))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="PRP" />
+      <nt id="nter5" label="VP" />
+      <nt id="nter6" label="VBP" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="PRP" />
+      <nt id="nter9" label="SBAR" />
+      <nt id="nter10" label="S" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="PRP" />
+      <nt id="nter13" label="VP" />
+      <nt id="nter14" label="MD" />
+      <nt id="nter15" label="VP" />
+      <nt id="nter16" label="VB" />
+      <nt id="nter17" label="VP" />
+      <nt id="nter18" label="VBG" />
+      <nt id="nter19" label="PP" />
+      <nt id="nter20" label="TO" />
+      <nt id="nter21" label="NP" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="DT" />
+      <nt id="nter24" label="NN" />
+      <nt id="nter25" label="," />
+      <nt id="nter26" label="VP" />
+      <nt id="nter27" label="VBN" />
+      <nt id="nter28" label="PP" />
+      <nt id="nter29" label="IN" />
+      <nt id="nter30" label="NP" />
+      <nt id="nter31" label="NP" />
+      <nt id="nter32" label="DT" />
+      <nt id="nter33" label="NNP" />
+      <nt id="nter34" label="POS" />
+      <nt id="nter35" label="NN" />
+      <nt id="nter36" label=":" />
+      <nt id="nter37" label="NP" />
+      <nt id="nter38" label="NN" />
+      <!--Terminals-->
+      <!--I-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--take-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--it-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--must-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--be-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--referring-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--this-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--post-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--titled-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--as-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--The-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--Hitler-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--'s-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Test-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--:-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--https://www.stormfront.org/forum/t11...6-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" head="yes" />
+      <edge id="tre7" from="nter6" to="nter5" head="yes" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="ter3" to="nter8" />
+      <edge id="tre12" from="nter9" to="nter5" />
+      <edge id="tre13" from="nter10" to="nter9" head="yes" />
+      <edge id="tre14" from="nter11" to="nter10" />
+      <edge id="tre15" from="nter12" to="nter11" head="yes" />
+      <edge id="tre16" from="ter4" to="nter12" />
+      <edge id="tre17" from="nter13" to="nter10" head="yes" />
+      <edge id="tre18" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="ter5" to="nter14" />
+      <edge id="tre20" from="nter15" to="nter13" />
+      <edge id="tre21" from="nter16" to="nter15" head="yes" />
+      <edge id="tre22" from="ter6" to="nter16" />
+      <edge id="tre23" from="nter17" to="nter15" />
+      <edge id="tre24" from="nter18" to="nter17" head="yes" />
+      <edge id="tre25" from="ter7" to="nter18" />
+      <edge id="tre26" from="nter19" to="nter17" />
+      <edge id="tre27" from="nter20" to="nter19" head="yes" />
+      <edge id="tre28" from="ter8" to="nter20" />
+      <edge id="tre29" from="nter21" to="nter19" />
+      <edge id="tre30" from="nter22" to="nter21" head="yes" />
+      <edge id="tre31" from="nter23" to="nter22" />
+      <edge id="tre32" from="ter9" to="nter23" />
+      <edge id="tre33" from="nter24" to="nter22" head="yes" />
+      <edge id="tre34" from="ter10" to="nter24" />
+      <edge id="tre35" from="nter25" to="nter21" />
+      <edge id="tre36" from="ter11" to="nter25" />
+      <edge id="tre37" from="nter26" to="nter21" />
+      <edge id="tre38" from="nter27" to="nter26" head="yes" />
+      <edge id="tre39" from="ter12" to="nter27" />
+      <edge id="tre40" from="nter28" to="nter26" />
+      <edge id="tre41" from="nter29" to="nter28" head="yes" />
+      <edge id="tre42" from="ter13" to="nter29" />
+      <edge id="tre43" from="nter30" to="nter28" />
+      <edge id="tre44" from="nter31" to="nter30" />
+      <edge id="tre45" from="nter32" to="nter31" />
+      <edge id="tre46" from="ter14" to="nter32" />
+      <edge id="tre47" from="nter33" to="nter31" />
+      <edge id="tre48" from="ter15" to="nter33" />
+      <edge id="tre49" from="nter34" to="nter31" head="yes" />
+      <edge id="tre50" from="ter16" to="nter34" />
+      <edge id="tre51" from="nter35" to="nter30" head="yes" />
+      <edge id="tre52" from="ter17" to="nter35" />
+      <edge id="tre53" from="nter36" to="nter21" />
+      <edge id="tre54" from="ter18" to="nter36" />
+      <edge id="tre55" from="nter37" to="nter21" />
+      <edge id="tre56" from="nter38" to="nter37" head="yes" />
+      <edge id="tre57" from="ter19" to="nter38" />
+    </tree>
+  </constituency>
+</NAF>

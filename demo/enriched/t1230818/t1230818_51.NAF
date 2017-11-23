@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:40:20+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:40:20.685+0100" endTimestamp="2017-11-21T16:40:20.973+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:40:20.974+0100" endTimestamp="2017-11-21T16:40:20.974+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Is she hot?]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="2">Is</wf>
+    <wf id="w2" sent="1" para="1" offset="3" length="3">she</wf>
+    <wf id="w3" sent="1" para="1" offset="7" length="3">hot</wf>
+    <wf id="w4" sent="1" para="1" offset="10" length="1">?</wf>
+  </text>
+  <terms>
+    <!--Is-->
+    <term id="t1" type="open" lemma="be" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--she-->
+    <term id="t2" type="open" lemma="she" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--hot-->
+    <term id="t3" type="open" lemma="hot" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--?-->
+    <term id="t4" type="open" lemma="?" pos="O" morphofeat=".">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--SBJ(Is-1, she-2)-->
+    <dep from="t1" to="t2" rfunc="SBJ" />
+    <!--PRD(Is-1, hot-3)-->
+    <dep from="t1" to="t3" rfunc="PRD" />
+    <!--P(Is-1, ?-4)-->
+    <dep from="t1" to="t4" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--she-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Isaiah" confidence="0.7679686821508689" spotted="true">
+      <!--Is-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Temperature" confidence="0.6048913347801009" spotted="true">
+      <!--hot-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t1 Is : A1[t2 she] A2[t3 hot]-->
+    <predicate id="pr1" source="mate">
+      <!--Is-->
+      <span>
+        <target id="t1" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Isaiah" confidence="0.76796865" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--she-->
+        <span>
+          <target id="t2" head="yes" />
+        </span>
+      </role>
+      <role id="rl2" semRole="A2">
+        <!--hot-->
+        <span>
+          <target id="t3" head="yes" />
+        </span>
+      </role>
+    </predicate>
+    <!--t3 hot : [t2 she]-->
+    <predicate id="f_pr2" source="semafor" confidence="34.77699116912276">
+      <!--hot-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Temperature" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Temperature" confidence="0.60489136" />
+        <externalRef resource="FrameBase" reference="frame-Temperature-hot.a" />
+      </externalReferences>
+      <role id="rl3" semRole="">
+        <!--she-->
+        <span>
+          <target id="t2" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Temperature@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Temperature-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (SQ (VBZ Is) (NP (PRP she)) (ADJP (JJ hot)) (. ?)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="SQ" />
+      <nt id="nter3" label="VBZ" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="PRP" />
+      <nt id="nter6" label="ADJP" />
+      <nt id="nter7" label="JJ" />
+      <nt id="nter8" label="." />
+      <!--Terminals-->
+      <!--Is-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--she-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--hot-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--?-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="ter1" to="nter3" />
+      <edge id="tre5" from="nter4" to="nter2" />
+      <edge id="tre6" from="nter5" to="nter4" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter2" />
+      <edge id="tre12" from="ter4" to="nter8" />
+    </tree>
+  </constituency>
+</NAF>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc creationtime="2017-11-21T16:39:04+01:00" />
+    <public uri="http://pikes.fbk.eu/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2017-11-21T16:39:04.258+0100" endTimestamp="2017-11-21T16:39:04.605+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2017-11-21T16:39:04.607+0100" endTimestamp="2017-11-21T16:39:04.607+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Simple and a single word.... Liberalism]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="6">Simple</wf>
+    <wf id="w2" sent="1" para="1" offset="7" length="3">and</wf>
+    <wf id="w3" sent="1" para="1" offset="11" length="1">a</wf>
+    <wf id="w4" sent="1" para="1" offset="13" length="6">single</wf>
+    <wf id="w5" sent="1" para="1" offset="20" length="4">word</wf>
+    <wf id="w6" sent="1" para="1" offset="24" length="3">...</wf>
+    <wf id="w7" sent="1" para="1" offset="27" length="1">.</wf>
+    <wf id="w8" sent="2" para="1" offset="29" length="10">Liberalism</wf>
+  </text>
+  <terms>
+    <!--Simple-->
+    <term id="t1" type="open" lemma="simple" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t2" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t3" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--single-->
+    <term id="t4" type="open" lemma="single" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--word-->
+    <term id="t5" type="open" lemma="word" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--...-->
+    <term id="t6" type="open" lemma="..." pos="O" morphofeat=":">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--.-->
+    <term id="t7" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--Liberalism-->
+    <term id="t8" type="open" lemma="liberalism" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--COORD(Simple-1, and-2)-->
+    <dep from="t1" to="t2" rfunc="COORD" />
+    <!--NMOD(word-5, a-3)-->
+    <dep from="t5" to="t3" rfunc="NMOD" />
+    <!--NMOD(word-5, single-4)-->
+    <dep from="t5" to="t4" rfunc="NMOD" />
+    <!--CONJ(and-2, word-5)-->
+    <dep from="t2" to="t5" rfunc="CONJ" />
+    <!--P(Simple-1, ...-6)-->
+    <dep from="t1" to="t6" rfunc="P" />
+    <!--P(Simple-1, .-7)-->
+    <dep from="t1" to="t7" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--word-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word" confidence="0.9344156" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--Liberalism-->
+        <span>
+          <target id="t8" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Liberalism" confidence="0.96221894" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" value="2017-11-21" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Leaf" confidence="0.8964020396368155" spotted="true">
+      <!--Simple-->
+      <span>
+        <target id="w1" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word" confidence="0.9344155547403571" spotted="true">
+      <!--word-->
+      <span>
+        <target id="w5" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Single_(music)" confidence="0.9989464546004468" spotted="true">
+      <!--single-->
+      <span>
+        <target id="w4" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Liberalism" confidence="0.9622189643924907" spotted="true">
+      <!--Liberalism-->
+      <span>
+        <target id="w8" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t4 single : [t3 a]-->
+    <predicate id="f_pr2" source="semafor" confidence="6.325054452589853">
+      <!--single-->
+      <span>
+        <target id="t4" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Sole_instance" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Single_(music)" confidence="0.9989464" />
+        <externalRef resource="FrameBase" reference="frame-Sole_instance-single.a" />
+      </externalReferences>
+      <role id="rl1" semRole="">
+        <!--a single word-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Sole_instance@Type" />
+          <externalRef resource="FrameBase" reference="fe-Sole_instance-Type" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t5 word :-->
+    <predicate id="f_pr3" source="semafor" confidence="12.13800752770075">
+      <!--word-->
+      <span>
+        <target id="t5" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Simple_name" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word" confidence="0.9344156" />
+        <externalRef resource="NomBank" reference="word.01" source="mate" />
+        <externalRef resource="VerbNet" reference="transfer_mesg-37.1.1" />
+        <externalRef resource="PropBank" reference="communicate.01" />
+        <externalRef resource="EventType" reference="communication" />
+        <externalRef resource="WordNet" reference="ili-30-01070102-v" />
+        <externalRef resource="WordNet" reference="ili-30-00740577-v" />
+        <externalRef resource="WordNet" reference="ili-30-00742320-v" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Word" confidence="0.9344156" />
+        <externalRef resource="FrameBase" reference="frame-Simple_name-word.n" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (NP (NP (JJ Simple)) (PP (CC and) (NP (NP (DT a) (JJ single) (NN word)) (: ...))) (. .)))</tree>
+    <tree sentence="2">(ROOT (NP (NN Liberalism)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="NP" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label="PP" />
+      <nt id="nter6" label="CC" />
+      <nt id="nter7" label="NP" />
+      <nt id="nter8" label="NP" />
+      <nt id="nter9" label="DT" />
+      <nt id="nter10" label="JJ" />
+      <nt id="nter11" label="NN" />
+      <nt id="nter12" label=":" />
+      <nt id="nter13" label="." />
+      <!--Terminals-->
+      <!--Simple-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--single-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--word-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--...-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter2" />
+      <edge id="tre7" from="nter6" to="nter5" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter5" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre11" from="nter9" to="nter8" />
+      <edge id="tre12" from="ter3" to="nter9" />
+      <edge id="tre13" from="nter10" to="nter8" />
+      <edge id="tre14" from="ter4" to="nter10" />
+      <edge id="tre15" from="nter11" to="nter8" head="yes" />
+      <edge id="tre16" from="ter5" to="nter11" />
+      <edge id="tre17" from="nter12" to="nter7" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter2" />
+      <edge id="tre20" from="ter7" to="nter13" />
+    </tree>
+    <tree sentence="2">
+      <!--Non-terminals-->
+      <nt id="nter14" label="ROOT" />
+      <nt id="nter15" label="NP" />
+      <nt id="nter16" label="NN" />
+      <!--Terminals-->
+      <!--Liberalism-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre22" from="nter15" to="nter14" head="yes" />
+      <edge id="tre23" from="nter16" to="nter15" head="yes" />
+      <edge id="tre24" from="ter8" to="nter16" />
+    </tree>
+  </constituency>
+</NAF>
