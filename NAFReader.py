@@ -1,5 +1,6 @@
 from lxml import etree
 from nltk.tree import Tree
+import nltk
 
 class NAFReader:
 
@@ -13,6 +14,7 @@ class NAFReader:
 		self.dictEntities = {}
 		self.coreferenceChains = []
 		self.linkedEntities = []
+		self.words = []
 
 		xpathWords = "//text/wf"
 		xpathTerms = "//terms/term"
@@ -33,6 +35,7 @@ class NAFReader:
 			self.dictWords[idx]["offset"] = word.xpath("./@offset")[0]
 			self.dictWords[idx]["length"] = word.xpath("./@length")[0]
 			self.dictWords[idx]["text"] = word.xpath("./text()")[0]
+			self.words.append(self.dictWords[idx]["text"].lower())
 
 		terms = tree.xpath(xpathTerms)
 		for term in terms:
@@ -124,20 +127,126 @@ class NAFReader:
 
 		for constString in constStrings:
 			tree = Tree.fromstring(constString)
-			sentence = " ".join(t.leaves())
+			sentence = " ".join(tree.leaves())
 			self.sentences.append(sentence)
-			self.pos.append(t.pos())
-			self.heights.append(t.height())
-			self.productionList.append(t.productions())
+			self.pos.append(tree.pos())
+			self.heights.append(tree.height())
+			self.productionList.append(tree.productions())
 
 			nSubs=0
-			for sub in t.subtrees():
+			for sub in tree.subtrees():
 				nSubs +=1
-				
+
 			self.nSubtrees.append(nSubs)
+
+	def getRelevantWords(self):
+		relevantWords = []
+		for listPos in self.pos:
+			for word, tag in listPos:
+				if tag.startswith("N") or tag.startswith("J"):
+					relevantWords.append(word.lower())
+
+		return relevantWords
 
 	def getTokens(self):
 		return self.dictWords
+
+	def getCoreferentTokens(self):
+		listCorefs = []
+		for corefChain in self.coreferenceChains:
+			for elem in corefChain:
+				string = ""
+				for member in elem:
+					wordIds = self.dictTerms[member]["spans"]
+					
+					for wordId in wordIds:
+						string += self.dictWords[wordId]["text"] + " "
+				
+				listCorefs.append(string.strip().lower())
+		return listCorefs
+
+	def getLinkedEntities(self):
+		leFriendly = []
+		for le in self.linkedEntities:
+			spans = le["spans"]
+			words = ""
+			for span in spans:
+				words += self.dictWords[span]["text"] + " "
+
+			leFriendly.append((words.strip(), le["resource"], le["reference"], le["confidence"]))
+
+		return leFriendly
+
+	def getEntityTokens(self):
+		
+		listEntityTokens = []
+		for idx, dictEntity in self.dictEntities.iteritems():
+			termList = dictEntity["references"]
+			entityString = ""
+			for term in termList:
+				wordIds = self.dictTerms[term]["spans"]
+				for wordId in wordIds:
+					entityString += self.dictWords[wordId]["text"] + " "
+
+				listEntityTokens.append(entityString.strip().lower())
+		return listEntityTokens
+
+	#SERVER CALL
+	def getRelevantEntities(self):
+		listEntityTokens = []
+		for idx, dictEntity in self.dictEntities.iteritems():
+			termList = dictEntity["references"]
+			entityString = ""
+			for term in termList:
+				wordIds = self.dictTerms[term]["spans"]
+				for wordId in wordIds:
+					entityString += self.dictWords[wordId]["text"] + " "
+
+				listEntityTokens.append(entityString.strip().lower())
+
+		setEntityTokens = set(listEntityTokens)
+		setRelWords = set(self.getRelevantWords())
+
+		superList = list(setEntityTokens | setRelWords)
+		pos_tagged = nltk.pos_tag(superList)
+
+		finalList = set()
+		for word, tag in pos_tagged:
+			if not tag.startswith("P") and not tag.startswith("W") and not tag.startswith("R") and not tag.startswith("C"):
+				finalList.add(word)
+
+		return list(finalList)
+
+	#SERVER CALL
+	def getCoreferences(self):
+		listCorefs = []
+		print self.coreferenceChains
+		for corefChain in self.coreferenceChains:
+			chain = []
+			for elem in corefChain:
+				string = ""
+				for member in elem:
+					wordIds = self.dictTerms[member]["spans"]
+					
+					for wordId in wordIds:
+						string += self.dictWords[wordId]["text"] + " "
+				chain.append(string.strip().lower())
+			listCorefs.append(chain)
+
+		return listCorefs
+
+	#SERVER CALL
+	def getLEs(self):
+		leFriendly = []
+		for le in self.linkedEntities:
+			spans = le["spans"]
+			words = ""
+			for span in spans:
+				words += self.dictWords[span]["text"] + " "
+
+			leFriendly.append((words.strip(), le["reference"]))
+
+		return leFriendly
 
 
 if __name__ == '__main__':
