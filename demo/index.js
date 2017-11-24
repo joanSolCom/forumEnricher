@@ -252,12 +252,18 @@ $( document ).ready(function() {
 				{
 					var idPost = data[i][0];
 					var relevance = data[i][1];
-					var redVal = Math.ceil((relevance*255)/max);
+					var r,g,b;
+					var variable = Math.ceil((relevance*180)/max);
 
-					var color = "rgb("+redVal+",0,0)";
+					r = 180;
+					g = 180 - variable;
+					b = 180 - variable;
+
+
+					var color = "rgb("+r+","+g+","+b+")";
 					console.log(color);
-					$(".wrapper").css("color","white");
-					$(".wrapper").css("font-weight","bold");
+					$(".wrapper").css("color","black");
+					//$(".wrapper").css("font-weight","bold");
 					$("#postRelevance_"+idPost).parent().css("background-color",color);
 					$("#postRelevance_"+idPost).text("Post Relevance: "+relevance);
 				}
