@@ -253,11 +253,11 @@ $( document ).ready(function() {
 					var idPost = data[i][0];
 					var relevance = data[i][1];
 					var r,g,b;
-					var variable = Math.ceil((relevance*180)/max);
+					var variable = Math.ceil((relevance*255)/max);
 
-					r = 180;
-					g = 180 - variable;
-					b = 180 - variable;
+					r = 255;
+					g = 255 - variable;
+					b = 255 - variable;
 
 
 					var color = "rgb("+r+","+g+","+b+")";
