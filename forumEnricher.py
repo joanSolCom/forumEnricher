@@ -6,6 +6,7 @@ import codecs
 from pprint import pprint
 from collections import Counter
 import nltk
+from string import punctuation
 
 '''
 	Classes
@@ -29,7 +30,6 @@ class ForumThread:
 		self.postList = []
 		self.userSet = set()
 		self.userDict = {}
-
 
 		with codecs.open(pathJSON,'rU','utf-8') as f:
 			for line in f:
@@ -210,15 +210,91 @@ class ForumPost:
 		#self.iFRED = FREDReader(self.text, "./rdfs/"+jsonElem["idFileEnriched"])
 		self.position = position
 		self.userMentions = []
-		self.extractPostInfo()
+		self.features = []
+		self.extractPostFeatures()
+		
 
 	def setUserMentions(self, userSet):
 		for word in self.iNAF.words:
 			if word in userSet:
 				self.userMentions.append(word)
 		
-	def extractPostInfo(self):
+	def extractPostFeatures(self):
+		self.simpleFeatures()
+		self.posFeatures()
+		self.punctuationFeatures()
+		self.questionFeatures()
+		self.roleFeatures()
+
+	def simpleFeatures(self):
+		if self.citation:
+			self.features.append(("ContainsCitation",True))
+			self.features.append(("CitationLength",len(self.citation)))
+
+		if self.userMentions:
+			self.features.append(("MentionedUsers",self.users))
+
+		nChars = len(self.text)
+		self.features.append(("nChars",nChars))
+		nTokens = len(self.iNAF.dictWords.keys())
+		sentences = self.iNAF.sentences
+		nSents = len(sentences)
+
+		self.features.append(("SentencesDepth",self.iNAF.heights))
+		self.features.append(("SentencesSubtrees",self.iNAF.nSubtrees))
+		self.features.append(("nWords",nTokens))
+		self.features.append(("nSents",nSents))
+
+	def posFeatures(self):
+		dictPos = {}
+		dictPos["Nouns"] = 0
+		dictPos["Adjectives"] = 0
+		dictPos["Verbs"] = 0
+		dictPos["Adverbs"] = 0
+		totalTokens = len(self.iNAF.words)
+		for sentPos in self.iNAF.pos:
+			for word,pos in sentPos:
+				if pos.startswith("N"):
+					dictPos["Nouns"]+=1
+				if pos.startswith("J"):
+					dictPos["Adjectives"]+=1
+				if pos.startswith("V"):
+					dictPos["Verbs"]+=1
+				if pos.startswith("R"):
+					dictPos["Adverbs"]+=1
+
+		self.features.append(("NumNouns",dictPos["Nouns"]))
+		self.features.append(("NumAdjectives",dictPos["Adjectives"]))
+		self.features.append(("NumVerbs",dictPos["Verbs"]))
+		self.features.append(("NumAdverbs",dictPos["Adverbs"]))
+
+		if totalTokens > 0:
+			self.features.append(("RatioNouns", dictPos["Nouns"] / totalTokens))
+			self.features.append(("RatioAdjectives", dictPos["Adjectives"]/ totalTokens))
+			self.features.append(("RatioVerbs", dictPos["Verbs"]/ totalTokens))
+			self.features.append(("RatioAdverbs", dictPos["Adverbs"]/ totalTokens))
+
+
+	def punctuationFeatures(self):
+		dictPuncts = {}
+		for word in self.iNAF.words:
+			if word in punctuation:
+				if word not in dictPuncts:
+					dictPuncts[word] = 0
+				dictPuncts[word]+=1
+
+		for punct, freq in dictPuncts.iteritems():
+			self.features.append((punct,freq))
+
+
+	def questionFeatures(self):
+		if "?" in self.text:
+			self.features.append(("ContainsQuestion",True))
+ 
+
+	def roleFeatures(self):
 		pass
+
 
 if __name__ == '__main__':
 	

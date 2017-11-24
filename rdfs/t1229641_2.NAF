@@ -1,0 +1,160 @@
+<rdf:RDF
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/vn/abox/role/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.2="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#" > 
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rule_1">
+    <j.2:muslimRuleOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Turkey"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MuslimRule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#eastern_1">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Middle"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MiddleEastern"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Mixed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#suspect_1">
+    <j.0:Agent rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_4"/>
+    <j.0:Theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#have_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Suspect"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#east_1">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Middle"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MiddleEast"/>
+    <j.4:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#tell_1">
+    <j.0:Agent rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Tell"/>
+    <j.0:Topic rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_2"/>
+    <j.2:suddenly rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#want_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#due_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Due"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#proximity_1">
+    <j.2:proximityOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1"/>
+    <j.4:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#some"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Proximity"/>
+    <j.2:to rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#east_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MuslimRule">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rule"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Muslim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_3">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Nearby">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LolP.s.">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#P.s."/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#muslim_1">
+    <j.4:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rule_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Muslim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LolP.s.Answer">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LolP.s."/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#P.s.Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Tell">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Tell_37011110"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Turkey">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Turkey"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NearbyCountry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MiddleEastern">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Eastern"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Have">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Have_39040100"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#p.s._1">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#answer_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LolP.s."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Go">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Go_47070000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NearbyCountry">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Nearby"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#lol_1">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#p.s._1"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#answer_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MiddleEast">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#East"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Want">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Want_32010110"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Turkey">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdf:type rdf:resource="http://schema.org/Country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Suspect">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Suspect_29090200"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#P.s.Answer">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#P.s."/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#go_1">
+    <j.0:Location rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#answer_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Go"/>
+    <j.0:Theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_3"/>
+    <j.2:however rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#suspect_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#want_1">
+    <j.0:Experiencer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_3"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Want"/>
+    <j.0:Theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#go_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_2">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_4">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#have_1">
+    <j.0:Agent rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_2"/>
+    <j.0:Patient rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#eastern_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Have"/>
+    <j.2:inDueTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#proximity_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#answer_1">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romania."/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LolP.s.Answer"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Yes"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Obviously"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romania.">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Obviously"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Yes"/>
+  </rdf:Description>
+</rdf:RDF>

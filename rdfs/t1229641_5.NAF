@@ -1,0 +1,142 @@
+<rdf:RDF
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/vn/abox/role/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.2="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#" > 
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#peple_1">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#So"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Peple"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#many"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#romanian_gypsies_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romanian_gypsies"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#assume_1">
+    <j.4:theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_1"/>
+    <j.0:Agent rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#peple_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Assume"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_1">
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#romanian_2"/>
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#scum_1"/>
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#case_1"/>
+    <j.3:hasTruthValue rdf:resource="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#False"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation"/>
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Case"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#case_1">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Case"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#call_1">
+    <j.0:Predicate rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Call"/>
+    <j.0:Theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#romanian_gypsies_1"/>
+    <j.2:butIn rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#West"/>
+    <j.2:as rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confusion_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Confusion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#PoliticallyCorrectMediaRefer">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#CorrectMediaRefer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romanian">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Case"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Assume">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Assume_93000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#romanian_2">
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#some"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romanian"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <j.2:romanianOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#scum_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lead">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Lead_51070000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#lot_1">
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <j.2:lotOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confusion_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romanians">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27_2">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romanians"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#CorrectMediaRefer">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MediaRefer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#scum_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Scum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#refer_1">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Then"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#PoliticallyCorrectMediaRefer"/>
+    <j.2:to rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Kind">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Case"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#media_1">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#refer_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Media"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <j.6:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#course_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_2">
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#romanian_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation"/>
+    <j.2:situationOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#course_1"/>
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Aryan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Roma">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27_1">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#refer_1"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Roma"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#romanian_1">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Aryan"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Romanian"/>
+    <j.6:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Call">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Call_29030000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MediaRefer">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Refer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#lead_1">
+    <j.0:Destination rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#lot_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lead"/>
+    <j.0:Agent rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27_2"/>
+  </rdf:Description>
+</rdf:RDF>

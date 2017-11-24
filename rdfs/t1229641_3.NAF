@@ -1,0 +1,10 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#" > 
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#End_of_discussion">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#yes_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Yes"/>
+  </rdf:Description>
+</rdf:RDF>

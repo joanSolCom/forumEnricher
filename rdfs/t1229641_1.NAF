@@ -1,0 +1,61 @@
+<rdf:RDF
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/vn/abox/role/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.2="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#" > 
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_3">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#not_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Not"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#wonder_2">
+    <j.2:if rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#not_1"/>
+    <j.0:Experiencer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_3"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Wonder"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#consider_1">
+    <j.3:hasModality rdf:resource="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#Necessary"/>
+    <j.0:Agent rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#people_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Consider"/>
+    <j.2:entails rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#wonder_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_2">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Consider">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Consider_29090111"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_1">
+    <j.3:involves rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_2"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#wonder_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Wonder"/>
+    <j.0:Experiencer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Wonder">
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Wonder_31030800"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#people_1">
+    <j.4:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#People"/>
+    <j.2:peopleOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_1"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Aryan"/>
+  </rdf:Description>
+</rdf:RDF>

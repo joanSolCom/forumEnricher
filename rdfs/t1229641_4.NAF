@@ -1,0 +1,170 @@
+<rdf:RDF
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/vn/abox/role/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+    xmlns:j.3="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.2="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#" > 
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Invasive">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#InvasiveJungleSavage">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#JungleSavage"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#InvasiveJungle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_1">
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_2"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation"/>
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Akin"/>
+    <j.2:possiblyAt rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rung_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rung_1">
+    <j.4:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rung"/>
+    <j.2:lowestAmong rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rung"/>
+    <j.2:lowestRungOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#humanity_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LowestRung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Arrive">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Arrive_51010200"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#hundred_1">
+    <j.4:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Hundred"/>
+    <j.2:hundredOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thousand_1"/>
+    <j.2:hundredOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#InvasiveJungle">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Invasive"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Jungle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#humanity_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Humanity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lowest">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LowestRung">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lowest"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Legged">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LeggedVermin">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Vermin"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Legged"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#keep_1">
+    <j.0:Agent rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#scum_1"/>
+    <j.0:Theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_2"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Out"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Keep"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Weak">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Too"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#savage_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#InvasiveJungleSavage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#scum_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#AsiaticGypsyScum"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Asiatic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#result_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Result"/>
+    <j.4:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#a"/>
+    <j.2:resultOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#policy_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_2">
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Akin"/>
+    <j.2:to rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#savage_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation"/>
+    <j.3:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#vermin_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#present_1">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Here"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Certainly"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#But"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Present"/>
+    <j.0:Theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#people_1"/>
+    <j.2:inPeopleOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#person_1"/>
+    <j.2:as rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#scum_1"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Yes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#vermin_1">
+    <j.4:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#two"/>
+    <j.1:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</j.1:hasDataValue>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Akin"/>
+    <j.4:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#these"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LeggedVermin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NowArrive">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Arrive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#JungleSavage">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Jungle"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Savage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataTypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Europe">
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#W."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Keep">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Keep_55060000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#AsiaticGypsyScum">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#GypsyScum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#arrive_1">
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Now"/>
+    <j.0:Theme rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#scum_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NowArrive"/>
+    <j.0:Oblique rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#hundred_1"/>
+    <j.2:as rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#result_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#policy_1">
+    <j.4:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Policy"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Weak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Present">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/vn/data/Present_48012000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#jungle_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Jungle"/>
+    <j.1:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#savage_1"/>
+    <j.4:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thing_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#GypsyScum">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Scum"/>
+    <j.1:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Gypsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#thousand_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Thousand"/>
+    <j.4:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Gypsy">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#people_1">
+    <j.4:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#People"/>
+  </rdf:Description>
+</rdf:RDF>

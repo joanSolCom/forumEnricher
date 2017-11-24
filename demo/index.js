@@ -21,110 +21,182 @@ $( document ).ready(function() {
 		LATERAL BUTTONS
 	**/
 
-	$( "button.entities" ).click(function() {
-	  $(this).parent().parent().find(".entity_hidden").hide();
-	  $(this).parent().parent().find(".coreference_hidden").hide();
-	  $(this).parent().parent().find(".linkedEntities_hidden").hide();
-	  $(this).parent().parent().find(".container").show();
-	  
-	  var idFileEnriched = $(this).parent().attr("id");
-	  var idFile = idFileEnriched.split("_")[0];
-
-	  var height = $(this).parent().parent().find(".wrapper").height();
-	  var width = $(this).parent().parent().find(".wrapper").width();
-
-	  $(this).parent().parent().find(".container").hide();
-
-	  $(this).parent().parent().find(".entity_hidden").height(height);
-	  //$(this).parent().parent().find(".entity_hidden").width(width);
-
-	  var bgcolor = $(this).css("background-color");
-	  $(this).parent().parent().find(".entity_hidden").css("background-color", bgcolor)
-	  $(this).parent().parent().find(".entity_hidden").show();
-
-	  var that = $(this);
-	  
-	  $.getJSON( "http://localhost:5000/getEntityInfo?callback=?", { "idFile": idFile, "idFileEnriched":idFileEnriched} ,function( data ) {
-		  var stringVal = "";
-		  for(var i in data){
-		  	stringVal+= " [" + data[i] + "] ";
-		  }
-		  that.parent().parent().find(".entity_hidden").text(stringVal);
-	   });
-		
-
-	});
-
-	$( "button.coreferences" ).click(function() {
-
-	  $(this).parent().parent().find(".entity_hidden").hide();
+	$( "button.entities" ).click(function() 
+	{
+		$(this).parent().parent().find(".sentences_hidden").hide();
+		$(this).parent().parent().find(".postFeatures_hidden").hide();
+		$(this).parent().parent().find(".entity_hidden").hide();
 		$(this).parent().parent().find(".coreference_hidden").hide();
 		$(this).parent().parent().find(".linkedEntities_hidden").hide();
 		$(this).parent().parent().find(".container").show();
 
-	  var idFileEnriched = $(this).parent().attr("id");
-	  var idFile = idFileEnriched.split("_")[0];
+		var idFileEnriched = $(this).parent().attr("id");
+		var idFile = idFileEnriched.split("_")[0];
 
-	  var height = $(this).parent().parent().find(".wrapper").height();
+		var height = $(this).parent().parent().find(".wrapper").height();
+		var width = $(this).parent().parent().find(".wrapper").width();
 
-	  $(this).parent().parent().find(".container").hide();
+		$(this).parent().parent().find(".container").hide();
 
-	  $(this).parent().parent().find(".coreference_hidden").height(height);
+		$(this).parent().parent().find(".entity_hidden").height(height);
 
-	  var bgcolor = $(this).css("background-color");
-	  $(this).parent().parent().find(".coreference_hidden").css("background-color", bgcolor)
-	  $(this).parent().parent().find(".coreference_hidden").show();
+		var bgcolor = $(this).css("background-color");
+		$(this).parent().parent().find(".entity_hidden").css("background-color", bgcolor)
+		$(this).parent().parent().find(".entity_hidden").show();
 
-	  var that = $(this);
-	  
-	  $.getJSON( "http://localhost:5000/getCoreferenceInfo?callback=?", { "idFile": idFile, "idFileEnriched":idFileEnriched} ,function( data ) {
-		  var stringVal = "";
-		  for(var i in data){
-		  	stringVal+= " [" + data[i] + "] ";
-		  }
-		  that.parent().parent().find(".coreference_hidden").text(stringVal);
-	   });
+		var that = $(this);
+
+		$.getJSON( "http://10.80.28.153:5000/getEntityInfo?callback=?", { "idFile": idFile, "idFileEnriched":idFileEnriched} ,function( data ) {
+			var stringVal = "";
+			for(var i in data){
+				stringVal+= " [" + data[i] + "] ";
+			}
+			that.parent().parent().find(".entity_hidden").text(stringVal);
+		});
 		
 
 	});
 
-	$( "button.linkedEntities" ).click(function() {
-
-	    $(this).parent().parent().find(".entity_hidden").hide();
+	$( "button.coreferences" ).click(function()
+	{
+		$(this).parent().parent().find(".sentences_hidden").hide();
+		$(this).parent().parent().find(".postFeatures_hidden").hide();
+		$(this).parent().parent().find(".entity_hidden").hide();
 		$(this).parent().parent().find(".coreference_hidden").hide();
 		$(this).parent().parent().find(".linkedEntities_hidden").hide();
 		$(this).parent().parent().find(".container").show();
 
-	  var idFileEnriched = $(this).parent().attr("id");
-	  var idFile = idFileEnriched.split("_")[0];
+		var idFileEnriched = $(this).parent().attr("id");
+		var idFile = idFileEnriched.split("_")[0];
 
-	  var height = $(this).parent().parent().find(".wrapper").height();
+		var height = $(this).parent().parent().find(".wrapper").height();
 
-	  $(this).parent().parent().find(".container").hide();
+		$(this).parent().parent().find(".container").hide();
 
-	  $(this).parent().parent().find(".linkedEntities_hidden").height(height);
+		$(this).parent().parent().find(".coreference_hidden").height(height);
 
-	  var bgcolor = $(this).css("background-color");
-	  $(this).parent().parent().find(".linkedEntities_hidden").css("background-color", bgcolor)
-	  $(this).parent().parent().find(".linkedEntities_hidden").show();
+		var bgcolor = $(this).css("background-color");
+		$(this).parent().parent().find(".coreference_hidden").css("background-color", bgcolor)
+		$(this).parent().parent().find(".coreference_hidden").show();
 
-	  var that = $(this);
-	  
-	  $.getJSON( "http://localhost:5000/getLinkedEntities?callback=?", { "idFile": idFile, "idFileEnriched":idFileEnriched} ,function( data ) {
-		  var stringVal = "";
-		  for(var i in data)
-		  {
-		  	stringVal+= data[i][0] + " " + data[i][1]+"<br/>";
-		  }
-		  that.parent().parent().find(".linkedEntities_hidden").html(stringVal);
-	   });
-		
+		var that = $(this);
 
+		$.getJSON( "http://10.80.28.153:5000/getCoreferenceInfo?callback=?", { "idFile": idFile, "idFileEnriched":idFileEnriched} ,function( data ) {
+			var stringVal = "";
+			for(var i in data){
+				stringVal+= " [" + data[i] + "] ";
+			}
+			that.parent().parent().find(".coreference_hidden").text(stringVal);
+		});
 	});
+
+	$( "button.linkedEntities" ).click(function() 
+	{
+		$(this).parent().parent().find(".sentences_hidden").hide();
+		$(this).parent().parent().find(".postFeatures_hidden").hide();
+		$(this).parent().parent().find(".entity_hidden").hide();
+		$(this).parent().parent().find(".coreference_hidden").hide();
+		$(this).parent().parent().find(".linkedEntities_hidden").hide();
+		$(this).parent().parent().find(".container").show();
+
+		var idFileEnriched = $(this).parent().attr("id");
+		var idFile = idFileEnriched.split("_")[0];
+
+		var height = $(this).parent().parent().find(".wrapper").height();
+
+		$(this).parent().parent().find(".container").hide();
+
+		$(this).parent().parent().find(".linkedEntities_hidden").height(height);
+
+		var bgcolor = $(this).css("background-color");
+		$(this).parent().parent().find(".linkedEntities_hidden").css("background-color", bgcolor)
+		$(this).parent().parent().find(".linkedEntities_hidden").show();
+
+		var that = $(this);
+
+		$.getJSON( "http://10.80.28.153:5000/getLinkedEntities?callback=?", { "idFile": idFile, "idFileEnriched":idFileEnriched} ,function( data ) {
+			var stringVal = "";
+			for(var i in data)
+			{
+				stringVal+= data[i][0] + " " + data[i][1]+"<br/>";
+			}
+			that.parent().parent().find(".linkedEntities_hidden").html(stringVal);
+		});
+	});
+
+	$( "button.sentences" ).click(function()
+	{
+		$(this).parent().parent().find(".sentences_hidden").hide();
+		$(this).parent().parent().find(".postFeatures_hidden").hide();
+		$(this).parent().parent().find(".entity_hidden").hide();
+		$(this).parent().parent().find(".coreference_hidden").hide();
+		$(this).parent().parent().find(".linkedEntities_hidden").hide();
+		$(this).parent().parent().find(".container").show();
+
+		var idFileEnriched = $(this).parent().attr("id");
+		var idFile = idFileEnriched.split("_")[0];
+
+		var height = $(this).parent().parent().find(".wrapper").height();
+
+		$(this).parent().parent().find(".container").hide();
+
+		$(this).parent().parent().find(".sentences_hidden").height(height);
+
+		var bgcolor = $(this).css("background-color");
+		$(this).parent().parent().find(".sentences_hidden").css("background-color", bgcolor)
+		$(this).parent().parent().find(".sentences_hidden").show();
+
+		var that = $(this);
+
+		$.getJSON( "http://10.80.28.153:5000/getSentences?callback=?", { "idFile": idFile, "idFileEnriched":idFileEnriched} ,function( data ) {
+			var stringVal = "";
+			for(var i in data){
+				stringVal+= " [" + data[i] + "]<br/>";
+			}
+			that.parent().parent().find(".sentences_hidden").html(stringVal);
+		});
+	});
+
+	$( "button.postFeatures" ).click(function() 
+	{
+		$(this).parent().parent().find(".sentences_hidden").hide();
+		$(this).parent().parent().find(".postFeatures_hidden").hide();
+		$(this).parent().parent().find(".entity_hidden").hide();
+		$(this).parent().parent().find(".coreference_hidden").hide();
+		$(this).parent().parent().find(".linkedEntities_hidden").hide();
+		$(this).parent().parent().find(".container").show();
+
+		var idFileEnriched = $(this).parent().attr("id");
+		var idFile = idFileEnriched.split("_")[0];
+		var idPost = $(this).parent().parent().find(".container").find(".wrapper").find(".postHeader").find(".userPostHeader").find(".idPost").text();
+		var height = $(this).parent().parent().find(".wrapper").height();
+
+		$(this).parent().parent().find(".container").hide();
+
+		$(this).parent().parent().find(".postFeatures_hidden").height(height);
+
+		var bgcolor = $(this).css("background-color");
+		$(this).parent().parent().find(".postFeatures_hidden").css("background-color", bgcolor)
+		$(this).parent().parent().find(".postFeatures_hidden").show();
+
+		var that = $(this);
+
+		$.getJSON( "http://10.80.28.153:5000/getPostFeatures?callback=?", { "idFile": idFile, "idPost":idPost} ,function( data ) {
+			var stringVal = "";
+			for(var i in data)
+			{
+				stringVal+= data[i][0] + " " + data[i][1]+"<br/>";
+			}
+			that.parent().parent().find(".postFeatures_hidden").html(stringVal);
+		});
+	});
+
 
 	$( "button.clear" ).click(function() {
 
-		$(this).parent().parent().find(".entity_hidden").hide();
+		$(this).parent().parent().find(".sentences_hidden").hide();
+		$(this).parent().parent().find(".postFeatures_hidden").hide();
+	    $(this).parent().parent().find(".entity_hidden").hide();
 		$(this).parent().parent().find(".coreference_hidden").hide();
 		$(this).parent().parent().find(".linkedEntities_hidden").hide();
 		$(this).parent().parent().find(".container").show();
@@ -144,7 +216,7 @@ $( document ).ready(function() {
 			$("#showUserRelevance").text("Clear User Relevance");
 			var idFile = $("#threadId").attr("class");
 		
-			$.getJSON( "http://localhost:5000/getUserRelevance?callback=?", { "idFile": idFile} ,function( data ) {
+			$.getJSON( "http://10.80.28.153:5000/getUserRelevance?callback=?", { "idFile": idFile} ,function( data ) {
 				
 				var stringRel = "";
 				for(i=0;i<data.length;i++)
@@ -172,7 +244,7 @@ $( document ).ready(function() {
 		{
 			var idFile = $("#threadId").attr("class");
 			var max = 0;
-			$.getJSON( "http://localhost:5000/getPostRelevance?callback=?", { "idFile": idFile} ,function( data ) {
+			$.getJSON( "http://10.80.28.153:5000/getPostRelevance?callback=?", { "idFile": idFile} ,function( data ) {
 				var max = data[0][1];
 				var min = data[data.length-1][1];
 
@@ -212,7 +284,7 @@ $( document ).ready(function() {
 			$("#showRelevantConcepts").text("Clear Relevant Concepts");
 			var idFile = $("#threadId").attr("class");
 		
-			$.getJSON( "http://localhost:5000/getRelevantConcepts?callback=?", { "idFile": idFile} ,function( data ) {
+			$.getJSON( "http://10.80.28.153:5000/getRelevantConcepts?callback=?", { "idFile": idFile} ,function( data ) {
 				
 				var stringConcepts = "";
 				for(i=0;i<data.length;i++)
@@ -231,5 +303,11 @@ $( document ).ready(function() {
 		}
 
 
+	});
+	$( "#showUserRoles" ).click(function() {
+		alert("NOT IMPLEMENTED");
+	});
+	$( "#showThreadFeatures" ).click(function() {
+		alert("NOT IMPLEMENTED");
 	});
 });

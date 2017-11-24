@@ -57,10 +57,12 @@ img#loading{
 	overflow: auto;
 	overflow-x: none;
 }
-
 .citation{
 	border:solid 2px black;
 	background-color:darkorange;  
+}
+.sentences_hidden{
+	color:black !important;
 }
 .button_pannel{
 	padding-bottom:30px;

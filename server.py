@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 from NAFReader import NAFReader
-from forumEnricher import ForumThread
+from forumEnricher import ForumThread, ForumPost
 from flask import Flask, app, request, url_for, Response
 from logging.handlers import RotatingFileHandler
 from logging import Formatter, INFO
 import json
 import os
 from flask_jsonpify import jsonpify
-
+import codecs
 
 
 app = Flask(__name__)
@@ -85,7 +85,35 @@ def getLinkedEntities():
     print LEs
     data = jsonpify(LEs)
     return data
+
+@app.route('/getPostFeatures', methods=['GET'])
+def getPostFeatures():
+    dirEnriched = request.args.get('idFile')
+    idPost = request.args.get('idPost')
+    path = "/home/joan/Escritorio/Datasets/forumData/json/" + dirEnriched
     
+    jsonObj = []
+    with codecs.open(path,'rU','utf-8') as f:
+        for line in f:
+            jsonObj.append(json.loads(line))
+    
+    jsonElem = jsonObj[0][int(idPost)]
+    iF = ForumPost(jsonElem, idPost)
+    features = iF.features
+    print features
+    data = jsonpify(features)
+    return data
+
+@app.route('/getSentences', methods=['GET'])
+def getSentences():
+    fname = request.args.get('idFileEnriched')
+    dirEnriched = request.args.get('idFile')
+    path = "/home/joan/Escritorio/Datasets/forumData/enriched/" + dirEnriched +"/"+ fname
+    iNAF = NAFReader(path)
+    sentences = iNAF.sentences
+    print sentences
+    data = jsonpify(sentences)
+    return data
 
 
 if __name__ == '__main__':
