@@ -165,30 +165,40 @@ $( document ).ready(function() {
 		$(this).parent().parent().find(".coreference_hidden").hide();
 		$(this).parent().parent().find(".linkedEntities_hidden").hide();
 		$(this).parent().parent().find(".container").show();
-
-		var idFileEnriched = $(this).parent().attr("id");
-		var idFile = idFileEnriched.split("_")[0];
-		var idPost = $(this).parent().parent().find(".container").find(".wrapper").find(".postHeader").find(".userPostHeader").find(".idPost").text();
-		var height = $(this).parent().parent().find(".wrapper").height();
-
-		$(this).parent().parent().find(".container").hide();
-
-		$(this).parent().parent().find(".postFeatures_hidden").height(height);
-
 		var bgcolor = $(this).css("background-color");
-		$(this).parent().parent().find(".postFeatures_hidden").css("background-color", bgcolor)
-		$(this).parent().parent().find(".postFeatures_hidden").show();
+		
+		if($(this).parent().parent().find(".postFeatures_hidden").css("background-color") == bgcolor)
+		{
+			$(this).parent().parent().find(".container").hide();
+			$(this).parent().parent().find(".postFeatures_hidden").show();
+		}
+		else
+		{
+			var idFileEnriched = $(this).parent().attr("id");
+			var idFile = idFileEnriched.split("_")[0];
+			var idPost = $(this).parent().parent().find(".container").find(".wrapper").find(".postHeader").find(".userPostHeader").find(".idPost").text();
+			var height = $(this).parent().parent().find(".wrapper").height();
 
-		var that = $(this);
+			$(this).parent().parent().find(".container").hide();
 
-		$.getJSON( "http://10.80.28.153:5000/getPostFeatures?callback=?", { "idFile": idFile, "idPost":idPost} ,function( data ) {
-			var stringVal = "";
-			for(var i in data)
-			{
-				stringVal+= data[i][0] + " " + data[i][1]+"<br/>";
-			}
-			that.parent().parent().find(".postFeatures_hidden").html(stringVal);
-		});
+			$(this).parent().parent().find(".postFeatures_hidden").height(height);
+
+			var bgcolor = $(this).css("background-color");
+			$(this).parent().parent().find(".postFeatures_hidden").css("background-color", bgcolor)
+			$(this).parent().parent().find(".postFeatures_hidden").show();
+
+			var that = $(this);
+
+			$.getJSON( "http://10.80.28.153:5000/getPostFeatures?callback=?", { "idFile": idFile, "idPost":idPost} ,function( data ) {
+				var stringVal = "";
+				for(var i in data)
+				{
+					stringVal+= data[i][0] + " " + data[i][1]+"<br/>";
+				}
+				that.parent().parent().find(".postFeatures_hidden").html(stringVal);
+			});
+		}
+		
 	});
 
 
@@ -211,31 +221,49 @@ $( document ).ready(function() {
 		
 		//$(".topDivs").hide();
 
-		if($("#showUserRelevance").text() == "Show User Relevance")
+		if ($.trim($("#userRelevance").html()))
 		{
-			$("#showUserRelevance").text("Clear User Relevance");
-			var idFile = $("#threadId").attr("class");
-		
-			$.getJSON( "http://10.80.28.153:5000/getUserRelevance?callback=?", { "idFile": idFile} ,function( data ) {
-				
-				var stringRel = "";
-				for(i=0;i<data.length;i++)
-				{
-					var userName = data[i][0];
-					var relevance = data[i][1];
-					stringRel+=userName+" -> "+relevance.toFixed(2) + "<br/>";
-				}
-				$("#userRelevance").html(stringRel);
+			if($("#showUserRelevance").text() == "Show User Relevance")
+			{
+				$("#showUserRelevance").text("Clear User Relevance");
 				$("#userRelevance").show();
-			});
-			
+			}
+			else
+			{
+				$("#showUserRelevance").text("Show User Relevance");
+				$("#userRelevance").hide();
+			}
 		}
 		else
 		{
-			$("#showUserRelevance").text("Show User Relevance");
-			$("#userRelevance").hide();
+			if($("#showUserRelevance").text() == "Show User Relevance")
+			{
+				$("#showUserRelevance").text("Clear User Relevance");
+				var idFile = $("#threadId").attr("class");
+			
+				$.getJSON( "http://10.80.28.153:5000/getUserRelevance?callback=?", { "idFile": idFile} ,function( data ) {
+					
+					var stringRel = "";
+					for(i=0;i<data.length;i++)
+					{
+						var userName = data[i][0];
+						var relevance = data[i][1];
+						stringRel+=userName+" -> "+relevance.toFixed(2) + "<br/>";
+					}
+					$("#userRelevance").html(stringRel);
+					$("#userRelevance").show();
+				});
+			
+			}
+			else
+			{
+				$("#showUserRelevance").text("Show User Relevance");
+				$("#userRelevance").hide();
+			}
+
 		}
 
+		
 
 	});
 
@@ -285,33 +313,94 @@ $( document ).ready(function() {
 
 	$( "#showRelevantConcepts" ).click(function() {
 		//$(".topDivs").hide();
-		if($("#showRelevantConcepts").text() == "Show Relevant Concepts")
+
+		if ($.trim($("#relevantConcepts").html()))
 		{
-			$("#showRelevantConcepts").text("Clear Relevant Concepts");
-			var idFile = $("#threadId").attr("class");
-		
-			$.getJSON( "http://10.80.28.153:5000/getRelevantConcepts?callback=?", { "idFile": idFile} ,function( data ) {
-				
-				var stringConcepts = "";
-				for(i=0;i<data.length;i++)
-				{
-					stringConcepts += " ["+data[i]+"]<br/>";
-				}
-				$("#relevantConcepts").html(stringConcepts);
+			if($("#showRelevantConcepts").text() == "Show User Relevance")
+			{
+				$("#showRelevantConcepts").text("Clear User Relevance");
 				$("#relevantConcepts").show();
-			});
-			
+			}
+			else
+			{
+				$("#showRelevantConcepts").text("Show User Relevance");
+				$("#relevantConcepts").hide();
+			}
 		}
 		else
 		{
-			$("#showRelevantConcepts").text("Show Relevant Concepts");
-			$("#relevantConcepts").hide();
+			if($("#showRelevantConcepts").text() == "Show Relevant Concepts")
+			{
+				$("#showRelevantConcepts").text("Clear Relevant Concepts");
+				var idFile = $("#threadId").attr("class");
+			
+				$.getJSON( "http://10.80.28.153:5000/getRelevantConcepts?callback=?", { "idFile": idFile} ,function( data ) {
+					
+					var stringConcepts = "";
+					for(i=0;i<data.length;i++)
+					{
+						stringConcepts += " ["+data[i]+"]<br/>";
+					}
+					$("#relevantConcepts").html(stringConcepts);
+					$("#relevantConcepts").show();
+				});
+				
+			}
+			else
+			{
+				$("#showRelevantConcepts").text("Show Relevant Concepts");
+				$("#relevantConcepts").hide();
+			}
 		}
+		
 
 
 	});
 	$( "#showUserRoles" ).click(function() {
-		alert("NOT IMPLEMENTED");
+
+		if ($.trim($("#userRoles").html()))
+		{
+			if($("#showUserRoles").text() == "Show User Roles")
+			{
+				$("#showUserRoles").text("Clear User Roles");
+				$("#userRoles").show();
+			}
+			else
+			{
+				$("#showUserRoles").text("Show User Roles");
+				$("#userRoles").hide();
+			}
+		}
+		else
+		{
+			if($("#showUserRoles").text() == "Show User Roles")
+			{
+				$("#showUserRoles").text("Clear User Roles");
+				var idFile = $("#threadId").attr("class");
+				$("#userRoles").show();
+				/*
+				$.getJSON( "http://10.80.28.153:5000/getUserRoles?callback=?", { "idFile": idFile} ,function( data ) {
+					
+					var stringRel = "";
+					for(i=0;i<data.length;i++)
+					{
+						var userName = data[i][0];
+						var role = data[i][1];
+						stringRel+=userName+" -> "+role + "<br/>";
+					}
+					$("#userRoles").html(stringRel);
+					$("#userRoles").show();
+				});*/
+			
+			}
+			else
+			{
+				$("#showUserRoles").text("Show User Roles");
+				$("#userRoles").hide();
+			}
+
+		}
+
 	});
 	$( "#showThreadFeatures" ).click(function() {
 		alert("NOT IMPLEMENTED");

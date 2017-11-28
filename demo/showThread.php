@@ -10,10 +10,9 @@
 			<button id='showRelevantConcepts' type='button' class='topButton btn btn-success'>Show Relevant Concepts</button>
 			<button id='showThreadFeatures' type='button' class='topButton btn btn-black'>Show Thread Features</button>
 		</div>
-		<div class="topDivs" id="userRelevance" class="col-md-12">
-		</div>
-		<div class="topDivs" id="relevantConcepts" class="col-md-12">
-		</div>
+		<div class="topDivs" id="userRelevance" class="col-md-12"></div>
+		<div class="topDivs" id="userRoles" class="col-md-12"></div>
+		<div class="topDivs" id="relevantConcepts" class="col-md-12"></div>
 
 
 

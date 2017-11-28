@@ -32,6 +32,19 @@ img#loading{
 	overflow: auto;
 	overflow-x: none;
 }
+
+#userRoles{
+	border:solid 2px black;
+	display:none;
+	padding:35px;
+	margin-top:20px;
+	background-color: #611BBD;
+	height:25%;
+	font-size:18px;
+	text-align: center;
+	overflow: auto;
+	overflow-x: none;
+}
 .datePostHeader{
 	text-align: right;
 }
