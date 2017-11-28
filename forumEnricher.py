@@ -7,6 +7,7 @@ from pprint import pprint
 from collections import Counter
 import nltk
 from string import punctuation
+import numpy as np
 
 '''
 	Classes
@@ -35,11 +36,14 @@ class ForumThread:
 			for line in f:
 				self.jsonObj.append(json.loads(line))
 
+		postLength = []
+
 		for jsonArray in self.jsonObj:
 			for position, jsonElem in enumerate(jsonArray):
 				userName = str(jsonElem["user"]).lower()
 				fp = ForumPost(jsonElem, position)
 				self.postList.append(fp)
+				postLength.append(len(jsonElem["post"]))
 				self.userSet.add(userName)
 
 				if userName not in self.userDict:
@@ -52,6 +56,12 @@ class ForumThread:
 				self.userDict[userName]["posts"].append(fp)
 				if jsonElem["citation"]:
 					self.userDict[userName]["nPostsWithCitations"]+=1
+
+		sortedLengths = sorted(postLength, reverse=True)
+		for post in self.postList:
+			post.lengths = sortedLengths
+			post.setUserMentions(self.userSet)
+			post.roleFeatures()
 
 		self.getCoreferencesPerUser()
 		self.getLinkedEntitiesPerUser()
@@ -100,7 +110,6 @@ class ForumThread:
 			totalEntities = 0
 			nWith = 0
 			for post in self.userDict[user]["posts"]:
-				post.setUserMentions(self.userSet)
 				entitiesPost = 0
 				for entity in self.commonEntities:
 					cnt = post.text.count(entity)
@@ -212,27 +221,30 @@ class ForumPost:
 		self.userMentions = []
 		self.features = []
 		self.extractPostFeatures()
-		
+		self.lengths = []
 
 	def setUserMentions(self, userSet):
 		for word in self.iNAF.words:
+			word = word.lower().replace("@","")
 			if word in userSet:
 				self.userMentions.append(word)
+
+		self.addMentionFeature()
 		
 	def extractPostFeatures(self):
 		self.simpleFeatures()
 		self.posFeatures()
 		self.punctuationFeatures()
 		self.questionFeatures()
-		self.roleFeatures()
+
+	def addMentionFeature(self):
+		if self.userMentions:
+			self.features.append(("MentionedUsers"," , ".join(self.userMentions)))
 
 	def simpleFeatures(self):
 		if self.citation:
 			self.features.append(("ContainsCitation",True))
 			self.features.append(("CitationLength",len(self.citation)))
-
-		if self.userMentions:
-			self.features.append(("MentionedUsers",self.users))
 
 		nChars = len(self.text)
 		self.features.append(("nChars",nChars))
@@ -290,10 +302,27 @@ class ForumPost:
 	def questionFeatures(self):
 		if "?" in self.text:
 			self.features.append(("ContainsQuestion",True))
- 
 
 	def roleFeatures(self):
-		pass
+		if self.citation and "?" in self.citation:
+			self.features.append(("isAnswer",True))
+		elif self.citation and "?" not in self.citation:
+			self.features.append(("isComment",True))
+
+		position = self.lengths.index(len(self.text))
+		size = "unknonwn"
+
+		if position == 0:
+			size = "Longest"
+		elif position > 0 and position < len(self.lengths) / 5:
+			size = "Long"
+		elif position >= len(self.lengths) / 5 and position < len(self.lengths) / 2.5:
+			size = "Medium"
+		elif position >= len(self.lengths) / 2.5:
+			size = "Short"
+
+		self.features.append(("Size",size))
+
 
 
 if __name__ == '__main__':

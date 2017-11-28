@@ -12,6 +12,9 @@ import codecs
 
 app = Flask(__name__)
 
+dictInstances = {}
+
+
 @app.route('/getEntityInfo', methods=['GET'])
 def getEntityInfo():
     fname = request.args.get('idFileEnriched')
@@ -44,7 +47,14 @@ def getPostRelevance():
     idJson = request.args.get('idFile')
     
     path = "/home/joan/Escritorio/Datasets/forumData/json/" + idJson
-    iF = ForumThread(path)
+    
+    if path in dictInstances:
+        iF = dictInstances[path]
+    else:
+        iF = ForumThread(path)
+        dictInstances[path] = iF
+    
+
     postRelevance = iF.getPostsRelevance()
     print postRelevance
     data = jsonpify(postRelevance)
@@ -57,7 +67,12 @@ def getUserRelevance():
     idJson = request.args.get('idFile')
     
     path = "/home/joan/Escritorio/Datasets/forumData/json/" + idJson
-    iF = ForumThread(path)
+    if path in dictInstances:
+        iF = dictInstances[path]
+    else:
+        iF = ForumThread(path)
+        dictInstances[path] = iF
+
     userRelevance = iF.getUsersRelevance()
     print userRelevance
     data = jsonpify(userRelevance)
@@ -67,7 +82,11 @@ def getUserRelevance():
 def getRelevantConcepts():
     idJson = request.args.get('idFile')
     path = "/home/joan/Escritorio/Datasets/forumData/json/" + idJson
-    iF = ForumThread(path)
+    if path in dictInstances:
+        iF = dictInstances[path]
+    else:
+        iF = ForumThread(path)
+        dictInstances[path] = iF
     relevantConcepts = list(iF.commonEntities)
     print relevantConcepts
     data = jsonpify(relevantConcepts)
@@ -89,17 +108,17 @@ def getLinkedEntities():
 @app.route('/getPostFeatures', methods=['GET'])
 def getPostFeatures():
     dirEnriched = request.args.get('idFile')
-    idPost = request.args.get('idPost')
+    idPost = int(request.args.get('idPost'))
     path = "/home/joan/Escritorio/Datasets/forumData/json/" + dirEnriched
     
-    jsonObj = []
-    with codecs.open(path,'rU','utf-8') as f:
-        for line in f:
-            jsonObj.append(json.loads(line))
+    if path in dictInstances:
+        iF = dictInstances[path]
+    else:
+        iF = ForumThread(path)
+        dictInstances[path] = iF   
     
-    jsonElem = jsonObj[0][int(idPost)]
-    iF = ForumPost(jsonElem, idPost)
-    features = iF.features
+    iFp = iF.postList[idPost]
+    features = iFp.features
     print features
     data = jsonpify(features)
     return data
