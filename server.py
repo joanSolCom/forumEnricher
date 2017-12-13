@@ -20,7 +20,7 @@ def getEntityInfo():
     fname = request.args.get('idFileEnriched')
     dirEnriched = request.args.get('idFile')
     
-    path = "/home/joan/Escritorio/Datasets/forumData/enriched/" + dirEnriched +"/"+ fname
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/enriched/" + dirEnriched +"/"+ fname
     iNAF = NAFReader(path)
 
     tokenDict = iNAF.getRelevantEntities()
@@ -34,7 +34,7 @@ def getCoreferenceInfo():
     fname = request.args.get('idFileEnriched')
     dirEnriched = request.args.get('idFile')
     
-    path = "/home/joan/Escritorio/Datasets/forumData/enriched/" + dirEnriched +"/"+ fname
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/enriched/" + dirEnriched +"/"+ fname
     iNAF = NAFReader(path)
 
     coreferenceChains = iNAF.getCoreferences()
@@ -46,7 +46,7 @@ def getCoreferenceInfo():
 def getPostRelevance():
     idJson = request.args.get('idFile')
     
-    path = "/home/joan/Escritorio/Datasets/forumData/json/" + idJson
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/json/" + idJson
     
     if path in dictInstances:
         iF = dictInstances[path]
@@ -66,7 +66,7 @@ def getPostRelevance():
 def getUserRelevance():
     idJson = request.args.get('idFile')
     
-    path = "/home/joan/Escritorio/Datasets/forumData/json/" + idJson
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/json/" + idJson
     if path in dictInstances:
         iF = dictInstances[path]
     else:
@@ -81,12 +81,13 @@ def getUserRelevance():
 @app.route('/getRelevantConcepts', methods=['GET'])
 def getRelevantConcepts():
     idJson = request.args.get('idFile')
-    path = "/home/joan/Escritorio/Datasets/forumData/json/" + idJson
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/json/" + idJson
     if path in dictInstances:
         iF = dictInstances[path]
     else:
         iF = ForumThread(path)
         dictInstances[path] = iF
+    
     relevantConcepts = list(iF.commonEntities)
     print relevantConcepts
     data = jsonpify(relevantConcepts)
@@ -97,7 +98,7 @@ def getLinkedEntities():
     fname = request.args.get('idFileEnriched')
     dirEnriched = request.args.get('idFile')
     
-    path = "/home/joan/Escritorio/Datasets/forumData/enriched/" + dirEnriched +"/"+ fname
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/enriched/" + dirEnriched +"/"+ fname
     iNAF = NAFReader(path)
 
     LEs = iNAF.getLEs()
@@ -109,14 +110,14 @@ def getLinkedEntities():
 def getPostFeatures():
     dirEnriched = request.args.get('idFile')
     idPost = int(request.args.get('idPost'))
-    path = "/home/joan/Escritorio/Datasets/forumData/json/" + dirEnriched
-    
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/json/" + dirEnriched
     if path in dictInstances:
         iF = dictInstances[path]
     else:
         iF = ForumThread(path)
         dictInstances[path] = iF   
     
+    print len(iF.postList)
     iFp = iF.postList[idPost]
     features = iFp.features
     print features
@@ -127,7 +128,7 @@ def getPostFeatures():
 def getSentences():
     fname = request.args.get('idFileEnriched')
     dirEnriched = request.args.get('idFile')
-    path = "/home/joan/Escritorio/Datasets/forumData/enriched/" + dirEnriched +"/"+ fname
+    path = "/home/joan/repository/forumEnricher/demo/forumEnricher/enriched/" + dirEnriched +"/"+ fname
     iNAF = NAFReader(path)
     sentences = iNAF.sentences
     print sentences
@@ -140,7 +141,7 @@ if __name__ == '__main__':
     app.debug = True
     app.config['PROPAGATE_EXCEPTIONS'] = True
 
-    LOG_FILEPATH = "/home/joan/repository/PhD/FLASKVersion/logs/log.txt"
+    LOG_FILEPATH = "log.txt"
 
     formatter = Formatter("[%(asctime)s]\t%(message)s")
     handler = RotatingFileHandler(LOG_FILEPATH, maxBytes=10000000, backupCount=1)

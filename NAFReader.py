@@ -15,6 +15,11 @@ class NAFReader:
 		self.coreferenceChains = []
 		self.linkedEntities = []
 		self.words = []
+		self.sentences = []
+		self.pos = []
+		self.heights = []
+		self.productionList = []
+		self.nSubtrees = []
 
 		xpathWords = "//text/wf"
 		xpathTerms = "//terms/term"
@@ -23,8 +28,10 @@ class NAFReader:
 		xpathLinkedEntities = "//linkedEntities/linkedEntity"
 		xpathConstituencies = "//constituencyStrings/tree/text()"
 
-
-		tree = etree.parse(path)
+		try:
+			tree = etree.parse(path)
+		except:
+			return
 
 		words = tree.xpath(xpathWords)
 		for word in words:
@@ -119,11 +126,7 @@ class NAFReader:
 		self.extractConstData(constStrings)
 
 	def extractConstData(self, constStrings):
-		self.sentences = []
-		self.pos = []
-		self.heights = []
-		self.productionList = []
-		self.nSubtrees = []
+		
 
 		for constString in constStrings:
 			tree = Tree.fromstring(constString)
@@ -204,15 +207,19 @@ class NAFReader:
 
 				listEntityTokens.append(entityString.strip().lower())
 
+		#agafar coreferencies de 1 o 2 tokens
+		
 		setEntityTokens = set(listEntityTokens)
-		setRelWords = set(self.getRelevantWords())
+		setRelWords = set()
+		if self.pos:
+			setRelWords = set(self.getRelevantWords())
 
 		superList = list(setEntityTokens | setRelWords)
 		pos_tagged = nltk.pos_tag(superList)
 
 		finalList = set()
 		for word, tag in pos_tagged:
-			if not tag.startswith("P") and not tag.startswith("W") and not tag.startswith("R") and not tag.startswith("C"):
+			if not tag.startswith("P") and not tag.startswith("W") and not tag.startswith("R") and not tag.startswith("C") and not tag.startswith("D") and not tag.startswith("I"):
 				finalList.add(word)
 
 		return list(finalList)

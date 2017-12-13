@@ -1,5 +1,4 @@
 from __future__ import division
-from FREDReader import FREDReader
 from NAFReader import NAFReader
 import json
 import codecs
@@ -40,22 +39,28 @@ class ForumThread:
 
 		for jsonArray in self.jsonObj:
 			for position, jsonElem in enumerate(jsonArray):
-				userName = str(jsonElem["user"]).lower()
-				fp = ForumPost(jsonElem, position)
-				self.postList.append(fp)
-				postLength.append(len(jsonElem["post"]))
-				self.userSet.add(userName)
+				userName = str(jsonElem["user"].encode("utf-8")).lower()
+				try:
+					fp = ForumPost(jsonElem, position)
+				except:
+					print "WTF"
+					continue
+					
+				if fp:
+					self.postList.append(fp)
+					postLength.append(len(jsonElem["post"]))
+					self.userSet.add(userName)
 
-				if userName not in self.userDict:
-					self.userDict[userName] = {}
-					self.userDict[userName]["nPosts"] = 0
-					self.userDict[userName]["nPostsWithCitations"] = 0
-					self.userDict[userName]["posts"] = []
+					if userName not in self.userDict:
+						self.userDict[userName] = {}
+						self.userDict[userName]["nPosts"] = 0
+						self.userDict[userName]["nPostsWithCitations"] = 0
+						self.userDict[userName]["posts"] = []
 
-				self.userDict[userName]["nPosts"]+=1
-				self.userDict[userName]["posts"].append(fp)
-				if jsonElem["citation"]:
-					self.userDict[userName]["nPostsWithCitations"]+=1
+					self.userDict[userName]["nPosts"]+=1
+					self.userDict[userName]["posts"].append(fp)
+					if jsonElem["citation"]:
+						self.userDict[userName]["nPostsWithCitations"]+=1
 
 		sortedLengths = sorted(postLength, reverse=True)
 		for post in self.postList:
@@ -94,7 +99,7 @@ class ForumThread:
 
 		finalSet = set()
 		for word, tag in pos_tagged:
-			if not tag.startswith("P") and not tag.startswith("W") and not tag.startswith("R") and not tag.startswith("C"):
+			if not tag.startswith("P") and not tag.startswith("W") and not tag.startswith("R") and not tag.startswith("C") and not tag.startswith("D") and not tag.startswith("I"):
 				finalSet.add(word)
 
 
@@ -109,12 +114,16 @@ class ForumThread:
 			#print "======== "+user+" =========="
 			totalEntities = 0
 			nWith = 0
+			self.userDict[user]["entities"] = []
+
 			for post in self.userDict[user]["posts"]:
 				entitiesPost = 0
 				for entity in self.commonEntities:
 					cnt = post.text.count(entity)
 					entitiesPost+=cnt
 					totalEntities+=cnt
+					if cnt > 0:
+						self.userDict[user]["entities"].append(entity)
 
 				userMentions = len(post.userMentions)
 				citationExtra=0
@@ -208,8 +217,13 @@ class ForumThread:
 class ForumPost:
 
 	def __init__(self, jsonElem, position):
-		pathBase = "/home/joan/Escritorio/Datasets/forumData/enriched/"
-		self.iNAF = NAFReader(pathBase+ jsonElem["idFile"]+"/"+jsonElem["idFileEnriched"])
+		pathBase = "/home/joan/repository/forumEnricher/demo/forumEnricher/enriched/"
+		try:
+			self.iNAF = NAFReader(pathBase+ jsonElem["idFile"]+"/"+jsonElem["idFileEnriched"])
+		except:
+			raise ValueError("ERROR")
+			return
+
 		self.text = jsonElem["post"].lower()
 		self.user = jsonElem["user"]
 		self.date = jsonElem["date"]
